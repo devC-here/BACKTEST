@@ -1,0 +1,136 @@
+{
+  "manifest_version": "1.0.0",
+  "timestamp_utc": "2026-11-10T18:17:06.668764+00:00",
+  "certification_status": "NON_CERTIFIED",
+  "strategy": {
+    "name": "eurgbp_disc108_macro_asymmetric_runner_elite",
+    "filename": "strategy.py",
+    "code_sha256": "d7c47ffa99023e86b0ad067745ba786839c1490f2db47604e74e051949ee3a06"
+  },
+  "engine": {
+    "version": "tick_engine_v1.0",
+    "engine_code_sha256": "bb2bd29a622b7f60bd29b360d27aab6377446e7eb84321c296194418628c3e5d",
+    "loader_code_sha256": "c73bd4710e36590ad36d00b8a32516245c512a452880061b9b782fb7447a77cc",
+    "order_timing_contract": "Strict Bar-Close Subsequent-Tick Execution",
+    "timezone": "UTC"
+  },
+  "dataset": {
+    "symbol": "EURGBP",
+    "pip_size": 0.0001,
+    "split_standard": "canonical_continuous_v1.0 (In-Sample: 1..210, Holdout: 211..300)",
+    "start_week": 211,
+    "end_week": 300,
+    "data_quality_gate": "PASSED (80h min span, monotonic timestamps, ask>=bid)",
+    "warmup_ticks_causal": 100000
+  },
+  "pricing_friction": {
+    "spread_model": "Floating Raw Dukascopy Bid/Ask",
+    "commission_pips": 0.33,
+    "entry_slippage_pips": 0.2,
+    "dollar_per_lot_commission": 4.0
+  },
+  "multiple_testing": {
+    "candidates_screened": 30,
+    "bonferroni_adjusted_significance": false
+  },
+  "statistical_metrics": {
+    "total_trades": 3,
+    "net_pips": 0.1,
+    "win_rate_pct": 33.3,
+    "profit_factor": 1.01,
+    "expectancy_pips": 0.04,
+    "expectancy_std_err": 9.85,
+    "expectancy_ci_95": [
+      -19.27,
+      19.35
+    ],
+    "t_statistic": 0.0,
+    "p_value": 1.0,
+    "bonferroni_p_threshold": 0.00167,
+    "is_statistically_significant": false,
+    "max_drawdown_pips": 19.6,
+    "worst_month_pips": -11.2,
+    "bootstrap_95_max_dd_pips": 22.5,
+    "outlier_sensitivity": {
+      "pips_ex_top1": -19.6,
+      "pips_ex_top3": 0.1,
+      "pips_ex_top5": 0.1,
+      "is_outlier_dependent": false
+    }
+  },
+  "trade_log": [
+    {
+      "signal_time": 1740406501812,
+      "entry_time": 1740406504781,
+      "latency_ms": 2969,
+      "exit_time": 1740496321818,
+      "signal_utc": "2025-02-24 14:15:01.812000",
+      "entry_utc": "2025-02-24 14:15:04.781000",
+      "exit_utc": "2025-02-25 15:12:01.818000",
+      "direction": 1,
+      "entry_price": 0.82796,
+      "exit_price": 0.82996,
+      "pips": 19.67,
+      "exit_reason": 2
+    },
+    {
+      "signal_time": 1759392000071,
+      "entry_time": 1759392000174,
+      "latency_ms": 103,
+      "exit_time": 1759401378983,
+      "signal_utc": "2025-10-02 08:00:00.071000",
+      "entry_utc": "2025-10-02 08:00:00.174000",
+      "exit_utc": "2025-10-02 10:36:18.983000",
+      "direction": -1,
+      "entry_price": 0.87067,
+      "exit_price": 0.87147,
+      "pips": -8.33,
+      "exit_reason": 1
+    },
+    {
+      "signal_time": 1764691200104,
+      "entry_time": 1764691200208,
+      "latency_ms": 104,
+      "exit_time": 1764752400067,
+      "signal_utc": "2025-12-02 16:00:00.104000",
+      "entry_utc": "2025-12-02 16:00:00.208000",
+      "exit_utc": "2025-12-03 09:00:00.067000",
+      "direction": 1,
+      "entry_price": 0.87923,
+      "exit_price": 0.87814,
+      "pips": -11.23,
+      "exit_reason": 1
+    }
+  ],
+  "custom_metadata": {
+    "discovery_in_sample_metrics": {
+      "total_trades": 68,
+      "net_pips": 324.6,
+      "win_rate_pct": 47.1,
+      "profit_factor": 2.11,
+      "expectancy_pips": 4.77,
+      "expectancy_std_err": 1.69,
+      "expectancy_ci_95": [
+        1.46,
+        8.09
+      ],
+      "t_statistic": 2.82,
+      "p_value": 0.0048,
+      "bonferroni_p_threshold": 0.00167,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 34.4,
+      "worst_month_pips": -25.2,
+      "bootstrap_95_max_dd_pips": 89.5,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 304.6,
+        "pips_ex_top3": 264.6,
+        "pips_ex_top5": 224.9,
+        "is_outlier_dependent": false
+      }
+    },
+    "evaluation_time_seconds": 29.68,
+    "clean_weeks_holdout": 70,
+    "clean_weeks_discovery": 198,
+    "combined_net_pips": 324.7
+  }
+}

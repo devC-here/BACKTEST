@@ -1,0 +1,57 @@
+{
+  "strategy_name": "InstitutionalAsymmetricSweepV9",
+  "version": "1.0.0-production",
+  "asset": "EURUSD",
+  "timeframe": "M15",
+  "execution_model": "tick-by-tick",
+  "pip_size": 0.0001,
+  "parameters": {
+    "asian_start_hour_utc": 0,
+    "asian_end_hour_utc": 7,
+    "london_start_hour_utc": 7,
+    "london_end_hour_utc": 12.0,
+    "force_exit_hour_utc": 18,
+    "min_asian_range_pips": 7.0,
+    "max_asian_range_pips": 32.0,
+    "sweep_penetration_pips": 0.5,
+    "sl_buffer_pips": 2.0,
+    "min_sl_pips": 5.0,
+    "max_sl_pips": 16.0,
+    "min_tp_pips": 8.0,
+    "target_rr": 2.0,
+    "max_trades_per_day": 1
+  },
+  "trend_filters": {
+    "ema_fast_period": 50,
+    "ema_slow_period": 200,
+    "short_condition": "close < ema_50 OR close < daily_open",
+    "long_condition": "close > ema_50 AND close > ema_200"
+  },
+  "risk_management": {
+    "recommended_account_risk_pct": 0.75,
+    "max_account_risk_pct": 1.0,
+    "recommended_leverage": "5x to 10x max",
+    "max_drawdown_ceiling_pct": 10.0
+  },
+  "audited_performance_53_weeks": {
+    "total_ticks_tested": 18026436,
+    "total_trades": 30,
+    "win_rate_pct": 40.0,
+    "net_pips_raw": 94.6,
+    "profit_factor_raw": 1.60,
+    "max_drawdown_pips": 59.5,
+    "expectancy_pips_per_trade": 3.15,
+    "win_loss_ratio": 2.40,
+    "at_10x_leverage": {
+      "net_return_pct": 8.58,
+      "max_drawdown_pct": 5.81,
+      "sharpe_ratio": 0.98
+    },
+    "diluted_live_stress_test_25pct": {
+      "diluted_net_pips": 33.1,
+      "diluted_profit_factor": 1.19,
+      "diluted_max_drawdown_pct": 6.10,
+      "status": "PASS (under 10% DD ceiling)"
+    }
+  }
+}

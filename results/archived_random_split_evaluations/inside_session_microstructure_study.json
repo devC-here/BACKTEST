@@ -1,0 +1,15 @@
+{
+  "total_asia_swings": 2916,
+  "asia_false_break_rate": 50.78875171467764,
+  "asia_continuation_rate": 49.21124828532236,
+  "asia_median_reversion_bars": 10.0,
+  "london_open_days": 246,
+  "london_judas_rate": 23.983739837398375,
+  "london_ignition_rate": 37.39837398373984,
+  "median_pullback_pips": 7.049999999999557,
+  "median_pullback_pct": 56.65024630540621,
+  "ny_london_sweep_rate": 35.68075117370892,
+  "ny_london_breakout_rate": 64.31924882629107,
+  "m1_burst_absorption_rate": 51.75655146221041,
+  "m1_burst_continuation_rate": 48.2434485377896
+}

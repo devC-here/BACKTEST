@@ -1,0 +1,222 @@
+{
+  "zone_summaries": {
+    "ZONE_1_VOLATILITY_SQUEEZE": {
+      "name": "Zone 1: Volatility Squeeze Breakout",
+      "events": 407,
+      "avg_mfe": 15.95,
+      "avg_mae": 14.67,
+      "ratio": 1.09,
+      "win_rate": 46.9
+    },
+    "ZONE_2_TREND_PULLBACK": {
+      "name": "Zone 2: 20-EMA Pullback (ADX >= 22)",
+      "events": 1060,
+      "avg_mfe": 20.2,
+      "avg_mae": 19.37,
+      "ratio": 1.04,
+      "win_rate": 45.8
+    },
+    "ZONE_3_SESSION_EXTREME_FADE": {
+      "name": "Zone 3: Extreme Fade (RSI Exhaustion)",
+      "events": 354,
+      "avg_mfe": 18.36,
+      "avg_mae": 18.83,
+      "ratio": 0.97,
+      "win_rate": 44.6
+    }
+  },
+  "hourly_breakdown": {
+    "0": {
+      "squeeze_ratio": 1.15,
+      "pullback_ratio": 1.27,
+      "fade_ratio": 0.92,
+      "n1": 98,
+      "n2": 33,
+      "n3": 11
+    },
+    "1": {
+      "squeeze_ratio": 0.84,
+      "pullback_ratio": 1.15,
+      "fade_ratio": 0.88,
+      "n1": 48,
+      "n2": 27,
+      "n3": 11
+    },
+    "2": {
+      "squeeze_ratio": 0.8,
+      "pullback_ratio": 1.83,
+      "fade_ratio": 1.1,
+      "n1": 24,
+      "n2": 28,
+      "n3": 8
+    },
+    "3": {
+      "squeeze_ratio": 0.87,
+      "pullback_ratio": 1.41,
+      "fade_ratio": 0.0,
+      "n1": 12,
+      "n2": 25,
+      "n3": 0
+    },
+    "4": {
+      "squeeze_ratio": 1.21,
+      "pullback_ratio": 2.18,
+      "fade_ratio": 1.61,
+      "n1": 18,
+      "n2": 18,
+      "n3": 8
+    },
+    "5": {
+      "squeeze_ratio": 0.71,
+      "pullback_ratio": 1.23,
+      "fade_ratio": 1.29,
+      "n1": 20,
+      "n2": 31,
+      "n3": 14
+    },
+    "6": {
+      "squeeze_ratio": 0.76,
+      "pullback_ratio": 0.69,
+      "fade_ratio": 0.61,
+      "n1": 35,
+      "n2": 49,
+      "n3": 10
+    },
+    "7": {
+      "squeeze_ratio": 0.86,
+      "pullback_ratio": 0.87,
+      "fade_ratio": 1.35,
+      "n1": 38,
+      "n2": 89,
+      "n3": 28
+    },
+    "8": {
+      "squeeze_ratio": 1.1,
+      "pullback_ratio": 1.05,
+      "fade_ratio": 1.13,
+      "n1": 36,
+      "n2": 76,
+      "n3": 21
+    },
+    "9": {
+      "squeeze_ratio": 2.11,
+      "pullback_ratio": 1.33,
+      "fade_ratio": 0.78,
+      "n1": 5,
+      "n2": 46,
+      "n3": 25
+    },
+    "10": {
+      "squeeze_ratio": 0.0,
+      "pullback_ratio": 0.82,
+      "fade_ratio": 1.22,
+      "n1": 0,
+      "n2": 61,
+      "n3": 22
+    },
+    "11": {
+      "squeeze_ratio": 0.0,
+      "pullback_ratio": 0.89,
+      "fade_ratio": 0.8,
+      "n1": 0,
+      "n2": 65,
+      "n3": 22
+    },
+    "12": {
+      "squeeze_ratio": 0.0,
+      "pullback_ratio": 1.23,
+      "fade_ratio": 1.1,
+      "n1": 0,
+      "n2": 89,
+      "n3": 21
+    },
+    "13": {
+      "squeeze_ratio": 3.73,
+      "pullback_ratio": 1.13,
+      "fade_ratio": 1.2,
+      "n1": 6,
+      "n2": 99,
+      "n3": 19
+    },
+    "14": {
+      "squeeze_ratio": 0.0,
+      "pullback_ratio": 0.72,
+      "fade_ratio": 0.63,
+      "n1": 0,
+      "n2": 61,
+      "n3": 22
+    },
+    "15": {
+      "squeeze_ratio": 0.0,
+      "pullback_ratio": 1.55,
+      "fade_ratio": 0.75,
+      "n1": 0,
+      "n2": 50,
+      "n3": 23
+    },
+    "16": {
+      "squeeze_ratio": 0.0,
+      "pullback_ratio": 1.13,
+      "fade_ratio": 1.05,
+      "n1": 0,
+      "n2": 32,
+      "n3": 19
+    },
+    "17": {
+      "squeeze_ratio": 0.0,
+      "pullback_ratio": 0.72,
+      "fade_ratio": 0.64,
+      "n1": 0,
+      "n2": 19,
+      "n3": 16
+    },
+    "18": {
+      "squeeze_ratio": 0.0,
+      "pullback_ratio": 1.29,
+      "fade_ratio": 0.68,
+      "n1": 0,
+      "n2": 31,
+      "n3": 15
+    },
+    "19": {
+      "squeeze_ratio": 0.0,
+      "pullback_ratio": 1.07,
+      "fade_ratio": 0.94,
+      "n1": 0,
+      "n2": 33,
+      "n3": 14
+    },
+    "20": {
+      "squeeze_ratio": 0.0,
+      "pullback_ratio": 1.05,
+      "fade_ratio": 1.29,
+      "n1": 0,
+      "n2": 22,
+      "n3": 12
+    },
+    "21": {
+      "squeeze_ratio": 0.0,
+      "pullback_ratio": 1.08,
+      "fade_ratio": 0.81,
+      "n1": 0,
+      "n2": 13,
+      "n3": 5
+    },
+    "22": {
+      "squeeze_ratio": 2.82,
+      "pullback_ratio": 0.74,
+      "fade_ratio": 0.0,
+      "n1": 15,
+      "n2": 27,
+      "n3": 0
+    },
+    "23": {
+      "squeeze_ratio": 1.51,
+      "pullback_ratio": 0.74,
+      "fade_ratio": 0.0,
+      "n1": 40,
+      "n2": 36,
+      "n3": 0
+    }
+  }
+}

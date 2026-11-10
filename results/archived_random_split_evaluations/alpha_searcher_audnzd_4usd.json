@@ -1,0 +1,314 @@
+{
+  "symbol": "AUDNZD",
+  "dollar_per_lot": 4.0,
+  "use_broker_spread": true,
+  "broker_spread_pips": 1.6,
+  "friction_commission_pips": 0.72,
+  "friction_slippage_pips": 0.05,
+  "total_friction_pips": 0.77,
+  "qualified_discovery_count": 15,
+  "dual_certified_holdout_count": 0,
+  "discovery_candidates": [
+    {
+      "name": "H4Retest_LB10_D10_W0.35_SL14_TP32",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDNZD",
+        "lb": 10,
+        "dist": 9.6,
+        "wick": 0.35,
+        "sl": 14.4,
+        "tp": 32.0,
+        "name": "H4Retest_LB10_D10_W0.35_SL14_TP32"
+      },
+      "disc_trades": 29,
+      "ann_trades": 28.5,
+      "disc_net_pips": 109.4,
+      "ann_pips": 107.3,
+      "win_rate": 44.8,
+      "profit_factor": 1.48
+    },
+    {
+      "name": "H4Retest_LB10_D10_W0.40_SL14_TP32",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDNZD",
+        "lb": 10,
+        "dist": 9.6,
+        "wick": 0.4,
+        "sl": 14.4,
+        "tp": 32.0,
+        "name": "H4Retest_LB10_D10_W0.40_SL14_TP32"
+      },
+      "disc_trades": 27,
+      "ann_trades": 26.5,
+      "disc_net_pips": 93.1,
+      "ann_pips": 91.4,
+      "win_rate": 44.4,
+      "profit_factor": 1.44
+    },
+    {
+      "name": "H4Retest_LB10_D10_W0.45_SL14_TP32",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDNZD",
+        "lb": 10,
+        "dist": 9.6,
+        "wick": 0.45,
+        "sl": 14.4,
+        "tp": 32.0,
+        "name": "H4Retest_LB10_D10_W0.45_SL14_TP32"
+      },
+      "disc_trades": 26,
+      "ann_trades": 25.5,
+      "disc_net_pips": 93.1,
+      "ann_pips": 91.3,
+      "win_rate": 46.2,
+      "profit_factor": 1.44
+    },
+    {
+      "name": "H4Retest_LB10_D10_W0.35_SL13_TP28",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDNZD",
+        "lb": 10,
+        "dist": 9.6,
+        "wick": 0.35,
+        "sl": 12.8,
+        "tp": 28.0,
+        "name": "H4Retest_LB10_D10_W0.35_SL13_TP28"
+      },
+      "disc_trades": 29,
+      "ann_trades": 28.5,
+      "disc_net_pips": 69.1,
+      "ann_pips": 67.8,
+      "win_rate": 41.4,
+      "profit_factor": 1.29
+    },
+    {
+      "name": "H4Retest_LB10_D10_W0.35_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDNZD",
+        "lb": 10,
+        "dist": 9.6,
+        "wick": 0.35,
+        "sl": 12.0,
+        "tp": 24.0,
+        "name": "H4Retest_LB10_D10_W0.35_SL12_TP24"
+      },
+      "disc_trades": 29,
+      "ann_trades": 28.5,
+      "disc_net_pips": 39.6,
+      "ann_pips": 38.8,
+      "win_rate": 41.4,
+      "profit_factor": 1.18
+    },
+    {
+      "name": "H4Retest_LB10_D13_W0.45_SL14_TP32",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDNZD",
+        "lb": 10,
+        "dist": 12.8,
+        "wick": 0.45,
+        "sl": 14.4,
+        "tp": 32.0,
+        "name": "H4Retest_LB10_D13_W0.45_SL14_TP32"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 39.1,
+      "ann_pips": 38.4,
+      "win_rate": 42.4,
+      "profit_factor": 1.14
+    },
+    {
+      "name": "H4Retest_LB10_D13_W0.40_SL14_TP32",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDNZD",
+        "lb": 10,
+        "dist": 12.8,
+        "wick": 0.4,
+        "sl": 14.4,
+        "tp": 32.0,
+        "name": "H4Retest_LB10_D13_W0.40_SL14_TP32"
+      },
+      "disc_trades": 35,
+      "ann_trades": 34.3,
+      "disc_net_pips": 36.9,
+      "ann_pips": 36.2,
+      "win_rate": 40.0,
+      "profit_factor": 1.13
+    },
+    {
+      "name": "H4Retest_LB10_D10_W0.35_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDNZD",
+        "lb": 10,
+        "dist": 9.6,
+        "wick": 0.35,
+        "sl": 11.2,
+        "tp": 22.4,
+        "name": "H4Retest_LB10_D10_W0.35_SL11_TP22"
+      },
+      "disc_trades": 29,
+      "ann_trades": 28.5,
+      "disc_net_pips": 34.5,
+      "ann_pips": 33.9,
+      "win_rate": 41.4,
+      "profit_factor": 1.16
+    },
+    {
+      "name": "H4Retest_LB10_D10_W0.35_SL10_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDNZD",
+        "lb": 10,
+        "dist": 9.6,
+        "wick": 0.35,
+        "sl": 9.6,
+        "tp": 22.4,
+        "name": "H4Retest_LB10_D10_W0.35_SL10_TP22"
+      },
+      "disc_trades": 29,
+      "ann_trades": 28.5,
+      "disc_net_pips": 30.3,
+      "ann_pips": 29.7,
+      "win_rate": 34.5,
+      "profit_factor": 1.16
+    },
+    {
+      "name": "H4Retest_LB10_D10_W0.35_SL10_TP19",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDNZD",
+        "lb": 10,
+        "dist": 9.6,
+        "wick": 0.35,
+        "sl": 9.6,
+        "tp": 19.2,
+        "name": "H4Retest_LB10_D10_W0.35_SL10_TP19"
+      },
+      "disc_trades": 29,
+      "ann_trades": 28.5,
+      "disc_net_pips": 26.7,
+      "ann_pips": 26.2,
+      "win_rate": 37.9,
+      "profit_factor": 1.15
+    },
+    {
+      "name": "H4Retest_LB10_D10_W0.45_SL13_TP28",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDNZD",
+        "lb": 10,
+        "dist": 9.6,
+        "wick": 0.45,
+        "sl": 12.8,
+        "tp": 28.0,
+        "name": "H4Retest_LB10_D10_W0.45_SL13_TP28"
+      },
+      "disc_trades": 26,
+      "ann_trades": 25.5,
+      "disc_net_pips": 15.3,
+      "ann_pips": 15.0,
+      "win_rate": 38.5,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "H4Retest_LB10_D10_W0.40_SL13_TP28",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDNZD",
+        "lb": 10,
+        "dist": 9.6,
+        "wick": 0.4,
+        "sl": 12.8,
+        "tp": 28.0,
+        "name": "H4Retest_LB10_D10_W0.40_SL13_TP28"
+      },
+      "disc_trades": 27,
+      "ann_trades": 26.5,
+      "disc_net_pips": 14.5,
+      "ann_pips": 14.2,
+      "win_rate": 37.0,
+      "profit_factor": 1.06
+    },
+    {
+      "name": "NYSweep_D4.4_SL14_TP32_R10-40",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDNZD",
+        "delta": 4.4,
+        "sl": 14.4,
+        "tp": 32.0,
+        "min_rng": 9.6,
+        "max_rng": 40.0,
+        "name": "NYSweep_D4.4_SL14_TP32_R10-40"
+      },
+      "disc_trades": 32,
+      "ann_trades": 31.4,
+      "disc_net_pips": 5.6,
+      "ann_pips": 5.5,
+      "win_rate": 40.6,
+      "profit_factor": 1.02
+    },
+    {
+      "name": "H4Retest_LB10_D13_W0.45_SL13_TP28",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDNZD",
+        "lb": 10,
+        "dist": 12.8,
+        "wick": 0.45,
+        "sl": 12.8,
+        "tp": 28.0,
+        "name": "H4Retest_LB10_D13_W0.45_SL13_TP28"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 5.5,
+      "ann_pips": 5.4,
+      "win_rate": 39.4,
+      "profit_factor": 1.02
+    },
+    {
+      "name": "H4Retest_LB10_D13_W0.40_SL13_TP28",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDNZD",
+        "lb": 10,
+        "dist": 12.8,
+        "wick": 0.4,
+        "sl": 12.8,
+        "tp": 28.0,
+        "name": "H4Retest_LB10_D13_W0.40_SL13_TP28"
+      },
+      "disc_trades": 35,
+      "ann_trades": 34.3,
+      "disc_net_pips": 3.2,
+      "ann_pips": 3.2,
+      "win_rate": 37.1,
+      "profit_factor": 1.01
+    }
+  ],
+  "holdout_champions": []
+}

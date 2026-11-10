@@ -1,0 +1,77 @@
+[
+  {
+    "ltf": "M5",
+    "htf": "H1",
+    "nowhere": {
+      "total": 2854,
+      "win_rate": 36.194814295725294,
+      "expectancy": -0.09512964260686763
+    },
+    "at_level": {
+      "total": 369,
+      "win_rate": 33.33333333333333,
+      "expectancy": -0.16666666666666685
+    },
+    "edge_boost": -2.8614809623919655
+  },
+  {
+    "ltf": "M15",
+    "htf": "H1",
+    "nowhere": {
+      "total": 1423,
+      "win_rate": 36.82361208713984,
+      "expectancy": -0.07940969782150387
+    },
+    "at_level": {
+      "total": 212,
+      "win_rate": 38.20754716981132,
+      "expectancy": -0.044811320754717054
+    },
+    "edge_boost": 1.3839350826714778
+  },
+  {
+    "ltf": "M15",
+    "htf": "H2",
+    "nowhere": {
+      "total": 1507,
+      "win_rate": 36.695421366954214,
+      "expectancy": -0.08261446582614462
+    },
+    "at_level": {
+      "total": 128,
+      "win_rate": 40.625,
+      "expectancy": 0.015625
+    },
+    "edge_boost": 3.929578633045786
+  },
+  {
+    "ltf": "M30",
+    "htf": "H4",
+    "nowhere": {
+      "total": 715,
+      "win_rate": 39.72027972027972,
+      "expectancy": -0.006993006993006978
+    },
+    "at_level": {
+      "total": 40,
+      "win_rate": 22.5,
+      "expectancy": -0.4375
+    },
+    "edge_boost": -17.22027972027972
+  },
+  {
+    "ltf": "H1",
+    "htf": "H4",
+    "nowhere": {
+      "total": 427,
+      "win_rate": 33.48946135831382,
+      "expectancy": -0.16276346604215453
+    },
+    "at_level": {
+      "total": 25,
+      "win_rate": 52.0,
+      "expectancy": 0.30000000000000004
+    },
+    "edge_boost": 18.510538641686182
+  }
+]

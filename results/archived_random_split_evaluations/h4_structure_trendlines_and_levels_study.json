@@ -1,0 +1,40 @@
+{
+  "h4_order_blocks": {
+    "total_obs": 91,
+    "retest_rate": 74.72527472527473,
+    "retested_count": 68,
+    "bounce_rate": 19.11764705882353,
+    "bounced_count": 13,
+    "avg_mfe": 81.33529411764708,
+    "avg_mae": 60.78676470588245,
+    "asymmetry": 1.338042820853996
+  },
+  "trendlines": {
+    "touch3_total": 154,
+    "touch3_bounces": 54,
+    "touch3_bounce_rate": 35.064935064935064,
+    "touch3_avg_mfe": 41.066193733901244,
+    "touch3_avg_mae": 24.5390010712937,
+    "breakout_total": 99,
+    "breakout_retests": 63,
+    "breakout_retest_rate": 63.63636363636363
+  },
+  "key_levels": {
+    "pdh_pdl_touches": 244,
+    "pdh_pdl_sweeps": 127,
+    "pdh_pdl_sweep_rate": 52.04918032786885,
+    "pdh_pdl_breakouts": 117,
+    "pdh_pdl_breakout_rate": 47.950819672131146,
+    "round_touches": 171,
+    "round_bounces": 127,
+    "round_bounce_rate": 74.26900584795322
+  },
+  "mtf_confluence": {
+    "confluence_trades": 1305,
+    "win_rate_15r": 67.9460580912863,
+    "ev_15r": 0.6986514522821576,
+    "avg_mfe": 16.58256704980849,
+    "avg_mae": 6.527816091954049,
+    "asymmetry": 2.5402932337887956
+  }
+}

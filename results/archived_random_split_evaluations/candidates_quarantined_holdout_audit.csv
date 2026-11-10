@@ -1,0 +1,8 @@
+code,asset,strategy_name,discovery_pf,discovery_norm_pips,holdout_trades,holdout_win_rate,holdout_profit_factor,holdout_expectancy,holdout_raw_pips,holdout_norm_pips,holdout_max_dd,holdout_ret_dd,verdict
+DISC93,EURUSD,Triple_Screen_Micro_Wick_Defense,1.49,1200.0,221,35.3,1.17,0.9,198.7,198.7,118.2,1.68,[FAILED HOLDOUT]
+DISC94,EURUSD,Opening_Range_Impulse_Expansion,1.36,829.1,194,33.5,1.08,0.45,87.6,87.6,187.5,0.47,[FAILED HOLDOUT]
+DISC95,USDJPY,M30_Engulfing_Trend_Resumption,1.46,778.9,135,37.0,1.11,0.98,132.2,95.1,111.4,0.85,[FAILED HOLDOUT]
+DISC96,USDJPY,Order_Flow_Delta_Absorption,1.28,622.9,203,35.5,1.17,1.31,266.6,191.8,112.6,1.7,[FAILED HOLDOUT]
+DISC97,EURUSD,VWAP_Value_Area_Defense,1.28,529.8,154,41.6,1.39,1.97,302.8,302.8,94.0,3.22,[100% CERTIFIED PRODUCTION]
+DISC98,EURUSD,M15_200EMA_Institutional_Bounce,1.32,266.5,76,34.2,1.09,0.51,38.6,38.6,45.7,0.84,[FAILED HOLDOUT]
+DISC99,EURGBP,Triple_Screen_Momentum_Elite,1.71,157.5,21,19.0,0.6,-1.81,-38.0,-49.1,77.0,-0.64,[FAILED HOLDOUT]

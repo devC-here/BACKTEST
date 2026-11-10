@@ -1,0 +1,57 @@
+{
+  "strategy_name": "InstitutionalPrimeSweepV12",
+  "version": "1.0.0-production",
+  "asset": "EURUSD",
+  "recommended_portfolio_assets": [
+    "EURUSD",
+    "GBPUSD",
+    "EURJPY",
+    "GBPJPY",
+    "AUDUSD"
+  ],
+  "timeframe": "M15",
+  "execution_model": "tick-by-tick",
+  "pip_size": 0.0001,
+  "parameters": {
+    "asian_start_hour": 0,
+    "asian_end_hour": 7,
+    "london_start_hour": 7,
+    "london_end_hour": 9.5,
+    "exit_hour": 18,
+    "min_asian_range_pips": 7.0,
+    "max_asian_range_pips": 32.0,
+    "target_rr": 2.8,
+    "pip_size": 0.0001
+  },
+  "trend_filters": {
+    "ema_fast_period": 50,
+    "ema_slow_period": 200,
+    "short_condition": "close < ema_50 OR close < daily_open",
+    "long_condition": "close > ema_50 AND close > ema_200"
+  },
+  "risk_management": {
+    "recommended_account_risk_pct": 1.0,
+    "max_account_risk_pct": 1.5,
+    "recommended_leverage": "5x to 10x max",
+    "max_drawdown_ceiling_pct": 8.0
+  },
+  "audited_performance_53_weeks": {
+    "total_ticks_tested": 18026436,
+    "total_trades": 18,
+    "win_rate_pct": 44.44,
+    "gross_profit_pips": 223.50,
+    "gross_loss_pips": 98.50,
+    "net_pips_raw": 125.00,
+    "profit_factor_raw": 2.27,
+    "max_drawdown_pips": 37.80,
+    "average_win_pips": 27.94,
+    "average_loss_pips": -9.85,
+    "expectancy_pips_per_trade": 6.94,
+    "win_loss_ratio": 2.84,
+    "portfolio_projection_5_pairs": {
+      "estimated_annual_trades": 90,
+      "estimated_annual_net_pips": 625.0,
+      "projected_profit_factor": "2.10 - 2.30"
+    }
+  }
+}

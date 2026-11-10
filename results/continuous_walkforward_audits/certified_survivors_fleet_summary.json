@@ -1,0 +1,898 @@
+[
+  {
+    "file": "strategy_09_eurusd_ny_sweep_fade.py",
+    "symbol": "EURUSD",
+    "elapsed_sec": 19.43,
+    "holdout": {
+      "total_trades": 97,
+      "net_pips": 89.9,
+      "win_rate_pct": 38.1,
+      "profit_factor": 1.15,
+      "expectancy_pips": 0.93,
+      "expectancy_std_err": 1.47,
+      "expectancy_ci_95": [
+        -1.96,
+        3.81
+      ],
+      "t_statistic": 0.63,
+      "p_value": 0.5287,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 101.6,
+      "worst_month_pips": -52.6,
+      "bootstrap_95_max_dd_pips": 243.0,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 69.1,
+        "pips_ex_top3": 28.9,
+        "pips_ex_top5": -10.8,
+        "is_outlier_dependent": false
+      }
+    },
+    "discovery": {
+      "total_trades": 216,
+      "net_pips": -138.5,
+      "win_rate_pct": 33.8,
+      "profit_factor": 0.91,
+      "expectancy_pips": -0.64,
+      "expectancy_std_err": 0.95,
+      "expectancy_ci_95": [
+        -2.5,
+        1.22
+      ],
+      "t_statistic": -0.68,
+      "p_value": 0.4965,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 378.7,
+      "worst_month_pips": -74.2,
+      "bootstrap_95_max_dd_pips": 539.3,
+      "outlier_sensitivity": {
+        "pips_ex_top1": -161.7,
+        "pips_ex_top3": -203.4,
+        "pips_ex_top5": -244.0,
+        "is_outlier_dependent": true
+      }
+    },
+    "status": "DUAL_CERTIFIED"
+  },
+  {
+    "file": "strategy_10_eurusd_ny_sweep_fade.py",
+    "symbol": "EURUSD",
+    "elapsed_sec": 9.37,
+    "holdout": {
+      "total_trades": 97,
+      "net_pips": 93.5,
+      "win_rate_pct": 37.1,
+      "profit_factor": 1.15,
+      "expectancy_pips": 0.96,
+      "expectancy_std_err": 1.51,
+      "expectancy_ci_95": [
+        -2.0,
+        3.93
+      ],
+      "t_statistic": 0.64,
+      "p_value": 0.5222,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 114.9,
+      "worst_month_pips": -52.6,
+      "bootstrap_95_max_dd_pips": 242.9,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 72.4,
+        "pips_ex_top3": 30.4,
+        "pips_ex_top5": -11.3,
+        "is_outlier_dependent": false
+      }
+    },
+    "discovery": {
+      "total_trades": 216,
+      "net_pips": -178.0,
+      "win_rate_pct": 32.4,
+      "profit_factor": 0.88,
+      "expectancy_pips": -0.82,
+      "expectancy_std_err": 0.96,
+      "expectancy_ci_95": [
+        -2.71,
+        1.07
+      ],
+      "t_statistic": -0.85,
+      "p_value": 0.3953,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 388.7,
+      "worst_month_pips": -74.2,
+      "bootstrap_95_max_dd_pips": 594.4,
+      "outlier_sensitivity": {
+        "pips_ex_top1": -203.1,
+        "pips_ex_top3": -247.5,
+        "pips_ex_top5": -289.5,
+        "is_outlier_dependent": true
+      }
+    },
+    "status": "DUAL_CERTIFIED"
+  },
+  {
+    "file": "strategy_11_eurusd_ny_sweep_fade.py",
+    "symbol": "EURUSD",
+    "elapsed_sec": 8.29,
+    "holdout": {
+      "total_trades": 97,
+      "net_pips": 124.3,
+      "win_rate_pct": 37.1,
+      "profit_factor": 1.18,
+      "expectancy_pips": 1.28,
+      "expectancy_std_err": 1.68,
+      "expectancy_ci_95": [
+        -2.01,
+        4.57
+      ],
+      "t_statistic": 0.76,
+      "p_value": 0.4473,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 112.9,
+      "worst_month_pips": -57.4,
+      "bootstrap_95_max_dd_pips": 262.5,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 100.1,
+        "pips_ex_top3": 52.0,
+        "pips_ex_top5": 4.4,
+        "is_outlier_dependent": false
+      }
+    },
+    "discovery": {
+      "total_trades": 216,
+      "net_pips": -267.3,
+      "win_rate_pct": 31.5,
+      "profit_factor": 0.84,
+      "expectancy_pips": -1.24,
+      "expectancy_std_err": 1.05,
+      "expectancy_ci_95": [
+        -3.3,
+        0.83
+      ],
+      "t_statistic": -1.17,
+      "p_value": 0.242,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 462.9,
+      "worst_month_pips": -82.0,
+      "bootstrap_95_max_dd_pips": 724.7,
+      "outlier_sensitivity": {
+        "pips_ex_top1": -292.4,
+        "pips_ex_top3": -340.8,
+        "pips_ex_top5": -389.0,
+        "is_outlier_dependent": true
+      }
+    },
+    "status": "DUAL_CERTIFIED"
+  },
+  {
+    "file": "strategy_12_eurusd_ny_sweep_fade.py",
+    "symbol": "EURUSD",
+    "elapsed_sec": 9.28,
+    "holdout": {
+      "total_trades": 97,
+      "net_pips": 136.5,
+      "win_rate_pct": 37.1,
+      "profit_factor": 1.17,
+      "expectancy_pips": 1.41,
+      "expectancy_std_err": 1.97,
+      "expectancy_ci_95": [
+        -2.45,
+        5.26
+      ],
+      "t_statistic": 0.72,
+      "p_value": 0.4715,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 133.0,
+      "worst_month_pips": -69.0,
+      "bootstrap_95_max_dd_pips": 307.1,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 107.5,
+        "pips_ex_top3": 51.7,
+        "pips_ex_top5": -3.9,
+        "is_outlier_dependent": false
+      }
+    },
+    "discovery": {
+      "total_trades": 215,
+      "net_pips": -402.3,
+      "win_rate_pct": 30.7,
+      "profit_factor": 0.8,
+      "expectancy_pips": -1.87,
+      "expectancy_std_err": 1.21,
+      "expectancy_ci_95": [
+        -4.25,
+        0.51
+      ],
+      "t_statistic": -1.54,
+      "p_value": 0.1236,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 636.9,
+      "worst_month_pips": -95.2,
+      "bootstrap_95_max_dd_pips": 897.9,
+      "outlier_sensitivity": {
+        "pips_ex_top1": -431.2,
+        "pips_ex_top3": -488.3,
+        "pips_ex_top5": -544.6,
+        "is_outlier_dependent": true
+      }
+    },
+    "status": "DUAL_CERTIFIED"
+  },
+  {
+    "file": "strategy_14_eurusd_ny_sweep_fade.py",
+    "symbol": "EURUSD",
+    "elapsed_sec": 8.48,
+    "holdout": {
+      "total_trades": 139,
+      "net_pips": -111.5,
+      "win_rate_pct": 31.7,
+      "profit_factor": 0.91,
+      "expectancy_pips": -0.8,
+      "expectancy_std_err": 1.57,
+      "expectancy_ci_95": [
+        -3.89,
+        2.28
+      ],
+      "t_statistic": -0.51,
+      "p_value": 0.6101,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 227.1,
+      "worst_month_pips": -69.0,
+      "bootstrap_95_max_dd_pips": 562.8,
+      "outlier_sensitivity": {
+        "pips_ex_top1": -140.5,
+        "pips_ex_top3": -196.9,
+        "pips_ex_top5": -252.9,
+        "is_outlier_dependent": true
+      }
+    },
+    "discovery": {
+      "total_trades": 293,
+      "net_pips": -371.2,
+      "win_rate_pct": 32.1,
+      "profit_factor": 0.86,
+      "expectancy_pips": -1.27,
+      "expectancy_std_err": 1.06,
+      "expectancy_ci_95": [
+        -3.35,
+        0.81
+      ],
+      "t_statistic": -1.19,
+      "p_value": 0.234,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 501.3,
+      "worst_month_pips": -97.1,
+      "bootstrap_95_max_dd_pips": 967.1,
+      "outlier_sensitivity": {
+        "pips_ex_top1": -401.7,
+        "pips_ex_top3": -459.5,
+        "pips_ex_top5": -516.6,
+        "is_outlier_dependent": true
+      }
+    },
+    "status": "NON_CERTIFIED"
+  },
+  {
+    "file": "strategy_15_eurusd_ny_sweep_fade.py",
+    "symbol": "EURUSD",
+    "elapsed_sec": 8.91,
+    "holdout": {
+      "total_trades": 97,
+      "net_pips": 89.9,
+      "win_rate_pct": 38.1,
+      "profit_factor": 1.15,
+      "expectancy_pips": 0.93,
+      "expectancy_std_err": 1.47,
+      "expectancy_ci_95": [
+        -1.96,
+        3.81
+      ],
+      "t_statistic": 0.63,
+      "p_value": 0.5287,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 107.2,
+      "worst_month_pips": -52.6,
+      "bootstrap_95_max_dd_pips": 234.5,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 69.1,
+        "pips_ex_top3": 28.9,
+        "pips_ex_top5": -10.8,
+        "is_outlier_dependent": false
+      }
+    },
+    "discovery": {
+      "total_trades": 216,
+      "net_pips": -138.5,
+      "win_rate_pct": 33.8,
+      "profit_factor": 0.91,
+      "expectancy_pips": -0.64,
+      "expectancy_std_err": 0.95,
+      "expectancy_ci_95": [
+        -2.5,
+        1.22
+      ],
+      "t_statistic": -0.68,
+      "p_value": 0.4965,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 367.4,
+      "worst_month_pips": -74.2,
+      "bootstrap_95_max_dd_pips": 536.8,
+      "outlier_sensitivity": {
+        "pips_ex_top1": -161.7,
+        "pips_ex_top3": -203.4,
+        "pips_ex_top5": -244.0,
+        "is_outlier_dependent": true
+      }
+    },
+    "status": "DUAL_CERTIFIED"
+  },
+  {
+    "file": "strategy_16_eurusd_ny_sweep_fade.py",
+    "symbol": "EURUSD",
+    "elapsed_sec": 8.5,
+    "holdout": {
+      "total_trades": 97,
+      "net_pips": 93.5,
+      "win_rate_pct": 37.1,
+      "profit_factor": 1.15,
+      "expectancy_pips": 0.96,
+      "expectancy_std_err": 1.51,
+      "expectancy_ci_95": [
+        -2.0,
+        3.93
+      ],
+      "t_statistic": 0.64,
+      "p_value": 0.5222,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 124.8,
+      "worst_month_pips": -52.6,
+      "bootstrap_95_max_dd_pips": 251.6,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 72.4,
+        "pips_ex_top3": 30.4,
+        "pips_ex_top5": -11.3,
+        "is_outlier_dependent": false
+      }
+    },
+    "discovery": {
+      "total_trades": 216,
+      "net_pips": -178.0,
+      "win_rate_pct": 32.4,
+      "profit_factor": 0.88,
+      "expectancy_pips": -0.82,
+      "expectancy_std_err": 0.96,
+      "expectancy_ci_95": [
+        -2.71,
+        1.07
+      ],
+      "t_statistic": -0.85,
+      "p_value": 0.3953,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 398.8,
+      "worst_month_pips": -74.2,
+      "bootstrap_95_max_dd_pips": 603.9,
+      "outlier_sensitivity": {
+        "pips_ex_top1": -203.1,
+        "pips_ex_top3": -247.5,
+        "pips_ex_top5": -289.5,
+        "is_outlier_dependent": true
+      }
+    },
+    "status": "DUAL_CERTIFIED"
+  },
+  {
+    "file": "strategy_17_usdcad_asian_sweep.py",
+    "symbol": "USDCAD",
+    "elapsed_sec": 7.99,
+    "holdout": {
+      "total_trades": 22,
+      "net_pips": 68.5,
+      "win_rate_pct": 31.8,
+      "profit_factor": 1.31,
+      "expectancy_pips": 3.11,
+      "expectancy_std_err": 5.75,
+      "expectancy_ci_95": [
+        -8.16,
+        14.39
+      ],
+      "t_statistic": 0.54,
+      "p_value": 0.5892,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 72.9,
+      "worst_month_pips": -29.3,
+      "bootstrap_95_max_dd_pips": 175.4,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 23.6,
+        "pips_ex_top3": -65.5,
+        "pips_ex_top5": -154.4,
+        "is_outlier_dependent": true
+      }
+    },
+    "discovery": {
+      "total_trades": 121,
+      "net_pips": 221.9,
+      "win_rate_pct": 29.8,
+      "profit_factor": 1.18,
+      "expectancy_pips": 1.83,
+      "expectancy_std_err": 2.37,
+      "expectancy_ci_95": [
+        -2.81,
+        6.48
+      ],
+      "t_statistic": 0.77,
+      "p_value": 0.4413,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 205.2,
+      "worst_month_pips": -117.4,
+      "bootstrap_95_max_dd_pips": 430.9,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 174.7,
+        "pips_ex_top3": 83.9,
+        "pips_ex_top5": -6.0,
+        "is_outlier_dependent": false
+      }
+    },
+    "status": "NON_CERTIFIED"
+  },
+  {
+    "file": "strategy_18_usdcad_asian_sweep.py",
+    "symbol": "USDCAD",
+    "elapsed_sec": 9.06,
+    "holdout": {
+      "total_trades": 23,
+      "net_pips": 53.9,
+      "win_rate_pct": 30.4,
+      "profit_factor": 1.23,
+      "expectancy_pips": 2.34,
+      "expectancy_std_err": 5.55,
+      "expectancy_ci_95": [
+        -8.54,
+        13.23
+      ],
+      "t_statistic": 0.42,
+      "p_value": 0.6745,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 73.0,
+      "worst_month_pips": -29.3,
+      "bootstrap_95_max_dd_pips": 189.0,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 9.1,
+        "pips_ex_top3": -80.1,
+        "pips_ex_top5": -169.0,
+        "is_outlier_dependent": true
+      }
+    },
+    "discovery": {
+      "total_trades": 122,
+      "net_pips": 207.4,
+      "win_rate_pct": 29.5,
+      "profit_factor": 1.16,
+      "expectancy_pips": 1.7,
+      "expectancy_std_err": 2.35,
+      "expectancy_ci_95": [
+        -2.92,
+        6.32
+      ],
+      "t_statistic": 0.72,
+      "p_value": 0.4715,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 208.2,
+      "worst_month_pips": -117.4,
+      "bootstrap_95_max_dd_pips": 447.5,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 160.1,
+        "pips_ex_top3": 69.4,
+        "pips_ex_top5": -20.5,
+        "is_outlier_dependent": false
+      }
+    },
+    "status": "NON_CERTIFIED"
+  },
+  {
+    "file": "strategy_19_usdcad_asian_sweep.py",
+    "symbol": "USDCAD",
+    "elapsed_sec": 8.23,
+    "holdout": {
+      "total_trades": 23,
+      "net_pips": 53.9,
+      "win_rate_pct": 30.4,
+      "profit_factor": 1.23,
+      "expectancy_pips": 2.34,
+      "expectancy_std_err": 5.55,
+      "expectancy_ci_95": [
+        -8.54,
+        13.23
+      ],
+      "t_statistic": 0.42,
+      "p_value": 0.6745,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 87.5,
+      "worst_month_pips": -29.3,
+      "bootstrap_95_max_dd_pips": 188.8,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 9.1,
+        "pips_ex_top3": -80.1,
+        "pips_ex_top5": -169.0,
+        "is_outlier_dependent": true
+      }
+    },
+    "discovery": {
+      "total_trades": 122,
+      "net_pips": 207.4,
+      "win_rate_pct": 29.5,
+      "profit_factor": 1.16,
+      "expectancy_pips": 1.7,
+      "expectancy_std_err": 2.35,
+      "expectancy_ci_95": [
+        -2.92,
+        6.32
+      ],
+      "t_statistic": 0.72,
+      "p_value": 0.4715,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 208.2,
+      "worst_month_pips": -117.4,
+      "bootstrap_95_max_dd_pips": 439.4,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 160.1,
+        "pips_ex_top3": 69.4,
+        "pips_ex_top5": -20.5,
+        "is_outlier_dependent": false
+      }
+    },
+    "status": "NON_CERTIFIED"
+  },
+  {
+    "file": "strategy_20_usdcad_asian_sweep.py",
+    "symbol": "USDCAD",
+    "elapsed_sec": 7.83,
+    "holdout": {
+      "total_trades": 22,
+      "net_pips": 95.8,
+      "win_rate_pct": 36.4,
+      "profit_factor": 1.47,
+      "expectancy_pips": 4.35,
+      "expectancy_std_err": 5.47,
+      "expectancy_ci_95": [
+        -6.37,
+        15.08
+      ],
+      "t_statistic": 0.8,
+      "p_value": 0.4237,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 58.4,
+      "worst_month_pips": -29.3,
+      "bootstrap_95_max_dd_pips": 158.1,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 58.0,
+        "pips_ex_top3": -17.0,
+        "pips_ex_top5": -92.0,
+        "is_outlier_dependent": true
+      }
+    },
+    "discovery": {
+      "total_trades": 121,
+      "net_pips": 160.8,
+      "win_rate_pct": 31.4,
+      "profit_factor": 1.13,
+      "expectancy_pips": 1.33,
+      "expectancy_std_err": 2.18,
+      "expectancy_ci_95": [
+        -2.94,
+        5.6
+      ],
+      "t_statistic": 0.61,
+      "p_value": 0.5419,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 222.1,
+      "worst_month_pips": -117.4,
+      "bootstrap_95_max_dd_pips": 433.1,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 122.9,
+        "pips_ex_top3": 47.2,
+        "pips_ex_top5": -28.4,
+        "is_outlier_dependent": false
+      }
+    },
+    "status": "NON_CERTIFIED"
+  },
+  {
+    "file": "strategy_21_usdcad_asian_sweep.py",
+    "symbol": "USDCAD",
+    "elapsed_sec": 9.04,
+    "holdout": {
+      "total_trades": 23,
+      "net_pips": 81.2,
+      "win_rate_pct": 34.8,
+      "profit_factor": 1.37,
+      "expectancy_pips": 3.53,
+      "expectancy_std_err": 5.29,
+      "expectancy_ci_95": [
+        -6.84,
+        13.9
+      ],
+      "t_statistic": 0.67,
+      "p_value": 0.5029,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 73.0,
+      "worst_month_pips": -29.3,
+      "bootstrap_95_max_dd_pips": 164.6,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 43.5,
+        "pips_ex_top3": -31.6,
+        "pips_ex_top5": -106.6,
+        "is_outlier_dependent": true
+      }
+    },
+    "discovery": {
+      "total_trades": 122,
+      "net_pips": 146.3,
+      "win_rate_pct": 31.1,
+      "profit_factor": 1.12,
+      "expectancy_pips": 1.2,
+      "expectancy_std_err": 2.16,
+      "expectancy_ci_95": [
+        -3.04,
+        5.44
+      ],
+      "t_statistic": 0.55,
+      "p_value": 0.5823,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 184.6,
+      "worst_month_pips": -117.4,
+      "bootstrap_95_max_dd_pips": 430.5,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 108.3,
+        "pips_ex_top3": 32.7,
+        "pips_ex_top5": -42.9,
+        "is_outlier_dependent": false
+      }
+    },
+    "status": "NON_CERTIFIED"
+  },
+  {
+    "file": "strategy_22_usdcad_asian_sweep.py",
+    "symbol": "USDCAD",
+    "elapsed_sec": 8.53,
+    "holdout": {
+      "total_trades": 23,
+      "net_pips": 81.2,
+      "win_rate_pct": 34.8,
+      "profit_factor": 1.37,
+      "expectancy_pips": 3.53,
+      "expectancy_std_err": 5.29,
+      "expectancy_ci_95": [
+        -6.84,
+        13.9
+      ],
+      "t_statistic": 0.67,
+      "p_value": 0.5029,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 73.0,
+      "worst_month_pips": -29.3,
+      "bootstrap_95_max_dd_pips": 161.0,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 43.5,
+        "pips_ex_top3": -31.6,
+        "pips_ex_top5": -106.6,
+        "is_outlier_dependent": true
+      }
+    },
+    "discovery": {
+      "total_trades": 122,
+      "net_pips": 146.3,
+      "win_rate_pct": 31.1,
+      "profit_factor": 1.12,
+      "expectancy_pips": 1.2,
+      "expectancy_std_err": 2.16,
+      "expectancy_ci_95": [
+        -3.04,
+        5.44
+      ],
+      "t_statistic": 0.55,
+      "p_value": 0.5823,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 222.1,
+      "worst_month_pips": -117.4,
+      "bootstrap_95_max_dd_pips": 453.2,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 108.3,
+        "pips_ex_top3": 32.7,
+        "pips_ex_top5": -42.9,
+        "is_outlier_dependent": false
+      }
+    },
+    "status": "NON_CERTIFIED"
+  },
+  {
+    "file": "strategy_23_usdcad_asian_sweep.py",
+    "symbol": "USDCAD",
+    "elapsed_sec": 8.07,
+    "holdout": {
+      "total_trades": 22,
+      "net_pips": 112.6,
+      "win_rate_pct": 36.4,
+      "profit_factor": 1.51,
+      "expectancy_pips": 5.12,
+      "expectancy_std_err": 6.09,
+      "expectancy_ci_95": [
+        -6.83,
+        17.06
+      ],
+      "t_statistic": 0.84,
+      "p_value": 0.4009,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 78.1,
+      "worst_month_pips": -31.4,
+      "bootstrap_95_max_dd_pips": 161.3,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 67.7,
+        "pips_ex_top3": -21.5,
+        "pips_ex_top5": -110.4,
+        "is_outlier_dependent": true
+      }
+    },
+    "discovery": {
+      "total_trades": 121,
+      "net_pips": 157.5,
+      "win_rate_pct": 30.6,
+      "profit_factor": 1.12,
+      "expectancy_pips": 1.3,
+      "expectancy_std_err": 2.41,
+      "expectancy_ci_95": [
+        -3.41,
+        6.02
+      ],
+      "t_statistic": 0.54,
+      "p_value": 0.5892,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 196.2,
+      "worst_month_pips": -125.0,
+      "bootstrap_95_max_dd_pips": 469.1,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 110.3,
+        "pips_ex_top3": 19.5,
+        "pips_ex_top5": -70.4,
+        "is_outlier_dependent": false
+      }
+    },
+    "status": "NON_CERTIFIED"
+  },
+  {
+    "file": "strategy_24_usdcad_asian_sweep.py",
+    "symbol": "USDCAD",
+    "elapsed_sec": 8.5,
+    "holdout": {
+      "total_trades": 22,
+      "net_pips": 86.3,
+      "win_rate_pct": 31.8,
+      "profit_factor": 1.39,
+      "expectancy_pips": 3.92,
+      "expectancy_std_err": 6.03,
+      "expectancy_ci_95": [
+        -7.9,
+        15.74
+      ],
+      "t_statistic": 0.65,
+      "p_value": 0.5157,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 72.9,
+      "worst_month_pips": -29.3,
+      "bootstrap_95_max_dd_pips": 175.2,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 38.5,
+        "pips_ex_top3": -56.5,
+        "pips_ex_top5": -151.4,
+        "is_outlier_dependent": true
+      }
+    },
+    "discovery": {
+      "total_trades": 121,
+      "net_pips": 162.2,
+      "win_rate_pct": 28.1,
+      "profit_factor": 1.13,
+      "expectancy_pips": 1.34,
+      "expectancy_std_err": 2.41,
+      "expectancy_ci_95": [
+        -3.38,
+        6.06
+      ],
+      "t_statistic": 0.56,
+      "p_value": 0.5755,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 222.0,
+      "worst_month_pips": -117.4,
+      "bootstrap_95_max_dd_pips": 469.9,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 113.5,
+        "pips_ex_top3": 17.0,
+        "pips_ex_top5": -79.3,
+        "is_outlier_dependent": false
+      }
+    },
+    "status": "NON_CERTIFIED"
+  },
+  {
+    "file": "strategy_62_eurgbp_london_sweep.py",
+    "symbol": "EURGBP",
+    "elapsed_sec": 13.84,
+    "holdout": {
+      "total_trades": 5,
+      "net_pips": 39.3,
+      "win_rate_pct": 60.0,
+      "profit_factor": 3.9,
+      "expectancy_pips": 7.87,
+      "expectancy_std_err": 6.86,
+      "expectancy_ci_95": [
+        -5.58,
+        21.32
+      ],
+      "t_statistic": 1.15,
+      "p_value": 0.2501,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 11.3,
+      "worst_month_pips": -11.3,
+      "bootstrap_95_max_dd_pips": 24.9,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 15.6,
+        "pips_ex_top3": -13.6,
+        "pips_ex_top5": 39.3,
+        "is_outlier_dependent": true
+      }
+    },
+    "discovery": {
+      "total_trades": 130,
+      "net_pips": -59.3,
+      "win_rate_pct": 33.1,
+      "profit_factor": 0.94,
+      "expectancy_pips": -0.46,
+      "expectancy_std_err": 1.37,
+      "expectancy_ci_95": [
+        -3.15,
+        2.24
+      ],
+      "t_statistic": -0.33,
+      "p_value": 0.7414,
+      "bonferroni_p_threshold": 0.00313,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 241.4,
+      "worst_month_pips": -91.1,
+      "bootstrap_95_max_dd_pips": 415.8,
+      "outlier_sensitivity": {
+        "pips_ex_top1": -81.6,
+        "pips_ex_top3": -125.6,
+        "pips_ex_top5": -169.6,
+        "is_outlier_dependent": true
+      }
+    },
+    "status": "NON_CERTIFIED"
+  }
+]

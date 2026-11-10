@@ -1,0 +1,180 @@
+{
+  "DAILY_PIVOT_TREND_PULLBACK": {
+    "EURUSD": {
+      "DISCOVERY": {
+        "trades": 211,
+        "win_rate": 47.9,
+        "pf": 1.81,
+        "net_pips": 812.9,
+        "max_dd": 81.9,
+        "ret_dd": 9.93,
+        "expectancy": 3.85
+      },
+      "HOLDOUT": {
+        "trades": 83,
+        "win_rate": 43.4,
+        "pf": 1.42,
+        "net_pips": 183.3,
+        "max_dd": 59.3,
+        "ret_dd": 3.09,
+        "expectancy": 2.21
+      },
+      "FULL": {
+        "trades": 294,
+        "win_rate": 46.6,
+        "pf": 1.69,
+        "net_pips": 996.2,
+        "max_dd": 81.8,
+        "ret_dd": 12.18,
+        "expectancy": 3.39
+      }
+    },
+    "USDJPY": {
+      "DISCOVERY": {
+        "trades": 184,
+        "win_rate": 45.1,
+        "pf": 1.63,
+        "net_pips": 770.5,
+        "max_dd": 84.9,
+        "ret_dd": 9.08,
+        "expectancy": 4.19
+      },
+      "HOLDOUT": {
+        "trades": 87,
+        "win_rate": 37.9,
+        "pf": 1.19,
+        "net_pips": 127.3,
+        "max_dd": 155.6,
+        "ret_dd": 0.82,
+        "expectancy": 1.46
+      },
+      "FULL": {
+        "trades": 271,
+        "win_rate": 42.8,
+        "pf": 1.48,
+        "net_pips": 897.8,
+        "max_dd": 104.9,
+        "ret_dd": 8.56,
+        "expectancy": 3.31
+      }
+    },
+    "EURGBP": {
+      "DISCOVERY": {
+        "trades": 220,
+        "win_rate": 42.3,
+        "pf": 1.38,
+        "net_pips": 371.0,
+        "max_dd": 95.0,
+        "ret_dd": 3.91,
+        "expectancy": 1.69
+      },
+      "HOLDOUT": {
+        "trades": 108,
+        "win_rate": 49.1,
+        "pf": 1.86,
+        "net_pips": 373.5,
+        "max_dd": 88.5,
+        "ret_dd": 4.22,
+        "expectancy": 3.46
+      },
+      "FULL": {
+        "trades": 328,
+        "win_rate": 44.5,
+        "pf": 1.52,
+        "net_pips": 744.5,
+        "max_dd": 117.9,
+        "ret_dd": 6.31,
+        "expectancy": 2.27
+      }
+    }
+  },
+  "ANCHORED_VWAP_2SIGMA_REVERSION": {
+    "EURUSD": {
+      "DISCOVERY": {
+        "trades": 708,
+        "win_rate": 38.3,
+        "pf": 0.93,
+        "net_pips": -281.9,
+        "max_dd": 406.5,
+        "ret_dd": -0.69,
+        "expectancy": -0.4
+      },
+      "HOLDOUT": {
+        "trades": 327,
+        "win_rate": 39.4,
+        "pf": 0.95,
+        "net_pips": -89.7,
+        "max_dd": 211.2,
+        "ret_dd": -0.42,
+        "expectancy": -0.27
+      },
+      "FULL": {
+        "trades": 1035,
+        "win_rate": 38.6,
+        "pf": 0.94,
+        "net_pips": -371.6,
+        "max_dd": 538.9,
+        "ret_dd": -0.69,
+        "expectancy": -0.36
+      }
+    },
+    "USDJPY": {
+      "DISCOVERY": {
+        "trades": 707,
+        "win_rate": 40.6,
+        "pf": 1.03,
+        "net_pips": 151.0,
+        "max_dd": 368.1,
+        "ret_dd": 0.41,
+        "expectancy": 0.21
+      },
+      "HOLDOUT": {
+        "trades": 293,
+        "win_rate": 37.2,
+        "pf": 0.87,
+        "net_pips": -284.0,
+        "max_dd": 498.8,
+        "ret_dd": -0.57,
+        "expectancy": -0.97
+      },
+      "FULL": {
+        "trades": 1000,
+        "win_rate": 39.6,
+        "pf": 0.98,
+        "net_pips": -133.0,
+        "max_dd": 681.7,
+        "ret_dd": -0.2,
+        "expectancy": -0.13
+      }
+    },
+    "EURGBP": {
+      "DISCOVERY": {
+        "trades": 488,
+        "win_rate": 33.8,
+        "pf": 0.72,
+        "net_pips": -696.2,
+        "max_dd": 738.4,
+        "ret_dd": -0.94,
+        "expectancy": -1.43
+      },
+      "HOLDOUT": {
+        "trades": 209,
+        "win_rate": 33.5,
+        "pf": 0.72,
+        "net_pips": -308.9,
+        "max_dd": 419.1,
+        "ret_dd": -0.74,
+        "expectancy": -1.48
+      },
+      "FULL": {
+        "trades": 697,
+        "win_rate": 33.7,
+        "pf": 0.72,
+        "net_pips": -1005.1,
+        "max_dd": 1096.5,
+        "ret_dd": -0.92,
+        "expectancy": -1.44
+      }
+    }
+  }
+}

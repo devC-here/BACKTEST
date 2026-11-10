@@ -1,0 +1,5 @@
+total_trades,win_rate_pct,net_pips,profit_factor,gross_gain_pips,gross_loss_pips,expectancy_pips,max_drawdown_pips,sharpe_ratio,sqn,pnl_usd,week,start_date,end_date,candles,exec_seconds,winning_trades,losing_trades,breakeven_trades,avg_trade_pips,avg_win_pips,avg_loss_pips,win_loss_ratio,recovery_factor,sortino_ratio,net_usd,avg_duration_minutes,long_trades,long_win_rate,long_pips,short_trades,short_win_rate,short_pips,exit_reasons
+0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1,2025-10-01,2025-10-05,284,0.58,,,,,,,,,,,,,,,,,,
+0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2,2025-10-06,2025-10-12,480,0.74,,,,,,,,,,,,,,,,,,
+1,0.0,-12.3,0.0,0.0,12.3,-12.3,0.0,0.0,0.0,,3,2025-10-13,2025-10-19,480,0.74,0.0,1.0,0.0,-12.3,0.0,-12.3,0.0,0.0,0.0,-12.3,60.0,1.0,0.0,-12.3,0.0,0.0,0.0,{'SL': 1}
+1,100.0,17.2,999.0,17.2,0.0,17.2,0.0,0.0,0.0,,4,2025-10-20,2025-10-26,480,0.69,1.0,0.0,0.0,17.2,17.2,0.0,0.0,0.0,0.0,17.2,435.0,0.0,0.0,0.0,1.0,100.0,17.2,{'TP': 1}

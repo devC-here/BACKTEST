@@ -1,0 +1,5 @@
+Iteration,Trades,Win Rate,Net Pips,Max DD,Profit Factor,Avg Trade,Long Trades,Short Trades
+V1: Naive Retail Breakout,50,32.0%,-10.4p,168.5p,0.98,-0.21p,28 (29%),22 (36%)
+V2: Breakout + 200 EMA Filter,50,32.0%,-10.4p,168.5p,0.98,-0.21p,28 (29%),22 (36%)
+V3: Liquidity Sweep (Judas Fade),18,22.2%,-9.4p,46.1p,0.90,-0.52p,8 (12%),10 (30%)
+V4: Full Quant Edge Model,2,50.0%,+12.0p,6.0p,3.00,+6.00p,0 (0%),2 (50%)

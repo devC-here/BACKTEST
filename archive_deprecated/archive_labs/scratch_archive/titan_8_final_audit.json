@@ -1,0 +1,204 @@
+{
+  "portfolio": {
+    "name": "Titan 8 Elite Portfolio",
+    "count": 8,
+    "total_5y_pips": 9351.4,
+    "annual_pips": 1870.3,
+    "discovery_pips": 6104.4,
+    "holdout_pips": 3247.0,
+    "max_drawdown_pips": 156.1,
+    "sharpe_ratio": 4.91,
+    "return_to_drawdown": 59.92,
+    "mean_correlation": -0.006,
+    "max_correlation": 0.1502,
+    "min_correlation": -0.1228
+  },
+  "models": [
+    {
+      "id": "EU_DISC105",
+      "name": "Chaikin Volatility Surge",
+      "pair": "EURUSD",
+      "tf": "M15",
+      "tot_pips": 1795.500000000052,
+      "annual_pips": 359.1000000000104,
+      "disc_pips": 1401.8000000000434,
+      "hold_pips": 393.700000000009,
+      "max_dd": 108.69999999999732,
+      "sharpe": 1.8499624997412134,
+      "ret_dd": 16.51793928242959
+    },
+    {
+      "id": "EU_DISC103",
+      "name": "Double Swing Neckline Retest",
+      "pair": "EURUSD",
+      "tf": "M15",
+      "tot_pips": 1045.7000000000671,
+      "annual_pips": 209.14000000001343,
+      "disc_pips": 803.8000000000346,
+      "hold_pips": 241.90000000003266,
+      "max_dd": 154.19999999999322,
+      "sharpe": 1.5311553540215228,
+      "ret_dd": 6.781452658885299
+    },
+    {
+      "id": "EU_DISC45",
+      "name": "M5 Wick Rejection Absorption",
+      "pair": "EURUSD",
+      "tf": "M5",
+      "tot_pips": 1056.200000000034,
+      "annual_pips": 211.24000000000677,
+      "disc_pips": 706.900000000018,
+      "hold_pips": 349.30000000001576,
+      "max_dd": 120.1000000000048,
+      "sharpe": 2.1446894506116996,
+      "ret_dd": 8.794338051623578
+    },
+    {
+      "id": "UJ_DISC90",
+      "name": "Opening Range Impulse Expansion",
+      "pair": "USDJPY",
+      "tf": "M15",
+      "tot_pips": 1926.4292600000733,
+      "annual_pips": 385.28585200001464,
+      "disc_pips": 1131.530830000062,
+      "hold_pips": 794.8984300000116,
+      "max_dd": 139.544199999988,
+      "sharpe": 2.320494769638271,
+      "ret_dd": 13.80515463917697
+    },
+    {
+      "id": "UJ_DISC96",
+      "name": "Cardwell RSI-50 Momentum Bounce",
+      "pair": "USDJPY",
+      "tf": "M15",
+      "tot_pips": 1044.9990399999238,
+      "annual_pips": 208.99980799998474,
+      "disc_pips": 526.3837399999458,
+      "hold_pips": 518.6152999999782,
+      "max_dd": 253.12167000002137,
+      "sharpe": 1.4406922515459457,
+      "ret_dd": 4.128445581130354
+    },
+    {
+      "id": "UJ_DISC100",
+      "name": "Double Structure Breakout",
+      "pair": "USDJPY",
+      "tf": "M15",
+      "tot_pips": 699.87889999999,
+      "annual_pips": 139.975779999998,
+      "disc_pips": 538.3241200000027,
+      "hold_pips": 161.55477999998737,
+      "max_dd": 98.68795999999702,
+      "sharpe": 1.2083121593309745,
+      "ret_dd": 7.091836734693991
+    },
+    {
+      "id": "EG_DISC48",
+      "name": "Camarilla Floor Rejection",
+      "pair": "EURGBP",
+      "tf": "M15",
+      "tot_pips": 1103.582609999997,
+      "annual_pips": 220.7165219999994,
+      "disc_pips": 617.1069599999903,
+      "hold_pips": 486.4756500000067,
+      "max_dd": 97.55355000000259,
+      "sharpe": 1.8680577598581225,
+      "ret_dd": 11.312582781456623
+    },
+    {
+      "id": "EG_DISC108",
+      "name": "Macro Asymmetric Trend Runner",
+      "pair": "EURGBP",
+      "tf": "M15/H1",
+      "tot_pips": 679.127759999995,
+      "annual_pips": 135.825551999999,
+      "disc_pips": 378.5852999999927,
+      "hold_pips": 300.54246000000217,
+      "max_dd": 52.58847000000023,
+      "sharpe": 1.7854523081557334,
+      "ret_dd": 12.914004914004762
+    }
+  ],
+  "correlation_matrix": {
+    "EU_DISC105": {
+      "EU_DISC105": 1.0,
+      "EU_DISC103": 0.062,
+      "EU_DISC45": -0.1,
+      "UJ_DISC90": -0.006,
+      "UJ_DISC96": 0.055,
+      "UJ_DISC100": 0.067,
+      "EG_DISC48": -0.015,
+      "EG_DISC108": -0.01
+    },
+    "EU_DISC103": {
+      "EU_DISC105": 0.062,
+      "EU_DISC103": 1.0,
+      "EU_DISC45": -0.073,
+      "UJ_DISC90": -0.01,
+      "UJ_DISC96": -0.085,
+      "UJ_DISC100": -0.029,
+      "EG_DISC48": -0.109,
+      "EG_DISC108": -0.004
+    },
+    "EU_DISC45": {
+      "EU_DISC105": -0.1,
+      "EU_DISC103": -0.073,
+      "EU_DISC45": 1.0,
+      "UJ_DISC90": 0.002,
+      "UJ_DISC96": 0.004,
+      "UJ_DISC100": -0.082,
+      "EG_DISC48": -0.022,
+      "EG_DISC108": 0.15
+    },
+    "UJ_DISC90": {
+      "EU_DISC105": -0.006,
+      "EU_DISC103": -0.01,
+      "EU_DISC45": 0.002,
+      "UJ_DISC90": 1.0,
+      "UJ_DISC96": 0.038,
+      "UJ_DISC100": 0.072,
+      "EG_DISC48": -0.01,
+      "EG_DISC108": 0.024
+    },
+    "UJ_DISC96": {
+      "EU_DISC105": 0.055,
+      "EU_DISC103": -0.085,
+      "EU_DISC45": 0.004,
+      "UJ_DISC90": 0.038,
+      "UJ_DISC96": 1.0,
+      "UJ_DISC100": -0.086,
+      "EG_DISC48": 0.113,
+      "EG_DISC108": -0.034
+    },
+    "UJ_DISC100": {
+      "EU_DISC105": 0.067,
+      "EU_DISC103": -0.029,
+      "EU_DISC45": -0.082,
+      "UJ_DISC90": 0.072,
+      "UJ_DISC96": -0.086,
+      "UJ_DISC100": 1.0,
+      "EG_DISC48": -0.016,
+      "EG_DISC108": -0.123
+    },
+    "EG_DISC48": {
+      "EU_DISC105": -0.015,
+      "EU_DISC103": -0.109,
+      "EU_DISC45": -0.022,
+      "UJ_DISC90": -0.01,
+      "UJ_DISC96": 0.113,
+      "UJ_DISC100": -0.016,
+      "EG_DISC48": 1.0,
+      "EG_DISC108": 0.06
+    },
+    "EG_DISC108": {
+      "EU_DISC105": -0.01,
+      "EU_DISC103": -0.004,
+      "EU_DISC45": 0.15,
+      "UJ_DISC90": 0.024,
+      "UJ_DISC96": -0.034,
+      "UJ_DISC100": -0.123,
+      "EG_DISC48": 0.06,
+      "EG_DISC108": 1.0
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "asset": "AUDNZD",
+  "audit_timestamp": "2026-10-29 14:12:49 UTC",
+  "total_weeks": 300,
+  "years": 5.77,
+  "report": [
+    {
+      "model": "AUDNZD_H4_Macro_SL14_TP28",
+      "discovery_70": {
+        "trades": 75,
+        "net_pips": 1068.0,
+        "annual_pips": 264.5,
+        "win_rate": 73.3,
+        "profit_factor": 4.9,
+        "max_dd_pips": 75.2,
+        "return_to_dd": 14.2,
+        "expectancy": 14.24
+      },
+      "holdout_30": {
+        "trades": 32,
+        "net_pips": 430.3,
+        "annual_pips": 248.6,
+        "win_rate": 65.6,
+        "profit_factor": 3.69,
+        "max_dd_pips": 73.1,
+        "return_to_dd": 5.89,
+        "expectancy": 13.45
+      },
+      "full_cycle": {
+        "trades": 107,
+        "net_pips": 1498.3,
+        "annual_pips": 259.7,
+        "win_rate": 71.0,
+        "profit_factor": 4.46,
+        "max_dd_pips": 87.4,
+        "return_to_dd": 17.14,
+        "expectancy": 14.0
+      },
+      "certified": true
+    },
+    {
+      "model": "AUDNZD_H4_Macro_SL15_TP30",
+      "discovery_70": {
+        "trades": 75,
+        "net_pips": 999.9,
+        "annual_pips": 247.6,
+        "win_rate": 69.3,
+        "profit_factor": 4.01,
+        "max_dd_pips": 78.2,
+        "return_to_dd": 12.79,
+        "expectancy": 13.33
+      },
+      "holdout_30": {
+        "trades": 32,
+        "net_pips": 347.1,
+        "annual_pips": 200.5,
+        "win_rate": 59.4,
+        "profit_factor": 2.71,
+        "max_dd_pips": 66.0,
+        "return_to_dd": 5.26,
+        "expectancy": 10.85
+      },
+      "full_cycle": {
+        "trades": 107,
+        "net_pips": 1347.0,
+        "annual_pips": 233.5,
+        "win_rate": 66.4,
+        "profit_factor": 3.52,
+        "max_dd_pips": 93.5,
+        "return_to_dd": 14.41,
+        "expectancy": 12.59
+      },
+      "certified": true
+    },
+    {
+      "model": "AUDNZD_H4_Macro_SL12_TP24",
+      "discovery_70": {
+        "trades": 75,
+        "net_pips": 839.3,
+        "annual_pips": 207.8,
+        "win_rate": 69.3,
+        "profit_factor": 3.84,
+        "max_dd_pips": 69.7,
+        "return_to_dd": 12.04,
+        "expectancy": 11.19
+      },
+      "holdout_30": {
+        "trades": 32,
+        "net_pips": 332.3,
+        "annual_pips": 192.0,
+        "win_rate": 62.5,
+        "profit_factor": 3.23,
+        "max_dd_pips": 36.0,
+        "return_to_dd": 9.23,
+        "expectancy": 10.38
+      },
+      "full_cycle": {
+        "trades": 107,
+        "net_pips": 1171.6,
+        "annual_pips": 203.1,
+        "win_rate": 67.3,
+        "profit_factor": 3.64,
+        "max_dd_pips": 69.7,
+        "return_to_dd": 16.81,
+        "expectancy": 10.95
+      },
+      "certified": true
+    },
+    {
+      "model": "AUDNZD_H1_Macro_SL12_TP20",
+      "discovery_70": {
+        "trades": 56,
+        "net_pips": 269.9,
+        "annual_pips": 66.8,
+        "win_rate": 53.6,
+        "profit_factor": 1.87,
+        "max_dd_pips": 61.3,
+        "return_to_dd": 4.4,
+        "expectancy": 4.82
+      },
+      "holdout_30": {
+        "trades": 27,
+        "net_pips": 188.2,
+        "annual_pips": 108.7,
+        "win_rate": 59.3,
+        "profit_factor": 2.36,
+        "max_dd_pips": 24.2,
+        "return_to_dd": 7.78,
+        "expectancy": 6.97
+      },
+      "full_cycle": {
+        "trades": 83,
+        "net_pips": 458.1,
+        "annual_pips": 79.4,
+        "win_rate": 55.4,
+        "profit_factor": 2.02,
+        "max_dd_pips": 37.8,
+        "return_to_dd": 12.12,
+        "expectancy": 5.52
+      },
+      "certified": false
+    }
+  ]
+}

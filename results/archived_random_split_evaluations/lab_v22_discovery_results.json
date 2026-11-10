@@ -1,0 +1,110 @@
+{
+  "EURUSD_WEEKLY_PIVOT_TREND_PULLBACK": {
+    "trades": 181,
+    "win_rate": 46.4,
+    "pf": 2.2,
+    "net_pips": 1049.3,
+    "max_dd": 68.7,
+    "ret_dd": 15.27,
+    "expectancy": 5.8
+  },
+  "EURUSD_VWAP_1SD_TREND_REBOUND": {
+    "trades": 295,
+    "win_rate": 45.4,
+    "pf": 1.65,
+    "net_pips": 951.5,
+    "max_dd": 77.2,
+    "ret_dd": 12.33,
+    "expectancy": 3.23
+  },
+  "EURUSD_KELTNER_MIDLINE_EXPANSION": {
+    "trades": 752,
+    "win_rate": 38.8,
+    "pf": 1.26,
+    "net_pips": 1085.0,
+    "max_dd": 153.7,
+    "ret_dd": 7.06,
+    "expectancy": 1.44
+  },
+  "EURUSD_THREE_BAR_INSIDE_CONFIRMATION": {
+    "trades": 622,
+    "win_rate": 37.0,
+    "pf": 1.15,
+    "net_pips": 554.8,
+    "max_dd": 220.3,
+    "ret_dd": 2.52,
+    "expectancy": 0.89
+  },
+  "USDJPY_WEEKLY_PIVOT_TREND_PULLBACK": {
+    "trades": 182,
+    "win_rate": 45.6,
+    "pf": 2.0,
+    "net_pips": 1191.3,
+    "max_dd": 135.9,
+    "ret_dd": 8.77,
+    "expectancy": 6.55
+  },
+  "USDJPY_VWAP_1SD_TREND_REBOUND": {
+    "trades": 269,
+    "win_rate": 42.8,
+    "pf": 1.47,
+    "net_pips": 890.4,
+    "max_dd": 122.3,
+    "ret_dd": 7.28,
+    "expectancy": 3.31
+  },
+  "USDJPY_KELTNER_MIDLINE_EXPANSION": {
+    "trades": 780,
+    "win_rate": 39.6,
+    "pf": 1.28,
+    "net_pips": 1627.5,
+    "max_dd": 207.5,
+    "ret_dd": 7.84,
+    "expectancy": 2.09
+  },
+  "USDJPY_THREE_BAR_INSIDE_CONFIRMATION": {
+    "trades": 683,
+    "win_rate": 40.0,
+    "pf": 1.29,
+    "net_pips": 1438.7,
+    "max_dd": 253.2,
+    "ret_dd": 5.68,
+    "expectancy": 2.11
+  },
+  "EURGBP_WEEKLY_PIVOT_TREND_PULLBACK": {
+    "trades": 188,
+    "win_rate": 30.3,
+    "pf": 0.99,
+    "net_pips": -14.0,
+    "max_dd": 165.7,
+    "ret_dd": -0.08,
+    "expectancy": -0.07
+  },
+  "EURGBP_VWAP_1SD_TREND_REBOUND": {
+    "trades": 129,
+    "win_rate": 42.6,
+    "pf": 1.28,
+    "net_pips": 185.5,
+    "max_dd": 122.1,
+    "ret_dd": 1.52,
+    "expectancy": 1.44
+  },
+  "EURGBP_KELTNER_MIDLINE_EXPANSION": {
+    "trades": 471,
+    "win_rate": 34.0,
+    "pf": 0.95,
+    "net_pips": -126.2,
+    "max_dd": 279.3,
+    "ret_dd": -0.45,
+    "expectancy": -0.27
+  },
+  "EURGBP_THREE_BAR_INSIDE_CONFIRMATION": {
+    "trades": 332,
+    "win_rate": 34.9,
+    "pf": 0.94,
+    "net_pips": -108.9,
+    "max_dd": 228.8,
+    "ret_dd": -0.48,
+    "expectancy": -0.33
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "strategy": "S66_Bhanushali_44MA",
+  "best_params": {
+    "ma_pb": 48,
+    "ma_macro": 180,
+    "target_rr": 3.4,
+    "touch_pips": 1.5,
+    "buffer_pips": 1.5,
+    "min_risk_pips": 5.0,
+    "max_risk_pips": 20.0,
+    "session": "london_core"
+  },
+  "gate1_pass": true,
+  "gate2_pass": false,
+  "train": {
+    "trades": 49,
+    "pf": 2.85,
+    "rr": 3.5,
+    "win_rate": 44.9,
+    "net_pips": 779.5,
+    "max_dd": 80.0
+  },
+  "test": {
+    "trades": 27,
+    "pf": 1.71,
+    "rr": 3.42,
+    "win_rate": 33.3,
+    "net_pips": 213.1,
+    "max_dd": 133.9
+  },
+  "total_5y": {
+    "trades": 76,
+    "pf": 2.38,
+    "rr": 3.45,
+    "win_rate": 40.8,
+    "net_pips": 992.6,
+    "max_dd": 149.1
+  }
+}

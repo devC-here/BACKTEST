@@ -1,0 +1,990 @@
+[
+  {
+    "id": "USDJPY_Fib_SL20_TP50_LB48_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL20_TP50_LB48_W45",
+      "sl": 20.0,
+      "tp": 50.0,
+      "lb": 48,
+      "wick": 0.45
+    },
+    "is_trades": 53,
+    "is_pips": 999.4,
+    "is_return": 50.0,
+    "is_wr": 56.6,
+    "oos_trades": 113,
+    "oos_net_pips": 1049.8,
+    "oos_ann_pips": 606.6,
+    "oos_ann_ret": 30.3,
+    "oos_wr": 43.4
+  },
+  {
+    "id": "USDJPY_Fib_SL20_TP50_LB60_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL20_TP50_LB60_W45",
+      "sl": 20.0,
+      "tp": 50.0,
+      "lb": 60,
+      "wick": 0.45
+    },
+    "is_trades": 46,
+    "is_pips": 864.4,
+    "is_return": 43.2,
+    "is_wr": 56.5,
+    "oos_trades": 99,
+    "oos_net_pips": 1225.1,
+    "oos_ann_pips": 707.8,
+    "oos_ann_ret": 35.4,
+    "oos_wr": 47.5
+  },
+  {
+    "id": "USDJPY_Fib_SL20_TP50_LB48_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL20_TP50_LB48_W35",
+      "sl": 20.0,
+      "tp": 50.0,
+      "lb": 48,
+      "wick": 0.35
+    },
+    "is_trades": 69,
+    "is_pips": 854.6,
+    "is_return": 42.7,
+    "is_wr": 49.3,
+    "oos_trades": 146,
+    "oos_net_pips": 1004.7,
+    "oos_ann_pips": 580.5,
+    "oos_ann_ret": 29.0,
+    "oos_wr": 40.4
+  },
+  {
+    "id": "USDJPY_Fib_SL20_TP50_LB42_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL20_TP50_LB42_W45",
+      "sl": 20.0,
+      "tp": 50.0,
+      "lb": 42,
+      "wick": 0.45
+    },
+    "is_trades": 61,
+    "is_pips": 825.9,
+    "is_return": 41.3,
+    "is_wr": 52.5,
+    "oos_trades": 114,
+    "oos_net_pips": 991.6,
+    "oos_ann_pips": 572.9,
+    "oos_ann_ret": 28.6,
+    "oos_wr": 43.0
+  },
+  {
+    "id": "USDJPY_Fib_SL25_TP50_LB48_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL25_TP50_LB48_W45",
+      "sl": 25.0,
+      "tp": 50.0,
+      "lb": 48,
+      "wick": 0.45
+    },
+    "is_trades": 52,
+    "is_pips": 1071.8,
+    "is_return": 42.9,
+    "is_wr": 61.5,
+    "oos_trades": 112,
+    "oos_net_pips": 1022.1,
+    "oos_ann_pips": 590.5,
+    "oos_ann_ret": 23.6,
+    "oos_wr": 46.4
+  },
+  {
+    "id": "USDJPY_Fib_SL25_TP50_LB48_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL25_TP50_LB48_W35",
+      "sl": 25.0,
+      "tp": 50.0,
+      "lb": 48,
+      "wick": 0.35
+    },
+    "is_trades": 68,
+    "is_pips": 1018.2,
+    "is_return": 40.7,
+    "is_wr": 55.9,
+    "oos_trades": 144,
+    "oos_net_pips": 1036.2,
+    "oos_ann_pips": 598.7,
+    "oos_ann_ret": 23.9,
+    "oos_wr": 44.4
+  },
+  {
+    "id": "USDJPY_Fib_SL25_TP60_LB60_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL25_TP60_LB60_W45",
+      "sl": 25.0,
+      "tp": 60.0,
+      "lb": 60,
+      "wick": 0.45
+    },
+    "is_trades": 44,
+    "is_pips": 917.1,
+    "is_return": 36.7,
+    "is_wr": 54.5,
+    "oos_trades": 96,
+    "oos_net_pips": 1177.0,
+    "oos_ann_pips": 680.0,
+    "oos_ann_ret": 27.2,
+    "oos_wr": 44.8
+  },
+  {
+    "id": "USDJPY_Fib_SL20_TP50_LB60_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL20_TP50_LB60_W35",
+      "sl": 20.0,
+      "tp": 50.0,
+      "lb": 60,
+      "wick": 0.35
+    },
+    "is_trades": 64,
+    "is_pips": 603.7,
+    "is_return": 30.2,
+    "is_wr": 43.8,
+    "oos_trades": 125,
+    "oos_net_pips": 1114.7,
+    "oos_ann_pips": 644.0,
+    "oos_ann_ret": 32.2,
+    "oos_wr": 43.2
+  },
+  {
+    "id": "USDJPY_Fib_SL25_TP60_LB60_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL25_TP60_LB60_W35",
+      "sl": 25.0,
+      "tp": 60.0,
+      "lb": 60,
+      "wick": 0.35
+    },
+    "is_trades": 61,
+    "is_pips": 782.5,
+    "is_return": 31.3,
+    "is_wr": 45.9,
+    "oos_trades": 123,
+    "oos_net_pips": 1335.2,
+    "oos_ann_pips": 771.4,
+    "oos_ann_ret": 30.9,
+    "oos_wr": 43.9
+  },
+  {
+    "id": "USDJPY_Fib_SL18_TP36_LB60_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL18_TP36_LB60_W45",
+      "sl": 18.0,
+      "tp": 36.0,
+      "lb": 60,
+      "wick": 0.45
+    },
+    "is_trades": 49,
+    "is_pips": 629.0,
+    "is_return": 34.9,
+    "is_wr": 57.1,
+    "oos_trades": 102,
+    "oos_net_pips": 848.0,
+    "oos_ann_pips": 490.0,
+    "oos_ann_ret": 27.2,
+    "oos_wr": 50.0
+  },
+  {
+    "id": "USDJPY_Fib_SL20_TP40_LB60_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL20_TP40_LB60_W45",
+      "sl": 20.0,
+      "tp": 40.0,
+      "lb": 60,
+      "wick": 0.45
+    },
+    "is_trades": 47,
+    "is_pips": 682.7,
+    "is_return": 34.1,
+    "is_wr": 57.4,
+    "oos_trades": 100,
+    "oos_net_pips": 927.3,
+    "oos_ann_pips": 535.8,
+    "oos_ann_ret": 26.8,
+    "oos_wr": 50.0
+  },
+  {
+    "id": "USDJPY_Fib_SL25_TP50_LB60_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL25_TP50_LB60_W45",
+      "sl": 25.0,
+      "tp": 50.0,
+      "lb": 60,
+      "wick": 0.45
+    },
+    "is_trades": 46,
+    "is_pips": 851.7,
+    "is_return": 34.1,
+    "is_wr": 58.7,
+    "oos_trades": 98,
+    "oos_net_pips": 1158.5,
+    "oos_ann_pips": 669.4,
+    "oos_ann_ret": 26.8,
+    "oos_wr": 50.0
+  },
+  {
+    "id": "USDJPY_Fib_SL25_TP60_LB48_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL25_TP60_LB48_W45",
+      "sl": 25.0,
+      "tp": 60.0,
+      "lb": 48,
+      "wick": 0.45
+    },
+    "is_trades": 50,
+    "is_pips": 987.9,
+    "is_return": 39.5,
+    "is_wr": 54.0,
+    "oos_trades": 109,
+    "oos_net_pips": 911.0,
+    "oos_ann_pips": 526.4,
+    "oos_ann_ret": 21.1,
+    "oos_wr": 41.3
+  },
+  {
+    "id": "USDJPY_Fib_SL25_TP60_LB48_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL25_TP60_LB48_W35",
+      "sl": 25.0,
+      "tp": 60.0,
+      "lb": 48,
+      "wick": 0.35
+    },
+    "is_trades": 64,
+    "is_pips": 909.0,
+    "is_return": 36.4,
+    "is_wr": 50.0,
+    "oos_trades": 142,
+    "oos_net_pips": 1000.5,
+    "oos_ann_pips": 578.1,
+    "oos_ann_ret": 23.1,
+    "oos_wr": 40.1
+  },
+  {
+    "id": "USDJPY_Fib_SL18_TP36_LB48_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL18_TP36_LB48_W45",
+      "sl": 18.0,
+      "tp": 36.0,
+      "lb": 48,
+      "wick": 0.45
+    },
+    "is_trades": 55,
+    "is_pips": 680.0,
+    "is_return": 37.8,
+    "is_wr": 56.4,
+    "oos_trades": 115,
+    "oos_net_pips": 653.2,
+    "oos_ann_pips": 377.4,
+    "oos_ann_ret": 21.0,
+    "oos_wr": 45.2
+  },
+  {
+    "id": "USDJPY_Fib_SL20_TP40_LB48_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL20_TP40_LB48_W45",
+      "sl": 20.0,
+      "tp": 40.0,
+      "lb": 48,
+      "wick": 0.45
+    },
+    "is_trades": 54,
+    "is_pips": 777.9,
+    "is_return": 38.9,
+    "is_wr": 57.4,
+    "oos_trades": 114,
+    "oos_net_pips": 684.6,
+    "oos_ann_pips": 395.5,
+    "oos_ann_ret": 19.8,
+    "oos_wr": 44.7
+  },
+  {
+    "id": "USDJPY_Fib_SL25_TP50_LB60_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL25_TP50_LB60_W35",
+      "sl": 25.0,
+      "tp": 50.0,
+      "lb": 60,
+      "wick": 0.35
+    },
+    "is_trades": 64,
+    "is_pips": 747.6,
+    "is_return": 29.9,
+    "is_wr": 50.0,
+    "oos_trades": 124,
+    "oos_net_pips": 1177.0,
+    "oos_ann_pips": 680.0,
+    "oos_ann_ret": 27.2,
+    "oos_wr": 47.6
+  },
+  {
+    "id": "USDJPY_Fib_SL30_TP60_LB60_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL30_TP60_LB60_W45",
+      "sl": 30.0,
+      "tp": 60.0,
+      "lb": 60,
+      "wick": 0.45
+    },
+    "is_trades": 44,
+    "is_pips": 923.3,
+    "is_return": 30.8,
+    "is_wr": 56.8,
+    "oos_trades": 95,
+    "oos_net_pips": 1256.1,
+    "oos_ann_pips": 725.7,
+    "oos_ann_ret": 24.2,
+    "oos_wr": 48.4
+  },
+  {
+    "id": "USDJPY_Fib_SL30_TP60_LB60_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL30_TP60_LB60_W35",
+      "sl": 30.0,
+      "tp": 60.0,
+      "lb": 60,
+      "wick": 0.35
+    },
+    "is_trades": 60,
+    "is_pips": 765.5,
+    "is_return": 25.5,
+    "is_wr": 48.3,
+    "oos_trades": 122,
+    "oos_net_pips": 1520.9,
+    "oos_ann_pips": 878.7,
+    "oos_ann_ret": 29.3,
+    "oos_wr": 48.4
+  },
+  {
+    "id": "USDJPY_Fib_SL20_TP40_LB42_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL20_TP40_LB42_W45",
+      "sl": 20.0,
+      "tp": 40.0,
+      "lb": 42,
+      "wick": 0.45
+    },
+    "is_trades": 63,
+    "is_pips": 664.8,
+    "is_return": 33.2,
+    "is_wr": 54.0,
+    "oos_trades": 115,
+    "oos_net_pips": 673.9,
+    "oos_ann_pips": 389.4,
+    "oos_ann_ret": 19.5,
+    "oos_wr": 44.3
+  },
+  {
+    "id": "USDJPY_Fib_SL30_TP75_LB48_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL30_TP75_LB48_W45",
+      "sl": 30.0,
+      "tp": 75.0,
+      "lb": 48,
+      "wick": 0.45
+    },
+    "is_trades": 44,
+    "is_pips": 998.4,
+    "is_return": 33.3,
+    "is_wr": 52.3,
+    "oos_trades": 105,
+    "oos_net_pips": 995.4,
+    "oos_ann_pips": 575.1,
+    "oos_ann_ret": 19.2,
+    "oos_wr": 39.0
+  },
+  {
+    "id": "USDJPY_Fib_SL20_TP50_LB42_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL20_TP50_LB42_W35",
+      "sl": 20.0,
+      "tp": 50.0,
+      "lb": 42,
+      "wick": 0.35
+    },
+    "is_trades": 80,
+    "is_pips": 590.1,
+    "is_return": 29.5,
+    "is_wr": 42.5,
+    "oos_trades": 151,
+    "oos_net_pips": 782.2,
+    "oos_ann_pips": 451.9,
+    "oos_ann_ret": 22.6,
+    "oos_wr": 38.4
+  },
+  {
+    "id": "USDJPY_Fib_SL30_TP75_LB60_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL30_TP75_LB60_W45",
+      "sl": 30.0,
+      "tp": 75.0,
+      "lb": 60,
+      "wick": 0.45
+    },
+    "is_trades": 42,
+    "is_pips": 953.2,
+    "is_return": 31.8,
+    "is_wr": 52.4,
+    "oos_trades": 93,
+    "oos_net_pips": 1045.4,
+    "oos_ann_pips": 604.0,
+    "oos_ann_ret": 20.1,
+    "oos_wr": 39.8
+  },
+  {
+    "id": "USDJPY_Fib_SL20_TP40_LB48_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL20_TP40_LB48_W35",
+      "sl": 20.0,
+      "tp": 40.0,
+      "lb": 48,
+      "wick": 0.35
+    },
+    "is_trades": 70,
+    "is_pips": 621.7,
+    "is_return": 31.1,
+    "is_wr": 50.0,
+    "oos_trades": 149,
+    "oos_net_pips": 700.6,
+    "oos_ann_pips": 404.8,
+    "oos_ann_ret": 20.2,
+    "oos_wr": 43.0
+  },
+  {
+    "id": "USDJPY_Fib_SL25_TP50_LB42_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL25_TP50_LB42_W45",
+      "sl": 25.0,
+      "tp": 50.0,
+      "lb": 42,
+      "wick": 0.45
+    },
+    "is_trades": 60,
+    "is_pips": 806.7,
+    "is_return": 32.3,
+    "is_wr": 55.0,
+    "oos_trades": 113,
+    "oos_net_pips": 812.4,
+    "oos_ann_pips": 469.4,
+    "oos_ann_ret": 18.8,
+    "oos_wr": 44.2
+  },
+  {
+    "id": "USDJPY_Fib_SL30_TP60_LB48_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL30_TP60_LB48_W45",
+      "sl": 30.0,
+      "tp": 60.0,
+      "lb": 48,
+      "wick": 0.45
+    },
+    "is_trades": 50,
+    "is_pips": 979.8,
+    "is_return": 32.7,
+    "is_wr": 56.0,
+    "oos_trades": 108,
+    "oos_net_pips": 938.3,
+    "oos_ann_pips": 542.1,
+    "oos_ann_ret": 18.1,
+    "oos_wr": 44.4
+  },
+  {
+    "id": "USDJPY_Fib_SL18_TP36_LB60_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL18_TP36_LB60_W35",
+      "sl": 18.0,
+      "tp": 36.0,
+      "lb": 60,
+      "wick": 0.35
+    },
+    "is_trades": 66,
+    "is_pips": 415.3,
+    "is_return": 23.1,
+    "is_wr": 45.5,
+    "oos_trades": 128,
+    "oos_net_pips": 864.1,
+    "oos_ann_pips": 499.3,
+    "oos_ann_ret": 27.7,
+    "oos_wr": 47.7
+  },
+  {
+    "id": "USDJPY_Fib_SL20_TP40_LB60_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL20_TP40_LB60_W35",
+      "sl": 20.0,
+      "tp": 40.0,
+      "lb": 60,
+      "wick": 0.35
+    },
+    "is_trades": 65,
+    "is_pips": 480.7,
+    "is_return": 24.0,
+    "is_wr": 46.2,
+    "oos_trades": 127,
+    "oos_net_pips": 925.7,
+    "oos_ann_pips": 534.8,
+    "oos_ann_ret": 26.7,
+    "oos_wr": 47.2
+  },
+  {
+    "id": "USDJPY_Fib_SL30_TP60_LB48_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL30_TP60_LB48_W35",
+      "sl": 30.0,
+      "tp": 60.0,
+      "lb": 48,
+      "wick": 0.35
+    },
+    "is_trades": 64,
+    "is_pips": 851.7,
+    "is_return": 28.4,
+    "is_wr": 51.6,
+    "oos_trades": 141,
+    "oos_net_pips": 1109.9,
+    "oos_ann_pips": 641.3,
+    "oos_ann_ret": 21.4,
+    "oos_wr": 44.0
+  },
+  {
+    "id": "USDJPY_Fib_SL18_TP36_LB48_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL18_TP36_LB48_W35",
+      "sl": 18.0,
+      "tp": 36.0,
+      "lb": 48,
+      "wick": 0.35
+    },
+    "is_trades": 70,
+    "is_pips": 510.5,
+    "is_return": 28.4,
+    "is_wr": 48.6,
+    "oos_trades": 149,
+    "oos_net_pips": 630.5,
+    "oos_ann_pips": 364.3,
+    "oos_ann_ret": 20.2,
+    "oos_wr": 43.0
+  },
+  {
+    "id": "USDJPY_Fib_SL25_TP60_LB42_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL25_TP60_LB42_W45",
+      "sl": 25.0,
+      "tp": 60.0,
+      "lb": 42,
+      "wick": 0.45
+    },
+    "is_trades": 57,
+    "is_pips": 723.2,
+    "is_return": 28.9,
+    "is_wr": 50.9,
+    "oos_trades": 110,
+    "oos_net_pips": 849.8,
+    "oos_ann_pips": 491.0,
+    "oos_ann_ret": 19.6,
+    "oos_wr": 40.9
+  },
+  {
+    "id": "USDJPY_Fib_SL18_TP36_LB42_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL18_TP36_LB42_W45",
+      "sl": 18.0,
+      "tp": 36.0,
+      "lb": 42,
+      "wick": 0.45
+    },
+    "is_trades": 63,
+    "is_pips": 566.1,
+    "is_return": 31.5,
+    "is_wr": 52.4,
+    "oos_trades": 115,
+    "oos_net_pips": 502.8,
+    "oos_ann_pips": 290.5,
+    "oos_ann_ret": 16.1,
+    "oos_wr": 42.6
+  },
+  {
+    "id": "USDJPY_Fib_SL30_TP75_LB48_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL30_TP75_LB48_W35",
+      "sl": 30.0,
+      "tp": 75.0,
+      "lb": 48,
+      "wick": 0.35
+    },
+    "is_trades": 57,
+    "is_pips": 727.6,
+    "is_return": 24.3,
+    "is_wr": 45.6,
+    "oos_trades": 137,
+    "oos_net_pips": 1190.4,
+    "oos_ann_pips": 687.8,
+    "oos_ann_ret": 22.9,
+    "oos_wr": 38.7
+  },
+  {
+    "id": "USDJPY_Fib_SL30_TP75_LB60_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL30_TP75_LB60_W35",
+      "sl": 30.0,
+      "tp": 75.0,
+      "lb": 60,
+      "wick": 0.35
+    },
+    "is_trades": 56,
+    "is_pips": 665.0,
+    "is_return": 22.2,
+    "is_wr": 42.9,
+    "oos_trades": 120,
+    "oos_net_pips": 1267.5,
+    "oos_ann_pips": 732.3,
+    "oos_ann_ret": 24.4,
+    "oos_wr": 40.0
+  },
+  {
+    "id": "USDJPY_Fib_SL30_TP75_LB42_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL30_TP75_LB42_W45",
+      "sl": 30.0,
+      "tp": 75.0,
+      "lb": 42,
+      "wick": 0.45
+    },
+    "is_trades": 51,
+    "is_pips": 702.1,
+    "is_return": 23.4,
+    "is_wr": 47.1,
+    "oos_trades": 107,
+    "oos_net_pips": 1091.3,
+    "oos_ann_pips": 630.5,
+    "oos_ann_ret": 21.0,
+    "oos_wr": 40.2
+  },
+  {
+    "id": "USDJPY_Fib_SL20_TP50_LB36_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL20_TP50_LB36_W45",
+      "sl": 20.0,
+      "tp": 50.0,
+      "lb": 36,
+      "wick": 0.45
+    },
+    "is_trades": 61,
+    "is_pips": 433.9,
+    "is_return": 21.7,
+    "is_wr": 41.0,
+    "oos_trades": 121,
+    "oos_net_pips": 706.7,
+    "oos_ann_pips": 408.3,
+    "oos_ann_ret": 20.4,
+    "oos_wr": 38.8
+  },
+  {
+    "id": "USDJPY_Fib_SL30_TP60_LB42_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL30_TP60_LB42_W45",
+      "sl": 30.0,
+      "tp": 60.0,
+      "lb": 42,
+      "wick": 0.45
+    },
+    "is_trades": 57,
+    "is_pips": 694.2,
+    "is_return": 23.1,
+    "is_wr": 52.6,
+    "oos_trades": 109,
+    "oos_net_pips": 955.2,
+    "oos_ann_pips": 551.9,
+    "oos_ann_ret": 18.4,
+    "oos_wr": 45.0
+  },
+  {
+    "id": "USDJPY_Fib_SL25_TP50_LB42_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL25_TP50_LB42_W35",
+      "sl": 25.0,
+      "tp": 50.0,
+      "lb": 42,
+      "wick": 0.35
+    },
+    "is_trades": 78,
+    "is_pips": 678.1,
+    "is_return": 27.1,
+    "is_wr": 47.4,
+    "oos_trades": 150,
+    "oos_net_pips": 613.3,
+    "oos_ann_pips": 354.4,
+    "oos_ann_ret": 14.2,
+    "oos_wr": 40.7
+  },
+  {
+    "id": "USDJPY_Fib_SL25_TP60_LB42_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL25_TP60_LB42_W35",
+      "sl": 25.0,
+      "tp": 60.0,
+      "lb": 42,
+      "wick": 0.35
+    },
+    "is_trades": 73,
+    "is_pips": 564.4,
+    "is_return": 22.6,
+    "is_wr": 42.5,
+    "oos_trades": 146,
+    "oos_net_pips": 758.2,
+    "oos_ann_pips": 438.1,
+    "oos_ann_ret": 17.5,
+    "oos_wr": 38.4
+  },
+  {
+    "id": "USDJPY_Fib_SL25_TP50_LB36_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL25_TP50_LB36_W45",
+      "sl": 25.0,
+      "tp": 50.0,
+      "lb": 36,
+      "wick": 0.45
+    },
+    "is_trades": 60,
+    "is_pips": 534.6,
+    "is_return": 21.4,
+    "is_wr": 46.7,
+    "oos_trades": 120,
+    "oos_net_pips": 710.2,
+    "oos_ann_pips": 410.3,
+    "oos_ann_ret": 16.4,
+    "oos_wr": 42.5
+  },
+  {
+    "id": "USDJPY_Fib_SL25_TP60_LB36_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL25_TP60_LB36_W45",
+      "sl": 25.0,
+      "tp": 60.0,
+      "lb": 36,
+      "wick": 0.45
+    },
+    "is_trades": 59,
+    "is_pips": 513.3,
+    "is_return": 20.5,
+    "is_wr": 42.4,
+    "oos_trades": 118,
+    "oos_net_pips": 722.1,
+    "oos_ann_pips": 417.2,
+    "oos_ann_ret": 16.7,
+    "oos_wr": 39.0
+  },
+  {
+    "id": "USDJPY_Fib_SL20_TP40_LB42_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL20_TP40_LB42_W35",
+      "sl": 20.0,
+      "tp": 40.0,
+      "lb": 42,
+      "wick": 0.35
+    },
+    "is_trades": 81,
+    "is_pips": 451.4,
+    "is_return": 22.6,
+    "is_wr": 44.4,
+    "oos_trades": 152,
+    "oos_net_pips": 477.9,
+    "oos_ann_pips": 276.1,
+    "oos_ann_ret": 13.8,
+    "oos_wr": 40.1
+  },
+  {
+    "id": "USDJPY_Fib_SL30_TP60_LB42_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL30_TP60_LB42_W35",
+      "sl": 30.0,
+      "tp": 60.0,
+      "lb": 42,
+      "wick": 0.35
+    },
+    "is_trades": 73,
+    "is_pips": 475.5,
+    "is_return": 15.9,
+    "is_wr": 43.8,
+    "oos_trades": 145,
+    "oos_net_pips": 925.1,
+    "oos_ann_pips": 534.5,
+    "oos_ann_ret": 17.8,
+    "oos_wr": 42.8
+  },
+  {
+    "id": "USDJPY_Fib_SL30_TP75_LB42_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL30_TP75_LB42_W35",
+      "sl": 30.0,
+      "tp": 75.0,
+      "lb": 42,
+      "wick": 0.35
+    },
+    "is_trades": 66,
+    "is_pips": 379.7,
+    "is_return": 12.7,
+    "is_wr": 39.4,
+    "oos_trades": 141,
+    "oos_net_pips": 1061.5,
+    "oos_ann_pips": 613.3,
+    "oos_ann_ret": 20.4,
+    "oos_wr": 38.3
+  },
+  {
+    "id": "USDJPY_Fib_SL18_TP36_LB42_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL18_TP36_LB42_W35",
+      "sl": 18.0,
+      "tp": 36.0,
+      "lb": 42,
+      "wick": 0.35
+    },
+    "is_trades": 81,
+    "is_pips": 362.2,
+    "is_return": 20.1,
+    "is_wr": 43.2,
+    "oos_trades": 152,
+    "oos_net_pips": 371.4,
+    "oos_ann_pips": 214.6,
+    "oos_ann_ret": 11.9,
+    "oos_wr": 39.5
+  },
+  {
+    "id": "USDJPY_Fib_SL20_TP40_LB36_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL20_TP40_LB36_W45",
+      "sl": 20.0,
+      "tp": 40.0,
+      "lb": 36,
+      "wick": 0.45
+    },
+    "is_trades": 63,
+    "is_pips": 322.0,
+    "is_return": 16.1,
+    "is_wr": 42.9,
+    "oos_trades": 122,
+    "oos_net_pips": 383.1,
+    "oos_ann_pips": 221.3,
+    "oos_ann_ret": 11.1,
+    "oos_wr": 40.2
+  },
+  {
+    "id": "USDJPY_Fib_SL20_TP50_LB36_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL20_TP50_LB36_W35",
+      "sl": 20.0,
+      "tp": 50.0,
+      "lb": 36,
+      "wick": 0.35
+    },
+    "is_trades": 77,
+    "is_pips": 267.0,
+    "is_return": 13.4,
+    "is_wr": 36.4,
+    "oos_trades": 149,
+    "oos_net_pips": 414.4,
+    "oos_ann_pips": 239.4,
+    "oos_ann_ret": 12.0,
+    "oos_wr": 34.9
+  },
+  {
+    "id": "USDJPY_Fib_SL30_TP60_LB36_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL30_TP60_LB36_W45",
+      "sl": 30.0,
+      "tp": 60.0,
+      "lb": 36,
+      "wick": 0.45
+    },
+    "is_trades": 59,
+    "is_pips": 406.2,
+    "is_return": 13.5,
+    "is_wr": 44.1,
+    "oos_trades": 117,
+    "oos_net_pips": 611.6,
+    "oos_ann_pips": 353.4,
+    "oos_ann_ret": 11.8,
+    "oos_wr": 41.0
+  },
+  {
+    "id": "USDJPY_Fib_SL25_TP50_LB36_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL25_TP50_LB36_W35",
+      "sl": 25.0,
+      "tp": 50.0,
+      "lb": 36,
+      "wick": 0.35
+    },
+    "is_trades": 75,
+    "is_pips": 351.4,
+    "is_return": 14.1,
+    "is_wr": 41.3,
+    "oos_trades": 148,
+    "oos_net_pips": 443.3,
+    "oos_ann_pips": 256.1,
+    "oos_ann_ret": 10.2,
+    "oos_wr": 39.2
+  },
+  {
+    "id": "USDJPY_Fib_SL30_TP75_LB36_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL30_TP75_LB36_W45",
+      "sl": 30.0,
+      "tp": 75.0,
+      "lb": 36,
+      "wick": 0.45
+    },
+    "is_trades": 54,
+    "is_pips": 404.1,
+    "is_return": 13.5,
+    "is_wr": 42.6,
+    "oos_trades": 114,
+    "oos_net_pips": 476.1,
+    "oos_ann_pips": 275.1,
+    "oos_ann_ret": 9.2,
+    "oos_wr": 35.1
+  },
+  {
+    "id": "USDJPY_Fib_SL18_TP36_LB36_W45",
+    "params": {
+      "id": "USDJPY_Fib_SL18_TP36_LB36_W45",
+      "sl": 18.0,
+      "tp": 36.0,
+      "lb": 36,
+      "wick": 0.45
+    },
+    "is_trades": 64,
+    "is_pips": 236.7,
+    "is_return": 13.2,
+    "is_wr": 40.6,
+    "oos_trades": 123,
+    "oos_net_pips": 159.3,
+    "oos_ann_pips": 92.0,
+    "oos_ann_ret": 5.1,
+    "oos_wr": 37.4
+  },
+  {
+    "id": "USDJPY_Fib_SL20_TP40_LB36_W35",
+    "params": {
+      "id": "USDJPY_Fib_SL20_TP40_LB36_W35",
+      "sl": 20.0,
+      "tp": 40.0,
+      "lb": 36,
+      "wick": 0.35
+    },
+    "is_trades": 78,
+    "is_pips": 237.4,
+    "is_return": 11.9,
+    "is_wr": 39.7,
+    "oos_trades": 151,
+    "oos_net_pips": 171.1,
+    "oos_ann_pips": 98.9,
+    "oos_ann_ret": 4.9,
+    "oos_wr": 37.1
+  }
+]

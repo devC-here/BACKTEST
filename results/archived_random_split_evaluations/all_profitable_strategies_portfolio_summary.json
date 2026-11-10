@@ -1,0 +1,307 @@
+{
+  "model_stats": {
+    "EURUSD_DISC42_H4_M30": {
+      "asset": "EURUSD",
+      "model": "DISC42_H4_M30",
+      "trades": 48,
+      "win_rate": 72.91666666666666,
+      "profit_factor": 3.967840735069042,
+      "net_pips": 387.60000000001236
+    },
+    "EURUSD_DISC45_M5": {
+      "asset": "EURUSD",
+      "model": "DISC45_M5",
+      "trades": 620,
+      "win_rate": 53.87096774193548,
+      "profit_factor": 1.5729519004758157,
+      "net_pips": 999.3999999999681
+    },
+    "EURUSD_DISC40_RSI": {
+      "asset": "EURUSD",
+      "model": "DISC40_RSI",
+      "trades": 611,
+      "win_rate": 44.02618657937807,
+      "profit_factor": 1.3104824084149074,
+      "net_pips": 1112.7999999999038
+    },
+    "EURUSD_DISC43_H1_M5": {
+      "asset": "EURUSD",
+      "model": "DISC43_H1_M5",
+      "trades": 292,
+      "win_rate": 48.28767123287671,
+      "profit_factor": 1.474083712860523,
+      "net_pips": 437.19999999998873
+    },
+    "EURUSD_HF_M15": {
+      "asset": "EURUSD",
+      "model": "HF_M15",
+      "trades": 1903,
+      "win_rate": 35.68050446663163,
+      "profit_factor": 1.1315310456414767,
+      "net_pips": 1755.9000000000215
+    },
+    "EURUSD_S10_EMA": {
+      "asset": "EURUSD",
+      "model": "S10_EMA",
+      "trades": 296,
+      "win_rate": 31.41891891891892,
+      "profit_factor": 1.1452808626600597,
+      "net_pips": 495.7999999999884
+    },
+    "EURUSD_DISC03_NY": {
+      "asset": "EURUSD",
+      "model": "DISC03_NY",
+      "trades": 200,
+      "win_rate": 45.0,
+      "profit_factor": 1.2894173093401833,
+      "net_pips": 405.29999999999734
+    },
+    "EURUSD_DISC41_THURSDAY": {
+      "asset": "EURUSD",
+      "model": "DISC41_THURSDAY",
+      "trades": 133,
+      "win_rate": 43.609022556390975,
+      "profit_factor": 1.3010839380094779,
+      "net_pips": 336.09999999998695
+    },
+    "EURUSD_DISC38_MACD": {
+      "asset": "EURUSD",
+      "model": "DISC38_MACD",
+      "trades": 193,
+      "win_rate": 43.005181347150256,
+      "profit_factor": 1.2759922985781806,
+      "net_pips": 372.6999999999825
+    },
+    "EURUSD_DISC39_STOCH": {
+      "asset": "EURUSD",
+      "model": "DISC39_STOCH",
+      "trades": 438,
+      "win_rate": 42.465753424657535,
+      "profit_factor": 1.224024469366903,
+      "net_pips": 483.39999999992057
+    },
+    "EURUSD_COMB12_BB": {
+      "asset": "EURUSD",
+      "model": "COMB12_BB",
+      "trades": 329,
+      "win_rate": 41.94528875379939,
+      "profit_factor": 1.1793269987925932,
+      "net_pips": 341.6000000000119
+    },
+    "EURUSD_COMB27_SUPERTREND": {
+      "asset": "EURUSD",
+      "model": "COMB27_SUPERTREND",
+      "trades": 336,
+      "win_rate": 33.63095238095239,
+      "profit_factor": 1.1373551315383614,
+      "net_pips": 311.70000000000476
+    },
+    "USDJPY_DISC46_Daily_Pivot": {
+      "asset": "USDJPY",
+      "model": "DISC46_Daily_Pivot",
+      "trades": 95,
+      "win_rate": 60.0,
+      "profit_factor": 2.4250578703703796,
+      "net_pips": 492.50000000000966
+    },
+    "USDJPY_DISC48_Camarilla": {
+      "asset": "USDJPY",
+      "model": "DISC48_Camarilla",
+      "trades": 204,
+      "win_rate": 46.568627450980394,
+      "profit_factor": 1.442522025262701,
+      "net_pips": 416.8999999999983
+    },
+    "USDJPY_DISC47_Weekly_Pivot": {
+      "asset": "USDJPY",
+      "model": "DISC47_Weekly_Pivot",
+      "trades": 215,
+      "win_rate": 44.18604651162791,
+      "profit_factor": 1.3088758205689086,
+      "net_pips": 451.6999999999797
+    },
+    "USDJPY_DISC42_H4_M30": {
+      "asset": "USDJPY",
+      "model": "DISC42_H4_M30",
+      "trades": 31,
+      "win_rate": 74.19354838709677,
+      "profit_factor": 4.280246913580316,
+      "net_pips": 265.700000000011
+    },
+    "USDJPY_DISC45_M5": {
+      "asset": "USDJPY",
+      "model": "DISC45_M5",
+      "trades": 386,
+      "win_rate": 53.10880829015544,
+      "profit_factor": 1.4819819819820126,
+      "net_pips": 545.7000000000534
+    },
+    "USDJPY_DISC43_H1_M5": {
+      "asset": "USDJPY",
+      "model": "DISC43_H1_M5",
+      "trades": 166,
+      "win_rate": 49.39759036144578,
+      "profit_factor": 1.4773990366801992,
+      "net_pips": 257.6999999999842
+    },
+    "USDJPY_DISC41_THURSDAY": {
+      "asset": "USDJPY",
+      "model": "DISC41_THURSDAY",
+      "trades": 132,
+      "win_rate": 40.15151515151515,
+      "profit_factor": 1.1505858028945375,
+      "net_pips": 174.799999999982
+    },
+    "USDJPY_DISC38_MACD": {
+      "asset": "USDJPY",
+      "model": "DISC38_MACD",
+      "trades": 250,
+      "win_rate": 42.4,
+      "profit_factor": 1.2411077925604148,
+      "net_pips": 444.0000000000026
+    },
+    "USDJPY_DISC39_STOCH": {
+      "asset": "USDJPY",
+      "model": "DISC39_STOCH",
+      "trades": 500,
+      "win_rate": 40.0,
+      "profit_factor": 1.1599899849774438,
+      "net_pips": 447.2999999999402
+    },
+    "USDJPY_HF_M15": {
+      "asset": "USDJPY",
+      "model": "HF_M15",
+      "trades": 932,
+      "win_rate": 37.98283261802575,
+      "profit_factor": 1.0860298425774224,
+      "net_pips": 2452.1000000000145
+    },
+    "EURGBP_DISC46_Daily_Pivot": {
+      "asset": "EURGBP",
+      "model": "DISC46_Daily_Pivot",
+      "trades": 114,
+      "win_rate": 62.28070175438597,
+      "profit_factor": 2.535451080050818,
+      "net_pips": 604.2000000000036
+    },
+    "EURGBP_DISC48_Camarilla": {
+      "asset": "EURGBP",
+      "model": "DISC48_Camarilla",
+      "trades": 217,
+      "win_rate": 51.1520737327189,
+      "profit_factor": 1.7240183465711971,
+      "net_pips": 647.2
+    },
+    "EURGBP_DISC42_Macro_Structure": {
+      "asset": "EURGBP",
+      "model": "DISC42_Macro_Structure",
+      "trades": 57,
+      "win_rate": 64.91228070175438,
+      "profit_factor": 2.6097676623992556,
+      "net_pips": 339.50000000000034
+    },
+    "EURGBP_DISC45_M5_Rejection": {
+      "asset": "EURGBP",
+      "model": "DISC45_M5_Rejection",
+      "trades": 368,
+      "win_rate": 49.184782608695656,
+      "profit_factor": 1.2671843289508153,
+      "net_pips": 302.79999999997307
+    },
+    "EURGBP_DISC47_Weekly_Pivot": {
+      "asset": "EURGBP",
+      "model": "DISC47_Weekly_Pivot",
+      "trades": 203,
+      "win_rate": 44.827586206896555,
+      "profit_factor": 1.3655731377846307,
+      "net_pips": 473.5999999999918
+    },
+    "EURGBP_DISC43_Intraday_Precision": {
+      "asset": "EURGBP",
+      "model": "DISC43_Intraday_Precision",
+      "trades": 181,
+      "win_rate": 44.19889502762431,
+      "profit_factor": 1.2481215289120626,
+      "net_pips": 151.8999999999715
+    }
+  },
+  "overall": {
+    "total_trades": 9450,
+    "total_pips": 15907.099999999702,
+    "win_rate": 42.96296296296296,
+    "profit_factor": 1.2074313337097542,
+    "max_drawdown_pips": 1265.599999999995,
+    "return_to_dd": 12.568821112515618
+  },
+  "yearly": {
+    "2021": {
+      "year": 2021,
+      "trades": 1326,
+      "net_pips": 2516.7999999999392,
+      "win_rate": 47.134238310708895,
+      "profit_factor": 1.326534848720732,
+      "max_dd_pips": 565.4000000000044,
+      "ret_to_dd": 4.451361867704138
+    },
+    "2022": {
+      "year": 2022,
+      "trades": 1778,
+      "net_pips": 3704.899999999948,
+      "win_rate": 44.99437570303712,
+      "profit_factor": 1.2352900083195153,
+      "max_dd_pips": 805.7999999999929,
+      "ret_to_dd": 4.597791015140209
+    },
+    "2023": {
+      "year": 2023,
+      "trades": 1574,
+      "net_pips": 2428.3999999999733,
+      "win_rate": 41.67725540025413,
+      "profit_factor": 1.1734459927576055,
+      "max_dd_pips": 1138.1000000000206,
+      "ret_to_dd": 2.1337316580264734
+    },
+    "2024": {
+      "year": 2024,
+      "trades": 1937,
+      "net_pips": 4316.699999999898,
+      "win_rate": 42.84976768198245,
+      "profit_factor": 1.2863824536262938,
+      "max_dd_pips": 1016.8000000000047,
+      "ret_to_dd": 4.245377655389337
+    },
+    "2025": {
+      "year": 2025,
+      "trades": 1608,
+      "net_pips": 1792.3999999999494,
+      "win_rate": 40.85820895522388,
+      "profit_factor": 1.1229751703223907,
+      "max_dd_pips": 1265.6000000000013,
+      "ret_to_dd": 1.4162452591655716
+    },
+    "2026": {
+      "year": 2026,
+      "trades": 1227,
+      "net_pips": 1147.8999999999949,
+      "win_rate": 40.09779951100245,
+      "profit_factor": 1.1197850360012507,
+      "max_dd_pips": 889.3000000000171,
+      "ret_to_dd": 1.2907905093893768
+    }
+  },
+  "avg_correlation": 0.017534477356530357,
+  "max_concurrent_trades": 10,
+  "concurrency_distribution": {
+    "0": 36.17284504440563,
+    "1": 36.109798174146064,
+    "2": 17.01289529871726,
+    "3": 6.769024890918224,
+    "4": 2.4868367975990044,
+    "5": 0.9593205954727781,
+    "6": 0.3131704881003813,
+    "7": 0.09919733784802767,
+    "8": 0.062003584381799766,
+    "9": 0.014524959389344868,
+    "10": 0.0003828290214832612
+  }
+}

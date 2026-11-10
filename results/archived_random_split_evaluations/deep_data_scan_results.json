@@ -1,0 +1,217 @@
+{
+  "total_ticks": 25928220,
+  "weeks_scanned": 52,
+  "hourly_diurnal_smile": {
+    "0": {
+      "regime": "Asian Session (Tokyo Early)",
+      "spread_pips": 0.41,
+      "ticks_per_15m": 841.0,
+      "range_pips_15m": 6.4,
+      "parkinson_vol": 0.00039,
+      "hurst_exponent": 0.5
+    },
+    "1": {
+      "regime": "Asian Session (Tokyo Active)",
+      "spread_pips": 0.41,
+      "ticks_per_15m": 982.0,
+      "range_pips_15m": 6.3,
+      "parkinson_vol": 0.00038,
+      "hurst_exponent": 0.5
+    },
+    "2": {
+      "regime": "Asian Session (Tokyo Active)",
+      "spread_pips": 0.4,
+      "ticks_per_15m": 739.0,
+      "range_pips_15m": 5.3,
+      "parkinson_vol": 0.00032,
+      "hurst_exponent": 0.5
+    },
+    "3": {
+      "regime": "Asian Session (Pre-China)",
+      "spread_pips": 0.4,
+      "ticks_per_15m": 615.0,
+      "range_pips_15m": 4.6,
+      "parkinson_vol": 0.00029,
+      "hurst_exponent": 0.5
+    },
+    "4": {
+      "regime": "Asian Session (Late Asian)",
+      "spread_pips": 0.4,
+      "ticks_per_15m": 525.0,
+      "range_pips_15m": 4.3,
+      "parkinson_vol": 0.00028,
+      "hurst_exponent": 0.5
+    },
+    "5": {
+      "regime": "Frankfurt Early Bird Open",
+      "spread_pips": 0.4,
+      "ticks_per_15m": 672.0,
+      "range_pips_15m": 5.1,
+      "parkinson_vol": 0.00032,
+      "hurst_exponent": 0.5
+    },
+    "6": {
+      "regime": "Frankfurt Pre-London Accumulation",
+      "spread_pips": 0.37,
+      "ticks_per_15m": 1136.0,
+      "range_pips_15m": 7.9,
+      "parkinson_vol": 0.00049,
+      "hurst_exponent": 0.5
+    },
+    "7": {
+      "regime": "London Cash Open (Initial Surge)",
+      "spread_pips": 0.35,
+      "ticks_per_15m": 1638.0,
+      "range_pips_15m": 11.0,
+      "parkinson_vol": 0.00068,
+      "hurst_exponent": 0.5
+    },
+    "8": {
+      "regime": "London Peak Liquidity Window",
+      "spread_pips": 0.34,
+      "ticks_per_15m": 1605.0,
+      "range_pips_15m": 11.0,
+      "parkinson_vol": 0.00066,
+      "hurst_exponent": 0.5
+    },
+    "9": {
+      "regime": "London Morning Expansion",
+      "spread_pips": 0.34,
+      "ticks_per_15m": 1368.0,
+      "range_pips_15m": 9.6,
+      "parkinson_vol": 0.00058,
+      "hurst_exponent": 0.5
+    },
+    "10": {
+      "regime": "London Midday Transition",
+      "spread_pips": 0.34,
+      "ticks_per_15m": 1248.0,
+      "range_pips_15m": 9.0,
+      "parkinson_vol": 0.00055,
+      "hurst_exponent": 0.5
+    },
+    "11": {
+      "regime": "London Lunch Stagnation",
+      "spread_pips": 0.33,
+      "ticks_per_15m": 1339.0,
+      "range_pips_15m": 9.5,
+      "parkinson_vol": 0.00059,
+      "hurst_exponent": 0.5
+    },
+    "12": {
+      "regime": "European Midday / US Pre-Market",
+      "spread_pips": 0.33,
+      "ticks_per_15m": 1789.0,
+      "range_pips_15m": 11.8,
+      "parkinson_vol": 0.00077,
+      "hurst_exponent": 0.5
+    },
+    "13": {
+      "regime": "NY Cash Open / London-NY Overlap",
+      "spread_pips": 0.33,
+      "ticks_per_15m": 2018.0,
+      "range_pips_15m": 13.1,
+      "parkinson_vol": 0.00082,
+      "hurst_exponent": 0.5
+    },
+    "14": {
+      "regime": "London-NY Peak Overlap Liquidity",
+      "spread_pips": 0.32,
+      "ticks_per_15m": 2178.0,
+      "range_pips_15m": 13.9,
+      "parkinson_vol": 0.00085,
+      "hurst_exponent": 0.5
+    },
+    "15": {
+      "regime": "Pre-London Fix Institutional Flow",
+      "spread_pips": 0.32,
+      "ticks_per_15m": 1684.0,
+      "range_pips_15m": 11.6,
+      "parkinson_vol": 0.0007,
+      "hurst_exponent": 0.5
+    },
+    "16": {
+      "regime": "London Cash Close / US Afternoon",
+      "spread_pips": 0.33,
+      "ticks_per_15m": 1196.0,
+      "range_pips_15m": 9.0,
+      "parkinson_vol": 0.00054,
+      "hurst_exponent": 0.5
+    },
+    "17": {
+      "regime": "US Afternoon Trend Continuation",
+      "spread_pips": 0.34,
+      "ticks_per_15m": 891.0,
+      "range_pips_15m": 7.4,
+      "parkinson_vol": 0.00046,
+      "hurst_exponent": 0.5
+    },
+    "18": {
+      "regime": "US Afternoon Trend Continuation",
+      "spread_pips": 0.36,
+      "ticks_per_15m": 958.0,
+      "range_pips_15m": 7.3,
+      "parkinson_vol": 0.00049,
+      "hurst_exponent": 0.5
+    },
+    "19": {
+      "regime": "Late US Session",
+      "spread_pips": 0.38,
+      "ticks_per_15m": 911.0,
+      "range_pips_15m": 6.4,
+      "parkinson_vol": 0.00041,
+      "hurst_exponent": 0.5
+    },
+    "20": {
+      "regime": "US Cash Close (4 PM EST)",
+      "spread_pips": 0.48,
+      "ticks_per_15m": 495.0,
+      "range_pips_15m": 4.6,
+      "parkinson_vol": 0.00028,
+      "hurst_exponent": 0.5
+    },
+    "21": {
+      "regime": "Post-Close / Global Rollover Spread",
+      "spread_pips": 1.63,
+      "ticks_per_15m": 323.0,
+      "range_pips_15m": 3.1,
+      "parkinson_vol": 0.0002,
+      "hurst_exponent": 0.5
+    },
+    "22": {
+      "regime": "Sydney Open (Early Asian)",
+      "spread_pips": 1.19,
+      "ticks_per_15m": 380.0,
+      "range_pips_15m": 3.5,
+      "parkinson_vol": 0.00022,
+      "hurst_exponent": 0.5
+    },
+    "23": {
+      "regime": "Wellington / Sydney Active",
+      "spread_pips": 0.49,
+      "ticks_per_15m": 410.0,
+      "range_pips_15m": 3.6,
+      "parkinson_vol": 0.00022,
+      "hurst_exponent": 0.5
+    }
+  },
+  "sampling_density": {
+    "m15_bars": 23528,
+    "range_10p_bars": 15470,
+    "tick_1000t_bars": 25953
+  },
+  "ofi_absorption_metrics": {
+    "trades": 143,
+    "win_rate": 32.2,
+    "profit_factor": 0.79,
+    "net_pips": -231.1,
+    "max_dd": 328.7
+  },
+  "tick_velocity_ignition_metrics": {
+    "trades": 104,
+    "win_rate": 39.4,
+    "profit_factor": 1.0,
+    "net_pips": 0.6,
+    "max_dd": 189.6
+  }
+}

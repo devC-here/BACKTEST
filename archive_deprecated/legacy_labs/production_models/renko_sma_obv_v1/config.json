@@ -1,0 +1,32 @@
+{
+  "model_name": "RenkoSmaObv_V1",
+  "status": "ARCHIVED_RESEARCH",
+  "description": "Renko SMA-10 + OBV Directional Pullback Strategy with Volatility-Adaptive Dynamic R:R",
+  "asset": "EURUSD",
+  "execution": {
+    "engine": "BacktestEngine",
+    "pip_size": 0.0001,
+    "spread_model": "floating_dukascopy_ticks"
+  },
+  "parameters": {
+    "brick_size_pips": 7.0,
+    "sl_bricks": 1.5,
+    "static_rr": 1.8,
+    "rr_mode": "volatility_adaptive",
+    "obv_ema_period": 14,
+    "session_filter": true,
+    "session_start_hour": 7,
+    "session_end_hour": 18
+  },
+  "annual_benchmark_metrics": {
+    "sample_horizon": "53 Weeks (Full Year)",
+    "total_ticks": 18026436,
+    "total_trades": 211,
+    "win_rate_pct": 37.9,
+    "net_pips": 145.5,
+    "profit_factor": 1.08,
+    "max_drawdown_pips": 177.8,
+    "avg_trade_pips": 0.69
+  },
+  "archival_rationale": "Profit Factor of 1.08 is structurally too thin to withstand a 25% live execution dilution. Renko brick formation introduces severe time-lag, causing trade entries to lag price pivots by 10-15 pips and suffering from 15-20% spread drag on EURUSD."
+}

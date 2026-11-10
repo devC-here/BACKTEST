@@ -1,0 +1,1077 @@
+{
+  "1": {
+    "num": 1,
+    "name": "ict_breaker",
+    "title": "ICT Market Structure Shift & Breaker Block (M15)",
+    "file": "forex_ict_breaker_block_scanner.py",
+    "video_id": "B-Y_5S0kVpQ",
+    "raw_sl": [
+      "✅ Stop-Loss: Breaker Block zone ke thoda upar"
+    ],
+    "raw_tp": [
+      "✅ Target: Fixed 1:2 Risk Reward (koi partial exits nahi, koi trailing nahi)"
+    ],
+    "raw_rr": [
+      "✅ Target: Fixed 1:2 Risk Reward (koi partial exits nahi, koi trailing nahi)"
+    ],
+    "raw_be": [
+      "✅ Target: Fixed 1:2 Risk Reward (koi partial exits nahi, koi trailing nahi)"
+    ]
+  },
+  "2": {
+    "num": 2,
+    "name": "ict_order_block",
+    "title": "H4 Institutional Order Block + M15 FVG Retest (H4/M15)",
+    "file": "forex_ict_order_block_scanner.py",
+    "video_id": "4W3SUtxl0u8",
+    "raw_sl": [
+      "✅ Stop-Loss: Daily OB midpoint se thoda neeche"
+    ],
+    "raw_tp": [
+      "✅ Target: Daily chart ka major liquidity level"
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "3": {
+    "num": 3,
+    "name": "tg_capital_london",
+    "title": "TG Capital London Killzone EMA Stack + FVG 50% Eq (M30)",
+    "file": "indicator_tg_capital_london_fvg_scanner.py",
+    "video_id": "_bdNNLDEyOU",
+    "raw_sl": [],
+    "raw_tp": [],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "4": {
+    "num": 4,
+    "name": "william_fractal",
+    "title": "Neeraj Joshi 4H Fractal Sweep Reversal (H4/M5)",
+    "file": "forex_william_fractal_scanner.py",
+    "video_id": "_0d1qw3p-wQ",
+    "raw_sl": [
+      "✅ Stop-Loss: Breakout ke baad jo highest wick bani uske thoda upar"
+    ],
+    "raw_tp": [
+      "✅ Target: Fixed 1:2 Risk Reward"
+    ],
+    "raw_rr": [
+      "✅ Target: Fixed 1:2 Risk Reward"
+    ],
+    "raw_be": []
+  },
+  "5": {
+    "num": 5,
+    "name": "slc_supply_demand",
+    "title": "SLC Supply/Demand Zones + Stochastic %K/%D (H1/M5)",
+    "file": "forex_slc_supply_demand_scanner.py",
+    "video_id": "snzJ4zWZXno",
+    "raw_sl": [
+      "✅ Stop-Loss: Demand Zone ke thoda neeche"
+    ],
+    "raw_tp": [
+      "✅ Target: 1:2 Risk Reward fixed"
+    ],
+    "raw_rr": [
+      "✅ Target: 1:2 Risk Reward fixed"
+    ],
+    "raw_be": []
+  },
+  "6": {
+    "num": 6,
+    "name": "fibonacci_golden",
+    "title": "The Trading School 0.618 - 0.786 Golden Phantom Zone (M15)",
+    "file": "indicator_fibonacci_golden_zone_scanner.py",
+    "video_id": "epI1Clb4r54",
+    "raw_sl": [
+      "Risk Management Guidelines: Placing strict protective stop loss limits right above the macro 0.786 Fibonacci boundary and configuring execution targets at a fixed 1:2 risk-reward distribution."
+    ],
+    "raw_tp": [
+      "Risk Management Guidelines: Placing strict protective stop loss limits right above the macro 0.786 Fibonacci boundary and configuring execution targets at a fixed 1:2 risk-reward distribution."
+    ],
+    "raw_rr": [
+      "Risk Management Guidelines: Placing strict protective stop loss limits right above the macro 0.786 Fibonacci boundary and configuring execution targets at a fixed 1:2 risk-reward distribution."
+    ],
+    "raw_be": []
+  },
+  "7": {
+    "num": 7,
+    "name": "stockburner_tl",
+    "title": "Stock Burner H1 Trend + M15 Pullback Trendline Break (M15)",
+    "file": "indicator_stockburner_trendline_scanner.py",
+    "video_id": "Q2EyAXyrcV0",
+    "raw_sl": [
+      "✅ Stop-Loss: Neeche wale swing low ke thoda neeche",
+      "✅ Target fixed nahi. Jab tak trend chale, SL trail karte jao har naye swing low ke neeche"
+    ],
+    "raw_tp": [
+      "✅ Target fixed nahi. Jab tak trend chale, SL trail karte jao har naye swing low ke neeche"
+    ],
+    "raw_rr": [],
+    "raw_be": [
+      "✅ Target fixed nahi. Jab tak trend chale, SL trail karte jao har naye swing low ke neeche",
+      "#stockburner #trendline #multiframe #4htrading #15mtrading #swingtrading #cryptofutures #btcusdt #ethusdt #backtesting #automatedtrading #pythontrading #quanttrading #trailingstop #priceaction"
+    ]
+  },
+  "8": {
+    "num": 8,
+    "name": "smart_money_gold",
+    "title": "Smart Money H1 Demand/Supply Zone + 8 EMA Cross (M15)",
+    "file": "indicator_smart_money_gold_scanner.py",
+    "video_id": "zBvUf9v4EtU",
+    "raw_sl": [],
+    "raw_tp": [],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "9": {
+    "num": 9,
+    "name": "833_ema",
+    "title": "Wizard Trader 8/33 EMA + Dominance Breakout (M5)",
+    "file": "forex_833_ema_scanner.py",
+    "video_id": "FaHKCazt49A",
+    "raw_sl": [
+      "✅ Stop-Loss: Recent swing low ke thoda neeche"
+    ],
+    "raw_tp": [
+      "✅ Target: Agle major resistance zone tak"
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "10": {
+    "num": 10,
+    "name": "20_200_ema",
+    "title": "20/200 Dual EMA Macro Trend + 20 EMA Pullback (M5)",
+    "file": "forex_20_200_ema_scanner.py",
+    "video_id": "R7kX_T4ZtNo",
+    "raw_sl": [],
+    "raw_tp": [
+      "Strategy ka core logic simple hai: EMA 20 aur EMA 200 ka combination, 5-minute timeframe pe. Jab price 200 EMA ke upar trade kare aur 20 EMA bhi 200 ke upar ho, sirf long trades plan karni hain. Price jab pullback dekar 20 EMA ke paas wapas close de, wahi entry trigger hai. Stoploss 2x ATR(14) pe, aur target 1:2 se 1:3 ke R-multiple pe rakha gaya hai. Short setup bilkul mirror logic follow karta hai, 200 EMA ke neeche."
+    ],
+    "raw_rr": [
+      "Strategy ka core logic simple hai: EMA 20 aur EMA 200 ka combination, 5-minute timeframe pe. Jab price 200 EMA ke upar trade kare aur 20 EMA bhi 200 ke upar ho, sirf long trades plan karni hain. Price jab pullback dekar 20 EMA ke paas wapas close de, wahi entry trigger hai. Stoploss 2x ATR(14) pe, aur target 1:2 se 1:3 ke R-multiple pe rakha gaya hai. Short setup bilkul mirror logic follow karta hai, 200 EMA ke neeche."
+    ],
+    "raw_be": []
+  },
+  "11": {
+    "num": 11,
+    "name": "50_ema_rejection",
+    "title": "Ezekiel Chew (Prop Firm) 50 EMA Dynamic Rejection (H1)",
+    "file": "indicator_50_ema_rejection_scanner.py",
+    "video_id": "AKuM1cTgPks",
+    "raw_sl": [
+      "SL: Engulfing candle ya red candle ka jo bhi neeche"
+    ],
+    "raw_tp": [
+      "Target: Next resistance ya rejection level."
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "12": {
+    "num": 12,
+    "name": "subasish_5_ema",
+    "title": "Subasish Pani 5 EMA Scalping Strategy (M5/M15)",
+    "file": "indicator_subasish_5_ema_scanner.py",
+    "video_id": "ttSbBzKmXyc",
+    "raw_sl": [],
+    "raw_tp": [
+      "So, we will go to trading view platform, we will take 5 minute timeframe chart for short selling, futures short, PE Buy or CE short trades, add 5 EMA indicator on it, and any candle which closes  above 5 EMA line and also the low of that candle doesn't touch the 5 EMA line, then that candle is called an Alert Candle, and any next candle which breakout of the 5 EMA line, then entry will be taken at  that breakout candle, Stoploss will be previous Alert Candle high and target will be decided by Risk: Reward ratio of 1:3."
+    ],
+    "raw_rr": [
+      "So, we will go to trading view platform, we will take 5 minute timeframe chart for short selling, futures short, PE Buy or CE short trades, add 5 EMA indicator on it, and any candle which closes  above 5 EMA line and also the low of that candle doesn't touch the 5 EMA line, then that candle is called an Alert Candle, and any next candle which breakout of the 5 EMA line, then entry will be taken at  that breakout candle, Stoploss will be previous Alert Candle high and target will be decided by Risk: Reward ratio of 1:3."
+    ],
+    "raw_be": []
+  },
+  "13": {
+    "num": 13,
+    "name": "10_ema_anant_ladha",
+    "title": "Anant Ladha 10 EMA Floating Alert Candle Breakout (M5)",
+    "file": "indicator_10_ema_anant_ladha_scanner.py",
+    "video_id": "FYfQqZ3bM6g",
+    "raw_sl": [],
+    "raw_tp": [
+      "Stoploss fixed price pe nahi, balki 10 EMA line khud stoploss ka kaam karti hai. Trade tab tak chalta rahta hai jab tak koi candle 10 EMA ke neeche close na kare. Isi wajah se is strategy mein fixed target nahi hota — Anant Ladha ke mutabik isse 1:4, 1:5, aur kabhi kabhi 1:10 tak ka risk reward bhi mil sakta hai."
+    ],
+    "raw_rr": [
+      "Stoploss fixed price pe nahi, balki 10 EMA line khud stoploss ka kaam karti hai. Trade tab tak chalta rahta hai jab tak koi candle 10 EMA ke neeche close na kare. Isi wajah se is strategy mein fixed target nahi hota — Anant Ladha ke mutabik isse 1:4, 1:5, aur kabhi kabhi 1:10 tak ka risk reward bhi mil sakta hai.",
+      "Average Risk Reward: 1:3",
+      "Trading Strategy | Algo Trading | Backtest | 10 EMA Strategy | Intraday Trading | Swing Trading | Positional Trading | Nifty 50 | Stock Market India | Share Market | Technical Analysis | EMA Indicator | Trading for Beginners | Python Trading Bot | Risk Reward Ratio | Trend Following Strategy"
+    ],
+    "raw_be": []
+  },
+  "14": {
+    "num": 14,
+    "name": "rayner_inside_bar",
+    "title": "Rayner Teo 10 EMA + Inside Bar Momentum Breakout (H1)",
+    "file": "indicator_rayner_teo_inside_bar_scanner.py",
+    "video_id": "r-0XAsrQR-I",
+    "raw_sl": [],
+    "raw_tp": [
+      "We will open daily timeframe chart of a liquid stock on trading view, put EMA 10 indicator on it, and when the price moves above EMA 10 indicator, then we will find inside bar candle which is a candle which easily fits inside high and low of the previous candle, thus it is called inside bar candle and the larger bar is called Mother candle. And, as soon as the breakout happens on high of the mother candle, we take BUY trade, with stoploss a notch below low of the inside bar candle and target decided by risk reward ratio of 1:2 to 1:3."
+    ],
+    "raw_rr": [
+      "We will open daily timeframe chart of a liquid stock on trading view, put EMA 10 indicator on it, and when the price moves above EMA 10 indicator, then we will find inside bar candle which is a candle which easily fits inside high and low of the previous candle, thus it is called inside bar candle and the larger bar is called Mother candle. And, as soon as the breakout happens on high of the mother candle, we take BUY trade, with stoploss a notch below low of the inside bar candle and target decided by risk reward ratio of 1:2 to 1:3."
+    ],
+    "raw_be": []
+  },
+  "15": {
+    "num": 15,
+    "name": "8_20_ema_scalp",
+    "title": "8/20 Dual EMA Value-Zone Scalping Strategy (M5)",
+    "file": "indicator_8_20_ema_scalp_scanner.py",
+    "video_id": "uDGXfF1kjHI",
+    "raw_sl": [],
+    "raw_tp": [
+      "Exit Criteria: No fixed target, hold the trend and exit instantly when any candle closes decisively below the 8 EMA."
+    ],
+    "raw_rr": [
+      "Managing drawdown and risk reward ratio in Nifty and Bank Nifty options buying"
+    ],
+    "raw_be": []
+  },
+  "16": {
+    "num": 16,
+    "name": "stoch_200_ema",
+    "title": "200 EMA + Stochastic Oversold/Overbought Pullback (M15)",
+    "file": "indicator_stochastic_200_ema_scanner.py",
+    "video_id": "_cMfadzVxpo",
+    "raw_sl": [],
+    "raw_tp": [
+      "Stochastic intraday strategy logic is that we take 15 minute timeframe on any instrument like stocks, index, crypto, forex or commodity. Then add two indicators namely Exponential moving average (EMA) of length 200 and stochastic indicator.When the candle is moving above EMA 200 line and both the lines of stochastic indicator is below 20 and then breaks out of 20 level then we take entry at the closing price of the corresponding candle, with stoploss at recent swinh low and target decided by 1:2 risk reward ratio.."
+    ],
+    "raw_rr": [
+      "Stochastic intraday strategy logic is that we take 15 minute timeframe on any instrument like stocks, index, crypto, forex or commodity. Then add two indicators namely Exponential moving average (EMA) of length 200 and stochastic indicator.When the candle is moving above EMA 200 line and both the lines of stochastic indicator is below 20 and then breaks out of 20 level then we take entry at the closing price of the corresponding candle, with stoploss at recent swinh low and target decided by 1:2 risk reward ratio.."
+    ],
+    "raw_be": []
+  },
+  "17": {
+    "num": 17,
+    "name": "rayner_teo_sma_rsi",
+    "title": "Rayner Teo 200 SMA + 10 RSI Swing Pullback (H1)",
+    "file": "indicator_rayner_teo_sma_rsi_scanner.py",
+    "video_id": "xLTliEACIQc",
+    "raw_sl": [
+      "Stop Loss — Recent swing low ke thoda neeche."
+    ],
+    "raw_tp": [],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "18": {
+    "num": 18,
+    "name": "macd_momentum",
+    "title": "Multi-Timeframe MACD 62% Win Rate Momentum (M15)",
+    "file": "indicator_macd_momentum_scanner.py",
+    "video_id": "aUKmS6ZDeq4",
+    "raw_sl": [
+      "Advanced trailing stop loss strategies for building sustainable secondary sources of income from markets"
+    ],
+    "raw_tp": [],
+    "raw_rr": [
+      "Scale Out & Trailing Mechanics: Extracting a fixed 50% quantity profit size straight at a clear 1:2 risk-to-reward ratio, updating initial protection stop limits to the absolute breakdown entry cost, and trailing remaining core lots until the macro 4-Hour trend framework prints an opposing exit crossover wave."
+    ],
+    "raw_be": [
+      "Kya classical momentum indicators jaise MACD sach me modern computer algos ke samne outdated ho chuke hain? Is video mein humne three-timeframe alignment filter aur multi-stage profit trailing parameters ko combine karke ek professional mathematical MACD automation code ready kiya hai. Large institutions momentum shift aur histogram validation ke sath dynamic trends ko ride kaise karti hain, humne is exact continuous logic ka python algorithm banaya hai aur broker API ke high-frequency parameters par verification tests run karke true equity curves aur accurate drawdown numbers generate kiye hain.",
+      "Scale Out & Trailing Mechanics: Extracting a fixed 50% quantity profit size straight at a clear 1:2 risk-to-reward ratio, updating initial protection stop limits to the absolute breakdown entry cost, and trailing remaining core lots until the macro 4-Hour trend framework prints an opposing exit crossover wave.",
+      "Advanced trailing stop loss strategies for building sustainable secondary sources of income from markets"
+    ]
+  },
+  "19": {
+    "num": 19,
+    "name": "rsi_pullback",
+    "title": "50 EMA Trend Filter + RSI 30/70 Pullback Reversal (M5)",
+    "file": "forex_rsi_pullback_scanner.py",
+    "video_id": "ryoDybQXEs4",
+    "raw_sl": [
+      "Strategy rules: trend filter (50-EMA), RSI oversold + confirmation entry, stop-loss placement, aur target logic — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai."
+    ],
+    "raw_tp": [
+      "Strategy rules: trend filter (50-EMA), RSI oversold + confirmation entry, stop-loss placement, aur target logic — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai."
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "20": {
+    "num": 20,
+    "name": "subasish_bollinger",
+    "title": "Subasish Pani (Power of Stocks) Bollinger Band (M15)",
+    "file": "indicator_subasish_bollinger_scanner.py",
+    "video_id": "QZMvJrxS_HQ",
+    "raw_sl": [
+      "Stop Loss — Alert candle ke low pe. Index mein maximum",
+      "55 points tak hi SL lo. Stocks mein max 100 points.",
+      "ka SL hai toh 160 points ka target."
+    ],
+    "raw_tp": [
+      "Target — Fixed 1:4 risk reward. Matlab agar 40 points",
+      "ka SL hai toh 160 points ka target."
+    ],
+    "raw_rr": [
+      "Nifty 50 | 52.3% Return | 1:4 Risk Reward",
+      "Target — Fixed 1:4 risk reward. Matlab agar 40 points",
+      "Risk Reward       →  Fixed 1:4"
+    ],
+    "raw_be": []
+  },
+  "21": {
+    "num": 21,
+    "name": "tanisha_garg_cpr_rsi",
+    "title": "Tanisha Garg Camarilla Pivots (S2/S4) + 21 RSI (M5)",
+    "file": "indicator_tanisha_garg_cpr_rsi_scanner.py",
+    "video_id": "Vm3nN5biOjI",
+    "raw_sl": [],
+    "raw_tp": [],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "22": {
+    "num": 22,
+    "name": "camarilla_pivot",
+    "title": "Camarilla Daily Pivot Points Reversal & Breakout (M5)",
+    "file": "indicator_camarilla_pivot_scanner.py",
+    "video_id": "GPSvVOZv-No",
+    "raw_sl": [
+      "Risk Management Guidelines: Setting protective stop loss orders precisely at the opposite inner bounds (R3 for buy setups, S3 for sell setups) and projection targets at 1.5 to 2 times the risk value.",
+      "How to scale position sizing while maintaining static stop loss controls at major pivot curves"
+    ],
+    "raw_tp": [
+      "Risk Management Guidelines: Setting protective stop loss orders precisely at the opposite inner bounds (R3 for buy setups, S3 for sell setups) and projection targets at 1.5 to 2 times the risk value."
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "23": {
+    "num": 23,
+    "name": "cpr_pivot_multi_tf",
+    "title": "Gomathi Shankar Central Pivot Range + R1/PDH Break (M5)",
+    "file": "indicator_cpr_pivot_multi_tf_scanner.py",
+    "video_id": "i5eNsT9GFDM",
+    "raw_sl": [],
+    "raw_tp": [
+      "Kya India ke pioneering pioneer Gomathi Shankar ki multi-timeframe Central Pivot Range yaani CPR strategy professional order books me high accuracy system create kar sakti hai? Is video mein humne unki weekly aur daily overlapping pivot breakout strategy ko coding standards ke sath completely automate kiya hai. Big players dynamic support levels aur daily range boundaries ko target karke short covering moves kaise triggers karte hain, humne is structural workflow ka python algorithm banaya hai aur broker API ke structural historical data setups par detailed validation tests run karke real equity curves aur actual drawdown data analyze kiya hai.",
+      "Scale Targets & Risk Limits: Locking protection stops right beneath the dual confluence zone lines, framing target marker 1 directly at the R1-R2 mathematical midpoint, and routing final exit execution trades directly at the major R2 ceiling."
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "24": {
+    "num": 24,
+    "name": "supertrend_swing",
+    "title": "Supertrend (7, 2.5) + 200 EMA Baseline Polarity Flip (M15)",
+    "file": "forex_supertrend_swing_scanner.py",
+    "video_id": "YwDleTVqM5c",
+    "raw_sl": [
+      "Strategy rules, entry-exit logic, stop-loss placement, aur breakeven trail technique — sab is video mein detail se samjhaya hai. Backtest ka Python code Google Colab pe dikhaya gaya hai."
+    ],
+    "raw_tp": [],
+    "raw_rr": [],
+    "raw_be": [
+      "Entry rules, Supertrend flip logic, trailing stop mechanism, aur risk-reward math — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai.",
+      "Strategy rules, entry-exit logic, stop-loss placement, aur breakeven trail technique — sab is video mein detail se samjhaya hai. Backtest ka Python code Google Colab pe dikhaya gaya hai."
+    ]
+  },
+  "25": {
+    "num": 25,
+    "name": "ut_bot_alert",
+    "title": "UT Bot Alert ATR Trailing + 200 EMA Baseline (M15)",
+    "file": "indicator_ut_bot_alert_scanner.py",
+    "video_id": "SggjoXJiNXw",
+    "raw_sl": [],
+    "raw_tp": [],
+    "raw_rr": [],
+    "raw_be": [
+      "For this crypto intraday strategy, we have to go to bitcoin chart, put UT alert bot indicator and MA sabres indicator on the chart with the settings mentioned in the video. The blue line is for bullish trend, red line for bearish trend and grey line for moving average. When the blue line is made on the chart, and price is above it, and then ut bot alert indicator gives BUY signal, then the candle on which BUY signal comes, the close of that candle will be our entry point, stoploss at swing low, and traget is not fixed, we will trail the profits until the price is above the moving average grey line."
+    ]
+  },
+  "26": {
+    "num": 26,
+    "name": "mambafx_sr_sma",
+    "title": "Mamba FX Forex H4 S/R + 8/50 SMA Scalper (M15)",
+    "file": "indicator_mambafx_support_resistance_scanner.py",
+    "video_id": "TSRKVlz4tjo",
+    "raw_sl": [],
+    "raw_tp": [
+      "Target = next resistance/support"
+    ],
+    "raw_rr": [],
+    "raw_be": [
+      "Trailing stoploss use karo"
+    ]
+  },
+  "27": {
+    "num": 27,
+    "name": "traffic_light",
+    "title": "Subasish Pani 'Traffic Light' 2-Candle Breakout (M5)",
+    "file": "indicator_traffic_light_breakout_scanner.py",
+    "video_id": "_e9_VfItAFE",
+    "raw_sl": [],
+    "raw_tp": [],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "28": {
+    "num": 28,
+    "name": "chandelier_zlsma",
+    "title": "Chandelier Exit (22, 3.0) + 32 ZLSMA Trend Rider (H1)",
+    "file": "indicator_chandelier_exit_zlsma_scanner.py",
+    "video_id": "-0oWb3Uv9FM",
+    "raw_sl": [
+      "Stop Loss: Recent swing low"
+    ],
+    "raw_tp": [
+      "Target: Risk Reward 1:2"
+    ],
+    "raw_rr": [
+      "Target: Risk Reward 1:2"
+    ],
+    "raw_be": []
+  },
+  "29": {
+    "num": 29,
+    "name": "kojo_demand_supply",
+    "title": "Kojo Forex Dubai Pure Price Action Demand/Supply (M15)",
+    "file": "forex_kojo_price_action_demand_scanner.py",
+    "video_id": "7XtF2FH92MM",
+    "raw_sl": [
+      "Stop Loss: Demand zone ke low ke thoda neeche"
+    ],
+    "raw_tp": [
+      "Target: Agli visible resistance level tak — jo pehle"
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "30": {
+    "num": 30,
+    "name": "trading_school_mbp",
+    "title": "The Trading School Secret MBP Session Setup (H1/M5)",
+    "file": "forex_trading_school_mbp_gold_scanner.py",
+    "video_id": "9Jxhj7mVb1w",
+    "raw_sl": [
+      "Stop Loss — FVG zone ke thoda neeche."
+    ],
+    "raw_tp": [
+      "fixed target ke saath, real broker data se, 1 lakh ki",
+      "Target: Fixed 1:3 Risk Reward",
+      "Target — Fixed 1:3 risk reward."
+    ],
+    "raw_rr": [
+      "1:3 Fixed RR",
+      "1:8 tak ka risk reward achieve karne ka claim karte",
+      "backtest kiya — XAUUSD gold pe, 1:3 ke conservative"
+    ],
+    "raw_be": []
+  },
+  "31": {
+    "num": 31,
+    "name": "trade_with_pat",
+    "title": "Trade With Pat A+ Supply & Demand + FVG Sniper (M15)",
+    "file": "forex_trade_with_pat_demand_fvg_scanner.py",
+    "video_id": "YPAN6XgXbQM",
+    "raw_sl": [
+      "Risk Management: Stop loss is safely placed outside the zone boundaries, and the target is locked at the recent swing high or low."
+    ],
+    "raw_tp": [
+      "Risk Management: Stop loss is safely placed outside the zone boundaries, and the target is locked at the recent swing high or low."
+    ],
+    "raw_rr": [
+      "Managing drawdown and risk reward ratio in index options buying"
+    ],
+    "raw_be": []
+  },
+  "32": {
+    "num": 32,
+    "name": "smc_liquidity_sniper",
+    "title": "SMC Liquidity Sniper 71% Fib Retracement + FVG (H4/M15)",
+    "file": "forex_smc_liquidity_sniper_71fib_scanner.py",
+    "video_id": "LkTzH_5xiJ0",
+    "raw_sl": [
+      "✅ Stop-Loss aur Target dono Fibonacci ke extreme levels pe -- fixed RR approximately 2.4:1"
+    ],
+    "raw_tp": [
+      "✅ Stop-Loss aur Target dono Fibonacci ke extreme levels pe -- fixed RR approximately 2.4:1"
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "33": {
+    "num": 33,
+    "name": "double_bo_retest",
+    "title": "Pure Price Action Double Breakout Retest Strategy (M15)",
+    "file": "indicator_double_breakout_retest_scanner.py",
+    "video_id": "VhNXhA6cmDE",
+    "raw_sl": [],
+    "raw_tp": [
+      "Target = 1:2 ya 1:3 risk reward"
+    ],
+    "raw_rr": [
+      "Target = 1:2 ya 1:3 risk reward"
+    ],
+    "raw_be": []
+  },
+  "34": {
+    "num": 34,
+    "name": "asia_forex_mentor",
+    "title": "Asia Forex Mentor Smoothed Heikin Ashi (H1)",
+    "file": "forex_asia_forex_mentor_heikin_ashi_scanner.py",
+    "video_id": "wVSM7VuZbT8",
+    "raw_sl": [],
+    "raw_tp": [
+      "Target = next resistance/support"
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "35": {
+    "num": 35,
+    "name": "bharat_rsi_bb",
+    "title": "Bharat Jhunjhunwala RSI 60/40 Momentum + BB (H1)",
+    "file": "indicator_bharat_jhunjhunwala_rsi_bb_scanner.py",
+    "video_id": "4gvWmhCzE30",
+    "raw_sl": [],
+    "raw_tp": [],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "36": {
+    "num": 36,
+    "name": "berlin_7_ema",
+    "title": "Trade Like Berlin 'Final Boss' 7 EMA System (H1/M15)",
+    "file": "forex_trade_like_berlin_7_ema_scanner.py",
+    "video_id": "2NZW106gUfU",
+    "raw_sl": [
+      "Stop Loss: Entry candle ke low ke thoda neeche",
+      "Agar SL chota hai → 1:3 Risk Reward",
+      "Agar SL bada hai  → 1:2 Risk Reward"
+    ],
+    "raw_tp": [
+      "Target: Dynamic RR system —"
+    ],
+    "raw_rr": [
+      "Agar SL chota hai → 1:3 Risk Reward",
+      "Agar SL bada hai  → 1:2 Risk Reward"
+    ],
+    "raw_be": []
+  },
+  "37": {
+    "num": 37,
+    "name": "ezekiel_50_ema_pb",
+    "title": "Ezekiel Chew 50 EMA Pullback Engulfing Trigger (H1)",
+    "file": "forex_ezekiel_chew_50_ema_pullback_scanner.py",
+    "video_id": "AKuM1cTgPks",
+    "raw_sl": [
+      "SL: Engulfing candle ya red candle ka jo bhi neeche"
+    ],
+    "raw_tp": [
+      "Target: Next resistance ya rejection level."
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "38": {
+    "num": 38,
+    "name": "trading_geek_sr",
+    "title": "The Trading Geek (Brad Goh) S/R Exhaustion Price Action (H4/H1)",
+    "file": "forex_trading_geek_exhaustion_scanner.py",
+    "video_id": "aPEzamtaYw4",
+    "raw_sl": [],
+    "raw_tp": [
+      "Step 3: Jab ek bada green candle aaye — uske close pe BUY entry lo. Stoploss zone ke lowest wick ke neeche. Target next resistance level pe. SELL ke liye bilkul ulta karo at resistance."
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "39": {
+    "num": 39,
+    "name": "tori_trendline",
+    "title": "Tori Trades Multi-Touch Structural Trendline Breakout (M15)",
+    "file": "indicator_tori_trades_trendline_scanner.py",
+    "video_id": "0n4sMsqTZdw",
+    "raw_sl": [],
+    "raw_tp": [
+      "So, let's go to the trading view platform, open Nifty 50 chart on 1 hour timeframe, draw upward and downward trendlines, when any candlestick breaks out of any trendline then we will take entry at that candle, stoploss will be our previous/other trendline and target will be either next support/ resistance levels or we can also trail our profits and limit our losses."
+    ],
+    "raw_rr": [],
+    "raw_be": [
+      "So, let's go to the trading view platform, open Nifty 50 chart on 1 hour timeframe, draw upward and downward trendlines, when any candlestick breaks out of any trendline then we will take entry at that candle, stoploss will be our previous/other trendline and target will be either next support/ resistance levels or we can also trail our profits and limit our losses."
+    ]
+  },
+  "40": {
+    "num": 40,
+    "name": "priyank_21_ema",
+    "title": "Hold with Priyank 21 EMA Pullback Breakout Strategy (M15)",
+    "file": "indicator_hold_with_priyank_21_ema_scanner.py",
+    "video_id": "0pbzM_4QkOs",
+    "raw_sl": [],
+    "raw_tp": [],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "41": {
+    "num": 41,
+    "name": "jenfer_impulse",
+    "title": "Jenfer 'One-Candle' 50-75% Equilibrium Scalping (M5)",
+    "file": "forex_jenfer_impulse_scalp_scanner.py",
+    "video_id": "AD36fIiJWVs",
+    "raw_sl": [],
+    "raw_tp": [
+      "Step 4: Entry usi retest zone mein lo. Stoploss impulse candle ke low ke neeche. Target fixed 1:2 risk reward."
+    ],
+    "raw_rr": [
+      "Step 4: Entry usi retest zone mein lo. Stoploss impulse candle ke low ke neeche. Target fixed 1:2 risk reward.",
+      "ONE Candle Strategy | Opening Range Breakout | ORB Scalping | Volume Confirmation Trading | Beginner Scalping Strategy | Algo Trading India | Nifty Intraday Trading | Prop Firm Strategy | Backtest Results | Python Trading Bot | Scalping for Beginners | Day Trading Strategy | Technical Analysis | Risk Reward Strategy | 5 Minute Chart Strategy"
+    ],
+    "raw_be": []
+  },
+  "42": {
+    "num": 42,
+    "name": "trading_lab_dema",
+    "title": "Trading Lab 200 DEMA + Supertrend Algorithmic Scanner (M15)",
+    "file": "indicator_trading_lab_dema_supertrend_scanner.py",
+    "video_id": "WFMCsknKHD4",
+    "raw_sl": [],
+    "raw_tp": [
+      "This intraday trading strategy can be used on stocks, index, forex, crypto, etc. For this strategy we will go to the trading view 15 minute timeframe, then put double ema indicator and supertrend indicator with the settings that I have guided in the video.Then, when the candles are above the double ema, and simultaneously, supertrend also gives BUY signal, then we take the long position on the close of the candle where supertrend gave BUY signal, with stoploss at the supertrend line and target is not fixed for this intraday strategy, we will trail the profits until supertrend gives SELL signal. The reverse of this we will do for doing short selling."
+    ],
+    "raw_rr": [],
+    "raw_be": [
+      "This intraday trading strategy can be used on stocks, index, forex, crypto, etc. For this strategy we will go to the trading view 15 minute timeframe, then put double ema indicator and supertrend indicator with the settings that I have guided in the video.Then, when the candles are above the double ema, and simultaneously, supertrend also gives BUY signal, then we take the long position on the close of the candle where supertrend gave BUY signal, with stoploss at the supertrend line and target is not fixed for this intraday strategy, we will trail the profits until supertrend gives SELL signal. The reverse of this we will do for doing short selling."
+    ]
+  },
+  "43": {
+    "num": 43,
+    "name": "half_trend_atr",
+    "title": "HalfTrend (2, 2.0) ATR Dynamic Channel Breakout (M15)",
+    "file": "indicator_half_trend_atr_scanner.py",
+    "video_id": "WRczqfxjR4g",
+    "raw_sl": [],
+    "raw_tp": [],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "44": {
+    "num": 44,
+    "name": "umer_sandwich",
+    "title": "Umer Akhtar 3-Candle Doji Sandwich Reversal (M15/H1)",
+    "file": "forex_umer_akhtar_sandwich_scanner.py",
+    "video_id": "t9VzgJhqgHk",
+    "raw_sl": [
+      "✅ Stop-loss aur fixed 1:2 Risk:Reward target"
+    ],
+    "raw_tp": [
+      "✅ Stop-loss aur fixed 1:2 Risk:Reward target"
+    ],
+    "raw_rr": [
+      "✅ Stop-loss aur fixed 1:2 Risk:Reward target"
+    ],
+    "raw_be": []
+  },
+  "45": {
+    "num": 45,
+    "name": "3tf_macd_momentum",
+    "title": "3-Timeframe MACD Momentum Confluence (D1/H4/H1)",
+    "file": "indicator_3tf_macd_momentum_scanner.py",
+    "video_id": "aUKmS6ZDeq4",
+    "raw_sl": [
+      "Advanced trailing stop loss strategies for building sustainable secondary sources of income from markets"
+    ],
+    "raw_tp": [],
+    "raw_rr": [
+      "Scale Out & Trailing Mechanics: Extracting a fixed 50% quantity profit size straight at a clear 1:2 risk-to-reward ratio, updating initial protection stop limits to the absolute breakdown entry cost, and trailing remaining core lots until the macro 4-Hour trend framework prints an opposing exit crossover wave."
+    ],
+    "raw_be": [
+      "Kya classical momentum indicators jaise MACD sach me modern computer algos ke samne outdated ho chuke hain? Is video mein humne three-timeframe alignment filter aur multi-stage profit trailing parameters ko combine karke ek professional mathematical MACD automation code ready kiya hai. Large institutions momentum shift aur histogram validation ke sath dynamic trends ko ride kaise karti hain, humne is exact continuous logic ka python algorithm banaya hai aur broker API ke high-frequency parameters par verification tests run karke true equity curves aur accurate drawdown numbers generate kiye hain.",
+      "Scale Out & Trailing Mechanics: Extracting a fixed 50% quantity profit size straight at a clear 1:2 risk-to-reward ratio, updating initial protection stop limits to the absolute breakdown entry cost, and trailing remaining core lots until the macro 4-Hour trend framework prints an opposing exit crossover wave.",
+      "Advanced trailing stop loss strategies for building sustainable secondary sources of income from markets"
+    ]
+  },
+  "46": {
+    "num": 46,
+    "name": "ict_double_sweep",
+    "title": "ICT Double Sweep Sniper Entry Strategy (H1/M15)",
+    "file": "forex_ict_double_sweep_sniper_scanner.py",
+    "video_id": "bffQ8_1ShO8",
+    "raw_sl": [
+      "ICT (Inner Circle Trader) ka woh sniper entry model jisse aap ek dum perfect entry le sakte ho. Institutions pehle retail traders ke stop-loss ko trigger karti hain, phir ulti direction mein move karti hain — aur yeh liquidity-based strategy exactly usi trap ko apne favour mein use karti hai.",
+      "Puri step-by-step entry, stop-loss aur target ki strategy maine ek PDF mein diagram ke saath samjhayi hai. Woh yahan reveal nahi kar raha — neeche \"Sniper\" comment karo, main PDF bhej dunga."
+    ],
+    "raw_tp": [
+      "Puri step-by-step entry, stop-loss aur target ki strategy maine ek PDF mein diagram ke saath samjhayi hai. Woh yahan reveal nahi kar raha — neeche \"Sniper\" comment karo, main PDF bhej dunga."
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "47": {
+    "num": 47,
+    "name": "ict_daily_ob_fvg",
+    "title": "MS Trading ICT Daily OB + H1 MSS/FVG Retest (D1/H1)",
+    "file": "forex_ict_daily_ob_h1_fvg_scanner.py",
+    "video_id": "4W3SUtxl0u8",
+    "raw_sl": [
+      "✅ Stop-Loss: Daily OB midpoint se thoda neeche"
+    ],
+    "raw_tp": [
+      "✅ Target: Daily chart ka major liquidity level"
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "48": {
+    "num": 48,
+    "name": "tg_ema_stack_doji",
+    "title": "TG Capital (Tyler Gottle) EMA Stack + FVG 50% Doji (M30)",
+    "file": "forex_tg_capital_ema_stack_doji_scanner.py",
+    "video_id": "ZWSeWYom1Yg",
+    "raw_sl": [],
+    "raw_tp": [
+      "Step 6: Target fixed nahi — jab tak daily chart pe 4 stacked EMAs (5, 9, 13, 21) intact rahein tab tak trade chalti rahe. Jab strong bearish candle in sab ke neeche close kare — exit."
+    ],
+    "raw_rr": [
+      "TG Capital yaani Tyler — jisne sirf 3 mahine mein $4 lakh ka prop firm payout liya — ne Chart Fanatics pe apni woh strategy share ki jo unhe broke se six figures tak le gayi. Minimum 1:20 risk reward ka claim hai. Maine iska algo banaya aur 5 Forex pairs pe khud backtest kiya — results aaj video mein hain.",
+      "London Killzone Strategy | FVG Trading | ICT Trading | Consequent Encroachment | EMA Stack Forex | Fair Value Gap | Algo Trading India | Forex Swing Trading | Prop Firm Strategy | Smart Money Concepts | TG Capital Strategy | Chart Fanatics | Backtest Results | Forex Day Trading | London Session Forex | ICT FVG Setup | Python Trading Bot | 1:20 Risk Reward Strategy"
+    ],
+    "raw_be": []
+  },
+  "49": {
+    "num": 49,
+    "name": "rayner_50_ema_swing",
+    "title": "Rayner Teo 'Catch The Wave' 50 EMA Pullback Swing (D1)",
+    "file": "forex_rayner_teo_50_ema_swing_scanner.py",
+    "video_id": "KGKC9Tkiii0",
+    "raw_sl": [
+      "Risk Management: Execute a long trade at the candle close, place a protective stop loss below the candle low, and lock targets right before the previous resistance swing high."
+    ],
+    "raw_tp": [
+      "Risk Management: Execute a long trade at the candle close, place a protective stop loss below the candle low, and lock targets right before the previous resistance swing high."
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "50": {
+    "num": 50,
+    "name": "ema_rsi_reclaim",
+    "title": "50 EMA Trend + RSI 30/70 Reclaim Confirmation (H1)",
+    "file": "forex_50_ema_rsi_reclaim_scanner.py",
+    "video_id": "ryoDybQXEs4",
+    "raw_sl": [
+      "Strategy rules: trend filter (50-EMA), RSI oversold + confirmation entry, stop-loss placement, aur target logic — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai."
+    ],
+    "raw_tp": [
+      "Strategy rules: trend filter (50-EMA), RSI oversold + confirmation entry, stop-loss placement, aur target logic — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai."
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "51": {
+    "num": 51,
+    "name": "booming_halftrend",
+    "title": "Booming Bulls (Anish Singh) HalfTrend + DMI Intraday (M15)",
+    "file": "forex_booming_bulls_halftrend_dmi_scanner.py",
+    "video_id": "pFs09yBjQU4",
+    "raw_sl": [],
+    "raw_tp": [],
+    "raw_rr": [
+      "• Risk-Reward: 1:3"
+    ],
+    "raw_be": []
+  },
+  "52": {
+    "num": 52,
+    "name": "priyank_weekly_trap",
+    "title": "Priyank Sharma MTF Weekly Trap + M15 MSS (W1/D1/M15)",
+    "file": "forex_priyank_weekly_trap_mss_scanner.py",
+    "video_id": "fipzUyTxUxw",
+    "raw_sl": [
+      "Money Management Rules: Setting protective stop loss boundaries beneath the lowest wick of the fake breakout setup and trailing the maximum target expansion up to the macro previous week high level line."
+    ],
+    "raw_tp": [
+      "Money Management Rules: Setting protective stop loss boundaries beneath the lowest wick of the fake breakout setup and trailing the maximum target expansion up to the macro previous week high level line."
+    ],
+    "raw_rr": [],
+    "raw_be": [
+      "Money Management Rules: Setting protective stop loss boundaries beneath the lowest wick of the fake breakout setup and trailing the maximum target expansion up to the macro previous week high level line."
+    ]
+  },
+  "53": {
+    "num": 53,
+    "name": "paradise_redbox",
+    "title": "Traders Paradise 'Red Box' S/R Fakeout Reversal (M15)",
+    "file": "forex_traders_paradise_redbox_scanner.py",
+    "video_id": "KJmLvxyzXSg",
+    "raw_sl": [],
+    "raw_tp": [
+      "Target = next support level"
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "54": {
+    "num": 54,
+    "name": "renko_10_sma_obv",
+    "title": "Renko Brick Trend + 10 SMA + OBV Alignment (Renko/M15)",
+    "file": "indicator_renko_brick_trend_scanner.py",
+    "video_id": "IkCC_gC-wXQ",
+    "raw_sl": [
+      "✅ Stop-Loss: 2 Renko bricks neeche",
+      "✅ First Target: 3 bricks upar -- target hit hote hi SL breakeven pe le aao"
+    ],
+    "raw_tp": [
+      "✅ First Target: 3 bricks upar -- target hit hote hi SL breakeven pe le aao"
+    ],
+    "raw_rr": [],
+    "raw_be": [
+      "✅ First Target: 3 bricks upar -- target hit hote hi SL breakeven pe le aao",
+      "✅ Trail: Jab tak brick 10 SMA ke neeche close na ho tab tak hold karo"
+    ]
+  },
+  "55": {
+    "num": 55,
+    "name": "umar_gold_london",
+    "title": "Umar Punjabi Gold London Session 1st Hour Killzone (M15/M5)",
+    "file": "forex_umar_punjabi_gold_london_scanner.py",
+    "video_id": "uXG8eHYhG9E",
+    "raw_sl": [
+      "Capital Security Borders: Pinning stop loss barriers beneath the prominent structural swing low anchors and projecting fixed asset execution take-profits at a clear 1:2 risk-to-reward ratio."
+    ],
+    "raw_tp": [],
+    "raw_rr": [
+      "Capital Security Borders: Pinning stop loss barriers beneath the prominent structural swing low anchors and projecting fixed asset execution take-profits at a clear 1:2 risk-to-reward ratio."
+    ],
+    "raw_be": []
+  },
+  "56": {
+    "num": 56,
+    "name": "bill_alligator",
+    "title": "Bill Williams Alligator Momentum & Teeth Cross (H1)",
+    "file": "indicator_bill_williams_alligator_scanner.py",
+    "video_id": "tW3pNDWhKHE",
+    "raw_sl": [
+      "Exit Rule: No fixed stop loss, exit manually when any candle touches the green line.",
+      "Trading without a fixed stop loss using dynamic indicator exits"
+    ],
+    "raw_tp": [],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "57": {
+    "num": 57,
+    "name": "ict_po3_amd",
+    "title": "ICT PO3 (Accumulation Manipulation Distribution) / CRT (M15/M5)",
+    "file": "forex_ict_po3_amd_framework_scanner.py",
+    "video_id": "ujdzVPO97bU",
+    "raw_sl": [],
+    "raw_tp": [
+      "Stoploss us candle ke low ke thoda neeche. Target"
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "58": {
+    "num": 58,
+    "name": "oliver_elephant_180",
+    "title": "Oliver Velez Bull/Bear 180 Elephant Candle Reversal (M5)",
+    "file": "forex_oliver_velez_elephant_180_scanner.py",
+    "video_id": "Lzzi6ylRObY",
+    "raw_sl": [
+      "Stop Loss — Green signal candle ke low ke thoda neeche."
+    ],
+    "raw_tp": [
+      "ho jaye toh exit karo. Koi fixed target nahi hai."
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "59": {
+    "num": 59,
+    "name": "mov_avg_fib_scalp",
+    "title": "The Moving Average Trendline + Fib Golden Zone Scalper (M5)",
+    "file": "forex_the_moving_average_fib_scalp_scanner.py",
+    "video_id": "1nOpTr6aNjQ",
+    "raw_sl": [],
+    "raw_tp": [
+      "Account Risk Boundaries: Securing defensive exit points at the hard structural Fib 1.0 zone line while mapping exit limit targets directly over the anchor swing low points."
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "60": {
+    "num": 60,
+    "name": "jesse_smc_fvg",
+    "title": "Jesse Rogers SMC FVG Sniper Scalping Scanner (M5)",
+    "file": "forex_jesse_rogers_smc_fvg_scanner.py",
+    "video_id": "0O2w9OYLuTs",
+    "raw_sl": [],
+    "raw_tp": [
+      "Target = 1:3 risk reward"
+    ],
+    "raw_rr": [
+      "Target = 1:3 risk reward"
+    ],
+    "raw_be": []
+  },
+  "61": {
+    "num": 61,
+    "name": "theta_ema_rsi",
+    "title": "Theta Gainers 50/200 EMA + RSI 40-55 Value Pullback (M15)",
+    "file": "forex_theta_gainers_ema_rsi_scanner.py",
+    "video_id": "vGHK12UgsmE",
+    "raw_sl": [
+      "Stop Loss — Recent swing low pe. Ya RSI"
+    ],
+    "raw_tp": [
+      "Exit (Target) — Koi fixed target nahi. Jab RSI 70 se"
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "62": {
+    "num": 62,
+    "name": "gold_smc_imbalance",
+    "title": "Gold (XAUUSD) SMC Institutional Imbalance Zone (M30)",
+    "file": "forex_gold_smc_imbalance_zone_scanner.py",
+    "video_id": "qQgjJIBE2hk",
+    "raw_sl": [
+      "Exit Criteria: Protective stop loss placed slightly above the zone and profit target at the next major demand zone."
+    ],
+    "raw_tp": [
+      "Exit Criteria: Protective stop loss placed slightly above the zone and profit target at the next major demand zone."
+    ],
+    "raw_rr": [
+      "Managing drawdown and risk reward ratio in commodity options trading"
+    ],
+    "raw_be": []
+  },
+  "63": {
+    "num": 63,
+    "name": "dual_ema_stoch_rsi",
+    "title": "50/200 Dual EMA + Stochastic RSI Momentum Scalper (M5)",
+    "file": "forex_dual_ema_stoch_rsi_scanner.py",
+    "video_id": "FvHJKuGaoqg",
+    "raw_sl": [
+      "Stop Loss: Recent swing low ke neeche"
+    ],
+    "raw_tp": [
+      "Target: 1.5 to 2 Risk Reward"
+    ],
+    "raw_rr": [
+      "Target: 1.5 to 2 Risk Reward"
+    ],
+    "raw_be": []
+  },
+  "64": {
+    "num": 64,
+    "name": "smc_breaker_v2",
+    "title": "SMC Failed Order Block Breaker Retest Scanner (M15)",
+    "file": "forex_smc_breaker_block_v2_scanner.py",
+    "video_id": "AkoRQx8SDLc",
+    "raw_sl": [
+      "Execution Target: Entering a market buy position right at the breach of the internal pullback wave high limit, defining stop loss limits below the pullback pivot floor, and aligning exit targets at the prominent 5-Minute chart swing high reference structure."
+    ],
+    "raw_tp": [
+      "Execution Target: Entering a market buy position right at the breach of the internal pullback wave high limit, defining stop loss limits below the pullback pivot floor, and aligning exit targets at the prominent 5-Minute chart swing high reference structure."
+    ],
+    "raw_rr": [],
+    "raw_be": []
+  },
+  "65": {
+    "num": 65,
+    "name": "steven_hart_4h",
+    "title": "Steven Hart 4H Market Structure + H1 Pullback Breakout (H4/H1)",
+    "file": "forex_steven_hart_4h_trend_pullback_scanner.py",
+    "video_id": "Em-Ao3orPbU",
+    "raw_sl": [
+      "✅ Stop-Loss: Double Bottom ke lowest low ke thoda neeche"
+    ],
+    "raw_tp": [
+      "✅ Target: Pichla HTF swing high (avg RR 2:1 se 2.4:1)"
+    ],
+    "raw_rr": [
+      "✅ Target: Pichla HTF swing high (avg RR 2:1 se 2.4:1)"
+    ],
+    "raw_be": []
+  },
+  "66": {
+    "num": 66,
+    "name": "bhanushali_44_ma",
+    "title": "Siddharth Bhanushali 44 Moving Average Dynamic Swing (D1)",
+    "file": "forex_bhanushali_44_ma_rejection_scanner.py",
+    "video_id": "EIF1PHduEbo",
+    "raw_sl": [],
+    "raw_tp": [
+      "For this 44 MA swing trading strategy, we will go to the Nifty 50 chart on daily timeframe, add Simple Moving Average (SMA) indicator with length 44. So, if the SMA line is in uptrend, and candles are also moving above the SMA level, then when the candles will pullback to the SMA line which is acting as a dynamic support level here, and subsequently, when a green bullish candle is formed, then we will take long position on a bit higher from high of this green candle, stoploss a bit lower from low of this green candle and target decided by risk:reward ratio of 1:2 to 1:3."
+    ],
+    "raw_rr": [
+      "For this 44 MA swing trading strategy, we will go to the Nifty 50 chart on daily timeframe, add Simple Moving Average (SMA) indicator with length 44. So, if the SMA line is in uptrend, and candles are also moving above the SMA level, then when the candles will pullback to the SMA line which is acting as a dynamic support level here, and subsequently, when a green bullish candle is formed, then we will take long position on a bit higher from high of this green candle, stoploss a bit lower from low of this green candle and target decided by risk:reward ratio of 1:2 to 1:3."
+    ],
+    "raw_be": []
+  },
+  "67": {
+    "num": 67,
+    "name": "mukul_10_ema_vwap",
+    "title": "Mukul Chowdhary 10 EMA + Session VWAP 1:4 RR System (M15)",
+    "file": "forex_mukul_chowdhary_10_ema_vwap_scanner.py",
+    "video_id": "I7i8MnUsqJ4",
+    "raw_sl": [],
+    "raw_tp": [
+      "Entry/Exit: VWAP breakdown/breakout with 10 EMA crossover, keeping target at previous day's high/low."
+    ],
+    "raw_rr": [
+      "Kya Mukul Choudhary sir ki VWAP + 10EMA \"Failure Concept\" strategy sach me 70% accurate hai? Is video me humne 1:4 risk-reward ratio ke is claim ka sach pta lagaya hai. Maine is pure logic ko Python algo ke sath backtest kiya hai real market data par!",
+      "High risk-reward trading strategies (1:3 and 1:4 RR setups)"
+    ],
+    "raw_be": []
+  },
+  "68": {
+    "num": 68,
+    "name": "luxalgo_confirm",
+    "title": "LuxAlgo Confirmation Trend & Baseline Momentum (H1)",
+    "file": "indicator_luxalgo_confirmation_trend_scanner.py",
+    "video_id": "x-7CInJes_s",
+    "raw_sl": [
+      "Stop Loss — Jab price TRAMA ke neeche close ho jaaye."
+    ],
+    "raw_tp": [
+      "Exit (Target) — RSI 70 ke upar aa jaaye tab exit karo.",
+      "Koi fixed target nahi — RSI hi batata hai kab nikalna"
+    ],
+    "raw_rr": [],
+    "raw_be": [
+      "trailing stop dono ka kaam karti hai"
+    ]
+  },
+  "69": {
+    "num": 69,
+    "name": "uk_break_bounce",
+    "title": "UK 20-Year Pro Trader Break and Bounce Scanner (M15)",
+    "file": "forex_uk_trader_break_and_bounce_scanner.py",
+    "video_id": "ulkbJJzPHzE",
+    "raw_sl": [],
+    "raw_tp": [
+      "Risk to Reward: 1:2 to 1:3 target."
+    ],
+    "raw_rr": [
+      "Risk to Reward: 1:2 to 1:3 target."
+    ],
+    "raw_be": []
+  },
+  "70": {
+    "num": 70,
+    "name": "pb_multi_tf_fvg",
+    "title": "PB Trading Multi-Timeframe H1 + M5 FVG Confluence (H1/M5)",
+    "file": "forex_pb_trading_h1_m5_fvg_scanner.py",
+    "video_id": "N3o-py_LA3A",
+    "raw_sl": [
+      "✅ SL: pullback ka swing low"
+    ],
+    "raw_tp": [
+      "✅ Target: 1:2 RR fixed"
+    ],
+    "raw_rr": [
+      "✅ Target: 1:2 RR fixed"
+    ],
+    "raw_be": []
+  }
+}

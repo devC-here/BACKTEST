@@ -1,0 +1,116 @@
+{
+  "total_models": 19,
+  "total_trades": 4980,
+  "total_pnl_pips": 9606.5,
+  "average_annual_pips": 1921.3,
+  "win_rate": 48.8,
+  "profit_factor": 1.43,
+  "portfolio_max_dd": 238.5,
+  "return_dd_ratio": 40.28,
+  "average_pairwise_correlation": 0.0202,
+  "concurrency": {
+    "total_timeline_days": 2095.4,
+    "max_concurrent_trades": 12,
+    "median_concurrent": 0.0,
+    "p90_concurrent": 1.0,
+    "p95_concurrent": 2.0,
+    "p99_concurrent": 4.0,
+    "concurrency_distribution": {
+      "0": {
+        "duration_hours": 41255.9,
+        "percent_of_time": 82.04
+      },
+      "1": {
+        "duration_hours": 5636.8,
+        "percent_of_time": 11.21
+      },
+      "2": {
+        "duration_hours": 2095.3,
+        "percent_of_time": 4.17
+      },
+      "3": {
+        "duration_hours": 515.9,
+        "percent_of_time": 1.03
+      },
+      "4": {
+        "duration_hours": 429.4,
+        "percent_of_time": 0.85
+      },
+      "5": {
+        "duration_hours": 114.8,
+        "percent_of_time": 0.23
+      },
+      "6": {
+        "duration_hours": 113.7,
+        "percent_of_time": 0.23
+      },
+      "7": {
+        "duration_hours": 51.9,
+        "percent_of_time": 0.1
+      },
+      "8": {
+        "duration_hours": 50.8,
+        "percent_of_time": 0.1
+      },
+      "9": {
+        "duration_hours": 7.4,
+        "percent_of_time": 0.01
+      },
+      "10": {
+        "duration_hours": 1.2,
+        "percent_of_time": 0.0
+      },
+      "12": {
+        "duration_hours": 15.5,
+        "percent_of_time": 0.03
+      }
+    }
+  },
+  "annual_breakdown": [
+    {
+      "Period / Year": "2021",
+      "Trades": 823,
+      "Net Pips": 2216.9,
+      "Win Rate (%)": 52.6,
+      "Profit Factor": 1.7,
+      "Max DD (pips)": 145.6,
+      "Return / DD": 15.23
+    },
+    {
+      "Period / Year": "2022",
+      "Trades": 899,
+      "Net Pips": 2254.4,
+      "Win Rate (%)": 50.7,
+      "Profit Factor": 1.57,
+      "Max DD (pips)": 100.8,
+      "Return / DD": 22.37
+    },
+    {
+      "Period / Year": "2023",
+      "Trades": 621,
+      "Net Pips": 842.8,
+      "Win Rate (%)": 45.7,
+      "Profit Factor": 1.27,
+      "Max DD (pips)": 178.9,
+      "Return / DD": 4.71
+    },
+    {
+      "Period / Year": "2024",
+      "Trades": 1357,
+      "Net Pips": 2528.2,
+      "Win Rate (%)": 48.6,
+      "Profit Factor": 1.42,
+      "Max DD (pips)": 238.5,
+      "Return / DD": 10.6
+    },
+    {
+      "Period / Year": "2025-2026",
+      "Trades": 1280,
+      "Net Pips": 1764.2,
+      "Win Rate (%)": 46.6,
+      "Profit Factor": 1.28,
+      "Max DD (pips)": 179.2,
+      "Return / DD": 9.84
+    }
+  ]
+}

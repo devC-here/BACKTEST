@@ -1,0 +1,33 @@
+{
+  "strategy": "HighFrequency_M15_Scalper",
+  "best_params": {
+    "target_rr": 2.4,
+    "min_sl": 8.0,
+    "max_sl": 16.0,
+    "sweep_lookback": 24,
+    "h1_ema_period": 70,
+    "use_h1_filter": true,
+    "session": "expanded_eu_us"
+  },
+  "train": {
+    "trades": 1226,
+    "pf": 1.15,
+    "rr": 2.3,
+    "net_pips": 1337.1,
+    "max_dd": 212.3
+  },
+  "test": {
+    "trades": 902,
+    "pf": 0.98,
+    "rr": 2.18,
+    "net_pips": -139.0,
+    "max_dd": 708.2
+  },
+  "total_5y": {
+    "trades": 2128,
+    "pf": 1.07,
+    "rr": 2.24,
+    "net_pips": 1198.1,
+    "max_dd": 719.9
+  }
+}

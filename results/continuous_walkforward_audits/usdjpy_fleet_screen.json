@@ -1,0 +1,682 @@
+[
+  {
+    "name": "disc49_intraday_macro_retest_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc49_intraday_macro_retest_elite\\strategy.py",
+    "holdout": {
+      "trades": 6,
+      "net_pips": 53.8,
+      "pf": 3.12,
+      "wr": 66.7
+    },
+    "discovery": {
+      "trades": 12,
+      "net_pips": 81.0,
+      "pf": 2.45,
+      "wr": 58.3
+    }
+  },
+  {
+    "name": "disc50_m30_m5_precision_retest_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc50_m30_m5_precision_retest_elite\\strategy.py",
+    "holdout": {
+      "trades": 12,
+      "net_pips": 57.4,
+      "pf": 2.08,
+      "wr": 58.3
+    },
+    "discovery": {
+      "trades": 7,
+      "net_pips": 109.0,
+      "pf": 99.0,
+      "wr": 100.0
+    }
+  },
+  {
+    "name": "disc51_macro_asymmetric_runner_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc51_macro_asymmetric_runner_elite\\strategy.py",
+    "holdout": {
+      "trades": 6,
+      "net_pips": 50.1,
+      "pf": 2.32,
+      "wr": 50.0
+    },
+    "discovery": {
+      "trades": 12,
+      "net_pips": 109.0,
+      "pf": 2.59,
+      "wr": 50.0
+    }
+  },
+  {
+    "name": "disc52_fib_golden_pocket_pin_defense_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc52_fib_golden_pocket_pin_defense_elite\\strategy.py",
+    "holdout": {
+      "trades": 114,
+      "net_pips": -261.0,
+      "pf": 0.75,
+      "wr": 29.8
+    },
+    "discovery": {
+      "trades": 90,
+      "net_pips": 32.6,
+      "pf": 1.04,
+      "wr": 36.7
+    }
+  },
+  {
+    "name": "disc53_m15_3bar_trend_pullback_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc53_m15_3bar_trend_pullback_elite\\strategy.py",
+    "holdout": {
+      "trades": 292,
+      "net_pips": -204.8,
+      "pf": 0.92,
+      "wr": 33.2
+    },
+    "discovery": {
+      "trades": 199,
+      "net_pips": -192.4,
+      "pf": 0.89,
+      "wr": 32.7
+    }
+  },
+  {
+    "name": "disc54_h1_inside_bar_expansion_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc54_h1_inside_bar_expansion_elite\\strategy.py",
+    "holdout": {
+      "trades": 272,
+      "net_pips": -263.8,
+      "pf": 0.89,
+      "wr": 32.7
+    },
+    "discovery": {
+      "trades": 201,
+      "net_pips": 565.7,
+      "pf": 1.38,
+      "wr": 43.8
+    }
+  },
+  {
+    "name": "disc55_m15_200ema_dynamic_bounce_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc55_m15_200ema_dynamic_bounce_elite\\strategy.py",
+    "holdout": {
+      "trades": 112,
+      "net_pips": -203.2,
+      "pf": 0.79,
+      "wr": 32.1
+    },
+    "discovery": {
+      "trades": 81,
+      "net_pips": -235.8,
+      "pf": 0.68,
+      "wr": 27.2
+    }
+  },
+  {
+    "name": "disc56_triple_screen_m15_impulse_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc56_triple_screen_m15_impulse_elite\\strategy.py",
+    "holdout": {
+      "trades": 313,
+      "net_pips": -519.6,
+      "pf": 0.82,
+      "wr": 31.3
+    },
+    "discovery": {
+      "trades": 249,
+      "net_pips": -52.6,
+      "pf": 0.97,
+      "wr": 36.1
+    }
+  },
+  {
+    "name": "disc57_london_ignition_range_break_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc57_london_ignition_range_break_elite\\strategy.py",
+    "holdout": {
+      "trades": 160,
+      "net_pips": -178.3,
+      "pf": 0.87,
+      "wr": 32.5
+    },
+    "discovery": {
+      "trades": 140,
+      "net_pips": -364.7,
+      "pf": 0.72,
+      "wr": 27.9
+    }
+  },
+  {
+    "name": "disc58_h1_keltner_squeeze_explosion_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc58_h1_keltner_squeeze_explosion_elite\\strategy.py",
+    "holdout": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    },
+    "discovery": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    }
+  },
+  {
+    "name": "disc59_m15_macd_zero_cross_momentum_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc59_m15_macd_zero_cross_momentum_elite\\strategy.py",
+    "holdout": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    },
+    "discovery": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    }
+  },
+  {
+    "name": "disc60_asian_compression_breakout_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc60_asian_compression_breakout_elite\\strategy.py",
+    "holdout": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    },
+    "discovery": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    }
+  },
+  {
+    "name": "disc61_double_structure_neckline_breakout_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc61_double_structure_neckline_breakout_elite\\strategy.py",
+    "holdout": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    },
+    "discovery": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    }
+  },
+  {
+    "name": "disc62_stoch_rsi_pullback_hook_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc62_stoch_rsi_pullback_hook_elite\\strategy.py",
+    "holdout": {
+      "trades": 415,
+      "net_pips": -268.4,
+      "pf": 0.92,
+      "wr": 34.2
+    },
+    "discovery": {
+      "trades": 304,
+      "net_pips": 144.3,
+      "pf": 1.06,
+      "wr": 36.5
+    }
+  },
+  {
+    "name": "disc64_asian_midpoint_rebound_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc64_asian_midpoint_rebound_elite\\strategy.py",
+    "holdout": {
+      "trades": 211,
+      "net_pips": 743.6,
+      "pf": 1.49,
+      "wr": 44.5
+    },
+    "discovery": {
+      "trades": 183,
+      "net_pips": 14.8,
+      "pf": 1.01,
+      "wr": 35.0
+    }
+  },
+  {
+    "name": "disc65_session_vwap_band_fade_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc65_session_vwap_band_fade_elite\\strategy.py",
+    "holdout": {
+      "trades": 189,
+      "net_pips": 257.9,
+      "pf": 1.18,
+      "wr": 40.2
+    },
+    "discovery": {
+      "trades": 162,
+      "net_pips": 789.4,
+      "pf": 1.74,
+      "wr": 48.8
+    }
+  },
+  {
+    "name": "disc66_heikin_ashi_surge_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc66_heikin_ashi_surge_elite\\strategy.py",
+    "holdout": {
+      "trades": 434,
+      "net_pips": -98.5,
+      "pf": 0.97,
+      "wr": 34.8
+    },
+    "discovery": {
+      "trades": 335,
+      "net_pips": 308.7,
+      "pf": 1.12,
+      "wr": 38.2
+    }
+  },
+  {
+    "name": "disc67_london_lunch_expansion_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc67_london_lunch_expansion_elite\\strategy.py",
+    "holdout": {
+      "trades": 135,
+      "net_pips": 276.7,
+      "pf": 1.27,
+      "wr": 41.5
+    },
+    "discovery": {
+      "trades": 77,
+      "net_pips": 215.3,
+      "pf": 1.38,
+      "wr": 42.9
+    }
+  },
+  {
+    "name": "disc68_cmf_momentum_expansion_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc68_cmf_momentum_expansion_elite\\strategy.py",
+    "holdout": {
+      "trades": 358,
+      "net_pips": 173.1,
+      "pf": 1.06,
+      "wr": 36.9
+    },
+    "discovery": {
+      "trades": 276,
+      "net_pips": 777.9,
+      "pf": 1.39,
+      "wr": 43.1
+    }
+  },
+  {
+    "name": "disc71_asian_hl_retest_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc71_asian_hl_retest_elite\\strategy.py",
+    "holdout": {
+      "trades": 118,
+      "net_pips": 128.8,
+      "pf": 1.14,
+      "wr": 38.1
+    },
+    "discovery": {
+      "trades": 79,
+      "net_pips": 59.0,
+      "pf": 1.09,
+      "wr": 36.7
+    }
+  },
+  {
+    "name": "disc73_donchian_ema_pullback_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc73_donchian_ema_pullback_elite\\strategy.py",
+    "holdout": {
+      "trades": 370,
+      "net_pips": -80.6,
+      "pf": 0.97,
+      "wr": 34.6
+    },
+    "discovery": {
+      "trades": 278,
+      "net_pips": -111.1,
+      "pf": 0.95,
+      "wr": 34.5
+    }
+  },
+  {
+    "name": "disc74_daily_pivot_pullback_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc74_daily_pivot_pullback_elite\\strategy.py",
+    "holdout": {
+      "trades": 73,
+      "net_pips": -142.6,
+      "pf": 0.78,
+      "wr": 30.1
+    },
+    "discovery": {
+      "trades": 65,
+      "net_pips": 85.3,
+      "pf": 1.17,
+      "wr": 38.5
+    }
+  },
+  {
+    "name": "disc75_weekly_pivot_pullback_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc75_weekly_pivot_pullback_elite\\strategy.py",
+    "holdout": {
+      "trades": 51,
+      "net_pips": -89.9,
+      "pf": 0.81,
+      "wr": 27.5
+    },
+    "discovery": {
+      "trades": 41,
+      "net_pips": 245.7,
+      "pf": 1.83,
+      "wr": 43.9
+    }
+  },
+  {
+    "name": "disc76_vwap_1sd_rebound_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc76_vwap_1sd_rebound_elite\\strategy.py",
+    "holdout": {
+      "trades": 122,
+      "net_pips": 108.9,
+      "pf": 1.11,
+      "wr": 37.7
+    },
+    "discovery": {
+      "trades": 94,
+      "net_pips": 23.0,
+      "pf": 1.03,
+      "wr": 36.2
+    }
+  },
+  {
+    "name": "disc77_keltner_midline_expansion_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc77_keltner_midline_expansion_elite\\strategy.py",
+    "holdout": {
+      "trades": 336,
+      "net_pips": 161.8,
+      "pf": 1.06,
+      "wr": 36.6
+    },
+    "discovery": {
+      "trades": 256,
+      "net_pips": 977.2,
+      "pf": 1.55,
+      "wr": 46.1
+    }
+  },
+  {
+    "name": "disc78_three_bar_inside_confirmation_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc78_three_bar_inside_confirmation_elite\\strategy.py",
+    "holdout": {
+      "trades": 292,
+      "net_pips": 26.0,
+      "pf": 1.01,
+      "wr": 35.6
+    },
+    "discovery": {
+      "trades": 243,
+      "net_pips": 532.4,
+      "pf": 1.3,
+      "wr": 41.6
+    }
+  },
+  {
+    "name": "disc79_london_open_15m_expansion_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc79_london_open_15m_expansion_elite\\strategy.py",
+    "holdout": {
+      "trades": 134,
+      "net_pips": -18.6,
+      "pf": 0.98,
+      "wr": 35.1
+    },
+    "discovery": {
+      "trades": 89,
+      "net_pips": -202.7,
+      "pf": 0.75,
+      "wr": 29.2
+    }
+  },
+  {
+    "name": "disc80_double_swing_neckline_retest_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc80_double_swing_neckline_retest_elite\\strategy.py",
+    "holdout": {
+      "trades": 167,
+      "net_pips": 101.7,
+      "pf": 1.08,
+      "wr": 37.1
+    },
+    "discovery": {
+      "trades": 129,
+      "net_pips": 97.6,
+      "pf": 1.09,
+      "wr": 37.2
+    }
+  },
+  {
+    "name": "disc81_bb_squeeze_m5_ignition_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc81_bb_squeeze_m5_ignition_elite\\strategy.py",
+    "holdout": {
+      "trades": 201,
+      "net_pips": -125.2,
+      "pf": 0.93,
+      "wr": 34.3
+    },
+    "discovery": {
+      "trades": 144,
+      "net_pips": 458.3,
+      "pf": 1.43,
+      "wr": 45.1
+    }
+  },
+  {
+    "name": "disc82_chaikin_volatility_surge_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc82_chaikin_volatility_surge_elite\\strategy.py",
+    "holdout": {
+      "trades": 307,
+      "net_pips": 165.4,
+      "pf": 1.07,
+      "wr": 36.5
+    },
+    "discovery": {
+      "trades": 257,
+      "net_pips": 494.0,
+      "pf": 1.25,
+      "wr": 40.5
+    }
+  },
+  {
+    "name": "disc83_parabolic_sar_flip_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc83_parabolic_sar_flip_elite\\strategy.py",
+    "holdout": {
+      "trades": 247,
+      "net_pips": 438.5,
+      "pf": 1.23,
+      "wr": 40.1
+    },
+    "discovery": {
+      "trades": 174,
+      "net_pips": 876.8,
+      "pf": 1.78,
+      "wr": 48.9
+    }
+  },
+  {
+    "name": "disc84_london_30m_orb_continuation_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc84_london_30m_orb_continuation_elite\\strategy.py",
+    "holdout": {
+      "trades": 298,
+      "net_pips": 170.3,
+      "pf": 1.07,
+      "wr": 36.9
+    },
+    "discovery": {
+      "trades": 243,
+      "net_pips": 144.1,
+      "pf": 1.07,
+      "wr": 36.6
+    }
+  },
+  {
+    "name": "disc85_session_open_impulse_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc85_session_open_impulse_elite\\strategy.py",
+    "holdout": {
+      "trades": 213,
+      "net_pips": 125.1,
+      "pf": 1.07,
+      "wr": 37.1
+    },
+    "discovery": {
+      "trades": 151,
+      "net_pips": 72.3,
+      "pf": 1.06,
+      "wr": 36.4
+    }
+  },
+  {
+    "name": "disc86_ema_cross_atr_expansion_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc86_ema_cross_atr_expansion_elite\\strategy.py",
+    "holdout": {
+      "trades": 184,
+      "net_pips": -131.3,
+      "pf": 0.92,
+      "wr": 33.7
+    },
+    "discovery": {
+      "trades": 140,
+      "net_pips": 99.6,
+      "pf": 1.09,
+      "wr": 37.9
+    }
+  },
+  {
+    "name": "disc87_pivot_r1_s1_breakout_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc87_pivot_r1_s1_breakout_elite\\strategy.py",
+    "holdout": {
+      "trades": 135,
+      "net_pips": 52.0,
+      "pf": 1.05,
+      "wr": 36.3
+    },
+    "discovery": {
+      "trades": 112,
+      "net_pips": 354.6,
+      "pf": 1.44,
+      "wr": 44.6
+    }
+  },
+  {
+    "name": "disc88_three_drive_ignition_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc88_three_drive_ignition_elite\\strategy.py",
+    "holdout": {
+      "trades": 248,
+      "net_pips": -162.6,
+      "pf": 0.92,
+      "wr": 33.9
+    },
+    "discovery": {
+      "trades": 207,
+      "net_pips": 456.0,
+      "pf": 1.29,
+      "wr": 41.5
+    }
+  },
+  {
+    "name": "disc89_ny_london_vwap_ignition_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc89_ny_london_vwap_ignition_elite\\strategy.py",
+    "holdout": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    },
+    "discovery": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    }
+  },
+  {
+    "name": "disc90_opening_range_impulse_expansion_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc90_opening_range_impulse_expansion_elite\\strategy.py",
+    "holdout": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    },
+    "discovery": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    }
+  },
+  {
+    "name": "disc91_session_donchian_midline_bounce_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc91_session_donchian_midline_bounce_elite\\strategy.py",
+    "holdout": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    },
+    "discovery": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    }
+  },
+  {
+    "name": "disc92_asian_sr_flip_retest_elite",
+    "symbol": "USDJPY",
+    "path": "archive_deprecated\\strategies\\usdjpy_fleet\\disc92_asian_sr_flip_retest_elite\\strategy.py",
+    "holdout": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    },
+    "discovery": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    }
+  }
+]

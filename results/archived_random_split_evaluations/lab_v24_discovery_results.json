@@ -1,0 +1,110 @@
+{
+  "EURUSD_PARABOLIC_SAR_ACCELERATION_FLIP": {
+    "trades": 567,
+    "win_rate": 39.9,
+    "pf": 1.33,
+    "net_pips": 1032.5,
+    "max_dd": 159.8,
+    "ret_dd": 6.46,
+    "expectancy": 1.82
+  },
+  "EURUSD_LONDON_PRE_FIX_MEAN_REVERSION": {
+    "trades": 26,
+    "win_rate": 57.7,
+    "pf": 2.17,
+    "net_pips": 122.5,
+    "max_dd": 31.8,
+    "ret_dd": 3.85,
+    "expectancy": 4.71
+  },
+  "EURUSD_CHAIKIN_VOLATILITY_EXPANSION_SURGE": {
+    "trades": 774,
+    "win_rate": 40.2,
+    "pf": 1.33,
+    "net_pips": 1401.8,
+    "max_dd": 138.7,
+    "ret_dd": 10.11,
+    "expectancy": 1.81
+  },
+  "EURUSD_LONDON_30M_ORB_CONTINUATION": {
+    "trades": 655,
+    "win_rate": 38.5,
+    "pf": 1.25,
+    "net_pips": 932.0,
+    "max_dd": 150.7,
+    "ret_dd": 6.18,
+    "expectancy": 1.42
+  },
+  "USDJPY_PARABOLIC_SAR_ACCELERATION_FLIP": {
+    "trades": 538,
+    "win_rate": 42.2,
+    "pf": 1.43,
+    "net_pips": 1641.0,
+    "max_dd": 157.4,
+    "ret_dd": 10.43,
+    "expectancy": 3.05
+  },
+  "USDJPY_LONDON_PRE_FIX_MEAN_REVERSION": {
+    "trades": 41,
+    "win_rate": 24.4,
+    "pf": 0.57,
+    "net_pips": -151.4,
+    "max_dd": 139.4,
+    "ret_dd": -1.09,
+    "expectancy": -3.69
+  },
+  "USDJPY_CHAIKIN_VOLATILITY_EXPANSION_SURGE": {
+    "trades": 763,
+    "win_rate": 38.3,
+    "pf": 1.23,
+    "net_pips": 1329.4,
+    "max_dd": 252.7,
+    "ret_dd": 5.26,
+    "expectancy": 1.74
+  },
+  "USDJPY_LONDON_30M_ORB_CONTINUATION": {
+    "trades": 700,
+    "win_rate": 38.3,
+    "pf": 1.23,
+    "net_pips": 1200.8,
+    "max_dd": 197.3,
+    "ret_dd": 6.09,
+    "expectancy": 1.72
+  },
+  "EURGBP_PARABOLIC_SAR_ACCELERATION_FLIP": {
+    "trades": 302,
+    "win_rate": 29.8,
+    "pf": 0.74,
+    "net_pips": -465.4,
+    "max_dd": 490.4,
+    "ret_dd": -0.95,
+    "expectancy": -1.54
+  },
+  "EURGBP_LONDON_PRE_FIX_MEAN_REVERSION": {
+    "trades": 8,
+    "win_rate": 25.0,
+    "pf": 0.58,
+    "net_pips": -18.9,
+    "max_dd": 32.1,
+    "ret_dd": -0.59,
+    "expectancy": -2.36
+  },
+  "EURGBP_CHAIKIN_VOLATILITY_EXPANSION_SURGE": {
+    "trades": 473,
+    "win_rate": 31.7,
+    "pf": 0.85,
+    "net_pips": -399.6,
+    "max_dd": 535.8,
+    "ret_dd": -0.75,
+    "expectancy": -0.84
+  },
+  "EURGBP_LONDON_30M_ORB_CONTINUATION": {
+    "trades": 339,
+    "win_rate": 30.1,
+    "pf": 0.83,
+    "net_pips": -330.0,
+    "max_dd": 426.1,
+    "ret_dd": -0.77,
+    "expectancy": -0.97
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "USDCAD_SW_D11_SL14_TP45",
+    "type": "asian_sweep",
+    "sl": 14.0,
+    "tp": 45.0,
+    "disc_trades": 122,
+    "disc_pips": 235.8,
+    "disc_pf": 1.19,
+    "disc_wr": 30.3,
+    "hold_trades": 50,
+    "hold_pips": 63.8,
+    "hold_pf": 1.12,
+    "hold_wr": 28.0,
+    "delta": 11.0
+  },
+  {
+    "id": "USDCAD_SW_D11_SL14_TP35",
+    "type": "asian_sweep",
+    "sl": 14.0,
+    "tp": 35.0,
+    "disc_trades": 122,
+    "disc_pips": 100.4,
+    "disc_pf": 1.08,
+    "disc_wr": 32.0,
+    "hold_trades": 50,
+    "hold_pips": 3.8,
+    "hold_pf": 1.01,
+    "hold_wr": 30.0,
+    "delta": 11.0
+  }
+]

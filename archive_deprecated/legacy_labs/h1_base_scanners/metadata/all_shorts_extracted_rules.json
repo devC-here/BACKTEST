@@ -1,0 +1,2261 @@
+{
+  "1": {
+    "index": 1,
+    "title": "100+ Followers Asked for This Algo Backtest — Results Are Shocking",
+    "sl_raw": [
+      "✅ Stop-Loss: rejection candle ke lowest wick ke neeche"
+    ],
+    "tp_raw": [
+      "✅ TP1: 1:1.5 se 1:2 RR pe 50% position close karo"
+    ],
+    "rr_raw": [
+      "✅ TP1: 1:1.5 se 1:2 RR pe 50% position close karo"
+    ],
+    "be_raw": []
+  },
+  "2": {
+    "index": 2,
+    "title": "21 Saal Mein $1M — Trading Geek Strategy Algo Backtested",
+    "sl_raw": [
+      "✅ Stop-Loss: Broken resistance/support ke thoda neeche/upar",
+      "✅ Breakeven: TP1 hit hote hi SL entry pe le aao"
+    ],
+    "tp_raw": [
+      "✅ TP1: 1:3 RR pe 50% position close karo",
+      "✅ Breakeven: TP1 hit hote hi SL entry pe le aao",
+      "✅ TP2 (Runner): Baaki 50% position 8 EMA aur 14 EMA crossover tak trail karo"
+    ],
+    "rr_raw": [
+      "✅ TP1: 1:3 RR pe 50% position close karo"
+    ],
+    "be_raw": [
+      "✅ Breakeven: TP1 hit hote hi SL entry pe le aao",
+      "✅ TP2 (Runner): Baaki 50% position 8 EMA aur 14 EMA crossover tak trail karo"
+    ]
+  },
+  "3": {
+    "index": 3,
+    "title": "Tata Motors Chhodi, Trader Bane — Milind Upasani Strategy Algo Backtest",
+    "sl_raw": [
+      "✅ Stop-Loss: Pullback dip ke swing low ke thoda neeche",
+      "✅ Pro Tip: BSE, HAL, MCX, CDSL jaise monopoly stocks pe results significantly better hote hain"
+    ],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "4": {
+    "index": 4,
+    "title": "\"Most Subscribed Forex Trader's Strategy — Full Algo Backtest",
+    "sl_raw": [
+      "✅ Stop-Loss: Double Bottom ke lowest low ke thoda neeche"
+    ],
+    "tp_raw": [
+      "✅ Target: Pichla HTF swing high (avg RR 2:1 se 2.4:1)"
+    ],
+    "rr_raw": [
+      "✅ Target: Pichla HTF swing high (avg RR 2:1 se 2.4:1)"
+    ],
+    "be_raw": []
+  },
+  "5": {
+    "index": 5,
+    "title": "Stop Being Manipulated — Trade the Trap With This Algo Setup",
+    "sl_raw": [
+      "Har trader ne yeh experience kiya hai -- price ek level pe aata hai, tum enter karte ho, aur stop-loss hit ho jaata hai. Yeh market manipulation hai. Aaj main ek aisi strategy sikhaunga jisse tum isi manipulation ko trade kar sako, aur saath mein uska Python algo backtest bhi share karunga.",
+      "✅ 5M chart pe obvious swing low dhundho jahan retail ke stop-losses hote hain",
+      "✅ Price us level ke neeche jaaye aur tezi se wapas aaye -- stop-loss hunt confirmed",
+      "✅ Stop-Loss: IFVG ke thoda neeche"
+    ],
+    "tp_raw": [
+      "✅ Target: Fixed 1:2 Risk Reward"
+    ],
+    "rr_raw": [
+      "✅ Target: Fixed 1:2 Risk Reward"
+    ],
+    "be_raw": []
+  },
+  "6": {
+    "index": 6,
+    "title": "Renko Chart Strategy Algo Backtested — 35% Return on 10 Lakh",
+    "sl_raw": [
+      "✅ Stop-Loss: 2 Renko bricks neeche",
+      "✅ First Target: 3 bricks upar -- target hit hote hi SL breakeven pe le aao"
+    ],
+    "tp_raw": [
+      "✅ First Target: 3 bricks upar -- target hit hote hi SL breakeven pe le aao"
+    ],
+    "rr_raw": [],
+    "be_raw": [
+      "✅ First Target: 3 bricks upar -- target hit hote hi SL breakeven pe le aao",
+      "✅ Trail: Jab tak brick 10 SMA ke neeche close na ho tab tak hold karo"
+    ]
+  },
+  "7": {
+    "index": 7,
+    "title": "Motilal Oswal Expert's Options Strategy — Full Algo Backtest",
+    "sl_raw": [
+      "✅ Stop-Loss: Channel ke lower band pe",
+      "✅ 1:1 profit aate hi Stop-Loss breakeven pe le aao"
+    ],
+    "tp_raw": [
+      "✅ Target: Fixed 1:1.5 se 1:2 Risk Reward"
+    ],
+    "rr_raw": [
+      "✅ Target: Fixed 1:1.5 se 1:2 Risk Reward",
+      "✅ 1:1 profit aate hi Stop-Loss breakeven pe le aao"
+    ],
+    "be_raw": [
+      "✅ 1:1 profit aate hi Stop-Loss breakeven pe le aao",
+      "#animeshkumar #heikinashi #21ema #macdcrossover #optionstrading #niftyoptions #intraday #breakeven #riskmanagement #backtesting #automatedtrading #pythontrading #quanttrading #algotrader #indianstockmarket"
+    ]
+  },
+  "8": {
+    "index": 8,
+    "title": "ICT Breaker Block Algo Backtest — Most Traders Miss This Setup",
+    "sl_raw": [
+      "✅ Stop-Loss: Breaker Block zone ke thoda upar"
+    ],
+    "tp_raw": [
+      "✅ Target: Fixed 1:2 Risk Reward (koi partial exits nahi, koi trailing nahi)"
+    ],
+    "rr_raw": [
+      "✅ Target: Fixed 1:2 Risk Reward (koi partial exits nahi, koi trailing nahi)"
+    ],
+    "be_raw": [
+      "✅ Target: Fixed 1:2 Risk Reward (koi partial exits nahi, koi trailing nahi)"
+    ]
+  },
+  "9": {
+    "index": 9,
+    "title": "833 EMA Strategy Algo Backtest — Does Wizard Trader's Claim Hold?",
+    "sl_raw": [
+      "✅ Stop-Loss: Recent swing low ke thoda neeche"
+    ],
+    "tp_raw": [
+      "✅ Target: Agle major resistance zone tak"
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "10": {
+    "index": 10,
+    "title": "William Fractal Scalping — I Algo Backtested Neeraj Joshi's Claim",
+    "sl_raw": [
+      "✅ Stop-Loss: Breakout ke baad jo highest wick bani uske thoda upar"
+    ],
+    "tp_raw": [
+      "✅ Target: Fixed 1:2 Risk Reward"
+    ],
+    "rr_raw": [
+      "✅ Target: Fixed 1:2 Risk Reward"
+    ],
+    "be_raw": []
+  },
+  "11": {
+    "index": 11,
+    "title": "Kushal Varshney Algo Setup — Independence Day Lifetime Offer",
+    "sl_raw": [
+      "Aaj Independence Day pe sirf apne followers ke liye ek khaas offer hai. Kushal Varshney ka algo setup jo duniya ka sabse chhota stop-loss aur sabse bada target dene ki shamta rakhta hai. LIFETIME access sirf us cost mein jo isko banaane mein lagti hai."
+    ],
+    "tp_raw": [
+      "Aaj Independence Day pe sirf apne followers ke liye ek khaas offer hai. Kushal Varshney ka algo setup jo duniya ka sabse chhota stop-loss aur sabse bada target dene ki shamta rakhta hai. LIFETIME access sirf us cost mein jo isko banaane mein lagti hai."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "12": {
+    "index": 12,
+    "title": "Stock Burner's 1:33 RR Claim — I Algo Backtested It on 1 Lakh",
+    "sl_raw": [
+      "✅ Stop-Loss: Neeche wale swing low ke thoda neeche",
+      "✅ Target fixed nahi. Jab tak trend chale, SL trail karte jao har naye swing low ke neeche"
+    ],
+    "tp_raw": [
+      "✅ Target fixed nahi. Jab tak trend chale, SL trail karte jao har naye swing low ke neeche"
+    ],
+    "rr_raw": [],
+    "be_raw": [
+      "✅ Target fixed nahi. Jab tak trend chale, SL trail karte jao har naye swing low ke neeche",
+      "#stockburner #trendline #multiframe #4htrading #15mtrading #swingtrading #cryptofutures #btcusdt #ethusdt #backtesting #automatedtrading #pythontrading #quanttrading #trailingstop #priceaction"
+    ]
+  },
+  "13": {
+    "index": 13,
+    "title": "74% Return in 1 Year — Vishal Malkan Options Strategy Algo Backtest",
+    "sl_raw": [
+      "✅ Stop-Loss: Alert Candle ka low",
+      "✅ Har target pe partial booking karo aur SL trail karo"
+    ],
+    "tp_raw": [
+      "✅ Target 1: Alert Candle ki height jitna (1x)",
+      "✅ Target 2: 2x",
+      "✅ Target 3: 3x",
+      "✅ Har target pe partial booking karo aur SL trail karo"
+    ],
+    "rr_raw": [],
+    "be_raw": [
+      "✅ Har target pe partial booking karo aur SL trail karo"
+    ]
+  },
+  "14": {
+    "index": 14,
+    "title": "Why Traders Lose on Supply Demand — SLC Strategy Algo Backtest",
+    "sl_raw": [
+      "✅ Stop-Loss: Demand Zone ke thoda neeche"
+    ],
+    "tp_raw": [
+      "✅ Target: 1:2 Risk Reward fixed"
+    ],
+    "rr_raw": [
+      "✅ Target: 1:2 Risk Reward fixed"
+    ],
+    "be_raw": []
+  },
+  "15": {
+    "index": 15,
+    "title": "Lakhon Kamaane Wali Strategy — 1 Year Algo Backtest Results",
+    "sl_raw": [
+      "✅ SL: pullback ka swing low"
+    ],
+    "tp_raw": [
+      "✅ Target: 1:2 RR fixed"
+    ],
+    "rr_raw": [
+      "✅ Target: 1:2 RR fixed"
+    ],
+    "be_raw": []
+  },
+  "16": {
+    "index": 16,
+    "title": "0 Stop Losses in 3 Months? I Algo Backtested This Options Strategy",
+    "sl_raw": [
+      "Kunjan Prajapati ki Gravity Options Selling strategy Upsurge channel pe featured hai — 3 mahine mein koi stop-loss nahi laga. Maine isko broker API ka data lekar 5 saal Python algo se backtest kiya.",
+      "✅ SL: jab spot price sold strike pe aaye -- immediately exit"
+    ],
+    "tp_raw": [
+      "✅ Target: 90% maximum profit ke paas pahunchne pe exit"
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "17": {
+    "index": 17,
+    "title": "Copy Kiya Mera Content — Algowithwahid Exposed",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "18": {
+    "index": 18,
+    "title": "ICT Order Block Strategy Backtested — 74% Return in 1 Year",
+    "sl_raw": [
+      "✅ Stop-Loss: Daily OB midpoint se thoda neeche"
+    ],
+    "tp_raw": [
+      "✅ Target: Daily chart ka major liquidity level"
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "19": {
+    "index": 19,
+    "title": "400-1200% Return Claim? I Algo Backtested This Forex Strategy",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "20": {
+    "index": 20,
+    "title": "I Algo Backtested This SMC Strategy — 99.9% Returns in 1 Year",
+    "sl_raw": [
+      "✅ Stop-Loss aur Target dono Fibonacci ke extreme levels pe -- fixed RR approximately 2.4:1"
+    ],
+    "tp_raw": [
+      "✅ Stop-Loss aur Target dono Fibonacci ke extreme levels pe -- fixed RR approximately 2.4:1"
+    ],
+    "rr_raw": [
+      "✅ Stop-Loss aur Target dono Fibonacci ke extreme levels pe -- fixed RR approximately 2.4:1"
+    ],
+    "be_raw": []
+  },
+  "21": {
+    "index": 21,
+    "title": "First-Ever ETF Strategy Algo Backtest — 129% Return in 5 Years",
+    "sl_raw": [
+      "✅ Koi fixed target ya stop-loss nahi — RSI hi exit signal hai"
+    ],
+    "tp_raw": [
+      "✅ Koi fixed target ya stop-loss nahi — RSI hi exit signal hai"
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "22": {
+    "index": 22,
+    "title": "80% Win Rate Claim of Sandwich pattern Strategy? I Backtested This Paid Strategy",
+    "sl_raw": [
+      "✅ Stop-loss aur fixed 1:2 Risk:Reward target"
+    ],
+    "tp_raw": [
+      "✅ Stop-loss aur fixed 1:2 Risk:Reward target"
+    ],
+    "rr_raw": [
+      "✅ Stop-loss aur fixed 1:2 Risk:Reward target"
+    ],
+    "be_raw": []
+  },
+  "23": {
+    "index": 23,
+    "title": "$2 Lakh in 3 Months? I Algo Backtested This SMC Strategy",
+    "sl_raw": [
+      "✅ Stop-loss aur target placement — sweep low se neeche, target PDH/PDL"
+    ],
+    "tp_raw": [
+      "✅ Stop-loss aur target placement — sweep low se neeche, target PDH/PDL"
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "24": {
+    "index": 24,
+    "title": "I Algo Backtested a US Trader's 8AM SMC Setup (ICT + FVG)",
+    "sl_raw": [
+      "✅ Stop-loss, 50% partial booking aur trailing till 8 AM candle high (min 1:2 RR)"
+    ],
+    "tp_raw": [],
+    "rr_raw": [
+      "✅ Stop-loss, 50% partial booking aur trailing till 8 AM candle high (min 1:2 RR)"
+    ],
+    "be_raw": [
+      "✅ Stop-loss, 50% partial booking aur trailing till 8 AM candle high (min 1:2 RR)"
+    ]
+  },
+  "25": {
+    "index": 25,
+    "title": "93% Win Rate in 15 Minutes? Algo Backtesting the 3 PM Setup",
+    "sl_raw": [
+      "✅ Stop-loss aur 1:1 partial booking + trailing ka rule"
+    ],
+    "tp_raw": [],
+    "rr_raw": [
+      "✅ Stop-loss aur 1:1 partial booking + trailing ka rule"
+    ],
+    "be_raw": [
+      "✅ Stop-loss aur 1:1 partial booking + trailing ka rule"
+    ]
+  },
+  "26": {
+    "index": 26,
+    "title": "London Session Ka Yeh Setup — Prop Trader Ka Secret?",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "27": {
+    "index": 27,
+    "title": "Booming Bulls (Anish Thakur) SECRET Gold FRVP Strategy — Algo Backtested!",
+    "sl_raw": [
+      "✅ Stop-loss aur target ke rules"
+    ],
+    "tp_raw": [
+      "✅ Stop-loss aur target ke rules"
+    ],
+    "rr_raw": [
+      "Yeh strategy prop firm traders bhi use kar sakte hain, aur isme risk-reward 1:2 se 1:3 tak milta hai."
+    ],
+    "be_raw": []
+  },
+  "28": {
+    "index": 28,
+    "title": "ICT Sniper Entry Trading Strategy — 64% Win Rate, Only 12% Drawdown (Algo Backtest)",
+    "sl_raw": [
+      "ICT (Inner Circle Trader) ka woh sniper entry model jisse aap ek dum perfect entry le sakte ho. Institutions pehle retail traders ke stop-loss ko trigger karti hain, phir ulti direction mein move karti hain — aur yeh liquidity-based strategy exactly usi trap ko apne favour mein use karti hai.",
+      "Puri step-by-step entry, stop-loss aur target ki strategy maine ek PDF mein diagram ke saath samjhayi hai. Woh yahan reveal nahi kar raha — neeche \"Sniper\" comment karo, main PDF bhej dunga."
+    ],
+    "tp_raw": [
+      "Puri step-by-step entry, stop-loss aur target ki strategy maine ek PDF mein diagram ke saath samjhayi hai. Woh yahan reveal nahi kar raha — neeche \"Sniper\" comment karo, main PDF bhej dunga."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "29": {
+    "index": 29,
+    "title": "This RSI trading strategy gave 60% win rate in Algo-backtest.",
+    "sl_raw": [
+      "Strategy rules: trend filter (50-EMA), RSI oversold + confirmation entry, stop-loss placement, aur target logic — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai."
+    ],
+    "tp_raw": [
+      "Strategy rules: trend filter (50-EMA), RSI oversold + confirmation entry, stop-loss placement, aur target logic — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "30": {
+    "index": 30,
+    "title": "40% Win Rate, Still Very Good Return? Supertrend Swing Strategy Backtest 🤯",
+    "sl_raw": [
+      "Strategy rules, entry-exit logic, stop-loss placement, aur breakeven trail technique — sab is video mein detail se samjhaya hai. Backtest ka Python code Google Colab pe dikhaya gaya hai."
+    ],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": [
+      "Entry rules, Supertrend flip logic, trailing stop mechanism, aur risk-reward math — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai.",
+      "Strategy rules, entry-exit logic, stop-loss placement, aur breakeven trail technique — sab is video mein detail se samjhaya hai. Backtest ka Python code Google Colab pe dikhaya gaya hai."
+    ]
+  },
+  "32": {
+    "index": 32,
+    "title": "This EMA Strategy Got 50%+ Return in Backtest — Full Breakdown",
+    "sl_raw": [],
+    "tp_raw": [
+      "Strategy ka core logic simple hai: EMA 20 aur EMA 200 ka combination, 5-minute timeframe pe. Jab price 200 EMA ke upar trade kare aur 20 EMA bhi 200 ke upar ho, sirf long trades plan karni hain. Price jab pullback dekar 20 EMA ke paas wapas close de, wahi entry trigger hai. Stoploss 2x ATR(14) pe, aur target 1:2 se 1:3 ke R-multiple pe rakha gaya hai. Short setup bilkul mirror logic follow karta hai, 200 EMA ke neeche."
+    ],
+    "rr_raw": [
+      "Strategy ka core logic simple hai: EMA 20 aur EMA 200 ka combination, 5-minute timeframe pe. Jab price 200 EMA ke upar trade kare aur 20 EMA bhi 200 ke upar ho, sirf long trades plan karni hain. Price jab pullback dekar 20 EMA ke paas wapas close de, wahi entry trigger hai. Stoploss 2x ATR(14) pe, aur target 1:2 se 1:3 ke R-multiple pe rakha gaya hai. Short setup bilkul mirror logic follow karta hai, 200 EMA ke neeche."
+    ],
+    "be_raw": []
+  },
+  "33": {
+    "index": 33,
+    "title": "This FVG Strategy Works on Stocks, Forex, Crypto, Futures — I Backtested it using Algo.",
+    "sl_raw": [],
+    "tp_raw": [
+      "Stoploss FVG ki pehli candle ke low pe. Target fixed 1:2 risk reward. SELL trades ke liye bilkul ulta karenge."
+    ],
+    "rr_raw": [
+      "Stoploss FVG ki pehli candle ke low pe. Target fixed 1:2 risk reward. SELL trades ke liye bilkul ulta karenge.",
+      "Fair Value Gap Strategy | FVG Trading | SMC Strategy | ICT Trading | Limit Order Entry | Any Market Strategy | Algo Trading India | Gold Trading Strategy | Casper SMC | Jesse Rogers | Backtest Results | Python Trading Bot | Smart Money Concepts | Forex Crypto Futures Strategy | Risk Reward Trading"
+    ],
+    "be_raw": []
+  },
+  "34": {
+    "index": 34,
+    "title": "No Indicators, Just ONE Candle — Nifty Scalping Strategy Algo-Backtested",
+    "sl_raw": [],
+    "tp_raw": [
+      "Step 4: Entry usi retest zone mein lo. Stoploss impulse candle ke low ke neeche. Target fixed 1:2 risk reward."
+    ],
+    "rr_raw": [
+      "Step 4: Entry usi retest zone mein lo. Stoploss impulse candle ke low ke neeche. Target fixed 1:2 risk reward.",
+      "ONE Candle Strategy | Opening Range Breakout | ORB Scalping | Volume Confirmation Trading | Beginner Scalping Strategy | Algo Trading India | Nifty Intraday Trading | Prop Firm Strategy | Backtest Results | Python Trading Bot | Scalping for Beginners | Day Trading Strategy | Technical Analysis | Risk Reward Strategy | 5 Minute Chart Strategy"
+    ],
+    "be_raw": []
+  },
+  "35": {
+    "index": 35,
+    "title": "1:20 Minimum RR? I Put TG Capital's ICT Strategy Through the Algo Backtest!!",
+    "sl_raw": [],
+    "tp_raw": [
+      "Step 6: Target fixed nahi — jab tak daily chart pe 4 stacked EMAs (5, 9, 13, 21) intact rahein tab tak trade chalti rahe. Jab strong bearish candle in sab ke neeche close kare — exit."
+    ],
+    "rr_raw": [
+      "TG Capital yaani Tyler — jisne sirf 3 mahine mein $4 lakh ka prop firm payout liya — ne Chart Fanatics pe apni woh strategy share ki jo unhe broke se six figures tak le gayi. Minimum 1:20 risk reward ka claim hai. Maine iska algo banaya aur 5 Forex pairs pe khud backtest kiya — results aaj video mein hain.",
+      "London Killzone Strategy | FVG Trading | ICT Trading | Consequent Encroachment | EMA Stack Forex | Fair Value Gap | Algo Trading India | Forex Swing Trading | Prop Firm Strategy | Smart Money Concepts | TG Capital Strategy | Chart Fanatics | Backtest Results | Forex Day Trading | London Session Forex | ICT FVG Setup | Python Trading Bot | 1:20 Risk Reward Strategy"
+    ],
+    "be_raw": []
+  },
+  "36": {
+    "index": 36,
+    "title": "The Strategy Behind a $2.5M World Record Prop Firm Payout — Algo Tested",
+    "sl_raw": [
+      "Step 2: NY session mein wait karo. Agar price kisi swing low ko tod ke jaaye — par phir wahi candle ya agli koi candle us swing low ke upar close kare — yeh hai Swing Failure Pattern (SFP). Matlab bade institutional players ne wahan ke retail stop losses trigger kiye aur ab market reverse ho raha hai.",
+      "Step 4: SELL ke liye bilkul ulta — swing high ka SFP, candle uske neeche close kare, SELL entry, SL candle high pe, TP nearest swing low pe."
+    ],
+    "tp_raw": [
+      "Step 3: Jo 1H candle swing low ke upar close kare, uske close pe BUY entry lo. Stoploss usi candle ke low pe. Target nearest unvisited swing high pe.",
+      "Step 4: SELL ke liye bilkul ulta — swing high ka SFP, candle uske neeche close kare, SELL entry, SL candle high pe, TP nearest swing low pe."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "37": {
+    "index": 37,
+    "title": "Algo Trading Explained in the Funniest Way Possible 😂 | Tukkaram Ep 1",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "38": {
+    "index": 38,
+    "title": "$5M Trader's 2026 Strategy — ORB + FVG Algo Backtest Results",
+    "sl_raw": [],
+    "tp_raw": [
+      "Step 5: Stoploss zone ke neeche. Target: 2R agar stoploss tight (FVG pullback), 1.5R agar stoploss wide (demand zone pullback). SELL ke liye bilkul ulta."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "39": {
+    "index": 39,
+    "title": "The Trading Geek Price Action Strategy — Algo Backtest (Gold + Forex)",
+    "sl_raw": [],
+    "tp_raw": [
+      "Step 3: Jab ek bada green candle aaye — uske close pe BUY entry lo. Stoploss zone ke lowest wick ke neeche. Target next resistance level pe. SELL ke liye bilkul ulta karo at resistance."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "40": {
+    "index": 40,
+    "title": "This 10 EMA Strategy Claims 1:10 Risk Reward — I Backtested It",
+    "sl_raw": [],
+    "tp_raw": [
+      "Stoploss fixed price pe nahi, balki 10 EMA line khud stoploss ka kaam karti hai. Trade tab tak chalta rahta hai jab tak koi candle 10 EMA ke neeche close na kare. Isi wajah se is strategy mein fixed target nahi hota — Anant Ladha ke mutabik isse 1:4, 1:5, aur kabhi kabhi 1:10 tak ka risk reward bhi mil sakta hai."
+    ],
+    "rr_raw": [
+      "Stoploss fixed price pe nahi, balki 10 EMA line khud stoploss ka kaam karti hai. Trade tab tak chalta rahta hai jab tak koi candle 10 EMA ke neeche close na kare. Isi wajah se is strategy mein fixed target nahi hota — Anant Ladha ke mutabik isse 1:4, 1:5, aur kabhi kabhi 1:10 tak ka risk reward bhi mil sakta hai.",
+      "Average Risk Reward: 1:3",
+      "Trading Strategy | Algo Trading | Backtest | 10 EMA Strategy | Intraday Trading | Swing Trading | Positional Trading | Nifty 50 | Stock Market India | Share Market | Technical Analysis | EMA Indicator | Trading for Beginners | Python Trading Bot | Risk Reward Ratio | Trend Following Strategy"
+    ],
+    "be_raw": []
+  },
+  "41": {
+    "index": 41,
+    "title": "Umar Punjabi Gold Strategy Exposed! (1-Year Python Algo Backtest)",
+    "sl_raw": [
+      "Capital Security Borders: Pinning stop loss barriers beneath the prominent structural swing low anchors and projecting fixed asset execution take-profits at a clear 1:2 risk-to-reward ratio."
+    ],
+    "tp_raw": [],
+    "rr_raw": [
+      "Capital Security Borders: Pinning stop loss barriers beneath the prominent structural swing low anchors and projecting fixed asset execution take-profits at a clear 1:2 risk-to-reward ratio."
+    ],
+    "be_raw": []
+  },
+  "42": {
+    "index": 42,
+    "title": "I Turned This Classical Fibonacci Strategy Into a High-Speed Algo Printing Machine! (Full Backtest)",
+    "sl_raw": [],
+    "tp_raw": [
+      "Account Risk Boundaries: Securing defensive exit points at the hard structural Fib 1.0 zone line while mapping exit limit targets directly over the anchor swing low points."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "43": {
+    "index": 43,
+    "title": "Testing India's Top Fintech Platforms: Part 1 (Hedged Titan Prime Algo Backtest)",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "44": {
+    "index": 44,
+    "title": "Gomathi Shankar CPR Strategy Exposed! (1-Year Python Algo Backtest)",
+    "sl_raw": [],
+    "tp_raw": [
+      "Kya India ke pioneering pioneer Gomathi Shankar ki multi-timeframe Central Pivot Range yaani CPR strategy professional order books me high accuracy system create kar sakti hai? Is video mein humne unki weekly aur daily overlapping pivot breakout strategy ko coding standards ke sath completely automate kiya hai. Big players dynamic support levels aur daily range boundaries ko target karke short covering moves kaise triggers karte hain, humne is structural workflow ka python algorithm banaya hai aur broker API ke structural historical data setups par detailed validation tests run karke real equity curves aur actual drawdown data analyze kiya hai.",
+      "Scale Targets & Risk Limits: Locking protection stops right beneath the dual confluence zone lines, framing target marker 1 directly at the R1-R2 mathematical midpoint, and routing final exit execution trades directly at the major R2 ceiling."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "45": {
+    "index": 45,
+    "title": "62% Win Rate with This Multi-Timeframe MACD Setup! (Algo Backtest Results)",
+    "sl_raw": [
+      "Advanced trailing stop loss strategies for building sustainable secondary sources of income from markets"
+    ],
+    "tp_raw": [],
+    "rr_raw": [
+      "Scale Out & Trailing Mechanics: Extracting a fixed 50% quantity profit size straight at a clear 1:2 risk-to-reward ratio, updating initial protection stop limits to the absolute breakdown entry cost, and trailing remaining core lots until the macro 4-Hour trend framework prints an opposing exit crossover wave."
+    ],
+    "be_raw": [
+      "Kya classical momentum indicators jaise MACD sach me modern computer algos ke samne outdated ho chuke hain? Is video mein humne three-timeframe alignment filter aur multi-stage profit trailing parameters ko combine karke ek professional mathematical MACD automation code ready kiya hai. Large institutions momentum shift aur histogram validation ke sath dynamic trends ko ride kaise karti hain, humne is exact continuous logic ka python algorithm banaya hai aur broker API ke high-frequency parameters par verification tests run karke true equity curves aur accurate drawdown numbers generate kiye hain.",
+      "Scale Out & Trailing Mechanics: Extracting a fixed 50% quantity profit size straight at a clear 1:2 risk-to-reward ratio, updating initial protection stop limits to the absolute breakdown entry cost, and trailing remaining core lots until the macro 4-Hour trend framework prints an opposing exit crossover wave.",
+      "Advanced trailing stop loss strategies for building sustainable secondary sources of income from markets"
+    ]
+  },
+  "46": {
+    "index": 46,
+    "title": "Stock Learners Liquidity Strategy Exposed! (Python Algo Backtest Results)",
+    "sl_raw": [
+      "Profit Scaling Rules: Positioning protective stop loss orders just over the breakout red candle's high point, clearing target 1 at the nearest immediate structural swing low for partial profit security, and tracking target 2 down to the next major macro swing low.",
+      "How to scale position sizing while maintaining static stop loss controls at previous day boundaries"
+    ],
+    "tp_raw": [
+      "Profit Scaling Rules: Positioning protective stop loss orders just over the breakout red candle's high point, clearing target 1 at the nearest immediate structural swing low for partial profit security, and tracking target 2 down to the next major macro swing low."
+    ],
+    "rr_raw": [
+      "Kya Stock Learners channel ke Gautam Jha ki high risk reward liquidity strategy real market conditions mein survive kar sakti hai? Is video mein humne unki previous day range breakout aur 1-minute refinement strategy ko mathematical coding ke sath completely automate kiya hai. Institutional smart money players high volume zones par retail orders ko chase aur hunt kaise karte hain, humne is rule-based architecture ka python algorithm banaya hai aur broker API ke detailed gold data feeds par execution tests run karke net equity curve aur minimum drawdown stats verify kiye hain.",
+      "In this video, we discuss systematic intraday trading strategies using daily range sweeps, how to capture high risk reward setups using 1-minute confirmation bars, and rule-based option buying techniques in Hindi. If you are searching for advanced technical parameters, share market automated analysis tools for beginners, or how to write an algorithmic trading script in India using python systems, this performance validation summary will answer your queries."
+    ],
+    "be_raw": []
+  },
+  "47": {
+    "index": 47,
+    "title": "Neeraj Joshi SMC Liquidity Strategy Exposed! (Shocking 1-Year Algo Backtest Results)",
+    "sl_raw": [
+      "Capital Risk Parameters: Placing mathematical protective stop loss orders right below the absolute sweep anchor low point and programming rolling profit targets at successive intermediate 5-Min and macro 1-Hour swing high targets."
+    ],
+    "tp_raw": [
+      "Capital Risk Parameters: Placing mathematical protective stop loss orders right below the absolute sweep anchor low point and programming rolling profit targets at successive intermediate 5-Min and macro 1-Hour swing high targets."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "48": {
+    "index": 48,
+    "title": "52% Return With Secret MTF Strategy! (Hold with Priyank Strategy Algo Backtest)",
+    "sl_raw": [
+      "Money Management Rules: Setting protective stop loss boundaries beneath the lowest wick of the fake breakout setup and trailing the maximum target expansion up to the macro previous week high level line."
+    ],
+    "tp_raw": [
+      "Money Management Rules: Setting protective stop loss boundaries beneath the lowest wick of the fake breakout setup and trailing the maximum target expansion up to the macro previous week high level line."
+    ],
+    "rr_raw": [],
+    "be_raw": [
+      "Money Management Rules: Setting protective stop loss boundaries beneath the lowest wick of the fake breakout setup and trailing the maximum target expansion up to the macro previous week high level line."
+    ]
+  },
+  "49": {
+    "index": 49,
+    "title": "44% Return With Low Drawdown! (SMC Breaker Block Strategy ka Algo Backtest)",
+    "sl_raw": [
+      "Execution Target: Entering a market buy position right at the breach of the internal pullback wave high limit, defining stop loss limits below the pullback pivot floor, and aligning exit targets at the prominent 5-Minute chart swing high reference structure."
+    ],
+    "tp_raw": [
+      "Execution Target: Entering a market buy position right at the breach of the internal pullback wave high limit, defining stop loss limits below the pullback pivot floor, and aligning exit targets at the prominent 5-Minute chart swing high reference structure."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "50": {
+    "index": 50,
+    "title": "Topgtraders Fibonacci Strategy Exposed! (Python Algo Backtest Results)",
+    "sl_raw": [
+      "Risk Metrics: Placing a structural protective stop loss boundary directly at the 0.786 Fibonacci level and running projection targets straight down to the absolute 0 or swing low layout line.",
+      "How to scale position sizing while maintaining static stop loss controls at major retracement points"
+    ],
+    "tp_raw": [
+      "Kya Topgtraders channel ke Atul Patil ki continuous red candle Fibonacci strategy bina clear targets ke kaam kar sakti hai? Is video mein humne unki wave based Fibonacci golden zone strategy ke adhure rules ko modification ke sath core formula me link kiya hai. Humne is dynamic support and resistance setup ka python algorithm banaya hai aur broker API ke accurate high frequency data par tests run karke net equity curve aur drawdown calculations check kiye hain.",
+      "Risk Metrics: Placing a structural protective stop loss boundary directly at the 0.786 Fibonacci level and running projection targets straight down to the absolute 0 or swing low layout line."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "51": {
+    "index": 51,
+    "title": "Why 90% of Retail Traders Use Fibonacci Wrong! (Golden Phantom Zone Algo Backtest)",
+    "sl_raw": [
+      "Risk Management Guidelines: Placing strict protective stop loss limits right above the macro 0.786 Fibonacci boundary and configuring execution targets at a fixed 1:2 risk-reward distribution."
+    ],
+    "tp_raw": [
+      "Risk Management Guidelines: Placing strict protective stop loss limits right above the macro 0.786 Fibonacci boundary and configuring execution targets at a fixed 1:2 risk-reward distribution."
+    ],
+    "rr_raw": [
+      "Risk Management Guidelines: Placing strict protective stop loss limits right above the macro 0.786 Fibonacci boundary and configuring execution targets at a fixed 1:2 risk-reward distribution."
+    ],
+    "be_raw": []
+  },
+  "52": {
+    "index": 52,
+    "title": "Paisa Double in 1 Month Strategy? (King Research Academy Camarilla Pivot Strategy Algo Backtested)",
+    "sl_raw": [
+      "Risk Management Guidelines: Setting protective stop loss orders precisely at the opposite inner bounds (R3 for buy setups, S3 for sell setups) and projection targets at 1.5 to 2 times the risk value.",
+      "How to scale position sizing while maintaining static stop loss controls at major pivot curves"
+    ],
+    "tp_raw": [
+      "Risk Management Guidelines: Setting protective stop loss orders precisely at the opposite inner bounds (R3 for buy setups, S3 for sell setups) and projection targets at 1.5 to 2 times the risk value."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "53": {
+    "index": 53,
+    "title": "Testing the SMC Institutional Liquidity Hunting Strategy with Python Algo!",
+    "sl_raw": [
+      "Risk Management: Placing strict protective stop loss limits outside the zone high or low and locking maximum profit targets at the recent macro swing levels.",
+      "How to identify market maker stop loss hunting zones using 15-min charts"
+    ],
+    "tp_raw": [
+      "Risk Management: Placing strict protective stop loss limits outside the zone high or low and locking maximum profit targets at the recent macro swing levels."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "54": {
+    "index": 54,
+    "title": "100-Year-Old Secret Trading Setup Revealed! (Gann Levels Strategy Algo Backtest)",
+    "sl_raw": [
+      "Money Management: Set initial stop loss above the setup candle high. Book 50% partial profit at a 1:1 risk-reward ratio, and trail the remaining position to a 1:2 ratio or the next consecutive Gann zone line."
+    ],
+    "tp_raw": [
+      "Managing drawdowns and scaling profit targets in futures and options trading systems",
+      "How to take precise partial profit exits using risk reward ratio target rules"
+    ],
+    "rr_raw": [
+      "Money Management: Set initial stop loss above the setup candle high. Book 50% partial profit at a 1:1 risk-reward ratio, and trail the remaining position to a 1:2 ratio or the next consecutive Gann zone line.",
+      "How to take precise partial profit exits using risk reward ratio target rules"
+    ],
+    "be_raw": [
+      "Money Management: Set initial stop loss above the setup candle high. Book 50% partial profit at a 1:1 risk-reward ratio, and trail the remaining position to a 1:2 ratio or the next consecutive Gann zone line."
+    ]
+  },
+  "55": {
+    "index": 55,
+    "title": "Anish Thakur Made $67,000 Profit! (Booming Bulls Strategy Algo Backtested)",
+    "sl_raw": [
+      "Risk Rules: Placing a protective stop loss structure below the order block low with a target focused directly at the macro 5-Minute swing high level."
+    ],
+    "tp_raw": [
+      "Risk Rules: Placing a protective stop loss structure below the order block low with a target focused directly at the macro 5-Minute swing high level."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "56": {
+    "index": 56,
+    "title": "Backtesting Singapore's No.1 Trader's Secret Setup with Python Algo!",
+    "sl_raw": [
+      "Risk Management: Execute a long trade at the candle close, place a protective stop loss below the candle low, and lock targets right before the previous resistance swing high."
+    ],
+    "tp_raw": [
+      "Risk Management: Execute a long trade at the candle close, place a protective stop loss below the candle low, and lock targets right before the previous resistance swing high."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "57": {
+    "index": 57,
+    "title": "Making $4000 Daily with Just 2 Indicators? (VWAP + 8 EMA Strategy Algo Backtest)",
+    "sl_raw": [],
+    "tp_raw": [
+      "Exit Criteria: No fixed target, hold the trend and exit instantly when any candle closes decisively below the 8 EMA."
+    ],
+    "rr_raw": [
+      "Managing drawdown and risk reward ratio in Nifty and Bank Nifty options buying"
+    ],
+    "be_raw": []
+  },
+  "58": {
+    "index": 58,
+    "title": "He Claimed 2100% Profit! (Trade With Pat SMC Strategy Algo-Backtest)",
+    "sl_raw": [
+      "Risk Management: Stop loss is safely placed outside the zone boundaries, and the target is locked at the recent swing high or low."
+    ],
+    "tp_raw": [
+      "Risk Management: Stop loss is safely placed outside the zone boundaries, and the target is locked at the recent swing high or low."
+    ],
+    "rr_raw": [
+      "Managing drawdown and risk reward ratio in index options buying"
+    ],
+    "be_raw": []
+  },
+  "59": {
+    "index": 59,
+    "title": "Big Institutions Can't Hide Anymore! (Volume Profile Trading Strategy Algo-Backtest)",
+    "sl_raw": [
+      "Risk Management: Protective stop loss is placed well below the Value Area Low, and target is set till the next session's Value Area Low to avoid heavy volume reversals."
+    ],
+    "tp_raw": [
+      "Risk Management: Protective stop loss is placed well below the Value Area Low, and target is set till the next session's Value Area Low to avoid heavy volume reversals.",
+      "How to place precise targets using value area profiles"
+    ],
+    "rr_raw": [
+      "Managing drawdown and risk reward ratio in futures and options trading"
+    ],
+    "be_raw": []
+  },
+  "60": {
+    "index": 60,
+    "title": "How Big Traders Make Crores Trading Gold! (SMC Imbalance Strategy Algo Backtest)",
+    "sl_raw": [
+      "Exit Criteria: Protective stop loss placed slightly above the zone and profit target at the next major demand zone."
+    ],
+    "tp_raw": [
+      "Exit Criteria: Protective stop loss placed slightly above the zone and profit target at the next major demand zone."
+    ],
+    "rr_raw": [
+      "Managing drawdown and risk reward ratio in commodity options trading"
+    ],
+    "be_raw": []
+  },
+  "61": {
+    "index": 61,
+    "title": "70% of the Time Market is Sideways! Earn Profit Everyday with This Algo Setup!",
+    "sl_raw": [
+      "Risk Management: Target is set at the opposite boundary with a protective stop loss outside the range."
+    ],
+    "tp_raw": [
+      "Risk Management: Target is set at the opposite boundary with a protective stop loss outside the range."
+    ],
+    "rr_raw": [
+      "Managing drawdown and risk reward ratio in range trading setups"
+    ],
+    "be_raw": []
+  },
+  "62": {
+    "index": 62,
+    "title": "This Single Indicator Made Him Crores! (Bill Williams Alligator Strategy Algo-Backtested)",
+    "sl_raw": [
+      "Exit Rule: No fixed stop loss, exit manually when any candle touches the green line.",
+      "Trading without a fixed stop loss using dynamic indicator exits"
+    ],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "63": {
+    "index": 63,
+    "title": "I Algo-Backtested Bharat Jhunjhunwala’s Most Popular RSI + Bollinger Band Strategy!",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "64": {
+    "index": 64,
+    "title": "Backtesting Mukul Choudhary’s 1:4 Risk-Reward Trading Strategy! (Algo Results)",
+    "sl_raw": [],
+    "tp_raw": [
+      "Entry/Exit: VWAP breakdown/breakout with 10 EMA crossover, keeping target at previous day's high/low."
+    ],
+    "rr_raw": [
+      "Kya Mukul Choudhary sir ki VWAP + 10EMA \"Failure Concept\" strategy sach me 70% accurate hai? Is video me humne 1:4 risk-reward ratio ke is claim ka sach pta lagaya hai. Maine is pure logic ko Python algo ke sath backtest kiya hai real market data par!",
+      "High risk-reward trading strategies (1:3 and 1:4 RR setups)"
+    ],
+    "be_raw": []
+  },
+  "65": {
+    "index": 65,
+    "title": "7 Saal Ka FnO Trader — Sirf 1-2 Ghante Mein Trade Setup | ORB Strategy Ka Real Algo Backtest",
+    "sl_raw": [
+      "BUY entry lo. SL: low level ke thoda neeche."
+    ],
+    "tp_raw": [
+      "Stoploss aur 1:2 risk reward target rules",
+      "Target: 1:2 RR."
+    ],
+    "rr_raw": [
+      "Stoploss aur 1:2 risk reward target rules",
+      "Target: 1:2 RR.",
+      "#winrate #riskReward #1to2RR #drawdown"
+    ],
+    "be_raw": []
+  },
+  "66": {
+    "index": 66,
+    "title": "I Backtested a $10,000/Month Trading Strategy on Indian Stocks! (Shocking Results)",
+    "sl_raw": [],
+    "tp_raw": [
+      "Risk to Reward: 1:2 to 1:3 target."
+    ],
+    "rr_raw": [
+      "Risk to Reward: 1:2 to 1:3 target."
+    ],
+    "be_raw": []
+  },
+  "67": {
+    "index": 67,
+    "title": "I Backtested an SMC Strategy with Python… Results Shocked Me",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [
+      "• Risk Reward Management"
+    ],
+    "be_raw": []
+  },
+  "68": {
+    "index": 68,
+    "title": "75 Lakh per month Kamane Wali CPR Strategy Ka Algo Backtest —Aur 50K Likes Pe Free Algo Mil Raha Hai",
+    "sl_raw": [
+      "Stop-Loss: VWAP pehle 21 EMA ke upar ho ya baad mein"
+    ],
+    "tp_raw": [
+      "Target: R1 ya Previous Day High — jo pehle aaye."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "69": {
+    "index": 69,
+    "title": "Banks Aur Prop Firms Ke Traders Ka Trainer — Uski 50 EMA Strategy Ka Algo Backtest | Ezekiel Chew",
+    "sl_raw": [
+      "SL: Engulfing candle ya red candle ka jo bhi neeche"
+    ],
+    "tp_raw": [
+      "Target: Next resistance ya rejection level."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "70": {
+    "index": 70,
+    "title": "LuxAlgo Ka Nadaraya Watson 100% Win Rate Claim —Aaj Woh Raaz Bataunga Jo Youtube pe Koi Nahi Batata",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "71": {
+    "index": 71,
+    "title": "Duniya Ka Favourite Ichimoku Indicator — Maine Algo se Backtest Kiya Aur Result Shocking rahe.",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "72": {
+    "index": 72,
+    "title": "Institutions Yeh Strategy Use Karke Tumhare Stoploss Khaate Hain — CRT Ka Algo Backtest | ICT PO3",
+    "sl_raw": [],
+    "tp_raw": [
+      "Stoploss us candle ke low ke thoda neeche. Target"
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "74": {
+    "index": 74,
+    "title": "21 Saal Mein $1mn Kamaya — Kya \"The Trading Geek\" ki Supply & Demand Zone Strategy Kaam Karti Hai?",
+    "sl_raw": [
+      "Stop Loss — Demand zone ke thoda neeche."
+    ],
+    "tp_raw": [
+      "Target — Next supply zone. Supply zone kaise banaye?",
+      "banao — wohi hai supply zone. Wohi hoga tumhara target."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "75": {
+    "index": 75,
+    "title": "2 Million Subscribers Wale Subasish Pani Ki Bollinger Band Strategy Ka 1 Saal Ka Real Algo Backtest",
+    "sl_raw": [
+      "Stop Loss — Alert candle ke low pe. Index mein maximum",
+      "55 points tak hi SL lo. Stocks mein max 100 points.",
+      "ka SL hai toh 160 points ka target."
+    ],
+    "tp_raw": [
+      "Target — Fixed 1:4 risk reward. Matlab agar 40 points",
+      "ka SL hai toh 160 points ka target."
+    ],
+    "rr_raw": [
+      "Nifty 50 | 52.3% Return | 1:4 Risk Reward",
+      "Target — Fixed 1:4 risk reward. Matlab agar 40 points",
+      "Risk Reward       →  Fixed 1:4",
+      "#riskmanagement #riskRewardRatio #highrr #1:4rr"
+    ],
+    "be_raw": []
+  },
+  "76": {
+    "index": 76,
+    "title": "Kya Sach Mein Gold Pe 1:8 RR Milta Hai— The Trading School Ki Secret MBP Setup Ka Real Algo Backtest",
+    "sl_raw": [
+      "Stop Loss — FVG zone ke thoda neeche."
+    ],
+    "tp_raw": [
+      "fixed target ke saath, real broker data se, 1 lakh ki",
+      "Target: Fixed 1:3 Risk Reward",
+      "Target — Fixed 1:3 risk reward."
+    ],
+    "rr_raw": [
+      "1:3 Fixed RR",
+      "1:8 tak ka risk reward achieve karne ka claim karte",
+      "backtest kiya — XAUUSD gold pe, 1:3 ke conservative",
+      "Target: Fixed 1:3 Risk Reward",
+      "Target — Fixed 1:3 risk reward.",
+      "Risk Reward       →  Fixed 1:3",
+      "#riskRewardRatio #highrr #lowriskhighreward"
+    ],
+    "be_raw": []
+  },
+  "77": {
+    "index": 77,
+    "title": "TradingView Ki Sabse Popular Indicator Company — LuxAlgo Ki Best Strategy Ka 1 Year Algo Backtest",
+    "sl_raw": [
+      "Stop Loss — Jab price TRAMA ke neeche close ho jaaye."
+    ],
+    "tp_raw": [
+      "Exit (Target) — RSI 70 ke upar aa jaaye tab exit karo.",
+      "Koi fixed target nahi — RSI hi batata hai kab nikalna"
+    ],
+    "rr_raw": [],
+    "be_raw": [
+      "trailing stop dono ka kaam karti hai"
+    ]
+  },
+  "78": {
+    "index": 78,
+    "title": "Singapore Popular Trader \"Rayner Teo\" claims 88.89% Win Rate of Swing Strategy - Lets Backtest It",
+    "sl_raw": [
+      "Stop Loss — Recent swing low ke thoda neeche."
+    ],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "79": {
+    "index": 79,
+    "title": "Best Crypto Strategy For Beginners? — EMA 50/200 +    RSI Pullback Ka 1 Saal Ka Real Data Backtest",
+    "sl_raw": [
+      "Stop Loss — Recent swing low pe. Ya RSI"
+    ],
+    "tp_raw": [
+      "Exit (Target) — Koi fixed target nahi. Jab RSI 70 se"
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "80": {
+    "index": 80,
+    "title": "KPMG-PwC Chhodke Trader Bane—Kya Pawan Sharma ki day   Strategy Sach Mein Profitable Hai? Backtest",
+    "sl_raw": [
+      "Stop Loss — Recent swing low ke thoda neeche."
+    ],
+    "tp_raw": [
+      "Exit (Trailing) — Koi fixed target nahi. Jab tak SMMA"
+    ],
+    "rr_raw": [],
+    "be_raw": [
+      "Exit (Trailing) — Koi fixed target nahi. Jab tak SMMA",
+      "hold karo. SMMA itself acts as the trailing stop.",
+      "#trailingstop #swinglow #stoploss"
+    ]
+  },
+  "81": {
+    "index": 81,
+    "title": "CA se Trader 😳 | Yogesh Nanda ki Swing Strategy ka Sach (Fully Algo Backtested)",
+    "sl_raw": [
+      "Stop Loss — Most recent swing low pe."
+    ],
+    "tp_raw": [
+      "aur koi fixed target nahi. Maine is strategy ka Python",
+      "Exit (Trailing) — Koi fixed target nahi. Jab tak 30"
+    ],
+    "rr_raw": [],
+    "be_raw": [
+      "Exit (Trailing) — Koi fixed target nahi. Jab tak 30",
+      "tak trade hold karo. Supertrend khud trailing stop ka",
+      "#trailingstoploss #technicalanalysis #priceaction",
+      "#drawdown #winrate #riskmanagement #trailingstop"
+    ]
+  },
+  "82": {
+    "index": 82,
+    "title": "Maine Gold Ki Iss Strategy Ko Algo Se Backtest Kiya — Koi Indicator Nahi, Fir Bhi 56.8% Return Aaya",
+    "sl_raw": [
+      "Stop Loss: Demand zone ke low ke thoda neeche"
+    ],
+    "tp_raw": [
+      "Target: Agli visible resistance level tak — jo pehle"
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "83": {
+    "index": 83,
+    "title": "American Trading Legend Ka Claim Maine Check Kiya— Bull 180 Trading Strategy | Algo Backtest Results",
+    "sl_raw": [
+      "Stop Loss — Green signal candle ke low ke thoda neeche."
+    ],
+    "tp_raw": [
+      "ho jaye toh exit karo. Koi fixed target nahi hai."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "84": {
+    "index": 84,
+    "title": "\"Final Boss of All EMA Strategies\" Ka 1 Saal Ka   Real Backtest — Results Ne Chauka Diya",
+    "sl_raw": [
+      "Stop Loss: Entry candle ke low ke thoda neeche",
+      "Agar SL chota hai → 1:3 Risk Reward",
+      "Agar SL bada hai  → 1:2 Risk Reward"
+    ],
+    "tp_raw": [
+      "Target: Dynamic RR system —"
+    ],
+    "rr_raw": [
+      "Target: Dynamic RR system —",
+      "Agar SL chota hai → 1:3 Risk Reward",
+      "Agar SL bada hai  → 1:2 Risk Reward"
+    ],
+    "be_raw": []
+  },
+  "85": {
+    "index": 85,
+    "title": "SMC Liquidity Sweep Strategy Backtested Using Algo — Kya Yeh Retail Traders Ke Liye Kaam Karti Hai?",
+    "sl_raw": [
+      "smart money ne retailers ke stop losses collect kar liye",
+      "Stop Loss: Demand zone ke low ke thoda neeche"
+    ],
+    "tp_raw": [
+      "Target: Major supply zone jo setup ka sabse bada high hai"
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "86": {
+    "index": 86,
+    "title": "Millionaire Trader ki GOLD Strategy ka Sach 🔥 (Algo Backtest Results Shocking!)",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [
+      "• Risk Reward: 1:2"
+    ],
+    "be_raw": []
+  },
+  "87": {
+    "index": 87,
+    "title": "Viral EMA Strategy ka sach 😳 (Algo Backtesting)",
+    "sl_raw": [
+      "Stop Loss: Recent swing low ke neeche"
+    ],
+    "tp_raw": [
+      "Target: 1.5 to 2 Risk Reward"
+    ],
+    "rr_raw": [
+      "Target: 1.5 to 2 Risk Reward"
+    ],
+    "be_raw": []
+  },
+  "88": {
+    "index": 88,
+    "title": "300% Profit Waali Chandelier Exit Indicator Strategy ka Sach 😳 | 1 Year Backtest Shocked Me!",
+    "sl_raw": [
+      "Stop Loss: Recent swing low"
+    ],
+    "tp_raw": [
+      "Target: Risk Reward 1:2"
+    ],
+    "rr_raw": [
+      "Target: Risk Reward 1:2"
+    ],
+    "be_raw": []
+  },
+  "89": {
+    "index": 89,
+    "title": "Side Income Strategy? RSI Divergence Bread Butter Strategy of Priyank Sharma Backtested for 1 Year",
+    "sl_raw": [],
+    "tp_raw": [
+      "Target = 1:1 + trailing till major swing"
+    ],
+    "rr_raw": [
+      "Target = 1:1 + trailing till major swing"
+    ],
+    "be_raw": [
+      "Target = 1:1 + trailing till major swing"
+    ]
+  },
+  "90": {
+    "index": 90,
+    "title": "Smart Money Concept FVG Strategy Backtested | Real Results (Algo Backtest) 📊",
+    "sl_raw": [],
+    "tp_raw": [
+      "Target = 1:3 risk reward"
+    ],
+    "rr_raw": [
+      "Target = 1:3 risk reward"
+    ],
+    "be_raw": []
+  },
+  "91": {
+    "index": 91,
+    "title": "I Backtested Traders Paradise Redbox Strategy for 1 Year (43% Return 😳)",
+    "sl_raw": [],
+    "tp_raw": [
+      "Target = next support level"
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "92": {
+    "index": 92,
+    "title": "I Backtested a Pure Price Action Strategy for 1 Year (69% Return 😳)",
+    "sl_raw": [],
+    "tp_raw": [
+      "Target = 1:2 ya 1:3 risk reward"
+    ],
+    "rr_raw": [
+      "Target = 1:2 ya 1:3 risk reward"
+    ],
+    "be_raw": []
+  },
+  "93": {
+    "index": 93,
+    "title": "I Backtested Mamba FX Scalping Strategy for 1 Year (62% Return 😳)",
+    "sl_raw": [],
+    "tp_raw": [
+      "Target = next resistance/support"
+    ],
+    "rr_raw": [],
+    "be_raw": [
+      "Trailing stoploss use karo"
+    ]
+  },
+  "94": {
+    "index": 94,
+    "title": "Asia Forex Mentor Strategy Tested for 1 Year | 47% Return Reality Check 📊",
+    "sl_raw": [],
+    "tp_raw": [
+      "Target = next resistance/support"
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "95": {
+    "index": 95,
+    "title": "UT Bot Alert indicator intraday strategy backtested for 1 year and results are great.",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": [
+      "For this crypto intraday strategy, we have to go to bitcoin chart, put UT alert bot indicator and MA sabres indicator on the chart with the settings mentioned in the video. The blue line is for bullish trend, red line for bearish trend and grey line for moving average. When the blue line is made on the chart, and price is above it, and then ut bot alert indicator gives BUY signal, then the candle on which BUY signal comes, the close of that candle will be our entry point, stoploss at swing low, and traget is not fixed, we will trail the profits until the price is above the moving average grey line."
+    ]
+  },
+  "96": {
+    "index": 96,
+    "title": "This MACD intraday trading strategy has a win rate of 86% | Backtested 1 Year",
+    "sl_raw": [],
+    "tp_raw": [
+      "So, for this macd intraday trading strategy, you need to add two indicators: one, Exponential moving average (EMA) of length 200 and other, macd indicator on 15 minute timeframe and this intraday strategy can be applied on stocks, index, futures, options, crypto, forex etc. So, when the candle is above EMA200 and at the same time, macd line crosses above signal line and this crossover should happen below center line, then we will take entry at the close of the crossover candle, with stoploss a little below the EMA200 and target of 1.5 risk reward ratio. The reverse of this intraday trading strategy logic will be done to take sell trades."
+    ],
+    "rr_raw": [
+      "So, for this macd intraday trading strategy, you need to add two indicators: one, Exponential moving average (EMA) of length 200 and other, macd indicator on 15 minute timeframe and this intraday strategy can be applied on stocks, index, futures, options, crypto, forex etc. So, when the candle is above EMA200 and at the same time, macd line crosses above signal line and this crossover should happen below center line, then we will take entry at the close of the crossover candle, with stoploss a little below the EMA200 and target of 1.5 risk reward ratio. The reverse of this intraday trading strategy logic will be done to take sell trades."
+    ],
+    "be_raw": []
+  },
+  "97": {
+    "index": 97,
+    "title": "Rayner Teo Inside bar trading strategy backtested 1year which claims momentum capture with low risk",
+    "sl_raw": [],
+    "tp_raw": [
+      "We will open daily timeframe chart of a liquid stock on trading view, put EMA 10 indicator on it, and when the price moves above EMA 10 indicator, then we will find inside bar candle which is a candle which easily fits inside high and low of the previous candle, thus it is called inside bar candle and the larger bar is called Mother candle. And, as soon as the breakout happens on high of the mother candle, we take BUY trade, with stoploss a notch below low of the inside bar candle and target decided by risk reward ratio of 1:2 to 1:3."
+    ],
+    "rr_raw": [
+      "We will open daily timeframe chart of a liquid stock on trading view, put EMA 10 indicator on it, and when the price moves above EMA 10 indicator, then we will find inside bar candle which is a candle which easily fits inside high and low of the previous candle, thus it is called inside bar candle and the larger bar is called Mother candle. And, as soon as the breakout happens on high of the mother candle, we take BUY trade, with stoploss a notch below low of the inside bar candle and target decided by risk reward ratio of 1:2 to 1:3."
+    ],
+    "be_raw": []
+  },
+  "98": {
+    "index": 98,
+    "title": "This intraday trading strategy claims that you can earn 10000 rupees daily | Backtested",
+    "sl_raw": [],
+    "tp_raw": [
+      "For this intraday strategy, first of all we check Nifty 50 on 5 minute timeframe when stock market opens at 9:15, if the first 5 minute candle is green we take BUY trades only, and if the candle is red we take only SELL trades for the day.Next we do stock selection in which we take any stock which opens at gap up from previous day close of about 0.5-2% and that stock should also have green candle for the whole previous day.Then we take 5 minute timeframe of this stock, and if first 5 minute candle is RED, and then next candle is Green, then when breakout happens on both of these candles high, then we take entry, with stoploss a bit down from the low of the both candles, and target decided by 1:2 to 1:3 risk reward ratio."
+    ],
+    "rr_raw": [
+      "For this intraday strategy, first of all we check Nifty 50 on 5 minute timeframe when stock market opens at 9:15, if the first 5 minute candle is green we take BUY trades only, and if the candle is red we take only SELL trades for the day.Next we do stock selection in which we take any stock which opens at gap up from previous day close of about 0.5-2% and that stock should also have green candle for the whole previous day.Then we take 5 minute timeframe of this stock, and if first 5 minute candle is RED, and then next candle is Green, then when breakout happens on both of these candles high, then we take entry, with stoploss a bit down from the low of the both candles, and target decided by 1:2 to 1:3 risk reward ratio."
+    ],
+    "be_raw": []
+  },
+  "99": {
+    "index": 99,
+    "title": "Vishal Malkan Multi-timeframe RSI swing strategy backtested (1 Year)",
+    "sl_raw": [],
+    "tp_raw": [
+      "I have explained the complete strategy logic in the video along with precise entry point, stoploss and target point."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "100": {
+    "index": 100,
+    "title": "Fastest profitable scalping strategy where you can enter after first 5 minutes backtested 1 year.",
+    "sl_raw": [],
+    "tp_raw": [
+      "So, for this scalping strategy, we will go to 1 minute chart on trading view, and it applies on all instruments like stocks, index, forex, crypto, futures and options. So, we will first mark the High and Low of the previous day, then mark the high and low of the next day first 5 minutes, and then as soon as the price breakout of the high of today's range, and then come back to retest it with a big bullish candle, then we will take entry at close of this green bullish candle, with stoploss a bit lower to the low of the bullish candle and target at previous day high with minimum rusk reward ratio of 1:2.The opposite of this strategy logic we will do for taking sell trades."
+    ],
+    "rr_raw": [
+      "So, for this scalping strategy, we will go to 1 minute chart on trading view, and it applies on all instruments like stocks, index, forex, crypto, futures and options. So, we will first mark the High and Low of the previous day, then mark the high and low of the next day first 5 minutes, and then as soon as the price breakout of the high of today's range, and then come back to retest it with a big bullish candle, then we will take entry at close of this green bullish candle, with stoploss a bit lower to the low of the bullish candle and target at previous day high with minimum rusk reward ratio of 1:2.The opposite of this strategy logic we will do for taking sell trades."
+    ],
+    "be_raw": []
+  },
+  "101": {
+    "index": 101,
+    "title": "More than 90% accuracy/win rate of 44FR intraday strategy | Backtested for 1 year",
+    "sl_raw": [],
+    "tp_raw": [
+      "So, for this intraday Strategy, we will go to 5 minute chart of Nifty 50 on trading view or any charting platform, as this intraday strategy is only applicable for Nifty 50 index and that too for only Buying setups as told by Ghanshyam tech in his video. So first of all, we have to see when the Nifty corrects by minimum of 80 points, and only then we will consider this as a trading setup, then draw fibonacci retracement from the high to low of this Nifty correction, and when the candles start to reverse to 0.44 level of Fibonacci, then we will take entry at 0.44 level, stoploss at 0.22 level, and first target will be at 0.77 level where we can book partial profits, and then trail the rest upto 1 or 1.22 level."
+    ],
+    "rr_raw": [],
+    "be_raw": [
+      "So, for this intraday Strategy, we will go to 5 minute chart of Nifty 50 on trading view or any charting platform, as this intraday strategy is only applicable for Nifty 50 index and that too for only Buying setups as told by Ghanshyam tech in his video. So first of all, we have to see when the Nifty corrects by minimum of 80 points, and only then we will consider this as a trading setup, then draw fibonacci retracement from the high to low of this Nifty correction, and when the candles start to reverse to 0.44 level of Fibonacci, then we will take entry at 0.44 level, stoploss at 0.22 level, and first target will be at 0.77 level where we can book partial profits, and then trail the rest upto 1 or 1.22 level."
+    ]
+  },
+  "102": {
+    "index": 102,
+    "title": "130% returns in 100 trades by this intraday strategy | Backtested 1 year",
+    "sl_raw": [],
+    "tp_raw": [
+      "This intraday trading strategy can be used on stocks, index, forex, crypto, etc. For this strategy we will go to the trading view 15 minute timeframe, then put double ema indicator and supertrend indicator with the settings that I have guided in the video.Then, when the candles are above the double ema, and simultaneously, supertrend also gives BUY signal, then we take the long position on the close of the candle where supertrend gave BUY signal, with stoploss at the supertrend line and target is not fixed for this intraday strategy, we will trail the profits until supertrend gives SELL signal. The reverse of this we will do for doing short selling."
+    ],
+    "rr_raw": [],
+    "be_raw": [
+      "This intraday trading strategy can be used on stocks, index, forex, crypto, etc. For this strategy we will go to the trading view 15 minute timeframe, then put double ema indicator and supertrend indicator with the settings that I have guided in the video.Then, when the candles are above the double ema, and simultaneously, supertrend also gives BUY signal, then we take the long position on the close of the candle where supertrend gave BUY signal, with stoploss at the supertrend line and target is not fixed for this intraday strategy, we will trail the profits until supertrend gives SELL signal. The reverse of this we will do for doing short selling."
+    ]
+  },
+  "103": {
+    "index": 103,
+    "title": "Alex Gonzalez earns MILLION dollars from this set and forget swing trading strategy | Backtest 1 yr",
+    "sl_raw": [],
+    "tp_raw": [
+      "This is a forex strategy, so for this trading strategy we can take any currency pair like us dollar against swiss franc or british pound against euro etc.Then we need to confirm trend using multi-timeframe analysis by checking the trend on weekly, daily and 4-hour timeframe.Best scenario is that all three timeframes point to same direction i.e.either bullish or bearish.Or take the best of two like if daily and weekly TF says bearish and 4-hour says bullish, then we will go with bearish bias and just take sell positions/trades. Then we will make area of interest i.e. resistance zones on daily TF, and then go to 30 min timeframe, and whenever candles come close to the resistance zone, makes any big red candle like bearish engulfing candle, then entry will be at the close of this bearish candle, stoploss at recent swing high and target decided by risk reward ratio from 1:2 to 1:3. The reverse of this strategy logic we will do for long positions."
+    ],
+    "rr_raw": [
+      "This is a forex strategy, so for this trading strategy we can take any currency pair like us dollar against swiss franc or british pound against euro etc.Then we need to confirm trend using multi-timeframe analysis by checking the trend on weekly, daily and 4-hour timeframe.Best scenario is that all three timeframes point to same direction i.e.either bullish or bearish.Or take the best of two like if daily and weekly TF says bearish and 4-hour says bullish, then we will go with bearish bias and just take sell positions/trades. Then we will make area of interest i.e. resistance zones on daily TF, and then go to 30 min timeframe, and whenever candles come close to the resistance zone, makes any big red candle like bearish engulfing candle, then entry will be at the close of this bearish candle, stoploss at recent swing high and target decided by risk reward ratio from 1:2 to 1:3. The reverse of this strategy logic we will do for long positions."
+    ],
+    "be_raw": []
+  },
+  "104": {
+    "index": 104,
+    "title": "68% returns of this stochastic intraday trading strategy on 1 year backtest | Sahil Sawhney",
+    "sl_raw": [],
+    "tp_raw": [
+      "Stochastic intraday strategy logic is that we take 15 minute timeframe on any instrument like stocks, index, crypto, forex or commodity. Then add two indicators namely Exponential moving average (EMA) of length 200 and stochastic indicator.When the candle is moving above EMA 200 line and both the lines of stochastic indicator is below 20 and then breaks out of 20 level then we take entry at the closing price of the corresponding candle, with stoploss at recent swinh low and target decided by 1:2 risk reward ratio.."
+    ],
+    "rr_raw": [
+      "Stochastic intraday strategy logic is that we take 15 minute timeframe on any instrument like stocks, index, crypto, forex or commodity. Then add two indicators namely Exponential moving average (EMA) of length 200 and stochastic indicator.When the candle is moving above EMA 200 line and both the lines of stochastic indicator is below 20 and then breaks out of 20 level then we take entry at the closing price of the corresponding candle, with stoploss at recent swinh low and target decided by 1:2 risk reward ratio.."
+    ],
+    "be_raw": []
+  },
+  "105": {
+    "index": 105,
+    "title": "Most watched swing trading strategy of Siddharth Bhanushali | Backtest by Sahil Sawhney",
+    "sl_raw": [],
+    "tp_raw": [
+      "For this 44 MA swing trading strategy, we will go to the Nifty 50 chart on daily timeframe, add Simple Moving Average (SMA) indicator with length 44. So, if the SMA line is in uptrend, and candles are also moving above the SMA level, then when the candles will pullback to the SMA line which is acting as a dynamic support level here, and subsequently, when a green bullish candle is formed, then we will take long position on a bit higher from high of this green candle, stoploss a bit lower from low of this green candle and target decided by risk:reward ratio of 1:2 to 1:3."
+    ],
+    "rr_raw": [
+      "For this 44 MA swing trading strategy, we will go to the Nifty 50 chart on daily timeframe, add Simple Moving Average (SMA) indicator with length 44. So, if the SMA line is in uptrend, and candles are also moving above the SMA level, then when the candles will pullback to the SMA line which is acting as a dynamic support level here, and subsequently, when a green bullish candle is formed, then we will take long position on a bit higher from high of this green candle, stoploss a bit lower from low of this green candle and target decided by risk:reward ratio of 1:2 to 1:3."
+    ],
+    "be_raw": []
+  },
+  "106": {
+    "index": 106,
+    "title": "95% से ज्यादा accuracy/win rate of this Gold Scalping strategy | Backtest by Sahil Sawhney",
+    "sl_raw": [],
+    "tp_raw": [
+      "So, for this scalping strategy we will go to trading view, open Gold (XAUUSD) on 3 minute timeframe chart, add volume and Exponential Moving Average indicator of length 21 on it, then draw recent support and resistance levels, and when price is above EMA level and has also broken the resistance level with the breakout candle volume being less than the volume of previous 2-3 candles, then we will take the close of the breakout candle as entry point, stoploss at EMA line, and target decided by 1:2 risk reward ratio."
+    ],
+    "rr_raw": [
+      "So, for this scalping strategy we will go to trading view, open Gold (XAUUSD) on 3 minute timeframe chart, add volume and Exponential Moving Average indicator of length 21 on it, then draw recent support and resistance levels, and when price is above EMA level and has also broken the resistance level with the breakout candle volume being less than the volume of previous 2-3 candles, then we will take the close of the breakout candle as entry point, stoploss at EMA line, and target decided by 1:2 risk reward ratio."
+    ],
+    "be_raw": []
+  },
+  "107": {
+    "index": 107,
+    "title": "सबसे छोटे Stoploss aur सबसे बड़े target waali Intraday Trading Strategy | Sahil Sawhney",
+    "sl_raw": [],
+    "tp_raw": [
+      "World's smallest stoploss and biggest target producing trading  strategy of Kushal Varshney, this is his claim, and today in this video, I will do the 1 year backtest of this intraday trading strategy of kushal varshney to see if this strategy is profitable or not?",
+      "In this strategy, we need to wait for the first two candles on a 5 minute timeframe, and from 9:25 to 9:30 candle we will go to the nse website and check the advance:decline ratio of Nifty 50, and say decline is greater than advance, then that means market bias is bearish amd we will only take short selling trades today.Then we will note the day's lowest volume of these 3 candles, and whenever we get a green candle having volume less than this day's lowest volume, and after that there is a red candle which breaks low of the green candle, then we will take low of the green candle as entry point, stoploss at high of the green candle, and target decided by risk reward ratio of 1:2, and when target hits, we take 50% profit and rest is trailed on EMA 10 indicator till the market close."
+    ],
+    "rr_raw": [
+      "He has also claimed that his intraday trading strategy setup has given him 1:53 risk reward ratio in the past.",
+      "In this strategy, we need to wait for the first two candles on a 5 minute timeframe, and from 9:25 to 9:30 candle we will go to the nse website and check the advance:decline ratio of Nifty 50, and say decline is greater than advance, then that means market bias is bearish amd we will only take short selling trades today.Then we will note the day's lowest volume of these 3 candles, and whenever we get a green candle having volume less than this day's lowest volume, and after that there is a red candle which breaks low of the green candle, then we will take low of the green candle as entry point, stoploss at high of the green candle, and target decided by risk reward ratio of 1:2, and when target hits, we take 50% profit and rest is trailed on EMA 10 indicator till the market close."
+    ],
+    "be_raw": [
+      "In this strategy, we need to wait for the first two candles on a 5 minute timeframe, and from 9:25 to 9:30 candle we will go to the nse website and check the advance:decline ratio of Nifty 50, and say decline is greater than advance, then that means market bias is bearish amd we will only take short selling trades today.Then we will note the day's lowest volume of these 3 candles, and whenever we get a green candle having volume less than this day's lowest volume, and after that there is a red candle which breaks low of the green candle, then we will take low of the green candle as entry point, stoploss at high of the green candle, and target decided by risk reward ratio of 1:2, and when target hits, we take 50% profit and rest is trailed on EMA 10 indicator till the market close."
+    ]
+  },
+  "108": {
+    "index": 108,
+    "title": "Booming bulls -ve RRR trading strategy claim of 88% win rate backtested for 1 year | Sahil Sawhney",
+    "sl_raw": [],
+    "tp_raw": [
+      "So, i have done 1 year backtest of this scalping strategy for my followers.So, in this strategy we go to trading view, open gold XAUUSD instrument on 5 minute timeframe, add  LuxAlgo sessions indicator and within it just use the New York session for the trade. Then within the new york session, whenever you find a red big solid candle, which is followd by a small green candle whose body is less than the red candle, then enter only if the next two candles i.e. 3rd or 4th candle breaks the red candle high, with close of this breakout candle as entry point for Long position, stoploss at a bit lower than the low of this breakout candle, and target decided by 1:1 risk reward ratio."
+    ],
+    "rr_raw": [
+      "Booming Bulls negative RRR trading strategy has something very interesting in it as I have received minimum 200 requests from my followers on instagram and youtube to backtest this intraday scalping strategy of Anish Singh Thakur.So, even i thought what is so special about this trading strategy and when I saw it's strategy details, then I came to know that this strategy Anish thakur has specially made for traders who use funded trading accounts from prop trading firms by paying fees which has attracted attention from the trader community and also he has mentioned that this strategy has win rate upto 88% on his youtube video.",
+      "So, i have done 1 year backtest of this scalping strategy for my followers.So, in this strategy we go to trading view, open gold XAUUSD instrument on 5 minute timeframe, add  LuxAlgo sessions indicator and within it just use the New York session for the trade. Then within the new york session, whenever you find a red big solid candle, which is followd by a small green candle whose body is less than the red candle, then enter only if the next two candles i.e. 3rd or 4th candle breaks the red candle high, with close of this breakout candle as entry point for Long position, stoploss at a bit lower than the low of this breakout candle, and target decided by 1:1 risk reward ratio.",
+      "I have backtested this -ve RRR new york session intraday strategy of Booming Bulls for 1 year using python code.",
+      "Negative RRR trading strategy backtested"
+    ],
+    "be_raw": []
+  },
+  "109": {
+    "index": 109,
+    "title": "Sanjay Kathuria intraday trading strategy backtested for 1 year using algo and results are shocking",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": [
+      "So, we will dive into trading view,here we will see the same stock or index or crypto or commodity on dual timeframe of 1 hour and  15 minutes, and check if any point of time the instrument's RSI is greater than 60 on both timeframes, the candle which corresponds to the RSI greater than 60 level will be called the signal candle on 15 minute timeframe, any next candle which breaks this signal candle's high will be used to enter the trade on Long position, with stoploss at the low of the signal candle initially and then we will trail the stoploss using SMA indicator of length 14, and as long as the price is above the SMA line we will stay in the trade.."
+    ]
+  },
+  "110": {
+    "index": 110,
+    "title": "30 Lakhs made from this Simple Trading Strategy | Claim backtested for 1 Year",
+    "sl_raw": [],
+    "tp_raw": [
+      "So, we will go to the trading view chart, take 4 hour timeframe, put the Relative Strength Index(RSI) indicator on the chart, go to the settings of RSI indicator, put the RSI upper band at 80 and RSI lower band at 20 and also keep the RSI-MA(Moving average) line also checked. Then, whenever this momentum oscillator RSI comes near to 20 level and simultaneously also does crossover to the RSI-MA line, then we will take the entry.And, we can also use any support level along with it for entry purpose for confluence in trading purposes. Stoploss will be very small and target price will be next resistance level."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "111": {
+    "index": 111,
+    "title": "Pushkar Raj Thakur Triple Straddle options selling strategy claims 50% ROI in 3 months | Backtested",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "112": {
+    "index": 112,
+    "title": "Tori trades made 25 lakh+ with this trendline trading strategy | Trendline strategy backtested 1Year",
+    "sl_raw": [],
+    "tp_raw": [
+      "So, let's go to the trading view platform, open Nifty 50 chart on 1 hour timeframe, draw upward and downward trendlines, when any candlestick breaks out of any trendline then we will take entry at that candle, stoploss will be our previous/other trendline and target will be either next support/ resistance levels or we can also trail our profits and limit our losses."
+    ],
+    "rr_raw": [],
+    "be_raw": [
+      "So, let's go to the trading view platform, open Nifty 50 chart on 1 hour timeframe, draw upward and downward trendlines, when any candlestick breaks out of any trendline then we will take entry at that candle, stoploss will be our previous/other trendline and target will be either next support/ resistance levels or we can also trail our profits and limit our losses."
+    ]
+  },
+  "113": {
+    "index": 113,
+    "title": "Subasish Pani 5 EMA trading strategy exposed | 60-70% accuracy claim of scalping reversal strategy",
+    "sl_raw": [],
+    "tp_raw": [
+      "So, we will go to trading view platform, we will take 5 minute timeframe chart for short selling, futures short, PE Buy or CE short trades, add 5 EMA indicator on it, and any candle which closes  above 5 EMA line and also the low of that candle doesn't touch the 5 EMA line, then that candle is called an Alert Candle, and any next candle which breakout of the 5 EMA line, then entry will be taken at  that breakout candle, Stoploss will be previous Alert Candle high and target will be decided by Risk: Reward ratio of 1:3."
+    ],
+    "rr_raw": [
+      "So, we will go to trading view platform, we will take 5 minute timeframe chart for short selling, futures short, PE Buy or CE short trades, add 5 EMA indicator on it, and any candle which closes  above 5 EMA line and also the low of that candle doesn't touch the 5 EMA line, then that candle is called an Alert Candle, and any next candle which breakout of the 5 EMA line, then entry will be taken at  that breakout candle, Stoploss will be previous Alert Candle high and target will be decided by Risk: Reward ratio of 1:3."
+    ],
+    "be_raw": []
+  },
+  "114": {
+    "index": 114,
+    "title": "This Smart Money Concept based Fair Value Gap crypto trading strategy gives most profitable trades",
+    "sl_raw": [],
+    "tp_raw": [
+      "After that, whenever the candle will retrace back to the middle line of this FVG zone i.e. at 50% of the zone, we will take the long position, with stoploss just below the FVG zone lowest level and target at recent swing high.The Risk to reward (R:R) ratio for FVG trading strategy can be put between 1:2 to 1:4."
+    ],
+    "rr_raw": [
+      "After that, whenever the candle will retrace back to the middle line of this FVG zone i.e. at 50% of the zone, we will take the long position, with stoploss just below the FVG zone lowest level and target at recent swing high.The Risk to reward (R:R) ratio for FVG trading strategy can be put between 1:2 to 1:4."
+    ],
+    "be_raw": []
+  },
+  "115": {
+    "index": 115,
+    "title": "Devansh Rai bought 3 crore Land Rover Defender using this crypto trading strategy l 200 EMA strategy",
+    "sl_raw": [],
+    "tp_raw": [
+      "Then for the trend filteration ,we will use 200 Exponential Moving Average (EMA) indicator, when the overall trend is uptrend as per 200 EMA i.e. 200 EMA line will be sloping upward, then take any two candles high points and draw a trendline in a descending manner, and when a big bullish candle breaks out of it, then take the close of that Breakout candle as an Entry point, some points below of that breakout candle low as stoploss and take profit is decided by Risk:Reward ratio of 1:2."
+    ],
+    "rr_raw": [
+      "Then for the trend filteration ,we will use 200 Exponential Moving Average (EMA) indicator, when the overall trend is uptrend as per 200 EMA i.e. 200 EMA line will be sloping upward, then take any two candles high points and draw a trendline in a descending manner, and when a big bullish candle breaks out of it, then take the close of that Breakout candle as an Entry point, some points below of that breakout candle low as stoploss and take profit is decided by Risk:Reward ratio of 1:2."
+    ],
+    "be_raw": []
+  },
+  "116": {
+    "index": 116,
+    "title": "Umar Punjabi Secret Fibonacci Retracement trading strategy | Golden zone strategy 1 year backtest",
+    "sl_raw": [],
+    "tp_raw": [
+      "This fibonacci retracement strategy of Umar Punjabi also known by thealphatraderofficial page works by taking the Gold spot / U.S.Dollar  (XAUUSD) on 4-hour timeframe and then we need to draw support and resistance areas/zones..Then we need to see if the trend is uptrend so we will draw the fibonacci retracement from the lowest to highest point and vice-versa for the downtrend. For the uptrend, then we will wait for the pullback to one of the golden ratios taken by Umar Punjabi in his strategy which are 0.382, 0.5, 0.618, 0.66, and 1.618. He says that when one of the candles in the Fibonacci levels retraces back to one of these ratios and then again moves in the uptrend with the bullish candle, then we will take the entry for long position, with target at next resistance level and stoploss at the below support zone... We need to do the same for the short sell position."
+    ],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "117": {
+    "index": 117,
+    "title": "The Trade Room made 47 lakhs with this crypto trading strategy | Crypto Scalping EMA 9 & 15 Strategy",
+    "sl_raw": [],
+    "tp_raw": [
+      "In the case of a long position, we will take low of one of those candles getting formed as stoploss, high as entry point and target of 1:2 and vice-versa for short trades."
+    ],
+    "rr_raw": [
+      "In the case of a long position, we will take low of one of those candles getting formed as stoploss, high as entry point and target of 1:2 and vice-versa for short trades."
+    ],
+    "be_raw": []
+  },
+  "118": {
+    "index": 118,
+    "title": "Crypto trading strategy to buy 3 crore luxury car | 78.40% Annual Return",
+    "sl_raw": [],
+    "tp_raw": [
+      "The 9/20 crypto trading strategy which I have described in the reel works by taking two indicators : EMA 9 and EMA 20 and trade is entered when there is a momentum in the market and market is trending, and when the candle pullbacks to EMA 9, that is the time to take live trade with stoploss at recent swing low and take profit decided by Risk: Reward ratio of 1:3."
+    ],
+    "rr_raw": [
+      "The 9/20 crypto trading strategy which I have described in the reel works by taking two indicators : EMA 9 and EMA 20 and trade is entered when there is a momentum in the market and market is trending, and when the candle pullbacks to EMA 9, that is the time to take live trade with stoploss at recent swing low and take profit decided by Risk: Reward ratio of 1:3.",
+      "Win rate: 41:30%"
+    ],
+    "be_raw": []
+  },
+  "119": {
+    "index": 119,
+    "title": "Gold Trading Strategy in Hindi | 63.8% Return Backtest #Shorts",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "120": {
+    "index": 120,
+    "title": "Intraday EMA Breakout Strategy Backtest — 44.80% Return in 1 Year! #Shorts",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "121": {
+    "index": 121,
+    "title": "Tanisha Garg’s Pivot+RSI Strategy — 74% Return in 1-Year Backtest? 📈😳",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "123": {
+    "index": 123,
+    "title": "This Options Scalping Strategy — Backtest Results SURPRISED Me 😳",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "124": {
+    "index": 124,
+    "title": "Kunal Saraogi’s Option Buying Strategy — Backtest Reality 😳",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "125": {
+    "index": 125,
+    "title": "Job Wale Traders, This 9:30 AM Strategy Is for You 😳📊",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "126": {
+    "index": 126,
+    "title": "Alphawave trading Strategy — 58% Return with 2.3% Drawdown? | 1-Year Backtest | Sahil Sawhney",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "127": {
+    "index": 127,
+    "title": "He Lost His Entire Portfolio… This ONE Step Was Ignored 😔📉",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "128": {
+    "index": 128,
+    "title": "This Viral ‘Traffic Light’ Strategy Gave 267% in Backtest 😳📊",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "129": {
+    "index": 129,
+    "title": "IITian Trader’s 3E+ Room Strategy — Backtest Reality 📊😳",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "130": {
+    "index": 130,
+    "title": "Wizard Trader’s 8–30 EMA Strategy — Backtest Results 📊😳",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "131": {
+    "index": 131,
+    "title": "Stock Burner’s viral 9 EMA Options Scalping Strategy — Backtest Reality 📊😳",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "132": {
+    "index": 132,
+    "title": "This ‘99% Traders Beating’ Strategy — Backtest Reality 😳",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "133": {
+    "index": 133,
+    "title": "ICT Silver Bullet Strategy — 1-Year Backtest Results 📊😳",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "134": {
+    "index": 134,
+    "title": "Vivek Bajaj’s Multi-Timeframe Strategy — 1-Year Backtest 📊",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "135": {
+    "index": 135,
+    "title": "Mukul Agrawal’s VWAP + MACD Strategy — Backtest Reality 📊😳",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "136": {
+    "index": 136,
+    "title": "Pushkar Raj Thakur’s Brahmastra Strategy — Backtest Reality 😳",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "137": {
+    "index": 137,
+    "title": "Neeraj Joshi’s 60% Accuracy Claim — Backtest Reality 📊😳",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "138": {
+    "index": 138,
+    "title": "CA Rachna Ranade’s Swing Strategy — 1-Year Backtest Results 📊",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "139": {
+    "index": 139,
+    "title": "Anish Singh Thakur’s ‘Dassu’ Strategy — 1-Year Backtest Results 📉😳",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [
+      "• Risk–Reward: 1:3"
+    ],
+    "be_raw": []
+  },
+  "140": {
+    "index": 140,
+    "title": "Anant Ladha’s 85% WIN RATE Claim — Backtest Reality 😳",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "141": {
+    "index": 141,
+    "title": "Abhishek Kar’s SIMPLE Strategy — Backtest Results SHOCKED Me 😳",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "142": {
+    "index": 142,
+    "title": "I Backtested CA Rachana Ranade’s Trading Strategy (Results Surprised Me)",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "143": {
+    "index": 143,
+    "title": "84% Return? Backtest of Kunal Saraogi Option Buying Strategy",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "144": {
+    "index": 144,
+    "title": "I Backtested a Viral Trading Strategy (1 Year Results)",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "145": {
+    "index": 145,
+    "title": "63% Return? Backtest of Anish Singh Thakur (Booming Bulls) Intraday Strategy",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [
+      "• Risk-Reward: 1:3"
+    ],
+    "be_raw": []
+  },
+  "146": {
+    "index": 146,
+    "title": "85% win-rate? Backtest of Anant Ladha’s 200EMA + RSI (1-Year) trading strategy",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "147": {
+    "index": 147,
+    "title": "Super trader lakshya options scalping strategy backtested  #algotrading #trading #stockmarket",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [
+      "4.Risk Reward ratio: Between 1:2 and 1:3"
+    ],
+    "be_raw": []
+  },
+  "148": {
+    "index": 148,
+    "title": "Vivek Bajaj Mother Daughter traing strategy backtested using algo #algotrading #stockmarket #trading",
+    "sl_raw": [],
+    "tp_raw": [
+      "(trading, algo trading, intraday trading, swing trading, positional trading, futures trading, options trading, crypto trading, commodities trading, forex trading, trading reels, backtesting, backtest, algo, algorithm, risk management, stoploss, target price, profit booking, profitable trading strategies, money, sharemarket, stockmarket)"
+    ],
+    "rr_raw": [
+      "Stoploss is kept at a recent swing low with risk reward ratio of 1:2 or 1:3."
+    ],
+    "be_raw": []
+  },
+  "149": {
+    "index": 149,
+    "title": "Backtest of Wizard Trader 8-30 EMA intraday trading strategy.",
+    "sl_raw": [
+      "• Stop-loss at recent swing high / low"
+    ],
+    "tp_raw": [],
+    "rr_raw": [
+      "• Risk–reward around 1:2"
+    ],
+    "be_raw": []
+  },
+  "150": {
+    "index": 150,
+    "title": "Backtest of The Trade Room 9-15 EMA scalping trading strategy.",
+    "sl_raw": [
+      "• Stop-loss: candle low"
+    ],
+    "tp_raw": [],
+    "rr_raw": [
+      "• Risk–reward: 1:2"
+    ],
+    "be_raw": []
+  },
+  "151": {
+    "index": 151,
+    "title": "Backtest of Pushkar Raj Singh Thakur Brahmastra trading strategy.",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "152": {
+    "index": 152,
+    "title": "Backtest of Neeraj Joshi Heikin Ashi trading strategy.",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "153": {
+    "index": 153,
+    "title": "Backtest of Abhishek kar simplest intraday strategy.",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [
+      "5.Risk-Reward ratio: 1:1 or 1:2"
+    ],
+    "be_raw": []
+  },
+  "155": {
+    "index": 155,
+    "title": "Warren Buffett Ka Buffet? Paisa Banane Ki Thali! 💸🍽️",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "156": {
+    "index": 156,
+    "title": "11 Mahine k Rent Agreement Ka RAAZ + Rent Agreement Ki Checklist! | Must Watch!",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "157": {
+    "index": 157,
+    "title": "Crypto Se Lakhpati Ban Na Hai? 2025 Mein Kaise Sahi Investments Karein? 💸",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "159": {
+    "index": 159,
+    "title": "Beta ban gaya bakra… ULIP ke chakkar mein 😤",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "160": {
+    "index": 160,
+    "title": "SIP is better than Situationship 💸❤ | Usne Dil Toda, SIP Ne Wealth Joda! 😎📈",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "161": {
+    "index": 161,
+    "title": "This Budget Deserves an Oscar for Tragedy 🎭| Budgeting gone wrong😂🔥❌",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "162": {
+    "index": 162,
+    "title": "Bhai Ne Trade Kiya, Market Ne TED Talk De Diya 😭😂",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "165": {
+    "index": 165,
+    "title": "Mummy Ne Bola Tha FD Karne Ko 😩 RIP Returns!",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "166": {
+    "index": 166,
+    "title": "Mutual Fund Sahi Hai? Reality Check for Broke Bros 😤",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "167": {
+    "index": 167,
+    "title": "Salary Toh Aayi Par Gayi Kahan 😭💸",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "168": {
+    "index": 168,
+    "title": "Kaise Bhare ITR? Income Tax Guide 2025 | 2025 Ke Latest Tax Slabs, Rate and Rebate | Must Watch",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [
+      "11:48 Example of Old vs New Tax Regime"
+    ],
+    "be_raw": []
+  },
+  "169": {
+    "index": 169,
+    "title": "Start National Pension Scheme(NPS) at 30 – Get ₹1.5 Cr Corpus, ₹88L Tax Free & ₹34,500/Month Pension",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "170": {
+    "index": 170,
+    "title": "Home Loan Tips 2025: What First-Time Buyers Need to Know",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "171": {
+    "index": 171,
+    "title": "₹1 Lakh Savings Challenge – Mid-Year Review to Final Target 🎯(Part 2 Highlights)",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "172": {
+    "index": 172,
+    "title": "Salary Kam Hai? Fir Bhi ₹1 Lakh  Ek Saal Mein Jod Sakte Ho!",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "173": {
+    "index": 173,
+    "title": "Apple’s Big India Move 😲 | Major Financial Highlights 2025 #finance #news #india",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "174": {
+    "index": 174,
+    "title": "🤯 Yes Bank Share Price Update: Japanese Bank Sumitomo Mitsui Banega New Boss? Full Story Inside!",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "175": {
+    "index": 175,
+    "title": "Why Middle Class Is Getting Poor — Here’s the Fix 💡",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "176": {
+    "index": 176,
+    "title": "Why Middle Class Is Getting Poor — Tag Se Pet Nahi Bharta!",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "177": {
+    "index": 177,
+    "title": "Why Middle Class Is Getting Poor — Is There a Way Out?",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "178": {
+    "index": 178,
+    "title": "Aaj Ki Badi Khabar | Finance News Today in Hindi 🧨",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [
+      "No trading in equity, F&O, or currency; only commodity markets open 5 PM–11:30 PM"
+    ],
+    "be_raw": []
+  },
+  "179": {
+    "index": 179,
+    "title": "Aaj Ki Badi Khabar | Finance News Today in Hindi 🧨",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "180": {
+    "index": 180,
+    "title": "Aaj Ki Badi Khabar | Finance News Today in Hindi 🧨",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "181": {
+    "index": 181,
+    "title": "Aaj Ki Badi Khabar | Finance News Today in Hindi 🧨",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "182": {
+    "index": 182,
+    "title": "IDFC First Bank Q4 Results Analysis: NIM & Profit Down | Dividend Announced",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "183": {
+    "index": 183,
+    "title": "\"Fit Hoon, Bima Kyun?\" Dr. Neetu Singh Explains! | Why Medical Insurance Is Important for Gen-Z!",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "184": {
+    "index": 184,
+    "title": "Shocking Stats! Why Medical Insurance is Important | Medical Costs Exploding!",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "185": {
+    "index": 185,
+    "title": "Why Medical Insurance Is Important | Must-Know Facts! Don’t Regret Later!",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "186": {
+    "index": 186,
+    "title": "Why HUL Stock Is Falling Despite Dividend News? 😱 Big Shock!",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "187": {
+    "index": 187,
+    "title": "Gold Hits ₹1 Lakh! News About Gold Price in India Today | Buy or Run?😱",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "188": {
+    "index": 188,
+    "title": "GST on UPI Transactions Above ₹2,000 | Is This the End of Free UPI?",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "189": {
+    "index": 189,
+    "title": "Gensol Engineering Share Latest News | Gensol Share Crashes 91% | Latest SEBI Action",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "190": {
+    "index": 190,
+    "title": "Gensol Engineering Share Latest News | Gensol Engineering & BluSmart Link Exposed! 🔥",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "191": {
+    "index": 191,
+    "title": "Gensol Engineering Share Latest News | SEBI Exposes Scam! 😱",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "192": {
+    "index": 192,
+    "title": "Is Your Sector Safe? Full Impact of Tariffs by USA on Indian Market!",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "193": {
+    "index": 193,
+    "title": "Google Tax Gone? USA Tariffs Shake Indian Stocks & Sectors! ⚠️",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "194": {
+    "index": 194,
+    "title": "Impact of Tariffs by USA on Share Market & Sectors Explained! 🔍",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "195": {
+    "index": 195,
+    "title": "FMCG Slowdown Again? India FMCG Sector Analysis | Time to Buy or Sell?",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "196": {
+    "index": 196,
+    "title": "India FMCG Sector Analysis | Growth Toh Fake Thi | Shocking Kantar Report!",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "197": {
+    "index": 197,
+    "title": "India FMCG Sector Analysis | Massive 838% Growth! 😲",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "199": {
+    "index": 199,
+    "title": "Lost Lakhs in Seconds! Latest Cyber Frauds in India",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "200": {
+    "index": 200,
+    "title": "Latest Cyber Frauds in India | ₹6606 Cr Scam Exposed! 😱",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "201": {
+    "index": 201,
+    "title": "Shocking Truth: Why Everyone’s Switching to Credit Cards in 2025! 🔁",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "202": {
+    "index": 202,
+    "title": "Why Credit Cards Are Becoming India’s Top Choice in India 💥💳🔥",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "203": {
+    "index": 203,
+    "title": "IndusInd Bank Share News Today in Hindi | Multibagger Ya Trap?",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "204": {
+    "index": 204,
+    "title": "IndusInd Bank Share News Today in Hindi | Big Crash! 😱 | Techinal Analysis",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "205": {
+    "index": 205,
+    "title": "IndusInd Bank Share News Today in Hindi | Big Crash! | | Yes Bank Part 2?",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "206": {
+    "index": 206,
+    "title": "Fake Loan App Scams: Is Your Phone Being Tracked? Google & ED Take Action!⚠️",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "207": {
+    "index": 207,
+    "title": "1000+ Fake Loan App Scams Targeting Indians! RBI’s Big Warning⚠️",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "208": {
+    "index": 208,
+    "title": "Shocking Rise in Food Inflation 2025: Kya RBI Control Kar Payegi? 😨",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "209": {
+    "index": 209,
+    "title": "Food Inflation 2025: Is Your Kitchen Budget in Danger?",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "210": {
+    "index": 210,
+    "title": "Biggest Share Market Crash in 2025? Don’t Ignore This!",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "211": {
+    "index": 211,
+    "title": "Biggest Share Market Crash in 2025: Smallcaps Down 23% & Midcaps Destroyed!",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "212": {
+    "index": 212,
+    "title": "Biggest Share Market Crash in 2025? Bear Phase Ahead?🚨",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "213": {
+    "index": 213,
+    "title": "Pi Network Crypto News | Zero Investment, Big Gains? 💸",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "214": {
+    "index": 214,
+    "title": "Shocking Pi Network Crypto News You Must Know!😱Reality vs Hype?🔍",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "215": {
+    "index": 215,
+    "title": "Pi Network Crypto News: Next Bitcoin or Big Scam? Don’t Miss This!⚠️",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "216": {
+    "index": 216,
+    "title": "5 Deaths NOT Covered in Life Insurance Policy for Family | Hidden Clauses",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "217": {
+    "index": 217,
+    "title": "Life Insurance Policy for Family | 3 reasons why claim Rejected?😱",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  },
+  "218": {
+    "index": 218,
+    "title": "Trade War Between USA and India Shocks Markets! 📉Is India at Risk?",
+    "sl_raw": [],
+    "tp_raw": [],
+    "rr_raw": [],
+    "be_raw": []
+  }
+}

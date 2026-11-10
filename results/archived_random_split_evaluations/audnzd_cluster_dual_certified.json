@@ -1,0 +1,382 @@
+[
+  {
+    "id": "AUDNZD_Fib_SL16.0_TP36.0_LB42_W40",
+    "params": {
+      "id": "AUDNZD_Fib_SL16.0_TP36.0_LB42_W40",
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 42,
+      "wick": 0.4
+    },
+    "is_trades": 105,
+    "is_pips": 272.6,
+    "is_return": 17.0,
+    "is_wr": 40.0,
+    "oos_trades": 179,
+    "oos_net_pips": 214.9,
+    "oos_ann_pips": 124.2,
+    "oos_ann_ret": 7.8,
+    "oos_wr": 38.5
+  },
+  {
+    "id": "AUDNZD_Fib_SL16.0_TP36.0_LB60_W45",
+    "params": {
+      "id": "AUDNZD_Fib_SL16.0_TP36.0_LB60_W45",
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 60,
+      "wick": 0.45
+    },
+    "is_trades": 87,
+    "is_pips": 286.8,
+    "is_return": 17.9,
+    "is_wr": 40.2,
+    "oos_trades": 141,
+    "oos_net_pips": 182.3,
+    "oos_ann_pips": 105.3,
+    "oos_ann_ret": 6.6,
+    "oos_wr": 39.0
+  },
+  {
+    "id": "AUDNZD_Fib_SL16.0_TP36.0_LB42_W45",
+    "params": {
+      "id": "AUDNZD_Fib_SL16.0_TP36.0_LB42_W45",
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 42,
+      "wick": 0.45
+    },
+    "is_trades": 96,
+    "is_pips": 258.7,
+    "is_return": 16.2,
+    "is_wr": 38.5,
+    "oos_trades": 167,
+    "oos_net_pips": 225.5,
+    "oos_ann_pips": 130.3,
+    "oos_ann_ret": 8.1,
+    "oos_wr": 37.7
+  },
+  {
+    "id": "AUDNZD_Fib_SL14.0_TP32.0_LB48_W45",
+    "params": {
+      "id": "AUDNZD_Fib_SL14.0_TP32.0_LB48_W45",
+      "sl": 14.0,
+      "tp": 32.0,
+      "lb": 48,
+      "wick": 0.45
+    },
+    "is_trades": 96,
+    "is_pips": 272.1,
+    "is_return": 19.4,
+    "is_wr": 39.6,
+    "oos_trades": 163,
+    "oos_net_pips": 113.3,
+    "oos_ann_pips": 65.5,
+    "oos_ann_ret": 4.7,
+    "oos_wr": 36.2
+  },
+  {
+    "id": "AUDNZD_Fib_SL14.0_TP28.0_LB48_W45",
+    "params": {
+      "id": "AUDNZD_Fib_SL14.0_TP28.0_LB48_W45",
+      "sl": 14.0,
+      "tp": 28.0,
+      "lb": 48,
+      "wick": 0.45
+    },
+    "is_trades": 99,
+    "is_pips": 281.9,
+    "is_return": 20.1,
+    "is_wr": 43.4,
+    "oos_trades": 165,
+    "oos_net_pips": 81.9,
+    "oos_ann_pips": 47.3,
+    "oos_ann_ret": 3.4,
+    "oos_wr": 38.8
+  },
+  {
+    "id": "AUDNZD_Fib_SL14.0_TP32.0_LB60_W45",
+    "params": {
+      "id": "AUDNZD_Fib_SL14.0_TP32.0_LB60_W45",
+      "sl": 14.0,
+      "tp": 32.0,
+      "lb": 60,
+      "wick": 0.45
+    },
+    "is_trades": 90,
+    "is_pips": 296.2,
+    "is_return": 21.2,
+    "is_wr": 40.0,
+    "oos_trades": 143,
+    "oos_net_pips": 38.3,
+    "oos_ann_pips": 22.1,
+    "oos_ann_ret": 1.6,
+    "oos_wr": 36.4
+  },
+  {
+    "id": "AUDNZD_Fib_SL15.0_TP30.0_LB60_W45",
+    "params": {
+      "id": "AUDNZD_Fib_SL15.0_TP30.0_LB60_W45",
+      "sl": 15.0,
+      "tp": 30.0,
+      "lb": 60,
+      "wick": 0.45
+    },
+    "is_trades": 90,
+    "is_pips": 288.8,
+    "is_return": 19.3,
+    "is_wr": 43.3,
+    "oos_trades": 144,
+    "oos_net_pips": 78.7,
+    "oos_ann_pips": 45.5,
+    "oos_ann_ret": 3.0,
+    "oos_wr": 40.3
+  },
+  {
+    "id": "AUDNZD_Fib_SL16.0_TP32.0_LB42_W45",
+    "params": {
+      "id": "AUDNZD_Fib_SL16.0_TP32.0_LB42_W45",
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 42,
+      "wick": 0.45
+    },
+    "is_trades": 100,
+    "is_pips": 306.3,
+    "is_return": 19.1,
+    "is_wr": 42.0,
+    "oos_trades": 168,
+    "oos_net_pips": 67.2,
+    "oos_ann_pips": 38.8,
+    "oos_ann_ret": 2.4,
+    "oos_wr": 38.1
+  },
+  {
+    "id": "AUDNZD_Fib_SL15.0_TP30.0_LB48_W45",
+    "params": {
+      "id": "AUDNZD_Fib_SL15.0_TP30.0_LB48_W45",
+      "sl": 15.0,
+      "tp": 30.0,
+      "lb": 48,
+      "wick": 0.45
+    },
+    "is_trades": 99,
+    "is_pips": 317.1,
+    "is_return": 21.1,
+    "is_wr": 43.4,
+    "oos_trades": 165,
+    "oos_net_pips": 8.6,
+    "oos_ann_pips": 5.0,
+    "oos_ann_ret": 0.3,
+    "oos_wr": 38.2
+  },
+  {
+    "id": "AUDNZD_Fib_SL14.0_TP32.0_LB42_W45",
+    "params": {
+      "id": "AUDNZD_Fib_SL14.0_TP32.0_LB42_W45",
+      "sl": 14.0,
+      "tp": 32.0,
+      "lb": 42,
+      "wick": 0.45
+    },
+    "is_trades": 101,
+    "is_pips": 295.5,
+    "is_return": 21.1,
+    "is_wr": 39.6,
+    "oos_trades": 169,
+    "oos_net_pips": 4.0,
+    "oos_ann_pips": 2.3,
+    "oos_ann_ret": 0.2,
+    "oos_wr": 34.3
+  },
+  {
+    "id": "AUDNZD_Fib_SL16.0_TP36.0_LB42_W35",
+    "params": {
+      "id": "AUDNZD_Fib_SL16.0_TP36.0_LB42_W35",
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 42,
+      "wick": 0.35
+    },
+    "is_trades": 116,
+    "is_pips": 322.9,
+    "is_return": 20.2,
+    "is_wr": 40.5,
+    "oos_trades": 191,
+    "oos_net_pips": 23.9,
+    "oos_ann_pips": 13.8,
+    "oos_ann_ret": 0.9,
+    "oos_wr": 36.1
+  },
+  {
+    "id": "AUDNZD_Fib_SL16.0_TP32.0_LB60_W45",
+    "params": {
+      "id": "AUDNZD_Fib_SL16.0_TP32.0_LB60_W45",
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 60,
+      "wick": 0.45
+    },
+    "is_trades": 89,
+    "is_pips": 275.2,
+    "is_return": 17.2,
+    "is_wr": 42.7,
+    "oos_trades": 141,
+    "oos_net_pips": 85.0,
+    "oos_ann_pips": 49.1,
+    "oos_ann_ret": 3.1,
+    "oos_wr": 39.7
+  },
+  {
+    "id": "AUDNZD_Fib_SL16.0_TP36.0_LB60_W40",
+    "params": {
+      "id": "AUDNZD_Fib_SL16.0_TP36.0_LB60_W40",
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 60,
+      "wick": 0.4
+    },
+    "is_trades": 96,
+    "is_pips": 265.4,
+    "is_return": 16.6,
+    "is_wr": 39.6,
+    "oos_trades": 153,
+    "oos_net_pips": 89.2,
+    "oos_ann_pips": 51.5,
+    "oos_ann_ret": 3.2,
+    "oos_wr": 38.6
+  },
+  {
+    "id": "AUDNZD_Fib_SL16.0_TP32.0_LB42_W40",
+    "params": {
+      "id": "AUDNZD_Fib_SL16.0_TP32.0_LB42_W40",
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 42,
+      "wick": 0.4
+    },
+    "is_trades": 109,
+    "is_pips": 267.8,
+    "is_return": 16.7,
+    "is_wr": 42.2,
+    "oos_trades": 181,
+    "oos_net_pips": 25.2,
+    "oos_ann_pips": 14.6,
+    "oos_ann_ret": 0.9,
+    "oos_wr": 38.7
+  },
+  {
+    "id": "AUDNZD_Fib_SL16.0_TP32.0_LB48_W45",
+    "params": {
+      "id": "AUDNZD_Fib_SL16.0_TP32.0_LB48_W45",
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 48,
+      "wick": 0.45
+    },
+    "is_trades": 95,
+    "is_pips": 235.6,
+    "is_return": 14.7,
+    "is_wr": 41.1,
+    "oos_trades": 162,
+    "oos_net_pips": 71.9,
+    "oos_ann_pips": 41.5,
+    "oos_ann_ret": 2.6,
+    "oos_wr": 38.9
+  },
+  {
+    "id": "AUDNZD_Fib_SL14.0_TP32.0_LB72_W40",
+    "params": {
+      "id": "AUDNZD_Fib_SL14.0_TP32.0_LB72_W40",
+      "sl": 14.0,
+      "tp": 32.0,
+      "lb": 72,
+      "wick": 0.4
+    },
+    "is_trades": 95,
+    "is_pips": 188.8,
+    "is_return": 13.5,
+    "is_wr": 37.9,
+    "oos_trades": 149,
+    "oos_net_pips": 84.6,
+    "oos_ann_pips": 48.9,
+    "oos_ann_ret": 3.5,
+    "oos_wr": 36.2
+  },
+  {
+    "id": "AUDNZD_Fib_SL16.0_TP36.0_LB72_W35",
+    "params": {
+      "id": "AUDNZD_Fib_SL16.0_TP36.0_LB72_W35",
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 72,
+      "wick": 0.35
+    },
+    "is_trades": 97,
+    "is_pips": 219.5,
+    "is_return": 13.7,
+    "is_wr": 38.1,
+    "oos_trades": 157,
+    "oos_net_pips": 47.9,
+    "oos_ann_pips": 27.7,
+    "oos_ann_ret": 1.7,
+    "oos_wr": 35.7
+  },
+  {
+    "id": "AUDNZD_Fib_SL16.0_TP36.0_LB48_W40",
+    "params": {
+      "id": "AUDNZD_Fib_SL16.0_TP36.0_LB48_W40",
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 48,
+      "wick": 0.4
+    },
+    "is_trades": 100,
+    "is_pips": 189.2,
+    "is_return": 11.8,
+    "is_wr": 38.0,
+    "oos_trades": 173,
+    "oos_net_pips": 92.4,
+    "oos_ann_pips": 53.4,
+    "oos_ann_ret": 3.3,
+    "oos_wr": 38.7
+  },
+  {
+    "id": "AUDNZD_Fib_SL12.0_TP24.0_LB48_W45",
+    "params": {
+      "id": "AUDNZD_Fib_SL12.0_TP24.0_LB48_W45",
+      "sl": 12.0,
+      "tp": 24.0,
+      "lb": 48,
+      "wick": 0.45
+    },
+    "is_trades": 100,
+    "is_pips": 152.5,
+    "is_return": 12.7,
+    "is_wr": 40.0,
+    "oos_trades": 169,
+    "oos_net_pips": 13.9,
+    "oos_ann_pips": 8.0,
+    "oos_ann_ret": 0.7,
+    "oos_wr": 36.7
+  },
+  {
+    "id": "AUDNZD_Fib_SL16.0_TP32.0_LB36_W45",
+    "params": {
+      "id": "AUDNZD_Fib_SL16.0_TP32.0_LB36_W45",
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 36,
+      "wick": 0.45
+    },
+    "is_trades": 105,
+    "is_pips": 190.1,
+    "is_return": 11.9,
+    "is_wr": 40.0,
+    "oos_trades": 173,
+    "oos_net_pips": 0.7,
+    "oos_ann_pips": 0.4,
+    "oos_ann_ret": 0.0,
+    "oos_wr": 38.7
+  }
+]

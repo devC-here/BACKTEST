@@ -1,0 +1,110 @@
+{
+  "EURUSD_TOKYO_COMPRESSION_LONDON_SURGE": {
+    "trades": 0,
+    "win_rate": 0.0,
+    "pf": 0.0,
+    "net_pips": 0.0,
+    "max_dd": 0.0,
+    "ret_dd": 0.0,
+    "expectancy": 0.0
+  },
+  "EURUSD_ANCHORED_VWAP_2SIGMA_REVERSION": {
+    "trades": 708,
+    "win_rate": 38.3,
+    "pf": 0.93,
+    "net_pips": -281.9,
+    "max_dd": 407.1,
+    "ret_dd": -0.69,
+    "expectancy": -0.4
+  },
+  "EURUSD_MULTI_BAR_EXHAUSTION_CLIMAX_FADE": {
+    "trades": 0,
+    "win_rate": 0.0,
+    "pf": 0.0,
+    "net_pips": 0.0,
+    "max_dd": 0.0,
+    "ret_dd": 0.0,
+    "expectancy": 0.0
+  },
+  "EURUSD_DAILY_PIVOT_TREND_PULLBACK": {
+    "trades": 211,
+    "win_rate": 47.9,
+    "pf": 1.81,
+    "net_pips": 812.9,
+    "max_dd": 72.7,
+    "ret_dd": 11.18,
+    "expectancy": 3.85
+  },
+  "USDJPY_TOKYO_COMPRESSION_LONDON_SURGE": {
+    "trades": 0,
+    "win_rate": 0.0,
+    "pf": 0.0,
+    "net_pips": 0.0,
+    "max_dd": 0.0,
+    "ret_dd": 0.0,
+    "expectancy": 0.0
+  },
+  "USDJPY_ANCHORED_VWAP_2SIGMA_REVERSION": {
+    "trades": 707,
+    "win_rate": 40.6,
+    "pf": 1.03,
+    "net_pips": 151.0,
+    "max_dd": 314.7,
+    "ret_dd": 0.48,
+    "expectancy": 0.21
+  },
+  "USDJPY_MULTI_BAR_EXHAUSTION_CLIMAX_FADE": {
+    "trades": 0,
+    "win_rate": 0.0,
+    "pf": 0.0,
+    "net_pips": 0.0,
+    "max_dd": 0.0,
+    "ret_dd": 0.0,
+    "expectancy": 0.0
+  },
+  "USDJPY_DAILY_PIVOT_TREND_PULLBACK": {
+    "trades": 184,
+    "win_rate": 45.1,
+    "pf": 1.63,
+    "net_pips": 770.5,
+    "max_dd": 84.9,
+    "ret_dd": 9.08,
+    "expectancy": 4.19
+  },
+  "EURGBP_TOKYO_COMPRESSION_LONDON_SURGE": {
+    "trades": 0,
+    "win_rate": 0.0,
+    "pf": 0.0,
+    "net_pips": 0.0,
+    "max_dd": 0.0,
+    "ret_dd": 0.0,
+    "expectancy": 0.0
+  },
+  "EURGBP_ANCHORED_VWAP_2SIGMA_REVERSION": {
+    "trades": 488,
+    "win_rate": 33.8,
+    "pf": 0.72,
+    "net_pips": -696.2,
+    "max_dd": 749.6,
+    "ret_dd": -0.93,
+    "expectancy": -1.43
+  },
+  "EURGBP_MULTI_BAR_EXHAUSTION_CLIMAX_FADE": {
+    "trades": 0,
+    "win_rate": 0.0,
+    "pf": 0.0,
+    "net_pips": 0.0,
+    "max_dd": 0.0,
+    "ret_dd": 0.0,
+    "expectancy": 0.0
+  },
+  "EURGBP_DAILY_PIVOT_TREND_PULLBACK": {
+    "trades": 220,
+    "win_rate": 42.3,
+    "pf": 1.38,
+    "net_pips": 371.0,
+    "max_dd": 79.2,
+    "ret_dd": 4.68,
+    "expectancy": 1.69
+  }
+}

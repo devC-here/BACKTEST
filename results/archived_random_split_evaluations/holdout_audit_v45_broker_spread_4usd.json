@@ -1,0 +1,1013 @@
+{
+  "mode": "LIVE BROKER SPREAD MODEL",
+  "dollar_per_lot": 4.0,
+  "use_spread_model": true,
+  "profitable_count": 100,
+  "total_strategies": 100,
+  "profitable_pct": 100.0,
+  "total_holdout_trades": 7965,
+  "annualized_fleet_trades": 4602.0,
+  "total_net_pips": 20880.5,
+  "strategies": [
+    {
+      "slot": 1,
+      "file": "strategy_01_gbpjpy_h4_macro_retest.py",
+      "trades": 37,
+      "wins": 17,
+      "losses": 20,
+      "net_pips": 332.59000000006813,
+      "win_pips": 1050.5900000000343,
+      "loss_pips": 717.9999999999661
+    },
+    {
+      "slot": 2,
+      "file": "strategy_02_gbpjpy_h4_macro_retest.py",
+      "trades": 37,
+      "wins": 16,
+      "losses": 21,
+      "net_pips": 392.89000000006615,
+      "win_pips": 1038.4200000000383,
+      "loss_pips": 645.5299999999723
+    },
+    {
+      "slot": 3,
+      "file": "strategy_03_gbpjpy_h4_macro_retest.py",
+      "trades": 37,
+      "wins": 17,
+      "losses": 20,
+      "net_pips": 335.9400000000542,
+      "win_pips": 949.9900000000283,
+      "loss_pips": 614.0499999999743
+    },
+    {
+      "slot": 4,
+      "file": "strategy_04_gbpjpy_h4_macro_retest.py",
+      "trades": 45,
+      "wins": 19,
+      "losses": 26,
+      "net_pips": 229.75000000008714,
+      "win_pips": 1141.5300000000339,
+      "loss_pips": 911.7799999999468
+    },
+    {
+      "slot": 5,
+      "file": "strategy_05_gbpjpy_h4_macro_retest.py",
+      "trades": 47,
+      "wins": 18,
+      "losses": 29,
+      "net_pips": 253.44000000007986,
+      "win_pips": 1144.7100000000391,
+      "loss_pips": 891.2699999999592
+    },
+    {
+      "slot": 6,
+      "file": "strategy_06_gbpjpy_h4_macro_retest.py",
+      "trades": 34,
+      "wins": 14,
+      "losses": 20,
+      "net_pips": 303.3800000000617,
+      "win_pips": 918.1300000000364,
+      "loss_pips": 614.7499999999748
+    },
+    {
+      "slot": 7,
+      "file": "strategy_07_gbpjpy_h4_macro_retest.py",
+      "trades": 34,
+      "wins": 15,
+      "losses": 19,
+      "net_pips": 253.03000000006432,
+      "win_pips": 935.20000000003,
+      "loss_pips": 682.1699999999657
+    },
+    {
+      "slot": 8,
+      "file": "strategy_08_gbpjpy_h4_macro_retest.py",
+      "trades": 34,
+      "wins": 15,
+      "losses": 19,
+      "net_pips": 261.28000000004823,
+      "win_pips": 844.5500000000247,
+      "loss_pips": 583.2699999999767
+    },
+    {
+      "slot": 9,
+      "file": "strategy_09_eurusd_ny_sweep_fade.py",
+      "trades": 102,
+      "wins": 43,
+      "losses": 59,
+      "net_pips": 171.04999999987132,
+      "win_pips": 790.3499999999502,
+      "loss_pips": 619.300000000079
+    },
+    {
+      "slot": 10,
+      "file": "strategy_10_eurusd_ny_sweep_fade.py",
+      "trades": 102,
+      "wins": 41,
+      "losses": 61,
+      "net_pips": 138.24999999987406,
+      "win_pips": 778.4999999999584,
+      "loss_pips": 640.2500000000845
+    },
+    {
+      "slot": 11,
+      "file": "strategy_11_eurusd_ny_sweep_fade.py",
+      "trades": 102,
+      "wins": 40,
+      "losses": 62,
+      "net_pips": 111.24999999983486,
+      "win_pips": 814.1499999999429,
+      "loss_pips": 702.9000000001082
+    },
+    {
+      "slot": 12,
+      "file": "strategy_12_eurusd_ny_sweep_fade.py",
+      "trades": 101,
+      "wins": 38,
+      "losses": 63,
+      "net_pips": 49.79999999983593,
+      "win_pips": 886.8999999999435,
+      "loss_pips": 837.1000000001072
+    },
+    {
+      "slot": 13,
+      "file": "strategy_13_eurusd_micro_trend_breakout.py",
+      "trades": 265,
+      "wins": 100,
+      "losses": 165,
+      "net_pips": 214.49999999962773,
+      "win_pips": 1960.5999999998887,
+      "loss_pips": 1746.1000000002657
+    },
+    {
+      "slot": 14,
+      "file": "strategy_14_eurusd_ny_sweep_fade.py",
+      "trades": 143,
+      "wins": 52,
+      "losses": 91,
+      "net_pips": 41.649999999763885,
+      "win_pips": 1258.549999999917,
+      "loss_pips": 1216.9000000001533
+    },
+    {
+      "slot": 15,
+      "file": "strategy_15_eurusd_ny_sweep_fade.py",
+      "trades": 102,
+      "wins": 43,
+      "losses": 59,
+      "net_pips": 171.04999999987132,
+      "win_pips": 790.3499999999502,
+      "loss_pips": 619.300000000079
+    },
+    {
+      "slot": 16,
+      "file": "strategy_16_eurusd_ny_sweep_fade.py",
+      "trades": 102,
+      "wins": 41,
+      "losses": 61,
+      "net_pips": 138.24999999987406,
+      "win_pips": 778.4999999999584,
+      "loss_pips": 640.2500000000845
+    },
+    {
+      "slot": 17,
+      "file": "strategy_17_usdcad_asian_sweep.py",
+      "trades": 45,
+      "wins": 13,
+      "losses": 32,
+      "net_pips": 84.59999999989996,
+      "win_pips": 554.1699999999745,
+      "loss_pips": 469.5700000000746
+    },
+    {
+      "slot": 18,
+      "file": "strategy_18_usdcad_asian_sweep.py",
+      "trades": 45,
+      "wins": 13,
+      "losses": 32,
+      "net_pips": 84.59999999989996,
+      "win_pips": 554.1699999999745,
+      "loss_pips": 469.5700000000746
+    },
+    {
+      "slot": 19,
+      "file": "strategy_19_usdcad_asian_sweep.py",
+      "trades": 45,
+      "wins": 13,
+      "losses": 32,
+      "net_pips": 84.59999999989996,
+      "win_pips": 554.1699999999745,
+      "loss_pips": 469.5700000000746
+    },
+    {
+      "slot": 20,
+      "file": "strategy_20_usdcad_asian_sweep.py",
+      "trades": 45,
+      "wins": 14,
+      "losses": 31,
+      "net_pips": 72.04999999990433,
+      "win_pips": 527.059999999976,
+      "loss_pips": 455.01000000007167
+    },
+    {
+      "slot": 21,
+      "file": "strategy_21_usdcad_asian_sweep.py",
+      "trades": 45,
+      "wins": 14,
+      "losses": 31,
+      "net_pips": 72.04999999990433,
+      "win_pips": 527.059999999976,
+      "loss_pips": 455.01000000007167
+    },
+    {
+      "slot": 22,
+      "file": "strategy_22_usdcad_asian_sweep.py",
+      "trades": 45,
+      "wins": 14,
+      "losses": 31,
+      "net_pips": 72.04999999990433,
+      "win_pips": 527.059999999976,
+      "loss_pips": 455.01000000007167
+    },
+    {
+      "slot": 23,
+      "file": "strategy_23_usdcad_asian_sweep.py",
+      "trades": 45,
+      "wins": 13,
+      "losses": 32,
+      "net_pips": 49.44999999990062,
+      "win_pips": 554.1699999999745,
+      "loss_pips": 504.72000000007387
+    },
+    {
+      "slot": 24,
+      "file": "strategy_24_usdcad_asian_sweep.py",
+      "trades": 45,
+      "wins": 12,
+      "losses": 33,
+      "net_pips": 59.74999999989704,
+      "win_pips": 543.979999999973,
+      "loss_pips": 484.2300000000759
+    },
+    {
+      "slot": 25,
+      "file": "strategy_25_gbpchf_asian_sweep.py",
+      "trades": 99,
+      "wins": 35,
+      "losses": 64,
+      "net_pips": 273.6799999998845,
+      "win_pips": 1264.3499999999672,
+      "loss_pips": 990.6700000000837
+    },
+    {
+      "slot": 26,
+      "file": "strategy_26_gbpchf_asian_sweep.py",
+      "trades": 154,
+      "wins": 62,
+      "losses": 92,
+      "net_pips": 499.02999999984945,
+      "win_pips": 2383.689999999954,
+      "loss_pips": 1884.6600000001035
+    },
+    {
+      "slot": 27,
+      "file": "strategy_27_gbpchf_asian_sweep.py",
+      "trades": 132,
+      "wins": 57,
+      "losses": 75,
+      "net_pips": 672.8399999998707,
+      "win_pips": 2200.7899999999595,
+      "loss_pips": 1527.9500000000885
+    },
+    {
+      "slot": 28,
+      "file": "strategy_28_gbpchf_asian_sweep.py",
+      "trades": 99,
+      "wins": 35,
+      "losses": 64,
+      "net_pips": 259.6799999999014,
+      "win_pips": 1181.9499999999782,
+      "loss_pips": 922.2700000000775
+    },
+    {
+      "slot": 29,
+      "file": "strategy_29_gbpchf_asian_sweep.py",
+      "trades": 117,
+      "wins": 49,
+      "losses": 68,
+      "net_pips": 684.5399999998637,
+      "win_pips": 2071.679999999949,
+      "loss_pips": 1387.140000000085
+    },
+    {
+      "slot": 30,
+      "file": "strategy_30_gbpchf_asian_sweep.py",
+      "trades": 96,
+      "wins": 38,
+      "losses": 58,
+      "net_pips": 365.76999999987953,
+      "win_pips": 1549.859999999951,
+      "loss_pips": 1184.0900000000709
+    },
+    {
+      "slot": 31,
+      "file": "strategy_31_gbpchf_asian_sweep.py",
+      "trades": 98,
+      "wins": 39,
+      "losses": 59,
+      "net_pips": 515.4599999998962,
+      "win_pips": 1595.6799999999662,
+      "loss_pips": 1080.2200000000703
+    },
+    {
+      "slot": 32,
+      "file": "strategy_32_gbpchf_asian_sweep.py",
+      "trades": 91,
+      "wins": 31,
+      "losses": 60,
+      "net_pips": 165.01999999989894,
+      "win_pips": 1093.8199999999717,
+      "loss_pips": 928.8000000000734
+    },
+    {
+      "slot": 33,
+      "file": "strategy_33_audcad_h4_macro_retest.py",
+      "trades": 12,
+      "wins": 7,
+      "losses": 5,
+      "net_pips": 156.62999999999658,
+      "win_pips": 225.1299999999984,
+      "loss_pips": 68.50000000000188
+    },
+    {
+      "slot": 34,
+      "file": "strategy_34_audcad_h4_macro_retest.py",
+      "trades": 15,
+      "wins": 8,
+      "losses": 7,
+      "net_pips": 164.14999999999688,
+      "win_pips": 244.36999999999824,
+      "loss_pips": 80.22000000000136
+    },
+    {
+      "slot": 35,
+      "file": "strategy_35_audcad_h4_macro_retest.py",
+      "trades": 12,
+      "wins": 7,
+      "losses": 5,
+      "net_pips": 148.3299999999977,
+      "win_pips": 212.92999999999844,
+      "loss_pips": 64.60000000000075
+    },
+    {
+      "slot": 36,
+      "file": "strategy_36_audcad_h4_macro_retest.py",
+      "trades": 13,
+      "wins": 6,
+      "losses": 7,
+      "net_pips": 104.01999999999641,
+      "win_pips": 189.28999999999866,
+      "loss_pips": 85.27000000000226
+    },
+    {
+      "slot": 37,
+      "file": "strategy_37_audcad_h4_macro_retest.py",
+      "trades": 10,
+      "wins": 5,
+      "losses": 5,
+      "net_pips": 89.34999999999698,
+      "win_pips": 157.84999999999883,
+      "loss_pips": 68.50000000000188
+    },
+    {
+      "slot": 38,
+      "file": "strategy_38_audcad_h4_macro_retest.py",
+      "trades": 13,
+      "wins": 6,
+      "losses": 7,
+      "net_pips": 98.86999999999708,
+      "win_pips": 179.08999999999844,
+      "loss_pips": 80.22000000000136
+    },
+    {
+      "slot": 39,
+      "file": "strategy_39_audcad_h4_macro_retest.py",
+      "trades": 12,
+      "wins": 7,
+      "losses": 5,
+      "net_pips": 133.12999999999803,
+      "win_pips": 193.6799999999978,
+      "loss_pips": 60.54999999999975
+    },
+    {
+      "slot": 40,
+      "file": "strategy_40_audcad_h4_macro_retest.py",
+      "trades": 10,
+      "wins": 5,
+      "losses": 5,
+      "net_pips": 83.0499999999979,
+      "win_pips": 147.64999999999864,
+      "loss_pips": 64.60000000000075
+    },
+    {
+      "slot": 41,
+      "file": "strategy_41_usdjpy_asian_sweep.py",
+      "trades": 87,
+      "wins": 33,
+      "losses": 54,
+      "net_pips": 230.79000000012053,
+      "win_pips": 811.2100000000577,
+      "loss_pips": 580.4199999999372
+    },
+    {
+      "slot": 42,
+      "file": "strategy_42_usdjpy_asian_sweep.py",
+      "trades": 98,
+      "wins": 34,
+      "losses": 64,
+      "net_pips": 127.6100000001712,
+      "win_pips": 835.8800000000762,
+      "loss_pips": 708.269999999905
+    },
+    {
+      "slot": 43,
+      "file": "strategy_43_usdjpy_asian_sweep.py",
+      "trades": 98,
+      "wins": 36,
+      "losses": 62,
+      "net_pips": 272.91000000019994,
+      "win_pips": 1082.320000000082,
+      "loss_pips": 809.4099999998824
+    },
+    {
+      "slot": 44,
+      "file": "strategy_44_usdjpy_micro_trend_breakout.py",
+      "trades": 110,
+      "wins": 46,
+      "losses": 64,
+      "net_pips": 198.05000000010745,
+      "win_pips": 901.7200000000514,
+      "loss_pips": 703.6699999999441
+    },
+    {
+      "slot": 45,
+      "file": "strategy_45_usdjpy_asian_sweep.py",
+      "trades": 98,
+      "wins": 34,
+      "losses": 64,
+      "net_pips": 178.56000000015302,
+      "win_pips": 949.0300000000864,
+      "loss_pips": 770.4699999999334
+    },
+    {
+      "slot": 46,
+      "file": "strategy_46_usdjpy_asian_sweep.py",
+      "trades": 87,
+      "wins": 32,
+      "losses": 55,
+      "net_pips": 234.79000000012257,
+      "win_pips": 940.6900000000604,
+      "loss_pips": 705.8999999999379
+    },
+    {
+      "slot": 47,
+      "file": "strategy_47_usdjpy_asian_sweep.py",
+      "trades": 87,
+      "wins": 37,
+      "losses": 50,
+      "net_pips": 214.54000000009694,
+      "win_pips": 802.8400000000695,
+      "loss_pips": 588.2999999999727
+    },
+    {
+      "slot": 48,
+      "file": "strategy_48_usdjpy_asian_sweep.py",
+      "trades": 137,
+      "wins": 43,
+      "losses": 94,
+      "net_pips": 119.54000000030419,
+      "win_pips": 1874.6600000001306,
+      "loss_pips": 1755.1199999998312
+    },
+    {
+      "slot": 49,
+      "file": "strategy_49_eurnzd_h4_macro_retest.py",
+      "trades": 10,
+      "wins": 4,
+      "losses": 6,
+      "net_pips": 90.9499999999813,
+      "win_pips": 258.7699999999911,
+      "loss_pips": 167.82000000000974
+    },
+    {
+      "slot": 50,
+      "file": "strategy_50_eurnzd_h4_macro_retest.py",
+      "trades": 10,
+      "wins": 3,
+      "losses": 7,
+      "net_pips": 57.04999999998127,
+      "win_pips": 255.6899999999928,
+      "loss_pips": 198.64000000001153
+    },
+    {
+      "slot": 51,
+      "file": "strategy_51_eurnzd_h4_macro_retest.py",
+      "trades": 12,
+      "wins": 6,
+      "losses": 6,
+      "net_pips": 155.55999999998326,
+      "win_pips": 323.37999999999295,
+      "loss_pips": 167.82000000000974
+    },
+    {
+      "slot": 52,
+      "file": "strategy_52_eurnzd_h4_macro_retest.py",
+      "trades": 10,
+      "wins": 3,
+      "losses": 7,
+      "net_pips": 81.94999999998234,
+      "win_pips": 255.6899999999928,
+      "loss_pips": 173.7400000000105
+    },
+    {
+      "slot": 53,
+      "file": "strategy_53_eurnzd_h4_macro_retest.py",
+      "trades": 10,
+      "wins": 3,
+      "losses": 7,
+      "net_pips": 43.04999999998505,
+      "win_pips": 241.6899999999966,
+      "loss_pips": 198.64000000001153
+    },
+    {
+      "slot": 54,
+      "file": "strategy_54_eurnzd_h4_macro_retest.py",
+      "trades": 10,
+      "wins": 4,
+      "losses": 6,
+      "net_pips": 75.49999999998444,
+      "win_pips": 243.3199999999942,
+      "loss_pips": 167.82000000000974
+    },
+    {
+      "slot": 55,
+      "file": "strategy_55_eurnzd_h4_macro_retest.py",
+      "trades": 10,
+      "wins": 3,
+      "losses": 7,
+      "net_pips": 67.94999999998609,
+      "win_pips": 241.6899999999966,
+      "loss_pips": 173.7400000000105
+    },
+    {
+      "slot": 56,
+      "file": "strategy_56_eurnzd_h4_macro_retest.py",
+      "trades": 10,
+      "wins": 3,
+      "losses": 7,
+      "net_pips": 81.94999999998234,
+      "win_pips": 255.6899999999928,
+      "loss_pips": 173.7400000000105
+    },
+    {
+      "slot": 57,
+      "file": "strategy_57_gbpjpy_h4_macro_retest.py",
+      "trades": 36,
+      "wins": 16,
+      "losses": 20,
+      "net_pips": 366.82000000005803,
+      "win_pips": 981.120000000032,
+      "loss_pips": 614.299999999974
+    },
+    {
+      "slot": 58,
+      "file": "strategy_58_gbpjpy_h4_macro_retest.py",
+      "trades": 39,
+      "wins": 16,
+      "losses": 23,
+      "net_pips": 284.5300000000805,
+      "win_pips": 1038.4200000000383,
+      "loss_pips": 753.8899999999579
+    },
+    {
+      "slot": 59,
+      "file": "strategy_59_gbpjpy_h4_macro_retest.py",
+      "trades": 35,
+      "wins": 16,
+      "losses": 19,
+      "net_pips": 371.9000000000551,
+      "win_pips": 955.1700000000317,
+      "loss_pips": 583.2699999999767
+    },
+    {
+      "slot": 60,
+      "file": "strategy_60_nzdcad_ny_sweep.py",
+      "trades": 26,
+      "wins": 12,
+      "losses": 14,
+      "net_pips": 244.53999999999212,
+      "win_pips": 623.8299999999964,
+      "loss_pips": 379.2900000000043
+    },
+    {
+      "slot": 61,
+      "file": "strategy_61_nzdcad_ny_sweep.py",
+      "trades": 26,
+      "wins": 12,
+      "losses": 14,
+      "net_pips": 251.18999999999016,
+      "win_pips": 630.4799999999943,
+      "loss_pips": 379.2900000000043
+    },
+    {
+      "slot": 62,
+      "file": "strategy_62_eurgbp_london_sweep.py",
+      "trades": 49,
+      "wins": 22,
+      "losses": 27,
+      "net_pips": 166.3799999999436,
+      "win_pips": 478.68999999997607,
+      "loss_pips": 312.3100000000325
+    },
+    {
+      "slot": 63,
+      "file": "strategy_63_usdjpy_asian_sweep.py",
+      "trades": 138,
+      "wins": 52,
+      "losses": 86,
+      "net_pips": 319.4600000002428,
+      "win_pips": 1263.840000000108,
+      "loss_pips": 944.3799999998662
+    },
+    {
+      "slot": 64,
+      "file": "strategy_64_usdjpy_asian_sweep.py",
+      "trades": 116,
+      "wins": 45,
+      "losses": 71,
+      "net_pips": 407.47000000022024,
+      "win_pips": 1331.2000000001033,
+      "loss_pips": 923.7299999998838
+    },
+    {
+      "slot": 65,
+      "file": "strategy_65_eurgbp_london_sweep.py",
+      "trades": 78,
+      "wins": 38,
+      "losses": 40,
+      "net_pips": 348.7099999999006,
+      "win_pips": 861.3099999999607,
+      "loss_pips": 512.6000000000597
+    },
+    {
+      "slot": 66,
+      "file": "strategy_66_eurgbp_london_sweep.py",
+      "trades": 78,
+      "wins": 38,
+      "losses": 40,
+      "net_pips": 278.3099999998979,
+      "win_pips": 790.909999999958,
+      "loss_pips": 512.6000000000597
+    },
+    {
+      "slot": 67,
+      "file": "strategy_67_eurgbp_london_sweep.py",
+      "trades": 78,
+      "wins": 36,
+      "losses": 42,
+      "net_pips": 259.05999999990166,
+      "win_pips": 747.1199999999587,
+      "loss_pips": 488.0600000000569
+    },
+    {
+      "slot": 68,
+      "file": "strategy_68_eurgbp_london_sweep.py",
+      "trades": 73,
+      "wins": 34,
+      "losses": 39,
+      "net_pips": 266.75999999990916,
+      "win_pips": 766.3799999999651,
+      "loss_pips": 499.6200000000557
+    },
+    {
+      "slot": 69,
+      "file": "strategy_69_eurgbp_london_sweep.py",
+      "trades": 72,
+      "wins": 34,
+      "losses": 38,
+      "net_pips": 279.1899999999107,
+      "win_pips": 766.3799999999651,
+      "loss_pips": 487.19000000005417
+    },
+    {
+      "slot": 70,
+      "file": "strategy_70_eurgbp_london_sweep.py",
+      "trades": 72,
+      "wins": 34,
+      "losses": 38,
+      "net_pips": 216.93999999990717,
+      "win_pips": 704.1299999999615,
+      "loss_pips": 487.19000000005417
+    },
+    {
+      "slot": 71,
+      "file": "strategy_71_eurgbp_london_sweep.py",
+      "trades": 68,
+      "wins": 32,
+      "losses": 36,
+      "net_pips": 256.7599999999138,
+      "win_pips": 719.0399999999659,
+      "loss_pips": 462.28000000005187
+    },
+    {
+      "slot": 72,
+      "file": "strategy_72_eurgbp_london_sweep.py",
+      "trades": 77,
+      "wins": 37,
+      "losses": 40,
+      "net_pips": 324.93999999990257,
+      "win_pips": 837.5399999999627,
+      "loss_pips": 512.6000000000597
+    },
+    {
+      "slot": 73,
+      "file": "strategy_73_nzdcad_ny_sweep.py",
+      "trades": 37,
+      "wins": 16,
+      "losses": 21,
+      "net_pips": 186.62999999998726,
+      "win_pips": 732.9399999999955,
+      "loss_pips": 546.310000000008
+    },
+    {
+      "slot": 74,
+      "file": "strategy_74_nzdcad_ny_sweep.py",
+      "trades": 37,
+      "wins": 16,
+      "losses": 21,
+      "net_pips": 158.2799999999903,
+      "win_pips": 704.5899999999984,
+      "loss_pips": 546.310000000008
+    },
+    {
+      "slot": 75,
+      "file": "strategy_75_nzdcad_ny_sweep.py",
+      "trades": 26,
+      "wins": 12,
+      "losses": 14,
+      "net_pips": 251.18999999999016,
+      "win_pips": 630.4799999999943,
+      "loss_pips": 379.2900000000043
+    },
+    {
+      "slot": 76,
+      "file": "strategy_76_nzdcad_ny_sweep.py",
+      "trades": 26,
+      "wins": 12,
+      "losses": 14,
+      "net_pips": 225.389999999991,
+      "win_pips": 604.6799999999953,
+      "loss_pips": 379.2900000000043
+    },
+    {
+      "slot": 77,
+      "file": "strategy_77_nzdcad_ny_sweep.py",
+      "trades": 31,
+      "wins": 14,
+      "losses": 17,
+      "net_pips": 180.73999999998995,
+      "win_pips": 640.1099999999949,
+      "loss_pips": 459.37000000000495
+    },
+    {
+      "slot": 78,
+      "file": "strategy_78_nzdcad_ny_sweep.py",
+      "trades": 37,
+      "wins": 16,
+      "losses": 21,
+      "net_pips": 155.77999999998843,
+      "win_pips": 702.0899999999965,
+      "loss_pips": 546.310000000008
+    },
+    {
+      "slot": 79,
+      "file": "strategy_79_nzdcad_ny_sweep.py",
+      "trades": 26,
+      "wins": 12,
+      "losses": 14,
+      "net_pips": 232.78999999999286,
+      "win_pips": 612.0799999999972,
+      "loss_pips": 379.2900000000043
+    },
+    {
+      "slot": 80,
+      "file": "strategy_80_nzdcad_ny_sweep.py",
+      "trades": 26,
+      "wins": 12,
+      "losses": 14,
+      "net_pips": 275.98999999999165,
+      "win_pips": 655.2799999999959,
+      "loss_pips": 379.2900000000043
+    },
+    {
+      "slot": 81,
+      "file": "strategy_81_usdjpy_micro_trend_pullback.py",
+      "trades": 404,
+      "wins": 144,
+      "losses": 260,
+      "net_pips": 105.48000000084937,
+      "win_pips": 3922.3800000003075,
+      "loss_pips": 3816.8999999994785
+    },
+    {
+      "slot": 82,
+      "file": "strategy_82_usdjpy_micro_trend_breakout.py",
+      "trades": 110,
+      "wins": 47,
+      "losses": 63,
+      "net_pips": 229.85000000011433,
+      "win_pips": 921.3400000000586,
+      "loss_pips": 691.4899999999444
+    },
+    {
+      "slot": 83,
+      "file": "strategy_83_usdjpy_micro_trend_breakout.py",
+      "trades": 103,
+      "wins": 42,
+      "losses": 61,
+      "net_pips": 223.26000000011436,
+      "win_pips": 1127.7900000000457,
+      "loss_pips": 904.5299999999318
+    },
+    {
+      "slot": 84,
+      "file": "strategy_84_usdjpy_micro_trend_breakout.py",
+      "trades": 110,
+      "wins": 48,
+      "losses": 62,
+      "net_pips": 163.35000000012224,
+      "win_pips": 844.2100000000671,
+      "loss_pips": 680.859999999945
+    },
+    {
+      "slot": 85,
+      "file": "strategy_85_usdjpy_micro_trend_breakout.py",
+      "trades": 115,
+      "wins": 47,
+      "losses": 68,
+      "net_pips": 77.6000000001172,
+      "win_pips": 827.2400000000598,
+      "loss_pips": 749.6399999999427
+    },
+    {
+      "slot": 86,
+      "file": "strategy_86_usdjpy_micro_trend_breakout.py",
+      "trades": 104,
+      "wins": 43,
+      "losses": 61,
+      "net_pips": 190.13000000008708,
+      "win_pips": 848.0100000000489,
+      "loss_pips": 657.8799999999619
+    },
+    {
+      "slot": 87,
+      "file": "strategy_87_eurgbp_london_sweep.py",
+      "trades": 84,
+      "wins": 35,
+      "losses": 49,
+      "net_pips": 168.37999999991905,
+      "win_pips": 893.0499999999823,
+      "loss_pips": 724.6700000000632
+    },
+    {
+      "slot": 88,
+      "file": "strategy_88_eurusd_micro_trend_breakout.py",
+      "trades": 265,
+      "wins": 100,
+      "losses": 165,
+      "net_pips": 214.49999999962773,
+      "win_pips": 1960.5999999998887,
+      "loss_pips": 1746.1000000002657
+    },
+    {
+      "slot": 89,
+      "file": "strategy_89_eurgbp_london_sweep.py",
+      "trades": 83,
+      "wins": 34,
+      "losses": 49,
+      "net_pips": 165.25999999990756,
+      "win_pips": 935.3799999999733,
+      "loss_pips": 770.1200000000651
+    },
+    {
+      "slot": 90,
+      "file": "strategy_90_eurgbp_london_sweep.py",
+      "trades": 85,
+      "wins": 37,
+      "losses": 48,
+      "net_pips": 215.49999999988924,
+      "win_pips": 827.3399999999602,
+      "loss_pips": 611.8400000000712
+    },
+    {
+      "slot": 91,
+      "file": "strategy_91_usdjpy_donchian_micro_trend.py",
+      "trades": 358,
+      "wins": 139,
+      "losses": 219,
+      "net_pips": 472.9100000007966,
+      "win_pips": 3731.1800000003136,
+      "loss_pips": 3258.269999999535
+    },
+    {
+      "slot": 92,
+      "file": "strategy_92_usdjpy_micro_trend_breakout.py",
+      "trades": 154,
+      "wins": 61,
+      "losses": 93,
+      "net_pips": 258.1300000002455,
+      "win_pips": 1643.1700000001067,
+      "loss_pips": 1385.0399999998654
+    },
+    {
+      "slot": 93,
+      "file": "strategy_93_gbpjpy_micro_trend_breakout.py",
+      "trades": 217,
+      "wins": 77,
+      "losses": 140,
+      "net_pips": 258.0900000004307,
+      "win_pips": 3157.6400000001636,
+      "loss_pips": 2899.5499999997382
+    },
+    {
+      "slot": 94,
+      "file": "strategy_94_usdjpy_micro_trend_breakout.py",
+      "trades": 103,
+      "wins": 42,
+      "losses": 61,
+      "net_pips": 223.26000000011436,
+      "win_pips": 1127.7900000000457,
+      "loss_pips": 904.5299999999318
+    },
+    {
+      "slot": 95,
+      "file": "strategy_95_usdjpy_micro_trend_breakout.py",
+      "trades": 104,
+      "wins": 40,
+      "losses": 64,
+      "net_pips": 124.58000000010236,
+      "win_pips": 944.2500000000531,
+      "loss_pips": 819.669999999951
+    },
+    {
+      "slot": 96,
+      "file": "strategy_96_gbpjpy_micro_trend_breakout.py",
+      "trades": 217,
+      "wins": 80,
+      "losses": 137,
+      "net_pips": 208.94000000039057,
+      "win_pips": 2800.850000000166,
+      "loss_pips": 2591.909999999782
+    },
+    {
+      "slot": 97,
+      "file": "strategy_97_usdjpy_micro_trend_breakout.py",
+      "trades": 109,
+      "wins": 43,
+      "losses": 66,
+      "net_pips": 163.23000000012433,
+      "win_pips": 1018.7600000000598,
+      "loss_pips": 855.5299999999356
+    },
+    {
+      "slot": 98,
+      "file": "strategy_98_usdjpy_micro_trend_breakout.py",
+      "trades": 157,
+      "wins": 60,
+      "losses": 97,
+      "net_pips": 171.84000000021484,
+      "win_pips": 1422.9500000000985,
+      "loss_pips": 1251.109999999887
+    },
+    {
+      "slot": 99,
+      "file": "strategy_99_usdjpy_micro_trend_breakout.py",
+      "trades": 113,
+      "wins": 44,
+      "losses": 69,
+      "net_pips": 78.31000000010465,
+      "win_pips": 774.4300000000559,
+      "loss_pips": 696.1199999999513
+    },
+    {
+      "slot": 100,
+      "file": "strategy_100_usdjpy_micro_trend_breakout.py",
+      "trades": 112,
+      "wins": 47,
+      "losses": 65,
+      "net_pips": 236.59000000009712,
+      "win_pips": 1020.1400000000557,
+      "loss_pips": 783.5499999999588
+    }
+  ]
+}

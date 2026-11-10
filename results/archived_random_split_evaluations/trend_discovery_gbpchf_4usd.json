@@ -1,0 +1,169 @@
+{
+  "symbol": "GBPCHF",
+  "qualified_discovery": [
+    {
+      "name": "Breakout_D12.0_SL25_TP50_R20-80",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "GBPCHF",
+        "delta": 12.0,
+        "sl": 25.0,
+        "tp": 50.0,
+        "min_rng": 20.0,
+        "max_rng": 80.0,
+        "name": "Breakout_D12.0_SL25_TP50_R20-80"
+      },
+      "trades": 54,
+      "ann_trades": 40.1,
+      "net_pips": 136.5,
+      "win_rate": 40.7,
+      "profit_factor": 1.18
+    },
+    {
+      "name": "Breakout_D12.0_SL20_TP42_R20-80",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "GBPCHF",
+        "delta": 12.0,
+        "sl": 20.0,
+        "tp": 42.0,
+        "min_rng": 20.0,
+        "max_rng": 80.0,
+        "name": "Breakout_D12.0_SL20_TP42_R20-80"
+      },
+      "trades": 54,
+      "ann_trades": 40.1,
+      "net_pips": 136.0,
+      "win_rate": 38.9,
+      "profit_factor": 1.21
+    },
+    {
+      "name": "Breakout_D8.0_SL15_TP30_R20-80",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "GBPCHF",
+        "delta": 8.0,
+        "sl": 15.0,
+        "tp": 30.0,
+        "min_rng": 20.0,
+        "max_rng": 80.0,
+        "name": "Breakout_D8.0_SL15_TP30_R20-80"
+      },
+      "trades": 59,
+      "ann_trades": 43.8,
+      "net_pips": 133.3,
+      "win_rate": 39.0,
+      "profit_factor": 1.24
+    },
+    {
+      "name": "Breakout_D8.0_SL18_TP36_R20-80",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "GBPCHF",
+        "delta": 8.0,
+        "sl": 18.0,
+        "tp": 36.0,
+        "min_rng": 20.0,
+        "max_rng": 80.0,
+        "name": "Breakout_D8.0_SL18_TP36_R20-80"
+      },
+      "trades": 58,
+      "ann_trades": 43.1,
+      "net_pips": 111.0,
+      "win_rate": 37.9,
+      "profit_factor": 1.17
+    },
+    {
+      "name": "Breakout_D12.0_SL15_TP30_R20-80",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "GBPCHF",
+        "delta": 12.0,
+        "sl": 15.0,
+        "tp": 30.0,
+        "min_rng": 20.0,
+        "max_rng": 80.0,
+        "name": "Breakout_D12.0_SL15_TP30_R20-80"
+      },
+      "trades": 56,
+      "ann_trades": 41.6,
+      "net_pips": 88.4,
+      "win_rate": 37.5,
+      "profit_factor": 1.16
+    },
+    {
+      "name": "Breakout_D12.0_SL18_TP36_R20-80",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "GBPCHF",
+        "delta": 12.0,
+        "sl": 18.0,
+        "tp": 36.0,
+        "min_rng": 20.0,
+        "max_rng": 80.0,
+        "name": "Breakout_D12.0_SL18_TP36_R20-80"
+      },
+      "trades": 55,
+      "ann_trades": 40.9,
+      "net_pips": 83.6,
+      "win_rate": 38.2,
+      "profit_factor": 1.14
+    },
+    {
+      "name": "Breakout_D8.0_SL20_TP42_R20-80",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "GBPCHF",
+        "delta": 8.0,
+        "sl": 20.0,
+        "tp": 42.0,
+        "min_rng": 20.0,
+        "max_rng": 80.0,
+        "name": "Breakout_D8.0_SL20_TP42_R20-80"
+      },
+      "trades": 57,
+      "ann_trades": 42.3,
+      "net_pips": 52.6,
+      "win_rate": 35.1,
+      "profit_factor": 1.07
+    }
+  ],
+  "champions": [
+    {
+      "name": "Breakout_D12.0_SL25_TP50_R20-80",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "GBPCHF",
+        "delta": 12.0,
+        "sl": 25.0,
+        "tp": 50.0,
+        "min_rng": 20.0,
+        "max_rng": 80.0,
+        "name": "Breakout_D12.0_SL25_TP50_R20-80"
+      },
+      "holdout_trades": 84,
+      "ann_trades": 48.5,
+      "win_rate": 40.5,
+      "profit_factor": 1.2,
+      "holdout_net_pips": 249.3
+    },
+    {
+      "name": "Breakout_D12.0_SL20_TP42_R20-80",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "GBPCHF",
+        "delta": 12.0,
+        "sl": 20.0,
+        "tp": 42.0,
+        "min_rng": 20.0,
+        "max_rng": 80.0,
+        "name": "Breakout_D12.0_SL20_TP42_R20-80"
+      },
+      "holdout_trades": 86,
+      "ann_trades": 49.7,
+      "win_rate": 37.2,
+      "profit_factor": 1.1,
+      "holdout_net_pips": 111.6
+    }
+  ]
+}

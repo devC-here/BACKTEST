@@ -1,0 +1,110 @@
+[
+  {
+    "asset": "EURGBP",
+    "model": "KELTNER_SQUEEZE",
+    "trades": 219,
+    "win_rate": 28.8,
+    "profit_factor": 0.78,
+    "net_pips": -281.0,
+    "status": "REJECTED"
+  },
+  {
+    "asset": "EURGBP",
+    "model": "LUNCH_EXPANSION",
+    "trades": 17,
+    "win_rate": 23.5,
+    "profit_factor": 0.47,
+    "net_pips": -58.3,
+    "status": "REJECTED"
+  },
+  {
+    "asset": "EURGBP",
+    "model": "SWING_RETEST",
+    "trades": 132,
+    "win_rate": 26.5,
+    "profit_factor": 0.68,
+    "net_pips": -250.0,
+    "status": "REJECTED"
+  },
+  {
+    "asset": "EURGBP",
+    "model": "VWAP_BAND_FADE",
+    "trades": 383,
+    "win_rate": 40.7,
+    "profit_factor": 1.25,
+    "net_pips": 477.9,
+    "status": "REJECTED"
+  },
+  {
+    "asset": "EURUSD",
+    "model": "KELTNER_SQUEEZE",
+    "trades": 348,
+    "win_rate": 37.4,
+    "profit_factor": 1.18,
+    "net_pips": 354.1,
+    "status": "REJECTED"
+  },
+  {
+    "asset": "EURUSD",
+    "model": "LUNCH_EXPANSION",
+    "trades": 102,
+    "win_rate": 40.2,
+    "profit_factor": 1.36,
+    "net_pips": 196.0,
+    "status": "REJECTED"
+  },
+  {
+    "asset": "EURUSD",
+    "model": "SWING_RETEST",
+    "trades": 335,
+    "win_rate": 39.1,
+    "profit_factor": 1.14,
+    "net_pips": 262.8,
+    "status": "REJECTED"
+  },
+  {
+    "asset": "EURUSD",
+    "model": "VWAP_BAND_FADE",
+    "trades": 529,
+    "win_rate": 44.4,
+    "profit_factor": 1.58,
+    "net_pips": 1560.8,
+    "status": "PASS_HOLDOUT_CANDIDATE"
+  },
+  {
+    "asset": "USDJPY",
+    "model": "KELTNER_SQUEEZE",
+    "trades": 321,
+    "win_rate": 38.3,
+    "profit_factor": 1.22,
+    "net_pips": 539.5,
+    "status": "REJECTED"
+  },
+  {
+    "asset": "USDJPY",
+    "model": "LUNCH_EXPANSION",
+    "trades": 269,
+    "win_rate": 43.5,
+    "profit_factor": 1.51,
+    "net_pips": 946.6,
+    "status": "PASS_HOLDOUT_CANDIDATE"
+  },
+  {
+    "asset": "USDJPY",
+    "model": "SWING_RETEST",
+    "trades": 294,
+    "win_rate": 38.1,
+    "profit_factor": 1.08,
+    "net_pips": 179.8,
+    "status": "REJECTED"
+  },
+  {
+    "asset": "USDJPY",
+    "model": "VWAP_BAND_FADE",
+    "trades": 447,
+    "win_rate": 43.6,
+    "profit_factor": 1.49,
+    "net_pips": 1502.6,
+    "status": "PASS_HOLDOUT_CANDIDATE"
+  }
+]

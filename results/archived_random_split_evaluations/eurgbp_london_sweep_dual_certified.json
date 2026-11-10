@@ -1,0 +1,112 @@
+[
+  {
+    "id": "EG_Sw_D5_SL12_TP24",
+    "delta": 5.0,
+    "sl": 12.0,
+    "tp": 24.0,
+    "is_return": 20.4,
+    "oos_trades": 76,
+    "oos_net_pips": 187.5,
+    "oos_ann_ret": 9.0,
+    "oos_wr": 40.8
+  },
+  {
+    "id": "EG_Sw_D5_SL14_TP28",
+    "delta": 5.0,
+    "sl": 14.0,
+    "tp": 28.0,
+    "is_return": 17.0,
+    "oos_trades": 76,
+    "oos_net_pips": 153.0,
+    "oos_ann_ret": 6.3,
+    "oos_wr": 39.5
+  },
+  {
+    "id": "EG_Sw_D5_SL15_TP30",
+    "delta": 5.0,
+    "sl": 15.0,
+    "tp": 30.0,
+    "is_return": 17.8,
+    "oos_trades": 75,
+    "oos_net_pips": 196.4,
+    "oos_ann_ret": 7.6,
+    "oos_wr": 41.3
+  },
+  {
+    "id": "EG_Sw_D3_SL12_TP24",
+    "delta": 3.0,
+    "sl": 12.0,
+    "tp": 24.0,
+    "is_return": 14.2,
+    "oos_trades": 129,
+    "oos_net_pips": 37.8,
+    "oos_ann_ret": 1.8,
+    "oos_wr": 35.7
+  },
+  {
+    "id": "EG_Sw_D5_SL12_TP20",
+    "delta": 5.0,
+    "sl": 12.0,
+    "tp": 20.0,
+    "is_return": 12.0,
+    "oos_trades": 76,
+    "oos_net_pips": 99.9,
+    "oos_ann_ret": 4.8,
+    "oos_wr": 42.1
+  },
+  {
+    "id": "EG_Sw_D5_SL14_TP25",
+    "delta": 5.0,
+    "sl": 14.0,
+    "tp": 25.0,
+    "is_return": 13.0,
+    "oos_trades": 76,
+    "oos_net_pips": 158.6,
+    "oos_ann_ret": 6.6,
+    "oos_wr": 42.1
+  },
+  {
+    "id": "EG_Sw_D4.5_SL12_TP24",
+    "delta": 4.5,
+    "sl": 12.0,
+    "tp": 24.0,
+    "is_return": 16.5,
+    "oos_trades": 83,
+    "oos_net_pips": 210.7,
+    "oos_ann_ret": 10.2,
+    "oos_wr": 41.0
+  },
+  {
+    "id": "EG_Sw_D4.5_SL14_TP28",
+    "delta": 4.5,
+    "sl": 14.0,
+    "tp": 28.0,
+    "is_return": 15.2,
+    "oos_trades": 82,
+    "oos_net_pips": 238.4,
+    "oos_ann_ret": 9.8,
+    "oos_wr": 41.5
+  },
+  {
+    "id": "EG_Sw_D5.5_SL14_TP28",
+    "delta": 5.5,
+    "sl": 14.0,
+    "tp": 28.0,
+    "is_return": 14.8,
+    "oos_trades": 60,
+    "oos_net_pips": 99.0,
+    "oos_ann_ret": 4.1,
+    "oos_wr": 38.3
+  },
+  {
+    "id": "EG_Sw_D5.5_SL15_TP30",
+    "delta": 5.5,
+    "sl": 15.0,
+    "tp": 30.0,
+    "is_return": 15.5,
+    "oos_trades": 60,
+    "oos_net_pips": 136.9,
+    "oos_ann_ret": 5.3,
+    "oos_wr": 40.0
+  }
+]

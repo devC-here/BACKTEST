@@ -1,0 +1,132 @@
+{
+  "symbol": "GBPJPY",
+  "qualified_discovery": [
+    {
+      "name": "MicroPullback_F12S36_SL20_TP42_B0.40",
+      "cand": {
+        "family": "MICRO_TREND_PULLBACK",
+        "symbol": "GBPJPY",
+        "ema_fast": 12,
+        "ema_slow": 36,
+        "sl": 20.0,
+        "tp": 42.0,
+        "min_body": 0.4,
+        "name": "MicroPullback_F12S36_SL20_TP42_B0.40"
+      },
+      "trades": 194,
+      "ann_trades": 190.3,
+      "net_pips": 307.8,
+      "win_rate": 36.6,
+      "profit_factor": 1.12
+    },
+    {
+      "name": "MicroPullback_F12S36_SL25_TP50_B0.50",
+      "cand": {
+        "family": "MICRO_TREND_PULLBACK",
+        "symbol": "GBPJPY",
+        "ema_fast": 12,
+        "ema_slow": 36,
+        "sl": 25.0,
+        "tp": 50.0,
+        "min_body": 0.5,
+        "name": "MicroPullback_F12S36_SL25_TP50_B0.50"
+      },
+      "trades": 187,
+      "ann_trades": 183.5,
+      "net_pips": 232.8,
+      "win_rate": 37.4,
+      "profit_factor": 1.08
+    },
+    {
+      "name": "MicroPullback_F12S36_SL25_TP50_B0.40",
+      "cand": {
+        "family": "MICRO_TREND_PULLBACK",
+        "symbol": "GBPJPY",
+        "ema_fast": 12,
+        "ema_slow": 36,
+        "sl": 25.0,
+        "tp": 50.0,
+        "min_body": 0.4,
+        "name": "MicroPullback_F12S36_SL25_TP50_B0.40"
+      },
+      "trades": 191,
+      "ann_trades": 187.4,
+      "net_pips": 205.8,
+      "win_rate": 37.2,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "MicroPullback_F10S30_SL20_TP42_B0.40",
+      "cand": {
+        "family": "MICRO_TREND_PULLBACK",
+        "symbol": "GBPJPY",
+        "ema_fast": 10,
+        "ema_slow": 30,
+        "sl": 20.0,
+        "tp": 42.0,
+        "min_body": 0.4,
+        "name": "MicroPullback_F10S30_SL20_TP42_B0.40"
+      },
+      "trades": 194,
+      "ann_trades": 190.3,
+      "net_pips": 183.7,
+      "win_rate": 35.6,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "MicroPullback_F12S36_SL18_TP36_B0.40",
+      "cand": {
+        "family": "MICRO_TREND_PULLBACK",
+        "symbol": "GBPJPY",
+        "ema_fast": 12,
+        "ema_slow": 36,
+        "sl": 18.0,
+        "tp": 36.0,
+        "min_body": 0.4,
+        "name": "MicroPullback_F12S36_SL18_TP36_B0.40"
+      },
+      "trades": 196,
+      "ann_trades": 192.3,
+      "net_pips": 120.0,
+      "win_rate": 36.2,
+      "profit_factor": 1.05
+    },
+    {
+      "name": "MicroPullback_F12S36_SL12_TP24_B0.40",
+      "cand": {
+        "family": "MICRO_TREND_PULLBACK",
+        "symbol": "GBPJPY",
+        "ema_fast": 12,
+        "ema_slow": 36,
+        "sl": 12.0,
+        "tp": 24.0,
+        "min_body": 0.4,
+        "name": "MicroPullback_F12S36_SL12_TP24_B0.40"
+      },
+      "trades": 198,
+      "ann_trades": 194.3,
+      "net_pips": 84.1,
+      "win_rate": 36.4,
+      "profit_factor": 1.05
+    },
+    {
+      "name": "MicroBreakout_D10.0_SL15_TP30_R15-55",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "GBPJPY",
+        "delta": 10.0,
+        "sl": 15.0,
+        "tp": 30.0,
+        "min_rng": 15.0,
+        "max_rng": 55.0,
+        "name": "MicroBreakout_D10.0_SL15_TP30_R15-55"
+      },
+      "trades": 67,
+      "ann_trades": 65.7,
+      "net_pips": 45.5,
+      "win_rate": 37.3,
+      "profit_factor": 1.07
+    }
+  ],
+  "champions": []
+}

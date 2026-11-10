@@ -1,0 +1,439 @@
+{
+  "symbol": "USDJPY",
+  "qualified_discovery": [
+    {
+      "name": "Donchian_P16_F20S50_SL14_TP28",
+      "cand": {
+        "archetype": "TREND_DONCHIAN_M15",
+        "symbol": "USDJPY",
+        "period": 16,
+        "ema_fast": 20,
+        "ema_slow": 50,
+        "sl": 14.0,
+        "tp": 28.0,
+        "name": "Donchian_P16_F20S50_SL14_TP28"
+      },
+      "trades": 218,
+      "ann_trades": 161.9,
+      "net_pips": 203.8,
+      "win_rate": 38.1,
+      "profit_factor": 1.1
+    },
+    {
+      "name": "Breakout_D3.5_SL12_TP24_R8-35",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 3.5,
+        "sl": 12.0,
+        "tp": 24.0,
+        "min_rng": 8.0,
+        "max_rng": 35.0,
+        "name": "Breakout_D3.5_SL12_TP24_R8-35"
+      },
+      "trades": 49,
+      "ann_trades": 36.4,
+      "net_pips": 63.0,
+      "win_rate": 38.8,
+      "profit_factor": 1.17
+    },
+    {
+      "name": "Breakout_D3.5_SL12_TP24_R10-45",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 3.5,
+        "sl": 12.0,
+        "tp": 24.0,
+        "min_rng": 10.0,
+        "max_rng": 45.0,
+        "name": "Breakout_D3.5_SL12_TP24_R10-45"
+      },
+      "trades": 65,
+      "ann_trades": 48.3,
+      "net_pips": 58.1,
+      "win_rate": 36.9,
+      "profit_factor": 1.11
+    },
+    {
+      "name": "Breakout_D3.5_SL10_TP20_R8-35",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 3.5,
+        "sl": 10.0,
+        "tp": 20.0,
+        "min_rng": 8.0,
+        "max_rng": 35.0,
+        "name": "Breakout_D3.5_SL10_TP20_R8-35"
+      },
+      "trades": 49,
+      "ann_trades": 36.4,
+      "net_pips": 56.1,
+      "win_rate": 38.8,
+      "profit_factor": 1.18
+    },
+    {
+      "name": "Breakout_D5.0_SL12_TP24_R10-45",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 5.0,
+        "sl": 12.0,
+        "tp": 24.0,
+        "min_rng": 10.0,
+        "max_rng": 45.0,
+        "name": "Breakout_D5.0_SL12_TP24_R10-45"
+      },
+      "trades": 62,
+      "ann_trades": 46.1,
+      "net_pips": 51.5,
+      "win_rate": 37.1,
+      "profit_factor": 1.11
+    },
+    {
+      "name": "Breakout_D3.5_SL14_TP28_R10-45",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 3.5,
+        "sl": 14.0,
+        "tp": 28.0,
+        "min_rng": 10.0,
+        "max_rng": 45.0,
+        "name": "Breakout_D3.5_SL14_TP28_R10-45"
+      },
+      "trades": 64,
+      "ann_trades": 47.5,
+      "net_pips": 31.4,
+      "win_rate": 37.5,
+      "profit_factor": 1.05
+    },
+    {
+      "name": "Breakout_D5.0_SL14_TP28_R10-45",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 5.0,
+        "sl": 14.0,
+        "tp": 28.0,
+        "min_rng": 10.0,
+        "max_rng": 45.0,
+        "name": "Breakout_D5.0_SL14_TP28_R10-45"
+      },
+      "trades": 62,
+      "ann_trades": 46.1,
+      "net_pips": 30.4,
+      "win_rate": 37.1,
+      "profit_factor": 1.05
+    },
+    {
+      "name": "Breakout_D5.0_SL14_TP28_R8-35",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 5.0,
+        "sl": 14.0,
+        "tp": 28.0,
+        "min_rng": 8.0,
+        "max_rng": 35.0,
+        "name": "Breakout_D5.0_SL14_TP28_R8-35"
+      },
+      "trades": 46,
+      "ann_trades": 34.2,
+      "net_pips": 27.4,
+      "win_rate": 37.0,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "Breakout_D2.0_SL10_TP20_R8-35",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 2.0,
+        "sl": 10.0,
+        "tp": 20.0,
+        "min_rng": 8.0,
+        "max_rng": 35.0,
+        "name": "Breakout_D2.0_SL10_TP20_R8-35"
+      },
+      "trades": 52,
+      "ann_trades": 38.6,
+      "net_pips": 24.1,
+      "win_rate": 36.5,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "Breakout_D5.0_SL12_TP24_R8-35",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 5.0,
+        "sl": 12.0,
+        "tp": 24.0,
+        "min_rng": 8.0,
+        "max_rng": 35.0,
+        "name": "Breakout_D5.0_SL12_TP24_R8-35"
+      },
+      "trades": 46,
+      "ann_trades": 34.2,
+      "net_pips": 20.3,
+      "win_rate": 37.0,
+      "profit_factor": 1.06
+    },
+    {
+      "name": "Breakout_D5.0_SL10_TP18_R8-35",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 5.0,
+        "sl": 10.0,
+        "tp": 18.0,
+        "min_rng": 8.0,
+        "max_rng": 35.0,
+        "name": "Breakout_D5.0_SL10_TP18_R8-35"
+      },
+      "trades": 46,
+      "ann_trades": 34.2,
+      "net_pips": 19.9,
+      "win_rate": 39.1,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "Breakout_D3.5_SL10_TP18_R8-35",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 3.5,
+        "sl": 10.0,
+        "tp": 18.0,
+        "min_rng": 8.0,
+        "max_rng": 35.0,
+        "name": "Breakout_D3.5_SL10_TP18_R8-35"
+      },
+      "trades": 49,
+      "ann_trades": 36.4,
+      "net_pips": 17.6,
+      "win_rate": 38.8,
+      "profit_factor": 1.06
+    }
+  ],
+  "champions": [
+    {
+      "name": "Donchian_P16_F20S50_SL14_TP28",
+      "cand": {
+        "archetype": "TREND_DONCHIAN_M15",
+        "symbol": "USDJPY",
+        "period": 16,
+        "ema_fast": 20,
+        "ema_slow": 50,
+        "sl": 14.0,
+        "tp": 28.0,
+        "name": "Donchian_P16_F20S50_SL14_TP28"
+      },
+      "holdout_trades": 285,
+      "ann_trades": 164.7,
+      "win_rate": 38.9,
+      "profit_factor": 1.16,
+      "holdout_net_pips": 425.5
+    },
+    {
+      "name": "Breakout_D3.5_SL14_TP28_R10-45",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 3.5,
+        "sl": 14.0,
+        "tp": 28.0,
+        "min_rng": 10.0,
+        "max_rng": 45.0,
+        "name": "Breakout_D3.5_SL14_TP28_R10-45"
+      },
+      "holdout_trades": 122,
+      "ann_trades": 70.5,
+      "win_rate": 41.8,
+      "profit_factor": 1.29,
+      "holdout_net_pips": 309.0
+    },
+    {
+      "name": "Breakout_D5.0_SL14_TP28_R8-35",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 5.0,
+        "sl": 14.0,
+        "tp": 28.0,
+        "min_rng": 8.0,
+        "max_rng": 35.0,
+        "name": "Breakout_D5.0_SL14_TP28_R8-35"
+      },
+      "holdout_trades": 77,
+      "ann_trades": 44.5,
+      "win_rate": 42.9,
+      "profit_factor": 1.36,
+      "holdout_net_pips": 232.8
+    },
+    {
+      "name": "Breakout_D3.5_SL12_TP24_R8-35",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 3.5,
+        "sl": 12.0,
+        "tp": 24.0,
+        "min_rng": 8.0,
+        "max_rng": 35.0,
+        "name": "Breakout_D3.5_SL12_TP24_R8-35"
+      },
+      "holdout_trades": 81,
+      "ann_trades": 46.8,
+      "win_rate": 43.2,
+      "profit_factor": 1.38,
+      "holdout_net_pips": 228.5
+    },
+    {
+      "name": "Breakout_D3.5_SL10_TP20_R8-35",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 3.5,
+        "sl": 10.0,
+        "tp": 20.0,
+        "min_rng": 8.0,
+        "max_rng": 35.0,
+        "name": "Breakout_D3.5_SL10_TP20_R8-35"
+      },
+      "holdout_trades": 81,
+      "ann_trades": 46.8,
+      "win_rate": 44.4,
+      "profit_factor": 1.42,
+      "holdout_net_pips": 207.8
+    },
+    {
+      "name": "Breakout_D3.5_SL12_TP24_R10-45",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 3.5,
+        "sl": 12.0,
+        "tp": 24.0,
+        "min_rng": 10.0,
+        "max_rng": 45.0,
+        "name": "Breakout_D3.5_SL12_TP24_R10-45"
+      },
+      "holdout_trades": 123,
+      "ann_trades": 71.1,
+      "win_rate": 39.8,
+      "profit_factor": 1.22,
+      "holdout_net_pips": 205.3
+    },
+    {
+      "name": "Breakout_D3.5_SL10_TP18_R8-35",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 3.5,
+        "sl": 10.0,
+        "tp": 18.0,
+        "min_rng": 8.0,
+        "max_rng": 35.0,
+        "name": "Breakout_D3.5_SL10_TP18_R8-35"
+      },
+      "holdout_trades": 81,
+      "ann_trades": 46.8,
+      "win_rate": 46.9,
+      "profit_factor": 1.41,
+      "holdout_net_pips": 195.1
+    },
+    {
+      "name": "Breakout_D5.0_SL12_TP24_R8-35",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 5.0,
+        "sl": 12.0,
+        "tp": 24.0,
+        "min_rng": 8.0,
+        "max_rng": 35.0,
+        "name": "Breakout_D5.0_SL12_TP24_R8-35"
+      },
+      "holdout_trades": 78,
+      "ann_trades": 45.1,
+      "win_rate": 41.0,
+      "profit_factor": 1.28,
+      "holdout_net_pips": 165.3
+    },
+    {
+      "name": "Breakout_D5.0_SL14_TP28_R10-45",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 5.0,
+        "sl": 14.0,
+        "tp": 28.0,
+        "min_rng": 10.0,
+        "max_rng": 45.0,
+        "name": "Breakout_D5.0_SL14_TP28_R10-45"
+      },
+      "holdout_trades": 119,
+      "ann_trades": 68.8,
+      "win_rate": 38.7,
+      "profit_factor": 1.14,
+      "holdout_net_pips": 146.6
+    },
+    {
+      "name": "Breakout_D2.0_SL10_TP20_R8-35",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 2.0,
+        "sl": 10.0,
+        "tp": 20.0,
+        "min_rng": 8.0,
+        "max_rng": 35.0,
+        "name": "Breakout_D2.0_SL10_TP20_R8-35"
+      },
+      "holdout_trades": 85,
+      "ann_trades": 49.1,
+      "win_rate": 41.2,
+      "profit_factor": 1.24,
+      "holdout_net_pips": 131.9
+    },
+    {
+      "name": "Breakout_D5.0_SL10_TP18_R8-35",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 5.0,
+        "sl": 10.0,
+        "tp": 18.0,
+        "min_rng": 8.0,
+        "max_rng": 35.0,
+        "name": "Breakout_D5.0_SL10_TP18_R8-35"
+      },
+      "holdout_trades": 78,
+      "ann_trades": 45.1,
+      "win_rate": 43.6,
+      "profit_factor": 1.26,
+      "holdout_net_pips": 125.0
+    },
+    {
+      "name": "Breakout_D5.0_SL12_TP24_R10-45",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDJPY",
+        "delta": 5.0,
+        "sl": 12.0,
+        "tp": 24.0,
+        "min_rng": 10.0,
+        "max_rng": 45.0,
+        "name": "Breakout_D5.0_SL12_TP24_R10-45"
+      },
+      "holdout_trades": 120,
+      "ann_trades": 69.3,
+      "win_rate": 37.5,
+      "profit_factor": 1.11,
+      "holdout_net_pips": 104.9
+    }
+  ]
+}

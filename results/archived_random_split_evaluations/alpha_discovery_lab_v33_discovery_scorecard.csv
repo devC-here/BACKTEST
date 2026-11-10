@@ -1,0 +1,4 @@
+asset,model,trades,win_rate,profit_factor,expectancy,net_pips,max_dd,ret_dd,verdict
+EURGBP,BB_EXTREME_REVERSION,1,100.0,999.0,13.5,13.5,0.0,999.0,[PROMISING]
+EURGBP,LONDON_LUNCH_PULLBACK,2,0.0,0.0,-7.55,-15.1,7.5,-2.01,[DISCARDED]
+EURGBP,TOKYO_EXPANSION,26,34.6,0.94,-0.28,-7.2,48.1,-0.15,[DISCARDED]

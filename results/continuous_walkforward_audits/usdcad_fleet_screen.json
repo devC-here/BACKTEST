@@ -1,0 +1,121 @@
+[
+  {
+    "name": "disc01_usdcad_macro_asymmetric_runner_elite",
+    "symbol": "USDCAD",
+    "path": "archive_deprecated\\strategies\\usdcad_fleet\\disc01_usdcad_macro_asymmetric_runner_elite\\strategy.py",
+    "holdout": {
+      "trades": 12,
+      "net_pips": -21.1,
+      "pf": 0.73,
+      "wr": 25.0
+    },
+    "discovery": {
+      "trades": 12,
+      "net_pips": -47.5,
+      "pf": 0.45,
+      "wr": 16.7
+    }
+  },
+  {
+    "name": "disc02_usdcad_daily_pivot_wall_elite",
+    "symbol": "USDCAD",
+    "path": "archive_deprecated\\strategies\\usdcad_fleet\\disc02_usdcad_daily_pivot_wall_elite\\strategy.py",
+    "holdout": {
+      "trades": 52,
+      "net_pips": -257.2,
+      "pf": 0.35,
+      "wr": 19.2
+    },
+    "discovery": {
+      "trades": 43,
+      "net_pips": -151.6,
+      "pf": 0.51,
+      "wr": 25.6
+    }
+  },
+  {
+    "name": "disc03_usdcad_intraday_macro_retest_elite",
+    "symbol": "USDCAD",
+    "path": "archive_deprecated\\strategies\\usdcad_fleet\\disc03_usdcad_intraday_macro_retest_elite\\strategy.py",
+    "holdout": {
+      "trades": 12,
+      "net_pips": -37.1,
+      "pf": 0.52,
+      "wr": 25.0
+    },
+    "discovery": {
+      "trades": 13,
+      "net_pips": -23.2,
+      "pf": 0.7,
+      "wr": 30.8
+    }
+  },
+  {
+    "name": "disc04_usdcad_h4_macro_wide_runner_elite",
+    "symbol": "USDCAD",
+    "path": "archive_deprecated\\strategies\\usdcad_fleet\\disc04_usdcad_h4_macro_wide_runner_elite\\strategy.py",
+    "holdout": {
+      "trades": 37,
+      "net_pips": -176.7,
+      "pf": 0.58,
+      "wr": 27.0
+    },
+    "discovery": {
+      "trades": 27,
+      "net_pips": -243.0,
+      "pf": 0.33,
+      "wr": 14.8
+    }
+  },
+  {
+    "name": "disc05_usdcad_h4_macro_structure_retest_elite",
+    "symbol": "USDCAD",
+    "path": "archive_deprecated\\strategies\\usdcad_fleet\\disc05_usdcad_h4_macro_structure_retest_elite\\strategy.py",
+    "holdout": {
+      "trades": 38,
+      "net_pips": -46.7,
+      "pf": 0.87,
+      "wr": 34.2
+    },
+    "discovery": {
+      "trades": 27,
+      "net_pips": -185.7,
+      "pf": 0.43,
+      "wr": 18.5
+    }
+  },
+  {
+    "name": "disc06_usdcad_h4_macro_precision_retest_elite",
+    "symbol": "USDCAD",
+    "path": "archive_deprecated\\strategies\\usdcad_fleet\\disc06_usdcad_h4_macro_precision_retest_elite\\strategy.py",
+    "holdout": {
+      "trades": 38,
+      "net_pips": -60.0,
+      "pf": 0.81,
+      "wr": 31.6
+    },
+    "discovery": {
+      "trades": 27,
+      "net_pips": -123.9,
+      "pf": 0.53,
+      "wr": 22.2
+    }
+  },
+  {
+    "name": "disc07_usdcad_camarilla_floor_elite",
+    "symbol": "USDCAD",
+    "path": "archive_deprecated\\strategies\\usdcad_fleet\\disc07_usdcad_camarilla_floor_elite\\strategy.py",
+    "holdout": {
+      "trades": 83,
+      "net_pips": -128.7,
+      "pf": 0.75,
+      "wr": 33.7
+    },
+    "discovery": {
+      "trades": 80,
+      "net_pips": -233.3,
+      "pf": 0.56,
+      "wr": 27.5
+    }
+  }
+]

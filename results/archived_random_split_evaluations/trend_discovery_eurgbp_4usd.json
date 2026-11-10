@@ -1,0 +1,24 @@
+{
+  "symbol": "EURGBP",
+  "qualified_discovery": [
+    {
+      "name": "Breakout_D5.0_SL14_TP28_R8-35",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "EURGBP",
+        "delta": 5.0,
+        "sl": 14.0,
+        "tp": 28.0,
+        "min_rng": 8.0,
+        "max_rng": 35.0,
+        "name": "Breakout_D5.0_SL14_TP28_R8-35"
+      },
+      "trades": 72,
+      "ann_trades": 53.5,
+      "net_pips": 32.9,
+      "win_rate": 36.1,
+      "profit_factor": 1.05
+    }
+  ],
+  "champions": []
+}

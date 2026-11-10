@@ -1,0 +1,440 @@
+{
+  "0.03_lots": {
+    "losing_stats": {
+      "total_calendar_days": 1498,
+      "total_active_trading_days": 1493,
+      "winning_days_count": 959,
+      "winning_days_pct_active": 64.2,
+      "losing_days_count": 534,
+      "losing_days_pct_active": 35.8,
+      "losing_days_pct_calendar": 35.6,
+      "flat_days_count": 5,
+      "avg_win_day_usd": 40.95,
+      "avg_loss_day_usd": -25.64,
+      "win_loss_day_ratio": 1.6,
+      "median_win_day_usd": 31.01,
+      "median_loss_day_usd": -18.87,
+      "best_day_usd": 244.83,
+      "worst_day_usd": -123.11,
+      "max_consecutive_losing_days": 8,
+      "avg_consecutive_losing_days": 1.6,
+      "max_consecutive_winning_days": 22,
+      "loss_buckets": {
+        "< $20": 276,
+        "$20 - $50": 188,
+        "$50 - $100": 66,
+        ">= $100": 4
+      },
+      "top_5_worst_days": [
+        {
+          "date": "2024-11-19",
+          "pnl": -123.10860000000062,
+          "equity": 24099.600499999782,
+          "dd_pct": 0.5415293974295557
+        },
+        {
+          "date": "2024-08-06",
+          "pnl": -122.25870000000035,
+          "equity": 23731.680499999835,
+          "dd_pct": 0.7784962449201797
+        },
+        {
+          "date": "2024-02-08",
+          "pnl": -117.32580000000223,
+          "equity": 22426.417399999853,
+          "dd_pct": 0.520436198013483
+        },
+        {
+          "date": "2025-11-28",
+          "pnl": -109.93019999999854,
+          "equity": 27029.02819999977,
+          "dd_pct": 0.40506418256641646
+        },
+        {
+          "date": "2021-10-21",
+          "pnl": -96.74760000000072,
+          "equity": 10177.714099999941,
+          "dd_pct": 0.9416318131781167
+        }
+      ]
+    },
+    "underwater_stats": {
+      "total_drawdown_episodes": 224,
+      "total_days_underwater": 837,
+      "pct_time_underwater": 55.9,
+      "pct_time_at_all_time_high": 44.1,
+      "max_underwater_calendar_days": 83,
+      "max_underwater_trading_days": 59,
+      "avg_underwater_calendar_days": 6.5,
+      "median_underwater_calendar_days": 4.0,
+      "avg_underwater_trading_days": 4.7,
+      "longest_episode": {
+        "peak_date": "2022-10-21",
+        "peak_equity": 16144.87,
+        "trough_date": "2022-12-20",
+        "trough_equity": 15874.07,
+        "recovery_date": "2023-01-12",
+        "calendar_days": 83,
+        "trading_days": 59,
+        "dd_dollars": 270.8,
+        "dd_pct": 1.68,
+        "recovered": true
+      },
+      "deepest_episode": {
+        "peak_date": "2024-11-12",
+        "peak_equity": 24230.82,
+        "trough_date": "2024-12-12",
+        "trough_equity": 23958.66,
+        "recovery_date": "2024-12-20",
+        "calendar_days": 38,
+        "trading_days": 28,
+        "dd_dollars": 272.16,
+        "dd_pct": 1.12,
+        "recovered": true
+      },
+      "top_5_longest_underwater_periods": [
+        {
+          "peak_date": "2022-10-21",
+          "peak_equity": 16144.87,
+          "trough_date": "2022-12-20",
+          "trough_equity": 15874.07,
+          "recovery_date": "2023-01-12",
+          "calendar_days": 83,
+          "trading_days": 59,
+          "dd_dollars": 270.8,
+          "dd_pct": 1.68,
+          "recovered": true
+        },
+        {
+          "peak_date": "2024-11-12",
+          "peak_equity": 24230.82,
+          "trough_date": "2024-12-12",
+          "trough_equity": 23958.66,
+          "recovery_date": "2024-12-20",
+          "calendar_days": 38,
+          "trading_days": 28,
+          "dd_dollars": 272.16,
+          "dd_pct": 1.12,
+          "recovered": true
+        },
+        {
+          "peak_date": "2026-06-17",
+          "peak_equity": 29840.07,
+          "trough_date": "2026-07-02",
+          "trough_equity": 29673.75,
+          "recovery_date": "2026-07-22",
+          "calendar_days": 35,
+          "trading_days": 25,
+          "dd_dollars": 166.33,
+          "dd_pct": 0.56,
+          "recovered": true
+        },
+        {
+          "peak_date": "2024-07-29",
+          "peak_equity": 23917.88,
+          "trough_date": "2024-08-07",
+          "trough_equity": 23652.91,
+          "recovery_date": "2024-08-30",
+          "calendar_days": 32,
+          "trading_days": 24,
+          "dd_dollars": 264.97,
+          "dd_pct": 1.11,
+          "recovered": true
+        },
+        {
+          "peak_date": "2024-02-07",
+          "peak_equity": 22543.74,
+          "trough_date": "2024-02-15",
+          "trough_equity": 22340.63,
+          "recovery_date": "2024-03-08",
+          "calendar_days": 30,
+          "trading_days": 22,
+          "dd_dollars": 203.11,
+          "dd_pct": 0.9,
+          "recovered": true
+        }
+      ],
+      "top_5_deepest_underwater_periods": [
+        {
+          "peak_date": "2024-11-12",
+          "peak_equity": 24230.82,
+          "trough_date": "2024-12-12",
+          "trough_equity": 23958.66,
+          "recovery_date": "2024-12-20",
+          "calendar_days": 38,
+          "trading_days": 28,
+          "dd_dollars": 272.16,
+          "dd_pct": 1.12,
+          "recovered": true
+        },
+        {
+          "peak_date": "2022-10-21",
+          "peak_equity": 16144.87,
+          "trough_date": "2022-12-20",
+          "trough_equity": 15874.07,
+          "recovery_date": "2023-01-12",
+          "calendar_days": 83,
+          "trading_days": 59,
+          "dd_dollars": 270.8,
+          "dd_pct": 1.68,
+          "recovered": true
+        },
+        {
+          "peak_date": "2024-07-29",
+          "peak_equity": 23917.88,
+          "trough_date": "2024-08-07",
+          "trough_equity": 23652.91,
+          "recovery_date": "2024-08-30",
+          "calendar_days": 32,
+          "trading_days": 24,
+          "dd_dollars": 264.97,
+          "dd_pct": 1.11,
+          "recovered": true
+        },
+        {
+          "peak_date": "2024-10-04",
+          "peak_equity": 24167.96,
+          "trough_date": "2024-10-22",
+          "trough_equity": 23911.34,
+          "recovery_date": "2024-11-01",
+          "calendar_days": 28,
+          "trading_days": 20,
+          "dd_dollars": 256.62,
+          "dd_pct": 1.06,
+          "recovered": true
+        },
+        {
+          "peak_date": "2025-07-02",
+          "peak_equity": 25885.74,
+          "trough_date": "2025-07-10",
+          "trough_equity": 25657.79,
+          "recovery_date": "2025-07-30",
+          "calendar_days": 28,
+          "trading_days": 20,
+          "dd_dollars": 227.95,
+          "dd_pct": 0.88,
+          "recovered": true
+        }
+      ]
+    }
+  },
+  "0.04_lots": {
+    "losing_stats": {
+      "total_calendar_days": 1498,
+      "total_active_trading_days": 1493,
+      "winning_days_count": 959,
+      "winning_days_pct_active": 64.2,
+      "losing_days_count": 534,
+      "losing_days_pct_active": 35.8,
+      "losing_days_pct_calendar": 35.6,
+      "flat_days_count": 5,
+      "avg_win_day_usd": 54.6,
+      "avg_loss_day_usd": -34.18,
+      "win_loss_day_ratio": 1.6,
+      "median_win_day_usd": 41.35,
+      "median_loss_day_usd": -25.16,
+      "best_day_usd": 326.44,
+      "worst_day_usd": -164.14,
+      "max_consecutive_losing_days": 8,
+      "avg_consecutive_losing_days": 1.6,
+      "max_consecutive_winning_days": 22,
+      "loss_buckets": {
+        "< $20": 221,
+        "$20 - $50": 182,
+        "$50 - $100": 108,
+        ">= $100": 23
+      },
+      "top_5_worst_days": [
+        {
+          "date": "2024-11-19",
+          "pnl": -164.14480000000083,
+          "equity": 30466.133999999653,
+          "dd_pct": 0.5709849094794079
+        },
+        {
+          "date": "2024-08-06",
+          "pnl": -163.0116000000005,
+          "equity": 29975.573999999724,
+          "dd_pct": 0.8214257245747179
+        },
+        {
+          "date": "2024-02-08",
+          "pnl": -156.43440000000297,
+          "equity": 28235.223199999786,
+          "dd_pct": 0.5509872026633735
+        },
+        {
+          "date": "2025-11-28",
+          "pnl": -146.57359999999807,
+          "equity": 34372.03759999956,
+          "dd_pct": 0.4246219500279257
+        },
+        {
+          "date": "2021-10-21",
+          "pnl": -128.99680000000092,
+          "equity": 11903.61879999992,
+          "dd_pct": 1.072059511316905
+        }
+      ]
+    },
+    "underwater_stats": {
+      "total_drawdown_episodes": 224,
+      "total_days_underwater": 837,
+      "pct_time_underwater": 55.9,
+      "pct_time_at_all_time_high": 44.1,
+      "max_underwater_calendar_days": 83,
+      "max_underwater_trading_days": 59,
+      "avg_underwater_calendar_days": 6.5,
+      "median_underwater_calendar_days": 4.0,
+      "avg_underwater_trading_days": 4.7,
+      "longest_episode": {
+        "peak_date": "2022-10-21",
+        "peak_equity": 19859.82,
+        "trough_date": "2022-12-20",
+        "trough_equity": 19498.76,
+        "recovery_date": "2023-01-12",
+        "calendar_days": 83,
+        "trading_days": 59,
+        "dd_dollars": 361.06,
+        "dd_pct": 1.82,
+        "recovered": true
+      },
+      "deepest_episode": {
+        "peak_date": "2024-11-12",
+        "peak_equity": 30641.09,
+        "trough_date": "2024-12-12",
+        "trough_equity": 30278.21,
+        "recovery_date": "2024-12-20",
+        "calendar_days": 38,
+        "trading_days": 28,
+        "dd_dollars": 362.88,
+        "dd_pct": 1.18,
+        "recovered": true
+      },
+      "top_5_longest_underwater_periods": [
+        {
+          "peak_date": "2022-10-21",
+          "peak_equity": 19859.82,
+          "trough_date": "2022-12-20",
+          "trough_equity": 19498.76,
+          "recovery_date": "2023-01-12",
+          "calendar_days": 83,
+          "trading_days": 59,
+          "dd_dollars": 361.06,
+          "dd_pct": 1.82,
+          "recovered": true
+        },
+        {
+          "peak_date": "2024-11-12",
+          "peak_equity": 30641.09,
+          "trough_date": "2024-12-12",
+          "trough_equity": 30278.21,
+          "recovery_date": "2024-12-20",
+          "calendar_days": 38,
+          "trading_days": 28,
+          "dd_dollars": 362.88,
+          "dd_pct": 1.18,
+          "recovered": true
+        },
+        {
+          "peak_date": "2026-06-17",
+          "peak_equity": 38120.1,
+          "trough_date": "2026-07-02",
+          "trough_equity": 37898.33,
+          "recovery_date": "2026-07-22",
+          "calendar_days": 35,
+          "trading_days": 25,
+          "dd_dollars": 221.77,
+          "dd_pct": 0.58,
+          "recovered": true
+        },
+        {
+          "peak_date": "2024-07-29",
+          "peak_equity": 30223.84,
+          "trough_date": "2024-08-07",
+          "trough_equity": 29870.54,
+          "recovery_date": "2024-08-30",
+          "calendar_days": 32,
+          "trading_days": 24,
+          "dd_dollars": 353.3,
+          "dd_pct": 1.17,
+          "recovered": true
+        },
+        {
+          "peak_date": "2024-02-07",
+          "peak_equity": 28391.66,
+          "trough_date": "2024-02-15",
+          "trough_equity": 28120.85,
+          "recovery_date": "2024-03-08",
+          "calendar_days": 30,
+          "trading_days": 22,
+          "dd_dollars": 270.81,
+          "dd_pct": 0.95,
+          "recovered": true
+        }
+      ],
+      "top_5_deepest_underwater_periods": [
+        {
+          "peak_date": "2024-11-12",
+          "peak_equity": 30641.09,
+          "trough_date": "2024-12-12",
+          "trough_equity": 30278.21,
+          "recovery_date": "2024-12-20",
+          "calendar_days": 38,
+          "trading_days": 28,
+          "dd_dollars": 362.88,
+          "dd_pct": 1.18,
+          "recovered": true
+        },
+        {
+          "peak_date": "2022-10-21",
+          "peak_equity": 19859.82,
+          "trough_date": "2022-12-20",
+          "trough_equity": 19498.76,
+          "recovery_date": "2023-01-12",
+          "calendar_days": 83,
+          "trading_days": 59,
+          "dd_dollars": 361.06,
+          "dd_pct": 1.82,
+          "recovered": true
+        },
+        {
+          "peak_date": "2024-07-29",
+          "peak_equity": 30223.84,
+          "trough_date": "2024-08-07",
+          "trough_equity": 29870.54,
+          "recovery_date": "2024-08-30",
+          "calendar_days": 32,
+          "trading_days": 24,
+          "dd_dollars": 353.3,
+          "dd_pct": 1.17,
+          "recovered": true
+        },
+        {
+          "peak_date": "2024-10-04",
+          "peak_equity": 30557.28,
+          "trough_date": "2024-10-22",
+          "trough_equity": 30215.12,
+          "recovery_date": "2024-11-01",
+          "calendar_days": 28,
+          "trading_days": 20,
+          "dd_dollars": 342.16,
+          "dd_pct": 1.12,
+          "recovered": true
+        },
+        {
+          "peak_date": "2025-07-02",
+          "peak_equity": 32847.65,
+          "trough_date": "2025-07-10",
+          "trough_equity": 32543.72,
+          "recovery_date": "2025-07-30",
+          "calendar_days": 28,
+          "trading_days": 20,
+          "dd_dollars": 303.93,
+          "dd_pct": 0.93,
+          "recovered": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,632 @@
+[
+  {
+    "index": 1,
+    "name": "100+ Followers Asked for This",
+    "scanner_file": "eurusd_100_followers_asked_for_t_scanner.py",
+    "file_exists": false,
+    "sl": "Stop-Loss: rejection candle ke lowest wick ke neeche",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  },
+  {
+    "index": 2,
+    "name": "21 Saal Mein $1M \u2014 Trading Geek Strategy",
+    "scanner_file": "eurusd_21_saal_mein_1m_trading_g_scanner.py",
+    "file_exists": false,
+    "sl": "Breakeven: TP1 hit hote hi SL entry pe le aao",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  },
+  {
+    "index": 3,
+    "name": "Tata Motors Chhodi, Trader Bane \u2014 Milind Upasani Strategy",
+    "scanner_file": "eurusd_tata_motors_chhodi_trader_scanner.py",
+    "file_exists": false,
+    "sl": "Stop-Loss: Pullback dip ke swing low ke thoda neeche",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  },
+  {
+    "index": 4,
+    "name": "\"Most Subscribed Forex Trader's Strategy \u2014 Full",
+    "scanner_file": "eurusd_most_subscribed_forex_tra_scanner.py",
+    "file_exists": false,
+    "sl": "Stop-Loss: Double Bottom ke lowest low ke thoda neeche",
+    "tp": "Target: Pichla HTF swing high (avg RR 2:1 se 2.4:1)",
+    "rr": "1:2"
+  },
+  {
+    "index": 5,
+    "name": "Stop Being Manipulated \u2014 Trade the Trap With This Algo Setup",
+    "scanner_file": "eurusd_stop_being_manipulated_tr_scanner.py",
+    "file_exists": false,
+    "sl": "Stop-Loss: IFVG ke thoda neeche",
+    "tp": "Target: Fixed 1:2 Risk Reward",
+    "rr": "1:2"
+  },
+  {
+    "index": 6,
+    "name": "Renko Chart Strategy",
+    "scanner_file": "eurusd_renko_chart_strategy_scanner.py",
+    "file_exists": false,
+    "sl": "First Target: 3 bricks upar -- target hit hote hi SL breakeven pe le aao",
+    "tp": "First Target: 3 bricks upar -- target hit hote hi SL breakeven pe le aao",
+    "rr": "1:2"
+  },
+  {
+    "index": 7,
+    "name": "Motilal Oswal Expert's Options Strategy \u2014 Full",
+    "scanner_file": "eurusd_motilal_oswal_expert_s_op_scanner.py",
+    "file_exists": false,
+    "sl": "1:1 profit aate hi Stop-Loss breakeven pe le aao",
+    "tp": "Target: Fixed 1:1.5 se 1:2 Risk Reward",
+    "rr": "1:1.5"
+  },
+  {
+    "index": 8,
+    "name": "ICT Breaker Block",
+    "scanner_file": "eurusd_ict_breaker_block_scanner.py",
+    "file_exists": false,
+    "sl": "Stop-Loss: Breaker Block zone ke thoda upar",
+    "tp": "Target: Fixed 1:2 Risk Reward (koi partial exits nahi, koi trailing nahi)",
+    "rr": "1:2"
+  },
+  {
+    "index": 9,
+    "name": "833 EMA Strategy",
+    "scanner_file": "eurusd_833_ema_strategy_scanner.py",
+    "file_exists": false,
+    "sl": "Stop-Loss: Recent swing low ke thoda neeche",
+    "tp": "Target: Agle major resistance zone tak",
+    "rr": "1:2"
+  },
+  {
+    "index": 10,
+    "name": "William Fractal Scalping",
+    "scanner_file": "eurusd_william_fractal_scalping_scanner.py",
+    "file_exists": false,
+    "sl": "Stop-Loss: Breakout ke baad jo highest wick bani uske thoda upar",
+    "tp": "Target: Fixed 1:2 Risk Reward",
+    "rr": "1:2"
+  },
+  {
+    "index": 11,
+    "name": "Kushal Varshney Algo Setup \u2014 Independence Day Lifetime Offer",
+    "scanner_file": "eurusd_kushal_varshney_algo_setu_scanner.py",
+    "file_exists": false,
+    "sl": "\u0907\u0938\u0940\u0932\u093f\u090f \u0906\u091c \u092e\u0948\u0902 \u0907\u0902\u0921\u093f\u092a\u0947\u0902\u0921\u0947\u0902\u0938 \u0921\u0947 \u092e\u0947\u0902 \u0938\u093f\u0930\u094d\u092b \u0905\u092a\u0928\u0947 \u092b\u0949\u0932\u094b\u0905\u0930\u094d\u0938 \u0915\u094b \u0935\u0928 \u0911\u095e \u0926 \u092e\u094b\u0938\u094d\u091f \u0921\u093f\u092e\u093e\u0902\u0921\u0947\u0921 \u090f\u0932\u094d\u0917\u094b \u0938\u0947\u091f\u0905\u092a\u094d\u0938 \u0926\u0947 \u0930\u0939\u093e \u0939\u0942\u0902 \u091c\u094b \u0915\u0941\u0936\u0932 \u0935\u093e\u0936\u093f\u0928\u0940 \u091c\u0940 \u0915\u093e \u0939\u0948 \u091c\u093f\u0938\u092e\u0947\u0902 \u0938\u092c\u0938\u0947 \u091b\u094b\u091f\u0947 \u0938\u094d\u091f\u0949\u092a \u0932\u0949\u0938 \u0914\u0930 \u0938\u092c\u0938\u0947 \u092c\u0921\u093c\u0947 \u091f\u093e\u0930\u0917\u0947\u091f \u0926\u0947\u0928\u0947 \u0915\u0940 \u0915\u094d\u0937\u092e\u0924\u093e \u0939\u0948 \u0914\u0930 \u0907\u0938\u0915\u093e \u0930\u093f\u092f\u0932 \u0915\u0949\u0938\u094d\u091f \u0939\u0930 \u0915\u094b\u0908 \u092c\u093f\u092f\u0930 \u0928\u0939\u0940\u0902 \u0915\u0930 \u0938\u0915\u0924\u093e \u0915\u094d\u092f\u094b\u0902\u0915\u093f \u092f\u0947 \u0915\u093e\u092b\u0940 \u0921\u093f\u092e\u093e\u0902\u0921\u093f\u0902\u0917 \u0939\u0948 \u0932\u0947\u0915\u093f\u0928 \u092e\u0948\u0902 \u0907\u0938\u0915\u093e \u090f\u0915\u094d\u0938\u0947\u0938 \u0905\u092a\u0928\u0947 \u092b\u0949\u0932\u094b\u0935\u0930\u0930\u094d\u0938 \u0915\u094b \u0932\u093e\u0907\u092b \u091f\u093e\u0907\u092e \u0915\u0947 \u0932\u093f\u090f \u0926\u0947 \u0930\u0939\u093e \u0939\u0942\u0902",
+    "tp": "\u0907\u0938\u0940\u0932\u093f\u090f \u0906\u091c \u092e\u0948\u0902 \u0907\u0902\u0921\u093f\u092a\u0947\u0902\u0921\u0947\u0902\u0938 \u0921\u0947 \u092e\u0947\u0902 \u0938\u093f\u0930\u094d\u092b \u0905\u092a\u0928\u0947 \u092b\u0949\u0932\u094b\u0905\u0930\u094d\u0938 \u0915\u094b \u0935\u0928 \u0911\u095e \u0926 \u092e\u094b\u0938\u094d\u091f \u0921\u093f\u092e\u093e\u0902\u0921\u0947\u0921 \u090f\u0932\u094d\u0917\u094b \u0938\u0947\u091f\u0905\u092a\u094d\u0938 \u0926\u0947 \u0930\u0939\u093e \u0939\u0942\u0902 \u091c\u094b \u0915\u0941\u0936\u0932 \u0935\u093e\u0936\u093f\u0928\u0940 \u091c\u0940 \u0915\u093e \u0939\u0948 \u091c\u093f\u0938\u092e\u0947\u0902 \u0938\u092c\u0938\u0947 \u091b\u094b\u091f\u0947 \u0938\u094d\u091f\u0949\u092a \u0932\u0949\u0938 \u0914\u0930 \u0938\u092c\u0938\u0947 \u092c\u0921\u093c\u0947 \u091f\u093e\u0930\u0917\u0947\u091f \u0926\u0947\u0928\u0947 \u0915\u0940 \u0915\u094d\u0937\u092e\u0924\u093e \u0939\u0948 \u0914\u0930 \u0907\u0938\u0915\u093e \u0930\u093f\u092f\u0932 \u0915\u0949\u0938\u094d\u091f \u0939\u0930 \u0915\u094b\u0908 \u092c\u093f\u092f\u0930 \u0928\u0939\u0940\u0902 \u0915\u0930 \u0938\u0915\u0924\u093e \u0915\u094d\u092f\u094b\u0902\u0915\u093f \u092f\u0947 \u0915\u093e\u092b\u0940 \u0921\u093f\u092e\u093e\u0902\u0921\u093f\u0902\u0917 \u0939\u0948 \u0932\u0947\u0915\u093f\u0928 \u092e\u0948\u0902 \u0907\u0938\u0915\u093e \u090f\u0915\u094d\u0938\u0947\u0938 \u0905\u092a\u0928\u0947 \u092b\u0949\u0932\u094b\u0935\u0930\u0930\u094d\u0938 \u0915\u094b \u0932\u093e\u0907\u092b \u091f\u093e\u0907\u092e \u0915\u0947 \u0932\u093f\u090f \u0926\u0947 \u0930\u0939\u093e \u0939\u0942\u0902",
+    "rr": "1:2"
+  },
+  {
+    "index": 12,
+    "name": "Stock Burner's 1:33 RR Claim",
+    "scanner_file": "eurusd_stock_burner_s_1_33_rr_cl_scanner.py",
+    "file_exists": false,
+    "sl": "Target fixed nahi. Jab tak trend chale, SL trail karte jao har naye swing low ke neeche",
+    "tp": "Target fixed nahi. Jab tak trend chale, SL trail karte jao har naye swing low ke neeche",
+    "rr": "1:2"
+  },
+  {
+    "index": 13,
+    "name": "74% Return in 1 Year \u2014 Vishal Malkan Options Strategy",
+    "scanner_file": "eurusd_74_return_in_1_year_visha_scanner.py",
+    "file_exists": false,
+    "sl": "Har target pe partial booking karo aur SL trail karo",
+    "tp": "Har target pe partial booking karo aur SL trail karo",
+    "rr": "1:2"
+  },
+  {
+    "index": 14,
+    "name": "Why Traders Lose on Supply Demand \u2014 SLC Strategy",
+    "scanner_file": "eurusd_why_traders_lose_on_suppl_scanner.py",
+    "file_exists": false,
+    "sl": "Stop-Loss: Demand Zone ke thoda neeche",
+    "tp": "Target: 1:2 Risk Reward fixed",
+    "rr": "1:2"
+  },
+  {
+    "index": 15,
+    "name": "Lakhon Kamaane Wali Strategy \u2014 1 Year",
+    "scanner_file": "eurusd_lakhon_kamaane_wali_strat_scanner.py",
+    "file_exists": false,
+    "sl": "SL: pullback ka swing low",
+    "tp": "Target: 1:2 RR fixed",
+    "rr": "1:2"
+  },
+  {
+    "index": 16,
+    "name": "0 Stop Losses in 3 Months? I",
+    "scanner_file": "eurusd_0_stop_losses_in_3_months_scanner.py",
+    "file_exists": false,
+    "sl": "SL: jab spot price sold strike pe aaye -- immediately exit",
+    "tp": "Target: 90% maximum profit ke paas pahunchne pe exit",
+    "rr": "1:2"
+  },
+  {
+    "index": 17,
+    "name": "Copy Kiya Mera Content \u2014 Algowithwahid Exposed",
+    "scanner_file": "eurusd_copy_kiya_mera_content_al_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  },
+  {
+    "index": 18,
+    "name": "ICT Order Block Strategy Backtested \u2014 74% Return in 1 Year",
+    "scanner_file": "eurusd_ict_order_block_strategy__scanner.py",
+    "file_exists": false,
+    "sl": "Stop-Loss: Daily OB midpoint se thoda neeche",
+    "tp": "Target: Daily chart ka major liquidity level",
+    "rr": "1:2"
+  },
+  {
+    "index": 19,
+    "name": "400-1200% Return Claim? I",
+    "scanner_file": "eurusd_400_1200_return_claim_i_scanner.py",
+    "file_exists": false,
+    "sl": "Entry: 6:00 AM IST. Exit: 7-8 PM IST same day. No fixed SL.",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  },
+  {
+    "index": 20,
+    "name": "I",
+    "scanner_file": "eurusd_i_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "dono Fibonacci ke extreme levels pe -- fixed RR approximately 2",
+    "rr": "1:2"
+  },
+  {
+    "index": 21,
+    "name": "First-Ever ETF Strategy",
+    "scanner_file": "eurusd_first_ever_etf_strategy_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "ya stop-loss nahi \u2014 RSI hi exit signal hai",
+    "rr": "1:2"
+  },
+  {
+    "index": 22,
+    "name": "80% Win Rate Claim of Sandwich pattern Strategy? I Backtested This Paid Strategy",
+    "scanner_file": "eurusd_80_win_rate_claim_of_sand_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "\u2705 Sell trade setup -- bilkul mirror logic",
+    "rr": "1:2"
+  },
+  {
+    "index": 23,
+    "name": "$2 Lakh in 3 Months? I",
+    "scanner_file": "eurusd_2_lakh_in_3_months_i_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "placement \u2014 sweep low se neeche, target PDH/PDL",
+    "rr": "1:2"
+  },
+  {
+    "index": 24,
+    "name": "I",
+    "scanner_file": "eurusd_i_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  },
+  {
+    "index": 25,
+    "name": "93% Win Rate in 15 Minutes?",
+    "scanner_file": "eurusd_93_win_rate_in_15_minutes_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  },
+  {
+    "index": 26,
+    "name": "London Session Ka Yeh Setup \u2014 Prop Trader Ka Secret?",
+    "scanner_file": "eurusd_london_session_ka_yeh_set_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  },
+  {
+    "index": 27,
+    "name": "Booming Bulls (Anish Thakur) SECRET Gold FRVP Strategy",
+    "scanner_file": "eurusd_booming_bulls_anish_thaku_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "ke rules",
+    "rr": "1:2"
+  },
+  {
+    "index": 28,
+    "name": "ICT Sniper Entry Trading Strategy \u2014 64% Win Rate, Only 12% Drawdown (",
+    "scanner_file": "eurusd_ict_sniper_entry_trading__scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "ki strategy maine ek PDF mein diagram ke saath samjhayi hai",
+    "rr": "1:2"
+  },
+  {
+    "index": 29,
+    "name": "This RSI trading strategy gave 60% win rate in Algo-backtest.",
+    "scanner_file": "eurusd_this_rsi_trading_strategy_scanner.py",
+    "file_exists": false,
+    "sl": "\u0938\u094d\u091f\u0949\u092a \u0932\u0949\u0938 \u0909\u0938 \u092a\u0941\u0932\u092c\u0948\u0915 \u0915\u0947 \u0932\u094b \u0915\u0947 \u0928\u0940\u091a\u0947  \u091f\u093e\u0930\u0917\u0947\u091f \u092a\u093f\u091b\u0932\u093e \u0938\u094d\u0935\u093f\u0902\u0917 \u0939\u093e\u0908",
+    "tp": "\u0938\u094d\u091f\u0949\u092a \u0932\u0949\u0938 \u0909\u0938 \u092a\u0941\u0932\u092c\u0948\u0915 \u0915\u0947 \u0932\u094b \u0915\u0947 \u0928\u0940\u091a\u0947  \u091f\u093e\u0930\u0917\u0947\u091f \u092a\u093f\u091b\u0932\u093e \u0938\u094d\u0935\u093f\u0902\u0917 \u0939\u093e\u0908",
+    "rr": "1:2"
+  },
+  {
+    "index": 30,
+    "name": "40% Win Rate, Still Very Good Return? Supertrend Swing Strategy Backtest \ud83e\udd2f",
+    "scanner_file": "eurusd_40_win_rate_still_very_go_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  },
+  {
+    "index": 31,
+    "name": "VWAP Pullback Strategy Nifty 50 | 1 Year Backtest = 54% Win Rate \ud83c\udfaf",
+    "scanner_file": "eurusd_vwap_pullback_strategy_ni_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  },
+  {
+    "index": 32,
+    "name": "This EMA Strategy Got 50%+ Return in Backtest",
+    "scanner_file": "eurusd_this_ema_strategy_got_50__scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "1:2 se 1:3 ke R-multiple pe rakha gaya hai",
+    "rr": "1:2"
+  },
+  {
+    "index": 33,
+    "name": "This FVG Strategy Works on Stocks, Forex, Crypto, Futures \u2014 I Backtested it using Algo.",
+    "scanner_file": "eurusd_this_fvg_strategy_works_o_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "fixed 1:2 risk reward",
+    "rr": "1:2"
+  },
+  {
+    "index": 34,
+    "name": "No Indicators, Just ONE Candle \u2014 Nifty Scalping Strategy Algo-Backtested",
+    "scanner_file": "eurusd_no_indicators_just_one_ca_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "fixed 1:2 risk reward",
+    "rr": "1:2"
+  },
+  {
+    "index": 35,
+    "name": "1:20 Minimum RR? I Put TG Capital's ICT Strategy Through the",
+    "scanner_file": "eurusd_1_20_minimum_rr_i_put_tg__scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "fixed nahi \u2014 jab tak daily chart pe 4 stacked EMAs (5, 9, 13, 21) intact rahein tab tak trade chalti rahe",
+    "rr": "1:2"
+  },
+  {
+    "index": 36,
+    "name": "The Strategy Behind a $2.5M World Record Prop Firm Payout \u2014 Algo Tested",
+    "scanner_file": "eurusd_the_strategy_behind_a_2_5_scanner.py",
+    "file_exists": false,
+    "sl": "es trigger kiye aur ab market reverse ho raha hai",
+    "tp": "nearest unvisited swing high pe",
+    "rr": "1:2"
+  },
+  {
+    "index": 37,
+    "name": "Algo Trading Explained in the Funniest Way Possible \ud83d\ude02 | Tukkaram Ep 1",
+    "scanner_file": "eurusd_algo_trading_explained_in_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  },
+  {
+    "index": 38,
+    "name": "$5M Trader's 2026 Strategy \u2014 ORB + FVG",
+    "scanner_file": "eurusd_5m_trader_s_2026_strategy_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": ": 2R agar stoploss tight (FVG pullback), 1",
+    "rr": "1:2"
+  },
+  {
+    "index": 39,
+    "name": "The Trading Geek Price Action Strategy",
+    "scanner_file": "eurusd_the_trading_geek_price_ac_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "next resistance level pe",
+    "rr": "1:2"
+  },
+  {
+    "index": 40,
+    "name": "This 10 EMA Strategy Claims 1:10 Risk Reward \u2014 I Backtested It",
+    "scanner_file": "eurusd_this_10_ema_strategy_clai_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "nahi hota \u2014 Anant Ladha ke mutabik isse 1:4, 1:5, aur kabhi kabhi 1:10 tak ka risk reward bhi mil sakta hai",
+    "rr": "1:4"
+  },
+  {
+    "index": 41,
+    "name": "Umar Punjabi Gold Strategy Exposed! (1-Year Python",
+    "scanner_file": "eurusd_umar_punjabi_gold_strateg_scanner.py",
+    "file_exists": false,
+    "sl": "barriers beneath the prominent structural swing low anchors and projecting fixed asset execution take-profits at a clear 1:2 risk-to-reward ratio",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  },
+  {
+    "index": 42,
+    "name": "I Turned This Classical Fibonacci Strategy Into a High-Speed Algo Printing Machine! (Full Backtest)",
+    "scanner_file": "eurusd_i_turned_this_classical_f_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "s directly over the anchor swing low points",
+    "rr": "1:2"
+  },
+  {
+    "index": 43,
+    "name": "Testing India's Top Fintech Platforms: Part 1 (Hedged Titan Prime",
+    "scanner_file": "eurusd_testing_india_s_top_finte_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  },
+  {
+    "index": 44,
+    "name": "Gomathi Shankar CPR Strategy Exposed! (1-Year Python",
+    "scanner_file": "eurusd_gomathi_shankar_cpr_strat_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "karke short covering moves kaise triggers karte hain, humne is structural workflow ka python algorithm banaya hai aur broker API ke structural historical data setups par detailed validation tests run karke real equity curves aur actual drawdown data analyze kiya hai",
+    "rr": "1:2"
+  },
+  {
+    "index": 45,
+    "name": "62% Win Rate with This Multi-Timeframe MACD Setup! (",
+    "scanner_file": "eurusd_62_win_rate_with_this_mul_scanner.py",
+    "file_exists": false,
+    "sl": "strategies for building sustainable secondary sources of income from markets",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  },
+  {
+    "index": 46,
+    "name": "Stock Learners Liquidity Strategy Exposed! (Python",
+    "scanner_file": "eurusd_stock_learners_liquidity__scanner.py",
+    "file_exists": false,
+    "sl": "orders just over the breakout red candle's high point, clearing target 1 at the nearest immediate structural swing low for partial profit security, and tracking target 2 down to the next major macro swing low",
+    "tp": "1 at the nearest immediate structural swing low for partial profit security, and tracking target 2 down to the next major macro swing low",
+    "rr": "1:2"
+  },
+  {
+    "index": 47,
+    "name": "Neeraj Joshi SMC Liquidity Strategy Exposed! (Shocking 1-Year",
+    "scanner_file": "eurusd_neeraj_joshi_smc_liquidit_scanner.py",
+    "file_exists": false,
+    "sl": "orders right below the absolute sweep anchor low point and programming rolling profit targets at successive intermediate 5-Min and macro 1-Hour swing high targets",
+    "tp": "s at successive intermediate 5-Min and macro 1-Hour swing high targets",
+    "rr": "1:2"
+  },
+  {
+    "index": 48,
+    "name": "52% Return With Secret MTF Strategy! (Hold with Priyank Strategy",
+    "scanner_file": "eurusd_52_return_with_secret_mtf_scanner.py",
+    "file_exists": false,
+    "sl": "boundaries beneath the lowest wick of the fake breakout setup and trailing the maximum target expansion up to the macro previous week high level line",
+    "tp": "expansion up to the macro previous week high level line",
+    "rr": "1:2"
+  },
+  {
+    "index": 49,
+    "name": "44% Return With Low Drawdown! (SMC Breaker Block Strategy ka",
+    "scanner_file": "eurusd_44_return_with_low_drawdo_scanner.py",
+    "file_exists": false,
+    "sl": "limits below the pullback pivot floor, and aligning exit targets at the prominent 5-Minute chart swing high reference structure",
+    "tp": ": Entering a market buy position right at the breach of the internal pullback wave high limit, defining stop loss limits below the pullback pivot floor, and aligning exit targets at the prominent 5-Minute chart swing high reference structure",
+    "rr": "1:2"
+  },
+  {
+    "index": 50,
+    "name": "Topgtraders Fibonacci Strategy Exposed! (Python",
+    "scanner_file": "eurusd_topgtraders_fibonacci_str_scanner.py",
+    "file_exists": false,
+    "sl": "boundary directly at the 0",
+    "tp": "s ke kaam kar sakti hai? Is video mein humne unki wave based Fibonacci golden zone strategy ke adhure rules ko modification ke sath core formula me link kiya hai",
+    "rr": "1:2"
+  },
+  {
+    "index": 51,
+    "name": "Why 90% of Retail Traders Use Fibonacci Wrong! (Golden Phantom Zone",
+    "scanner_file": "eurusd_why_90_of_retail_traders__scanner.py",
+    "file_exists": false,
+    "sl": "limits right above the macro 0",
+    "tp": "s at a fixed 1:2 risk-reward distribution",
+    "rr": "1:2"
+  },
+  {
+    "index": 52,
+    "name": "Paisa Double in 1 Month Strategy? (King Research Academy Camarilla Pivot Strategy",
+    "scanner_file": "eurusd_paisa_double_in_1_month_s_scanner.py",
+    "file_exists": false,
+    "sl": "orders precisely at the opposite inner bounds (R3 for buy setups, S3 for sell setups) and projection targets at 1",
+    "tp": "s at 1",
+    "rr": "1:2"
+  },
+  {
+    "index": 53,
+    "name": "Testing the SMC Institutional Liquidity Hunting Strategy with Python Algo!",
+    "scanner_file": "eurusd_testing_the_smc_instituti_scanner.py",
+    "file_exists": false,
+    "sl": "hunting system ya technical indicator strategy ka statistics backed backtest review dekhna chahte hain? Comment section mein apni demand zaroor drop karein, main uspar custom algorithm code likhkar validation video zaroor lekar aunga",
+    "tp": "s at the recent macro swing levels",
+    "rr": "1:2"
+  },
+  {
+    "index": 54,
+    "name": "100-Year-Old Secret Trading Setup Revealed! (Gann Levels Strategy",
+    "scanner_file": "eurusd_100_year_old_secret_tradi_scanner.py",
+    "file_exists": false,
+    "sl": "above the setup candle high",
+    "tp": "s in futures and options trading systems",
+    "rr": "1:2"
+  },
+  {
+    "index": 55,
+    "name": "Anish Thakur Made $67,000 Profit! (Booming Bulls Strategy",
+    "scanner_file": "eurusd_anish_thakur_made_67_000__scanner.py",
+    "file_exists": false,
+    "sl": "structure below the order block low with a target focused directly at the macro 5-Minute swing high level",
+    "tp": "focused directly at the macro 5-Minute swing high level",
+    "rr": "1:2"
+  },
+  {
+    "index": 56,
+    "name": "Backtesting Singapore's No.1 Trader's Secret Setup with Python Algo!",
+    "scanner_file": "eurusd_backtesting_singapore_s_n_scanner.py",
+    "file_exists": false,
+    "sl": "below the candle low, and lock targets right before the previous resistance swing high",
+    "tp": "s right before the previous resistance swing high",
+    "rr": "1:2"
+  },
+  {
+    "index": 57,
+    "name": "Making $4000 Daily with Just 2 Indicators? (VWAP + 8 EMA Strategy",
+    "scanner_file": "eurusd_making_4000_daily_with_ju_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": ", hold the trend and exit instantly when any candle closes decisively below the 8 EMA",
+    "rr": "1:2"
+  },
+  {
+    "index": 58,
+    "name": "He Claimed 2100% Profit! (Trade With Pat SMC Strategy Algo-Backtest)",
+    "scanner_file": "eurusd_he_claimed_2100_profit_tr_scanner.py",
+    "file_exists": false,
+    "sl": "is safely placed outside the zone boundaries, and the target is locked at the recent swing high or low",
+    "tp": "is locked at the recent swing high or low",
+    "rr": "1:2"
+  },
+  {
+    "index": 59,
+    "name": "Big Institutions Can't Hide Anymore! (Volume Profile Trading Strategy Algo-Backtest)",
+    "scanner_file": "eurusd_big_institutions_can_t_hi_scanner.py",
+    "file_exists": false,
+    "sl": "is placed well below the Value Area Low, and target is set till the next session's Value Area Low to avoid heavy volume reversals",
+    "tp": "is set till the next session's Value Area Low to avoid heavy volume reversals",
+    "rr": "1:2"
+  },
+  {
+    "index": 60,
+    "name": "How Big Traders Make Crores Trading Gold! (SMC Imbalance Strategy",
+    "scanner_file": "eurusd_how_big_traders_make_cror_scanner.py",
+    "file_exists": false,
+    "sl": "placed slightly above the zone and profit target at the next major demand zone",
+    "tp": "at the next major demand zone",
+    "rr": "1:2"
+  },
+  {
+    "index": 61,
+    "name": "70% of the Time Market is Sideways! Earn Profit Everyday with This Algo Setup!",
+    "scanner_file": "eurusd_70_of_the_time_market_is__scanner.py",
+    "file_exists": false,
+    "sl": "outside the range",
+    "tp": "is set at the opposite boundary with a protective stop loss outside the range",
+    "rr": "1:2"
+  },
+  {
+    "index": 62,
+    "name": "This Single Indicator Made Him Crores! (Bill Williams Alligator Strategy Algo-Backtested)",
+    "scanner_file": "eurusd_this_single_indicator_mad_scanner.py",
+    "file_exists": false,
+    "sl": ", exit manually when any candle touches the green line",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  },
+  {
+    "index": 63,
+    "name": "I Algo-Backtested Bharat Jhunjhunwala\u2019s Most Popular RSI + Bollinger Band Strategy!",
+    "scanner_file": "eurusd_i_algo_backtested_bharat__scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  },
+  {
+    "index": 64,
+    "name": "Backtesting Mukul Choudhary\u2019s 1:4 Risk-Reward Trading Strategy! (Algo Results)",
+    "scanner_file": "eurusd_backtesting_mukul_choudha_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "at previous day's high/low",
+    "rr": "1:2"
+  },
+  {
+    "index": 65,
+    "name": "7 Saal Ka FnO Trader \u2014 Sirf 1-2 Ghante Mein Trade Setup | ORB Strategy Ka Real",
+    "scanner_file": "eurusd_7_saal_ka_fno_trader_sirf_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "rules",
+    "rr": "1:2"
+  },
+  {
+    "index": 66,
+    "name": "I Backtested a $10,000/Month Trading Strategy on Indian Stocks! (Shocking Results)",
+    "scanner_file": "eurusd_i_backtested_a_10_000_mon_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  },
+  {
+    "index": 67,
+    "name": "I Backtested an SMC Strategy with Python\u2026 Results Shocked Me",
+    "scanner_file": "eurusd_i_backtested_an_smc_strat_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  },
+  {
+    "index": 68,
+    "name": "75 Lakh per month Kamane Wali CPR Strategy Ka",
+    "scanner_file": "eurusd_75_lakh_per_month_kamane__scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": ": R1 ya Previous Day High \u2014 jo pehle aaye",
+    "rr": "1:2"
+  },
+  {
+    "index": 69,
+    "name": "Banks Aur Prop Firms Ke Traders Ka Trainer \u2014 Uski 50 EMA Strategy Ka",
+    "scanner_file": "eurusd_banks_aur_prop_firms_ke_t_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": ": Next resistance ya rejection level",
+    "rr": "1:2"
+  },
+  {
+    "index": 70,
+    "name": "LuxAlgo Ka Nadaraya Watson 100% Win Rate Claim \u2014Aaj Woh Raaz Bataunga Jo Youtube pe Koi Nahi Batata",
+    "scanner_file": "eurusd_luxalgo_ka_nadaraya_watso_scanner.py",
+    "file_exists": false,
+    "sl": "Below recent swing low / key structural support",
+    "tp": "1:2 Risk-to-Reward ratio",
+    "rr": "1:2"
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "EURUSD_LONDON_FIX_1530_THRUST": {
+    "trades": 133,
+    "win_rate": 29.3,
+    "pf": 0.79,
+    "net_pips": -175.4,
+    "max_dd": 231.3,
+    "ret_dd": -0.76,
+    "expectancy": -1.32
+  },
+  "EURUSD_DOUBLE_INSIDE_BAR_EXPLOSION": {
+    "trades": 52,
+    "win_rate": 23.1,
+    "pf": 0.59,
+    "net_pips": -142.9,
+    "max_dd": 147.6,
+    "ret_dd": -0.97,
+    "expectancy": -2.75
+  },
+  "EURUSD_KELTNER_2SD_EXTREME_ABSORPTION_FADE": {
+    "trades": 606,
+    "win_rate": 36.8,
+    "pf": 1.01,
+    "net_pips": 15.9,
+    "max_dd": 321.6,
+    "ret_dd": 0.05,
+    "expectancy": 0.03
+  },
+  "EURUSD_SESSION_OPEN_MIDPOINT_IMPULSE": {
+    "trades": 499,
+    "win_rate": 38.5,
+    "pf": 1.26,
+    "net_pips": 677.4,
+    "max_dd": 129.3,
+    "ret_dd": 5.24,
+    "expectancy": 1.36
+  },
+  "USDJPY_LONDON_FIX_1530_THRUST": {
+    "trades": 106,
+    "win_rate": 30.2,
+    "pf": 0.81,
+    "net_pips": -165.2,
+    "max_dd": 248.6,
+    "ret_dd": -0.66,
+    "expectancy": -1.56
+  },
+  "USDJPY_DOUBLE_INSIDE_BAR_EXPLOSION": {
+    "trades": 54,
+    "win_rate": 29.6,
+    "pf": 0.83,
+    "net_pips": -81.5,
+    "max_dd": 226.5,
+    "ret_dd": -0.36,
+    "expectancy": -1.51
+  },
+  "USDJPY_KELTNER_2SD_EXTREME_ABSORPTION_FADE": {
+    "trades": 680,
+    "win_rate": 35.7,
+    "pf": 0.9,
+    "net_pips": -537.9,
+    "max_dd": 698.3,
+    "ret_dd": -0.77,
+    "expectancy": -0.79
+  },
+  "USDJPY_SESSION_OPEN_MIDPOINT_IMPULSE": {
+    "trades": 498,
+    "win_rate": 35.7,
+    "pf": 1.11,
+    "net_pips": 427.8,
+    "max_dd": 414.1,
+    "ret_dd": 1.03,
+    "expectancy": 0.86
+  },
+  "EURGBP_LONDON_FIX_1530_THRUST": {
+    "trades": 57,
+    "win_rate": 21.1,
+    "pf": 0.43,
+    "net_pips": -207.4,
+    "max_dd": 207.4,
+    "ret_dd": -1.0,
+    "expectancy": -3.64
+  },
+  "EURGBP_DOUBLE_INSIDE_BAR_EXPLOSION": {
+    "trades": 27,
+    "win_rate": 25.9,
+    "pf": 0.47,
+    "net_pips": -99.3,
+    "max_dd": 127.4,
+    "ret_dd": -0.78,
+    "expectancy": -3.68
+  },
+  "EURGBP_KELTNER_2SD_EXTREME_ABSORPTION_FADE": {
+    "trades": 333,
+    "win_rate": 27.0,
+    "pf": 0.58,
+    "net_pips": -638.7,
+    "max_dd": 662.6,
+    "ret_dd": -0.96,
+    "expectancy": -1.92
+  },
+  "EURGBP_SESSION_OPEN_MIDPOINT_IMPULSE": {
+    "trades": 282,
+    "win_rate": 28.7,
+    "pf": 0.8,
+    "net_pips": -287.6,
+    "max_dd": 431.1,
+    "ret_dd": -0.67,
+    "expectancy": -1.02
+  }
+}

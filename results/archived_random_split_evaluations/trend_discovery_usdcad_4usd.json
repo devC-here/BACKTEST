@@ -1,0 +1,258 @@
+{
+  "symbol": "USDCAD",
+  "qualified_discovery": [
+    {
+      "name": "Donchian_P16_F20S50_SL14_TP28",
+      "cand": {
+        "archetype": "TREND_DONCHIAN_M15",
+        "symbol": "USDCAD",
+        "period": 16,
+        "ema_fast": 20,
+        "ema_slow": 50,
+        "sl": 14.0,
+        "tp": 28.0,
+        "name": "Donchian_P16_F20S50_SL14_TP28"
+      },
+      "trades": 198,
+      "ann_trades": 147.1,
+      "net_pips": 403.6,
+      "win_rate": 39.9,
+      "profit_factor": 1.23
+    },
+    {
+      "name": "Donchian_P16_F20S50_SL12_TP24",
+      "cand": {
+        "archetype": "TREND_DONCHIAN_M15",
+        "symbol": "USDCAD",
+        "period": 16,
+        "ema_fast": 20,
+        "ema_slow": 50,
+        "sl": 12.0,
+        "tp": 24.0,
+        "name": "Donchian_P16_F20S50_SL12_TP24"
+      },
+      "trades": 201,
+      "ann_trades": 149.3,
+      "net_pips": 362.2,
+      "win_rate": 40.3,
+      "profit_factor": 1.24
+    },
+    {
+      "name": "Donchian_P20_F20S50_SL16_TP32",
+      "cand": {
+        "archetype": "TREND_DONCHIAN_M15",
+        "symbol": "USDCAD",
+        "period": 20,
+        "ema_fast": 20,
+        "ema_slow": 50,
+        "sl": 16.0,
+        "tp": 32.0,
+        "name": "Donchian_P20_F20S50_SL16_TP32"
+      },
+      "trades": 192,
+      "ann_trades": 142.6,
+      "net_pips": 358.2,
+      "win_rate": 38.5,
+      "profit_factor": 1.18
+    },
+    {
+      "name": "Donchian_P16_F20S50_SL16_TP32",
+      "cand": {
+        "archetype": "TREND_DONCHIAN_M15",
+        "symbol": "USDCAD",
+        "period": 16,
+        "ema_fast": 20,
+        "ema_slow": 50,
+        "sl": 16.0,
+        "tp": 32.0,
+        "name": "Donchian_P16_F20S50_SL16_TP32"
+      },
+      "trades": 195,
+      "ann_trades": 144.9,
+      "net_pips": 350.2,
+      "win_rate": 38.5,
+      "profit_factor": 1.18
+    },
+    {
+      "name": "Donchian_P20_F20S50_SL12_TP24",
+      "cand": {
+        "archetype": "TREND_DONCHIAN_M15",
+        "symbol": "USDCAD",
+        "period": 20,
+        "ema_fast": 20,
+        "ema_slow": 50,
+        "sl": 12.0,
+        "tp": 24.0,
+        "name": "Donchian_P20_F20S50_SL12_TP24"
+      },
+      "trades": 197,
+      "ann_trades": 146.3,
+      "net_pips": 342.6,
+      "win_rate": 40.1,
+      "profit_factor": 1.23
+    },
+    {
+      "name": "Donchian_P20_F20S50_SL14_TP28",
+      "cand": {
+        "archetype": "TREND_DONCHIAN_M15",
+        "symbol": "USDCAD",
+        "period": 20,
+        "ema_fast": 20,
+        "ema_slow": 50,
+        "sl": 14.0,
+        "tp": 28.0,
+        "name": "Donchian_P20_F20S50_SL14_TP28"
+      },
+      "trades": 194,
+      "ann_trades": 144.1,
+      "net_pips": 338.8,
+      "win_rate": 39.2,
+      "profit_factor": 1.2
+    },
+    {
+      "name": "Donchian_P16_F12S36_SL12_TP24",
+      "cand": {
+        "archetype": "TREND_DONCHIAN_M15",
+        "symbol": "USDCAD",
+        "period": 16,
+        "ema_fast": 12,
+        "ema_slow": 36,
+        "sl": 12.0,
+        "tp": 24.0,
+        "name": "Donchian_P16_F12S36_SL12_TP24"
+      },
+      "trades": 212,
+      "ann_trades": 157.5,
+      "net_pips": 285.5,
+      "win_rate": 39.2,
+      "profit_factor": 1.17
+    },
+    {
+      "name": "Donchian_P20_F12S36_SL12_TP24",
+      "cand": {
+        "archetype": "TREND_DONCHIAN_M15",
+        "symbol": "USDCAD",
+        "period": 20,
+        "ema_fast": 12,
+        "ema_slow": 36,
+        "sl": 12.0,
+        "tp": 24.0,
+        "name": "Donchian_P20_F12S36_SL12_TP24"
+      },
+      "trades": 210,
+      "ann_trades": 156.0,
+      "net_pips": 280.1,
+      "win_rate": 39.0,
+      "profit_factor": 1.17
+    },
+    {
+      "name": "Donchian_P16_F12S36_SL14_TP28",
+      "cand": {
+        "archetype": "TREND_DONCHIAN_M15",
+        "symbol": "USDCAD",
+        "period": 16,
+        "ema_fast": 12,
+        "ema_slow": 36,
+        "sl": 14.0,
+        "tp": 28.0,
+        "name": "Donchian_P16_F12S36_SL14_TP28"
+      },
+      "trades": 208,
+      "ann_trades": 154.5,
+      "net_pips": 242.5,
+      "win_rate": 38.5,
+      "profit_factor": 1.13
+    },
+    {
+      "name": "Donchian_P20_F12S36_SL14_TP28",
+      "cand": {
+        "archetype": "TREND_DONCHIAN_M15",
+        "symbol": "USDCAD",
+        "period": 20,
+        "ema_fast": 12,
+        "ema_slow": 36,
+        "sl": 14.0,
+        "tp": 28.0,
+        "name": "Donchian_P20_F12S36_SL14_TP28"
+      },
+      "trades": 206,
+      "ann_trades": 153.0,
+      "net_pips": 192.6,
+      "win_rate": 37.9,
+      "profit_factor": 1.1
+    },
+    {
+      "name": "Breakout_D2.5_SL14_TP28_R12-50",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDCAD",
+        "delta": 2.5,
+        "sl": 14.0,
+        "tp": 28.0,
+        "min_rng": 12.0,
+        "max_rng": 50.0,
+        "name": "Breakout_D2.5_SL14_TP28_R12-50"
+      },
+      "trades": 168,
+      "ann_trades": 124.8,
+      "net_pips": 130.6,
+      "win_rate": 36.9,
+      "profit_factor": 1.08
+    },
+    {
+      "name": "Breakout_D2.5_SL14_TP28_R10-40",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDCAD",
+        "delta": 2.5,
+        "sl": 14.0,
+        "tp": 28.0,
+        "min_rng": 10.0,
+        "max_rng": 40.0,
+        "name": "Breakout_D2.5_SL14_TP28_R10-40"
+      },
+      "trades": 166,
+      "ann_trades": 123.3,
+      "net_pips": 117.4,
+      "win_rate": 36.7,
+      "profit_factor": 1.08
+    },
+    {
+      "name": "Donchian_P20_F12S36_SL16_TP32",
+      "cand": {
+        "archetype": "TREND_DONCHIAN_M15",
+        "symbol": "USDCAD",
+        "period": 20,
+        "ema_fast": 12,
+        "ema_slow": 36,
+        "sl": 16.0,
+        "tp": 32.0,
+        "name": "Donchian_P20_F12S36_SL16_TP32"
+      },
+      "trades": 203,
+      "ann_trades": 150.8,
+      "net_pips": 108.2,
+      "win_rate": 36.5,
+      "profit_factor": 1.05
+    },
+    {
+      "name": "Breakout_D4.0_SL12_TP24_R12-50",
+      "cand": {
+        "archetype": "TREND_BREAKOUT_SESSION",
+        "symbol": "USDCAD",
+        "delta": 4.0,
+        "sl": 12.0,
+        "tp": 24.0,
+        "min_rng": 12.0,
+        "max_rng": 50.0,
+        "name": "Breakout_D4.0_SL12_TP24_R12-50"
+      },
+      "trades": 161,
+      "ann_trades": 119.6,
+      "net_pips": 66.9,
+      "win_rate": 36.0,
+      "profit_factor": 1.05
+    }
+  ],
+  "champions": []
+}

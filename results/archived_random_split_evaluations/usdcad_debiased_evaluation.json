@@ -1,0 +1,128 @@
+{
+  "disc01_usdcad_macro_asymmetric_runner_elite": {
+    "in_sample": {
+      "trades": 7,
+      "pips": -31.9,
+      "win_rate": 14.3,
+      "r_mult": -3.99,
+      "ann_ret_pct": -4.0,
+      "pass_12pct": false
+    },
+    "holdout": {
+      "trades": 17,
+      "pips": -63.3,
+      "win_rate": 17.6,
+      "r_mult": -7.91,
+      "ann_ret_pct": -4.6,
+      "pass_holdout": false
+    }
+  },
+  "disc02_usdcad_daily_pivot_wall_elite": {
+    "in_sample": {
+      "trades": 34,
+      "pips": 53.0,
+      "win_rate": 47.1,
+      "r_mult": 5.89,
+      "ann_ret_pct": 5.9,
+      "pass_12pct": false
+    },
+    "holdout": {
+      "trades": 47,
+      "pips": -24.1,
+      "win_rate": 38.3,
+      "r_mult": -2.68,
+      "ann_ret_pct": -1.5,
+      "pass_holdout": false
+    }
+  },
+  "disc03_usdcad_intraday_macro_retest_elite": {
+    "in_sample": {
+      "trades": 7,
+      "pips": -37.8,
+      "win_rate": 14.3,
+      "r_mult": -4.72,
+      "ann_ret_pct": -4.7,
+      "pass_12pct": false
+    },
+    "holdout": {
+      "trades": 18,
+      "pips": -65.9,
+      "win_rate": 22.2,
+      "r_mult": -8.24,
+      "ann_ret_pct": -4.8,
+      "pass_holdout": false
+    }
+  },
+  "disc04_usdcad_h4_macro_wide_runner_elite": {
+    "in_sample": {
+      "trades": 20,
+      "pips": 155.1,
+      "win_rate": 50.0,
+      "r_mult": 10.34,
+      "ann_ret_pct": 10.3,
+      "pass_12pct": false
+    },
+    "holdout": {
+      "trades": 35,
+      "pips": -45.7,
+      "win_rate": 34.3,
+      "r_mult": -3.05,
+      "ann_ret_pct": -1.8,
+      "pass_holdout": false
+    }
+  },
+  "disc05_usdcad_h4_macro_structure_retest_elite": {
+    "in_sample": {
+      "trades": 20,
+      "pips": 103.1,
+      "win_rate": 45.0,
+      "r_mult": 7.36,
+      "ann_ret_pct": 7.4,
+      "pass_12pct": false
+    },
+    "holdout": {
+      "trades": 35,
+      "pips": -44.6,
+      "win_rate": 34.3,
+      "r_mult": -3.19,
+      "ann_ret_pct": -1.8,
+      "pass_holdout": false
+    }
+  },
+  "disc06_usdcad_h4_macro_precision_retest_elite": {
+    "in_sample": {
+      "trades": 20,
+      "pips": 86.4,
+      "win_rate": 45.0,
+      "r_mult": 7.2,
+      "ann_ret_pct": 7.2,
+      "pass_12pct": false
+    },
+    "holdout": {
+      "trades": 35,
+      "pips": -10.1,
+      "win_rate": 37.1,
+      "r_mult": -0.84,
+      "ann_ret_pct": -0.5,
+      "pass_holdout": false
+    }
+  },
+  "disc07_usdcad_camarilla_floor_elite": {
+    "in_sample": {
+      "trades": 74,
+      "pips": -55.5,
+      "win_rate": 36.5,
+      "r_mult": -6.53,
+      "ann_ret_pct": -6.5,
+      "pass_12pct": false
+    },
+    "holdout": {
+      "trades": 102,
+      "pips": -248.2,
+      "win_rate": 29.4,
+      "r_mult": -29.2,
+      "ann_ret_pct": -16.9,
+      "pass_holdout": false
+    }
+  }
+}

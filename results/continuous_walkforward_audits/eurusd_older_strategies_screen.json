@@ -1,0 +1,706 @@
+[
+  {
+    "name": "comb12_bollinger_squeeze_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\comb12_bollinger_squeeze_elite\\strategy.py",
+    "holdout": {
+      "trades": 176,
+      "net_pips": -32.9,
+      "pf": 0.97,
+      "wr": 40.9
+    },
+    "discovery": {
+      "trades": 104,
+      "net_pips": 34.8,
+      "pf": 1.06,
+      "wr": 43.3
+    }
+  },
+  {
+    "name": "comb27_squeeze_supertrend_hybrid_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\comb27_squeeze_supertrend_hybrid_elite\\strategy.py",
+    "holdout": {
+      "trades": 174,
+      "net_pips": -21.1,
+      "pf": 0.98,
+      "wr": 34.5
+    },
+    "discovery": {
+      "trades": 106,
+      "net_pips": 33.0,
+      "pf": 1.04,
+      "wr": 34.0
+    }
+  },
+  {
+    "name": "disc03_ny_open_overlap_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc03_ny_open_overlap_elite\\strategy.py",
+    "holdout": {
+      "trades": 84,
+      "net_pips": 188.8,
+      "pf": 1.32,
+      "wr": 46.4
+    },
+    "discovery": {
+      "trades": 56,
+      "net_pips": 5.1,
+      "pf": 1.01,
+      "wr": 41.1
+    }
+  },
+  {
+    "name": "disc38_london_midday_macd_acceleration_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc38_london_midday_macd_acceleration_elite\\strategy.py",
+    "holdout": {
+      "trades": 67,
+      "net_pips": 40.7,
+      "pf": 1.08,
+      "wr": 41.8
+    },
+    "discovery": {
+      "trades": 58,
+      "net_pips": 47.4,
+      "pf": 1.11,
+      "wr": 41.4
+    }
+  },
+  {
+    "name": "disc39_stochastic_deep_pullback_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc39_stochastic_deep_pullback_elite\\strategy.py",
+    "holdout": {
+      "trades": 172,
+      "net_pips": -69.6,
+      "pf": 0.92,
+      "wr": 37.8
+    },
+    "discovery": {
+      "trades": 103,
+      "net_pips": -97.7,
+      "pf": 0.83,
+      "wr": 35.9
+    }
+  },
+  {
+    "name": "disc40_rsi_regime_range_shift_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc40_rsi_regime_range_shift_elite\\strategy.py",
+    "holdout": {
+      "trades": 213,
+      "net_pips": 240.8,
+      "pf": 1.19,
+      "wr": 44.1
+    },
+    "discovery": {
+      "trades": 175,
+      "net_pips": -34.9,
+      "pf": 0.97,
+      "wr": 37.7
+    }
+  },
+  {
+    "name": "disc41_thursday_macro_trend_ignition_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc41_thursday_macro_trend_ignition_elite\\strategy.py",
+    "holdout": {
+      "trades": 36,
+      "net_pips": 31.2,
+      "pf": 1.1,
+      "wr": 41.7
+    },
+    "discovery": {
+      "trades": 34,
+      "net_pips": 168.0,
+      "pf": 1.65,
+      "wr": 50.0
+    }
+  },
+  {
+    "name": "disc42_macro_structure_h4_m30_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc42_macro_structure_h4_m30_elite\\strategy.py",
+    "holdout": {
+      "trades": 14,
+      "net_pips": 106.9,
+      "pf": 3.53,
+      "wr": 71.4
+    },
+    "discovery": {
+      "trades": 12,
+      "net_pips": 50.9,
+      "pf": 1.97,
+      "wr": 58.3
+    }
+  },
+  {
+    "name": "disc43_intraday_precision_h1_m5_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc43_intraday_precision_h1_m5_elite\\strategy.py",
+    "holdout": {
+      "trades": 94,
+      "net_pips": -51.5,
+      "pf": 0.87,
+      "wr": 38.3
+    },
+    "discovery": {
+      "trades": 100,
+      "net_pips": 186.4,
+      "pf": 1.61,
+      "wr": 53.0
+    }
+  },
+  {
+    "name": "disc45_continuous_m5_rejection_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc45_continuous_m5_rejection_elite\\strategy.py",
+    "holdout": {
+      "trades": 214,
+      "net_pips": -44.9,
+      "pf": 0.94,
+      "wr": 44.4
+    },
+    "discovery": {
+      "trades": 197,
+      "net_pips": 271.5,
+      "pf": 1.46,
+      "wr": 54.3
+    }
+  },
+  {
+    "name": "disc49_intraday_macro_retest_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc49_intraday_macro_retest_elite\\strategy.py",
+    "holdout": {
+      "trades": 17,
+      "net_pips": 153.6,
+      "pf": 5.06,
+      "wr": 76.5
+    },
+    "discovery": {
+      "trades": 14,
+      "net_pips": 84.8,
+      "pf": 2.8,
+      "wr": 64.3
+    }
+  },
+  {
+    "name": "disc50_m30_m5_precision_retest_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc50_m30_m5_precision_retest_elite\\strategy.py",
+    "holdout": {
+      "trades": 22,
+      "net_pips": 66.8,
+      "pf": 1.79,
+      "wr": 54.5
+    },
+    "discovery": {
+      "trades": 29,
+      "net_pips": 241.0,
+      "pf": 5.76,
+      "wr": 79.3
+    }
+  },
+  {
+    "name": "disc51_macro_asymmetric_runner_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc51_macro_asymmetric_runner_elite\\strategy.py",
+    "holdout": {
+      "trades": 17,
+      "net_pips": 238.5,
+      "pf": 6.05,
+      "wr": 70.6
+    },
+    "discovery": {
+      "trades": 14,
+      "net_pips": 134.3,
+      "pf": 3.36,
+      "wr": 57.1
+    }
+  },
+  {
+    "name": "disc52_fib_golden_pocket_pin_defense_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc52_fib_golden_pocket_pin_defense_elite\\strategy.py",
+    "holdout": {
+      "trades": 103,
+      "net_pips": -209.5,
+      "pf": 0.7,
+      "wr": 27.2
+    },
+    "discovery": {
+      "trades": 77,
+      "net_pips": -51.0,
+      "pf": 0.9,
+      "wr": 32.5
+    }
+  },
+  {
+    "name": "disc53_m15_3bar_trend_pullback_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc53_m15_3bar_trend_pullback_elite\\strategy.py",
+    "holdout": {
+      "trades": 298,
+      "net_pips": -520.8,
+      "pf": 0.74,
+      "wr": 28.2
+    },
+    "discovery": {
+      "trades": 237,
+      "net_pips": -258.9,
+      "pf": 0.83,
+      "wr": 31.2
+    }
+  },
+  {
+    "name": "disc54_h1_inside_bar_expansion_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc54_h1_inside_bar_expansion_elite\\strategy.py",
+    "holdout": {
+      "trades": 291,
+      "net_pips": -207.1,
+      "pf": 0.89,
+      "wr": 32.6
+    },
+    "discovery": {
+      "trades": 245,
+      "net_pips": -195.8,
+      "pf": 0.88,
+      "wr": 31.8
+    }
+  },
+  {
+    "name": "disc56_triple_screen_m15_impulse_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc56_triple_screen_m15_impulse_elite\\strategy.py",
+    "holdout": {
+      "trades": 355,
+      "net_pips": -430.1,
+      "pf": 0.82,
+      "wr": 30.4
+    },
+    "discovery": {
+      "trades": 278,
+      "net_pips": -356.6,
+      "pf": 0.81,
+      "wr": 30.2
+    }
+  },
+  {
+    "name": "disc57_london_ignition_range_break_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc57_london_ignition_range_break_elite\\strategy.py",
+    "holdout": {
+      "trades": 173,
+      "net_pips": -274.9,
+      "pf": 0.76,
+      "wr": 28.9
+    },
+    "discovery": {
+      "trades": 148,
+      "net_pips": -206.5,
+      "pf": 0.79,
+      "wr": 29.7
+    }
+  },
+  {
+    "name": "disc58_h1_keltner_squeeze_explosion_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc58_h1_keltner_squeeze_explosion_elite\\strategy.py",
+    "holdout": {
+      "trades": 111,
+      "net_pips": 392.3,
+      "pf": 1.63,
+      "wr": 45.9
+    },
+    "discovery": {
+      "trades": 102,
+      "net_pips": 105.6,
+      "pf": 1.16,
+      "wr": 38.2
+    }
+  },
+  {
+    "name": "disc59_m15_macd_zero_cross_momentum_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc59_m15_macd_zero_cross_momentum_elite\\strategy.py",
+    "holdout": {
+      "trades": 217,
+      "net_pips": 366.5,
+      "pf": 1.3,
+      "wr": 41.0
+    },
+    "discovery": {
+      "trades": 180,
+      "net_pips": 144.1,
+      "pf": 1.14,
+      "wr": 37.8
+    }
+  },
+  {
+    "name": "disc60_asian_compression_breakout_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc60_asian_compression_breakout_elite\\strategy.py",
+    "holdout": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    },
+    "discovery": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    }
+  },
+  {
+    "name": "disc61_double_structure_neckline_breakout_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc61_double_structure_neckline_breakout_elite\\strategy.py",
+    "holdout": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    },
+    "discovery": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    }
+  },
+  {
+    "name": "disc62_stoch_rsi_pullback_hook_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc62_stoch_rsi_pullback_hook_elite\\strategy.py",
+    "holdout": {
+      "trades": 415,
+      "net_pips": -14.9,
+      "pf": 0.99,
+      "wr": 34.7
+    },
+    "discovery": {
+      "trades": 320,
+      "net_pips": -347.6,
+      "pf": 0.83,
+      "wr": 30.9
+    }
+  },
+  {
+    "name": "disc64_asian_midpoint_rebound_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc64_asian_midpoint_rebound_elite\\strategy.py",
+    "holdout": {
+      "trades": 276,
+      "net_pips": 222.0,
+      "pf": 1.14,
+      "wr": 37.7
+    },
+    "discovery": {
+      "trades": 221,
+      "net_pips": -159.2,
+      "pf": 0.89,
+      "wr": 32.6
+    }
+  },
+  {
+    "name": "disc65_session_vwap_band_fade_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc65_session_vwap_band_fade_elite\\strategy.py",
+    "holdout": {
+      "trades": 242,
+      "net_pips": 409.0,
+      "pf": 1.3,
+      "wr": 41.7
+    },
+    "discovery": {
+      "trades": 233,
+      "net_pips": 450.5,
+      "pf": 1.35,
+      "wr": 42.1
+    }
+  },
+  {
+    "name": "disc71_asian_hl_retest_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc71_asian_hl_retest_elite\\strategy.py",
+    "holdout": {
+      "trades": 141,
+      "net_pips": 90.7,
+      "pf": 1.11,
+      "wr": 37.6
+    },
+    "discovery": {
+      "trades": 92,
+      "net_pips": 269.7,
+      "pf": 1.57,
+      "wr": 45.7
+    }
+  },
+  {
+    "name": "disc72_h4_stoch_m5_wick_scalper_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc72_h4_stoch_m5_wick_scalper_elite\\strategy.py",
+    "holdout": {
+      "trades": 102,
+      "net_pips": 9.0,
+      "pf": 1.02,
+      "wr": 36.3
+    },
+    "discovery": {
+      "trades": 79,
+      "net_pips": -41.2,
+      "pf": 0.9,
+      "wr": 31.6
+    }
+  },
+  {
+    "name": "disc73_donchian_ema_pullback_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc73_donchian_ema_pullback_elite\\strategy.py",
+    "holdout": {
+      "trades": 376,
+      "net_pips": 56.4,
+      "pf": 1.02,
+      "wr": 35.4
+    },
+    "discovery": {
+      "trades": 281,
+      "net_pips": -179.3,
+      "pf": 0.9,
+      "wr": 32.7
+    }
+  },
+  {
+    "name": "disc74_daily_pivot_pullback_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc74_daily_pivot_pullback_elite\\strategy.py",
+    "holdout": {
+      "trades": 123,
+      "net_pips": 513.8,
+      "pf": 1.88,
+      "wr": 50.4
+    },
+    "discovery": {
+      "trades": 99,
+      "net_pips": 35.6,
+      "pf": 1.06,
+      "wr": 36.4
+    }
+  },
+  {
+    "name": "disc75_weekly_pivot_pullback_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc75_weekly_pivot_pullback_elite\\strategy.py",
+    "holdout": {
+      "trades": 86,
+      "net_pips": 81.6,
+      "pf": 1.15,
+      "wr": 33.7
+    },
+    "discovery": {
+      "trades": 71,
+      "net_pips": 406.2,
+      "pf": 2.19,
+      "wr": 49.3
+    }
+  },
+  {
+    "name": "disc76_vwap_1sd_rebound_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc76_vwap_1sd_rebound_elite\\strategy.py",
+    "holdout": {
+      "trades": 143,
+      "net_pips": 313.3,
+      "pf": 1.4,
+      "wr": 43.4
+    },
+    "discovery": {
+      "trades": 122,
+      "net_pips": 197.2,
+      "pf": 1.29,
+      "wr": 41.0
+    }
+  },
+  {
+    "name": "disc77_keltner_midline_expansion_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc77_keltner_midline_expansion_elite\\strategy.py",
+    "holdout": {
+      "trades": 360,
+      "net_pips": 99.1,
+      "pf": 1.05,
+      "wr": 36.4
+    },
+    "discovery": {
+      "trades": 306,
+      "net_pips": 254.7,
+      "pf": 1.14,
+      "wr": 37.9
+    }
+  },
+  {
+    "name": "disc78_three_bar_inside_confirmation_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc78_three_bar_inside_confirmation_elite\\strategy.py",
+    "holdout": {
+      "trades": 302,
+      "net_pips": 45.7,
+      "pf": 1.02,
+      "wr": 35.4
+    },
+    "discovery": {
+      "trades": 237,
+      "net_pips": 269.1,
+      "pf": 1.2,
+      "wr": 38.8
+    }
+  },
+  {
+    "name": "disc79_london_open_15m_expansion_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc79_london_open_15m_expansion_elite\\strategy.py",
+    "holdout": {
+      "trades": 145,
+      "net_pips": 172.8,
+      "pf": 1.21,
+      "wr": 39.3
+    },
+    "discovery": {
+      "trades": 129,
+      "net_pips": 54.2,
+      "pf": 1.07,
+      "wr": 36.4
+    }
+  },
+  {
+    "name": "disc80_double_swing_neckline_retest_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc80_double_swing_neckline_retest_elite\\strategy.py",
+    "holdout": {
+      "trades": 177,
+      "net_pips": 280.8,
+      "pf": 1.28,
+      "wr": 40.7
+    },
+    "discovery": {
+      "trades": 128,
+      "net_pips": 178.1,
+      "pf": 1.24,
+      "wr": 40.6
+    }
+  },
+  {
+    "name": "disc82_chaikin_volatility_surge_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc82_chaikin_volatility_surge_elite\\strategy.py",
+    "holdout": {
+      "trades": 364,
+      "net_pips": 405.8,
+      "pf": 1.19,
+      "wr": 39.0
+    },
+    "discovery": {
+      "trades": 299,
+      "net_pips": 374.6,
+      "pf": 1.22,
+      "wr": 39.5
+    }
+  },
+  {
+    "name": "disc83_parabolic_sar_flip_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc83_parabolic_sar_flip_elite\\strategy.py",
+    "holdout": {
+      "trades": 261,
+      "net_pips": -21.4,
+      "pf": 0.99,
+      "wr": 34.9
+    },
+    "discovery": {
+      "trades": 242,
+      "net_pips": 121.9,
+      "pf": 1.08,
+      "wr": 36.8
+    }
+  },
+  {
+    "name": "disc85_session_open_impulse_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc85_session_open_impulse_elite\\strategy.py",
+    "holdout": {
+      "trades": 226,
+      "net_pips": 96.8,
+      "pf": 1.08,
+      "wr": 36.3
+    },
+    "discovery": {
+      "trades": 190,
+      "net_pips": 336.4,
+      "pf": 1.34,
+      "wr": 41.6
+    }
+  },
+  {
+    "name": "disc86_ema_cross_atr_expansion_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc86_ema_cross_atr_expansion_elite\\strategy.py",
+    "holdout": {
+      "trades": 261,
+      "net_pips": 552.9,
+      "pf": 1.42,
+      "wr": 43.3
+    },
+    "discovery": {
+      "trades": 219,
+      "net_pips": 365.4,
+      "pf": 1.32,
+      "wr": 41.6
+    }
+  },
+  {
+    "name": "disc88_three_drive_ignition_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\disc88_three_drive_ignition_elite\\strategy.py",
+    "holdout": {
+      "trades": 261,
+      "net_pips": 206.8,
+      "pf": 1.14,
+      "wr": 38.3
+    },
+    "discovery": {
+      "trades": 229,
+      "net_pips": -73.1,
+      "pf": 0.95,
+      "wr": 33.6
+    }
+  },
+  {
+    "name": "high_frequency_m15_scalper_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\high_frequency_m15_scalper_elite\\strategy.py",
+    "holdout": {
+      "trades": 659,
+      "net_pips": 66.8,
+      "pf": 1.01,
+      "wr": 33.4
+    },
+    "discovery": {
+      "trades": 533,
+      "net_pips": 494.1,
+      "pf": 1.13,
+      "wr": 36.2
+    }
+  },
+  {
+    "name": "s10_dual_ema_pullback_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\s10_dual_ema_pullback_elite\\strategy.py",
+    "holdout": {
+      "trades": 137,
+      "net_pips": 233.1,
+      "pf": 1.14,
+      "wr": 34.3
+    },
+    "discovery": {
+      "trades": 86,
+      "net_pips": 227.9,
+      "pf": 1.23,
+      "wr": 32.6
+    }
+  },
+  {
+    "name": "s14_inside_bar_m30_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\s14_inside_bar_m30_elite\\strategy.py",
+    "holdout": {
+      "trades": 110,
+      "net_pips": -20.1,
+      "pf": 0.98,
+      "wr": 30.9
+    },
+    "discovery": {
+      "trades": 76,
+      "net_pips": -258.6,
+      "pf": 0.7,
+      "wr": 25.0
+    }
+  },
+  {
+    "name": "s66_bhanushali_44ma_elite",
+    "path": "D:\\PROJECT\\TRD\\MODELS GENERATIONS\\BACKTEST\\strategies\\eurusd_production_fleet\\s66_bhanushali_44ma_elite\\strategy.py",
+    "holdout": {
+      "trades": 98,
+      "net_pips": -128.8,
+      "pf": 0.89,
+      "wr": 28.6
+    },
+    "discovery": {
+      "trades": 46,
+      "net_pips": 134.1,
+      "pf": 1.27,
+      "wr": 32.6
+    }
+  }
+]

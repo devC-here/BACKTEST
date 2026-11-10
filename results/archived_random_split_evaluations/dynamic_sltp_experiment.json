@@ -1,0 +1,48 @@
+{
+  "EURUSD": {
+    "FIXED_BASELINE": {
+      "trades": 79,
+      "trades_per_year": 45.6,
+      "win_rate": 44.3,
+      "profit_factor": 1.37,
+      "net_pips": 170.4
+    },
+    "DYNAMIC_ATR": {
+      "trades": 79,
+      "trades_per_year": 45.6,
+      "win_rate": 43.0,
+      "profit_factor": 1.4,
+      "net_pips": 167.2
+    },
+    "DYNAMIC_SESSION_RANGE": {
+      "trades": 78,
+      "trades_per_year": 45.1,
+      "win_rate": 37.2,
+      "profit_factor": 0.97,
+      "net_pips": -21.2
+    }
+  },
+  "USDJPY": {
+    "FIXED_BASELINE": {
+      "trades": 57,
+      "trades_per_year": 32.9,
+      "win_rate": 42.1,
+      "profit_factor": 1.44,
+      "net_pips": 169.4
+    },
+    "DYNAMIC_ATR": {
+      "trades": 57,
+      "trades_per_year": 32.9,
+      "win_rate": 40.4,
+      "profit_factor": 1.38,
+      "net_pips": 116.9
+    },
+    "DYNAMIC_SESSION_RANGE": {
+      "trades": 57,
+      "trades_per_year": 32.9,
+      "win_rate": 40.4,
+      "profit_factor": 1.35,
+      "net_pips": 148.0
+    }
+  }
+}

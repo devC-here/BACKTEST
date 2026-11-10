@@ -1,0 +1,694 @@
+{
+  "symbol": "NZDCAD",
+  "dollar_per_lot": 4.0,
+  "use_broker_spread": true,
+  "broker_spread_pips": 1.0,
+  "friction_commission_pips": 0.56,
+  "friction_slippage_pips": 0.05,
+  "total_friction_pips": 0.61,
+  "qualified_discovery_count": 34,
+  "dual_certified_holdout_count": 0,
+  "discovery_candidates": [
+    {
+      "name": "H4Retest_LB8_D13_W0.40_SL14_TP32",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 12.8,
+        "wick": 0.4,
+        "sl": 14.4,
+        "tp": 32.0,
+        "name": "H4Retest_LB8_D13_W0.40_SL14_TP32"
+      },
+      "disc_trades": 52,
+      "ann_trades": 51.0,
+      "disc_net_pips": 128.3,
+      "ann_pips": 125.9,
+      "win_rate": 40.4,
+      "profit_factor": 1.27
+    },
+    {
+      "name": "H4Retest_LB8_D13_W0.40_SL13_TP28",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 12.8,
+        "wick": 0.4,
+        "sl": 12.8,
+        "tp": 28.0,
+        "name": "H4Retest_LB8_D13_W0.40_SL13_TP28"
+      },
+      "disc_trades": 52,
+      "ann_trades": 51.0,
+      "disc_net_pips": 114.7,
+      "ann_pips": 112.6,
+      "win_rate": 40.4,
+      "profit_factor": 1.27
+    },
+    {
+      "name": "H4Retest_LB8_D13_W0.45_SL14_TP32",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 12.8,
+        "wick": 0.45,
+        "sl": 14.4,
+        "tp": 32.0,
+        "name": "H4Retest_LB8_D13_W0.45_SL14_TP32"
+      },
+      "disc_trades": 44,
+      "ann_trades": 43.2,
+      "disc_net_pips": 109.9,
+      "ann_pips": 107.8,
+      "win_rate": 40.9,
+      "profit_factor": 1.28
+    },
+    {
+      "name": "H4Retest_LB8_D10_W0.40_SL14_TP32",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 9.6,
+        "wick": 0.4,
+        "sl": 14.4,
+        "tp": 32.0,
+        "name": "H4Retest_LB8_D10_W0.40_SL14_TP32"
+      },
+      "disc_trades": 43,
+      "ann_trades": 42.2,
+      "disc_net_pips": 104.9,
+      "ann_pips": 102.9,
+      "win_rate": 39.5,
+      "profit_factor": 1.27
+    },
+    {
+      "name": "H4Retest_LB8_D13_W0.45_SL13_TP28",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 12.8,
+        "wick": 0.45,
+        "sl": 12.8,
+        "tp": 28.0,
+        "name": "H4Retest_LB8_D13_W0.45_SL13_TP28"
+      },
+      "disc_trades": 44,
+      "ann_trades": 43.2,
+      "disc_net_pips": 98.8,
+      "ann_pips": 96.9,
+      "win_rate": 40.9,
+      "profit_factor": 1.28
+    },
+    {
+      "name": "H4Retest_LB8_D10_W0.40_SL13_TP28",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 9.6,
+        "wick": 0.4,
+        "sl": 12.8,
+        "tp": 28.0,
+        "name": "H4Retest_LB8_D10_W0.40_SL13_TP28"
+      },
+      "disc_trades": 43,
+      "ann_trades": 42.2,
+      "disc_net_pips": 97.7,
+      "ann_pips": 95.9,
+      "win_rate": 39.5,
+      "profit_factor": 1.28
+    },
+    {
+      "name": "H4Retest_LB8_D13_W0.35_SL14_TP32",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 12.8,
+        "wick": 0.35,
+        "sl": 14.4,
+        "tp": 32.0,
+        "name": "H4Retest_LB8_D13_W0.35_SL14_TP32"
+      },
+      "disc_trades": 58,
+      "ann_trades": 56.9,
+      "disc_net_pips": 64.5,
+      "ann_pips": 63.3,
+      "win_rate": 37.9,
+      "profit_factor": 1.12
+    },
+    {
+      "name": "H4Retest_LB10_D10_W0.40_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 10,
+        "dist": 9.6,
+        "wick": 0.4,
+        "sl": 12.0,
+        "tp": 24.0,
+        "name": "H4Retest_LB10_D10_W0.40_SL12_TP24"
+      },
+      "disc_trades": 31,
+      "ann_trades": 30.4,
+      "disc_net_pips": 63.3,
+      "ann_pips": 62.1,
+      "win_rate": 41.9,
+      "profit_factor": 1.28
+    },
+    {
+      "name": "H4Retest_LB8_D13_W0.35_SL13_TP28",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 12.8,
+        "wick": 0.35,
+        "sl": 12.8,
+        "tp": 28.0,
+        "name": "H4Retest_LB8_D13_W0.35_SL13_TP28"
+      },
+      "disc_trades": 58,
+      "ann_trades": 56.9,
+      "disc_net_pips": 57.8,
+      "ann_pips": 56.7,
+      "win_rate": 37.9,
+      "profit_factor": 1.12
+    },
+    {
+      "name": "H4Retest_LB8_D10_W0.45_SL14_TP32",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 9.6,
+        "wick": 0.45,
+        "sl": 14.4,
+        "tp": 32.0,
+        "name": "H4Retest_LB8_D10_W0.45_SL14_TP32"
+      },
+      "disc_trades": 37,
+      "ann_trades": 36.3,
+      "disc_net_pips": 56.2,
+      "ann_pips": 55.1,
+      "win_rate": 37.8,
+      "profit_factor": 1.16
+    },
+    {
+      "name": "H4Retest_LB8_D10_W0.45_SL13_TP28",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 9.6,
+        "wick": 0.45,
+        "sl": 12.8,
+        "tp": 28.0,
+        "name": "H4Retest_LB8_D10_W0.45_SL13_TP28"
+      },
+      "disc_trades": 37,
+      "ann_trades": 36.3,
+      "disc_net_pips": 54.9,
+      "ann_pips": 53.9,
+      "win_rate": 37.8,
+      "profit_factor": 1.18
+    },
+    {
+      "name": "H4Retest_LB8_D13_W0.40_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 12.8,
+        "wick": 0.4,
+        "sl": 12.0,
+        "tp": 24.0,
+        "name": "H4Retest_LB8_D13_W0.40_SL12_TP24"
+      },
+      "disc_trades": 53,
+      "ann_trades": 52.0,
+      "disc_net_pips": 52.0,
+      "ann_pips": 51.0,
+      "win_rate": 39.6,
+      "profit_factor": 1.13
+    },
+    {
+      "name": "H4Retest_LB10_D10_W0.35_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 10,
+        "dist": 9.6,
+        "wick": 0.35,
+        "sl": 12.0,
+        "tp": 24.0,
+        "name": "H4Retest_LB10_D10_W0.35_SL12_TP24"
+      },
+      "disc_trades": 35,
+      "ann_trades": 34.3,
+      "disc_net_pips": 47.2,
+      "ann_pips": 46.3,
+      "win_rate": 40.0,
+      "profit_factor": 1.18
+    },
+    {
+      "name": "H4Retest_LB8_D13_W0.45_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 12.8,
+        "wick": 0.45,
+        "sl": 12.0,
+        "tp": 24.0,
+        "name": "H4Retest_LB8_D13_W0.45_SL12_TP24"
+      },
+      "disc_trades": 45,
+      "ann_trades": 44.2,
+      "disc_net_pips": 42.2,
+      "ann_pips": 41.4,
+      "win_rate": 40.0,
+      "profit_factor": 1.12
+    },
+    {
+      "name": "H4Retest_LB8_D10_W0.35_SL14_TP32",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 9.6,
+        "wick": 0.35,
+        "sl": 14.4,
+        "tp": 32.0,
+        "name": "H4Retest_LB8_D10_W0.35_SL14_TP32"
+      },
+      "disc_trades": 49,
+      "ann_trades": 48.1,
+      "disc_net_pips": 41.1,
+      "ann_pips": 40.3,
+      "win_rate": 36.7,
+      "profit_factor": 1.09
+    },
+    {
+      "name": "H4Retest_LB8_D10_W0.35_SL13_TP28",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 9.6,
+        "wick": 0.35,
+        "sl": 12.8,
+        "tp": 28.0,
+        "name": "H4Retest_LB8_D10_W0.35_SL13_TP28"
+      },
+      "disc_trades": 49,
+      "ann_trades": 48.1,
+      "disc_net_pips": 40.8,
+      "ann_pips": 40.0,
+      "win_rate": 36.7,
+      "profit_factor": 1.1
+    },
+    {
+      "name": "H4Retest_LB12_D16_W0.35_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 12,
+        "dist": 16.0,
+        "wick": 0.35,
+        "sl": 12.0,
+        "tp": 24.0,
+        "name": "H4Retest_LB12_D16_W0.35_SL12_TP24"
+      },
+      "disc_trades": 36,
+      "ann_trades": 35.3,
+      "disc_net_pips": 40.0,
+      "ann_pips": 39.2,
+      "win_rate": 41.7,
+      "profit_factor": 1.15
+    },
+    {
+      "name": "H4Retest_LB8_D16_W0.40_SL14_TP32",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 16.0,
+        "wick": 0.4,
+        "sl": 14.4,
+        "tp": 32.0,
+        "name": "H4Retest_LB8_D16_W0.40_SL14_TP32"
+      },
+      "disc_trades": 64,
+      "ann_trades": 62.8,
+      "disc_net_pips": 39.0,
+      "ann_pips": 38.2,
+      "win_rate": 37.5,
+      "profit_factor": 1.06
+    },
+    {
+      "name": "H4Retest_LB12_D16_W0.35_SL10_TP19",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 12,
+        "dist": 16.0,
+        "wick": 0.35,
+        "sl": 9.6,
+        "tp": 19.2,
+        "name": "H4Retest_LB12_D16_W0.35_SL10_TP19"
+      },
+      "disc_trades": 39,
+      "ann_trades": 38.3,
+      "disc_net_pips": 37.9,
+      "ann_pips": 37.2,
+      "win_rate": 41.0,
+      "profit_factor": 1.16
+    },
+    {
+      "name": "H4Retest_LB8_D16_W0.40_SL13_TP28",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 16.0,
+        "wick": 0.4,
+        "sl": 12.8,
+        "tp": 28.0,
+        "name": "H4Retest_LB8_D16_W0.40_SL13_TP28"
+      },
+      "disc_trades": 64,
+      "ann_trades": 62.8,
+      "disc_net_pips": 32.6,
+      "ann_pips": 32.0,
+      "win_rate": 37.5,
+      "profit_factor": 1.06
+    },
+    {
+      "name": "H4Retest_LB12_D16_W0.35_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 12,
+        "dist": 16.0,
+        "wick": 0.35,
+        "sl": 11.2,
+        "tp": 22.4,
+        "name": "H4Retest_LB12_D16_W0.35_SL11_TP22"
+      },
+      "disc_trades": 37,
+      "ann_trades": 36.3,
+      "disc_net_pips": 24.2,
+      "ann_pips": 23.8,
+      "win_rate": 40.5,
+      "profit_factor": 1.09
+    },
+    {
+      "name": "H4Retest_LB12_D16_W0.35_SL10_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 12,
+        "dist": 16.0,
+        "wick": 0.35,
+        "sl": 9.6,
+        "tp": 22.4,
+        "name": "H4Retest_LB12_D16_W0.35_SL10_TP22"
+      },
+      "disc_trades": 38,
+      "ann_trades": 37.3,
+      "disc_net_pips": 22.1,
+      "ann_pips": 21.7,
+      "win_rate": 36.8,
+      "profit_factor": 1.09
+    },
+    {
+      "name": "H4Retest_LB12_D16_W0.40_SL10_TP19",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 12,
+        "dist": 16.0,
+        "wick": 0.4,
+        "sl": 9.6,
+        "tp": 19.2,
+        "name": "H4Retest_LB12_D16_W0.40_SL10_TP19"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 21.0,
+      "ann_pips": 20.6,
+      "win_rate": 39.4,
+      "profit_factor": 1.1
+    },
+    {
+      "name": "H4Retest_LB10_D10_W0.35_SL14_TP32",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 10,
+        "dist": 9.6,
+        "wick": 0.35,
+        "sl": 14.4,
+        "tp": 32.0,
+        "name": "H4Retest_LB10_D10_W0.35_SL14_TP32"
+      },
+      "disc_trades": 34,
+      "ann_trades": 33.4,
+      "disc_net_pips": 19.3,
+      "ann_pips": 18.9,
+      "win_rate": 35.3,
+      "profit_factor": 1.06
+    },
+    {
+      "name": "H4Retest_LB10_D10_W0.35_SL13_TP28",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 10,
+        "dist": 9.6,
+        "wick": 0.35,
+        "sl": 12.8,
+        "tp": 28.0,
+        "name": "H4Retest_LB10_D10_W0.35_SL13_TP28"
+      },
+      "disc_trades": 34,
+      "ann_trades": 33.4,
+      "disc_net_pips": 12.9,
+      "ann_pips": 12.6,
+      "win_rate": 35.3,
+      "profit_factor": 1.04
+    },
+    {
+      "name": "NYSweep_D3.6_SL10_TP19_R10-40",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "NZDCAD",
+        "delta": 3.6,
+        "sl": 9.6,
+        "tp": 19.2,
+        "min_rng": 9.6,
+        "max_rng": 40.0,
+        "name": "NYSweep_D3.6_SL10_TP19_R10-40"
+      },
+      "disc_trades": 38,
+      "ann_trades": 37.3,
+      "disc_net_pips": 10.8,
+      "ann_pips": 10.6,
+      "win_rate": 36.8,
+      "profit_factor": 1.04
+    },
+    {
+      "name": "H4Retest_LB8_D16_W0.45_SL14_TP32",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 16.0,
+        "wick": 0.45,
+        "sl": 14.4,
+        "tp": 32.0,
+        "name": "H4Retest_LB8_D16_W0.45_SL14_TP32"
+      },
+      "disc_trades": 55,
+      "ann_trades": 54.0,
+      "disc_net_pips": 7.4,
+      "ann_pips": 7.3,
+      "win_rate": 36.4,
+      "profit_factor": 1.01
+    },
+    {
+      "name": "H4Retest_LB8_D10_W0.40_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 9.6,
+        "wick": 0.4,
+        "sl": 12.0,
+        "tp": 24.0,
+        "name": "H4Retest_LB8_D10_W0.40_SL12_TP24"
+      },
+      "disc_trades": 44,
+      "ann_trades": 43.2,
+      "disc_net_pips": 7.3,
+      "ann_pips": 7.2,
+      "win_rate": 36.4,
+      "profit_factor": 1.02
+    },
+    {
+      "name": "H4Retest_LB12_D16_W0.40_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 12,
+        "dist": 16.0,
+        "wick": 0.4,
+        "sl": 11.2,
+        "tp": 22.4,
+        "name": "H4Retest_LB12_D16_W0.40_SL11_TP22"
+      },
+      "disc_trades": 31,
+      "ann_trades": 30.4,
+      "disc_net_pips": 6.4,
+      "ann_pips": 6.3,
+      "win_rate": 38.7,
+      "profit_factor": 1.03
+    },
+    {
+      "name": "H4Retest_LB8_D16_W0.35_SL14_TP32",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 16.0,
+        "wick": 0.35,
+        "sl": 14.4,
+        "tp": 32.0,
+        "name": "H4Retest_LB8_D16_W0.35_SL14_TP32"
+      },
+      "disc_trades": 68,
+      "ann_trades": 66.7,
+      "disc_net_pips": 5.2,
+      "ann_pips": 5.1,
+      "win_rate": 36.8,
+      "profit_factor": 1.01
+    },
+    {
+      "name": "H4Retest_LB8_D16_W0.45_SL13_TP28",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 8,
+        "dist": 16.0,
+        "wick": 0.45,
+        "sl": 12.8,
+        "tp": 28.0,
+        "name": "H4Retest_LB8_D16_W0.45_SL13_TP28"
+      },
+      "disc_trades": 55,
+      "ann_trades": 54.0,
+      "disc_net_pips": 3.9,
+      "ann_pips": 3.9,
+      "win_rate": 36.4,
+      "profit_factor": 1.01
+    },
+    {
+      "name": "H4Retest_LB10_D13_W0.45_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 10,
+        "dist": 12.8,
+        "wick": 0.45,
+        "sl": 12.0,
+        "tp": 24.0,
+        "name": "H4Retest_LB10_D13_W0.45_SL12_TP24"
+      },
+      "disc_trades": 32,
+      "ann_trades": 31.4,
+      "disc_net_pips": 3.5,
+      "ann_pips": 3.5,
+      "win_rate": 37.5,
+      "profit_factor": 1.01
+    },
+    {
+      "name": "H4Retest_LB12_D16_W0.35_SL13_TP28",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 12,
+        "dist": 16.0,
+        "wick": 0.35,
+        "sl": 12.8,
+        "tp": 28.0,
+        "name": "H4Retest_LB12_D16_W0.35_SL13_TP28"
+      },
+      "disc_trades": 35,
+      "ann_trades": 34.3,
+      "disc_net_pips": 1.3,
+      "ann_pips": 1.3,
+      "win_rate": 37.1,
+      "profit_factor": 1.0
+    },
+    {
+      "name": "H4Retest_LB10_D10_W0.40_SL10_TP19",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "NZDCAD",
+        "lb": 10,
+        "dist": 9.6,
+        "wick": 0.4,
+        "sl": 9.6,
+        "tp": 19.2,
+        "name": "H4Retest_LB10_D10_W0.40_SL10_TP19"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 0.2,
+      "ann_pips": 0.2,
+      "win_rate": 36.4,
+      "profit_factor": 1.0
+    }
+  ],
+  "holdout_champions": []
+}

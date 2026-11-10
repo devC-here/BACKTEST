@@ -1,0 +1,302 @@
+[
+  {
+    "id": "AUDCAD_H4Retest_SL16_TP32_LB16_D10.0_W45",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 16,
+      "dist": 10.0,
+      "wick": 0.45,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 15,
+    "is_pips": 258.8,
+    "is_return": 16.2,
+    "is_pf": 4.9,
+    "is_wr": 73.3,
+    "oos_trades": 17,
+    "oos_net_pips": 251.9,
+    "oos_ann_pips": 145.5,
+    "oos_ann_ret": 9.1,
+    "oos_pf": 3.64,
+    "oos_wr": 64.7
+  },
+  {
+    "id": "AUDCAD_H4Retest_SL15_TP30_LB16_D10.0_W45",
+    "params": {
+      "sl": 15.0,
+      "tp": 30.0,
+      "lb": 16,
+      "dist": 10.0,
+      "wick": 0.45,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 15,
+    "is_pips": 241.8,
+    "is_return": 16.1,
+    "is_pf": 4.86,
+    "is_wr": 73.3,
+    "oos_trades": 17,
+    "oos_net_pips": 277.9,
+    "oos_ann_pips": 160.6,
+    "oos_ann_ret": 10.7,
+    "oos_pf": 4.62,
+    "oos_wr": 70.6
+  },
+  {
+    "id": "AUDCAD_H4Retest_SL16_TP36_LB14_D8.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 14,
+      "dist": 8.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 16,
+    "is_pips": 243.7,
+    "is_return": 15.2,
+    "is_pf": 3.93,
+    "is_wr": 62.5,
+    "oos_trades": 26,
+    "oos_net_pips": 265.5,
+    "oos_ann_pips": 153.4,
+    "oos_ann_ret": 9.6,
+    "oos_pf": 2.35,
+    "oos_wr": 50.0
+  },
+  {
+    "id": "AUDCAD_H4Retest_SL14_TP28_LB16_D10.0_W45",
+    "params": {
+      "sl": 14.0,
+      "tp": 28.0,
+      "lb": 16,
+      "dist": 10.0,
+      "wick": 0.45,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 15,
+    "is_pips": 207.4,
+    "is_return": 14.8,
+    "is_pf": 3.84,
+    "is_wr": 66.7,
+    "oos_trades": 17,
+    "oos_net_pips": 256.3,
+    "oos_ann_pips": 148.1,
+    "oos_ann_ret": 10.6,
+    "oos_pf": 4.43,
+    "oos_wr": 70.6
+  },
+  {
+    "id": "AUDCAD_H4Retest_SL16_TP32_LB16_D10.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 16,
+      "dist": 10.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 18,
+    "is_pips": 224.8,
+    "is_return": 14.1,
+    "is_pf": 3.24,
+    "is_wr": 61.1,
+    "oos_trades": 22,
+    "oos_net_pips": 221.3,
+    "oos_ann_pips": 127.9,
+    "oos_ann_ret": 8.0,
+    "oos_pf": 2.41,
+    "oos_wr": 54.5
+  },
+  {
+    "id": "AUDCAD_H4Retest_SL15_TP30_LB16_D10.0_W35",
+    "params": {
+      "sl": 15.0,
+      "tp": 30.0,
+      "lb": 16,
+      "dist": 10.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 18,
+    "is_pips": 209.4,
+    "is_return": 14.0,
+    "is_pf": 3.2,
+    "is_wr": 61.1,
+    "oos_trades": 22,
+    "oos_net_pips": 250.8,
+    "oos_ann_pips": 144.9,
+    "oos_ann_ret": 9.7,
+    "oos_pf": 2.88,
+    "oos_wr": 59.1
+  },
+  {
+    "id": "AUDCAD_H4Retest_SL16_TP32_LB14_D8.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 14,
+      "dist": 8.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 16,
+    "is_pips": 210.2,
+    "is_return": 13.1,
+    "is_pf": 3.52,
+    "is_wr": 62.5,
+    "oos_trades": 28,
+    "oos_net_pips": 277.4,
+    "oos_ann_pips": 160.3,
+    "oos_ann_ret": 10.0,
+    "oos_pf": 2.41,
+    "oos_wr": 53.6
+  },
+  {
+    "id": "AUDCAD_H4Retest_SL15_TP30_LB14_D8.0_W35",
+    "params": {
+      "sl": 15.0,
+      "tp": 30.0,
+      "lb": 14,
+      "dist": 8.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 16,
+    "is_pips": 195.5,
+    "is_return": 13.0,
+    "is_pf": 3.46,
+    "is_wr": 62.5,
+    "oos_trades": 28,
+    "oos_net_pips": 259.4,
+    "oos_ann_pips": 149.9,
+    "oos_ann_ret": 10.0,
+    "oos_pf": 2.41,
+    "oos_wr": 53.6
+  },
+  {
+    "id": "AUDCAD_H4Retest_SL15_TP30_LB14_D10.0_W45",
+    "params": {
+      "sl": 15.0,
+      "tp": 30.0,
+      "lb": 14,
+      "dist": 10.0,
+      "wick": 0.45,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 18,
+    "is_pips": 195.0,
+    "is_return": 13.0,
+    "is_pf": 2.78,
+    "is_wr": 61.1,
+    "oos_trades": 22,
+    "oos_net_pips": 211.2,
+    "oos_ann_pips": 122.0,
+    "oos_ann_ret": 8.1,
+    "oos_pf": 2.47,
+    "oos_wr": 54.5
+  },
+  {
+    "id": "AUDCAD_H4Retest_SL14_TP28_LB16_D10.0_W35",
+    "params": {
+      "sl": 14.0,
+      "tp": 28.0,
+      "lb": 16,
+      "dist": 10.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 18,
+    "is_pips": 175.6,
+    "is_return": 12.5,
+    "is_pf": 2.67,
+    "is_wr": 55.6,
+    "oos_trades": 22,
+    "oos_net_pips": 230.2,
+    "oos_ann_pips": 133.0,
+    "oos_ann_ret": 9.5,
+    "oos_pf": 2.79,
+    "oos_wr": 59.1
+  },
+  {
+    "id": "AUDCAD_H4Retest_SL14_TP28_LB14_D10.0_W45",
+    "params": {
+      "sl": 14.0,
+      "tp": 28.0,
+      "lb": 14,
+      "dist": 10.0,
+      "wick": 0.45,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 18,
+    "is_pips": 163.6,
+    "is_return": 11.7,
+    "is_pf": 2.4,
+    "is_wr": 55.6,
+    "oos_trades": 23,
+    "oos_net_pips": 220.6,
+    "oos_ann_pips": 127.5,
+    "oos_ann_ret": 9.1,
+    "oos_pf": 2.6,
+    "oos_wr": 56.5
+  },
+  {
+    "id": "AUDCAD_H4Retest_SL14_TP28_LB14_D8.0_W35",
+    "params": {
+      "sl": 14.0,
+      "tp": 28.0,
+      "lb": 14,
+      "dist": 8.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 16,
+    "is_pips": 162.7,
+    "is_return": 11.6,
+    "is_pf": 2.8,
+    "is_wr": 56.2,
+    "oos_trades": 28,
+    "oos_net_pips": 237.4,
+    "oos_ann_pips": 137.2,
+    "oos_ann_ret": 9.8,
+    "oos_pf": 2.33,
+    "oos_wr": 53.6
+  }
+]

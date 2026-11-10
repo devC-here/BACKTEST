@@ -1,0 +1,596 @@
+{
+  "1": {
+    "sl_method": "BREAKER_BOUNDARY",
+    "sl_desc": "Breaker Block Zone Boundary (+2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit immediately if candle closes back across the Breaker Block boundary",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "H1 Candle body closes inside the opposing breaker block"
+  },
+  "2": {
+    "sl_method": "DAILY_OB_MIDPOINT",
+    "sl_desc": "Daily Order Block Midpoint (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the Daily chart major liquidity pool; exit when reached",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Price closes beyond the 50% midpoint of the Daily Order Block"
+  },
+  "3": {
+    "sl_method": "FVG_MID_CANDLE",
+    "sl_desc": "London Killzone FVG Middle Candle Extreme (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the 50% Equilibrium retest of London Killzone FVG",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Candle closes outside the London FVG range"
+  },
+  "4": {
+    "sl_method": "SWEEP_WICK_EXTREME",
+    "sl_desc": "Highest/Lowest Wick of Breakout Sweep Candle (+2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit trade if price reclaims and closes beyond the 4H sweep level",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Price fails to reverse back into the 4H range within 2 candles"
+  },
+  "5": {
+    "sl_method": "DEMAND_ZONE_LOW",
+    "sl_desc": "Below Institutional Demand Zone Boundary (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit if candle penetrates and closes below the Demand Zone",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Demand zone fails to hold and prints close below boundary"
+  },
+  "6": {
+    "sl_method": "FIB_0786_EXTREME",
+    "sl_desc": "Beyond Macro 0.786 Fibonacci Boundary (+2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Strict invalidation exit if candle closes beyond the 0.786 Fib level",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Candle close beyond 0.786 Fibonacci golden retracement level"
+  },
+  "7": {
+    "sl_method": "TRAILING_SWING_LOW",
+    "sl_desc": "Most Recent Swing Low before Trendline Break (-2.0p buffer)",
+    "st_type": "DYNAMIC_TRAILING_STOP",
+    "st_exit_condition": "No fixed target. Trail Stop Loss under each newly formed higher swing low until trend breaks",
+    "target_rr": 2.5,
+    "rr_str": "1:2.5 (Trailing)",
+    "invalidation": "H1 candle closes below the preceding swing low"
+  },
+  "8": {
+    "sl_method": "DEMAND_ZONE_LOW",
+    "sl_desc": "Below 8 EMA Demand Zone Boundary (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit trade when candle crosses and closes below the 8 EMA line",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Big green candle momentum broken below 8 EMA"
+  },
+  "9": {
+    "sl_method": "SWING_EXTREME",
+    "sl_desc": "Beyond Recent Swing High/Low Structure (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit if momentum fails to sustain beyond the swing breakout level",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Price drops back below breakout level"
+  },
+  "10": {
+    "sl_method": "ATR_2X",
+    "sl_desc": "Exactly 2.0x ATR(14) Volatility Buffer",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit trade if price closes below the 20 EMA after macro pullback",
+    "target_rr": 2.5,
+    "rr_str": "1:2.5",
+    "invalidation": "Price closes back below 200 EMA"
+  },
+  "11": {
+    "sl_method": "ENGULFING_LOW",
+    "sl_desc": "Below 50 EMA Engulfing Rejection Candle Low (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the next major resistance or rejection candle level",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Candle closes below 50 EMA line"
+  },
+  "12": {
+    "sl_method": "ALERT_CANDLE_EXTREME",
+    "sl_desc": "Previous Alert Candle Extreme Wick (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Fixed 1:3.0 RR target; early exit if candle closes back across 5 EMA",
+    "target_rr": 3.0,
+    "rr_str": "1:3.0",
+    "invalidation": "Next candle fails to trigger within alert candle range"
+  },
+  "13": {
+    "sl_method": "EMA_10_LINE",
+    "sl_desc": "10 EMA Dynamic Support Line (-1.5p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit trade immediately when candle closes below the 10 EMA line",
+    "target_rr": 3.5,
+    "rr_str": "1:3.5 (Runner)",
+    "invalidation": "Candle closes below 10 EMA"
+  },
+  "14": {
+    "sl_method": "INSIDE_BAR_LOW",
+    "sl_desc": "One Notch Below Inside Bar Candle Low (-1.5p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Target 1:2.5 RR; invalidation exit if price closes back below 10 EMA",
+    "target_rr": 2.5,
+    "rr_str": "1:2.5",
+    "invalidation": "Breakout of mother candle high fails and reverses below inside bar"
+  },
+  "15": {
+    "sl_method": "SWING_EXTREME",
+    "sl_desc": "Beyond Recent Pullback Swing Low (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit when reversal candle momentum fails",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Price closes below pullback swing low"
+  },
+  "16": {
+    "sl_method": "STOCH_SWING_LOW",
+    "sl_desc": "Recent Swing Low Formed in Stochastic Oversold (<20) (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit when Stochastic %K crosses below %D from Overbought (>80)",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Price closes below 200 EMA"
+  },
+  "17": {
+    "sl_method": "SWING_LOW_200_SMA",
+    "sl_desc": "Recent Swing Low below 200 SMA (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "No fixed target. Exit when RSI(10) crosses above 70 or price breaks 200 SMA",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0 (Dynamic)",
+    "invalidation": "Price closes below 200 SMA"
+  },
+  "18": {
+    "sl_method": "KEY_LEVEL_SWING_LOW",
+    "sl_desc": "Recent Swing Low at Key Support Level (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit 50% partial at 1:1 RR and move SL to BE; full exit when MACD 1H histogram flips color",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "MACD histogram fails to confirm green flip"
+  },
+  "19": {
+    "sl_method": "SWING_EXTREME",
+    "sl_desc": "Recent Swing Extreme Structure (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit on momentum exhaustion",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Price closes below swing low"
+  },
+  "20": {
+    "sl_method": "ALERT_CANDLE_EXTREME",
+    "sl_desc": "Extreme Wick of Alert Candle outside Bollinger Band (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the Opposite Bollinger Band; minimum 1:4.0 RR",
+    "target_rr": 4.0,
+    "rr_str": "1:4.0",
+    "invalidation": "Candle closes further outside the outer Bollinger Band"
+  },
+  "21": {
+    "sl_method": "CPR_BC_PIVOT",
+    "sl_desc": "Below Bottom Central Pivot (BC) Line (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the Top Central Pivot (TC) and Resistance 1 (R1)",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "RSI fails to hold reversal boundary"
+  },
+  "22": {
+    "sl_method": "CAMARILLA_R3",
+    "sl_desc": "Camarilla R3 Pivot Line (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the Camarilla R4 Breakout Expansion Level",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Price drops back below Camarilla R3 pivot"
+  },
+  "23": {
+    "sl_method": "CPR_R1_PDH",
+    "sl_desc": "Below both CPR R1 and Previous Day High (PDH) (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "TP1 at 50% midpoint between R1 and R2; TP2 at full R2 level",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Price closes below Previous Day High"
+  },
+  "24": {
+    "sl_method": "SUPERTREND_LINE",
+    "sl_desc": "Live Supertrend (7, 2.5) Line (trails continuously with trend)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit trade ONLY when Supertrend flips color from Green to Red (or Red to Green)",
+    "target_rr": 2.5,
+    "rr_str": "1:2.5 (Trailing)",
+    "invalidation": "Supertrend flips direction before entry confirmation"
+  },
+  "25": {
+    "sl_method": "UT_BOT_STOP",
+    "sl_desc": "UT Bot ATR Trailing Stop Line",
+    "st_type": "DYNAMIC_TRAILING_STOP",
+    "st_exit_condition": "No fixed target. Exit trade when price closes across the UT Bot trailing stop line",
+    "target_rr": 2.5,
+    "rr_str": "1:2.5 (Trailing)",
+    "invalidation": "Price crosses UT stop line"
+  },
+  "26": {
+    "sl_method": "SMA_50_LINE",
+    "sl_desc": "SMA 50 Dynamic Support Line (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the major H4 Resistance level marked on the 4H chart",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Price closes below SMA 50 line"
+  },
+  "27": {
+    "sl_method": "SWING_EXTREME",
+    "sl_desc": "Recent Swing Extreme Structure (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit on indicator exhaustion",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Price closes below swing low"
+  },
+  "28": {
+    "sl_method": "CHANDELIER_STOP",
+    "sl_desc": "Chandelier Exit (22, 3) Stop Line or Recent Swing Low",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit trade when candle closes across the 32 ZLSMA or Chandelier flips",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Candle closes below 32 ZLSMA"
+  },
+  "29": {
+    "sl_method": "DEMAND_WICK_LOW",
+    "sl_desc": "Lowest Low of Candle that Formed the Demand Zone (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the next major overhead supply / resistance zone",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Demand zone low is breached and closed below"
+  },
+  "30": {
+    "sl_method": "FVG_ZONE_LOW",
+    "sl_desc": "Fair Value Gap (FVG) Zone Low (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Conservative 1:3.0 RR target; invalidation exit if candle closes below FVG",
+    "target_rr": 3.0,
+    "rr_str": "1:3.0",
+    "invalidation": "Candle body closes outside the FVG zone"
+  },
+  "31": {
+    "sl_method": "DEMAND_BASE_LOW",
+    "sl_desc": "Base of Pre-Expansion Demand Candle (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the recent major swing high liquidity pool",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Demand base candle low is violated"
+  },
+  "32": {
+    "sl_method": "FIB_71_EXTREME",
+    "sl_desc": "Extreme Boundary of 71% Fibonacci Zone (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the Fibonacci extension extreme (1:2.0 RR minimum)",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Candle close beyond 78.6% Fib extension"
+  },
+  "33": {
+    "sl_method": "RETEST_CANDLE_LOW",
+    "sl_desc": "Low of Retest Candle on Breakout Level (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Target 1:2.5 RR; invalidation exit if price closes back inside breakout zone",
+    "target_rr": 2.5,
+    "rr_str": "1:2.5",
+    "invalidation": "Price closes back inside horizontal consolidation"
+  },
+  "34": {
+    "sl_method": "HEIKIN_PULLBACK_LOW",
+    "sl_desc": "Recent Swing Low formed during Heikin Ashi Pullback (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the next major H4/H1 resistance level",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Heikin Ashi candles turn red and close below swing low"
+  },
+  "35": {
+    "sl_method": "SWING_LOW_TRENDLINE",
+    "sl_desc": "Swing Low of Pullback Trendline (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit trade immediately when candle closes below the Bollinger Band Middle Line (SMA 20)",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "RSI drops below 40 during pullback"
+  },
+  "36": {
+    "sl_method": "ENTRY_CANDLE_LOW",
+    "sl_desc": "Low of Entry Candle above 7 EMA (-2.0p buffer)",
+    "st_type": "DYNAMIC_TRAILING_STOP",
+    "st_exit_condition": "Dynamic runner: trail SL along the 7 EMA line as long as candle stays above 7 EMA",
+    "target_rr": 2.5,
+    "rr_str": "1:2.5 (Trailing)",
+    "invalidation": "Candle closes below 7 EMA"
+  },
+  "37": {
+    "sl_method": "ENGULFING_LOW",
+    "sl_desc": "Low of Engulfing Rejection Candle at 50 EMA (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the next major resistance or rejection candle level",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Price closes below 50 EMA"
+  },
+  "38": {
+    "sl_method": "EXHAUSTION_LOWEST_WICK",
+    "sl_desc": "Lowest Wick of Exhaustion Support Zone (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the next major overhead resistance level",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Lowest wick support is broken by full candle body"
+  },
+  "39": {
+    "sl_method": "PREV_TRENDLINE_ANCHOR",
+    "sl_desc": "Anchor Level of Previous Trendline Touch (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the next S/R level or trailing stop along trendline",
+    "target_rr": 2.5,
+    "rr_str": "1:2.5",
+    "invalidation": "Price breaks trendline back to downside"
+  },
+  "40": {
+    "sl_method": "BREAKOUT_CANDLE_LOW",
+    "sl_desc": "2 to 3 points below Breakout Candle Low (-2.5p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Target 1:2.0 RR; exit trade if candle closes below 21 EMA",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Candle closes below 21 EMA line"
+  },
+  "42": {
+    "sl_method": "SUPERTREND_LINE",
+    "sl_desc": "Supertrend Line Value (trails continuously with trend)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "No fixed target. Exit when Supertrend issues opposite sell signal or candle crosses 200 DEMA",
+    "target_rr": 2.5,
+    "rr_str": "1:2.5 (Trailing)",
+    "invalidation": "Price closes below 200 DEMA"
+  },
+  "43": {
+    "sl_method": "HALFTREND_LINE",
+    "sl_desc": "HalfTrend Support Line",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit trade when candle crosses HalfTrend line in opposite direction",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "HalfTrend line flips color"
+  },
+  "44": {
+    "sl_method": "SANDWICH_CANDLE1_LOW",
+    "sl_desc": "Low of First Momentum Candle in Sandwich Pattern (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Fixed 1:2.0 RR target; invalidation exit if third candle fails to hold Doji high",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Third candle fails to close beyond Doji high"
+  },
+  "45": {
+    "sl_method": "CONFLUENCE_SWING_LOW",
+    "sl_desc": "Swing Low of Confluence Trigger (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit 50% partial at 1:1 RR; full exit when 1H MACD histogram flips opposite color",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "MACD 1H histogram flips red"
+  },
+  "46": {
+    "sl_method": "FIRST_SWEEP_LOW",
+    "sl_desc": "Low of First Liquidity Sweep (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the Higher Timeframe swing high where the initial selloff originated",
+    "target_rr": 2.5,
+    "rr_str": "1:2.5",
+    "invalidation": "Second sweep candle fails to close back inside range"
+  },
+  "47": {
+    "sl_method": "DAILY_OB_MIDPOINT",
+    "sl_desc": "Midpoint of Daily Order Block (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the Daily chart major liquidity level",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Candle closes beyond 50% midpoint of Daily OB"
+  },
+  "48": {
+    "sl_method": "FVG_MID_CANDLE_LOW",
+    "sl_desc": "Low of Middle Candle of Fair Value Gap (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Target dynamic; invalidation exit if Doji fails to reject 50% FVG level",
+    "target_rr": 2.5,
+    "rr_str": "1:2.5",
+    "invalidation": "Price closes below FVG 50% equilibrium level"
+  },
+  "49": {
+    "sl_method": "HAMMER_50_EMA_LOW",
+    "sl_desc": "Low of Hammer/Rejection Candle at 50 EMA (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is just before the previous major swing high structure",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Price closes below 50 EMA"
+  },
+  "50": {
+    "sl_method": "RSI_PULLBACK_LOW",
+    "sl_desc": "Low of Pullback where RSI reclaimed 30 (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the previous swing high structure",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "RSI drops back below 30"
+  },
+  "51": {
+    "sl_method": "HALFTREND_SUPPORT",
+    "sl_desc": "HalfTrend Indicator Support Line",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit when HalfTrend flips color or DMI DI- crosses DI+",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "HalfTrend line changes color"
+  },
+  "52": {
+    "sl_method": "TRAP_CANDLE_LOW",
+    "sl_desc": "Low of Fake Breakout / Trap Candle (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "TP1 at 1:1 RR initial partial; runner target to opposite weekly range boundary",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Price breaks trap candle low"
+  },
+  "53": {
+    "sl_method": "CONFIRM_CANDLE_HIGH",
+    "sl_desc": "High of Red Confirmation Candle (+2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the next major support level",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Green candle closes above red confirmation high"
+  },
+  "54": {
+    "sl_method": "RENKO_2_BRICKS",
+    "sl_desc": "Exactly 2 Renko Bricks below Entry (-2.0p buffer)",
+    "st_type": "DYNAMIC_TRAILING_STOP",
+    "st_exit_condition": "Move SL to Breakeven after 3 bricks profit; then trail SL until a brick closes below 10 SMA",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0 (Trailing)",
+    "invalidation": "Brick closes in opposite direction"
+  },
+  "55": {
+    "sl_method": "PRE_LONDON_SWING_HIGH",
+    "sl_desc": "Recent Swing High above Pre-London Session Range (+2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Fixed 1:2.0 RR target; invalidation exit if price re-enters Asian range",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Price closes back inside Asian consolidation"
+  },
+  "56": {
+    "sl_method": "ALLIGATOR_TEETH",
+    "sl_desc": "Alligator Teeth (Red SMA 8 line of median price)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "No fixed SL/TP. Exit trade immediately when a candle closes across the Red line (Alligator Teeth)",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0 (Dynamic)",
+    "invalidation": "Alligator lips cross teeth in opposite direction"
+  },
+  "57": {
+    "sl_method": "MANIPULATION_WICK",
+    "sl_desc": "London Manipulation Extreme Wick (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the Asian Session / Previous Day High liquidity level",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Price breaches London manipulation extreme"
+  },
+  "60": {
+    "sl_method": "FVG_ZONE_LOW",
+    "sl_desc": "Below Fair Value Gap Zone Low (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Target 1:3.0 RR; invalidation exit if retest candle body closes outside FVG",
+    "target_rr": 3.0,
+    "rr_str": "1:3.0",
+    "invalidation": "Retest candle body closes outside the FVG"
+  },
+  "61": {
+    "sl_method": "SWING_LOW",
+    "sl_desc": "Recent Swing Low Structure (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "No fixed target. Exit immediately if RSI(14) drops below 40 or breaks recent swing low",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0 (Dynamic)",
+    "invalidation": "RSI(14) falls below 40.0"
+  },
+  "62": {
+    "sl_method": "IMBALANCE_BOUNDARY",
+    "sl_desc": "Beyond Imbalance Zone Boundary (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the next major demand/supply liquidity zone",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Imbalance zone fully invalidated by strong candle close"
+  },
+  "64": {
+    "sl_method": "PULLBACK_RETEST_LOW",
+    "sl_desc": "Low of Pullback Retest Candle into Breaker Block (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the previous swing high liquidity pool",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Price closes back inside origin Order Block"
+  },
+  "65": {
+    "sl_method": "DOUBLE_BOTTOM_LOW",
+    "sl_desc": "Lowest Low of Double Bottom Formation (-2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the previous 4H swing high structure",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Double bottom lowest low is breached"
+  },
+  "66": {
+    "sl_method": "BOUNCE_CANDLE_LOW",
+    "sl_desc": "Low of Bounce Candle Rejecting 44 MA (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Target 1:2.5 RR; invalidation exit if candle closes below 44 MA",
+    "target_rr": 2.5,
+    "rr_str": "1:2.5",
+    "invalidation": "Price closes below 44 MA"
+  },
+  "67": {
+    "sl_method": "VWAP_BREAKOUT_HIGH",
+    "sl_desc": "High of Candle that broke the VWAP Line (+2.0p buffer)",
+    "st_type": "DYNAMIC_STRUCTURAL_TARGET",
+    "st_exit_condition": "Target is the Previous Day Low (PDL) session liquidity pool; 1:4.0 RR",
+    "target_rr": 4.0,
+    "rr_str": "1:4.0",
+    "invalidation": "Candle closes back above session VWAP"
+  },
+  "68": {
+    "sl_method": "TRAUMA_BASELINE",
+    "sl_desc": "TRAUMA (Trend Allocation Moving Average) Baseline Value",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Exit trade immediately when price closes below the TRAUMA baseline (trend terminated)",
+    "target_rr": 2.5,
+    "rr_str": "1:2.5 (Trailing)",
+    "invalidation": "Price closes across TRAUMA line"
+  },
+  "69": {
+    "sl_method": "HAMMER_ENGULFING_LOW",
+    "sl_desc": "Low of Hammer or Bullish Engulfing Candle (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Target 1:2.5 RR; invalidation exit if price re-enters pre-breakout range",
+    "target_rr": 2.5,
+    "rr_str": "1:2.5",
+    "invalidation": "Price drops below hammer candle low"
+  },
+  "70": {
+    "sl_method": "PULLBACK_SWING_LOW",
+    "sl_desc": "Swing Low formed during Pullback into FVG (-2.0p buffer)",
+    "st_type": "DYNAMIC_INDICATOR_EXIT",
+    "st_exit_condition": "Fixed 1:2.0 RR target; invalidation exit if candle body closes below H4 FVG",
+    "target_rr": 2.0,
+    "rr_str": "1:2.0",
+    "invalidation": "Candle body closes outside H4 FVG"
+  }
+}

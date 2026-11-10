@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Pytest / Unit Testing caches
+.pytest_cache/
+.coverage
+htmlcov/
+.cache
+
+# Heavy Raw Tick Data & Pre-computed Binary Caches (50GB+ Dukascopy feeds)
+data/
+tick_engine/data/
+weekly_data/
+*.npy
+*.csv.gz
+
+# Ignore large raw CSV datasets inside archives
+archive_deprecated/**/scratch_archive/*.csv
+archive_deprecated/**/eurusd_1y_data/*.csv
+archive_deprecated/**/*.csv
+
+# Credentials & Secrets (Never track server IPs, SSH keys, or API tokens)
+*CREDENTIAL*
+*credential*
+*.key
+*.pem
+*.env
+*.env.*
+*.secret
+docs/AZURE_VM_CREDENTIALS.md
+
+# Temporary / Scratch files & Logs
+scratch/
+tools/scan_for_secrets.py
+*.log
+*.tmp
+
+# Explicitly Preserve Certified Fleet Manifests, JSONs, and Trade CSVs
+!results/certified_strategy_manifests/*.csv
+!results/certified_strategy_manifests/*.json
+!certified_production_fleet/**/*.json
+!certified_production_fleet/**/*.md
+!data_splits/*.json
+

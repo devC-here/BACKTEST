@@ -1,0 +1,14 @@
+{
+  "total_expansion_sessions": 161,
+  "wick_presence_rate": 77.63975155279503,
+  "med_bull_wick": 4.900000000001015,
+  "med_bear_wick": 5.0000000000005596,
+  "vwap_touches": 2995,
+  "vwap_reversion_rate": 30.51752921535893,
+  "vwap_reversion_median_bars": 6.0,
+  "accel_events": 1020,
+  "accel_exhaustion_rate": 52.254901960784316,
+  "sweep_events": 1877,
+  "sweep_win_rate_15r": 37.027171017581246,
+  "sweep_expectancy_15r": -0.07432072456046879
+}

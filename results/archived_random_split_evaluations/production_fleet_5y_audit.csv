@@ -1,0 +1,8 @@
+strategy_id,strategy_name,train_trades,train_win_rate,train_net_pips,train_pf,train_max_dd,train_sharpe,train_win_wk_pct,gate1_status,test_trades,test_win_rate,test_net_pips,test_pf,test_max_dd,test_sharpe,test_win_wk_pct,sharpe_retention,gate2_status,total_5y_trades,total_5y_win_rate,total_5y_net_pips,total_5y_pf,total_5y_max_dd,total_5y_sharpe,final_qualification
+HF_M15,HighFrequency M15 Scalper Elite,1122,35.7,790.4,1.1,339.3,0.89,53.8,FAIL,781,35.6,965.5,1.19,361.5,1.74,60.4,1.96,FAIL,1903,35.7,1755.9,1.13,361.5,1.21,RESEARCH APPROVED
+V12_PRIME,Institutional Prime Sweep V12,87,17.2,-362.8,0.52,433.6,-1.38,9.0,FAIL,44,40.9,315.8,2.42,41.8,1.57,17.0,0.0,PASS,131,25.2,-47.0,0.95,433.6,-0.1,REJECTED
+S01_M15,S01 M15 Displacement Retest Elite,243,28.0,67.3,1.04,239.2,0.13,29.5,FAIL,182,26.9,97.7,1.07,321.5,0.32,34.9,2.51,FAIL,425,27.5,165.0,1.05,382.2,0.2,RESEARCH APPROVED
+S10_EMA,S10 Dual EMA Pullback Elite,93,29.0,161.9,1.14,158.7,0.31,17.3,FAIL,83,37.3,641.7,1.69,153.7,1.44,29.2,4.67,PASS,176,33.0,803.6,1.38,158.7,0.82,RESEARCH APPROVED
+S14_IB,S14 Inside Bar M30 Elite,94,36.2,325.4,1.36,159.0,0.76,21.8,FAIL,77,37.7,391.9,1.58,123.4,1.24,27.4,1.63,PASS,171,36.8,717.3,1.45,159.0,0.96,RESEARCH APPROVED
+S34_HA,S34 Heikin Ashi Momentum Elite,138,27.5,84.9,1.06,328.1,0.16,24.4,FAIL,97,34.0,420.4,1.43,314.6,1.1,31.1,6.76,PASS,235,30.2,505.3,1.2,328.1,0.56,RESEARCH APPROVED
+S66_44MA,S66 Bhanushali 44 MA Elite,67,44.8,785.6,2.26,142.6,1.65,19.2,FAIL,56,35.7,368.3,1.58,221.0,1.04,18.9,0.63,FAIL,123,40.7,1153.9,1.92,221.0,1.38,RESEARCH APPROVED

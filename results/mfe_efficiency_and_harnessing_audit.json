@@ -1,0 +1,19 @@
+{
+  "sample_wins": 181,
+  "sample_losses": 140,
+  "avg_win_mfe_pips": 30.8,
+  "avg_win_realized_pips": 29.0,
+  "win_mfe_capture_efficiency_pct": 93.5,
+  "pinpoint_exit_rate_pct": 27.6,
+  "avg_post_exit_continuation_12h_pips": 22.0,
+  "avg_loss_realized_pips": -15.1,
+  "avg_loss_mfe_before_sl_pips": 7.6,
+  "loss_mfe_ge_5p_pct": 42.1,
+  "loss_mfe_ge_10p_pct": 27.1,
+  "loss_mfe_ge_15p_pct": 19.3,
+  "est_90w_gross_adr_pips": 259865.9,
+  "est_90w_directional_displacement_pips": 124139.7,
+  "fleet_gross_win_pips": 95115.3,
+  "portfolio_banked_pips": 18109.7,
+  "net_directional_extraction_pct": 14.59
+}

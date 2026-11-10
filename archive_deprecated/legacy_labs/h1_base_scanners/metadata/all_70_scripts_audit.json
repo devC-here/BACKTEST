@@ -1,0 +1,2079 @@
+[
+  {
+    "num": 1,
+    "code_name": "ict_breaker",
+    "script_file": "forex_ict_breaker_block_scanner.py",
+    "video_id": "B-Y_5S0kVpQ",
+    "short_title": "ICT Breaker Block Algo Backtest — Most Traders Miss This Setup",
+    "desc_sl": [
+      "ICT yaani Inner Circle Trader concepts mein ek aisi strategy hai jo bahut kam traders jaante hain aur isliye iska fayda nahi utha paate. Maine is strategy ka Python pe algo bana ke broker ki API se data liya aur ek saal ka backtest kiya.",
+      "✅ Stop-Loss: Breaker Block zone ke thoda upar"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/B-Y_5S0kVpQ",
+      "✅ Target: Fixed 1:2 Risk Reward (koi partial exits nahi, koi trailing nahi)"
+    ],
+    "desc_rr": [
+      "✅ Target: Fixed 1:2 Risk Reward (koi partial exits nahi, koi trailing nahi)"
+    ],
+    "transcript_snippet": "आईसीटी यानी इनर सर्कल ट्रेडर कांसेप्ट्स की वह सीक्रेट स्ट्रेटजी जो बहुत कम ट्रेडर्स जानते हैं इसीलिए फायदा नहीं उठा पाते। आज मैं उसी स्ट्रेटजी को आपके",
+    "code_sl": [
+      "sl = zone_top + (2.5 * PIP_SIZE)",
+      "sl = zone_bot - (2.5 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry - (risk * RISK_REWARD_RATIO)",
+      "tp = entry + (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0           # 1:2 Risk-to-Reward",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry - (risk * RISK_REWARD_RATIO)",
+      "tp = entry + (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 2,
+    "code_name": "ict_order_block",
+    "script_file": "forex_ict_order_block_scanner.py",
+    "video_id": "4W3SUtxl0u8",
+    "short_title": "ICT Order Block Strategy Backtested — 74% Return in 1 Year",
+    "desc_sl": [
+      "✅ Stop-Loss: Daily OB midpoint se thoda neeche",
+      "Automation ya backtesting ke liye 1-1 video session book karna chahte ho? Telegram ya Instagram pe \"Session\" message karo. Video session chargeable hai -- session pe sab kuch discuss aur finalise hoga quickly. Hazaaron enquiries ki wajah se genuine requirements waale reh jaate the, isliye ab yeh process hai."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/4W3SUtxl0u8",
+      "✅ Target: Daily chart ka major liquidity level"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "इनर सर्कल ट्रेडर सेटअप सिखाने वाले बहुत हैं। पर कोई इन्हें प्रॉपर्ली बैक टेस्ट करके नहीं दिखाता। क्योंकि मुझे 100 से ज्यादा रिक्वेस्ट आई थी कि एमएस ट्",
+    "code_sl": [
+      "sl = invalidation - (2.0 * PIP_SIZE)",
+      "sl = invalidation + (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0           # 1:2 Risk-to-Reward",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 3,
+    "code_name": "tg_capital_london",
+    "script_file": "indicator_tg_capital_london_fvg_scanner.py",
+    "video_id": "_bdNNLDEyOU",
+    "short_title": "London Session Ka Yeh Setup — Prop Trader Ka Secret?",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/_bdNNLDEyOU"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "सिर्फ 3 महीनों में $ लाख का प्रॉफ पे आउट लेने वाले टीजी कैपिटल यानी टाइलर गोटेल जो फुल टाइम फ्यूचर्स ट्रेडर हैं। आज मैं इनकी उस स्ट्रेटजी का एल्गो से ",
+    "code_sl": [
+      "sl = bull_fvg[2] - (2.0 * PIP_SIZE)",
+      "sl = bear_fvg[2] + (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.5",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 4,
+    "code_name": "william_fractal",
+    "script_file": "forex_william_fractal_scanner.py",
+    "video_id": "_0d1qw3p-wQ",
+    "short_title": "William Fractal Scalping — I Algo Backtested Neeraj Joshi's Claim",
+    "desc_sl": [
+      "✅ Stop-Loss: Breakout ke baad jo highest wick bani uske thoda upar"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/_0d1qw3p-wQ",
+      "✅ Target: Fixed 1:2 Risk Reward"
+    ],
+    "desc_rr": [
+      "✅ Target: Fixed 1:2 Risk Reward"
+    ],
+    "transcript_snippet": "नीरज जोशी जिनके 5.16 मिलियन YouTube पे और 3,70,000 फॉलोवर्स हैं Instagram पे। उन्होंने शेयर की है अपनी एक ऐसी स्ट्रेटजी जिसप उनको बहुत कॉन्फिडेंस है क",
+    "code_sl": [
+      "sl = highest_wick + (2.0 * PIP_SIZE)",
+      "sl = lowest_wick - (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry - (risk * RISK_REWARD_RATIO)",
+      "tp = entry + (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0           # 1:2 Risk-to-Reward",
+      "print(f\" Risk/Reward:     1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry - (risk * RISK_REWARD_RATIO)",
+      "tp = entry + (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 5,
+    "code_name": "slc_supply_demand",
+    "script_file": "forex_slc_supply_demand_scanner.py",
+    "video_id": "snzJ4zWZXno",
+    "short_title": "Why Traders Lose on Supply Demand — SLC Strategy Algo Backtest",
+    "desc_sl": [
+      "Demand supply pe bahut traders position lete hain lekin loss phir bhi hota hai. Kyunki akela zone kuch nahi karta. Iske saath poora process chahiye -- yahi SLC framework karta hai.",
+      "✅ Stop-Loss: Demand Zone ke thoda neeche",
+      "Step-by-step strategy PDF chahiye? Comment mein \"SLC\" likho.",
+      "#slcstrategy #supplyanddemand #demandzone #stochasticindicator #technicalanalysis #daytrading #scalping #intraday #indianstockmarket #nifty50 #backtesting #automatedtrading #quanttrading #algotrader #priceaction"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/snzJ4zWZXno",
+      "✅ Target: 1:2 Risk Reward fixed"
+    ],
+    "desc_rr": [
+      "✅ Target: 1:2 Risk Reward fixed"
+    ],
+    "transcript_snippet": "डिमांड सप्लाई ज़ोंस में बहुत ट्रेडर्स पोजीशन लेते हैं, लेकिन फिर भी लॉस करते हैं। यह इसलिए क्योंकि अकेला ज़ोन कुछ नहीं करता। आपको चाहिए पूरा प्रोसेस जिस",
+    "code_sl": [
+      "sl = zone_bot - (2.0 * PIP_SIZE)",
+      "sl = zone_top + (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0           # 1:2 Risk-to-Reward",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 6,
+    "code_name": "fibonacci_golden",
+    "script_file": "indicator_fibonacci_golden_zone_scanner.py",
+    "video_id": "epI1Clb4r54",
+    "short_title": "Why 90% of Retail Traders Use Fibonacci Wrong! (Golden Phantom Zone Algo Backtest)",
+    "desc_sl": [
+      "Risk Management Guidelines: Placing strict protective stop loss limits right above the macro 0.786 Fibonacci boundary and configuring execution targets at a fixed 1:2 risk-reward distribution."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/epI1Clb4r54",
+      "Risk Management Guidelines: Placing strict protective stop loss limits right above the macro 0.786 Fibonacci boundary and configuring execution targets at a fixed 1:2 risk-reward distribution."
+    ],
+    "desc_rr": [
+      "Risk Management Guidelines: Placing strict protective stop loss limits right above the macro 0.786 Fibonacci boundary and configuring execution targets at a fixed 1:2 risk-reward distribution."
+    ],
+    "transcript_snippet": "एक ऐसा फिबोनाची ज़ोन जिसे 90% रिटेल ट्रेडर्स गलत यूज करते हैं और इसी वजह से उनके स्टॉप लॉस हिट हो जाते हैं। नाम है गोल्डन फटम ज़ोन जहां इंस्टीटशंस चुपके",
+    "code_sl": [
+      "sl = fib_786 - (2.0 * PIP_SIZE)",
+      "sl = fib_786 + (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 7,
+    "code_name": "stockburner_tl",
+    "script_file": "indicator_stockburner_trendline_scanner.py",
+    "video_id": "Q2EyAXyrcV0",
+    "short_title": "Stock Burner's 1:33 RR Claim — I Algo Backtested It on 1 Lakh",
+    "desc_sl": [
+      "✅ Stop-Loss: Neeche wale swing low ke thoda neeche",
+      "✅ Target fixed nahi. Jab tak trend chale, SL trail karte jao har naye swing low ke neeche"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/Q2EyAXyrcV0",
+      "✅ Target fixed nahi. Jab tak trend chale, SL trail karte jao har naye swing low ke neeche"
+    ],
+    "desc_rr": [
+      "Stock Burner ke 1.27M YouTube subscribers aur 1.5M Instagram followers hain. Unhone 2026 ke liye ek strategy share ki jisme 1:20 aur 1:33 tak ke risk reward ka claim hai. Maine Python pe algo bana ke broker ki API se data liya aur yeh claim test kiya."
+    ],
+    "transcript_snippet": "यह हैं स्टॉक बर्नर जिनके 1.27 मिलियन YouTube पे और 1.5 मिलियन फॉलोवर्स हैं Instagram पे। इन्होंने 2026 के लिए एक स्ट्रेटजी शेयर की है अपने चैनल पे जिस",
+    "code_sl": [
+      "sl = recent_low - (2.0 * PIP_SIZE)",
+      "sl = recent_high + (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.5",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 8,
+    "code_name": "smart_money_gold",
+    "script_file": "indicator_smart_money_gold_scanner.py",
+    "video_id": "zBvUf9v4EtU",
+    "short_title": "Gold Trading Strategy in Hindi | 63.8% Return Backtest #Shorts",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/zBvUf9v4EtU"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "जब गोल्ड के रेट नीचे गिर रहे थे तो स्मार्ट मनी ने इस गोल्ड स्ट्रेटजी से खूब पैसा बनाया। तो आज मैं आपको वही गोल्ड स्ट्रेटजी सिखाऊंगा जो ट्रेंडिंग और सा",
+    "code_sl": [
+      "sl = z_bot - (4.0 * PIP_SIZE)",
+      "sl = z_top + (4.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 9,
+    "code_name": "833_ema",
+    "script_file": "forex_833_ema_scanner.py",
+    "video_id": "FaHKCazt49A",
+    "short_title": "833 EMA Strategy Algo Backtest — Does Wizard Trader's Claim Hold?",
+    "desc_sl": [
+      "✅ 5M chart pe EMA 8 (fast) aur EMA 33 (slow) lagao",
+      "✅ Stop-Loss: Recent swing low ke thoda neeche"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/FaHKCazt49A",
+      "✅ Target: Agle major resistance zone tak"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "विजिट ट्रेडर जिनके 7.92 लैस YouTube पे और 3.52 लैक्स फॉलोवर्स हैं Instagram पे। इनकी 833 नाम की ये स्ट्रेटजी है जिसे खुद यूज करते हैं। बहुत सिंपल और ब",
+    "code_sl": [
+      "sl = recent_low - (2.0 * PIP_SIZE)",
+      "sl = recent_high + (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0           # 1:2 Risk-to-Reward",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 10,
+    "code_name": "20_200_ema",
+    "script_file": "forex_20_200_ema_scanner.py",
+    "video_id": "R7kX_T4ZtNo",
+    "short_title": "This EMA Strategy Got 50%+ Return in Backtest — Full Breakdown",
+    "desc_sl": [
+      "Backtest results: 320 total trades, win rate 37.5%, profit factor 1.61, total return 52.8%, max drawdown -14.4% — bina brokerage/slippage cost ke."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/R7kX_T4ZtNo",
+      "Strategy ka core logic simple hai: EMA 20 aur EMA 200 ka combination, 5-minute timeframe pe. Jab price 200 EMA ke upar trade kare aur 20 EMA bhi 200 ke upar ho, sirf long trades plan karni hain. Price jab pullback dekar 20 EMA ke paas wapas close de, wahi entry trigger hai. Stoploss 2x ATR(14) pe, aur target 1:2 se 1:3 ke R-multiple pe rakha gaya hai. Short setup bilkul mirror logic follow karta hai, 200 EMA ke neeche."
+    ],
+    "desc_rr": [
+      "Strategy ka core logic simple hai: EMA 20 aur EMA 200 ka combination, 5-minute timeframe pe. Jab price 200 EMA ke upar trade kare aur 20 EMA bhi 200 ke upar ho, sirf long trades plan karni hain. Price jab pullback dekar 20 EMA ke paas wapas close de, wahi entry trigger hai. Stoploss 2x ATR(14) pe, aur target 1:2 se 1:3 ke R-multiple pe rakha gaya hai. Short setup bilkul mirror logic follow karta hai, 200 EMA ke neeche."
+    ],
+    "transcript_snippet": "धन ब्रोकर की इस मोस्ट पावरफुल मूविंग एवरेज स्ट्रेटजी को मैंने एल्गो से बैक टेस्ट किया। सिंपल लॉजिक है। 20 और 200 ईएमए लगाओ 5 मिनट चार्ट पे। जब प्राइस ",
+    "code_sl": [
+      "sl = entry - sl_dist",
+      "sl = entry + sl_dist"
+    ],
+    "code_tp": [
+      "tp = entry + (sl_dist * RISK_REWARD_RATIO)",
+      "tp = entry - (sl_dist * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0           # 1:2 Risk-to-Reward",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (sl_dist * RISK_REWARD_RATIO)",
+      "tp = entry - (sl_dist * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 11,
+    "code_name": "50_ema_rejection",
+    "script_file": "indicator_50_ema_rejection_scanner.py",
+    "video_id": "AKuM1cTgPks",
+    "short_title": "Banks Aur Prop Firms Ke Traders Ka Trainer — Uski 50 EMA Strategy Ka Algo Backtest | Ezekiel Chew",
+    "desc_sl": [
+      "SL: Engulfing candle ya red candle ka jo bhi neeche"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/AKuM1cTgPks",
+      "Target: Next resistance ya rejection level."
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "एज़िल क्यू वो बंदा जो बैंक्स, फंड हाउसेस और प्रोपराइटिटी फर्म्स के ट्रेडर्स को पर्सनली ट्रेन करता है। इनकी 50 ईएमए पुलबक स्ट्रेटजी क्रिप्टो फॉररेक्स स्",
+    "code_sl": [
+      "sl = rejection_bar['low'] - (2.0 * PIP_SIZE)",
+      "sl = rejection_bar['high'] + (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 12,
+    "code_name": "subasish_5_ema",
+    "script_file": "indicator_subasish_5_ema_scanner.py",
+    "video_id": "ttSbBzKmXyc",
+    "short_title": "Subasish Pani 5 EMA trading strategy exposed | 60-70% accuracy claim of scalping reversal strategy",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/ttSbBzKmXyc",
+      "So, we will go to trading view platform, we will take 5 minute timeframe chart for short selling, futures short, PE Buy or CE short trades, add 5 EMA indicator on it, and any candle which closes  above 5 EMA line and also the low of that candle doesn't touch the 5 EMA line, then that candle is called an Alert Candle, and any next candle which breakout of the 5 EMA line, then entry will be taken at  that breakout candle, Stoploss will be previous Alert Candle high and target will be decided by Risk: Reward ratio of 1:3.",
+      "Instagram page: https://www.instagram.com/algotrader.sahil?igsh=dnVjaGNpdTV2b2Vn",
+      "Youtube: https://www.youtube.com/@UnfilteredFinanceWithSahil"
+    ],
+    "desc_rr": [
+      "So, we will go to trading view platform, we will take 5 minute timeframe chart for short selling, futures short, PE Buy or CE short trades, add 5 EMA indicator on it, and any candle which closes  above 5 EMA line and also the low of that candle doesn't touch the 5 EMA line, then that candle is called an Alert Candle, and any next candle which breakout of the 5 EMA line, then entry will be taken at  that breakout candle, Stoploss will be previous Alert Candle high and target will be decided by Risk: Reward ratio of 1:3."
+    ],
+    "transcript_snippet": "करोड़ों में पैसा बना चुके हैं सुबशीष पानी अपनी ट्रेडिंग स्ट्रेटजी से। ऐसा इन्होंने काफी अपनी वीडियोस में बताया है। इनके 2 मिलियन से ज्यादा सब्सक्राइबर",
+    "code_sl": [
+      "sl = alert_bar_m5['high'] + (2.0 * PIP_SIZE)",
+      "sl = alert_bar_m15['low'] - (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry - (risk * RISK_REWARD_RATIO)",
+      "tp = entry + (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 3.0              # Fixed 1:3 RR",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry - (risk * RISK_REWARD_RATIO)",
+      "tp = entry + (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 13,
+    "code_name": "10_ema_anant_ladha",
+    "script_file": "indicator_10_ema_anant_ladha_scanner.py",
+    "video_id": "FYfQqZ3bM6g",
+    "short_title": "This 10 EMA Strategy Claims 1:10 Risk Reward — I Backtested It",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/FYfQqZ3bM6g",
+      "Stoploss fixed price pe nahi, balki 10 EMA line khud stoploss ka kaam karti hai. Trade tab tak chalta rahta hai jab tak koi candle 10 EMA ke neeche close na kare. Isi wajah se is strategy mein fixed target nahi hota — Anant Ladha ke mutabik isse 1:4, 1:5, aur kabhi kabhi 1:10 tak ka risk reward bhi mil sakta hai."
+    ],
+    "desc_rr": [
+      "Stoploss fixed price pe nahi, balki 10 EMA line khud stoploss ka kaam karti hai. Trade tab tak chalta rahta hai jab tak koi candle 10 EMA ke neeche close na kare. Isi wajah se is strategy mein fixed target nahi hota — Anant Ladha ke mutabik isse 1:4, 1:5, aur kabhi kabhi 1:10 tak ka risk reward bhi mil sakta hai.",
+      "Average Risk Reward: 1:3",
+      "Trading Strategy | Algo Trading | Backtest | 10 EMA Strategy | Intraday Trading | Swing Trading | Positional Trading | Nifty 50 | Stock Market India | Share Market | Technical Analysis | EMA Indicator | Trading for Beginners | Python Trading Bot | Risk Reward Ratio | Trend Following Strategy"
+    ],
+    "transcript_snippet": "एक ट्रेडिंग स्ट्रेटजी जो इंट्राडे स्विंग पोजीशनल सब में काम करती है और इक्विटी हो या इंडेक्स हर मार्केट पे चलती है। यह क्लेम है अनंत लादा का उनकी 10 ई",
+    "code_sl": [
+      "sl = min(alert_bar['low'], alert_bar['ema10']) - (2.0 * PIP_SIZE)",
+      "sl = max(alert_bar['high'], alert_bar['ema10']) + (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 3.0          # High RR trend runner (1:3 to 1:5)",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 14,
+    "code_name": "rayner_inside_bar",
+    "script_file": "indicator_rayner_teo_inside_bar_scanner.py",
+    "video_id": "r-0XAsrQR-I",
+    "short_title": "Rayner Teo Inside bar trading strategy backtested 1year which claims momentum capture with low risk",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/r-0XAsrQR-I",
+      "We will open daily timeframe chart of a liquid stock on trading view, put EMA 10 indicator on it, and when the price moves above EMA 10 indicator, then we will find inside bar candle which is a candle which easily fits inside high and low of the previous candle, thus it is called inside bar candle and the larger bar is called Mother candle. And, as soon as the breakout happens on high of the mother candle, we take BUY trade, with stoploss a notch below low of the inside bar candle and target decided by risk reward ratio of 1:2 to 1:3."
+    ],
+    "desc_rr": [
+      "We will open daily timeframe chart of a liquid stock on trading view, put EMA 10 indicator on it, and when the price moves above EMA 10 indicator, then we will find inside bar candle which is a candle which easily fits inside high and low of the previous candle, thus it is called inside bar candle and the larger bar is called Mother candle. And, as soon as the breakout happens on high of the mother candle, we take BUY trade, with stoploss a notch below low of the inside bar candle and target decided by risk reward ratio of 1:2 to 1:3."
+    ],
+    "transcript_snippet": "यह है रेना टीओ। यह ट्रेडिंग स्ट्रेटजीस और जनरली ट्रेडिंग पे काफी अच्छा कंटेंट डालते हैं। इनके 2 मिलियन से ज्यादा सब्सक्राइबर्स हैं। तो मैंने सोचा क्यो",
+    "code_sl": [
+      "sl = inside_bar['low'] - (2.0 * PIP_SIZE)",
+      "sl = inside_bar['high'] + (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.5",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 15,
+    "code_name": "8_20_ema_scalp",
+    "script_file": "indicator_8_20_ema_scalp_scanner.py",
+    "video_id": "uDGXfF1kjHI",
+    "short_title": "Making $4000 Daily with Just 2 Indicators? (VWAP + 8 EMA Strategy Algo Backtest)",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/uDGXfF1kjHI",
+      "Exit Criteria: No fixed target, hold the trend and exit instantly when any candle closes decisively below the 8 EMA."
+    ],
+    "desc_rr": [
+      "Managing drawdown and risk reward ratio in Nifty and Bank Nifty options buying"
+    ],
+    "transcript_snippet": "सिर्फ दो इंडिकेटर्स से $4000 रोज कमाता है यह ट्रेडर जिसके $3 लाख से ज्यादा फॉलोअर्स हैं YouTube और Insta में कंबाइंड। मैंने इसके इस क्लेम को एल्गो से ",
+    "code_sl": [
+      "sl = recent_low - (2.0 * PIP_SIZE)",
+      "sl = recent_high + (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 16,
+    "code_name": "stoch_200_ema",
+    "script_file": "indicator_stochastic_200_ema_scanner.py",
+    "video_id": "_cMfadzVxpo",
+    "short_title": "68% returns of this stochastic intraday trading strategy on 1 year backtest | Sahil Sawhney",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/_cMfadzVxpo",
+      "Stochastic intraday strategy logic is that we take 15 minute timeframe on any instrument like stocks, index, crypto, forex or commodity. Then add two indicators namely Exponential moving average (EMA) of length 200 and stochastic indicator.When the candle is moving above EMA 200 line and both the lines of stochastic indicator is below 20 and then breaks out of 20 level then we take entry at the closing price of the corresponding candle, with stoploss at recent swinh low and target decided by 1:2 risk reward ratio.."
+    ],
+    "desc_rr": [
+      "Stochastic intraday strategy logic is that we take 15 minute timeframe on any instrument like stocks, index, crypto, forex or commodity. Then add two indicators namely Exponential moving average (EMA) of length 200 and stochastic indicator.When the candle is moving above EMA 200 line and both the lines of stochastic indicator is below 20 and then breaks out of 20 level then we take entry at the closing price of the corresponding candle, with stoploss at recent swinh low and target decided by 1:2 risk reward ratio.."
+    ],
+    "transcript_snippet": "68% का रिटर्न आया है हमारे एक साल के बैक टेस्ट में स्टोकास्टिक पुलबैक इंट्राडे स्ट्रेटजी का। बैक टेस्ट करने का कारण था कि हमारे काफी सब्सक्राइबर्स ने ",
+    "code_sl": [
+      "sl = recent_low - (2.0 * PIP_SIZE)",
+      "sl = recent_high + (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 17,
+    "code_name": "rayner_teo_sma_rsi",
+    "script_file": "indicator_rayner_teo_sma_rsi_scanner.py",
+    "video_id": "xLTliEACIQc",
+    "short_title": "Singapore Popular Trader \"Rayner Teo\" claims 88.89% Win Rate of Swing Strategy - Lets Backtest It",
+    "desc_sl": [
+      "Stop Loss — Recent swing low ke thoda neeche."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/xLTliEACIQc"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "सिंगापुर का सबसे बड़ा ट्रेडर जिनके सिर्फ YouTube में ही 2 मिलियन से ज्यादा सब्सक्राइबर्स हैं और इनकी एक स्ट्रेटजी है जिसका 88.89% विनिंग रेट है और ये ",
+    "code_sl": [
+      "sl = recent_low - (2.0 * PIP_SIZE)",
+      "sl = recent_high + (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 18,
+    "code_name": "macd_momentum",
+    "script_file": "indicator_macd_momentum_scanner.py",
+    "video_id": "aUKmS6ZDeq4",
+    "short_title": "62% Win Rate with This Multi-Timeframe MACD Setup! (Algo Backtest Results)",
+    "desc_sl": [
+      "Advanced trailing stop loss strategies for building sustainable secondary sources of income from markets"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/aUKmS6ZDeq4"
+    ],
+    "desc_rr": [
+      "Scale Out & Trailing Mechanics: Extracting a fixed 50% quantity profit size straight at a clear 1:2 risk-to-reward ratio, updating initial protection stop limits to the absolute breakdown entry cost, and trailing remaining core lots until the macro 4-Hour trend framework prints an opposing exit crossover wave."
+    ],
+    "transcript_snippet": "बहुत से ट्रेडर्स कहते हैं कि Macd आउटडेटेड है। फिर मैंने तीन टाइम फ्रेम वाली ये Macd स्ट्रेटजी का एल्गो से बैक टेस्ट किया और एक साल में 62% विन रेट और",
+    "code_sl": [
+      "sl = recent_low - (2.0 * PIP_SIZE)",
+      "sl = recent_high + (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 19,
+    "code_name": "rsi_pullback",
+    "script_file": "forex_rsi_pullback_scanner.py",
+    "video_id": "ryoDybQXEs4",
+    "short_title": "This RSI trading strategy gave 60% win rate in Algo-backtest.",
+    "desc_sl": [
+      "Strategy rules: trend filter (50-EMA), RSI oversold + confirmation entry, stop-loss placement, aur target logic — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/ryoDybQXEs4",
+      "Strategy rules: trend filter (50-EMA), RSI oversold + confirmation entry, stop-loss placement, aur target logic — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai."
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "ज्यादातर लोग आरएसआई को उल्टा यूज़ करते हैं। ओवरसोल्ड देखा तुरंत एंट्री और वही गलती उनको ले डूबती है। सही तरीका यह है। रूल नंबर वन सिर्फ अप ट्रेंड में ट",
+    "code_sl": [
+      "sl = pullback_low - (2.0 * PIP_SIZE)",
+      "sl = pullback_high + (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0           # 1:2 Risk-to-Reward",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 20,
+    "code_name": "subasish_bollinger",
+    "script_file": "indicator_subasish_bollinger_scanner.py",
+    "video_id": "QZMvJrxS_HQ",
+    "short_title": "2 Million Subscribers Wale Subasish Pani Ki Bollinger Band Strategy Ka 1 Saal Ka Real Algo Backtest",
+    "desc_sl": [
+      "Stop Loss — Alert candle ke low pe. Index mein maximum",
+      "55 points tak hi SL lo. Stocks mein max 100 points.",
+      "ka SL hai toh 160 points ka target."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/QZMvJrxS_HQ",
+      "Target — Fixed 1:4 risk reward. Matlab agar 40 points",
+      "ka SL hai toh 160 points ka target."
+    ],
+    "desc_rr": [
+      "Nifty 50 | 52.3% Return | 1:4 Risk Reward",
+      "Target — Fixed 1:4 risk reward. Matlab agar 40 points",
+      "Risk Reward       →  Fixed 1:4",
+      "#riskmanagement #riskRewardRatio #highrr #1:4rr"
+    ],
+    "transcript_snippet": "2 मिलियन YouTube सब्सक्राइबर्स, 4 लाख Instagram फॉलोवरर्स, सुबशीष पानी जिनका पूरा ब्रांड ही बना है एक आईडिया पे मेकिंग ट्रेडर्स लाइफ इज़ियर और इनकी एक ",
+    "code_sl": [
+      "sl = alert_bar['high'] + (2.0 * PIP_SIZE)",
+      "sl = alert_bar['low'] - (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry - (risk * RISK_REWARD_RATIO)",
+      "tp = entry + (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 3.0          # Subasish Pani uses 1:3 to 1:4 RR",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry - (risk * RISK_REWARD_RATIO)",
+      "tp = entry + (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 21,
+    "code_name": "tanisha_garg_cpr_rsi",
+    "script_file": "indicator_tanisha_garg_cpr_rsi_scanner.py",
+    "video_id": "Vm3nN5biOjI",
+    "short_title": "Tanisha Garg’s Pivot+RSI Strategy — 74% Return in 1-Year Backtest? 📈😳",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/Vm3nN5biOjI",
+      "Link: https://www.youtube.com/shorts/5pQj0s_BBV4"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "₹1,35,000 का प्रॉफिट दिखाया तनीषा गर ने अपनी इस वीडियो में अपने किसी स्टाफ का जिसे शेयर मार्केट का ऐ भी नहीं आता था। पर जब उसने इनकी स्ट्रेटजी को फॉलो",
+    "code_sl": [
+      "sl = cam['S4'] - (3.0 * PIP_SIZE)",
+      "sl = cam['R4'] + (3.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = cam['R2'] if cam['R2'] > entry else entry + (risk * RISK_REWARD_RATIO)",
+      "tp = cam['S2'] if cam['S2'] < entry else entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = cam['R2'] if cam['R2'] > entry else entry + (risk * RISK_REWARD_RATIO)",
+      "tp = cam['S2'] if cam['S2'] < entry else entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 22,
+    "code_name": "camarilla_pivot",
+    "script_file": "indicator_camarilla_pivot_scanner.py",
+    "video_id": "GPSvVOZv-No",
+    "short_title": "Paisa Double in 1 Month Strategy? (King Research Academy Camarilla Pivot Strategy Algo Backtested)",
+    "desc_sl": [
+      "Risk Management Guidelines: Setting protective stop loss orders precisely at the opposite inner bounds (R3 for buy setups, S3 for sell setups) and projection targets at 1.5 to 2 times the risk value.",
+      "How to scale position sizing while maintaining static stop loss controls at major pivot curves"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/GPSvVOZv-No",
+      "Risk Management Guidelines: Setting protective stop loss orders precisely at the opposite inner bounds (R3 for buy setups, S3 for sell setups) and projection targets at 1.5 to 2 times the risk value.",
+      "#stockmarket #backtesting #camarillapivots #pivotpoints #breakoutstrategy #nifty50 #banknifty #pythoncoding #indianstockmarket #tradingforbeginners"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "एक अकाउंट में 25,000 से 1 लाख, दूसरे में 500 से 2 लाख इंट्राडे में, तीसरे में पैसा ऑलमोस्ट डबल इन वन मंथ। यह क्लेम है हरिंद्र साहू का उनकी स्ट्रेटजी स",
+    "code_sl": [
+      "sl = levels['L4'] - (2.0 * PIP_SIZE)",
+      "sl = levels['H4'] + (2.0 * PIP_SIZE)",
+      "sl = levels['H3']",
+      "sl = levels['L3']"
+    ],
+    "code_tp": [
+      "tp = levels['H3'] if levels['H3'] > entry else entry + (risk * RISK_REWARD_RATIO)",
+      "tp = levels['L3'] if levels['L3'] < entry else entry - (risk * RISK_REWARD_RATIO)",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = levels['H3'] if levels['H3'] > entry else entry + (risk * RISK_REWARD_RATIO)",
+      "tp = levels['L3'] if levels['L3'] < entry else entry - (risk * RISK_REWARD_RATIO)",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 23,
+    "code_name": "cpr_pivot_multi_tf",
+    "script_file": "indicator_cpr_pivot_multi_tf_scanner.py",
+    "video_id": "i5eNsT9GFDM",
+    "short_title": "Gomathi Shankar CPR Strategy Exposed! (1-Year Python Algo Backtest)",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/i5eNsT9GFDM",
+      "Kya India ke pioneering pioneer Gomathi Shankar ki multi-timeframe Central Pivot Range yaani CPR strategy professional order books me high accuracy system create kar sakti hai? Is video mein humne unki weekly aur daily overlapping pivot breakout strategy ko coding standards ke sath completely automate kiya hai. Big players dynamic support levels aur daily range boundaries ko target karke short covering moves kaise triggers karte hain, humne is structural workflow ka python algorithm banaya hai aur broker API ke structural historical data setups par detailed validation tests run karke real equity curves aur actual drawdown data analyze kiya hai.",
+      "Scale Targets & Risk Limits: Locking protection stops right beneath the dual confluence zone lines, framing target marker 1 directly at the R1-R2 mathematical midpoint, and routing final exit execution trades directly at the major R2 ceiling.",
+      "#stockmarket #backtesting #cprindicator #pivotpoints #priceaction #nifty50 #banknifty #pythoncoding #indianstockmarket #tradingforbeginners"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "यह हैं गोमती शंकर जिन्होंने इंडिया में सबसे पहले सीपीआर इंडिकेटर की स्ट्रेटजीज़ पब्लिकली शेयर की। इनका सीपीआर इंडिकेटर आज 10,000 से ज्यादा ट्रेडर्स यूज़",
+    "code_sl": [
+      "sl = max(cpr['R1'], cpr['PDH']) - (3.0 * PIP_SIZE)",
+      "sl = min(cpr['S1'], cpr['PDL']) + (3.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = cpr['R2'] if cpr['R2'] > entry else entry + (risk * RISK_REWARD_RATIO)",
+      "tp = cpr['S2'] if cpr['S2'] < entry else entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = cpr['R2'] if cpr['R2'] > entry else entry + (risk * RISK_REWARD_RATIO)",
+      "tp = cpr['S2'] if cpr['S2'] < entry else entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 24,
+    "code_name": "supertrend_swing",
+    "script_file": "forex_supertrend_swing_scanner.py",
+    "video_id": "YwDleTVqM5c",
+    "short_title": "40% Win Rate, Still Very Good Return? Supertrend Swing Strategy Backtest 🤯",
+    "desc_sl": [
+      "Strategy rules, entry-exit logic, stop-loss placement, aur breakeven trail technique — sab is video mein detail se samjhaya hai. Backtest ka Python code Google Colab pe dikhaya gaya hai."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/YwDleTVqM5c",
+      "Link: https://www.youtube.com/shorts/7ircBjxjvNE"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "हाई विन रेट मतलब अच्छी स्ट्रेटजी। यह सबसे बड़ी गलतफहमी है ट्रेडिंग में। और यह सुपर ट्रेंड स्ट्रेटजी का बैक टेस्ट उसका प्रूफ है जिसे मैंने एल्गो बनाके ",
+    "code_sl": [
+      "sl = closed_bar['st'] - (2.0 * PIP_SIZE)",
+      "sl = closed_bar['st'] + (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0           # 1:2 Risk-to-Reward",
+      "print(f\" Risk/Reward:      1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 25,
+    "code_name": "ut_bot_alert",
+    "script_file": "indicator_ut_bot_alert_scanner.py",
+    "video_id": "SggjoXJiNXw",
+    "short_title": "UT Bot Alert indicator intraday strategy backtested for 1 year and results are great.",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/SggjoXJiNXw"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "यूटी बोट अलर्ट इंडिकेटर। इस ट्रेडिंग व्यू इंडिकेटर की बहुत सी स्ट्रेटजीस हैं जो 100%, 200% और उससे भी ज्यादा रिटर्न का क्लेम करती हैं। इस इंडिकेटर की ",
+    "code_sl": [
+      "sl = closed_bar['ut_stop'] - (2.0 * PIP_SIZE)",
+      "sl = closed_bar['ut_stop'] + (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 26,
+    "code_name": "mambafx_sr_sma",
+    "script_file": "indicator_mambafx_support_resistance_scanner.py",
+    "video_id": "TSRKVlz4tjo",
+    "short_title": "I Backtested Mamba FX Scalping Strategy for 1 Year (62% Return 😳)",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/TSRKVlz4tjo",
+      "Target = next resistance/support"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "यह है मांबा एफx। यह फॉररेक्स ट्रेडिंग सिखाता है। पता नहीं इस बंदे के पास कितना पैसा है। किसी वीडियो में यह पता नहीं मिलियन डॉलर्स हवा में उड़ा रहा होत",
+    "code_sl": [
+      "sl = closed_bar['sma50'] - (3.0 * PIP_SIZE)",
+      "sl = closed_bar['sma50'] + (3.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = h4_resistance if h4_resistance > entry else entry + (risk * RISK_REWARD_RATIO)",
+      "tp = h4_support if h4_support < entry else entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.5",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = h4_resistance if h4_resistance > entry else entry + (risk * RISK_REWARD_RATIO)",
+      "tp = h4_support if h4_support < entry else entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 27,
+    "code_name": "traffic_light",
+    "script_file": "indicator_traffic_light_breakout_scanner.py",
+    "video_id": "_e9_VfItAFE",
+    "short_title": "This Viral ‘Traffic Light’ Strategy Gave 267% in Backtest 😳📊",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/_e9_VfItAFE"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "रिसेंटली मैंने  बैक टेस्ट किया है सुबशीष पानी की मिलियन में देखे जाने वाली ट्रैफिक लाइट ट्रेडिंग स्ट्रेटजी का फॉर वन ईयर यूजिंग पython कोड और डाटा लिय",
+    "code_sl": [
+      "sl = tl_low - (2.0 * PIP_SIZE)",
+      "sl = tl_high + (2.0 * PIP_SIZE)"
+    ],
+    "code_tp": [
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ],
+    "code_rr": [
+      "RISK_REWARD_RATIO = 2.0",
+      "print(f\" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}\")",
+      "tp = entry + (risk * RISK_REWARD_RATIO)",
+      "tp = entry - (risk * RISK_REWARD_RATIO)"
+    ]
+  },
+  {
+    "num": 28,
+    "code_name": "chandelier_zlsma",
+    "script_file": "indicator_chandelier_exit_zlsma_scanner.py",
+    "video_id": "-0oWb3Uv9FM",
+    "short_title": "300% Profit Waali Chandelier Exit Indicator Strategy ka Sach 😳 | 1 Year Backtest Shocked Me!",
+    "desc_sl": [
+      "Stop Loss: Recent swing low"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/-0oWb3Uv9FM",
+      "Target: Risk Reward 1:2"
+    ],
+    "desc_rr": [
+      "Target: Risk Reward 1:2"
+    ],
+    "transcript_snippet": "300% प्रॉफिट दिया है चैडलer एग्जिट इंडिकेटर स्ट्रेटजी ने और इसकी एक्यूरेसी 80% बताई गई है यानी 10 में से आठ ट्रेड्स प्रॉफिटेबल। ये स्ट्रेटजी आप किसी भ",
+    "code_sl": [
+      "sl = min(bar[\"low\"], bar[\"long_stop\"])",
+      "sl = close - risk",
+      "sl = max(bar[\"high\"], bar[\"short_stop\"])",
+      "sl = close + risk"
+    ],
+    "code_tp": [
+      "tp = close + 2.0 * risk",
+      "tp = close - 2.0 * risk"
+    ],
+    "code_rr": [
+      "rr = round((tp - close) / (close - sl), 2)",
+      "rr = round((close - tp) / (sl - close), 2)"
+    ]
+  },
+  {
+    "num": 29,
+    "code_name": "kojo_demand_supply",
+    "script_file": "forex_kojo_price_action_demand_scanner.py",
+    "video_id": "7XtF2FH92MM",
+    "short_title": "Maine Gold Ki Iss Strategy Ko Algo Se Backtest Kiya — Koi Indicator Nahi, Fir Bhi 56.8% Return Aaya",
+    "desc_sl": [
+      "Stop Loss: Demand zone ke low ke thoda neeche"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/7XtF2FH92MM",
+      "Target: Agli visible resistance level tak — jo pehle"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "गोल्ड में ट्रेडिंग करते हो तो यह वीडियो तुम्हारे लिए है। आज मैं गोल्ड की एक ऐसी स्ट्रेटजी का बैक टेस्ट करूंगा जिसमें जीरो इंडिकेटर्स हैं ओनली प्राइस ए",
+    "code_sl": [
+      "sl = dz[\"low\"] - (dz[\"high\"] - dz[\"low\"]) * 0.2",
+      "sl = close - risk",
+      "sl = sz[\"high\"] + (sz[\"high\"] - sz[\"low\"]) * 0.2",
+      "sl = close + risk"
+    ],
+    "code_tp": [
+      "tp = max(target, close + 2 * risk)",
+      "tp = min(target, close - 2 * risk)"
+    ],
+    "code_rr": [
+      "rr = round((tp - close) / risk, 2)",
+      "rr = round((close - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 30,
+    "code_name": "trading_school_mbp",
+    "script_file": "forex_trading_school_mbp_gold_scanner.py",
+    "video_id": "9Jxhj7mVb1w",
+    "short_title": "Kya Sach Mein Gold Pe 1:8 RR Milta Hai— The Trading School Ki Secret MBP Setup Ka Real Algo Backtest",
+    "desc_sl": [
+      "Stop Loss — FVG zone ke thoda neeche."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/9Jxhj7mVb1w",
+      "fixed target ke saath, real broker data se, 1 lakh ki",
+      "Target: Fixed 1:3 Risk Reward",
+      "Target — Fixed 1:3 risk reward."
+    ],
+    "desc_rr": [
+      "1:3 Fixed RR",
+      "1:8 tak ka risk reward achieve karne ka claim karte",
+      "backtest kiya — XAUUSD gold pe, 1:3 ke conservative",
+      "Target: Fixed 1:3 Risk Reward",
+      "Target — Fixed 1:3 risk reward.",
+      "Risk Reward       →  Fixed 1:3",
+      "#riskRewardRatio #highrr #lowriskhighreward"
+    ],
+    "transcript_snippet": "ये स्ट्रेटजी 1:8 तक का रिस्क रिवॉर्ड दे सकती है और यह दावा ऐसे कोई नहीं कर रहा। ये अचीव करते हैं द ट्रेडिंग स्कूल के इंस्ट्रक्टर अपनी सीक्रेट एमबीपी क",
+    "code_sl": [
+      "sl = fvg[\"low\"] - (fvg[\"high\"] - fvg[\"low\"]) * 0.2",
+      "sl = close - risk",
+      "sl = fvg[\"high\"] + (fvg[\"high\"] - fvg[\"low\"]) * 0.2",
+      "sl = close + risk"
+    ],
+    "code_tp": [
+      "tp = close + 3.0 * risk  # Fixed 1:3 RR",
+      "tp = close - 3.0 * risk  # Fixed 1:3 RR"
+    ],
+    "code_rr": [
+      "rr = round((tp - close) / risk, 2)",
+      "rr = round((close - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 31,
+    "code_name": "trade_with_pat",
+    "script_file": "forex_trade_with_pat_demand_fvg_scanner.py",
+    "video_id": "YPAN6XgXbQM",
+    "short_title": "He Claimed 2100% Profit! (Trade With Pat SMC Strategy Algo-Backtest)",
+    "desc_sl": [
+      "Risk Management: Stop loss is safely placed outside the zone boundaries, and the target is locked at the recent swing high or low."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/YPAN6XgXbQM",
+      "Risk Management: Stop loss is safely placed outside the zone boundaries, and the target is locked at the recent swing high or low."
+    ],
+    "desc_rr": [
+      "Managing drawdown and risk reward ratio in index options buying"
+    ],
+    "transcript_snippet": "2100% यह पीएनएल क्लेम है कनेडियन ट्रेडर का उसकी अपनी ए प्लस सप्लाई और डिमांड स्ट्रेटजी से जिसका उन्होंने विन रेट बताया है 79% 35 लाख से ज्यादा सब्सक्र",
+    "code_sl": [
+      "sl = dz[\"low\"] - (dz[\"high\"] - dz[\"low\"]) * 0.15",
+      "sl = close - risk",
+      "sl = sz[\"high\"] + (sz[\"high\"] - sz[\"low\"]) * 0.15",
+      "sl = close + risk"
+    ],
+    "code_tp": [
+      "tp = target",
+      "tp = target"
+    ],
+    "code_rr": [
+      "rr = round((tp - close) / risk, 2)",
+      "rr = round((close - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 32,
+    "code_name": "smc_liquidity_sniper",
+    "script_file": "forex_smc_liquidity_sniper_71fib_scanner.py",
+    "video_id": "LkTzH_5xiJ0",
+    "short_title": "I Algo Backtested This SMC Strategy — 99.9% Returns in 1 Year",
+    "desc_sl": [
+      "✅ Stop-Loss aur Target dono Fibonacci ke extreme levels pe -- fixed RR approximately 2.4:1"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/LkTzH_5xiJ0",
+      "✅ Stop-Loss aur Target dono Fibonacci ke extreme levels pe -- fixed RR approximately 2.4:1"
+    ],
+    "desc_rr": [
+      "✅ Stop-Loss aur Target dono Fibonacci ke extreme levels pe -- fixed RR approximately 2.4:1"
+    ],
+    "transcript_snippet": "99.9% रिटर्न दिया है एसएमसी की लिक्विडिटी स्नाइपर स्ट्रेटजी ने। यानी पैसा दुगना जिसको मैंने Python पे इस एल्गो से बैक टेस्ट किया। डाटा मैंने लिया ब्रो",
+    "code_sl": [
+      "sl = sweep_extreme_low - leg_range * 0.05",
+      "sl = close - risk",
+      "sl = sweep_extreme_high + leg_range * 0.05",
+      "sl = close + risk"
+    ],
+    "code_tp": [
+      "tp = impulse_high + 0.5 * leg_range",
+      "tp = impulse_low - 0.5 * leg_range"
+    ],
+    "code_rr": [
+      "rr = round((tp - close) / risk, 2)",
+      "rr = round((close - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 33,
+    "code_name": "double_bo_retest",
+    "script_file": "indicator_double_breakout_retest_scanner.py",
+    "video_id": "VhNXhA6cmDE",
+    "short_title": "I Backtested a Pure Price Action Strategy for 1 Year (69% Return 😳)",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/VhNXhA6cmDE",
+      "Target = 1:2 ya 1:3 risk reward"
+    ],
+    "desc_rr": [
+      "Target = 1:2 ya 1:3 risk reward"
+    ],
+    "transcript_snippet": "लोग ट्रेडिंग में इंडिकेटर्स के पीछे भागते रहते हैं और मैं वैसे ही 60 से ज्यादा ट्रेडिंग स्ट्रेटजीस का बैक टेस्ट कर चुका हूं अपने Instagram  पेज और You",
+    "code_sl": [
+      "sl = retest_low - (first_bo_high - retest_low) * 0.15",
+      "sl = close - risk",
+      "sl = retest_high + (retest_high - first_bd_low) * 0.15",
+      "sl = close + risk"
+    ],
+    "code_tp": [
+      "tp = close + 2.5 * risk",
+      "tp = close - 2.5 * risk"
+    ],
+    "code_rr": [
+      "rr = round((tp - close) / risk, 2)",
+      "rr = round((close - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 34,
+    "code_name": "asia_forex_mentor",
+    "script_file": "forex_asia_forex_mentor_heikin_ashi_scanner.py",
+    "video_id": "wVSM7VuZbT8",
+    "short_title": "Asia Forex Mentor Strategy Tested for 1 Year | 47% Return Reality Check 📊",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/wVSM7VuZbT8",
+      "Target = next resistance/support"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "खुद को एशिया के फॉरेक्स मेंटोर कहने वाले एजिकल चू की हकन आशी स्ट्रेटजी का मैं आज करूंगा एक साल का बैक टेस्ट ताकि पता चल सके कि ये कितनी प्रॉफिटेबल है।",
+    "code_sl": [
+      "sl = min(recent_swing_low, low) - (high - low) * 0.2",
+      "sl = close - risk",
+      "sl = max(recent_swing_high, high) + (high - low) * 0.2",
+      "sl = close + risk"
+    ],
+    "code_tp": [
+      "tp = close + 2.0 * risk",
+      "tp = close - 2.0 * risk"
+    ],
+    "code_rr": [
+      "rr = round((tp - close) / risk, 2)",
+      "rr = round((close - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 35,
+    "code_name": "bharat_rsi_bb",
+    "script_file": "indicator_bharat_jhunjhunwala_rsi_bb_scanner.py",
+    "video_id": "4gvWmhCzE30",
+    "short_title": "I Algo-Backtested Bharat Jhunjhunwala’s Most Popular RSI + Bollinger Band Strategy!",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/4gvWmhCzE30"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "करोड़ों में पोर्टफोलियो है इनका। 20 साल का ट्रेडिंग एक्सपीरियंस है। बड़ी-बड़ी सर्टिफिकेशंस लाइक सीएमटी, एमएफटीए जो टेक्निकल एनालिस्ट होल्ड करते हैं वो",
+    "code_sl": [
+      "sl = min(recent_low, low) - (high - low) * 0.15",
+      "sl = close - risk",
+      "sl = max(recent_high, high) + (high - low) * 0.15",
+      "sl = close + risk"
+    ],
+    "code_tp": [
+      "tp = max(upper, close + 2.0 * risk)",
+      "tp = min(lower, close - 2.0 * risk)"
+    ],
+    "code_rr": [
+      "rr = round((tp - close) / risk, 2)",
+      "rr = round((close - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 36,
+    "code_name": "berlin_7_ema",
+    "script_file": "forex_trade_like_berlin_7_ema_scanner.py",
+    "video_id": "2NZW106gUfU",
+    "short_title": "\"Final Boss of All EMA Strategies\" Ka 1 Saal Ka   Real Backtest — Results Ne Chauka Diya",
+    "desc_sl": [
+      "Stop Loss: Entry candle ke low ke thoda neeche",
+      "Agar SL chota hai → 1:3 Risk Reward",
+      "Agar SL bada hai  → 1:2 Risk Reward"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/2NZW106gUfU",
+      "Target: Dynamic RR system —"
+    ],
+    "desc_rr": [
+      "Target: Dynamic RR system —",
+      "Agar SL chota hai → 1:3 Risk Reward",
+      "Agar SL bada hai  → 1:2 Risk Reward"
+    ],
+    "transcript_snippet": "यह है ट्रेड लाइक बर्लिन जिनके YouTube पे 2.5 लाख से ज़्यादा सब्सक्राइबर्स हैं और इसने अपनी एक स्ट्रेटजी का नाम रखा है द फाइनल बॉस ऑफ़ ऑल ईएमए स्ट्रेटजीज़",
+    "code_sl": [
+      "sl = low - (high - low) * 0.15",
+      "sl = close - risk",
+      "sl = high + (high - low) * 0.15",
+      "sl = close + risk"
+    ],
+    "code_tp": [
+      "tp = close + mult * risk",
+      "tp = close - mult * risk"
+    ],
+    "code_rr": [
+      "rr = round((tp - close) / risk, 2)",
+      "rr = round((close - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 37,
+    "code_name": "ezekiel_50_ema_pb",
+    "script_file": "forex_ezekiel_chew_50_ema_pullback_scanner.py",
+    "video_id": "AKuM1cTgPks",
+    "short_title": "Banks Aur Prop Firms Ke Traders Ka Trainer — Uski 50 EMA Strategy Ka Algo Backtest | Ezekiel Chew",
+    "desc_sl": [
+      "SL: Engulfing candle ya red candle ka jo bhi neeche"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/AKuM1cTgPks",
+      "Target: Next resistance ya rejection level."
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "एज़िल क्यू वो बंदा जो बैंक्स, फंड हाउसेस और प्रोपराइटिटी फर्म्स के ट्रेडर्स को पर्सनली ट्रेन करता है। इनकी 50 ईएमए पुलबक स्ट्रेटजी क्रिप्टो फॉररेक्स स्",
+    "code_sl": [
+      "sl = low - (high - low) * 0.15",
+      "sl = close - risk",
+      "sl = high + (high - low) * 0.15",
+      "sl = close + risk"
+    ],
+    "code_tp": [
+      "tp = max(swing_high, close + 2.0 * risk)",
+      "tp = min(swing_low, close - 2.0 * risk)"
+    ],
+    "code_rr": [
+      "rr = round((tp - close) / risk, 2)",
+      "rr = round((close - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 38,
+    "code_name": "trading_geek_sr",
+    "script_file": "forex_trading_geek_exhaustion_scanner.py",
+    "video_id": "aPEzamtaYw4",
+    "short_title": "The Trading Geek Price Action Strategy — Algo Backtest (Gold + Forex)",
+    "desc_sl": [
+      "21 saal ki umar mein pehla million dollar banane wale Brad Goh — The Trading Geek (1.54 million subscribers) — ki price action strategy ka claim hai ki yeh ek strategy poori zindagi ke liye kaafi hai. Maine iss claim ko seriously liya, Python pe algo banaya aur Gold (XAUUSD) aur Forex pe real broker data se backtest kiya."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/aPEzamtaYw4",
+      "Step 3: Jab ek bada green candle aaye — uske close pe BUY entry lo. Stoploss zone ke lowest wick ke neeche. Target next resistance level pe. SELL ke liye bilkul ulta karo at resistance."
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "21 साल की उम्र में अपना पहला मिलियन डॉलर बनाने वाले ब्रैड गो द ट्रेडिंग जी की यह प्राइस एक्शन स्ट्रेटजी है जिसके लिए वह कहते हैं कि यह स्ट्रेटजी काफी ",
+    "code_sl": [
+      "sl = exhaustion_low - (high - low) * 0.15",
+      "sl = close - risk",
+      "sl = exhaustion_high + (high - low) * 0.15",
+      "sl = close + risk"
+    ],
+    "code_tp": [
+      "tp = max(target_res, close + 2.0 * risk)",
+      "tp = min(target_sup, close - 2.0 * risk)"
+    ],
+    "code_rr": [
+      "rr = round((tp - close) / risk, 2)",
+      "rr = round((close - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 39,
+    "code_name": "tori_trendline",
+    "script_file": "indicator_tori_trades_trendline_scanner.py",
+    "video_id": "0n4sMsqTZdw",
+    "short_title": "Tori trades made 25 lakh+ with this trendline trading strategy | Trendline strategy backtested 1Year",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/0n4sMsqTZdw",
+      "So, let's go to the trading view platform, open Nifty 50 chart on 1 hour timeframe, draw upward and downward trendlines, when any candlestick breaks out of any trendline then we will take entry at that candle, stoploss will be our previous/other trendline and target will be either next support/ resistance levels or we can also trail our profits and limit our losses.",
+      "Instagram page: https://www.instagram.com/algotrader.sahil?igsh=dnVjaGNpdTV2b2Vn",
+      "Youtube Channel: https://www.youtube.com/@UnfilteredFinanceWithSahil"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "25 लाख से ज्यादा का प्रॉफिट दिखाया है अपनी ट्रेंड लाइन स्ट्रेटजी से टोरी ट्रेड्स ने प्रॉफिट ऑफ़ 27683 जिनके 6 लाख से ज्यादा सब्सक्राइबर्स हैं और यह खुद",
+    "code_sl": [
+      "sl = min(recent_low, low) - (high - low) * 0.15",
+      "sl = close - risk",
+      "sl = max(recent_high, high) + (high - low) * 0.15",
+      "sl = close + risk"
+    ],
+    "code_tp": [
+      "tp = close + 2.0 * risk",
+      "tp = close - 2.0 * risk"
+    ],
+    "code_rr": [
+      "rr = round((tp - close) / risk, 2)",
+      "rr = round((close - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 40,
+    "code_name": "priyank_21_ema",
+    "script_file": "indicator_hold_with_priyank_21_ema_scanner.py",
+    "video_id": "0pbzM_4QkOs",
+    "short_title": "Intraday EMA Breakout Strategy Backtest — 44.80% Return in 1 Year! #Shorts",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/0pbzM_4QkOs"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "ये है होल्ड वि प्रियंकी वेरी पॉपुलर इंट्राडे स्ट्रेटजी जिसका मैंने एक साल का बैक टेस्ट किया क्योंकि मेरे एक व्यूअर है पुनीत जी उन्होंने इसकी रिक्वेस्ट",
+    "code_sl": [
+      "sl = pb_low - (high - low) * 0.15",
+      "sl = close - risk",
+      "sl = pb_high + (high - low) * 0.15",
+      "sl = close + risk"
+    ],
+    "code_tp": [
+      "tp = close + 1.5 * risk",
+      "tp = close - 1.5 * risk"
+    ],
+    "code_rr": [
+      "rr = round((tp - close) / risk, 2)",
+      "rr = round((close - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 41,
+    "code_name": "jenfer_impulse",
+    "script_file": "forex_jenfer_impulse_scalp_scanner.py",
+    "video_id": "AD36fIiJWVs",
+    "short_title": "No Indicators, Just ONE Candle — Nifty Scalping Strategy Algo-Backtested",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/AD36fIiJWVs",
+      "Step 4: Entry usi retest zone mein lo. Stoploss impulse candle ke low ke neeche. Target fixed 1:2 risk reward."
+    ],
+    "desc_rr": [
+      "Step 4: Entry usi retest zone mein lo. Stoploss impulse candle ke low ke neeche. Target fixed 1:2 risk reward.",
+      "ONE Candle Strategy | Opening Range Breakout | ORB Scalping | Volume Confirmation Trading | Beginner Scalping Strategy | Algo Trading India | Nifty Intraday Trading | Prop Firm Strategy | Backtest Results | Python Trading Bot | Scalping for Beginners | Day Trading Strategy | Technical Analysis | Risk Reward Strategy | 5 Minute Chart Strategy"
+    ],
+    "transcript_snippet": "ना कोई इंडिकेटर, ना कोई कॉम्प्लेक्स सेटअप। सिर्फ एक कैंडल जो पूरा ट्रेड डिसाइड करती है। इतनी आसान स्कैल्पिंग स्ट्रेटजी को यूज़ करती हैं जेनफर जिन्होंने",
+    "code_sl": [
+      "sl = c_low - c_range * 0.10",
+      "sl = close - risk",
+      "sl = c_high + c_range * 0.10",
+      "sl = close + risk"
+    ],
+    "code_tp": [
+      "tp = close + 2.0 * risk",
+      "tp = close - 2.0 * risk"
+    ],
+    "code_rr": [
+      "rr = round((tp - close) / risk, 2)",
+      "rr = round((close - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 42,
+    "code_name": "trading_lab_dema",
+    "script_file": "indicator_trading_lab_dema_supertrend_scanner.py",
+    "video_id": "WFMCsknKHD4",
+    "short_title": "130% returns in 100 trades by this intraday strategy | Backtested 1 year",
+    "desc_sl": [
+      "This intraday trading strategy can be used on stocks, index, forex, crypto, etc. For this strategy we will go to the trading view 15 minute timeframe, then put double ema indicator and supertrend indicator with the settings that I have guided in the video.Then, when the candles are above the double ema, and simultaneously, supertrend also gives BUY signal, then we take the long position on the close of the candle where supertrend gave BUY signal, with stoploss at the supertrend line and target is not fixed for this intraday strategy, we will trail the profits until supertrend gives SELL signal. The reverse of this we will do for doing short selling."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/WFMCsknKHD4",
+      "This intraday trading strategy can be used on stocks, index, forex, crypto, etc. For this strategy we will go to the trading view 15 minute timeframe, then put double ema indicator and supertrend indicator with the settings that I have guided in the video.Then, when the candles are above the double ema, and simultaneously, supertrend also gives BUY signal, then we take the long position on the close of the candle where supertrend gave BUY signal, with stoploss at the supertrend line and target is not fixed for this intraday strategy, we will trail the profits until supertrend gives SELL signal. The reverse of this we will do for doing short selling."
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "100 ट्रेड्स में 130% कमाया है ट्रेडिंग लैब चैनल ने अपनी सुपर ट्रेंड और डबल ईएमए स्ट्रेटजी से। 1130% इन जस्ट 2 मंथ्स ट्रेडिंग। इस चैनल के लगभग 2 मिलियन",
+    "code_sl": [
+      "sl = min(st_val, float(bar[\"low\"])) - (float(bar[\"high\"]) - float(bar[\"low\"])) * 0.15",
+      "sl = close - risk",
+      "sl = max(st_val, float(bar[\"high\"])) + (float(bar[\"high\"]) - float(bar[\"low\"])) * 0.15",
+      "sl = close + risk"
+    ],
+    "code_tp": [
+      "tp = close + 2.0 * risk",
+      "tp = close - 2.0 * risk"
+    ],
+    "code_rr": [
+      "rr = round((tp - close) / risk, 2)",
+      "rr = round((close - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 43,
+    "code_name": "half_trend_atr",
+    "script_file": "indicator_half_trend_atr_scanner.py",
+    "video_id": "WRczqfxjR4g",
+    "short_title": "Unknown",
+    "desc_sl": [],
+    "desc_tp": [],
+    "desc_rr": [],
+    "transcript_snippet": "हाफ ट्रेंड इंडिकेटर जिसकी बहुत ही ज्यादा हाइप है मार्केट में और मुझे बहुत सी रिक्वेस्ट आई थी कि इसकी स्ट्रेटजी पे बैक टेस्ट करो। बहुत सारी स्ट्रेटजीज़ ",
+    "code_sl": [
+      "sl = ht_val - (high - low) * 0.15",
+      "sl = close - risk",
+      "sl = ht_val + (high - low) * 0.15",
+      "sl = close + risk"
+    ],
+    "code_tp": [
+      "tp = close + 2.0 * risk",
+      "tp = close - 2.0 * risk"
+    ],
+    "code_rr": [
+      "rr = round((tp - close) / risk, 2)",
+      "rr = round((close - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 44,
+    "code_name": "umer_sandwich",
+    "script_file": "forex_umer_akhtar_sandwich_scanner.py",
+    "video_id": "t9VzgJhqgHk",
+    "short_title": "80% Win Rate Claim of Sandwich pattern Strategy? I Backtested This Paid Strategy",
+    "desc_sl": [
+      "✅ Stop-loss aur fixed 1:2 Risk:Reward target"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/t9VzgJhqgHk",
+      "✅ Stop-loss aur fixed 1:2 Risk:Reward target"
+    ],
+    "desc_rr": [
+      "✅ Stop-loss aur fixed 1:2 Risk:Reward target"
+    ],
+    "transcript_snippet": "सैंडविच पैटर्न ट्रेडिंग स्ट्रेटजी का नाम सुना है? ये स्ट्रेटजी है उमेर अख्तर जिनका द फॉरेक्स गाइड YouTube चैनल है जिसके 6 लाख से ज्यादा सब्सक्राइबर्स ",
+    "code_sl": [
+      "sl = c1_low - (high - low) * 0.15",
+      "sl = close - risk",
+      "sl = c1_high + (high - low) * 0.15",
+      "sl = close + risk"
+    ],
+    "code_tp": [
+      "tp = close + 2.0 * risk",
+      "tp = close - 2.0 * risk"
+    ],
+    "code_rr": [
+      "rr = round((tp - close) / risk, 2)",
+      "rr = round((close - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 45,
+    "code_name": "3tf_macd_momentum",
+    "script_file": "indicator_3tf_macd_momentum_scanner.py",
+    "video_id": "aUKmS6ZDeq4",
+    "short_title": "62% Win Rate with This Multi-Timeframe MACD Setup! (Algo Backtest Results)",
+    "desc_sl": [
+      "Advanced trailing stop loss strategies for building sustainable secondary sources of income from markets"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/aUKmS6ZDeq4"
+    ],
+    "desc_rr": [
+      "Scale Out & Trailing Mechanics: Extracting a fixed 50% quantity profit size straight at a clear 1:2 risk-to-reward ratio, updating initial protection stop limits to the absolute breakdown entry cost, and trailing remaining core lots until the macro 4-Hour trend framework prints an opposing exit crossover wave."
+    ],
+    "transcript_snippet": "बहुत से ट्रेडर्स कहते हैं कि Macd आउटडेटेड है। फिर मैंने तीन टाइम फ्रेम वाली ये Macd स्ट्रेटजी का एल्गो से बैक टेस्ट किया और एक साल में 62% विन रेट और",
+    "code_sl": [
+      "sl = min(recent_low, low) - (high - low) * 0.15",
+      "sl = close - risk",
+      "sl = max(recent_high, high) + (high - low) * 0.15",
+      "sl = close + risk"
+    ],
+    "code_tp": [
+      "tp = close + 3.0 * risk  # 1:3 RR",
+      "tp = close - 3.0 * risk"
+    ],
+    "code_rr": [
+      "rr = round((tp - close) / risk, 2)",
+      "rr = round((close - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 46,
+    "code_name": "ict_double_sweep",
+    "script_file": "forex_ict_double_sweep_sniper_scanner.py",
+    "video_id": "bffQ8_1ShO8",
+    "short_title": "ICT Sniper Entry Trading Strategy — 64% Win Rate, Only 12% Drawdown (Algo Backtest)",
+    "desc_sl": [
+      "ICT (Inner Circle Trader) ka woh sniper entry model jisse aap ek dum perfect entry le sakte ho. Institutions pehle retail traders ke stop-loss ko trigger karti hain, phir ulti direction mein move karti hain — aur yeh liquidity-based strategy exactly usi trap ko apne favour mein use karti hai.",
+      "Puri step-by-step entry, stop-loss aur target ki strategy maine ek PDF mein diagram ke saath samjhayi hai. Woh yahan reveal nahi kar raha — neeche \"Sniper\" comment karo, main PDF bhej dunga."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/bffQ8_1ShO8",
+      "Puri step-by-step entry, stop-loss aur target ki strategy maine ek PDF mein diagram ke saath samjhayi hai. Woh yahan reveal nahi kar raha — neeche \"Sniper\" comment karo, main PDF bhej dunga."
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "आज मैं तुम्हें आईसीटी यानी इनर सर्कल ट्रेडर की वो स्ट्रेटजी बताऊंगा जिससे तुम स्नाइपर एंट्री ले सकते हो। मतलब एकदम परफेक्ट एंट्री। यह मॉडल थोड़ा सा सम",
+    "code_sl": [
+      "sl = float(sweep1_low - (spread * 2) - 0.0003)",
+      "sl = float(sweep1_high + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = max(entry + (risk * 2.5), float(h1_high))",
+      "tp = min(entry - (risk * 2.5), float(h1_low))"
+    ],
+    "code_rr": [
+      "rr = round((tp - entry) / risk, 2)",
+      "rr = round((entry - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 47,
+    "code_name": "ict_daily_ob_fvg",
+    "script_file": "forex_ict_daily_ob_h1_fvg_scanner.py",
+    "video_id": "4W3SUtxl0u8",
+    "short_title": "ICT Order Block Strategy Backtested — 74% Return in 1 Year",
+    "desc_sl": [
+      "✅ Stop-Loss: Daily OB midpoint se thoda neeche",
+      "Automation ya backtesting ke liye 1-1 video session book karna chahte ho? Telegram ya Instagram pe \"Session\" message karo. Video session chargeable hai -- session pe sab kuch discuss aur finalise hoga quickly. Hazaaron enquiries ki wajah se genuine requirements waale reh jaate the, isliye ab yeh process hai."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/4W3SUtxl0u8",
+      "✅ Target: Daily chart ka major liquidity level"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "इनर सर्कल ट्रेडर सेटअप सिखाने वाले बहुत हैं। पर कोई इन्हें प्रॉपर्ली बैक टेस्ट करके नहीं दिखाता। क्योंकि मुझे 100 से ज्यादा रिक्वेस्ट आई थी कि एमएस ट्",
+    "code_sl": [
+      "sl = float(min(ob[\"mid\"], h1_now[\"low\"]) - (spread * 2) - 0.0003)",
+      "sl = float(max(ob[\"mid\"], h1_now[\"high\"]) + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = max(entry + (risk * 2.0), target_liq)",
+      "tp = min(entry - (risk * 2.0), target_liq)"
+    ],
+    "code_rr": [
+      "rr = round((tp - entry) / risk, 2)",
+      "rr = round((entry - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 48,
+    "code_name": "tg_ema_stack_doji",
+    "script_file": "forex_tg_capital_ema_stack_doji_scanner.py",
+    "video_id": "ZWSeWYom1Yg",
+    "short_title": "1:20 Minimum RR? I Put TG Capital's ICT Strategy Through the Algo Backtest!!",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/ZWSeWYom1Yg",
+      "Step 6: Target fixed nahi — jab tak daily chart pe 4 stacked EMAs (5, 9, 13, 21) intact rahein tab tak trade chalti rahe. Jab strong bearish candle in sab ke neeche close kare — exit."
+    ],
+    "desc_rr": [
+      "TG Capital yaani Tyler — jisne sirf 3 mahine mein $4 lakh ka prop firm payout liya — ne Chart Fanatics pe apni woh strategy share ki jo unhe broke se six figures tak le gayi. Minimum 1:20 risk reward ka claim hai. Maine iska algo banaya aur 5 Forex pairs pe khud backtest kiya — results aaj video mein hain.",
+      "London Killzone Strategy | FVG Trading | ICT Trading | Consequent Encroachment | EMA Stack Forex | Fair Value Gap | Algo Trading India | Forex Swing Trading | Prop Firm Strategy | Smart Money Concepts | TG Capital Strategy | Chart Fanatics | Backtest Results | Forex Day Trading | London Session Forex | ICT FVG Setup | Python Trading Bot | 1:20 Risk Reward Strategy"
+    ],
+    "transcript_snippet": "सिर्फ 3 महीनों में $ लाख का प्रॉफ पे आउट लेने वाले टीजी कैपिटल यानी टाइलर गोटेल जो फुल टाइम फ्यूचर्स ट्रेडर हैं। आज मैं इनकी उस स्ट्रेटजी का एल्गो से ",
+    "code_sl": [
+      "sl = float(mid_candle_low - (spread * 2) - 0.0003)",
+      "sl = float(mid_candle_high + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = round(entry + (risk * 3.5), 5)",
+      "tp = round(entry - (risk * 3.5), 5)"
+    ],
+    "code_rr": [
+      "rr = round((tp - entry) / risk, 2)",
+      "rr = round((entry - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 49,
+    "code_name": "rayner_50_ema_swing",
+    "script_file": "forex_rayner_teo_50_ema_swing_scanner.py",
+    "video_id": "KGKC9Tkiii0",
+    "short_title": "Backtesting Singapore's No.1 Trader's Secret Setup with Python Algo!",
+    "desc_sl": [
+      "Risk Management: Execute a long trade at the candle close, place a protective stop loss below the candle low, and lock targets right before the previous resistance swing high."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/KGKC9Tkiii0",
+      "Risk Management: Execute a long trade at the candle close, place a protective stop loss below the candle low, and lock targets right before the previous resistance swing high."
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "यह हैं सिंगापुर के नंबर वन फॉलो ट्रेडर रेनर टीओ जिनके 2.18 मिलियन सब्सक्राइबर्स हैं YouTube पे और इनकी एक पुलबैक स्ट्रेटजी का लगभग 2300% रिटर्न का क्ल",
+    "code_sl": [
+      "sl = float(min(curr[\"low\"], prev[\"low\"]) - (spread * 2) - 0.0005)",
+      "sl = float(max(curr[\"high\"], prev[\"high\"]) + (spread * 2) + 0.0005)"
+    ],
+    "code_tp": [
+      "tp = max(entry + (risk * 2.0), float(recent_swing_high * 0.998))",
+      "tp = min(entry - (risk * 2.0), float(recent_swing_low * 1.002))"
+    ],
+    "code_rr": [
+      "rr = round((tp - entry) / risk, 2)",
+      "rr = round((entry - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 50,
+    "code_name": "ema_rsi_reclaim",
+    "script_file": "forex_50_ema_rsi_reclaim_scanner.py",
+    "video_id": "ryoDybQXEs4",
+    "short_title": "This RSI trading strategy gave 60% win rate in Algo-backtest.",
+    "desc_sl": [
+      "Strategy rules: trend filter (50-EMA), RSI oversold + confirmation entry, stop-loss placement, aur target logic — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/ryoDybQXEs4",
+      "Strategy rules: trend filter (50-EMA), RSI oversold + confirmation entry, stop-loss placement, aur target logic — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai."
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "ज्यादातर लोग आरएसआई को उल्टा यूज़ करते हैं। ओवरसोल्ड देखा तुरंत एंट्री और वही गलती उनको ले डूबती है। सही तरीका यह है। रूल नंबर वन सिर्फ अप ट्रेंड में ट",
+    "code_sl": [
+      "sl = float(pullback_low - (spread * 2) - 0.0003)",
+      "sl = float(pullback_high + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = max(entry + (risk * 2.2), float(recent_swing_high))",
+      "tp = min(entry - (risk * 2.2), float(recent_swing_low))"
+    ],
+    "code_rr": [
+      "rr = round((tp - entry) / risk, 2)",
+      "rr = round((entry - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 51,
+    "code_name": "booming_halftrend",
+    "script_file": "forex_booming_bulls_halftrend_dmi_scanner.py",
+    "video_id": "pFs09yBjQU4",
+    "short_title": "63% Return? Backtest of Anish Singh Thakur (Booming Bulls) Intraday Strategy",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/pFs09yBjQU4"
+    ],
+    "desc_rr": [
+      "• Risk-Reward: 1:3"
+    ],
+    "transcript_snippet": "Apple iPhone 17 Pro की तरह यह है ढांसू इंट्राडे  स्ट्रेटजी 3.38 मिलियन फॉलोअर्स वाले अनीश सिंह ठाकुर की जिसे मैंने बैक  टेस्ट किया फॉर लास्ट वन ईयर यू",
+    "code_sl": [
+      "sl = float(curr[\"ht_line\"] - (spread * 2) - 0.0003)",
+      "sl = float(curr[\"ht_line\"] + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = round(entry + (risk * 3.0), 5)",
+      "tp = round(entry - (risk * 3.0), 5)"
+    ],
+    "code_rr": []
+  },
+  {
+    "num": 52,
+    "code_name": "priyank_weekly_trap",
+    "script_file": "forex_priyank_weekly_trap_mss_scanner.py",
+    "video_id": "fipzUyTxUxw",
+    "short_title": "52% Return With Secret MTF Strategy! (Hold with Priyank Strategy Algo Backtest)",
+    "desc_sl": [
+      "Money Management Rules: Setting protective stop loss boundaries beneath the lowest wick of the fake breakout setup and trailing the maximum target expansion up to the macro previous week high level line."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/fipzUyTxUxw",
+      "Money Management Rules: Setting protective stop loss boundaries beneath the lowest wick of the fake breakout setup and trailing the maximum target expansion up to the macro previous week high level line."
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "यह हैं प्रियंक शर्मा सेबी रजिस्टर्ड एनालिस्ट जिनके YouTube चैनल के लगभग 2.5 लाख सब्सक्राइबर्स हैं। इनकी एक सीक्रेट स्विंग स्ट्रेटजी है एमटीएफ स्ट्रेटज",
+    "code_sl": [
+      "sl = float(trap_extreme_low - (spread * 2) - 0.0003)",
+      "sl = float(trap_extreme_high + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = max(entry + (risk * 2.0), pwh)",
+      "tp = min(entry - (risk * 2.0), pwl)"
+    ],
+    "code_rr": [
+      "rr = round((tp - entry) / risk, 2)",
+      "rr = round((entry - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 53,
+    "code_name": "paradise_redbox",
+    "script_file": "forex_traders_paradise_redbox_scanner.py",
+    "video_id": "KJmLvxyzXSg",
+    "short_title": "I Backtested Traders Paradise Redbox Strategy for 1 Year (43% Return 😳)",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/KJmLvxyzXSg",
+      "Target = next support level"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "करोड़ों की Rollsyce CV, Gwagon और पता नहीं कौन-कौन सी लग्जरी कार्स ली हुई हैं ट्रेडर्स पैराडाइज़ ने। तो इनकी एक रेड बॉक्स स्ट्रेटजी है जिसे आज मैं करूं",
+    "code_sl": [
+      "sl = float(max(fakeout_high, curr[\"high\"]) + (spread * 2) + 0.0003)",
+      "sl = float(min(fakeout_low, curr[\"low\"]) - (spread * 2) - 0.0003)"
+    ],
+    "code_tp": [
+      "tp = min(entry - (risk * 2.0), support)",
+      "tp = max(entry + (risk * 2.0), resistance)"
+    ],
+    "code_rr": [
+      "rr = round((entry - tp) / risk, 2)",
+      "rr = round((tp - entry) / risk, 2)"
+    ]
+  },
+  {
+    "num": 54,
+    "code_name": "renko_10_sma_obv",
+    "script_file": "indicator_renko_brick_trend_scanner.py",
+    "video_id": "IkCC_gC-wXQ",
+    "short_title": "Renko Chart Strategy Algo Backtested — 35% Return on 10 Lakh",
+    "desc_sl": [
+      "✅ Stop-Loss: 2 Renko bricks neeche",
+      "✅ First Target: 3 bricks upar -- target hit hote hi SL breakeven pe le aao"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/IkCC_gC-wXQ",
+      "✅ First Target: 3 bricks upar -- target hit hote hi SL breakeven pe le aao"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "ट्रेडर्स चार्ट पे घंटे लगाते हैं लेकिन फिर भी लॉस होता है क्योंकि वह टाइम बेस चार्ट्स देख रहे हैं जहां पे नॉइज़ ज्यादा होती है। लेकिन रेनको चार्ट्स जो ",
+    "code_sl": [
+      "sl = float(curr_b[\"close\"] - (2 * brick_size) - (spread * 2))",
+      "sl = float(curr_b[\"close\"] + (2 * brick_size) + (spread * 2))"
+    ],
+    "code_tp": [
+      "tp = float(curr_b[\"close\"] + (3 * brick_size))",
+      "tp = float(curr_b[\"close\"] - (3 * brick_size))"
+    ],
+    "code_rr": [
+      "rr = round((tp - entry) / max(risk, 1e-5), 2)",
+      "rr = round((entry - tp) / max(risk, 1e-5), 2)"
+    ]
+  },
+  {
+    "num": 55,
+    "code_name": "umar_gold_london",
+    "script_file": "forex_umar_punjabi_gold_london_scanner.py",
+    "video_id": "uXG8eHYhG9E",
+    "short_title": "Umar Punjabi Gold Strategy Exposed! (1-Year Python Algo Backtest)",
+    "desc_sl": [
+      "Capital Security Borders: Pinning stop loss barriers beneath the prominent structural swing low anchors and projecting fixed asset execution take-profits at a clear 1:2 risk-to-reward ratio."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/uXG8eHYhG9E",
+      "Capital Security Borders: Pinning stop loss barriers beneath the prominent structural swing low anchors and projecting fixed asset execution take-profits at a clear 1:2 risk-to-reward ratio."
+    ],
+    "desc_rr": [
+      "Capital Security Borders: Pinning stop loss barriers beneath the prominent structural swing low anchors and projecting fixed asset execution take-profits at a clear 1:2 risk-to-reward ratio."
+    ],
+    "transcript_snippet": "ये है उमर पंजाबी की गोल्ड ट्रेडिंग स्ट्रेटजी जो यूज करती है गोल्ड के लंदन सेशन के पहले घंटे को जो सबसे ज्यादा ट्रेंडिंग होता है। मैंने इनकी स्ट्रेटजी ",
+    "code_sl": [
+      "sl = float(sweep_peak + (spread * 2) + 0.0005)",
+      "sl = float(sweep_trough - (spread * 2) - 0.0005)"
+    ],
+    "code_tp": [
+      "tp = round(entry - (risk * 2.0), 5)",
+      "tp = round(entry + (risk * 2.0), 5)"
+    ],
+    "code_rr": []
+  },
+  {
+    "num": 56,
+    "code_name": "bill_alligator",
+    "script_file": "indicator_bill_williams_alligator_scanner.py",
+    "video_id": "tW3pNDWhKHE",
+    "short_title": "This Single Indicator Made Him Crores! (Bill Williams Alligator Strategy Algo-Backtested)",
+    "desc_sl": [
+      "Exit Rule: No fixed stop loss, exit manually when any candle touches the green line.",
+      "Trading without a fixed stop loss using dynamic indicator exits"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/tW3pNDWhKHE"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "करोड़ की नेटवर्थ वाले लेजेंड्री ट्रेडर बिल विलियम्स का एक बहुत ही फेमस इंडिकेटर है जिसे विलियम्स एलगेटर कहते हैं। कहा जाता है कि यह अकेला इंडिकेटर ट्र",
+    "code_sl": [
+      "sl = float(curr[\"jaw\"] - (spread * 2) - 0.0003)",
+      "sl = float(curr[\"jaw\"] + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = round(entry + (risk * 2.0), 5)",
+      "tp = round(entry - (risk * 2.0), 5)"
+    ],
+    "code_rr": [
+      "rr = round((tp - entry) / risk, 2)",
+      "rr = round((entry - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 57,
+    "code_name": "ict_po3_amd",
+    "script_file": "forex_ict_po3_amd_framework_scanner.py",
+    "video_id": "ujdzVPO97bU",
+    "short_title": "Institutions Yeh Strategy Use Karke Tumhare Stoploss Khaate Hain — CRT Ka Algo Backtest | ICT PO3",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/ujdzVPO97bU",
+      "Stoploss us candle ke low ke thoda neeche. Target",
+      "Link: https://www.youtube.com/shorts/WRczqfxjR4g"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "इनर सर्कल ट्रेडर का पीओ3 फ्रेमवर्क एक्यूमुलेशन, मैनपुलेशन, डिस्ट्रीब्यूशन। यानी जिस स्ट्रेटजी को इंस्टीटशंस यूज़ करके रिटेल ट्रेडर्स को ट्रैप करते हैं,",
+    "code_sl": [
+      "sl = float(sweep_extreme - (spread * 2) - 0.0003)",
+      "sl = float(sweep_extreme + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = float(crt_high)",
+      "tp = float(crt_low)"
+    ],
+    "code_rr": [
+      "rr = round((tp - entry) / risk, 2)",
+      "rr = round((entry - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 58,
+    "code_name": "oliver_elephant_180",
+    "script_file": "forex_oliver_velez_elephant_180_scanner.py",
+    "video_id": "Lzzi6ylRObY",
+    "short_title": "American Trading Legend Ka Claim Maine Check Kiya— Bull 180 Trading Strategy | Algo Backtest Results",
+    "desc_sl": [
+      "Stop Loss — Green signal candle ke low ke thoda neeche."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/Lzzi6ylRObY",
+      "ho jaye toh exit karo. Koi fixed target nahi hai."
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "ये है ऑलवर वेलस एक अमेरिकन ट्रेडर जो 39 इयर्स से प्रोफेशनलली ट्रेड कर रहा है और यह खुद की प्रॉप फर्म रन करता है। ऐसा इन्होंने बताया हुआ है। इनके YouTu",
+    "code_sl": [
+      "sl = float(min(curr[\"low\"], prev[\"low\"]) - (spread * 2) - 0.0003)",
+      "sl = float(max(curr[\"high\"], prev[\"high\"]) + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = round(entry + (risk * 2.5), 5)",
+      "tp = round(entry - (risk * 2.5), 5)"
+    ],
+    "code_rr": [
+      "rr = round((tp - entry) / risk, 2)",
+      "rr = round((entry - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 59,
+    "code_name": "mov_avg_fib_scalp",
+    "script_file": "forex_the_moving_average_fib_scalp_scanner.py",
+    "video_id": "1nOpTr6aNjQ",
+    "short_title": "I Turned This Classical Fibonacci Strategy Into a High-Speed Algo Printing Machine! (Full Backtest)",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/1nOpTr6aNjQ",
+      "Account Risk Boundaries: Securing defensive exit points at the hard structural Fib 1.0 zone line while mapping exit limit targets directly over the anchor swing low points."
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "YouTube पर 1.13 मिलियन सब्सक्राइबर्स वाला द मूविंग एवरेज चैनल फॉररेक्स ट्रेडिंग के लिए जाना जाता है। और इनकी एक काफी पॉपुलर स्ट्रेटजी है द 1 मिनट फिबो",
+    "code_sl": [
+      "sl = float(fib_786_bull - (spread * 2) - 0.0003)",
+      "sl = float(fib_786_bear + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = round(swing_high + (0.272 * swing_range), 5)",
+      "tp = round(swing_low - (0.272 * swing_range), 5)"
+    ],
+    "code_rr": [
+      "rr = round((tp - entry) / risk, 2)",
+      "rr = round((entry - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 60,
+    "code_name": "jesse_smc_fvg",
+    "script_file": "forex_jesse_rogers_smc_fvg_scanner.py",
+    "video_id": "0O2w9OYLuTs",
+    "short_title": "Smart Money Concept FVG Strategy Backtested | Real Results (Algo Backtest) 📊",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/0O2w9OYLuTs",
+      "Target = 1:3 risk reward"
+    ],
+    "desc_rr": [
+      "Target = 1:3 risk reward"
+    ],
+    "transcript_snippet": "यह है जैसी रजर्स जो एसएमसी यानी स्मार्ट मनी कासेप्ट की स्ट्रेटजीस बताता है। इनकी एक एफबीजी स्ट्रेटजी है जिसका यह कहते हैं कि 83% विनिंग रेशो है और इसस",
+    "code_sl": [
+      "sl = float(c2[\"low\"] - (spread * 2) - 0.0003)",
+      "sl = float(c2[\"high\"] + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = round(entry + (risk * 2.5), 5)",
+      "tp = round(entry - (risk * 2.5), 5)"
+    ],
+    "code_rr": [
+      "rr = round((tp - entry) / risk, 2)",
+      "rr = round((entry - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 61,
+    "code_name": "theta_ema_rsi",
+    "script_file": "forex_theta_gainers_ema_rsi_scanner.py",
+    "video_id": "vGHK12UgsmE",
+    "short_title": "Best Crypto Strategy For Beginners? — EMA 50/200 +    RSI Pullback Ka 1 Saal Ka Real Data Backtest",
+    "desc_sl": [
+      "Stop Loss — Recent swing low pe. Ya RSI"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/vGHK12UgsmE",
+      "Exit (Target) — Koi fixed target nahi. Jab RSI 70 se"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "लो रिस्क, हाई रिवॉर्ड और बिगिनर्स के लिए भी काम करती है। यह क्लेम है थीटा गेनर्स की ईएमए, आरएसआई क्रिप्टो पुलबैक स्ट्रेटजी का। इनके YouTube पे 4.5 लाख",
+    "code_sl": [
+      "sl = float(min(recent_swing_low, ema50) - (spread * 2) - 0.0003)",
+      "sl = float(max(recent_swing_high, ema50) + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = round(entry + (risk * 2.2), 5)",
+      "tp = round(entry - (risk * 2.2), 5)"
+    ],
+    "code_rr": [
+      "rr = round((tp - entry) / risk, 2)",
+      "rr = round((entry - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 62,
+    "code_name": "gold_smc_imbalance",
+    "script_file": "forex_gold_smc_imbalance_zone_scanner.py",
+    "video_id": "qQgjJIBE2hk",
+    "short_title": "How Big Traders Make Crores Trading Gold! (SMC Imbalance Strategy Algo Backtest)",
+    "desc_sl": [
+      "Exit Criteria: Protective stop loss placed slightly above the zone and profit target at the next major demand zone."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/qQgjJIBE2hk",
+      "Exit Criteria: Protective stop loss placed slightly above the zone and profit target at the next major demand zone."
+    ],
+    "desc_rr": [
+      "Managing drawdown and risk reward ratio in commodity options trading"
+    ],
+    "transcript_snippet": "गोल्ड की वो एसएमसी स्ट्रेटजी जिससे बड़े इंस्टीट्यूशनल ट्रेडर्स भी करोड़ों कमा चुके हैं। क्योंकि इस मॉडल के बारे में कहा जाता है कि यह बहुत ही पावरफुल ",
+    "code_sl": [
+      "sl = float(c2[\"low\"] - (spread * 2) - 0.0005)",
+      "sl = float(c2[\"high\"] + (spread * 2) + 0.0005)"
+    ],
+    "code_tp": [
+      "tp = max(entry + (risk * 2.5), recent_swing_high)",
+      "tp = min(entry - (risk * 2.5), recent_swing_low)"
+    ],
+    "code_rr": [
+      "rr = round((tp - entry) / risk, 2)",
+      "rr = round((entry - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 63,
+    "code_name": "dual_ema_stoch_rsi",
+    "script_file": "forex_dual_ema_stoch_rsi_scanner.py",
+    "video_id": "FvHJKuGaoqg",
+    "short_title": "Viral EMA Strategy ka sach 😳 (Algo Backtesting)",
+    "desc_sl": [
+      "Stop Loss: Recent swing low ke neeche"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/FvHJKuGaoqg",
+      "Target: 1.5 to 2 Risk Reward"
+    ],
+    "desc_rr": [
+      "Target: 1.5 to 2 Risk Reward"
+    ],
+    "transcript_snippet": "सिर्फ दो ईएमए और स्टोकास्टिक आरएसआई वाली इस सिंपल सी स्ट्रेटजी से आपका 1 लाख का कैपिटल बन जाएगा ₹1,72,000। ये बहुत इजी स्ट्रेटजी है जो कोई भी समझ के ल",
+    "code_sl": [
+      "sl = float(recent_swing_low - (spread * 2) - 0.0003)",
+      "sl = float(recent_swing_high + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = round(entry + (risk * 2.0), 5)",
+      "tp = round(entry - (risk * 2.0), 5)"
+    ],
+    "code_rr": []
+  },
+  {
+    "num": 64,
+    "code_name": "smc_breaker_v2",
+    "script_file": "forex_smc_breaker_block_v2_scanner.py",
+    "video_id": "AkoRQx8SDLc",
+    "short_title": "44% Return With Low Drawdown! (SMC Breaker Block Strategy ka Algo Backtest)",
+    "desc_sl": [
+      "Execution Target: Entering a market buy position right at the breach of the internal pullback wave high limit, defining stop loss limits below the pullback pivot floor, and aligning exit targets at the prominent 5-Minute chart swing high reference structure."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/AkoRQx8SDLc",
+      "Execution Target: Entering a market buy position right at the breach of the internal pullback wave high limit, defining stop loss limits below the pullback pivot floor, and aligning exit targets at the prominent 5-Minute chart swing high reference structure."
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "1 साल के एल्गोबैक टेस्ट में इस एसएमसी स्ट्रेटजी का 44.8% रिटर्न आया है। 61% विन रेट। टोटल ट्रेड्स थे 112 जिसमें 68 विनिंग ट्रेड्स रहे। ये रहा स्ट्रेटज",
+    "code_sl": [
+      "sl = float(breaker_bottom - (spread * 2) - 0.0003)",
+      "sl = float(breaker_top + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = max(entry + (risk * 2.2), recent_swing_high)",
+      "tp = min(entry - (risk * 2.2), recent_swing_low)"
+    ],
+    "code_rr": [
+      "rr = round((tp - entry) / risk, 2)",
+      "rr = round((entry - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 65,
+    "code_name": "steven_hart_4h",
+    "script_file": "forex_steven_hart_4h_trend_pullback_scanner.py",
+    "video_id": "Em-Ao3orPbU",
+    "short_title": "\"Most Subscribed Forex Trader's Strategy — Full Algo Backtest",
+    "desc_sl": [
+      "✅ Stop-Loss: Double Bottom ke lowest low ke thoda neeche",
+      "Isliye yeh strategy ya mere channel ki 150 se zyada backtested strategies mein se koi bhi chuno -- ya apni khud ki strategy ho -- bas Telegram pe meri team ko strategy ka naam aur market batao jispe algo setup karwana ho. Apke trades khud lagenge har waqt. Telegram link channel profile mein hai."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/Em-Ao3orPbU",
+      "✅ Target: Pichla HTF swing high (avg RR 2:1 se 2.4:1)"
+    ],
+    "desc_rr": [
+      "✅ Target: Pichla HTF swing high (avg RR 2:1 se 2.4:1)"
+    ],
+    "transcript_snippet": "आज मैं तुम्हें एक हाई क्वालिटी ट्रेडिंग स्ट्रेटजी और उसका मैंने जो Python पे एल्गो बनाके एक साल का बैक टेस्ट किया है वह भी दिखाऊंगा। यह स्ट्रेटजी है स",
+    "code_sl": [
+      "sl = float(min(h1_now[\"low\"], h1_prev[\"low\"]) - (spread * 2) - 0.0003)",
+      "sl = float(max(h1_now[\"high\"], h1_prev[\"high\"]) + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = max(entry + (risk * 2.2), float(df_h4.iloc[-15:][\"high\"].max()))",
+      "tp = min(entry - (risk * 2.2), float(df_h4.iloc[-15:][\"low\"].min()))"
+    ],
+    "code_rr": [
+      "rr = round((tp - entry) / risk, 2)",
+      "rr = round((entry - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 66,
+    "code_name": "bhanushali_44_ma",
+    "script_file": "forex_bhanushali_44_ma_rejection_scanner.py",
+    "video_id": "EIF1PHduEbo",
+    "short_title": "Most watched swing trading strategy of Siddharth Bhanushali | Backtest by Sahil Sawhney",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/EIF1PHduEbo",
+      "For this 44 MA swing trading strategy, we will go to the Nifty 50 chart on daily timeframe, add Simple Moving Average (SMA) indicator with length 44. So, if the SMA line is in uptrend, and candles are also moving above the SMA level, then when the candles will pullback to the SMA line which is acting as a dynamic support level here, and subsequently, when a green bullish candle is formed, then we will take long position on a bit higher from high of this green candle, stoploss a bit lower from low of this green candle and target decided by risk:reward ratio of 1:2 to 1:3."
+    ],
+    "desc_rr": [
+      "For this 44 MA swing trading strategy, we will go to the Nifty 50 chart on daily timeframe, add Simple Moving Average (SMA) indicator with length 44. So, if the SMA line is in uptrend, and candles are also moving above the SMA level, then when the candles will pullback to the SMA line which is acting as a dynamic support level here, and subsequently, when a green bullish candle is formed, then we will take long position on a bit higher from high of this green candle, stoploss a bit lower from low of this green candle and target decided by risk:reward ratio of 1:2 to 1:3."
+    ],
+    "transcript_snippet": "सिद्धार्थ भानुशाली इनकी एक काफी पॉपुलर और बड़ी सिंपल एक स्विंग स्ट्रेटजी है 44 मूविंग एवरेज। इनका कहना है कि यह दुनिया की सबसे ज्यादा देखे जाने वाली स",
+    "code_sl": [
+      "sl = float(min(curr[\"low\"], prev1[\"low\"], sma44) - (spread * 2) - 0.0005)",
+      "sl = float(max(curr[\"high\"], prev1[\"high\"], sma44) + (spread * 2) + 0.0005)"
+    ],
+    "code_tp": [
+      "tp = round(entry + (risk * 2.0), 5)",
+      "tp = round(entry - (risk * 2.0), 5)"
+    ],
+    "code_rr": []
+  },
+  {
+    "num": 67,
+    "code_name": "mukul_10_ema_vwap",
+    "script_file": "forex_mukul_chowdhary_10_ema_vwap_scanner.py",
+    "video_id": "I7i8MnUsqJ4",
+    "short_title": "Backtesting Mukul Choudhary’s 1:4 Risk-Reward Trading Strategy! (Algo Results)",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/I7i8MnUsqJ4",
+      "Entry/Exit: VWAP breakdown/breakout with 10 EMA crossover, keeping target at previous day's high/low."
+    ],
+    "desc_rr": [
+      "Kya Mukul Choudhary sir ki VWAP + 10EMA \"Failure Concept\" strategy sach me 70% accurate hai? Is video me humne 1:4 risk-reward ratio ke is claim ka sach pta lagaya hai. Maine is pure logic ko Python algo ke sath backtest kiya hai real market data par!",
+      "High risk-reward trading strategies (1:3 and 1:4 RR setups)"
+    ],
+    "transcript_snippet": "1:4 रिस्क रिवॉर्ड का क्लेम और 70% से ज़्यादा एक्यूरेसी का वादा इट विल गिव यू मोर देन 70% एक्यूरेसी। यह कहना है एक 10 साल से ज्यादा एक्सपीरियंस वाले ट्र",
+    "code_sl": [
+      "sl = float(min(curr[\"low\"], prev1[\"low\"], ema10) - (spread * 2) - 0.0003)",
+      "sl = float(max(curr[\"high\"], prev1[\"high\"], ema10) + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = round(entry + (risk * 4.0), 5)",
+      "tp = round(entry - (risk * 4.0), 5)"
+    ],
+    "code_rr": []
+  },
+  {
+    "num": 68,
+    "code_name": "luxalgo_confirm",
+    "script_file": "indicator_luxalgo_confirmation_trend_scanner.py",
+    "video_id": "x-7CInJes_s",
+    "short_title": "TradingView Ki Sabse Popular Indicator Company — LuxAlgo Ki Best Strategy Ka 1 Year Algo Backtest",
+    "desc_sl": [
+      "sideways mein slow rehti hai — trend filter aur",
+      "Stop Loss — Jab price TRAMA ke neeche close ho jaaye."
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/x-7CInJes_s",
+      "Exit (Target) — RSI 70 ke upar aa jaaye tab exit karo.",
+      "Koi fixed target nahi — RSI hi batata hai kab nikalna"
+    ],
+    "desc_rr": [],
+    "transcript_snippet": "LX Algo दुनिया की सबसे बड़ी ट्रेडिंग इंडिकेटर कंपनी। इनके इंडिकेटर्स ट्रेडिंग व्यू पे 2 मिलियन से ज्यादा ट्रेडर्स यूज़ करते हैं। तो जब यह एक स्ट्रेटजी",
+    "code_sl": [
+      "sl = float(min(recent_swing_low, curr[\"baseline\"]) - (spread * 2) - 0.0003)",
+      "sl = float(max(recent_swing_high, curr[\"baseline\"]) + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = round(entry + (risk * 2.0), 5)",
+      "tp = round(entry - (risk * 2.0), 5)"
+    ],
+    "code_rr": []
+  },
+  {
+    "num": 69,
+    "code_name": "uk_break_bounce",
+    "script_file": "forex_uk_trader_break_and_bounce_scanner.py",
+    "video_id": "ulkbJJzPHzE",
+    "short_title": "I Backtested a $10,000/Month Trading Strategy on Indian Stocks! (Shocking Results)",
+    "desc_sl": [],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/ulkbJJzPHzE",
+      "Risk to Reward: 1:2 to 1:3 target."
+    ],
+    "desc_rr": [
+      "Risk to Reward: 1:2 to 1:3 target."
+    ],
+    "transcript_snippet": "यूके का यह ट्रेडर जो कहता है सिर्फ एक स्ट्रेटजी से उसे $10,000 हर महीना मिलता है। 20 साल की ट्रेडिंग एक्सपीरियंस के बाद। इसका क्लेम है कि इस ब्रेक एंड",
+    "code_sl": [
+      "sl = float(min(curr[\"low\"], prev1[\"low\"], resistance) - (spread * 2) - 0.0003)",
+      "sl = float(max(curr[\"high\"], prev1[\"high\"], support) + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = round(entry + (risk * 2.2), 5)",
+      "tp = round(entry - (risk * 2.2), 5)"
+    ],
+    "code_rr": [
+      "rr = round((tp - entry) / risk, 2)",
+      "rr = round((entry - tp) / risk, 2)"
+    ]
+  },
+  {
+    "num": 70,
+    "code_name": "pb_multi_tf_fvg",
+    "script_file": "forex_pb_trading_h1_m5_fvg_scanner.py",
+    "video_id": "N3o-py_LA3A",
+    "short_title": "Lakhon Kamaane Wali Strategy — 1 Year Algo Backtest Results",
+    "desc_sl": [
+      "✅ SL: pullback ka swing low"
+    ],
+    "desc_tp": [
+      "Link: https://www.youtube.com/shorts/N3o-py_LA3A",
+      "✅ Target: 1:2 RR fixed"
+    ],
+    "desc_rr": [
+      "✅ Target: 1:2 RR fixed"
+    ],
+    "transcript_snippet": "यह वह स्ट्रेटजी है जिसको पीबी ट्रेडिंग रोज यूज़ करता है और इससे लाखों कमाता है। मैंने इसको एल्गो से बैक टेस्ट किया ब्रोकर से डाटा लेकर ताकि इसका 70% एक",
+    "code_sl": [
+      "sl = float(mc2[\"low\"] - (spread * 2) - 0.0003)",
+      "sl = float(mc2[\"high\"] + (spread * 2) + 0.0003)"
+    ],
+    "code_tp": [
+      "tp = round(entry + (risk * 3.0), 5)",
+      "tp = round(entry - (risk * 3.0), 5)"
+    ],
+    "code_rr": []
+  }
+]

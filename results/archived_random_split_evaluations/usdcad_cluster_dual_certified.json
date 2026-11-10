@@ -1,0 +1,1477 @@
+[
+  {
+    "id": "H4Retest_SL16_TP36_LB14_D10.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 14,
+      "dist": 10.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 25,
+    "is_pips": 315.2,
+    "is_return": 19.7,
+    "is_pf": 2.71,
+    "is_wr": 56.0,
+    "oos_trades": 40,
+    "oos_net_pips": 459.1,
+    "oos_ann_pips": 265.3,
+    "oos_ann_ret": 16.6,
+    "oos_pf": 2.56,
+    "oos_wr": 55.0
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB16_D10.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 16,
+      "dist": 10.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 22,
+    "is_pips": 313.2,
+    "is_return": 19.6,
+    "is_pf": 3.08,
+    "is_wr": 59.1,
+    "oos_trades": 33,
+    "oos_net_pips": 367.4,
+    "oos_ann_pips": 212.3,
+    "oos_ann_ret": 13.3,
+    "oos_pf": 2.51,
+    "oos_wr": 54.5
+  },
+  {
+    "id": "H4Retest_SL15_TP30_LB16_D10.0_W35",
+    "params": {
+      "sl": 15.0,
+      "tp": 30.0,
+      "lb": 16,
+      "dist": 10.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 22,
+    "is_pips": 290.0,
+    "is_return": 19.3,
+    "is_pf": 3.32,
+    "is_wr": 63.6,
+    "oos_trades": 33,
+    "oos_net_pips": 213.7,
+    "oos_ann_pips": 123.5,
+    "oos_ann_ret": 8.2,
+    "oos_pf": 1.82,
+    "oos_wr": 48.5
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB16_D10.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 16,
+      "dist": 10.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 22,
+    "is_pips": 308.7,
+    "is_return": 19.3,
+    "is_pf": 3.32,
+    "is_wr": 63.6,
+    "oos_trades": 33,
+    "oos_net_pips": 300.5,
+    "oos_ann_pips": 173.6,
+    "oos_ann_ret": 10.8,
+    "oos_pf": 2.24,
+    "oos_wr": 54.5
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB14_D10.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 14,
+      "dist": 10.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 25,
+    "is_pips": 306.5,
+    "is_return": 19.2,
+    "is_pf": 2.84,
+    "is_wr": 60.0,
+    "oos_trades": 40,
+    "oos_net_pips": 376.0,
+    "oos_ann_pips": 217.2,
+    "oos_ann_ret": 13.6,
+    "oos_pf": 2.28,
+    "oos_wr": 55.0
+  },
+  {
+    "id": "H4Retest_SL15_TP30_LB14_D10.0_W35",
+    "params": {
+      "sl": 15.0,
+      "tp": 30.0,
+      "lb": 14,
+      "dist": 10.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 25,
+    "is_pips": 286.8,
+    "is_return": 19.1,
+    "is_pf": 2.82,
+    "is_wr": 60.0,
+    "oos_trades": 40,
+    "oos_net_pips": 283.7,
+    "oos_ann_pips": 163.9,
+    "oos_ann_ret": 10.9,
+    "oos_pf": 1.92,
+    "oos_wr": 50.0
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB12_D10.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 12,
+      "dist": 10.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 29,
+    "is_pips": 301.2,
+    "is_return": 18.8,
+    "is_pf": 2.29,
+    "is_wr": 51.7,
+    "oos_trades": 45,
+    "oos_net_pips": 408.4,
+    "oos_ann_pips": 236.0,
+    "oos_ann_ret": 14.8,
+    "oos_pf": 2.07,
+    "oos_wr": 51.1
+  },
+  {
+    "id": "H4Retest_SL15_TP30_LB12_D10.0_W35",
+    "params": {
+      "sl": 15.0,
+      "tp": 30.0,
+      "lb": 12,
+      "dist": 10.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 29,
+    "is_pips": 269.7,
+    "is_return": 18.0,
+    "is_pf": 2.32,
+    "is_wr": 55.2,
+    "oos_trades": 45,
+    "oos_net_pips": 228.4,
+    "oos_ann_pips": 132.0,
+    "oos_ann_ret": 8.8,
+    "oos_pf": 1.58,
+    "oos_wr": 46.7
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB12_D10.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 12,
+      "dist": 10.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 29,
+    "is_pips": 288.3,
+    "is_return": 18.0,
+    "is_pf": 2.33,
+    "is_wr": 55.2,
+    "oos_trades": 45,
+    "oos_net_pips": 320.9,
+    "oos_ann_pips": 185.4,
+    "oos_ann_ret": 11.6,
+    "oos_pf": 1.84,
+    "oos_wr": 51.1
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB14_D8.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 14,
+      "dist": 8.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 18,
+    "is_pips": 278.3,
+    "is_return": 17.4,
+    "is_pf": 3.78,
+    "is_wr": 66.7,
+    "oos_trades": 34,
+    "oos_net_pips": 277.9,
+    "oos_ann_pips": 160.6,
+    "oos_ann_ret": 10.0,
+    "oos_pf": 2.05,
+    "oos_wr": 52.9
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB14_D8.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 14,
+      "dist": 8.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 18,
+    "is_pips": 275.4,
+    "is_return": 17.2,
+    "is_pf": 3.35,
+    "is_wr": 61.1,
+    "oos_trades": 34,
+    "oos_net_pips": 344.9,
+    "oos_ann_pips": 199.3,
+    "oos_ann_ret": 12.5,
+    "oos_pf": 2.3,
+    "oos_wr": 52.9
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB14_D8.0_W30",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 14,
+      "dist": 8.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 19,
+    "is_pips": 261.8,
+    "is_return": 16.4,
+    "is_pf": 3.24,
+    "is_wr": 63.2,
+    "oos_trades": 35,
+    "oos_net_pips": 282.5,
+    "oos_ann_pips": 163.2,
+    "oos_ann_ret": 10.2,
+    "oos_pf": 2.06,
+    "oos_wr": 54.3
+  },
+  {
+    "id": "H4Retest_SL17_TP34_LB16_D10.0_W35",
+    "params": {
+      "sl": 17.0,
+      "tp": 34.0,
+      "lb": 16,
+      "dist": 10.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 22,
+    "is_pips": 277.8,
+    "is_return": 16.3,
+    "is_pf": 2.74,
+    "is_wr": 59.1,
+    "oos_trades": 33,
+    "oos_net_pips": 320.1,
+    "oos_ann_pips": 184.9,
+    "oos_ann_ret": 10.9,
+    "oos_pf": 2.24,
+    "oos_wr": 54.5
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB12_D8.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 12,
+      "dist": 8.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 22,
+    "is_pips": 261.3,
+    "is_return": 16.3,
+    "is_pf": 2.56,
+    "is_wr": 54.5,
+    "oos_trades": 36,
+    "oos_net_pips": 304.8,
+    "oos_ann_pips": 176.1,
+    "oos_ann_ret": 11.0,
+    "oos_pf": 2.0,
+    "oos_wr": 50.0
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB12_D8.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 12,
+      "dist": 8.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 22,
+    "is_pips": 260.0,
+    "is_return": 16.2,
+    "is_pf": 2.73,
+    "is_wr": 59.1,
+    "oos_trades": 36,
+    "oos_net_pips": 237.8,
+    "oos_ann_pips": 137.4,
+    "oos_ann_ret": 8.6,
+    "oos_pf": 1.78,
+    "oos_wr": 50.0
+  },
+  {
+    "id": "H4Retest_SL17_TP34_LB14_D10.0_W35",
+    "params": {
+      "sl": 17.0,
+      "tp": 34.0,
+      "lb": 14,
+      "dist": 10.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 25,
+    "is_pips": 274.9,
+    "is_return": 16.2,
+    "is_pf": 2.4,
+    "is_wr": 56.0,
+    "oos_trades": 40,
+    "oos_net_pips": 401.4,
+    "oos_ann_pips": 231.9,
+    "oos_ann_ret": 13.6,
+    "oos_pf": 2.29,
+    "oos_wr": 55.0
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB14_D8.0_W30",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 14,
+      "dist": 8.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 19,
+    "is_pips": 258.7,
+    "is_return": 16.2,
+    "is_pf": 2.93,
+    "is_wr": 57.9,
+    "oos_trades": 35,
+    "oos_net_pips": 349.5,
+    "oos_ann_pips": 201.9,
+    "oos_ann_ret": 12.6,
+    "oos_pf": 2.32,
+    "oos_wr": 54.3
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB12_D10.0_W40",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 12,
+      "dist": 10.0,
+      "wick": 0.4,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 26,
+    "is_pips": 246.1,
+    "is_return": 15.4,
+    "is_pf": 2.13,
+    "is_wr": 50.0,
+    "oos_trades": 41,
+    "oos_net_pips": 332.0,
+    "oos_ann_pips": 191.8,
+    "oos_ann_ret": 12.0,
+    "oos_pf": 1.95,
+    "oos_wr": 48.8
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB14_D10.0_W30",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 14,
+      "dist": 10.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 26,
+    "is_pips": 246.3,
+    "is_return": 15.4,
+    "is_pf": 2.13,
+    "is_wr": 50.0,
+    "oos_trades": 43,
+    "oos_net_pips": 527.3,
+    "oos_ann_pips": 304.7,
+    "oos_ann_ret": 19.0,
+    "oos_pf": 2.78,
+    "oos_wr": 55.8
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB16_D10.0_W30",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 16,
+      "dist": 10.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 23,
+    "is_pips": 244.2,
+    "is_return": 15.3,
+    "is_pf": 2.47,
+    "is_wr": 56.5,
+    "oos_trades": 35,
+    "oos_net_pips": 329.3,
+    "oos_ann_pips": 190.3,
+    "oos_ann_ret": 11.9,
+    "oos_pf": 2.34,
+    "oos_wr": 54.3
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB12_D8.0_W30",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 12,
+      "dist": 8.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 23,
+    "is_pips": 244.6,
+    "is_return": 15.3,
+    "is_pf": 2.33,
+    "is_wr": 52.2,
+    "oos_trades": 37,
+    "oos_net_pips": 309.0,
+    "oos_ann_pips": 178.5,
+    "oos_ann_ret": 11.2,
+    "oos_pf": 2.01,
+    "oos_wr": 51.4
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB16_D10.0_W30",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 16,
+      "dist": 10.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 23,
+    "is_pips": 244.3,
+    "is_return": 15.3,
+    "is_pf": 2.33,
+    "is_wr": 52.2,
+    "oos_trades": 35,
+    "oos_net_pips": 399.7,
+    "oos_ann_pips": 230.9,
+    "oos_ann_ret": 14.4,
+    "oos_pf": 2.62,
+    "oos_wr": 54.3
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB12_D8.0_W30",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 12,
+      "dist": 8.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 23,
+    "is_pips": 243.5,
+    "is_return": 15.2,
+    "is_pf": 2.46,
+    "is_wr": 56.5,
+    "oos_trades": 37,
+    "oos_net_pips": 242.0,
+    "oos_ann_pips": 139.8,
+    "oos_ann_ret": 8.7,
+    "oos_pf": 1.79,
+    "oos_wr": 51.4
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB14_D10.0_W40",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 14,
+      "dist": 10.0,
+      "wick": 0.4,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 23,
+    "is_pips": 243.3,
+    "is_return": 15.2,
+    "is_pf": 2.46,
+    "is_wr": 56.5,
+    "oos_trades": 37,
+    "oos_net_pips": 281.1,
+    "oos_ann_pips": 162.4,
+    "oos_ann_ret": 10.2,
+    "oos_pf": 1.96,
+    "oos_wr": 51.4
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB14_D10.0_W40",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 14,
+      "dist": 10.0,
+      "wick": 0.4,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 23,
+    "is_pips": 243.6,
+    "is_return": 15.2,
+    "is_pf": 2.32,
+    "is_wr": 52.2,
+    "oos_trades": 37,
+    "oos_net_pips": 352.5,
+    "oos_ann_pips": 203.7,
+    "oos_ann_ret": 12.7,
+    "oos_pf": 2.2,
+    "oos_wr": 51.4
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB12_D10.0_W40",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 12,
+      "dist": 10.0,
+      "wick": 0.4,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 26,
+    "is_pips": 241.6,
+    "is_return": 15.1,
+    "is_pf": 2.21,
+    "is_wr": 53.8,
+    "oos_trades": 41,
+    "oos_net_pips": 256.2,
+    "oos_ann_pips": 148.0,
+    "oos_ann_ret": 9.2,
+    "oos_pf": 1.73,
+    "oos_wr": 48.8
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB14_D10.0_W30",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 14,
+      "dist": 10.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 26,
+    "is_pips": 242.0,
+    "is_return": 15.1,
+    "is_pf": 2.21,
+    "is_wr": 53.8,
+    "oos_trades": 43,
+    "oos_net_pips": 436.9,
+    "oos_ann_pips": 252.4,
+    "oos_ann_ret": 15.8,
+    "oos_pf": 2.47,
+    "oos_wr": 55.8
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB16_D10.0_W40",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 16,
+      "dist": 10.0,
+      "wick": 0.4,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 20,
+    "is_pips": 241.6,
+    "is_return": 15.1,
+    "is_pf": 2.61,
+    "is_wr": 55.0,
+    "oos_trades": 30,
+    "oos_net_pips": 260.8,
+    "oos_ann_pips": 150.7,
+    "oos_ann_ret": 9.4,
+    "oos_pf": 2.07,
+    "oos_wr": 50.0
+  },
+  {
+    "id": "H4Retest_SL17_TP34_LB12_D10.0_W35",
+    "params": {
+      "sl": 17.0,
+      "tp": 34.0,
+      "lb": 12,
+      "dist": 10.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 29,
+    "is_pips": 255.7,
+    "is_return": 15.0,
+    "is_pf": 2.03,
+    "is_wr": 51.7,
+    "oos_trades": 45,
+    "oos_net_pips": 345.7,
+    "oos_ann_pips": 199.7,
+    "oos_ann_ret": 11.7,
+    "oos_pf": 1.86,
+    "oos_wr": 51.1
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB16_D8.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 16,
+      "dist": 8.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 17,
+    "is_pips": 239.7,
+    "is_return": 15.0,
+    "is_pf": 3.05,
+    "is_wr": 58.8,
+    "oos_trades": 26,
+    "oos_net_pips": 246.5,
+    "oos_ann_pips": 142.4,
+    "oos_ann_ret": 8.9,
+    "oos_pf": 2.14,
+    "oos_wr": 50.0
+  },
+  {
+    "id": "H4Retest_SL17_TP34_LB14_D8.0_W35",
+    "params": {
+      "sl": 17.0,
+      "tp": 34.0,
+      "lb": 14,
+      "dist": 8.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 18,
+    "is_pips": 245.7,
+    "is_return": 14.5,
+    "is_pf": 2.98,
+    "is_wr": 61.1,
+    "oos_trades": 34,
+    "oos_net_pips": 296.4,
+    "oos_ann_pips": 171.3,
+    "oos_ann_ret": 10.1,
+    "oos_pf": 2.05,
+    "oos_wr": 52.9
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB12_D10.0_W30",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 12,
+      "dist": 10.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 30,
+    "is_pips": 232.3,
+    "is_return": 14.5,
+    "is_pf": 1.87,
+    "is_wr": 46.7,
+    "oos_trades": 50,
+    "oos_net_pips": 441.5,
+    "oos_ann_pips": 255.1,
+    "oos_ann_ret": 15.9,
+    "oos_pf": 2.05,
+    "oos_wr": 50.0
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB16_D9.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 16,
+      "dist": 9.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 18,
+    "is_pips": 230.3,
+    "is_return": 14.4,
+    "is_pf": 2.97,
+    "is_wr": 61.1,
+    "oos_trades": 30,
+    "oos_net_pips": 227.4,
+    "oos_ann_pips": 131.4,
+    "oos_ann_ret": 8.2,
+    "oos_pf": 2.02,
+    "oos_wr": 53.3
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB14_D9.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 14,
+      "dist": 9.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 21,
+    "is_pips": 228.1,
+    "is_return": 14.3,
+    "is_pf": 2.52,
+    "is_wr": 57.1,
+    "oos_trades": 38,
+    "oos_net_pips": 286.4,
+    "oos_ann_pips": 165.5,
+    "oos_ann_ret": 10.3,
+    "oos_pf": 1.98,
+    "oos_wr": 52.6
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB14_D9.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 14,
+      "dist": 9.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 21,
+    "is_pips": 225.2,
+    "is_return": 14.1,
+    "is_pf": 2.35,
+    "is_wr": 52.4,
+    "oos_trades": 38,
+    "oos_net_pips": 357.3,
+    "oos_ann_pips": 206.4,
+    "oos_ann_ret": 12.9,
+    "oos_pf": 2.23,
+    "oos_wr": 52.6
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB12_D10.0_W30",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 12,
+      "dist": 10.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 30,
+    "is_pips": 223.8,
+    "is_return": 14.0,
+    "is_pf": 1.9,
+    "is_wr": 50.0,
+    "oos_trades": 50,
+    "oos_net_pips": 346.7,
+    "oos_ann_pips": 200.3,
+    "oos_ann_ret": 12.5,
+    "oos_pf": 1.83,
+    "oos_wr": 50.0
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB16_D8.0_W30",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 16,
+      "dist": 8.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 18,
+    "is_pips": 223.0,
+    "is_return": 13.9,
+    "is_pf": 2.67,
+    "is_wr": 55.6,
+    "oos_trades": 27,
+    "oos_net_pips": 250.7,
+    "oos_ann_pips": 144.8,
+    "oos_ann_ret": 9.1,
+    "oos_pf": 2.16,
+    "oos_wr": 51.9
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB16_D9.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 16,
+      "dist": 9.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 18,
+    "is_pips": 223.2,
+    "is_return": 13.9,
+    "is_pf": 2.67,
+    "is_wr": 55.6,
+    "oos_trades": 30,
+    "oos_net_pips": 282.1,
+    "oos_ann_pips": 163.0,
+    "oos_ann_ret": 10.2,
+    "oos_pf": 2.26,
+    "oos_wr": 53.3
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB14_D8.0_W40",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 14,
+      "dist": 8.0,
+      "wick": 0.4,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 16,
+    "is_pips": 215.1,
+    "is_return": 13.4,
+    "is_pf": 3.15,
+    "is_wr": 62.5,
+    "oos_trades": 33,
+    "oos_net_pips": 246.1,
+    "oos_ann_pips": 142.2,
+    "oos_ann_ret": 8.9,
+    "oos_pf": 1.93,
+    "oos_wr": 51.5
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB16_D9.0_W30",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 16,
+      "dist": 9.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 19,
+    "is_pips": 213.8,
+    "is_return": 13.4,
+    "is_pf": 2.6,
+    "is_wr": 57.9,
+    "oos_trades": 32,
+    "oos_net_pips": 290.5,
+    "oos_ann_pips": 167.8,
+    "oos_ann_ret": 10.5,
+    "oos_pf": 2.3,
+    "oos_wr": 56.2
+  },
+  {
+    "id": "H4Retest_SL17_TP34_LB14_D8.0_W30",
+    "params": {
+      "sl": 17.0,
+      "tp": 34.0,
+      "lb": 14,
+      "dist": 8.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 19,
+    "is_pips": 228.4,
+    "is_return": 13.4,
+    "is_pf": 2.61,
+    "is_wr": 57.9,
+    "oos_trades": 35,
+    "oos_net_pips": 300.5,
+    "oos_ann_pips": 173.6,
+    "oos_ann_ret": 10.2,
+    "oos_pf": 2.06,
+    "oos_wr": 54.3
+  },
+  {
+    "id": "H4Retest_SL17_TP34_LB12_D8.0_W35",
+    "params": {
+      "sl": 17.0,
+      "tp": 34.0,
+      "lb": 12,
+      "dist": 8.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 22,
+    "is_pips": 226.6,
+    "is_return": 13.3,
+    "is_pf": 2.28,
+    "is_wr": 54.5,
+    "oos_trades": 36,
+    "oos_net_pips": 255.0,
+    "oos_ann_pips": 147.3,
+    "oos_ann_ret": 8.7,
+    "oos_pf": 1.79,
+    "oos_wr": 50.0
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB14_D9.0_W30",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 14,
+      "dist": 9.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 22,
+    "is_pips": 211.6,
+    "is_return": 13.2,
+    "is_pf": 2.27,
+    "is_wr": 54.5,
+    "oos_trades": 41,
+    "oos_net_pips": 381.6,
+    "oos_ann_pips": 220.5,
+    "oos_ann_ret": 13.8,
+    "oos_pf": 2.31,
+    "oos_wr": 56.1
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB12_D9.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 12,
+      "dist": 9.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 25,
+    "is_pips": 211.2,
+    "is_return": 13.2,
+    "is_pf": 1.97,
+    "is_wr": 48.0,
+    "oos_trades": 40,
+    "oos_net_pips": 317.2,
+    "oos_ann_pips": 183.3,
+    "oos_ann_ret": 11.5,
+    "oos_pf": 1.96,
+    "oos_wr": 50.0
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB12_D9.0_W35",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 12,
+      "dist": 9.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 25,
+    "is_pips": 209.9,
+    "is_return": 13.1,
+    "is_pf": 2.05,
+    "is_wr": 52.0,
+    "oos_trades": 40,
+    "oos_net_pips": 246.3,
+    "oos_ann_pips": 142.3,
+    "oos_ann_ret": 8.9,
+    "oos_pf": 1.74,
+    "oos_wr": 50.0
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB14_D9.0_W30",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 14,
+      "dist": 9.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 22,
+    "is_pips": 208.5,
+    "is_return": 13.0,
+    "is_pf": 2.13,
+    "is_wr": 50.0,
+    "oos_trades": 41,
+    "oos_net_pips": 463.8,
+    "oos_ann_pips": 268.0,
+    "oos_ann_ret": 16.8,
+    "oos_pf": 2.6,
+    "oos_wr": 56.1
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB16_D9.0_W30",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 16,
+      "dist": 9.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 19,
+    "is_pips": 206.5,
+    "is_return": 12.9,
+    "is_pf": 2.37,
+    "is_wr": 52.6,
+    "oos_trades": 32,
+    "oos_net_pips": 352.7,
+    "oos_ann_pips": 203.8,
+    "oos_ann_ret": 12.7,
+    "oos_pf": 2.58,
+    "oos_wr": 56.2
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB14_D8.0_W40",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 14,
+      "dist": 8.0,
+      "wick": 0.4,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 16,
+    "is_pips": 203.8,
+    "is_return": 12.7,
+    "is_pf": 2.74,
+    "is_wr": 56.2,
+    "oos_trades": 33,
+    "oos_net_pips": 309.3,
+    "oos_ann_pips": 178.7,
+    "oos_ann_ret": 11.2,
+    "oos_pf": 2.16,
+    "oos_wr": 51.5
+  },
+  {
+    "id": "H4Retest_SL15_TP30_LB16_D10.0_W30",
+    "params": {
+      "sl": 15.0,
+      "tp": 30.0,
+      "lb": 16,
+      "dist": 10.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 23,
+    "is_pips": 184.1,
+    "is_return": 12.3,
+    "is_pf": 2.07,
+    "is_wr": 52.2,
+    "oos_trades": 35,
+    "oos_net_pips": 240.3,
+    "oos_ann_pips": 138.8,
+    "oos_ann_ret": 9.3,
+    "oos_pf": 1.91,
+    "oos_wr": 48.6
+  },
+  {
+    "id": "H4Retest_SL17_TP34_LB12_D8.0_W30",
+    "params": {
+      "sl": 17.0,
+      "tp": 34.0,
+      "lb": 12,
+      "dist": 8.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 23,
+    "is_pips": 209.3,
+    "is_return": 12.3,
+    "is_pf": 2.08,
+    "is_wr": 52.2,
+    "oos_trades": 37,
+    "oos_net_pips": 259.2,
+    "oos_ann_pips": 149.8,
+    "oos_ann_ret": 8.8,
+    "oos_pf": 1.8,
+    "oos_wr": 51.4
+  },
+  {
+    "id": "H4Retest_SL17_TP34_LB16_D10.0_W30",
+    "params": {
+      "sl": 17.0,
+      "tp": 34.0,
+      "lb": 16,
+      "dist": 10.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 23,
+    "is_pips": 209.1,
+    "is_return": 12.3,
+    "is_pf": 2.07,
+    "is_wr": 52.2,
+    "oos_trades": 35,
+    "oos_net_pips": 350.3,
+    "oos_ann_pips": 202.4,
+    "oos_ann_ret": 11.9,
+    "oos_pf": 2.34,
+    "oos_wr": 54.3
+  },
+  {
+    "id": "H4Retest_SL17_TP34_LB14_D10.0_W40",
+    "params": {
+      "sl": 17.0,
+      "tp": 34.0,
+      "lb": 14,
+      "dist": 10.0,
+      "wick": 0.4,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 23,
+    "is_pips": 207.3,
+    "is_return": 12.2,
+    "is_pf": 2.06,
+    "is_wr": 52.2,
+    "oos_trades": 37,
+    "oos_net_pips": 300.2,
+    "oos_ann_pips": 173.4,
+    "oos_ann_ret": 10.2,
+    "oos_pf": 1.96,
+    "oos_wr": 51.4
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB12_D9.0_W30",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 12,
+      "dist": 9.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 26,
+    "is_pips": 194.5,
+    "is_return": 12.2,
+    "is_pf": 1.83,
+    "is_wr": 46.2,
+    "oos_trades": 43,
+    "oos_net_pips": 423.3,
+    "oos_ann_pips": 244.6,
+    "oos_ann_ret": 15.3,
+    "oos_pf": 2.28,
+    "oos_wr": 53.5
+  },
+  {
+    "id": "H4Retest_SL15_TP30_LB14_D10.0_W30",
+    "params": {
+      "sl": 15.0,
+      "tp": 30.0,
+      "lb": 14,
+      "dist": 10.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 26,
+    "is_pips": 180.9,
+    "is_return": 12.1,
+    "is_pf": 1.88,
+    "is_wr": 50.0,
+    "oos_trades": 43,
+    "oos_net_pips": 339.7,
+    "oos_ann_pips": 196.3,
+    "oos_ann_ret": 13.1,
+    "oos_pf": 2.09,
+    "oos_wr": 51.2
+  },
+  {
+    "id": "H4Retest_SL16_TP32_LB12_D9.0_W30",
+    "params": {
+      "sl": 16.0,
+      "tp": 32.0,
+      "lb": 12,
+      "dist": 9.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 26,
+    "is_pips": 193.4,
+    "is_return": 12.1,
+    "is_pf": 1.89,
+    "is_wr": 50.0,
+    "oos_trades": 43,
+    "oos_net_pips": 341.1,
+    "oos_ann_pips": 197.1,
+    "oos_ann_ret": 12.3,
+    "oos_pf": 2.03,
+    "oos_wr": 53.5
+  },
+  {
+    "id": "H4Retest_SL17_TP34_LB12_D10.0_W40",
+    "params": {
+      "sl": 17.0,
+      "tp": 34.0,
+      "lb": 12,
+      "dist": 10.0,
+      "wick": 0.4,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 26,
+    "is_pips": 205.8,
+    "is_return": 12.1,
+    "is_pf": 1.89,
+    "is_wr": 50.0,
+    "oos_trades": 41,
+    "oos_net_pips": 274.7,
+    "oos_ann_pips": 158.7,
+    "oos_ann_ret": 9.3,
+    "oos_pf": 1.74,
+    "oos_wr": 48.8
+  },
+  {
+    "id": "H4Retest_SL17_TP34_LB14_D10.0_W30",
+    "params": {
+      "sl": 17.0,
+      "tp": 34.0,
+      "lb": 14,
+      "dist": 10.0,
+      "wick": 0.3,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 26,
+    "is_pips": 206.2,
+    "is_return": 12.1,
+    "is_pf": 1.89,
+    "is_wr": 50.0,
+    "oos_trades": 43,
+    "oos_net_pips": 465.0,
+    "oos_ann_pips": 268.7,
+    "oos_ann_ret": 15.8,
+    "oos_pf": 2.47,
+    "oos_wr": 55.8
+  },
+  {
+    "id": "H4Retest_SL16_TP36_LB12_D8.0_W40",
+    "params": {
+      "sl": 16.0,
+      "tp": 36.0,
+      "lb": 12,
+      "dist": 8.0,
+      "wick": 0.4,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 20,
+    "is_pips": 189.7,
+    "is_return": 11.9,
+    "is_pf": 2.14,
+    "is_wr": 50.0,
+    "oos_trades": 35,
+    "oos_net_pips": 269.2,
+    "oos_ann_pips": 155.5,
+    "oos_ann_ret": 9.7,
+    "oos_pf": 1.88,
+    "oos_wr": 48.6
+  },
+  {
+    "id": "H4Retest_SL17_TP34_LB16_D9.0_W35",
+    "params": {
+      "sl": 17.0,
+      "tp": 34.0,
+      "lb": 16,
+      "dist": 9.0,
+      "wick": 0.35,
+      "hrs": [
+        7,
+        18
+      ]
+    },
+    "is_trades": 18,
+    "is_pips": 194.7,
+    "is_return": 11.5,
+    "is_pf": 2.38,
+    "is_wr": 55.6,
+    "oos_trades": 30,
+    "oos_net_pips": 241.7,
+    "oos_ann_pips": 139.6,
+    "oos_ann_ret": 8.2,
+    "oos_pf": 2.02,
+    "oos_wr": 53.3
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "total_swings_detected": 921,
+  "total_swing_pips": 64552.4,
+  "captured_swings_count": 53,
+  "captured_rate_pct": 5.8,
+  "captured_swing_pips": 5281.9,
+  "stopped_out_swings_count": 25,
+  "stopped_out_rate_pct": 2.7,
+  "traded_counter_count": 31,
+  "traded_counter_rate_pct": 3.4,
+  "completely_missed_count": 812,
+  "completely_missed_rate_pct": 88.2,
+  "per_symbol_coverage": {
+    "USDJPY": {
+      "total_swings": 88,
+      "total_swing_pips": 5182.1,
+      "captured_count": 17,
+      "captured_rate_pct": 19.3,
+      "pips_banked": 3235.5,
+      "missed_count": 59,
+      "missed_rate_pct": 67.0,
+      "counter_traded": 8
+    },
+    "GBPJPY": {
+      "total_swings": 101,
+      "total_swing_pips": 10339.0,
+      "captured_count": 9,
+      "captured_rate_pct": 8.9,
+      "pips_banked": 2460.6,
+      "missed_count": 82,
+      "missed_rate_pct": 81.2,
+      "counter_traded": 5
+    },
+    "EURUSD": {
+      "total_swings": 104,
+      "total_swing_pips": 5948.1,
+      "captured_count": 11,
+      "captured_rate_pct": 10.6,
+      "pips_banked": 793.6,
+      "missed_count": 81,
+      "missed_rate_pct": 77.9,
+      "counter_traded": 3
+    },
+    "GBPCHF": {
+      "total_swings": 66,
+      "total_swing_pips": 5565.4,
+      "captured_count": 8,
+      "captured_rate_pct": 12.1,
+      "pips_banked": 1766.5,
+      "missed_count": 51,
+      "missed_rate_pct": 77.3,
+      "counter_traded": 5
+    },
+    "USDCAD": {
+      "total_swings": 201,
+      "total_swing_pips": 12027.5,
+      "captured_count": 1,
+      "captured_rate_pct": 0.5,
+      "pips_banked": 339.9,
+      "missed_count": 196,
+      "missed_rate_pct": 97.5,
+      "counter_traded": 2
+    },
+    "EURGBP": {
+      "total_swings": 50,
+      "total_swing_pips": 2737.0,
+      "captured_count": 4,
+      "captured_rate_pct": 8.0,
+      "pips_banked": 877.2,
+      "missed_count": 37,
+      "missed_rate_pct": 74.0,
+      "counter_traded": 6
+    },
+    "AUDCAD": {
+      "total_swings": 80,
+      "total_swing_pips": 4538.5,
+      "captured_count": 0,
+      "captured_rate_pct": 0.0,
+      "pips_banked": 0.0,
+      "missed_count": 80,
+      "missed_rate_pct": 100.0,
+      "counter_traded": 0
+    },
+    "NZDCAD": {
+      "total_swings": 95,
+      "total_swing_pips": 5484.5,
+      "captured_count": 3,
+      "captured_rate_pct": 3.2,
+      "pips_banked": 1207.4,
+      "missed_count": 90,
+      "missed_rate_pct": 94.7,
+      "counter_traded": 2
+    },
+    "EURNZD": {
+      "total_swings": 136,
+      "total_swing_pips": 12730.3,
+      "captured_count": 0,
+      "captured_rate_pct": 0.0,
+      "pips_banked": 0.0,
+      "missed_count": 136,
+      "missed_rate_pct": 100.0,
+      "counter_traded": 0
+    }
+  },
+  "missed_moves_by_session": {
+    "London (07:00-13:00 UTC)": 263,
+    "New York (13:00-19:00 UTC)": 350,
+    "Asian (00:00-07:00 UTC)": 141,
+    "Late US / Off-Hours (19:00-24:00 UTC)": 58
+  }
+}

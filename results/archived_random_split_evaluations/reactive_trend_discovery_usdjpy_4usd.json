@@ -1,0 +1,24 @@
+{
+  "symbol": "USDJPY",
+  "qualified_discovery": [
+    {
+      "name": "ReactPull_F8S21_SL9_TP18_B0.30",
+      "cand": {
+        "archetype": "REACTIVE_PULLBACK",
+        "symbol": "USDJPY",
+        "ema_fast": 8,
+        "ema_slow": 21,
+        "sl": 9.0,
+        "tp": 18.0,
+        "min_body": 0.3,
+        "name": "ReactPull_F8S21_SL9_TP18_B0.30"
+      },
+      "trades": 277,
+      "ann_trades": 205.8,
+      "net_pips": 95.1,
+      "win_rate": 36.8,
+      "profit_factor": 1.06
+    }
+  ],
+  "champions": []
+}

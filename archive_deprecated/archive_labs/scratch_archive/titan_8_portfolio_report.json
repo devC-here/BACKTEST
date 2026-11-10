@@ -1,0 +1,168 @@
+{
+  "portfolio": {
+    "num_strategies": 8,
+    "mean_correlation": 0.0028,
+    "max_correlation": 0.2625,
+    "total_pips_5y": 7975.1,
+    "annual_pips": 1595.0,
+    "max_drawdown_pips": 77.7,
+    "sharpe_ratio": 4.79,
+    "return_to_drawdown": 102.58
+  },
+  "champions": [
+    {
+      "id": "EU_DISC86",
+      "pair": "EURUSD",
+      "name": "EMA Cross ATR Expansion",
+      "pips_5y": 1815.3,
+      "max_dd_pips": 121.1,
+      "sharpe": 2.21,
+      "ret_dd": 14.99
+    },
+    {
+      "id": "EU_DISC103",
+      "pair": "EURUSD",
+      "name": "Double Swing Neckline Retest",
+      "pips_5y": 1045.7,
+      "max_dd_pips": 154.2,
+      "sharpe": 1.53,
+      "ret_dd": 6.78
+    },
+    {
+      "id": "EU_DISC45",
+      "pair": "EURUSD",
+      "name": "M5 Wick Rejection",
+      "pips_5y": 1056.2,
+      "max_dd_pips": 120.1,
+      "sharpe": 2.14,
+      "ret_dd": 8.79
+    },
+    {
+      "id": "UJ_DISC100",
+      "pair": "USDJPY",
+      "name": "Double Structure Breakout",
+      "pips_5y": 699.9,
+      "max_dd_pips": 98.7,
+      "sharpe": 1.21,
+      "ret_dd": 7.09
+    },
+    {
+      "id": "UJ_DISC92",
+      "pair": "USDJPY",
+      "name": "Asian S/R Flip Retest",
+      "pips_5y": 348.9,
+      "max_dd_pips": 37.6,
+      "sharpe": 1.15,
+      "ret_dd": 9.27
+    },
+    {
+      "id": "EG_DISC48",
+      "pair": "EURGBP",
+      "name": "Camarilla Floor Rejection",
+      "pips_5y": 1103.6,
+      "max_dd_pips": 97.6,
+      "sharpe": 1.87,
+      "ret_dd": 11.31
+    },
+    {
+      "id": "EG_DISC46",
+      "pair": "EURGBP",
+      "name": "Daily Pivot Wall Elite",
+      "pips_5y": 977.9,
+      "max_dd_pips": 107.9,
+      "sharpe": 2.12,
+      "ret_dd": 9.06
+    },
+    {
+      "id": "EG_DISC107",
+      "pair": "EURGBP",
+      "name": "H1 Keltner Squeeze Explosion",
+      "pips_5y": 927.7,
+      "max_dd_pips": 86.7,
+      "sharpe": 1.51,
+      "ret_dd": 10.7
+    }
+  ],
+  "correlation_matrix": {
+    "EU_DISC86": {
+      "EU_DISC86": 1.0,
+      "EU_DISC103": 0.154,
+      "EU_DISC45": -0.0218,
+      "UJ_DISC100": -0.0098,
+      "UJ_DISC92": 0.044,
+      "EG_DISC48": 0.0342,
+      "EG_DISC46": 0.0126,
+      "EG_DISC107": -0.0513
+    },
+    "EU_DISC103": {
+      "EU_DISC86": 0.154,
+      "EU_DISC103": 1.0,
+      "EU_DISC45": -0.073,
+      "UJ_DISC100": -0.0294,
+      "UJ_DISC92": -0.135,
+      "EG_DISC48": -0.109,
+      "EG_DISC46": -0.0166,
+      "EG_DISC107": -0.0645
+    },
+    "EU_DISC45": {
+      "EU_DISC86": -0.0218,
+      "EU_DISC103": -0.073,
+      "EU_DISC45": 1.0,
+      "UJ_DISC100": -0.0825,
+      "UJ_DISC92": -0.0164,
+      "EG_DISC48": -0.0218,
+      "EG_DISC46": 0.0103,
+      "EG_DISC107": 0.0358
+    },
+    "UJ_DISC100": {
+      "EU_DISC86": -0.0098,
+      "EU_DISC103": -0.0294,
+      "EU_DISC45": -0.0825,
+      "UJ_DISC100": 1.0,
+      "UJ_DISC92": 0.1409,
+      "EG_DISC48": -0.0162,
+      "EG_DISC46": -0.0201,
+      "EG_DISC107": 0.0774
+    },
+    "UJ_DISC92": {
+      "EU_DISC86": 0.044,
+      "EU_DISC103": -0.135,
+      "EU_DISC45": -0.0164,
+      "UJ_DISC100": 0.1409,
+      "UJ_DISC92": 1.0,
+      "EG_DISC48": 0.047,
+      "EG_DISC46": 0.0239,
+      "EG_DISC107": 0.0208
+    },
+    "EG_DISC48": {
+      "EU_DISC86": 0.0342,
+      "EU_DISC103": -0.109,
+      "EU_DISC45": -0.0218,
+      "UJ_DISC100": -0.0162,
+      "UJ_DISC92": 0.047,
+      "EG_DISC48": 1.0,
+      "EG_DISC46": 0.2625,
+      "EG_DISC107": -0.0578
+    },
+    "EG_DISC46": {
+      "EU_DISC86": 0.0126,
+      "EU_DISC103": -0.0166,
+      "EU_DISC45": 0.0103,
+      "UJ_DISC100": -0.0201,
+      "UJ_DISC92": 0.0239,
+      "EG_DISC48": 0.2625,
+      "EG_DISC46": 1.0,
+      "EG_DISC107": -0.0584
+    },
+    "EG_DISC107": {
+      "EU_DISC86": -0.0513,
+      "EU_DISC103": -0.0645,
+      "EU_DISC45": 0.0358,
+      "UJ_DISC100": 0.0774,
+      "UJ_DISC92": 0.0208,
+      "EG_DISC48": -0.0578,
+      "EG_DISC46": -0.0584,
+      "EG_DISC107": 1.0
+    }
+  }
+}

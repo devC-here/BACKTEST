@@ -1,0 +1,206 @@
+{
+  "manifest_version": "1.0.0",
+  "timestamp_utc": "2026-11-10T16:59:10.104308+00:00",
+  "certification_status": "NON_CERTIFIED",
+  "strategy": {
+    "name": "eurgbp_disc42_macro_structure_h4_m30_elite",
+    "filename": "strategy.py",
+    "code_sha256": "e09801609732a4b7a7a4ffba33b8bb4e92128a4ad7767577da6115cab42288f8"
+  },
+  "engine": {
+    "version": "tick_engine_v1.0",
+    "engine_code_sha256": "bb2bd29a622b7f60bd29b360d27aab6377446e7eb84321c296194418628c3e5d",
+    "loader_code_sha256": "c73bd4710e36590ad36d00b8a32516245c512a452880061b9b782fb7447a77cc",
+    "order_timing_contract": "Strict Bar-Close Subsequent-Tick Execution",
+    "timezone": "UTC"
+  },
+  "dataset": {
+    "symbol": "EURGBP",
+    "pip_size": 0.0001,
+    "split_standard": "canonical_continuous_v1.0 (In-Sample: 1..210, Holdout: 211..300)",
+    "start_week": 211,
+    "end_week": 300,
+    "data_quality_gate": "PASSED (80h min span, monotonic timestamps, ask>=bid)",
+    "warmup_ticks_causal": 100000
+  },
+  "pricing_friction": {
+    "spread_model": "Floating Raw Dukascopy Bid/Ask",
+    "commission_pips": 0.33,
+    "entry_slippage_pips": 0.2,
+    "dollar_per_lot_commission": 4.0
+  },
+  "multiple_testing": {
+    "candidates_screened": 40,
+    "bonferroni_adjusted_significance": false
+  },
+  "statistical_metrics": {
+    "total_trades": 8,
+    "net_pips": 28.2,
+    "win_rate_pct": 50.0,
+    "profit_factor": 1.92,
+    "expectancy_pips": 3.52,
+    "expectancy_std_err": 4.38,
+    "expectancy_ci_95": [
+      -5.07,
+      12.11
+    ],
+    "t_statistic": 0.8,
+    "p_value": 0.4237,
+    "bonferroni_p_threshold": 0.00125,
+    "is_statistically_significant": false,
+    "max_drawdown_pips": 30.5,
+    "worst_month_pips": -13.4,
+    "bootstrap_95_max_dd_pips": 42.0,
+    "outlier_sensitivity": {
+      "pips_ex_top1": 13.5,
+      "pips_ex_top3": -15.9,
+      "pips_ex_top5": -28.4,
+      "is_outlier_dependent": true
+    }
+  },
+  "trade_log": [
+    {
+      "signal_time": 1740402000058,
+      "entry_time": 1740402000512,
+      "latency_ms": 454,
+      "exit_time": 1740496321818,
+      "signal_utc": "2025-02-24 13:00:00.058000",
+      "entry_utc": "2025-02-24 13:00:00.512000",
+      "exit_utc": "2025-02-25 15:12:01.818000",
+      "direction": 1,
+      "entry_price": 0.82846,
+      "exit_price": 0.82996,
+      "pips": 14.67,
+      "exit_reason": 2
+    },
+    {
+      "signal_time": 1743517801080,
+      "entry_time": 1743517801182,
+      "latency_ms": 102,
+      "exit_time": 1743524432992,
+      "signal_utc": "2025-04-01 14:30:01.080000",
+      "entry_utc": "2025-04-01 14:30:01.182000",
+      "exit_utc": "2025-04-01 16:20:32.992000",
+      "direction": -1,
+      "entry_price": 0.83699,
+      "exit_price": 0.83549,
+      "pips": 14.67,
+      "exit_reason": 2
+    },
+    {
+      "signal_time": 1747301405563,
+      "entry_time": 1747301406069,
+      "latency_ms": 506,
+      "exit_time": 1747324858787,
+      "signal_utc": "2025-05-15 09:30:05.563000",
+      "entry_utc": "2025-05-15 09:30:06.069000",
+      "exit_utc": "2025-05-15 16:00:58.787000",
+      "direction": -1,
+      "entry_price": 0.84326,
+      "exit_price": 0.84176,
+      "pips": 14.67,
+      "exit_reason": 2
+    },
+    {
+      "signal_time": 1765447200124,
+      "entry_time": 1765447200280,
+      "latency_ms": 156,
+      "exit_time": 1765519200125,
+      "signal_utc": "2025-12-11 10:00:00.124000",
+      "entry_utc": "2025-12-11 10:00:00.280000",
+      "exit_utc": "2025-12-12 06:00:00.125000",
+      "direction": -1,
+      "entry_price": 0.87506,
+      "exit_price": 0.87637,
+      "pips": -13.43,
+      "exit_reason": 1
+    },
+    {
+      "signal_time": 1767960000073,
+      "entry_time": 1767960002871,
+      "latency_ms": 2798,
+      "exit_time": 1767995999055,
+      "signal_utc": "2026-01-09 12:00:00.073000",
+      "entry_utc": "2026-01-09 12:00:02.871000",
+      "exit_utc": "2026-01-09 21:59:59.055000",
+      "direction": -1,
+      "entry_price": 0.8682,
+      "exit_price": 0.86838,
+      "pips": -2.13,
+      "exit_reason": 3
+    },
+    {
+      "signal_time": 1768577400101,
+      "entry_time": 1768577400994,
+      "latency_ms": 893,
+      "exit_time": 1768600799104,
+      "signal_utc": "2026-01-16 15:30:00.101000",
+      "entry_utc": "2026-01-16 15:30:00.994000",
+      "exit_utc": "2026-01-16 21:59:59.104000",
+      "direction": -1,
+      "entry_price": 0.86702,
+      "exit_price": 0.86745,
+      "pips": -4.63,
+      "exit_reason": 3
+    },
+    {
+      "signal_time": 1771846200109,
+      "entry_time": 1771846200264,
+      "latency_ms": 155,
+      "exit_time": 1771944762704,
+      "signal_utc": "2026-02-23 11:30:00.109000",
+      "entry_utc": "2026-02-23 11:30:00.264000",
+      "exit_utc": "2026-02-24 14:52:42.704000",
+      "direction": 1,
+      "entry_price": 0.87363,
+      "exit_price": 0.87263,
+      "pips": -10.33,
+      "exit_reason": 1
+    },
+    {
+      "signal_time": 1780648200531,
+      "entry_time": 1780648200633,
+      "latency_ms": 102,
+      "exit_time": 1780667522898,
+      "signal_utc": "2026-06-05 08:30:00.531000",
+      "entry_utc": "2026-06-05 08:30:00.633000",
+      "exit_utc": "2026-06-05 13:52:02.898000",
+      "direction": -1,
+      "entry_price": 0.86485,
+      "exit_price": 0.86335,
+      "pips": 14.67,
+      "exit_reason": 2
+    }
+  ],
+  "custom_metadata": {
+    "discovery_in_sample_metrics": {
+      "total_trades": 53,
+      "net_pips": 101.3,
+      "win_rate_pct": 49.1,
+      "profit_factor": 1.36,
+      "expectancy_pips": 1.91,
+      "expectancy_std_err": 1.76,
+      "expectancy_ci_95": [
+        -1.54,
+        5.36
+      ],
+      "t_statistic": 1.09,
+      "p_value": 0.2757,
+      "bonferroni_p_threshold": 0.00125,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 70.7,
+      "worst_month_pips": -27.0,
+      "bootstrap_95_max_dd_pips": 133.2,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 84.2,
+        "pips_ex_top3": 54.5,
+        "pips_ex_top5": 24.8,
+        "is_outlier_dependent": false
+      }
+    },
+    "evaluation_time_seconds": 18.35,
+    "clean_weeks_holdout": 70,
+    "clean_weeks_discovery": 198,
+    "combined_net_pips": 129.5
+  }
+}

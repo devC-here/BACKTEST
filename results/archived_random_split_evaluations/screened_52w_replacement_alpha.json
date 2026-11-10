@@ -1,0 +1,38 @@
+{
+  "USDJPY": [
+    {
+      "name": "MacroDonchian_LB20_SL12.0_TP24.0",
+      "symbol": "USDJPY",
+      "class": "StrategyMacroDonchianRetest",
+      "sl_pips": 12.0,
+      "tp_pips": 24.0,
+      "trades": 25,
+      "wins": 11,
+      "losses": 14,
+      "win_pips": 233.3,
+      "loss_pips": 171.7,
+      "net_pips": 61.6,
+      "win_rate": 44.0,
+      "profit_factor": 1.36
+    },
+    {
+      "name": "MacroDonchian_LB20_SL16.8_TP33.6",
+      "symbol": "USDJPY",
+      "class": "StrategyMacroDonchianRetest",
+      "sl_pips": 16.8,
+      "tp_pips": 33.6,
+      "trades": 24,
+      "wins": 10,
+      "losses": 14,
+      "win_pips": 286.1,
+      "loss_pips": 232.6,
+      "net_pips": 53.5,
+      "win_rate": 41.67,
+      "profit_factor": 1.23
+    }
+  ],
+  "EURUSD": [],
+  "USDCAD": [],
+  "AUDNZD": [],
+  "GBPJPY": []
+}

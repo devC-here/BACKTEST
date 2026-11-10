@@ -1,0 +1,34 @@
+{
+  "strategy": "S10_DualEMA_Pullback",
+  "best_params": {
+    "ema_fast": 18,
+    "ema_trend": 210,
+    "target_rr": 3.4,
+    "touch_pips": 1.5,
+    "buffer_pips": 1.5,
+    "min_risk_pips": 9.0,
+    "max_risk_pips": 18.0,
+    "session": "london_core"
+  },
+  "train": {
+    "trades": 86,
+    "pf": 2.0,
+    "rr": 3.21,
+    "net_pips": 806.8,
+    "max_dd": 88.9
+  },
+  "test": {
+    "trades": 47,
+    "pf": 0.99,
+    "rr": 3.25,
+    "net_pips": -4.4,
+    "max_dd": 354.7
+  },
+  "total_5y": {
+    "trades": 133,
+    "pf": 1.6,
+    "rr": 3.23,
+    "net_pips": 802.4,
+    "max_dd": 427.0
+  }
+}

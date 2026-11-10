@@ -1,0 +1,2594 @@
+{
+  "symbol": "AUDCAD",
+  "dollar_per_lot": 4.0,
+  "use_broker_spread": true,
+  "broker_spread_pips": 1.0,
+  "friction_commission_pips": 0.56,
+  "friction_slippage_pips": 0.05,
+  "total_friction_pips": 0.61,
+  "qualified_discovery_count": 129,
+  "dual_certified_holdout_count": 0,
+  "discovery_candidates": [
+    {
+      "name": "NYSweep_D4.7_SL13_TP26_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 12.8,
+        "tp": 25.5,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D4.7_SL13_TP26_R13-55"
+      },
+      "disc_trades": 57,
+      "ann_trades": 55.9,
+      "disc_net_pips": 224.6,
+      "ann_pips": 220.3,
+      "win_rate": 47.4,
+      "profit_factor": 1.58
+    },
+    {
+      "name": "NYSweep_D3.8_SL13_TP26_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 12.8,
+        "tp": 25.5,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D3.8_SL13_TP26_R13-55"
+      },
+      "disc_trades": 69,
+      "ann_trades": 67.7,
+      "disc_net_pips": 176.7,
+      "ann_pips": 173.4,
+      "win_rate": 43.5,
+      "profit_factor": 1.35
+    },
+    {
+      "name": "NYSweep_D6.0_SL13_TP26_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 6.0,
+        "sl": 12.8,
+        "tp": 25.5,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D6.0_SL13_TP26_R13-55"
+      },
+      "disc_trades": 36,
+      "ann_trades": 35.3,
+      "disc_net_pips": 149.3,
+      "ann_pips": 146.5,
+      "win_rate": 47.2,
+      "profit_factor": 1.63
+    },
+    {
+      "name": "H4Retest_LB12_D14_W0.40_SL15_TP34",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 13.6,
+        "wick": 0.4,
+        "sl": 15.3,
+        "tp": 34.0,
+        "name": "H4Retest_LB12_D14_W0.40_SL15_TP34"
+      },
+      "disc_trades": 30,
+      "ann_trades": 29.4,
+      "disc_net_pips": 143.8,
+      "ann_pips": 141.1,
+      "win_rate": 46.7,
+      "profit_factor": 1.59
+    },
+    {
+      "name": "H4Retest_LB12_D17_W0.40_SL13_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 17.0,
+        "wick": 0.4,
+        "sl": 12.8,
+        "tp": 25.5,
+        "name": "H4Retest_LB12_D17_W0.40_SL13_TP26"
+      },
+      "disc_trades": 36,
+      "ann_trades": 35.3,
+      "disc_net_pips": 132.3,
+      "ann_pips": 129.8,
+      "win_rate": 47.2,
+      "profit_factor": 1.53
+    },
+    {
+      "name": "H4Retest_LB10_D17_W0.40_SL13_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 17.0,
+        "wick": 0.4,
+        "sl": 12.8,
+        "tp": 25.5,
+        "name": "H4Retest_LB10_D17_W0.40_SL13_TP26"
+      },
+      "disc_trades": 51,
+      "ann_trades": 50.0,
+      "disc_net_pips": 129.2,
+      "ann_pips": 126.8,
+      "win_rate": 45.1,
+      "profit_factor": 1.34
+    },
+    {
+      "name": "H4Retest_LB12_D17_W0.40_SL15_TP34",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 17.0,
+        "wick": 0.4,
+        "sl": 15.3,
+        "tp": 34.0,
+        "name": "H4Retest_LB12_D17_W0.40_SL15_TP34"
+      },
+      "disc_trades": 36,
+      "ann_trades": 35.3,
+      "disc_net_pips": 126.5,
+      "ann_pips": 124.1,
+      "win_rate": 44.4,
+      "profit_factor": 1.41
+    },
+    {
+      "name": "H4Retest_LB12_D17_W0.40_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 17.0,
+        "wick": 0.4,
+        "sl": 11.9,
+        "tp": 23.8,
+        "name": "H4Retest_LB12_D17_W0.40_SL12_TP24"
+      },
+      "disc_trades": 36,
+      "ann_trades": 35.3,
+      "disc_net_pips": 118.7,
+      "ann_pips": 116.5,
+      "win_rate": 47.2,
+      "profit_factor": 1.51
+    },
+    {
+      "name": "NYSweep_D4.7_SL13_TP26_R8-34",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 12.8,
+        "tp": 25.5,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "NYSweep_D4.7_SL13_TP26_R8-34"
+      },
+      "disc_trades": 30,
+      "ann_trades": 29.4,
+      "disc_net_pips": 116.8,
+      "ann_pips": 114.6,
+      "win_rate": 50.0,
+      "profit_factor": 1.61
+    },
+    {
+      "name": "H4Retest_LB12_D17_W0.45_SL10_TP20",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 17.0,
+        "wick": 0.45,
+        "sl": 10.2,
+        "tp": 20.4,
+        "name": "H4Retest_LB12_D17_W0.45_SL10_TP20"
+      },
+      "disc_trades": 32,
+      "ann_trades": 31.4,
+      "disc_net_pips": 116.5,
+      "ann_pips": 114.3,
+      "win_rate": 50.0,
+      "profit_factor": 1.67
+    },
+    {
+      "name": "NYSweep_D6.0_SL15_TP34_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 6.0,
+        "sl": 15.3,
+        "tp": 34.0,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D6.0_SL15_TP34_R13-55"
+      },
+      "disc_trades": 36,
+      "ann_trades": 35.3,
+      "disc_net_pips": 113.4,
+      "ann_pips": 111.3,
+      "win_rate": 41.7,
+      "profit_factor": 1.36
+    },
+    {
+      "name": "H4Retest_LB12_D17_W0.45_SL13_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 17.0,
+        "wick": 0.45,
+        "sl": 12.8,
+        "tp": 25.5,
+        "name": "H4Retest_LB12_D17_W0.45_SL13_TP26"
+      },
+      "disc_trades": 31,
+      "ann_trades": 30.4,
+      "disc_net_pips": 110.6,
+      "ann_pips": 108.5,
+      "win_rate": 48.4,
+      "profit_factor": 1.5
+    },
+    {
+      "name": "H4Retest_LB12_D14_W0.40_SL10_TP20",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 13.6,
+        "wick": 0.4,
+        "sl": 10.2,
+        "tp": 20.4,
+        "name": "H4Retest_LB12_D14_W0.40_SL10_TP20"
+      },
+      "disc_trades": 31,
+      "ann_trades": 30.4,
+      "disc_net_pips": 108.9,
+      "ann_pips": 106.9,
+      "win_rate": 48.4,
+      "profit_factor": 1.66
+    },
+    {
+      "name": "NYSweep_D4.7_SL13_TP26_R10-42",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 12.8,
+        "tp": 25.5,
+        "min_rng": 10.2,
+        "max_rng": 42.5,
+        "name": "NYSweep_D4.7_SL13_TP26_R10-42"
+      },
+      "disc_trades": 43,
+      "ann_trades": 42.2,
+      "disc_net_pips": 107.8,
+      "ann_pips": 105.7,
+      "win_rate": 44.2,
+      "profit_factor": 1.36
+    },
+    {
+      "name": "H4Retest_LB12_D17_W0.40_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 17.0,
+        "wick": 0.4,
+        "sl": 13.6,
+        "tp": 29.8,
+        "name": "H4Retest_LB12_D17_W0.40_SL14_TP30"
+      },
+      "disc_trades": 36,
+      "ann_trades": 35.3,
+      "disc_net_pips": 106.2,
+      "ann_pips": 104.2,
+      "win_rate": 44.4,
+      "profit_factor": 1.38
+    },
+    {
+      "name": "H4Retest_LB12_D14_W0.40_SL13_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 13.6,
+        "wick": 0.4,
+        "sl": 12.8,
+        "tp": 25.5,
+        "name": "H4Retest_LB12_D14_W0.40_SL13_TP26"
+      },
+      "disc_trades": 30,
+      "ann_trades": 29.4,
+      "disc_net_pips": 104.4,
+      "ann_pips": 102.5,
+      "win_rate": 46.7,
+      "profit_factor": 1.5
+    },
+    {
+      "name": "H4Retest_LB12_D14_W0.35_SL15_TP34",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 13.6,
+        "wick": 0.35,
+        "sl": 15.3,
+        "tp": 34.0,
+        "name": "H4Retest_LB12_D14_W0.35_SL15_TP34"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 103.4,
+      "ann_pips": 101.4,
+      "win_rate": 42.4,
+      "profit_factor": 1.36
+    },
+    {
+      "name": "H4Retest_LB10_D17_W0.40_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 17.0,
+        "wick": 0.4,
+        "sl": 11.9,
+        "tp": 23.8,
+        "name": "H4Retest_LB10_D17_W0.40_SL12_TP24"
+      },
+      "disc_trades": 52,
+      "ann_trades": 51.0,
+      "disc_net_pips": 101.9,
+      "ann_pips": 100.0,
+      "win_rate": 44.2,
+      "profit_factor": 1.27
+    },
+    {
+      "name": "H4Retest_LB12_D17_W0.40_SL10_TP20",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 17.0,
+        "wick": 0.4,
+        "sl": 10.2,
+        "tp": 20.4,
+        "name": "H4Retest_LB12_D17_W0.40_SL10_TP20"
+      },
+      "disc_trades": 37,
+      "ann_trades": 36.3,
+      "disc_net_pips": 101.5,
+      "ann_pips": 99.6,
+      "win_rate": 45.9,
+      "profit_factor": 1.49
+    },
+    {
+      "name": "H4Retest_LB12_D17_W0.35_SL13_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 17.0,
+        "wick": 0.35,
+        "sl": 12.8,
+        "tp": 25.5,
+        "name": "H4Retest_LB12_D17_W0.35_SL13_TP26"
+      },
+      "disc_trades": 41,
+      "ann_trades": 40.2,
+      "disc_net_pips": 100.9,
+      "ann_pips": 99.0,
+      "win_rate": 43.9,
+      "profit_factor": 1.34
+    },
+    {
+      "name": "H4Retest_LB12_D17_W0.45_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 17.0,
+        "wick": 0.45,
+        "sl": 11.9,
+        "tp": 23.8,
+        "name": "H4Retest_LB12_D17_W0.45_SL12_TP24"
+      },
+      "disc_trades": 31,
+      "ann_trades": 30.4,
+      "disc_net_pips": 99.3,
+      "ann_pips": 97.5,
+      "win_rate": 48.4,
+      "profit_factor": 1.48
+    },
+    {
+      "name": "H4Retest_LB12_D17_W0.45_SL10_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 17.0,
+        "wick": 0.45,
+        "sl": 10.2,
+        "tp": 23.8,
+        "name": "H4Retest_LB12_D17_W0.45_SL10_TP24"
+      },
+      "disc_trades": 31,
+      "ann_trades": 30.4,
+      "disc_net_pips": 98.0,
+      "ann_pips": 96.1,
+      "win_rate": 45.2,
+      "profit_factor": 1.53
+    },
+    {
+      "name": "H4Retest_LB12_D14_W0.40_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 13.6,
+        "wick": 0.4,
+        "sl": 11.9,
+        "tp": 23.8,
+        "name": "H4Retest_LB12_D14_W0.40_SL12_TP24"
+      },
+      "disc_trades": 30,
+      "ann_trades": 29.4,
+      "disc_net_pips": 97.2,
+      "ann_pips": 95.4,
+      "win_rate": 46.7,
+      "profit_factor": 1.5
+    },
+    {
+      "name": "H4Retest_LB10_D14_W0.40_SL13_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 13.6,
+        "wick": 0.4,
+        "sl": 12.8,
+        "tp": 25.5,
+        "name": "H4Retest_LB10_D14_W0.40_SL13_TP26"
+      },
+      "disc_trades": 45,
+      "ann_trades": 44.2,
+      "disc_net_pips": 97.1,
+      "ann_pips": 95.3,
+      "win_rate": 44.4,
+      "profit_factor": 1.29
+    },
+    {
+      "name": "NYSweep_D6.0_SL14_TP30_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 6.0,
+        "sl": 13.6,
+        "tp": 29.8,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D6.0_SL14_TP30_R13-55"
+      },
+      "disc_trades": 36,
+      "ann_trades": 35.3,
+      "disc_net_pips": 96.9,
+      "ann_pips": 95.1,
+      "win_rate": 41.7,
+      "profit_factor": 1.34
+    },
+    {
+      "name": "H4Retest_LB12_D14_W0.45_SL15_TP34",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 13.6,
+        "wick": 0.45,
+        "sl": 15.3,
+        "tp": 34.0,
+        "name": "H4Retest_LB12_D14_W0.45_SL15_TP34"
+      },
+      "disc_trades": 26,
+      "ann_trades": 25.5,
+      "disc_net_pips": 94.7,
+      "ann_pips": 93.0,
+      "win_rate": 46.2,
+      "profit_factor": 1.42
+    },
+    {
+      "name": "H4Retest_LB12_D14_W0.40_SL10_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 13.6,
+        "wick": 0.4,
+        "sl": 10.2,
+        "tp": 23.8,
+        "name": "H4Retest_LB12_D14_W0.40_SL10_TP24"
+      },
+      "disc_trades": 30,
+      "ann_trades": 29.4,
+      "disc_net_pips": 94.5,
+      "ann_pips": 92.7,
+      "win_rate": 43.3,
+      "profit_factor": 1.54
+    },
+    {
+      "name": "H4Retest_LB12_D17_W0.45_SL15_TP34",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 17.0,
+        "wick": 0.45,
+        "sl": 15.3,
+        "tp": 34.0,
+        "name": "H4Retest_LB12_D17_W0.45_SL15_TP34"
+      },
+      "disc_trades": 31,
+      "ann_trades": 30.4,
+      "disc_net_pips": 92.9,
+      "ann_pips": 91.2,
+      "win_rate": 45.2,
+      "profit_factor": 1.34
+    },
+    {
+      "name": "NYSweep_D6.0_SL15_TP34_R10-42",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 6.0,
+        "sl": 15.3,
+        "tp": 34.0,
+        "min_rng": 10.2,
+        "max_rng": 42.5,
+        "name": "NYSweep_D6.0_SL15_TP34_R10-42"
+      },
+      "disc_trades": 26,
+      "ann_trades": 25.5,
+      "disc_net_pips": 89.5,
+      "ann_pips": 87.9,
+      "win_rate": 42.3,
+      "profit_factor": 1.41
+    },
+    {
+      "name": "H4Retest_LB10_D14_W0.40_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 13.6,
+        "wick": 0.4,
+        "sl": 11.9,
+        "tp": 23.8,
+        "name": "H4Retest_LB10_D14_W0.40_SL12_TP24"
+      },
+      "disc_trades": 45,
+      "ann_trades": 44.2,
+      "disc_net_pips": 88.2,
+      "ann_pips": 86.6,
+      "win_rate": 44.4,
+      "profit_factor": 1.28
+    },
+    {
+      "name": "H1Retest_LB16_D8_W0.25_SL9_TP19",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 16,
+        "dist": 8.5,
+        "wick": 0.25,
+        "sl": 9.3,
+        "tp": 18.7,
+        "name": "H1Retest_LB16_D8_W0.25_SL9_TP19"
+      },
+      "disc_trades": 66,
+      "ann_trades": 64.8,
+      "disc_net_pips": 86.3,
+      "ann_pips": 84.7,
+      "win_rate": 39.4,
+      "profit_factor": 1.21
+    },
+    {
+      "name": "H4Retest_LB12_D17_W0.40_SL10_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 17.0,
+        "wick": 0.4,
+        "sl": 10.2,
+        "tp": 23.8,
+        "name": "H4Retest_LB12_D17_W0.40_SL10_TP24"
+      },
+      "disc_trades": 36,
+      "ann_trades": 35.3,
+      "disc_net_pips": 86.3,
+      "ann_pips": 84.7,
+      "win_rate": 41.7,
+      "profit_factor": 1.39
+    },
+    {
+      "name": "NYSweep_D3.8_SL13_TP26_R8-34",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 12.8,
+        "tp": 25.5,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "NYSweep_D3.8_SL13_TP26_R8-34"
+      },
+      "disc_trades": 38,
+      "ann_trades": 37.3,
+      "disc_net_pips": 84.7,
+      "ann_pips": 83.1,
+      "win_rate": 44.7,
+      "profit_factor": 1.31
+    },
+    {
+      "name": "H4Retest_LB10_D17_W0.35_SL13_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 17.0,
+        "wick": 0.35,
+        "sl": 12.8,
+        "tp": 25.5,
+        "name": "H4Retest_LB10_D17_W0.35_SL13_TP26"
+      },
+      "disc_trades": 57,
+      "ann_trades": 55.9,
+      "disc_net_pips": 84.7,
+      "ann_pips": 83.1,
+      "win_rate": 42.1,
+      "profit_factor": 1.19
+    },
+    {
+      "name": "H4Retest_LB12_D17_W0.35_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 17.0,
+        "wick": 0.35,
+        "sl": 11.9,
+        "tp": 23.8,
+        "name": "H4Retest_LB12_D17_W0.35_SL12_TP24"
+      },
+      "disc_trades": 41,
+      "ann_trades": 40.2,
+      "disc_net_pips": 84.3,
+      "ann_pips": 82.7,
+      "win_rate": 43.9,
+      "profit_factor": 1.3
+    },
+    {
+      "name": "H4Retest_LB12_D14_W0.45_SL10_TP20",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 13.6,
+        "wick": 0.45,
+        "sl": 10.2,
+        "tp": 20.4,
+        "name": "H4Retest_LB12_D14_W0.45_SL10_TP20"
+      },
+      "disc_trades": 27,
+      "ann_trades": 26.5,
+      "disc_net_pips": 82.6,
+      "ann_pips": 81.0,
+      "win_rate": 48.1,
+      "profit_factor": 1.55
+    },
+    {
+      "name": "H4Retest_LB10_D17_W0.40_SL10_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 17.0,
+        "wick": 0.4,
+        "sl": 10.2,
+        "tp": 23.8,
+        "name": "H4Retest_LB10_D17_W0.40_SL10_TP24"
+      },
+      "disc_trades": 53,
+      "ann_trades": 52.0,
+      "disc_net_pips": 80.9,
+      "ann_pips": 79.4,
+      "win_rate": 39.6,
+      "profit_factor": 1.23
+    },
+    {
+      "name": "H4Retest_LB12_D17_W0.45_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 17.0,
+        "wick": 0.45,
+        "sl": 13.6,
+        "tp": 29.8,
+        "name": "H4Retest_LB12_D17_W0.45_SL14_TP30"
+      },
+      "disc_trades": 31,
+      "ann_trades": 30.4,
+      "disc_net_pips": 78.3,
+      "ann_pips": 76.9,
+      "win_rate": 45.2,
+      "profit_factor": 1.32
+    },
+    {
+      "name": "H4Retest_LB12_D17_W0.35_SL10_TP20",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 17.0,
+        "wick": 0.35,
+        "sl": 10.2,
+        "tp": 20.4,
+        "name": "H4Retest_LB12_D17_W0.35_SL10_TP20"
+      },
+      "disc_trades": 42,
+      "ann_trades": 41.2,
+      "disc_net_pips": 77.9,
+      "ann_pips": 76.4,
+      "win_rate": 42.9,
+      "profit_factor": 1.31
+    },
+    {
+      "name": "H4Retest_LB12_D14_W0.40_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 13.6,
+        "wick": 0.4,
+        "sl": 13.6,
+        "tp": 29.8,
+        "name": "H4Retest_LB12_D14_W0.40_SL14_TP30"
+      },
+      "disc_trades": 30,
+      "ann_trades": 29.4,
+      "disc_net_pips": 77.4,
+      "ann_pips": 76.0,
+      "win_rate": 43.3,
+      "profit_factor": 1.33
+    },
+    {
+      "name": "H4Retest_LB12_D17_W0.35_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 17.0,
+        "wick": 0.35,
+        "sl": 13.6,
+        "tp": 29.8,
+        "name": "H4Retest_LB12_D17_W0.35_SL14_TP30"
+      },
+      "disc_trades": 41,
+      "ann_trades": 40.2,
+      "disc_net_pips": 76.9,
+      "ann_pips": 75.4,
+      "win_rate": 41.5,
+      "profit_factor": 1.23
+    },
+    {
+      "name": "H4Retest_LB12_D14_W0.35_SL10_TP20",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 13.6,
+        "wick": 0.35,
+        "sl": 10.2,
+        "tp": 20.4,
+        "name": "H4Retest_LB12_D14_W0.35_SL10_TP20"
+      },
+      "disc_trades": 34,
+      "ann_trades": 33.4,
+      "disc_net_pips": 76.5,
+      "ann_pips": 75.1,
+      "win_rate": 44.1,
+      "profit_factor": 1.39
+    },
+    {
+      "name": "NYSweep_D4.7_SL14_TP30_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 13.6,
+        "tp": 29.8,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D4.7_SL14_TP30_R13-55"
+      },
+      "disc_trades": 56,
+      "ann_trades": 54.9,
+      "disc_net_pips": 75.3,
+      "ann_pips": 73.9,
+      "win_rate": 41.1,
+      "profit_factor": 1.17
+    },
+    {
+      "name": "NYSweep_D3.8_SL13_TP26_R10-42",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 12.8,
+        "tp": 25.5,
+        "min_rng": 10.2,
+        "max_rng": 42.5,
+        "name": "NYSweep_D3.8_SL13_TP26_R10-42"
+      },
+      "disc_trades": 54,
+      "ann_trades": 53.0,
+      "disc_net_pips": 73.6,
+      "ann_pips": 72.2,
+      "win_rate": 40.7,
+      "profit_factor": 1.18
+    },
+    {
+      "name": "H4Retest_LB12_D14_W0.45_SL13_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 13.6,
+        "wick": 0.45,
+        "sl": 12.8,
+        "tp": 25.5,
+        "name": "H4Retest_LB12_D14_W0.45_SL13_TP26"
+      },
+      "disc_trades": 26,
+      "ann_trades": 25.5,
+      "disc_net_pips": 70.0,
+      "ann_pips": 68.7,
+      "win_rate": 46.2,
+      "profit_factor": 1.36
+    },
+    {
+      "name": "H4Retest_LB12_D14_W0.35_SL13_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 13.6,
+        "wick": 0.35,
+        "sl": 12.8,
+        "tp": 25.5,
+        "name": "H4Retest_LB12_D14_W0.35_SL13_TP26"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 68.7,
+      "ann_pips": 67.4,
+      "win_rate": 42.4,
+      "profit_factor": 1.28
+    },
+    {
+      "name": "H4Retest_LB10_D14_W0.40_SL10_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 13.6,
+        "wick": 0.4,
+        "sl": 10.2,
+        "tp": 23.8,
+        "name": "H4Retest_LB10_D14_W0.40_SL10_TP24"
+      },
+      "disc_trades": 45,
+      "ann_trades": 44.2,
+      "disc_net_pips": 67.2,
+      "ann_pips": 66.0,
+      "win_rate": 40.0,
+      "profit_factor": 1.24
+    },
+    {
+      "name": "H4Retest_LB10_D17_W0.40_SL10_TP20",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 17.0,
+        "wick": 0.4,
+        "sl": 10.2,
+        "tp": 20.4,
+        "name": "H4Retest_LB10_D17_W0.40_SL10_TP20"
+      },
+      "disc_trades": 54,
+      "ann_trades": 53.0,
+      "disc_net_pips": 65.4,
+      "ann_pips": 64.2,
+      "win_rate": 42.6,
+      "profit_factor": 1.19
+    },
+    {
+      "name": "H4Retest_LB12_D14_W0.45_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 13.6,
+        "wick": 0.45,
+        "sl": 11.9,
+        "tp": 23.8,
+        "name": "H4Retest_LB12_D14_W0.45_SL12_TP24"
+      },
+      "disc_trades": 26,
+      "ann_trades": 25.5,
+      "disc_net_pips": 65.3,
+      "ann_pips": 64.1,
+      "win_rate": 46.2,
+      "profit_factor": 1.36
+    },
+    {
+      "name": "LondonSweep_D3.8_SL13_TP26_R8-34",
+      "family": "LONDON_SWEEP",
+      "cand": {
+        "family": "LONDON_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 12.8,
+        "tp": 25.5,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "LondonSweep_D3.8_SL13_TP26_R8-34"
+      },
+      "disc_trades": 80,
+      "ann_trades": 78.5,
+      "disc_net_pips": 64.7,
+      "ann_pips": 63.5,
+      "win_rate": 40.0,
+      "profit_factor": 1.1
+    },
+    {
+      "name": "NYSweep_D3.8_SL10_TP20_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 10.2,
+        "tp": 20.4,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D3.8_SL10_TP20_R13-55"
+      },
+      "disc_trades": 69,
+      "ann_trades": 67.7,
+      "disc_net_pips": 63.0,
+      "ann_pips": 61.8,
+      "win_rate": 39.1,
+      "profit_factor": 1.14
+    },
+    {
+      "name": "H4Retest_LB12_D14_W0.35_SL10_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 13.6,
+        "wick": 0.35,
+        "sl": 10.2,
+        "tp": 23.8,
+        "name": "H4Retest_LB12_D14_W0.35_SL10_TP24"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 62.1,
+      "ann_pips": 60.9,
+      "win_rate": 39.4,
+      "profit_factor": 1.3
+    },
+    {
+      "name": "H4Retest_LB12_D14_W0.45_SL10_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 13.6,
+        "wick": 0.45,
+        "sl": 10.2,
+        "tp": 23.8,
+        "name": "H4Retest_LB12_D14_W0.45_SL10_TP24"
+      },
+      "disc_trades": 26,
+      "ann_trades": 25.5,
+      "disc_net_pips": 61.3,
+      "ann_pips": 60.2,
+      "win_rate": 42.3,
+      "profit_factor": 1.38
+    },
+    {
+      "name": "H4Retest_LB10_D17_W0.35_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 17.0,
+        "wick": 0.35,
+        "sl": 11.9,
+        "tp": 23.8,
+        "name": "H4Retest_LB10_D17_W0.35_SL12_TP24"
+      },
+      "disc_trades": 58,
+      "ann_trades": 56.9,
+      "disc_net_pips": 59.8,
+      "ann_pips": 58.7,
+      "win_rate": 41.4,
+      "profit_factor": 1.14
+    },
+    {
+      "name": "H4Retest_LB12_D14_W0.35_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 13.6,
+        "wick": 0.35,
+        "sl": 11.9,
+        "tp": 23.8,
+        "name": "H4Retest_LB12_D14_W0.35_SL12_TP24"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 59.4,
+      "ann_pips": 58.2,
+      "win_rate": 42.4,
+      "profit_factor": 1.25
+    },
+    {
+      "name": "H4Retest_LB12_D17_W0.35_SL10_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 17.0,
+        "wick": 0.35,
+        "sl": 10.2,
+        "tp": 23.8,
+        "name": "H4Retest_LB12_D17_W0.35_SL10_TP24"
+      },
+      "disc_trades": 41,
+      "ann_trades": 40.2,
+      "disc_net_pips": 59.0,
+      "ann_pips": 57.9,
+      "win_rate": 39.0,
+      "profit_factor": 1.22
+    },
+    {
+      "name": "H4Retest_LB10_D14_W0.35_SL13_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 13.6,
+        "wick": 0.35,
+        "sl": 12.8,
+        "tp": 25.5,
+        "name": "H4Retest_LB10_D14_W0.35_SL13_TP26"
+      },
+      "disc_trades": 48,
+      "ann_trades": 47.1,
+      "disc_net_pips": 56.7,
+      "ann_pips": 55.6,
+      "win_rate": 41.7,
+      "profit_factor": 1.15
+    },
+    {
+      "name": "LondonSweep_D5.1_SL13_TP26_R8-34",
+      "family": "LONDON_SWEEP",
+      "cand": {
+        "family": "LONDON_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 5.1,
+        "sl": 12.8,
+        "tp": 25.5,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "LondonSweep_D5.1_SL13_TP26_R8-34"
+      },
+      "disc_trades": 58,
+      "ann_trades": 56.9,
+      "disc_net_pips": 54.6,
+      "ann_pips": 53.5,
+      "win_rate": 41.4,
+      "profit_factor": 1.12
+    },
+    {
+      "name": "H1Retest_LB16_D8_W0.25_SL10_TP24",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 16,
+        "dist": 8.5,
+        "wick": 0.25,
+        "sl": 10.2,
+        "tp": 23.8,
+        "name": "H1Retest_LB16_D8_W0.25_SL10_TP24"
+      },
+      "disc_trades": 65,
+      "ann_trades": 63.8,
+      "disc_net_pips": 54.3,
+      "ann_pips": 53.3,
+      "win_rate": 35.4,
+      "profit_factor": 1.12
+    },
+    {
+      "name": "H1Retest_LB16_D10_W0.25_SL10_TP24",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 16,
+        "dist": 10.2,
+        "wick": 0.25,
+        "sl": 10.2,
+        "tp": 23.8,
+        "name": "H1Retest_LB16_D10_W0.25_SL10_TP24"
+      },
+      "disc_trades": 82,
+      "ann_trades": 80.5,
+      "disc_net_pips": 53.8,
+      "ann_pips": 52.8,
+      "win_rate": 35.4,
+      "profit_factor": 1.09
+    },
+    {
+      "name": "NYSweep_D3.8_SL12_TP24_R10-42",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 11.9,
+        "tp": 23.8,
+        "min_rng": 10.2,
+        "max_rng": 42.5,
+        "name": "NYSweep_D3.8_SL12_TP24_R10-42"
+      },
+      "disc_trades": 54,
+      "ann_trades": 53.0,
+      "disc_net_pips": 52.9,
+      "ann_pips": 51.9,
+      "win_rate": 40.7,
+      "profit_factor": 1.13
+    },
+    {
+      "name": "H4Retest_LB10_D14_W0.40_SL10_TP20",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 13.6,
+        "wick": 0.4,
+        "sl": 10.2,
+        "tp": 20.4,
+        "name": "H4Retest_LB10_D14_W0.40_SL10_TP20"
+      },
+      "disc_trades": 45,
+      "ann_trades": 44.2,
+      "disc_net_pips": 51.4,
+      "ann_pips": 50.4,
+      "win_rate": 42.2,
+      "profit_factor": 1.19
+    },
+    {
+      "name": "H4Retest_LB10_D14_W0.35_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 13.6,
+        "wick": 0.35,
+        "sl": 11.9,
+        "tp": 23.8,
+        "name": "H4Retest_LB10_D14_W0.35_SL12_TP24"
+      },
+      "disc_trades": 48,
+      "ann_trades": 47.1,
+      "disc_net_pips": 50.4,
+      "ann_pips": 49.5,
+      "win_rate": 41.7,
+      "profit_factor": 1.14
+    },
+    {
+      "name": "NYSweep_D4.7_SL15_TP34_R8-34",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 15.3,
+        "tp": 34.0,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "NYSweep_D4.7_SL15_TP34_R8-34"
+      },
+      "disc_trades": 30,
+      "ann_trades": 29.4,
+      "disc_net_pips": 50.2,
+      "ann_pips": 49.3,
+      "win_rate": 43.3,
+      "profit_factor": 1.19
+    },
+    {
+      "name": "NYSweep_D3.8_SL14_TP30_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 13.6,
+        "tp": 29.8,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D3.8_SL14_TP30_R13-55"
+      },
+      "disc_trades": 67,
+      "ann_trades": 65.7,
+      "disc_net_pips": 48.5,
+      "ann_pips": 47.6,
+      "win_rate": 38.8,
+      "profit_factor": 1.09
+    },
+    {
+      "name": "NYSweep_D4.7_SL12_TP24_R10-42",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 11.9,
+        "tp": 23.8,
+        "min_rng": 10.2,
+        "max_rng": 42.5,
+        "name": "NYSweep_D4.7_SL12_TP24_R10-42"
+      },
+      "disc_trades": 43,
+      "ann_trades": 42.2,
+      "disc_net_pips": 48.1,
+      "ann_pips": 47.2,
+      "win_rate": 41.9,
+      "profit_factor": 1.15
+    },
+    {
+      "name": "H4Retest_LB10_D17_W0.40_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 17.0,
+        "wick": 0.4,
+        "sl": 13.6,
+        "tp": 29.8,
+        "name": "H4Retest_LB10_D17_W0.40_SL14_TP30"
+      },
+      "disc_trades": 51,
+      "ann_trades": 50.0,
+      "disc_net_pips": 48.0,
+      "ann_pips": 47.1,
+      "win_rate": 41.2,
+      "profit_factor": 1.11
+    },
+    {
+      "name": "NYSweep_D4.7_SL12_TP24_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 11.9,
+        "tp": 23.8,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D4.7_SL12_TP24_R13-55"
+      },
+      "disc_trades": 57,
+      "ann_trades": 55.9,
+      "disc_net_pips": 47.9,
+      "ann_pips": 47.0,
+      "win_rate": 40.4,
+      "profit_factor": 1.11
+    },
+    {
+      "name": "H4Retest_LB12_D17_W0.35_SL15_TP34",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 17.0,
+        "wick": 0.35,
+        "sl": 15.3,
+        "tp": 34.0,
+        "name": "H4Retest_LB12_D17_W0.35_SL15_TP34"
+      },
+      "disc_trades": 41,
+      "ann_trades": 40.2,
+      "disc_net_pips": 46.9,
+      "ann_pips": 46.1,
+      "win_rate": 39.0,
+      "profit_factor": 1.12
+    },
+    {
+      "name": "NYSweep_D3.8_SL10_TP20_R10-42",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 10.2,
+        "tp": 20.4,
+        "min_rng": 10.2,
+        "max_rng": 42.5,
+        "name": "NYSweep_D3.8_SL10_TP20_R10-42"
+      },
+      "disc_trades": 54,
+      "ann_trades": 53.0,
+      "disc_net_pips": 41.5,
+      "ann_pips": 40.7,
+      "win_rate": 38.9,
+      "profit_factor": 1.12
+    },
+    {
+      "name": "H4Retest_LB12_D14_W0.35_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 13.6,
+        "wick": 0.35,
+        "sl": 13.6,
+        "tp": 29.8,
+        "name": "H4Retest_LB12_D14_W0.35_SL14_TP30"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 40.4,
+      "ann_pips": 39.6,
+      "win_rate": 39.4,
+      "profit_factor": 1.15
+    },
+    {
+      "name": "NYSweep_D3.8_SL12_TP24_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 11.9,
+        "tp": 23.8,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D3.8_SL12_TP24_R13-55"
+      },
+      "disc_trades": 69,
+      "ann_trades": 67.7,
+      "disc_net_pips": 40.1,
+      "ann_pips": 39.4,
+      "win_rate": 39.1,
+      "profit_factor": 1.08
+    },
+    {
+      "name": "H1Retest_LB16_D7_W0.25_SL9_TP19",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 16,
+        "dist": 6.8,
+        "wick": 0.25,
+        "sl": 9.3,
+        "tp": 18.7,
+        "name": "H1Retest_LB16_D7_W0.25_SL9_TP19"
+      },
+      "disc_trades": 48,
+      "ann_trades": 47.1,
+      "disc_net_pips": 39.6,
+      "ann_pips": 38.9,
+      "win_rate": 37.5,
+      "profit_factor": 1.13
+    },
+    {
+      "name": "NYSweep_D4.7_SL10_TP20_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 10.2,
+        "tp": 20.4,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D4.7_SL10_TP20_R13-55"
+      },
+      "disc_trades": 57,
+      "ann_trades": 55.9,
+      "disc_net_pips": 39.3,
+      "ann_pips": 38.6,
+      "win_rate": 38.6,
+      "profit_factor": 1.1
+    },
+    {
+      "name": "NYSweep_D4.7_SL15_TP34_R10-42",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 15.3,
+        "tp": 34.0,
+        "min_rng": 10.2,
+        "max_rng": 42.5,
+        "name": "NYSweep_D4.7_SL15_TP34_R10-42"
+      },
+      "disc_trades": 43,
+      "ann_trades": 42.2,
+      "disc_net_pips": 37.2,
+      "ann_pips": 36.5,
+      "win_rate": 39.5,
+      "profit_factor": 1.1
+    },
+    {
+      "name": "H4Retest_LB12_D14_W0.45_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 12,
+        "dist": 13.6,
+        "wick": 0.45,
+        "sl": 13.6,
+        "tp": 29.8,
+        "name": "H4Retest_LB12_D14_W0.45_SL14_TP30"
+      },
+      "disc_trades": 26,
+      "ann_trades": 25.5,
+      "disc_net_pips": 35.3,
+      "ann_pips": 34.6,
+      "win_rate": 42.3,
+      "profit_factor": 1.16
+    },
+    {
+      "name": "H4Retest_LB10_D14_W0.35_SL10_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 13.6,
+        "wick": 0.35,
+        "sl": 10.2,
+        "tp": 23.8,
+        "name": "H4Retest_LB10_D14_W0.35_SL10_TP24"
+      },
+      "disc_trades": 48,
+      "ann_trades": 47.1,
+      "disc_net_pips": 34.8,
+      "ann_pips": 34.2,
+      "win_rate": 37.5,
+      "profit_factor": 1.11
+    },
+    {
+      "name": "LondonSweep_D5.1_SL15_TP34_R8-34",
+      "family": "LONDON_SWEEP",
+      "cand": {
+        "family": "LONDON_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 5.1,
+        "sl": 15.3,
+        "tp": 34.0,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "LondonSweep_D5.1_SL15_TP34_R8-34"
+      },
+      "disc_trades": 58,
+      "ann_trades": 56.9,
+      "disc_net_pips": 34.6,
+      "ann_pips": 33.9,
+      "win_rate": 39.7,
+      "profit_factor": 1.06
+    },
+    {
+      "name": "NYSweep_D3.8_SL12_TP24_R8-34",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 11.9,
+        "tp": 23.8,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "NYSweep_D3.8_SL12_TP24_R8-34"
+      },
+      "disc_trades": 38,
+      "ann_trades": 37.3,
+      "disc_net_pips": 34.5,
+      "ann_pips": 33.9,
+      "win_rate": 42.1,
+      "profit_factor": 1.12
+    },
+    {
+      "name": "H1Retest_LB16_D8_W0.25_SL10_TP20",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 16,
+        "dist": 8.5,
+        "wick": 0.25,
+        "sl": 10.2,
+        "tp": 20.4,
+        "name": "H1Retest_LB16_D8_W0.25_SL10_TP20"
+      },
+      "disc_trades": 65,
+      "ann_trades": 63.8,
+      "disc_net_pips": 33.7,
+      "ann_pips": 33.1,
+      "win_rate": 36.9,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "NYSweep_D6.0_SL14_TP30_R10-42",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 6.0,
+        "sl": 13.6,
+        "tp": 29.8,
+        "min_rng": 10.2,
+        "max_rng": 42.5,
+        "name": "NYSweep_D6.0_SL14_TP30_R10-42"
+      },
+      "disc_trades": 26,
+      "ann_trades": 25.5,
+      "disc_net_pips": 33.3,
+      "ann_pips": 32.7,
+      "win_rate": 38.5,
+      "profit_factor": 1.16
+    },
+    {
+      "name": "NYSweep_D3.0_SL13_TP26_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.0,
+        "sl": 12.8,
+        "tp": 25.5,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D3.0_SL13_TP26_R13-55"
+      },
+      "disc_trades": 87,
+      "ann_trades": 85.4,
+      "disc_net_pips": 33.2,
+      "ann_pips": 32.6,
+      "win_rate": 39.1,
+      "profit_factor": 1.05
+    },
+    {
+      "name": "NYSweep_D4.7_SL15_TP34_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 15.3,
+        "tp": 34.0,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D4.7_SL15_TP34_R13-55"
+      },
+      "disc_trades": 56,
+      "ann_trades": 54.9,
+      "disc_net_pips": 31.5,
+      "ann_pips": 30.9,
+      "win_rate": 39.3,
+      "profit_factor": 1.06
+    },
+    {
+      "name": "H1Retest_LB16_D8_W0.25_SL8_TP17",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 16,
+        "dist": 8.5,
+        "wick": 0.25,
+        "sl": 8.5,
+        "tp": 17.0,
+        "name": "H1Retest_LB16_D8_W0.25_SL8_TP17"
+      },
+      "disc_trades": 66,
+      "ann_trades": 64.8,
+      "disc_net_pips": 30.6,
+      "ann_pips": 30.0,
+      "win_rate": 37.9,
+      "profit_factor": 1.08
+    },
+    {
+      "name": "LondonSweep_D3.8_SL15_TP34_R8-34",
+      "family": "LONDON_SWEEP",
+      "cand": {
+        "family": "LONDON_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 15.3,
+        "tp": 34.0,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "LondonSweep_D3.8_SL15_TP34_R8-34"
+      },
+      "disc_trades": 79,
+      "ann_trades": 77.5,
+      "disc_net_pips": 29.5,
+      "ann_pips": 28.9,
+      "win_rate": 38.0,
+      "profit_factor": 1.04
+    },
+    {
+      "name": "NYSweep_D4.7_SL12_TP24_R8-34",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 11.9,
+        "tp": 23.8,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "NYSweep_D4.7_SL12_TP24_R8-34"
+      },
+      "disc_trades": 30,
+      "ann_trades": 29.4,
+      "disc_net_pips": 28.1,
+      "ann_pips": 27.6,
+      "win_rate": 43.3,
+      "profit_factor": 1.13
+    },
+    {
+      "name": "LondonSweep_D3.8_SL12_TP24_R8-34",
+      "family": "LONDON_SWEEP",
+      "cand": {
+        "family": "LONDON_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 11.9,
+        "tp": 23.8,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "LondonSweep_D3.8_SL12_TP24_R8-34"
+      },
+      "disc_trades": 80,
+      "ann_trades": 78.5,
+      "disc_net_pips": 27.8,
+      "ann_pips": 27.3,
+      "win_rate": 38.8,
+      "profit_factor": 1.05
+    },
+    {
+      "name": "LondonSweep_D6.4_SL14_TP30_R8-34",
+      "family": "LONDON_SWEEP",
+      "cand": {
+        "family": "LONDON_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 6.4,
+        "sl": 13.6,
+        "tp": 29.8,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "LondonSweep_D6.4_SL14_TP30_R8-34"
+      },
+      "disc_trades": 36,
+      "ann_trades": 35.3,
+      "disc_net_pips": 27.8,
+      "ann_pips": 27.3,
+      "win_rate": 36.1,
+      "profit_factor": 1.09
+    },
+    {
+      "name": "NYSweep_D6.0_SL12_TP24_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 6.0,
+        "sl": 11.9,
+        "tp": 23.8,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D6.0_SL12_TP24_R13-55"
+      },
+      "disc_trades": 36,
+      "ann_trades": 35.3,
+      "disc_net_pips": 27.7,
+      "ann_pips": 27.2,
+      "win_rate": 38.9,
+      "profit_factor": 1.1
+    },
+    {
+      "name": "NYSweep_D3.8_SL10_TP24_R8-34",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 10.2,
+        "tp": 23.8,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "NYSweep_D3.8_SL10_TP24_R8-34"
+      },
+      "disc_trades": 38,
+      "ann_trades": 37.3,
+      "disc_net_pips": 27.4,
+      "ann_pips": 26.9,
+      "win_rate": 36.8,
+      "profit_factor": 1.11
+    },
+    {
+      "name": "NYSweep_D3.8_SL10_TP24_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 10.2,
+        "tp": 23.8,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D3.8_SL10_TP24_R13-55"
+      },
+      "disc_trades": 69,
+      "ann_trades": 67.7,
+      "disc_net_pips": 27.4,
+      "ann_pips": 26.8,
+      "win_rate": 34.8,
+      "profit_factor": 1.06
+    },
+    {
+      "name": "NYSweep_D3.8_SL10_TP24_R10-42",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 10.2,
+        "tp": 23.8,
+        "min_rng": 10.2,
+        "max_rng": 42.5,
+        "name": "NYSweep_D3.8_SL10_TP24_R10-42"
+      },
+      "disc_trades": 54,
+      "ann_trades": 53.0,
+      "disc_net_pips": 25.6,
+      "ann_pips": 25.1,
+      "win_rate": 35.2,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "H4Retest_LB10_D17_W0.40_SL15_TP34",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 17.0,
+        "wick": 0.4,
+        "sl": 15.3,
+        "tp": 34.0,
+        "name": "H4Retest_LB10_D17_W0.40_SL15_TP34"
+      },
+      "disc_trades": 50,
+      "ann_trades": 49.1,
+      "disc_net_pips": 24.8,
+      "ann_pips": 24.4,
+      "win_rate": 40.0,
+      "profit_factor": 1.05
+    },
+    {
+      "name": "NYSweep_D3.8_SL8_TP17_R10-42",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 8.5,
+        "tp": 17.0,
+        "min_rng": 10.2,
+        "max_rng": 42.5,
+        "name": "NYSweep_D3.8_SL8_TP17_R10-42"
+      },
+      "disc_trades": 55,
+      "ann_trades": 54.0,
+      "disc_net_pips": 24.5,
+      "ann_pips": 24.1,
+      "win_rate": 38.2,
+      "profit_factor": 1.08
+    },
+    {
+      "name": "H1Retest_LB16_D7_W0.25_SL10_TP24",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 16,
+        "dist": 6.8,
+        "wick": 0.25,
+        "sl": 10.2,
+        "tp": 23.8,
+        "name": "H1Retest_LB16_D7_W0.25_SL10_TP24"
+      },
+      "disc_trades": 47,
+      "ann_trades": 46.1,
+      "disc_net_pips": 24.4,
+      "ann_pips": 24.0,
+      "win_rate": 34.0,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "LondonSweep_D6.4_SL15_TP34_R8-34",
+      "family": "LONDON_SWEEP",
+      "cand": {
+        "family": "LONDON_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 6.4,
+        "sl": 15.3,
+        "tp": 34.0,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "LondonSweep_D6.4_SL15_TP34_R8-34"
+      },
+      "disc_trades": 36,
+      "ann_trades": 35.3,
+      "disc_net_pips": 23.9,
+      "ann_pips": 23.5,
+      "win_rate": 36.1,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "NYSweep_D4.7_SL8_TP17_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 8.5,
+        "tp": 17.0,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D4.7_SL8_TP17_R13-55"
+      },
+      "disc_trades": 58,
+      "ann_trades": 56.9,
+      "disc_net_pips": 23.0,
+      "ann_pips": 22.5,
+      "win_rate": 37.9,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "NYSweep_D4.7_SL8_TP17_R10-42",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 8.5,
+        "tp": 17.0,
+        "min_rng": 10.2,
+        "max_rng": 42.5,
+        "name": "NYSweep_D4.7_SL8_TP17_R10-42"
+      },
+      "disc_trades": 44,
+      "ann_trades": 43.2,
+      "disc_net_pips": 22.4,
+      "ann_pips": 22.0,
+      "win_rate": 38.6,
+      "profit_factor": 1.09
+    },
+    {
+      "name": "AsianSweep_D5.5_SL13_TP26_R8-34",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 5.5,
+        "sl": 12.8,
+        "tp": 25.5,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "AsianSweep_D5.5_SL13_TP26_R8-34"
+      },
+      "disc_trades": 56,
+      "ann_trades": 54.9,
+      "disc_net_pips": 21.1,
+      "ann_pips": 20.7,
+      "win_rate": 39.3,
+      "profit_factor": 1.05
+    },
+    {
+      "name": "NYSweep_D3.8_SL15_TP34_R8-34",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 15.3,
+        "tp": 34.0,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "NYSweep_D3.8_SL15_TP34_R8-34"
+      },
+      "disc_trades": 38,
+      "ann_trades": 37.3,
+      "disc_net_pips": 21.0,
+      "ann_pips": 20.6,
+      "win_rate": 39.5,
+      "profit_factor": 1.06
+    },
+    {
+      "name": "LondonSweep_D3.8_SL12_TP24_R10-42",
+      "family": "LONDON_SWEEP",
+      "cand": {
+        "family": "LONDON_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 11.9,
+        "tp": 23.8,
+        "min_rng": 10.2,
+        "max_rng": 42.5,
+        "name": "LondonSweep_D3.8_SL12_TP24_R10-42"
+      },
+      "disc_trades": 92,
+      "ann_trades": 90.3,
+      "disc_net_pips": 20.5,
+      "ann_pips": 20.1,
+      "win_rate": 38.0,
+      "profit_factor": 1.03
+    },
+    {
+      "name": "NYSweep_D4.7_SL10_TP24_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 10.2,
+        "tp": 23.8,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D4.7_SL10_TP24_R13-55"
+      },
+      "disc_trades": 57,
+      "ann_trades": 55.9,
+      "disc_net_pips": 20.4,
+      "ann_pips": 20.0,
+      "win_rate": 35.1,
+      "profit_factor": 1.05
+    },
+    {
+      "name": "H4Retest_LB10_D14_W0.35_SL10_TP20",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 13.6,
+        "wick": 0.35,
+        "sl": 10.2,
+        "tp": 20.4,
+        "name": "H4Retest_LB10_D14_W0.35_SL10_TP20"
+      },
+      "disc_trades": 48,
+      "ann_trades": 47.1,
+      "disc_net_pips": 19.0,
+      "ann_pips": 18.6,
+      "win_rate": 39.6,
+      "profit_factor": 1.06
+    },
+    {
+      "name": "LondonSweep_D3.8_SL13_TP26_R10-42",
+      "family": "LONDON_SWEEP",
+      "cand": {
+        "family": "LONDON_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 12.8,
+        "tp": 25.5,
+        "min_rng": 10.2,
+        "max_rng": 42.5,
+        "name": "LondonSweep_D3.8_SL13_TP26_R10-42"
+      },
+      "disc_trades": 92,
+      "ann_trades": 90.3,
+      "disc_net_pips": 18.7,
+      "ann_pips": 18.4,
+      "win_rate": 38.0,
+      "profit_factor": 1.02
+    },
+    {
+      "name": "LondonSweep_D3.8_SL14_TP30_R8-34",
+      "family": "LONDON_SWEEP",
+      "cand": {
+        "family": "LONDON_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 13.6,
+        "tp": 29.8,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "LondonSweep_D3.8_SL14_TP30_R8-34"
+      },
+      "disc_trades": 80,
+      "ann_trades": 78.5,
+      "disc_net_pips": 16.9,
+      "ann_pips": 16.6,
+      "win_rate": 37.5,
+      "profit_factor": 1.02
+    },
+    {
+      "name": "H1Retest_LB16_D7_W0.25_SL10_TP20",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 16,
+        "dist": 6.8,
+        "wick": 0.25,
+        "sl": 10.2,
+        "tp": 20.4,
+        "name": "H1Retest_LB16_D7_W0.25_SL10_TP20"
+      },
+      "disc_trades": 47,
+      "ann_trades": 46.1,
+      "disc_net_pips": 16.2,
+      "ann_pips": 15.9,
+      "win_rate": 36.2,
+      "profit_factor": 1.05
+    },
+    {
+      "name": "NYSweep_D3.8_SL8_TP17_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 8.5,
+        "tp": 17.0,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D3.8_SL8_TP17_R13-55"
+      },
+      "disc_trades": 70,
+      "ann_trades": 68.7,
+      "disc_net_pips": 15.9,
+      "ann_pips": 15.6,
+      "win_rate": 37.1,
+      "profit_factor": 1.04
+    },
+    {
+      "name": "H1Retest_LB16_D7_W0.25_SL8_TP17",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 16,
+        "dist": 6.8,
+        "wick": 0.25,
+        "sl": 8.5,
+        "tp": 17.0,
+        "name": "H1Retest_LB16_D7_W0.25_SL8_TP17"
+      },
+      "disc_trades": 48,
+      "ann_trades": 47.1,
+      "disc_net_pips": 15.1,
+      "ann_pips": 14.8,
+      "win_rate": 37.5,
+      "profit_factor": 1.05
+    },
+    {
+      "name": "H4Retest_LB10_D14_W0.40_SL15_TP34",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 13.6,
+        "wick": 0.4,
+        "sl": 15.3,
+        "tp": 34.0,
+        "name": "H4Retest_LB10_D14_W0.40_SL15_TP34"
+      },
+      "disc_trades": 45,
+      "ann_trades": 44.2,
+      "disc_net_pips": 14.8,
+      "ann_pips": 14.6,
+      "win_rate": 40.0,
+      "profit_factor": 1.04
+    },
+    {
+      "name": "NYSweep_D6.0_SL13_TP26_R10-42",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 6.0,
+        "sl": 12.8,
+        "tp": 25.5,
+        "min_rng": 10.2,
+        "max_rng": 42.5,
+        "name": "NYSweep_D6.0_SL13_TP26_R10-42"
+      },
+      "disc_trades": 26,
+      "ann_trades": 25.5,
+      "disc_net_pips": 14.6,
+      "ann_pips": 14.3,
+      "win_rate": 38.5,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "H4Retest_LB10_D17_W0.45_SL10_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 17.0,
+        "wick": 0.45,
+        "sl": 10.2,
+        "tp": 23.8,
+        "name": "H4Retest_LB10_D17_W0.45_SL10_TP24"
+      },
+      "disc_trades": 45,
+      "ann_trades": 44.2,
+      "disc_net_pips": 14.0,
+      "ann_pips": 13.7,
+      "win_rate": 35.6,
+      "profit_factor": 1.04
+    },
+    {
+      "name": "H4Retest_LB10_D17_W0.35_SL10_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 17.0,
+        "wick": 0.35,
+        "sl": 10.2,
+        "tp": 23.8,
+        "name": "H4Retest_LB10_D17_W0.35_SL10_TP24"
+      },
+      "disc_trades": 59,
+      "ann_trades": 57.9,
+      "disc_net_pips": 12.7,
+      "ann_pips": 12.5,
+      "win_rate": 35.6,
+      "profit_factor": 1.03
+    },
+    {
+      "name": "NYSweep_D4.7_SL8_TP17_R8-34",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 8.5,
+        "tp": 17.0,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "NYSweep_D4.7_SL8_TP17_R8-34"
+      },
+      "disc_trades": 31,
+      "ann_trades": 30.4,
+      "disc_net_pips": 12.2,
+      "ann_pips": 12.0,
+      "win_rate": 38.7,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "H1Retest_LB16_D10_W0.25_SL9_TP19",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 16,
+        "dist": 10.2,
+        "wick": 0.25,
+        "sl": 9.3,
+        "tp": 18.7,
+        "name": "H1Retest_LB16_D10_W0.25_SL9_TP19"
+      },
+      "disc_trades": 82,
+      "ann_trades": 80.5,
+      "disc_net_pips": 11.9,
+      "ann_pips": 11.7,
+      "win_rate": 35.4,
+      "profit_factor": 1.02
+    },
+    {
+      "name": "H4Retest_LB10_D17_W0.45_SL10_TP20",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 17.0,
+        "wick": 0.45,
+        "sl": 10.2,
+        "tp": 20.4,
+        "name": "H4Retest_LB10_D17_W0.45_SL10_TP20"
+      },
+      "disc_trades": 46,
+      "ann_trades": 45.1,
+      "disc_net_pips": 11.8,
+      "ann_pips": 11.6,
+      "win_rate": 39.1,
+      "profit_factor": 1.04
+    },
+    {
+      "name": "NYSweep_D4.7_SL10_TP24_R8-34",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 10.2,
+        "tp": 23.8,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "NYSweep_D4.7_SL10_TP24_R8-34"
+      },
+      "disc_trades": 30,
+      "ann_trades": 29.4,
+      "disc_net_pips": 11.2,
+      "ann_pips": 11.0,
+      "win_rate": 36.7,
+      "profit_factor": 1.05
+    },
+    {
+      "name": "LondonSweep_D6.4_SL13_TP26_R8-34",
+      "family": "LONDON_SWEEP",
+      "cand": {
+        "family": "LONDON_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 6.4,
+        "sl": 12.8,
+        "tp": 25.5,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "LondonSweep_D6.4_SL13_TP26_R8-34"
+      },
+      "disc_trades": 36,
+      "ann_trades": 35.3,
+      "disc_net_pips": 10.7,
+      "ann_pips": 10.5,
+      "win_rate": 36.1,
+      "profit_factor": 1.04
+    },
+    {
+      "name": "H4Retest_LB10_D17_W0.45_SL13_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 17.0,
+        "wick": 0.45,
+        "sl": 12.8,
+        "tp": 25.5,
+        "name": "H4Retest_LB10_D17_W0.45_SL13_TP26"
+      },
+      "disc_trades": 44,
+      "ann_trades": 43.2,
+      "disc_net_pips": 10.6,
+      "ann_pips": 10.4,
+      "win_rate": 38.6,
+      "profit_factor": 1.03
+    },
+    {
+      "name": "H4Retest_LB10_D14_W0.40_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 13.6,
+        "wick": 0.4,
+        "sl": 13.6,
+        "tp": 29.8,
+        "name": "H4Retest_LB10_D14_W0.40_SL14_TP30"
+      },
+      "disc_trades": 45,
+      "ann_trades": 44.2,
+      "disc_net_pips": 10.1,
+      "ann_pips": 10.0,
+      "win_rate": 40.0,
+      "profit_factor": 1.03
+    },
+    {
+      "name": "H1Retest_LB16_D10_W0.25_SL10_TP20",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 16,
+        "dist": 10.2,
+        "wick": 0.25,
+        "sl": 10.2,
+        "tp": 20.4,
+        "name": "H1Retest_LB16_D10_W0.25_SL10_TP20"
+      },
+      "disc_trades": 82,
+      "ann_trades": 80.5,
+      "disc_net_pips": 9.8,
+      "ann_pips": 9.6,
+      "win_rate": 36.6,
+      "profit_factor": 1.02
+    },
+    {
+      "name": "NYSweep_D4.7_SL14_TP30_R8-34",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 13.6,
+        "tp": 29.8,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "NYSweep_D4.7_SL14_TP30_R8-34"
+      },
+      "disc_trades": 30,
+      "ann_trades": 29.4,
+      "disc_net_pips": 9.2,
+      "ann_pips": 9.0,
+      "win_rate": 40.0,
+      "profit_factor": 1.04
+    },
+    {
+      "name": "NYSweep_D4.7_SL10_TP24_R10-42",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 10.2,
+        "tp": 23.8,
+        "min_rng": 10.2,
+        "max_rng": 42.5,
+        "name": "NYSweep_D4.7_SL10_TP24_R10-42"
+      },
+      "disc_trades": 43,
+      "ann_trades": 42.2,
+      "disc_net_pips": 7.5,
+      "ann_pips": 7.4,
+      "win_rate": 34.9,
+      "profit_factor": 1.02
+    },
+    {
+      "name": "NYSweep_D4.7_SL10_TP20_R10-42",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 10.2,
+        "tp": 20.4,
+        "min_rng": 10.2,
+        "max_rng": 42.5,
+        "name": "NYSweep_D4.7_SL10_TP20_R10-42"
+      },
+      "disc_trades": 43,
+      "ann_trades": 42.2,
+      "disc_net_pips": 6.8,
+      "ann_pips": 6.6,
+      "win_rate": 37.2,
+      "profit_factor": 1.02
+    },
+    {
+      "name": "H4Retest_LB10_D17_W0.45_SL12_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 17.0,
+        "wick": 0.45,
+        "sl": 11.9,
+        "tp": 23.8,
+        "name": "H4Retest_LB10_D17_W0.45_SL12_TP24"
+      },
+      "disc_trades": 44,
+      "ann_trades": 43.2,
+      "disc_net_pips": 5.7,
+      "ann_pips": 5.6,
+      "win_rate": 38.6,
+      "profit_factor": 1.02
+    },
+    {
+      "name": "H4Retest_LB10_D14_W0.45_SL10_TP24",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 13.6,
+        "wick": 0.45,
+        "sl": 10.2,
+        "tp": 23.8,
+        "name": "H4Retest_LB10_D14_W0.45_SL10_TP24"
+      },
+      "disc_trades": 39,
+      "ann_trades": 38.3,
+      "disc_net_pips": 4.5,
+      "ann_pips": 4.4,
+      "win_rate": 35.9,
+      "profit_factor": 1.02
+    },
+    {
+      "name": "H4Retest_LB10_D17_W0.35_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "AUDCAD",
+        "lb": 10,
+        "dist": 17.0,
+        "wick": 0.35,
+        "sl": 13.6,
+        "tp": 29.8,
+        "name": "H4Retest_LB10_D17_W0.35_SL14_TP30"
+      },
+      "disc_trades": 57,
+      "ann_trades": 55.9,
+      "disc_net_pips": 3.6,
+      "ann_pips": 3.6,
+      "win_rate": 38.6,
+      "profit_factor": 1.01
+    },
+    {
+      "name": "LondonSweep_D5.1_SL14_TP30_R8-34",
+      "family": "LONDON_SWEEP",
+      "cand": {
+        "family": "LONDON_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 5.1,
+        "sl": 13.6,
+        "tp": 29.8,
+        "min_rng": 8.5,
+        "max_rng": 34.0,
+        "name": "LondonSweep_D5.1_SL14_TP30_R8-34"
+      },
+      "disc_trades": 58,
+      "ann_trades": 56.9,
+      "disc_net_pips": 3.0,
+      "ann_pips": 2.9,
+      "win_rate": 37.9,
+      "profit_factor": 1.01
+    },
+    {
+      "name": "NYSweep_D4.7_SL9_TP19_R13-55",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 4.7,
+        "sl": 9.3,
+        "tp": 18.7,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "NYSweep_D4.7_SL9_TP19_R13-55"
+      },
+      "disc_trades": 58,
+      "ann_trades": 56.9,
+      "disc_net_pips": 1.4,
+      "ann_pips": 1.3,
+      "win_rate": 36.2,
+      "profit_factor": 1.0
+    },
+    {
+      "name": "LondonSweep_D3.8_SL13_TP26_R13-55",
+      "family": "LONDON_SWEEP",
+      "cand": {
+        "family": "LONDON_SWEEP",
+        "symbol": "AUDCAD",
+        "delta": 3.8,
+        "sl": 12.8,
+        "tp": 25.5,
+        "min_rng": 12.8,
+        "max_rng": 55.2,
+        "name": "LondonSweep_D3.8_SL13_TP26_R13-55"
+      },
+      "disc_trades": 99,
+      "ann_trades": 97.1,
+      "disc_net_pips": 0.1,
+      "ann_pips": 0.1,
+      "win_rate": 37.4,
+      "profit_factor": 1.0
+    }
+  ],
+  "holdout_champions": []
+}

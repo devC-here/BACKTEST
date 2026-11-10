@@ -1,0 +1,18 @@
+{
+  "trend_pb": {
+    "trades_52w": 4242,
+    "trades_per_wk": 81.57692307692308
+  },
+  "asia_mr": {
+    "trades_52w": 952,
+    "trades_per_wk": 18.307692307692307
+  },
+  "squeeze_bo": {
+    "trades_52w": 580,
+    "trades_per_wk": 11.153846153846153
+  },
+  "combined": {
+    "trades_52w": 5774,
+    "trades_per_wk": 111.03846153846153
+  }
+}

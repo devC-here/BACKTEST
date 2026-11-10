@@ -1,0 +1,1002 @@
+[
+  {
+    "slot": 1,
+    "filename": "strategy_01_gbpjpy_h4_macro_retest.py",
+    "class_name": "Strategy_01_gbpjpy_h4_macro_retest",
+    "symbol": "GBPJPY",
+    "sl_pips": 35.0,
+    "tp_pips": 70.0,
+    "rr_ratio": 2.0,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 2,
+    "filename": "strategy_02_gbpjpy_h4_macro_retest.py",
+    "class_name": "Strategy_02_gbpjpy_h4_macro_retest",
+    "symbol": "GBPJPY",
+    "sl_pips": 30.0,
+    "tp_pips": 75.0,
+    "rr_ratio": 2.5,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 3,
+    "filename": "strategy_03_gbpjpy_h4_macro_retest.py",
+    "class_name": "Strategy_03_gbpjpy_h4_macro_retest",
+    "symbol": "GBPJPY",
+    "sl_pips": 30.0,
+    "tp_pips": 60.0,
+    "rr_ratio": 2.0,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 4,
+    "filename": "strategy_04_gbpjpy_h4_macro_retest.py",
+    "class_name": "Strategy_04_gbpjpy_h4_macro_retest",
+    "symbol": "GBPJPY",
+    "sl_pips": 35.0,
+    "tp_pips": 70.0,
+    "rr_ratio": 2.0,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 5,
+    "filename": "strategy_05_gbpjpy_h4_macro_retest.py",
+    "class_name": "Strategy_05_gbpjpy_h4_macro_retest",
+    "symbol": "GBPJPY",
+    "sl_pips": 30.0,
+    "tp_pips": 75.0,
+    "rr_ratio": 2.5,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 6,
+    "filename": "strategy_06_gbpjpy_h4_macro_retest.py",
+    "class_name": "Strategy_06_gbpjpy_h4_macro_retest",
+    "symbol": "GBPJPY",
+    "sl_pips": 30.0,
+    "tp_pips": 75.0,
+    "rr_ratio": 2.5,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 7,
+    "filename": "strategy_07_gbpjpy_h4_macro_retest.py",
+    "class_name": "Strategy_07_gbpjpy_h4_macro_retest",
+    "symbol": "GBPJPY",
+    "sl_pips": 35.0,
+    "tp_pips": 70.0,
+    "rr_ratio": 2.0,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 8,
+    "filename": "strategy_08_gbpjpy_h4_macro_retest.py",
+    "class_name": "Strategy_08_gbpjpy_h4_macro_retest",
+    "symbol": "GBPJPY",
+    "sl_pips": 30.0,
+    "tp_pips": 60.0,
+    "rr_ratio": 2.0,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 9,
+    "filename": "strategy_09_eurusd_ny_sweep_fade.py",
+    "class_name": null,
+    "symbol": "EURUSD",
+    "sl_pips": 10.0,
+    "tp_pips": 20.0,
+    "rr_ratio": 2.0,
+    "archetype": "NY Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 10,
+    "filename": "strategy_10_eurusd_ny_sweep_fade.py",
+    "class_name": null,
+    "symbol": "EURUSD",
+    "sl_pips": 10.0,
+    "tp_pips": 21.0,
+    "rr_ratio": 2.1,
+    "archetype": "NY Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 11,
+    "filename": "strategy_11_eurusd_ny_sweep_fade.py",
+    "class_name": null,
+    "symbol": "EURUSD",
+    "sl_pips": 11.0,
+    "tp_pips": 24.0,
+    "rr_ratio": 2.18,
+    "archetype": "NY Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 12,
+    "filename": "strategy_12_eurusd_ny_sweep_fade.py",
+    "class_name": null,
+    "symbol": "EURUSD",
+    "sl_pips": 13.0,
+    "tp_pips": 28.0,
+    "rr_ratio": 2.15,
+    "archetype": "NY Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 13,
+    "filename": "strategy_13_eurusd_micro_trend_breakout.py",
+    "class_name": "Strategy_13_eurusd_micro_trend_breakout",
+    "symbol": "EURUSD",
+    "sl_pips": 10.0,
+    "tp_pips": 20.0,
+    "rr_ratio": 2.0,
+    "archetype": "Intraday Micro-Trend Breakout (Directional Momentum)"
+  },
+  {
+    "slot": 14,
+    "filename": "strategy_14_eurusd_ny_sweep_fade.py",
+    "class_name": null,
+    "symbol": "EURUSD",
+    "sl_pips": 13.0,
+    "tp_pips": 28.0,
+    "rr_ratio": 2.15,
+    "archetype": "NY Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 15,
+    "filename": "strategy_15_eurusd_ny_sweep_fade.py",
+    "class_name": null,
+    "symbol": "EURUSD",
+    "sl_pips": 10.0,
+    "tp_pips": 20.0,
+    "rr_ratio": 2.0,
+    "archetype": "NY Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 16,
+    "filename": "strategy_16_eurusd_ny_sweep_fade.py",
+    "class_name": null,
+    "symbol": "EURUSD",
+    "sl_pips": 10.0,
+    "tp_pips": 21.0,
+    "rr_ratio": 2.1,
+    "archetype": "NY Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 17,
+    "filename": "strategy_17_usdcad_asian_sweep.py",
+    "class_name": "Strategy_17_usdcad_asian_sweep",
+    "symbol": "USDCAD",
+    "sl_pips": 14.0,
+    "tp_pips": 45.0,
+    "rr_ratio": 3.21,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 18,
+    "filename": "strategy_18_usdcad_asian_sweep.py",
+    "class_name": "Strategy_18_usdcad_asian_sweep",
+    "symbol": "USDCAD",
+    "sl_pips": 14.0,
+    "tp_pips": 45.0,
+    "rr_ratio": 3.21,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 19,
+    "filename": "strategy_19_usdcad_asian_sweep.py",
+    "class_name": "Strategy_19_usdcad_asian_sweep",
+    "symbol": "USDCAD",
+    "sl_pips": 14.0,
+    "tp_pips": 45.0,
+    "rr_ratio": 3.21,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 20,
+    "filename": "strategy_20_usdcad_asian_sweep.py",
+    "class_name": "Strategy_20_usdcad_asian_sweep",
+    "symbol": "USDCAD",
+    "sl_pips": 14.0,
+    "tp_pips": 38.0,
+    "rr_ratio": 2.71,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 21,
+    "filename": "strategy_21_usdcad_asian_sweep.py",
+    "class_name": "Strategy_21_usdcad_asian_sweep",
+    "symbol": "USDCAD",
+    "sl_pips": 14.0,
+    "tp_pips": 38.0,
+    "rr_ratio": 2.71,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 22,
+    "filename": "strategy_22_usdcad_asian_sweep.py",
+    "class_name": "Strategy_22_usdcad_asian_sweep",
+    "symbol": "USDCAD",
+    "sl_pips": 14.0,
+    "tp_pips": 38.0,
+    "rr_ratio": 2.71,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 23,
+    "filename": "strategy_23_usdcad_asian_sweep.py",
+    "class_name": "Strategy_23_usdcad_asian_sweep",
+    "symbol": "USDCAD",
+    "sl_pips": 15.0,
+    "tp_pips": 45.0,
+    "rr_ratio": 3.0,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 24,
+    "filename": "strategy_24_usdcad_asian_sweep.py",
+    "class_name": "Strategy_24_usdcad_asian_sweep",
+    "symbol": "USDCAD",
+    "sl_pips": 14.0,
+    "tp_pips": 48.0,
+    "rr_ratio": 3.43,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 25,
+    "filename": "strategy_25_gbpchf_asian_sweep.py",
+    "class_name": "Strategy_25_gbpchf_asian_sweep",
+    "symbol": "GBPCHF",
+    "sl_pips": 15.0,
+    "tp_pips": 37.5,
+    "rr_ratio": 2.5,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 26,
+    "filename": "strategy_26_gbpchf_asian_sweep.py",
+    "class_name": "Strategy_26_gbpchf_asian_sweep",
+    "symbol": "GBPCHF",
+    "sl_pips": 20.0,
+    "tp_pips": 40.0,
+    "rr_ratio": 2.0,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 27,
+    "filename": "strategy_27_gbpchf_asian_sweep.py",
+    "class_name": "Strategy_27_gbpchf_asian_sweep",
+    "symbol": "GBPCHF",
+    "sl_pips": 20.0,
+    "tp_pips": 40.0,
+    "rr_ratio": 2.0,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 28,
+    "filename": "strategy_28_gbpchf_asian_sweep.py",
+    "class_name": "Strategy_28_gbpchf_asian_sweep",
+    "symbol": "GBPCHF",
+    "sl_pips": 14.0,
+    "tp_pips": 35.0,
+    "rr_ratio": 2.5,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 29,
+    "filename": "strategy_29_gbpchf_asian_sweep.py",
+    "class_name": "Strategy_29_gbpchf_asian_sweep",
+    "symbol": "GBPCHF",
+    "sl_pips": 20.0,
+    "tp_pips": 50.0,
+    "rr_ratio": 2.5,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 30,
+    "filename": "strategy_30_gbpchf_asian_sweep.py",
+    "class_name": "Strategy_30_gbpchf_asian_sweep",
+    "symbol": "GBPCHF",
+    "sl_pips": 20.0,
+    "tp_pips": 50.0,
+    "rr_ratio": 2.5,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 31,
+    "filename": "strategy_31_gbpchf_asian_sweep.py",
+    "class_name": "Strategy_31_gbpchf_asian_sweep",
+    "symbol": "GBPCHF",
+    "sl_pips": 18.0,
+    "tp_pips": 45.0,
+    "rr_ratio": 2.5,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 32,
+    "filename": "strategy_32_gbpchf_asian_sweep.py",
+    "class_name": "Strategy_32_gbpchf_asian_sweep",
+    "symbol": "GBPCHF",
+    "sl_pips": 15.0,
+    "tp_pips": 37.5,
+    "rr_ratio": 2.5,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 33,
+    "filename": "strategy_33_audcad_h4_macro_retest.py",
+    "class_name": "Strategy_33_audcad_h4_macro_retest",
+    "symbol": "AUDCAD",
+    "sl_pips": 16.0,
+    "tp_pips": 32.0,
+    "rr_ratio": 2.0,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 34,
+    "filename": "strategy_34_audcad_h4_macro_retest.py",
+    "class_name": "Strategy_34_audcad_h4_macro_retest",
+    "symbol": "AUDCAD",
+    "sl_pips": 15.0,
+    "tp_pips": 30.0,
+    "rr_ratio": 2.0,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 35,
+    "filename": "strategy_35_audcad_h4_macro_retest.py",
+    "class_name": "Strategy_35_audcad_h4_macro_retest",
+    "symbol": "AUDCAD",
+    "sl_pips": 15.0,
+    "tp_pips": 30.0,
+    "rr_ratio": 2.0,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 36,
+    "filename": "strategy_36_audcad_h4_macro_retest.py",
+    "class_name": "Strategy_36_audcad_h4_macro_retest",
+    "symbol": "AUDCAD",
+    "sl_pips": 16.0,
+    "tp_pips": 32.0,
+    "rr_ratio": 2.0,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 37,
+    "filename": "strategy_37_audcad_h4_macro_retest.py",
+    "class_name": "Strategy_37_audcad_h4_macro_retest",
+    "symbol": "AUDCAD",
+    "sl_pips": 16.0,
+    "tp_pips": 32.0,
+    "rr_ratio": 2.0,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 38,
+    "filename": "strategy_38_audcad_h4_macro_retest.py",
+    "class_name": "Strategy_38_audcad_h4_macro_retest",
+    "symbol": "AUDCAD",
+    "sl_pips": 15.0,
+    "tp_pips": 30.0,
+    "rr_ratio": 2.0,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 39,
+    "filename": "strategy_39_audcad_h4_macro_retest.py",
+    "class_name": "Strategy_39_audcad_h4_macro_retest",
+    "symbol": "AUDCAD",
+    "sl_pips": 14.0,
+    "tp_pips": 28.0,
+    "rr_ratio": 2.0,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 40,
+    "filename": "strategy_40_audcad_h4_macro_retest.py",
+    "class_name": "Strategy_40_audcad_h4_macro_retest",
+    "symbol": "AUDCAD",
+    "sl_pips": 15.0,
+    "tp_pips": 30.0,
+    "rr_ratio": 2.0,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 41,
+    "filename": "strategy_41_usdjpy_asian_sweep.py",
+    "class_name": "Strategy_41_usdjpy_asian_sweep",
+    "symbol": "USDJPY",
+    "sl_pips": 10.0,
+    "tp_pips": 25.0,
+    "rr_ratio": 2.5,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 42,
+    "filename": "strategy_42_usdjpy_asian_sweep.py",
+    "class_name": "Strategy_42_usdjpy_asian_sweep",
+    "symbol": "USDJPY",
+    "sl_pips": 10.0,
+    "tp_pips": 25.0,
+    "rr_ratio": 2.5,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 43,
+    "filename": "strategy_43_usdjpy_asian_sweep.py",
+    "class_name": "Strategy_43_usdjpy_asian_sweep",
+    "symbol": "USDJPY",
+    "sl_pips": 12.0,
+    "tp_pips": 30.0,
+    "rr_ratio": 2.5,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 44,
+    "filename": "strategy_44_usdjpy_micro_trend_breakout.py",
+    "class_name": "Strategy_44_usdjpy_micro_trend_breakout",
+    "symbol": "USDJPY",
+    "sl_pips": 10.0,
+    "tp_pips": 20.0,
+    "rr_ratio": 2.0,
+    "archetype": "Intraday Micro-Trend Breakout (Directional Momentum)"
+  },
+  {
+    "slot": 45,
+    "filename": "strategy_45_usdjpy_asian_sweep.py",
+    "class_name": "Strategy_45_usdjpy_asian_sweep",
+    "symbol": "USDJPY",
+    "sl_pips": 11.0,
+    "tp_pips": 27.5,
+    "rr_ratio": 2.5,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 46,
+    "filename": "strategy_46_usdjpy_asian_sweep.py",
+    "class_name": "Strategy_46_usdjpy_asian_sweep",
+    "symbol": "USDJPY",
+    "sl_pips": 12.0,
+    "tp_pips": 30.0,
+    "rr_ratio": 2.5,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 47,
+    "filename": "strategy_47_usdjpy_asian_sweep.py",
+    "class_name": "Strategy_47_usdjpy_asian_sweep",
+    "symbol": "USDJPY",
+    "sl_pips": 11.0,
+    "tp_pips": 22.0,
+    "rr_ratio": 2.0,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 48,
+    "filename": "strategy_48_usdjpy_asian_sweep.py",
+    "class_name": "Strategy_48_usdjpy_asian_sweep",
+    "symbol": "USDJPY",
+    "sl_pips": 18.0,
+    "tp_pips": 45.0,
+    "rr_ratio": 2.5,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 49,
+    "filename": "strategy_49_eurnzd_h4_macro_retest.py",
+    "class_name": "Strategy_49_eurnzd_h4_macro_retest",
+    "symbol": "EURNZD",
+    "sl_pips": 30.0,
+    "tp_pips": 65.0,
+    "rr_ratio": 2.17,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 50,
+    "filename": "strategy_50_eurnzd_h4_macro_retest.py",
+    "class_name": "Strategy_50_eurnzd_h4_macro_retest",
+    "symbol": "EURNZD",
+    "sl_pips": 30.0,
+    "tp_pips": 85.0,
+    "rr_ratio": 2.83,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 51,
+    "filename": "strategy_51_eurnzd_h4_macro_retest.py",
+    "class_name": "Strategy_51_eurnzd_h4_macro_retest",
+    "symbol": "EURNZD",
+    "sl_pips": 30.0,
+    "tp_pips": 60.0,
+    "rr_ratio": 2.0,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 52,
+    "filename": "strategy_52_eurnzd_h4_macro_retest.py",
+    "class_name": "Strategy_52_eurnzd_h4_macro_retest",
+    "symbol": "EURNZD",
+    "sl_pips": 24.0,
+    "tp_pips": 85.0,
+    "rr_ratio": 3.54,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 53,
+    "filename": "strategy_53_eurnzd_h4_macro_retest.py",
+    "class_name": "Strategy_53_eurnzd_h4_macro_retest",
+    "symbol": "EURNZD",
+    "sl_pips": 30.0,
+    "tp_pips": 80.0,
+    "rr_ratio": 2.67,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 54,
+    "filename": "strategy_54_eurnzd_h4_macro_retest.py",
+    "class_name": "Strategy_54_eurnzd_h4_macro_retest",
+    "symbol": "EURNZD",
+    "sl_pips": 30.0,
+    "tp_pips": 60.0,
+    "rr_ratio": 2.0,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 55,
+    "filename": "strategy_55_eurnzd_h4_macro_retest.py",
+    "class_name": "Strategy_55_eurnzd_h4_macro_retest",
+    "symbol": "EURNZD",
+    "sl_pips": 24.0,
+    "tp_pips": 80.0,
+    "rr_ratio": 3.33,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 56,
+    "filename": "strategy_56_eurnzd_h4_macro_retest.py",
+    "class_name": "Strategy_56_eurnzd_h4_macro_retest",
+    "symbol": "EURNZD",
+    "sl_pips": 24.0,
+    "tp_pips": 85.0,
+    "rr_ratio": 3.54,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 57,
+    "filename": "strategy_57_gbpjpy_h4_macro_retest.py",
+    "class_name": "Strategy_57_gbpjpy_h4_macro_retest",
+    "symbol": "GBPJPY",
+    "sl_pips": 30.0,
+    "tp_pips": 70.0,
+    "rr_ratio": 2.33,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 58,
+    "filename": "strategy_58_gbpjpy_h4_macro_retest.py",
+    "class_name": "Strategy_58_gbpjpy_h4_macro_retest",
+    "symbol": "GBPJPY",
+    "sl_pips": 32.0,
+    "tp_pips": 75.0,
+    "rr_ratio": 2.34,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 59,
+    "filename": "strategy_59_gbpjpy_h4_macro_retest.py",
+    "class_name": "Strategy_59_gbpjpy_h4_macro_retest",
+    "symbol": "GBPJPY",
+    "sl_pips": 30.0,
+    "tp_pips": 65.0,
+    "rr_ratio": 2.17,
+    "archetype": "H4 Macro S/R Retest (Trend Pullback)"
+  },
+  {
+    "slot": 60,
+    "filename": "strategy_60_nzdcad_ny_sweep.py",
+    "class_name": "Strategy_60_nzdcad_ny_sweep",
+    "symbol": "NZDCAD",
+    "sl_pips": 26.0,
+    "tp_pips": 72.0,
+    "rr_ratio": 2.77,
+    "archetype": "NY Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 61,
+    "filename": "strategy_61_nzdcad_ny_sweep.py",
+    "class_name": "Strategy_61_nzdcad_ny_sweep",
+    "symbol": "NZDCAD",
+    "sl_pips": 26.0,
+    "tp_pips": 80.0,
+    "rr_ratio": 3.08,
+    "archetype": "NY Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 62,
+    "filename": "strategy_62_eurgbp_london_sweep.py",
+    "class_name": "Strategy_62_eurgbp_london_sweep",
+    "symbol": "EURGBP",
+    "sl_pips": 11.0,
+    "tp_pips": 22.0,
+    "rr_ratio": 2.0,
+    "archetype": "London Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 63,
+    "filename": "strategy_63_usdjpy_asian_sweep.py",
+    "class_name": "Strategy_63_usdjpy_asian_sweep",
+    "symbol": "USDJPY",
+    "sl_pips": 10.0,
+    "tp_pips": 25.0,
+    "rr_ratio": 2.5,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 64,
+    "filename": "strategy_64_usdjpy_asian_sweep.py",
+    "class_name": "Strategy_64_usdjpy_asian_sweep",
+    "symbol": "USDJPY",
+    "sl_pips": 12.0,
+    "tp_pips": 30.0,
+    "rr_ratio": 2.5,
+    "archetype": "Asian Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 65,
+    "filename": "strategy_65_eurgbp_london_sweep.py",
+    "class_name": "Strategy_65_eurgbp_london_sweep",
+    "symbol": "EURGBP",
+    "sl_pips": 12.0,
+    "tp_pips": 24.0,
+    "rr_ratio": 2.0,
+    "archetype": "London Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 66,
+    "filename": "strategy_66_eurgbp_london_sweep.py",
+    "class_name": "Strategy_66_eurgbp_london_sweep",
+    "symbol": "EURGBP",
+    "sl_pips": 12.0,
+    "tp_pips": 22.0,
+    "rr_ratio": 1.83,
+    "archetype": "London Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 67,
+    "filename": "strategy_67_eurgbp_london_sweep.py",
+    "class_name": "Strategy_67_eurgbp_london_sweep",
+    "symbol": "EURGBP",
+    "sl_pips": 11.0,
+    "tp_pips": 22.0,
+    "rr_ratio": 2.0,
+    "archetype": "London Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 68,
+    "filename": "strategy_68_eurgbp_london_sweep.py",
+    "class_name": "Strategy_68_eurgbp_london_sweep",
+    "symbol": "EURGBP",
+    "sl_pips": 12.0,
+    "tp_pips": 24.0,
+    "rr_ratio": 2.0,
+    "archetype": "London Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 69,
+    "filename": "strategy_69_eurgbp_london_sweep.py",
+    "class_name": "Strategy_69_eurgbp_london_sweep",
+    "symbol": "EURGBP",
+    "sl_pips": 12.0,
+    "tp_pips": 24.0,
+    "rr_ratio": 2.0,
+    "archetype": "London Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 70,
+    "filename": "strategy_70_eurgbp_london_sweep.py",
+    "class_name": "Strategy_70_eurgbp_london_sweep",
+    "symbol": "EURGBP",
+    "sl_pips": 12.0,
+    "tp_pips": 22.0,
+    "rr_ratio": 1.83,
+    "archetype": "London Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 71,
+    "filename": "strategy_71_eurgbp_london_sweep.py",
+    "class_name": "Strategy_71_eurgbp_london_sweep",
+    "symbol": "EURGBP",
+    "sl_pips": 12.0,
+    "tp_pips": 24.0,
+    "rr_ratio": 2.0,
+    "archetype": "London Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 72,
+    "filename": "strategy_72_eurgbp_london_sweep.py",
+    "class_name": "Strategy_72_eurgbp_london_sweep",
+    "symbol": "EURGBP",
+    "sl_pips": 12.0,
+    "tp_pips": 24.0,
+    "rr_ratio": 2.0,
+    "archetype": "London Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 73,
+    "filename": "strategy_73_nzdcad_ny_sweep.py",
+    "class_name": "Strategy_73_nzdcad_ny_sweep",
+    "symbol": "NZDCAD",
+    "sl_pips": 26.0,
+    "tp_pips": 80.0,
+    "rr_ratio": 3.08,
+    "archetype": "NY Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 74,
+    "filename": "strategy_74_nzdcad_ny_sweep.py",
+    "class_name": "Strategy_74_nzdcad_ny_sweep",
+    "symbol": "NZDCAD",
+    "sl_pips": 26.0,
+    "tp_pips": 70.0,
+    "rr_ratio": 2.69,
+    "archetype": "NY Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 75,
+    "filename": "strategy_75_nzdcad_ny_sweep.py",
+    "class_name": "Strategy_75_nzdcad_ny_sweep",
+    "symbol": "NZDCAD",
+    "sl_pips": 26.0,
+    "tp_pips": 80.0,
+    "rr_ratio": 3.08,
+    "archetype": "NY Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 76,
+    "filename": "strategy_76_nzdcad_ny_sweep.py",
+    "class_name": "Strategy_76_nzdcad_ny_sweep",
+    "symbol": "NZDCAD",
+    "sl_pips": 26.0,
+    "tp_pips": 75.0,
+    "rr_ratio": 2.88,
+    "archetype": "NY Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 77,
+    "filename": "strategy_77_nzdcad_ny_sweep.py",
+    "class_name": "Strategy_77_nzdcad_ny_sweep",
+    "symbol": "NZDCAD",
+    "sl_pips": 26.0,
+    "tp_pips": 80.0,
+    "rr_ratio": 3.08,
+    "archetype": "NY Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 78,
+    "filename": "strategy_78_nzdcad_ny_sweep.py",
+    "class_name": "Strategy_78_nzdcad_ny_sweep",
+    "symbol": "NZDCAD",
+    "sl_pips": 26.0,
+    "tp_pips": 75.0,
+    "rr_ratio": 2.88,
+    "archetype": "NY Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 79,
+    "filename": "strategy_79_nzdcad_ny_sweep.py",
+    "class_name": "Strategy_79_nzdcad_ny_sweep",
+    "symbol": "NZDCAD",
+    "sl_pips": 26.0,
+    "tp_pips": 70.0,
+    "rr_ratio": 2.69,
+    "archetype": "NY Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 80,
+    "filename": "strategy_80_nzdcad_ny_sweep.py",
+    "class_name": "Strategy_80_nzdcad_ny_sweep",
+    "symbol": "NZDCAD",
+    "sl_pips": 26.0,
+    "tp_pips": 85.0,
+    "rr_ratio": 3.27,
+    "archetype": "NY Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 81,
+    "filename": "strategy_81_usdjpy_micro_trend_pullback.py",
+    "class_name": "Strategy_81_usdjpy_micro_trend_pullback",
+    "symbol": "USDJPY",
+    "sl_pips": 14.0,
+    "tp_pips": 28.0,
+    "rr_ratio": 2.0,
+    "archetype": "Micro-Trend EMA Pullback (Trend Continuation)"
+  },
+  {
+    "slot": 82,
+    "filename": "strategy_82_usdjpy_micro_trend_breakout.py",
+    "class_name": "Strategy_82_usdjpy_micro_trend_breakout",
+    "symbol": "USDJPY",
+    "sl_pips": 10.0,
+    "tp_pips": 20.0,
+    "rr_ratio": 2.0,
+    "archetype": "Intraday Micro-Trend Breakout (Directional Momentum)"
+  },
+  {
+    "slot": 83,
+    "filename": "strategy_83_usdjpy_micro_trend_breakout.py",
+    "class_name": "Strategy_83_usdjpy_micro_trend_breakout",
+    "symbol": "USDJPY",
+    "sl_pips": 14.0,
+    "tp_pips": 28.0,
+    "rr_ratio": 2.0,
+    "archetype": "Intraday Micro-Trend Breakout (Directional Momentum)"
+  },
+  {
+    "slot": 84,
+    "filename": "strategy_84_usdjpy_micro_trend_breakout.py",
+    "class_name": "Strategy_84_usdjpy_micro_trend_breakout",
+    "symbol": "USDJPY",
+    "sl_pips": 10.0,
+    "tp_pips": 18.0,
+    "rr_ratio": 1.8,
+    "archetype": "Intraday Micro-Trend Breakout (Directional Momentum)"
+  },
+  {
+    "slot": 85,
+    "filename": "strategy_85_usdjpy_micro_trend_breakout.py",
+    "class_name": "Strategy_85_usdjpy_micro_trend_breakout",
+    "symbol": "USDJPY",
+    "sl_pips": 10.0,
+    "tp_pips": 18.0,
+    "rr_ratio": 1.8,
+    "archetype": "Intraday Micro-Trend Breakout (Directional Momentum)"
+  },
+  {
+    "slot": 86,
+    "filename": "strategy_86_usdjpy_micro_trend_breakout.py",
+    "class_name": "Strategy_86_usdjpy_micro_trend_breakout",
+    "symbol": "USDJPY",
+    "sl_pips": 10.0,
+    "tp_pips": 20.0,
+    "rr_ratio": 2.0,
+    "archetype": "Intraday Micro-Trend Breakout (Directional Momentum)"
+  },
+  {
+    "slot": 87,
+    "filename": "strategy_87_eurgbp_london_sweep.py",
+    "class_name": "Strategy_87_eurgbp_london_sweep",
+    "symbol": "EURGBP",
+    "sl_pips": 14.0,
+    "tp_pips": 28.0,
+    "rr_ratio": 2.0,
+    "archetype": "London Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 88,
+    "filename": "strategy_88_eurusd_micro_trend_breakout.py",
+    "class_name": "Strategy_88_eurusd_micro_trend_breakout",
+    "symbol": "EURUSD",
+    "sl_pips": 10.0,
+    "tp_pips": 20.0,
+    "rr_ratio": 2.0,
+    "archetype": "Intraday Micro-Trend Breakout (Directional Momentum)"
+  },
+  {
+    "slot": 89,
+    "filename": "strategy_89_eurgbp_london_sweep.py",
+    "class_name": "Strategy_89_eurgbp_london_sweep",
+    "symbol": "EURGBP",
+    "sl_pips": 15.0,
+    "tp_pips": 30.0,
+    "rr_ratio": 2.0,
+    "archetype": "London Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 90,
+    "filename": "strategy_90_eurgbp_london_sweep.py",
+    "class_name": "Strategy_90_eurgbp_london_sweep",
+    "symbol": "EURGBP",
+    "sl_pips": 12.0,
+    "tp_pips": 24.0,
+    "rr_ratio": 2.0,
+    "archetype": "London Session Sweep (Mean Reversion)"
+  },
+  {
+    "slot": 91,
+    "filename": "strategy_91_usdjpy_donchian_micro_trend.py",
+    "class_name": "Strategy_91_usdjpy_donchian_micro_trend",
+    "symbol": "USDJPY",
+    "sl_pips": 14.0,
+    "tp_pips": 28.0,
+    "rr_ratio": 2.0,
+    "archetype": "Donchian Micro-Trend Channel Breakout"
+  },
+  {
+    "slot": 92,
+    "filename": "strategy_92_usdjpy_micro_trend_breakout.py",
+    "class_name": "Strategy_92_usdjpy_micro_trend_breakout",
+    "symbol": "USDJPY",
+    "sl_pips": 14.0,
+    "tp_pips": 28.0,
+    "rr_ratio": 2.0,
+    "archetype": "Intraday Micro-Trend Breakout (Directional Momentum)"
+  },
+  {
+    "slot": 93,
+    "filename": "strategy_93_gbpjpy_micro_trend_breakout.py",
+    "class_name": "Strategy_93_gbpjpy_micro_trend_breakout",
+    "symbol": "GBPJPY",
+    "sl_pips": 20.0,
+    "tp_pips": 42.0,
+    "rr_ratio": 2.1,
+    "archetype": "Intraday Micro-Trend Breakout (Directional Momentum)"
+  },
+  {
+    "slot": 94,
+    "filename": "strategy_94_usdjpy_micro_trend_breakout.py",
+    "class_name": "Strategy_94_usdjpy_micro_trend_breakout",
+    "symbol": "USDJPY",
+    "sl_pips": 14.0,
+    "tp_pips": 28.0,
+    "rr_ratio": 2.0,
+    "archetype": "Intraday Micro-Trend Breakout (Directional Momentum)"
+  },
+  {
+    "slot": 95,
+    "filename": "strategy_95_usdjpy_micro_trend_breakout.py",
+    "class_name": "Strategy_95_usdjpy_micro_trend_breakout",
+    "symbol": "USDJPY",
+    "sl_pips": 12.0,
+    "tp_pips": 24.0,
+    "rr_ratio": 2.0,
+    "archetype": "Intraday Micro-Trend Breakout (Directional Momentum)"
+  },
+  {
+    "slot": 96,
+    "filename": "strategy_96_gbpjpy_micro_trend_breakout.py",
+    "class_name": "Strategy_96_gbpjpy_micro_trend_breakout",
+    "symbol": "GBPJPY",
+    "sl_pips": 18.0,
+    "tp_pips": 36.0,
+    "rr_ratio": 2.0,
+    "archetype": "Intraday Micro-Trend Breakout (Directional Momentum)"
+  },
+  {
+    "slot": 97,
+    "filename": "strategy_97_usdjpy_micro_trend_breakout.py",
+    "class_name": "Strategy_97_usdjpy_micro_trend_breakout",
+    "symbol": "USDJPY",
+    "sl_pips": 12.0,
+    "tp_pips": 24.0,
+    "rr_ratio": 2.0,
+    "archetype": "Intraday Micro-Trend Breakout (Directional Momentum)"
+  },
+  {
+    "slot": 98,
+    "filename": "strategy_98_usdjpy_micro_trend_breakout.py",
+    "class_name": "Strategy_98_usdjpy_micro_trend_breakout",
+    "symbol": "USDJPY",
+    "sl_pips": 12.0,
+    "tp_pips": 24.0,
+    "rr_ratio": 2.0,
+    "archetype": "Intraday Micro-Trend Breakout (Directional Momentum)"
+  },
+  {
+    "slot": 99,
+    "filename": "strategy_99_usdjpy_micro_trend_breakout.py",
+    "class_name": "Strategy_99_usdjpy_micro_trend_breakout",
+    "symbol": "USDJPY",
+    "sl_pips": 9.0,
+    "tp_pips": 18.0,
+    "rr_ratio": 2.0,
+    "archetype": "Intraday Micro-Trend Breakout (Directional Momentum)"
+  },
+  {
+    "slot": 100,
+    "filename": "strategy_100_usdjpy_micro_trend_breakout.py",
+    "class_name": "Strategy_100_usdjpy_micro_trend_breakout",
+    "symbol": "USDJPY",
+    "sl_pips": 11.0,
+    "tp_pips": 22.0,
+    "rr_ratio": 2.0,
+    "archetype": "Intraday Micro-Trend Breakout (Directional Momentum)"
+  }
+]

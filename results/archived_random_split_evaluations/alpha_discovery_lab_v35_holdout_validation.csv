@@ -1,0 +1,2 @@
+asset,model,discovery_pips,discovery_pf,holdout_trades,holdout_win_rate,holdout_pf,holdout_pips,verdict
+USDJPY,PIVOT_R1_S1_RETEST,177.2,1.3,38,36.8,1.13,40.0,[FAILED HOLDOUT]

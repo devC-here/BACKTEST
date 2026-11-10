@@ -1,0 +1,10 @@
+Asset,Partition,Trades,Win_Rate,Profit_Factor,Net_Pips,Max_DD_Pips,Ret_DD_Ratio,Expectancy_pips
+EURUSD,70% Discovery (In-Sample),44,86.4%,10.63,532.3,9.3,57.24,12.1
+EURUSD,30% Holdout (Out-of-Sample),22,77.3%,5.46,209.9,19.8,10.6,9.54
+EURUSD,100% Full Cycle (5 Years),66,83.3%,8.25,742.2,19.8,37.48,11.25
+EURGBP,70% Discovery (In-Sample),70,54.3%,1.95,247.3,56.5,4.38,3.53
+EURGBP,30% Holdout (Out-of-Sample),33,69.7%,4.45,251.3,32.0,7.85,7.62
+EURGBP,100% Full Cycle (5 Years),103,59.2%,2.5,498.6,27.6,18.07,4.84
+USDJPY,70% Discovery (In-Sample),21,71.4%,4.18,231.4,24.0,9.64,11.02
+USDJPY,30% Holdout (Out-of-Sample),15,73.3%,4.6,173.4,24.1,7.2,11.56
+USDJPY,100% Full Cycle (5 Years),36,72.2%,4.35,404.8,24.1,16.8,11.24

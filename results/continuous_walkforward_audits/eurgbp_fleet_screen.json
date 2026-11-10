@@ -1,0 +1,359 @@
+[
+  {
+    "name": "disc121_session_vwap_fade_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc121_session_vwap_fade_elite\\strategy.py",
+    "holdout": {
+      "trades": 202,
+      "net_pips": -251.7,
+      "pf": 0.0,
+      "wr": 0.0
+    },
+    "discovery": {
+      "trades": 213,
+      "net_pips": -304.4,
+      "pf": 0.0,
+      "wr": 0.0
+    }
+  },
+  {
+    "name": "disc122_fib_golden_pocket_lb36_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc122_fib_golden_pocket_lb36_elite\\strategy.py",
+    "holdout": {
+      "trades": 65,
+      "net_pips": -78.3,
+      "pf": 0.0,
+      "wr": 0.0
+    },
+    "discovery": {
+      "trades": 171,
+      "net_pips": -238.0,
+      "pf": 0.0,
+      "wr": 0.0
+    }
+  },
+  {
+    "name": "disc123_daily_pivot_pullback_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc123_daily_pivot_pullback_elite\\strategy.py",
+    "holdout": {
+      "trades": 113,
+      "net_pips": -137.9,
+      "pf": 0.0,
+      "wr": 0.0
+    },
+    "discovery": {
+      "trades": 179,
+      "net_pips": -246.8,
+      "pf": 0.0,
+      "wr": 0.0
+    }
+  },
+  {
+    "name": "disc125_fib_golden_pocket_lb48_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc125_fib_golden_pocket_lb48_elite\\strategy.py",
+    "holdout": {
+      "trades": 42,
+      "net_pips": -53.1,
+      "pf": 0.0,
+      "wr": 0.0
+    },
+    "discovery": {
+      "trades": 130,
+      "net_pips": -179.8,
+      "pf": 0.0,
+      "wr": 0.0
+    }
+  },
+  {
+    "name": "disc42_macro_structure_h4_m30_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc42_macro_structure_h4_m30_elite\\strategy.py",
+    "holdout": {
+      "trades": 8,
+      "net_pips": 28.2,
+      "pf": 1.92,
+      "wr": 50.0
+    },
+    "discovery": {
+      "trades": 21,
+      "net_pips": 58.3,
+      "pf": 1.55,
+      "wr": 52.4
+    }
+  },
+  {
+    "name": "disc43_intraday_precision_h1_m5_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc43_intraday_precision_h1_m5_elite\\strategy.py",
+    "holdout": {
+      "trades": 33,
+      "net_pips": -11.6,
+      "pf": 0.91,
+      "wr": 39.4
+    },
+    "discovery": {
+      "trades": 70,
+      "net_pips": 5.0,
+      "pf": 1.02,
+      "wr": 41.4
+    }
+  },
+  {
+    "name": "disc45_continuous_m5_rejection_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc45_continuous_m5_rejection_elite\\strategy.py",
+    "holdout": {
+      "trades": 67,
+      "net_pips": 9.6,
+      "pf": 1.04,
+      "wr": 43.3
+    },
+    "discovery": {
+      "trades": 156,
+      "net_pips": -33.0,
+      "pf": 0.94,
+      "wr": 44.2
+    }
+  },
+  {
+    "name": "disc46_daily_pivot_wall_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc46_daily_pivot_wall_elite\\strategy.py",
+    "holdout": {
+      "trades": 30,
+      "net_pips": -35.3,
+      "pf": 0.79,
+      "wr": 36.7
+    },
+    "discovery": {
+      "trades": 48,
+      "net_pips": 141.9,
+      "pf": 1.69,
+      "wr": 54.2
+    }
+  },
+  {
+    "name": "disc47_weekly_pivot_wall_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc47_weekly_pivot_wall_elite\\strategy.py",
+    "holdout": {
+      "trades": 37,
+      "net_pips": -87.2,
+      "pf": 0.7,
+      "wr": 37.8
+    },
+    "discovery": {
+      "trades": 61,
+      "net_pips": -89.8,
+      "pf": 0.82,
+      "wr": 31.1
+    }
+  },
+  {
+    "name": "disc48_camarilla_floor_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc48_camarilla_floor_elite\\strategy.py",
+    "holdout": {
+      "trades": 55,
+      "net_pips": 49.6,
+      "pf": 1.17,
+      "wr": 45.5
+    },
+    "discovery": {
+      "trades": 93,
+      "net_pips": 253.3,
+      "pf": 1.6,
+      "wr": 47.3
+    }
+  },
+  {
+    "name": "disc49_intraday_macro_retest_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc49_intraday_macro_retest_elite\\strategy.py",
+    "holdout": {
+      "trades": 3,
+      "net_pips": -5.6,
+      "pf": 0.71,
+      "wr": 33.3
+    },
+    "discovery": {
+      "trades": 25,
+      "net_pips": 99.6,
+      "pf": 2.08,
+      "wr": 56.0
+    }
+  },
+  {
+    "name": "disc51_macro_asymmetric_runner_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc51_macro_asymmetric_runner_elite\\strategy.py",
+    "holdout": {
+      "trades": 3,
+      "net_pips": 0.1,
+      "pf": 1.01,
+      "wr": 33.3
+    },
+    "discovery": {
+      "trades": 25,
+      "net_pips": 99.8,
+      "pf": 1.85,
+      "wr": 44.0
+    }
+  },
+  {
+    "name": "disc52_fib_golden_pocket_pin_defense_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc52_fib_golden_pocket_pin_defense_elite\\strategy.py",
+    "holdout": {
+      "trades": 17,
+      "net_pips": 11.7,
+      "pf": 1.12,
+      "wr": 41.2
+    },
+    "discovery": {
+      "trades": 60,
+      "net_pips": -73.7,
+      "pf": 0.79,
+      "wr": 30.0
+    }
+  },
+  {
+    "name": "disc56_triple_screen_m15_impulse_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc56_triple_screen_m15_impulse_elite\\strategy.py",
+    "holdout": {
+      "trades": 121,
+      "net_pips": -354.6,
+      "pf": 0.51,
+      "wr": 23.1
+    },
+    "discovery": {
+      "trades": 238,
+      "net_pips": -463.5,
+      "pf": 0.64,
+      "wr": 26.1
+    }
+  },
+  {
+    "name": "disc58_h1_keltner_squeeze_explosion_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc58_h1_keltner_squeeze_explosion_elite\\strategy.py",
+    "holdout": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    },
+    "discovery": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    }
+  },
+  {
+    "name": "disc60_asian_compression_breakout_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc60_asian_compression_breakout_elite\\strategy.py",
+    "holdout": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    },
+    "discovery": {
+      "trades": 0,
+      "net_pips": 0.0,
+      "pf": 0.0,
+      "wr": 0.0
+    }
+  },
+  {
+    "name": "disc65_session_vwap_band_fade_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc65_session_vwap_band_fade_elite\\strategy.py",
+    "holdout": {
+      "trades": 158,
+      "net_pips": -191.4,
+      "pf": 0.81,
+      "wr": 37.3
+    },
+    "discovery": {
+      "trades": 79,
+      "net_pips": 44.0,
+      "pf": 1.11,
+      "wr": 38.0
+    }
+  },
+  {
+    "name": "disc73_donchian_ema_pullback_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc73_donchian_ema_pullback_elite\\strategy.py",
+    "holdout": {
+      "trades": 134,
+      "net_pips": -159.8,
+      "pf": 0.8,
+      "wr": 32.1
+    },
+    "discovery": {
+      "trades": 132,
+      "net_pips": -10.0,
+      "pf": 0.99,
+      "wr": 35.6
+    }
+  },
+  {
+    "name": "disc74_daily_pivot_pullback_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc74_daily_pivot_pullback_elite\\strategy.py",
+    "holdout": {
+      "trades": 55,
+      "net_pips": 45.5,
+      "pf": 1.16,
+      "wr": 43.6
+    },
+    "discovery": {
+      "trades": 65,
+      "net_pips": 14.7,
+      "pf": 1.04,
+      "wr": 35.4
+    }
+  },
+  {
+    "name": "disc76_vwap_1sd_rebound_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc76_vwap_1sd_rebound_elite\\strategy.py",
+    "holdout": {
+      "trades": 75,
+      "net_pips": -84.4,
+      "pf": 0.82,
+      "wr": 37.3
+    },
+    "discovery": {
+      "trades": 36,
+      "net_pips": 49.4,
+      "pf": 1.28,
+      "wr": 41.7
+    }
+  },
+  {
+    "name": "disc81_bb_squeeze_m5_ignition_elite",
+    "symbol": "EURGBP",
+    "path": "archive_deprecated\\strategies\\eurgbp_fleet\\disc81_bb_squeeze_m5_ignition_elite\\strategy.py",
+    "holdout": {
+      "trades": 73,
+      "net_pips": -241.7,
+      "pf": 0.52,
+      "wr": 21.9
+    },
+    "discovery": {
+      "trades": 27,
+      "net_pips": 65.6,
+      "pf": 1.47,
+      "wr": 48.1
+    }
+  }
+]

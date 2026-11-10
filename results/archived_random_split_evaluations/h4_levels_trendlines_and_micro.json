@@ -1,0 +1,13 @@
+{
+  "pdh_sweep_pct": 47.107438016528924,
+  "pdh_bo_pct": 52.892561983471076,
+  "pdl_sweep_pct": 58.03108808290155,
+  "pdl_bo_pct": 41.968911917098445,
+  "t3_bounce_pct": 18.96551724137931,
+  "t3_mfe": 37.99482758620684,
+  "t3_mae": 30.087931034483,
+  "trendline_retest_pct": 28.205128205128204,
+  "standalone_fvg_wr": 42.534908700322234,
+  "confluent_fvg_wr": 45.51282051282051,
+  "confluence_win_rate_lift": 2.9779118124982773
+}

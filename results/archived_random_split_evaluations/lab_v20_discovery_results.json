@@ -1,0 +1,134 @@
+[
+  {
+    "asset": "EURUSD",
+    "model": "DELTA_ABSORPTION_FADE",
+    "trades": 33,
+    "win_rate": 36.4,
+    "pf": 0.86,
+    "net_pips": -26.3,
+    "max_dd": 94.5,
+    "ret_dd": -0.28,
+    "expectancy": -0.8
+  },
+  {
+    "asset": "EURUSD",
+    "model": "MONDAY_GAP_FADE",
+    "trades": 177,
+    "win_rate": 36.7,
+    "pf": 0.85,
+    "net_pips": -153.4,
+    "max_dd": 229.1,
+    "ret_dd": -0.67,
+    "expectancy": -0.87
+  },
+  {
+    "asset": "EURUSD",
+    "model": "LONDON_FIX_SURGE",
+    "trades": 289,
+    "win_rate": 35.3,
+    "pf": 1.02,
+    "net_pips": 27.0,
+    "max_dd": 231.1,
+    "ret_dd": 0.12,
+    "expectancy": 0.09
+  },
+  {
+    "asset": "EURUSD",
+    "model": "DONCHIAN_EMA_PULLBACK",
+    "trades": 765,
+    "win_rate": 36.3,
+    "pf": 1.14,
+    "net_pips": 626.8,
+    "max_dd": 214.4,
+    "ret_dd": 2.92,
+    "expectancy": 0.82
+  },
+  {
+    "asset": "USDJPY",
+    "model": "DELTA_ABSORPTION_FADE",
+    "trades": 36,
+    "win_rate": 44.4,
+    "pf": 1.21,
+    "net_pips": 50.0,
+    "max_dd": 66.2,
+    "ret_dd": 0.76,
+    "expectancy": 1.39
+  },
+  {
+    "asset": "USDJPY",
+    "model": "MONDAY_GAP_FADE",
+    "trades": 201,
+    "win_rate": 39.8,
+    "pf": 0.99,
+    "net_pips": -19.5,
+    "max_dd": 140.0,
+    "ret_dd": -0.14,
+    "expectancy": -0.1
+  },
+  {
+    "asset": "USDJPY",
+    "model": "LONDON_FIX_SURGE",
+    "trades": 306,
+    "win_rate": 33.3,
+    "pf": 0.93,
+    "net_pips": -160.8,
+    "max_dd": 354.5,
+    "ret_dd": -0.45,
+    "expectancy": -0.53
+  },
+  {
+    "asset": "USDJPY",
+    "model": "DONCHIAN_EMA_PULLBACK",
+    "trades": 843,
+    "win_rate": 37.0,
+    "pf": 1.16,
+    "net_pips": 1059.6,
+    "max_dd": 674.7,
+    "ret_dd": 1.57,
+    "expectancy": 1.26
+  },
+  {
+    "asset": "EURGBP",
+    "model": "DELTA_ABSORPTION_FADE",
+    "trades": 21,
+    "win_rate": 42.9,
+    "pf": 1.13,
+    "net_pips": 11.9,
+    "max_dd": 23.0,
+    "ret_dd": 0.52,
+    "expectancy": 0.57
+  },
+  {
+    "asset": "EURGBP",
+    "model": "MONDAY_GAP_FADE",
+    "trades": 92,
+    "win_rate": 37.0,
+    "pf": 0.82,
+    "net_pips": -89.2,
+    "max_dd": 131.3,
+    "ret_dd": -0.68,
+    "expectancy": -0.97
+  },
+  {
+    "asset": "EURGBP",
+    "model": "LONDON_FIX_SURGE",
+    "trades": 144,
+    "win_rate": 27.8,
+    "pf": 0.69,
+    "net_pips": -288.6,
+    "max_dd": 475.3,
+    "ret_dd": -0.61,
+    "expectancy": -2.0
+  },
+  {
+    "asset": "EURGBP",
+    "model": "DONCHIAN_EMA_PULLBACK",
+    "trades": 466,
+    "win_rate": 35.6,
+    "pf": 1.01,
+    "net_pips": 23.1,
+    "max_dd": 261.0,
+    "ret_dd": 0.09,
+    "expectancy": 0.05
+  }
+]

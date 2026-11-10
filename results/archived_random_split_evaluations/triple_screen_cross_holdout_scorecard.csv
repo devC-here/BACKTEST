@@ -1,0 +1,14 @@
+Asset,Partition,Trades,Win_Rate,Profit_Factor,Net_Pips,Max_DD_Pips,Ret_DD_Ratio,Expectancy_pips
+EURUSD,70% Discovery (In-Sample),878,46.7%,1.76,3225.9,118.5,27.22,3.67
+EURUSD,30% Holdout (Out-of-Sample),383,40.7%,1.36,751.0,109.1,6.88,1.96
+EURUSD,100% Full Cycle (5 Years),1261,44.9%,1.63,3976.9,127.7,31.14,3.15
+EURGBP,70% Discovery (In-Sample),776,38.5%,1.2,675.1,134.4,5.02,0.87
+EURGBP,30% Holdout (Out-of-Sample),361,39.6%,1.25,395.1,127.9,3.09,1.09
+EURGBP,100% Full Cycle (5 Years),1137,38.9%,1.22,1070.2,140.5,7.62,0.94
+USDJPY,70% Discovery (In-Sample),953,48.4%,1.84,5042.1,144.3,34.94,5.29
+USDJPY,30% Holdout (Out-of-Sample),409,45.0%,1.62,1701.4,146.0,11.65,4.16
+USDJPY,100% Full Cycle (5 Years),1362,47.4%,1.77,6743.5,162.5,41.5,4.95
+AUDNZD,100% Full Cycle (1 Year),238,30.7%,0.75,-455.5,564.6,-0.81,-1.91
+MAJORS (EU+UJ),30% Quarantined Holdout Total,792,42.9%,1.51,2452.4,146.0,16.8,3.1
+MAJORS (EU+UJ),5-Year Full Cycle Total,2623,46.2%,1.71,10720.4,162.5,65.97,4.09
+3-PAIR GLOBAL,5-Year Full Cycle Total,3760,44.0%,1.59,11790.6,162.5,72.56,3.14

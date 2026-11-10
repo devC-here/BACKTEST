@@ -1,0 +1,110 @@
+{
+  "EURUSD_ADX_DI_CROSS_PULLBACK": {
+    "trades": 518,
+    "win_rate": 35.3,
+    "pf": 1.08,
+    "net_pips": 251.2,
+    "max_dd": 268.6,
+    "ret_dd": 0.94,
+    "expectancy": 0.48
+  },
+  "EURUSD_LONDON_OPEN_15M_EXPANSION": {
+    "trades": 330,
+    "win_rate": 40.6,
+    "pf": 1.36,
+    "net_pips": 639.1,
+    "max_dd": 136.2,
+    "ret_dd": 4.69,
+    "expectancy": 1.94
+  },
+  "EURUSD_BB_SQUEEZE_M5_IGNITION": {
+    "trades": 217,
+    "win_rate": 34.6,
+    "pf": 1.05,
+    "net_pips": 58.7,
+    "max_dd": 141.5,
+    "ret_dd": 0.41,
+    "expectancy": 0.27
+  },
+  "EURUSD_DOUBLE_SWING_NECKLINE_RETEST": {
+    "trades": 371,
+    "win_rate": 41.5,
+    "pf": 1.4,
+    "net_pips": 803.8,
+    "max_dd": 100.0,
+    "ret_dd": 8.04,
+    "expectancy": 2.17
+  },
+  "USDJPY_ADX_DI_CROSS_PULLBACK": {
+    "trades": 491,
+    "win_rate": 38.5,
+    "pf": 1.22,
+    "net_pips": 803.9,
+    "max_dd": 383.5,
+    "ret_dd": 2.1,
+    "expectancy": 1.64
+  },
+  "USDJPY_LONDON_OPEN_15M_EXPANSION": {
+    "trades": 309,
+    "win_rate": 40.1,
+    "pf": 1.31,
+    "net_pips": 700.7,
+    "max_dd": 152.3,
+    "ret_dd": 4.6,
+    "expectancy": 2.27
+  },
+  "USDJPY_BB_SQUEEZE_M5_IGNITION": {
+    "trades": 394,
+    "win_rate": 39.3,
+    "pf": 1.26,
+    "net_pips": 761.1,
+    "max_dd": 416.8,
+    "ret_dd": 1.83,
+    "expectancy": 1.93
+  },
+  "USDJPY_DOUBLE_SWING_NECKLINE_RETEST": {
+    "trades": 362,
+    "win_rate": 35.6,
+    "pf": 1.08,
+    "net_pips": 221.7,
+    "max_dd": 397.0,
+    "ret_dd": 0.56,
+    "expectancy": 0.61
+  },
+  "EURGBP_ADX_DI_CROSS_PULLBACK": {
+    "trades": 321,
+    "win_rate": 24.6,
+    "pf": 0.63,
+    "net_pips": -716.3,
+    "max_dd": 771.0,
+    "ret_dd": -0.93,
+    "expectancy": -2.23
+  },
+  "EURGBP_LONDON_OPEN_15M_EXPANSION": {
+    "trades": 175,
+    "win_rate": 30.9,
+    "pf": 0.81,
+    "net_pips": -184.0,
+    "max_dd": 296.2,
+    "ret_dd": -0.62,
+    "expectancy": -1.05
+  },
+  "EURGBP_BB_SQUEEZE_M5_IGNITION": {
+    "trades": 112,
+    "win_rate": 34.8,
+    "pf": 0.96,
+    "net_pips": -25.6,
+    "max_dd": 174.4,
+    "ret_dd": -0.15,
+    "expectancy": -0.23
+  },
+  "EURGBP_DOUBLE_SWING_NECKLINE_RETEST": {
+    "trades": 237,
+    "win_rate": 28.7,
+    "pf": 0.72,
+    "net_pips": -397.1,
+    "max_dd": 453.7,
+    "ret_dd": -0.88,
+    "expectancy": -1.68
+  }
+}

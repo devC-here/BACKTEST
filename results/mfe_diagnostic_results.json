@@ -1,0 +1,53 @@
+{
+  "EURUSD": {
+    "total_trades": 79,
+    "winners": 36,
+    "losers": 43,
+    "win_rate": 45.6,
+    "losers_reached_05r_pct": 46.5,
+    "losers_reached_10r_pct": 16.3,
+    "losers_reached_15r_pct": 4.7,
+    "baseline_pnl": 193.8,
+    "baseline_pf": 1.43,
+    "v1_partial_pnl": -160.2,
+    "v1_partial_pf": 0.58,
+    "v2_be_pnl": -355.1,
+    "v2_be_pf": 0.08,
+    "v3_trail_pnl": 133.4,
+    "v3_trail_pf": 1.35
+  },
+  "USDJPY": {
+    "total_trades": 57,
+    "winners": 24,
+    "losers": 33,
+    "win_rate": 42.1,
+    "losers_reached_05r_pct": 39.4,
+    "losers_reached_10r_pct": 18.2,
+    "losers_reached_15r_pct": 9.1,
+    "baseline_pnl": 156.5,
+    "baseline_pf": 1.4,
+    "v1_partial_pnl": -156.5,
+    "v1_partial_pf": 0.51,
+    "v2_be_pnl": -342.7,
+    "v2_be_pf": 0.03,
+    "v3_trail_pnl": 150.6,
+    "v3_trail_pf": 1.47
+  },
+  "GBPCHF": {
+    "total_trades": 70,
+    "winners": 22,
+    "losers": 48,
+    "win_rate": 31.4,
+    "losers_reached_05r_pct": 35.4,
+    "losers_reached_10r_pct": 20.8,
+    "losers_reached_15r_pct": 10.4,
+    "baseline_pnl": 35.5,
+    "baseline_pf": 1.05,
+    "v1_partial_pnl": -343.1,
+    "v1_partial_pf": 0.42,
+    "v2_be_pnl": -615.1,
+    "v2_be_pf": 0.03,
+    "v3_trail_pnl": 155.1,
+    "v3_trail_pf": 1.26
+  }
+}

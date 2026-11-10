@@ -1,0 +1,33 @@
+{
+  "strategy": "S14_InsideBar_M30",
+  "best_params": {
+    "ema_fast": 50,
+    "ema_trend": 250,
+    "target_rr": 3.4,
+    "sl_buffer_pips": 1.0,
+    "min_risk_pips": 6.0,
+    "max_risk_pips": 16.0,
+    "session": "full_day"
+  },
+  "train": {
+    "trades": 113,
+    "pf": 1.8,
+    "rr": 3.42,
+    "net_pips": 687.3,
+    "max_dd": 144.6
+  },
+  "test": {
+    "trades": 69,
+    "pf": 1.18,
+    "rr": 3.35,
+    "net_pips": 114.1,
+    "max_dd": 352.1
+  },
+  "total_5y": {
+    "trades": 182,
+    "pf": 1.54,
+    "rr": 3.38,
+    "net_pips": 801.4,
+    "max_dd": 386.9
+  }
+}

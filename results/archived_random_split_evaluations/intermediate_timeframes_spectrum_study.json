@@ -1,0 +1,224 @@
+{
+  "order_blocks_spectrum": [
+    {
+      "timeframe": "H4",
+      "total_obs": 97,
+      "avg_size_pips": 20.665979381443353,
+      "retest_rate": 71.1340206185567,
+      "bounce_rate": 17.391304347826086,
+      "avg_mfe": 79.48260869565219,
+      "avg_mae": 59.91159420289865,
+      "asymmetry": 1.3266648927163192
+    },
+    {
+      "timeframe": "H2",
+      "total_obs": 187,
+      "avg_size_pips": 16.527005347593597,
+      "retest_rate": 70.05347593582889,
+      "bounce_rate": 16.793893129770993,
+      "avg_mfe": 53.087404580152835,
+      "avg_mae": 46.50305343511468,
+      "asymmetry": 1.1415896518327608
+    },
+    {
+      "timeframe": "H1",
+      "total_obs": 349,
+      "avg_size_pips": 12.828080229226414,
+      "retest_rate": 69.34097421203438,
+      "bounce_rate": 19.834710743801654,
+      "avg_mfe": 38.256611570247955,
+      "avg_mae": 35.00206611570263,
+      "asymmetry": 1.0929815241130942
+    },
+    {
+      "timeframe": "M30",
+      "total_obs": 628,
+      "avg_size_pips": 9.000477707006318,
+      "retest_rate": 67.99363057324841,
+      "bounce_rate": 17.56440281030445,
+      "avg_mfe": 29.772482435597254,
+      "avg_mae": 28.74379391100705,
+      "asymmetry": 1.035788195802374
+    },
+    {
+      "timeframe": "M15",
+      "total_obs": 1141,
+      "avg_size_pips": 6.216389132340102,
+      "retest_rate": 67.48466257668711,
+      "bounce_rate": 18.181818181818183,
+      "avg_mfe": 19.970844155844215,
+      "avg_mae": 19.783246753246743,
+      "asymmetry": 1.0094826397778558
+    }
+  ],
+  "trendlines_spectrum": [
+    {
+      "timeframe": "H4",
+      "touch3_count": 36,
+      "touch3_bounce_rate": 30.555555555555557,
+      "avg_mfe": 76.4687620065582,
+      "avg_mae": 43.9770713267757,
+      "asymmetry": 1.7388325256666133,
+      "breakout_count": 45,
+      "breakout_retest_rate": 73.33333333333333
+    },
+    {
+      "timeframe": "H2",
+      "touch3_count": 73,
+      "touch3_bounce_rate": 36.986301369863014,
+      "avg_mfe": 53.68683607309505,
+      "avg_mae": 32.500835159781815,
+      "asymmetry": 1.6518602001812517,
+      "breakout_count": 67,
+      "breakout_retest_rate": 64.17910447761194
+    },
+    {
+      "timeframe": "H1",
+      "touch3_count": 169,
+      "touch3_bounce_rate": 47.337278106508876,
+      "avg_mfe": 43.99381701454521,
+      "avg_mae": 20.765946299064492,
+      "asymmetry": 2.118555850090354,
+      "breakout_count": 103,
+      "breakout_retest_rate": 65.0485436893204
+    },
+    {
+      "timeframe": "M30",
+      "touch3_count": 407,
+      "touch3_bounce_rate": 58.23095823095823,
+      "avg_mfe": 26.092337399431095,
+      "avg_mae": 13.070807563713934,
+      "asymmetry": 1.9962299400586714,
+      "breakout_count": 145,
+      "breakout_retest_rate": 50.3448275862069
+    },
+    {
+      "timeframe": "M15",
+      "touch3_count": 952,
+      "touch3_bounce_rate": 57.773109243697476,
+      "avg_mfe": 18.365180528114887,
+      "avg_mae": 9.028989639952382,
+      "asymmetry": 2.034023878690788,
+      "breakout_count": 168,
+      "breakout_retest_rate": 45.23809523809524
+    }
+  ],
+  "swing_breaks_spectrum": [
+    {
+      "timeframe": "H4",
+      "total_swings": 317,
+      "sweeps": 158,
+      "sweep_rate": 49.8422712933754,
+      "breakouts": 159,
+      "breakout_rate": 50.1577287066246
+    },
+    {
+      "timeframe": "H2",
+      "total_swings": 626,
+      "sweeps": 291,
+      "sweep_rate": 46.48562300319489,
+      "breakouts": 335,
+      "breakout_rate": 53.51437699680511
+    },
+    {
+      "timeframe": "H1",
+      "total_swings": 1240,
+      "sweeps": 583,
+      "sweep_rate": 47.016129032258064,
+      "breakouts": 657,
+      "breakout_rate": 52.98387096774193
+    },
+    {
+      "timeframe": "M30",
+      "total_swings": 2748,
+      "sweeps": 1337,
+      "sweep_rate": 48.653566229985444,
+      "breakouts": 1411,
+      "breakout_rate": 51.346433770014556
+    },
+    {
+      "timeframe": "M15",
+      "total_swings": 5434,
+      "sweeps": 2593,
+      "sweep_rate": 47.71807140228193,
+      "breakouts": 2841,
+      "breakout_rate": 52.28192859771808
+    },
+    {
+      "timeframe": "M5",
+      "total_swings": 15934,
+      "sweeps": 7342,
+      "sweep_rate": 46.07756997615163,
+      "breakouts": 8592,
+      "breakout_rate": 53.92243002384838
+    }
+  ],
+  "laddering_pairs": [
+    {
+      "htf_name": "H4",
+      "ltf_name": "H1",
+      "total_trades": 87,
+      "win_rate": 43.67816091954023,
+      "r_mult": 1.5,
+      "expectancy_r": 0.09195402298850575,
+      "avg_mfe": 49.135057471264474,
+      "avg_mae": 54.54540229885072,
+      "asymmetry": 0.9008102498182465
+    },
+    {
+      "htf_name": "H4",
+      "ltf_name": "M30",
+      "total_trades": 138,
+      "win_rate": 52.89855072463768,
+      "r_mult": 1.5,
+      "expectancy_r": 0.32246376811594196,
+      "avg_mfe": 39.860507246377075,
+      "avg_mae": 20.803985507246285,
+      "asymmetry": 1.9160034135042618
+    },
+    {
+      "htf_name": "H2",
+      "ltf_name": "M30",
+      "total_trades": 220,
+      "win_rate": 42.72727272727273,
+      "r_mult": 1.5555555555555556,
+      "expectancy_r": 0.09191919191919184,
+      "avg_mfe": 34.03409090909107,
+      "avg_mae": 27.516136363636345,
+      "asymmetry": 1.2368775346697458
+    },
+    {
+      "htf_name": "H2",
+      "ltf_name": "M15",
+      "total_trades": 349,
+      "win_rate": 50.57803468208093,
+      "r_mult": 1.5714285714285714,
+      "expectancy_r": 0.300578034682081,
+      "avg_mfe": 29.19455587392558,
+      "avg_mae": 26.272492836676307,
+      "asymmetry": 1.1112213848687431
+    },
+    {
+      "htf_name": "H1",
+      "ltf_name": "M15",
+      "total_trades": 515,
+      "win_rate": 42.49512670565302,
+      "r_mult": 1.5,
+      "expectancy_r": 0.06237816764132542,
+      "avg_mfe": 26.100485436893297,
+      "avg_mae": 30.22592233009718,
+      "asymmetry": 0.8635132834607989
+    },
+    {
+      "htf_name": "H1",
+      "ltf_name": "M5",
+      "total_trades": 954,
+      "win_rate": 52.27995758218452,
+      "r_mult": 1.6,
+      "expectancy_r": 0.3592788971367976,
+      "avg_mfe": 18.61436058700215,
+      "avg_mae": 13.35199161425579,
+      "asymmetry": 1.3941261442321295
+    }
+  ]
+}

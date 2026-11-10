@@ -1,0 +1,262 @@
+{
+  "asset": "AUDNZD",
+  "partition": "discovery_70",
+  "total_weeks": 210,
+  "years_equivalent": 4.04,
+  "timestamp_utc": "2026-10-29 14:01:19 UTC",
+  "scorecard": [
+    {
+      "model": "MacroRetest_AsianLondon_SL12_TP20",
+      "trades": 69,
+      "win_rate": 47.8,
+      "profit_factor": 1.41,
+      "net_pips": 187.4,
+      "annual_pips": 46.4,
+      "max_dd_pips": 76.8,
+      "return_to_dd": 2.44,
+      "expectancy_pips": 2.72
+    },
+    {
+      "model": "MacroRetest_24h_SL12_TP20",
+      "trades": 72,
+      "win_rate": 47.2,
+      "profit_factor": 1.39,
+      "net_pips": 183.5,
+      "annual_pips": 45.4,
+      "max_dd_pips": 70.9,
+      "return_to_dd": 2.59,
+      "expectancy_pips": 2.55
+    },
+    {
+      "model": "MacroRetest_AsianLondon_SL10_TP18",
+      "trades": 69,
+      "win_rate": 44.9,
+      "profit_factor": 1.38,
+      "net_pips": 156.0,
+      "annual_pips": 38.6,
+      "max_dd_pips": 60.5,
+      "return_to_dd": 2.58,
+      "expectancy_pips": 2.26
+    },
+    {
+      "model": "MacroRetest_AsianOnly_SL12_TP20",
+      "trades": 43,
+      "win_rate": 46.5,
+      "profit_factor": 1.44,
+      "net_pips": 122.6,
+      "annual_pips": 30.4,
+      "max_dd_pips": 85.0,
+      "return_to_dd": 1.44,
+      "expectancy_pips": 2.85
+    },
+    {
+      "model": "MacroRunner_AsianLondon_SL10_TP25",
+      "trades": 69,
+      "win_rate": 34.8,
+      "profit_factor": 1.2,
+      "net_pips": 99.7,
+      "annual_pips": 24.7,
+      "max_dd_pips": 73.0,
+      "return_to_dd": 1.37,
+      "expectancy_pips": 1.44
+    },
+    {
+      "model": "MacroRetest_AsianLondon_SL14_TP28",
+      "trades": 93,
+      "win_rate": 38.7,
+      "profit_factor": 1.04,
+      "net_pips": 35.4,
+      "annual_pips": 8.8,
+      "max_dd_pips": 182.5,
+      "return_to_dd": 0.19,
+      "expectancy_pips": 0.38
+    },
+    {
+      "model": "MacroRetest_AsianLondon_SL12_TP24",
+      "trades": 69,
+      "win_rate": 36.2,
+      "profit_factor": 1.03,
+      "net_pips": 14.4,
+      "annual_pips": 3.6,
+      "max_dd_pips": 82.0,
+      "return_to_dd": 0.18,
+      "expectancy_pips": 0.21
+    },
+    {
+      "model": "MacroRunner_24h_SL12_TP30",
+      "trades": 71,
+      "win_rate": 32.4,
+      "profit_factor": 1.02,
+      "net_pips": 10.1,
+      "annual_pips": 2.5,
+      "max_dd_pips": 88.9,
+      "return_to_dd": 0.11,
+      "expectancy_pips": 0.14
+    },
+    {
+      "model": "MacroRunner_AsianLondon_SL12_TP30",
+      "trades": 68,
+      "win_rate": 32.4,
+      "profit_factor": 1.01,
+      "net_pips": 4.1,
+      "annual_pips": 1.0,
+      "max_dd_pips": 111.0,
+      "return_to_dd": 0.04,
+      "expectancy_pips": 0.06
+    },
+    {
+      "model": "MacroRunner_AsianLondon_SL12_TP36",
+      "trades": 68,
+      "win_rate": 29.4,
+      "profit_factor": 0.99,
+      "net_pips": -4.3,
+      "annual_pips": -1.1,
+      "max_dd_pips": 129.3,
+      "return_to_dd": -0.03,
+      "expectancy_pips": -0.06
+    },
+    {
+      "model": "MacroRunner_AsianOnly_SL12_TP30",
+      "trades": 43,
+      "win_rate": 27.9,
+      "profit_factor": 0.95,
+      "net_pips": -17.5,
+      "annual_pips": -4.3,
+      "max_dd_pips": 128.1,
+      "return_to_dd": -0.14,
+      "expectancy_pips": -0.41
+    },
+    {
+      "model": "MacroRunner_AsianLondon_SL14_TP35",
+      "trades": 93,
+      "win_rate": 35.5,
+      "profit_factor": 0.98,
+      "net_pips": -21.0,
+      "annual_pips": -5.2,
+      "max_dd_pips": 230.0,
+      "return_to_dd": -0.09,
+      "expectancy_pips": -0.23
+    },
+    {
+      "model": "BollingerRSI_SL10_TP18",
+      "trades": 150,
+      "win_rate": 34.0,
+      "profit_factor": 0.83,
+      "net_pips": -177.9,
+      "annual_pips": -44.1,
+      "max_dd_pips": 358.2,
+      "return_to_dd": -0.5,
+      "expectancy_pips": -1.19
+    },
+    {
+      "model": "BollingerRSI_SL12_TP22",
+      "trades": 150,
+      "win_rate": 30.0,
+      "profit_factor": 0.67,
+      "net_pips": -431.2,
+      "annual_pips": -106.8,
+      "max_dd_pips": 591.5,
+      "return_to_dd": -0.73,
+      "expectancy_pips": -2.87
+    },
+    {
+      "model": "BollingerRSI_SL14_TP28",
+      "trades": 149,
+      "win_rate": 28.9,
+      "profit_factor": 0.64,
+      "net_pips": -558.3,
+      "annual_pips": -138.2,
+      "max_dd_pips": 724.7,
+      "return_to_dd": -0.77,
+      "expectancy_pips": -3.75
+    },
+    {
+      "model": "SydneyBreakout_SL12_TP22",
+      "trades": 520,
+      "win_rate": 32.3,
+      "profit_factor": 0.82,
+      "net_pips": -817.7,
+      "annual_pips": -202.5,
+      "max_dd_pips": 1104.5,
+      "return_to_dd": -0.74,
+      "expectancy_pips": -1.57
+    },
+    {
+      "model": "SydneyBreakout_SL14_TP28",
+      "trades": 514,
+      "win_rate": 30.2,
+      "profit_factor": 0.75,
+      "net_pips": -1320.2,
+      "annual_pips": -326.9,
+      "max_dd_pips": 1573.4,
+      "return_to_dd": -0.84,
+      "expectancy_pips": -2.57
+    },
+    {
+      "model": "H1EMA_Dev30_SL14_TP26",
+      "trades": 338,
+      "win_rate": 25.1,
+      "profit_factor": 0.59,
+      "net_pips": -1497.3,
+      "annual_pips": -370.8,
+      "max_dd_pips": 1532.1,
+      "return_to_dd": -0.98,
+      "expectancy_pips": -4.43
+    },
+    {
+      "model": "H1EMA_Dev25_SL12_TP22",
+      "trades": 463,
+      "win_rate": 24.8,
+      "profit_factor": 0.57,
+      "net_pips": -1863.8,
+      "annual_pips": -461.5,
+      "max_dd_pips": 1927.4,
+      "return_to_dd": -0.97,
+      "expectancy_pips": -4.03
+    },
+    {
+      "model": "H1EMA_Dev20_SL12_TP20",
+      "trades": 604,
+      "win_rate": 26.0,
+      "profit_factor": 0.54,
+      "net_pips": -2601.9,
+      "annual_pips": -644.3,
+      "max_dd_pips": 2670.2,
+      "return_to_dd": -0.97,
+      "expectancy_pips": -4.31
+    },
+    {
+      "model": "DailyPivot_SL12_TP24",
+      "trades": 735,
+      "win_rate": 22.7,
+      "profit_factor": 0.51,
+      "net_pips": -3499.7,
+      "annual_pips": -866.6,
+      "max_dd_pips": 3523.9,
+      "return_to_dd": -0.99,
+      "expectancy_pips": -4.76
+    },
+    {
+      "model": "DailyPivot_SL14_TP28",
+      "trades": 739,
+      "win_rate": 24.4,
+      "profit_factor": 0.52,
+      "net_pips": -3953.1,
+      "annual_pips": -978.9,
+      "max_dd_pips": 4023.1,
+      "return_to_dd": -0.98,
+      "expectancy_pips": -5.35
+    },
+    {
+      "model": "DailyPivot_SL16_TP32",
+      "trades": 779,
+      "win_rate": 26.3,
+      "profit_factor": 0.54,
+      "net_pips": -4366.8,
+      "annual_pips": -1081.3,
+      "max_dd_pips": 4454.0,
+      "return_to_dd": -0.98,
+      "expectancy_pips": -5.61
+    }
+  ]
+}

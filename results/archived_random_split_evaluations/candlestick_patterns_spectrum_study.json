@@ -1,0 +1,314 @@
+{
+  "H4": {
+    "Pin_Bar": {
+      "total_occurrences": 124,
+      "win_rate_naive": 37.903225806451616,
+      "total_trend_aligned": 64,
+      "win_rate_trend": 35.9375,
+      "expectancy_trend": -0.1015625,
+      "asymmetry": 1.1431650907918771,
+      "avg_mfe": 68.64153225806477,
+      "avg_mae": 60.0451612903228
+    },
+    "Engulfing": {
+      "total_occurrences": 167,
+      "win_rate_naive": 28.143712574850298,
+      "total_trend_aligned": 89,
+      "win_rate_trend": 24.719101123595504,
+      "expectancy_trend": -0.3820224719101123,
+      "asymmetry": 0.9215985243819927,
+      "avg_mfe": 59.538023952095905,
+      "avg_mae": 64.60299401197612
+    },
+    "Inside_Bar": {
+      "total_occurrences": 68,
+      "win_rate_naive": 42.64705882352941,
+      "total_trend_aligned": 29,
+      "win_rate_trend": 34.48275862068966,
+      "expectancy_trend": -0.13793103448275867,
+      "asymmetry": 1.097596626171132,
+      "avg_mfe": 67.36176470588241,
+      "avg_mae": 61.372058823529656
+    },
+    "Morning_Evening_Star": {
+      "total_occurrences": 68,
+      "win_rate_naive": 27.941176470588236,
+      "total_trend_aligned": 40,
+      "win_rate_trend": 27.500000000000004,
+      "expectancy_trend": -0.31249999999999994,
+      "asymmetry": 0.932510629733057,
+      "avg_mfe": 54.50661764705865,
+      "avg_mae": 58.451470588235395
+    },
+    "Three_Momentum_Bars": {
+      "total_occurrences": 241,
+      "win_rate_naive": 24.066390041493776,
+      "total_trend_aligned": 177,
+      "win_rate_trend": 22.033898305084744,
+      "expectancy_trend": -0.44915254237288144,
+      "asymmetry": 1.047621844413663,
+      "avg_mfe": 62.91099585062266,
+      "avg_mae": 60.05124481327796
+    }
+  },
+  "H2": {
+    "Pin_Bar": {
+      "total_occurrences": 210,
+      "win_rate_naive": 31.428571428571427,
+      "total_trend_aligned": 112,
+      "win_rate_trend": 26.785714285714285,
+      "expectancy_trend": -0.3303571428571429,
+      "asymmetry": 0.8915118005161907,
+      "avg_mfe": 41.03904761904766,
+      "avg_mae": 46.033095238095335
+    },
+    "Engulfing": {
+      "total_occurrences": 304,
+      "win_rate_naive": 35.19736842105263,
+      "total_trend_aligned": 175,
+      "win_rate_trend": 34.85714285714286,
+      "expectancy_trend": -0.12857142857142845,
+      "asymmetry": 0.9399375356140778,
+      "avg_mfe": 42.86578947368438,
+      "avg_mae": 45.60493421052645
+    },
+    "Inside_Bar": {
+      "total_occurrences": 113,
+      "win_rate_naive": 35.39823008849557,
+      "total_trend_aligned": 57,
+      "win_rate_trend": 31.57894736842105,
+      "expectancy_trend": -0.21052631578947373,
+      "asymmetry": 0.9709083538235078,
+      "avg_mfe": 48.74690265486718,
+      "avg_mae": 50.2075221238939
+    },
+    "Morning_Evening_Star": {
+      "total_occurrences": 115,
+      "win_rate_naive": 31.30434782608696,
+      "total_trend_aligned": 62,
+      "win_rate_trend": 24.193548387096776,
+      "expectancy_trend": -0.39516129032258074,
+      "asymmetry": 0.9399996128382869,
+      "avg_mfe": 42.22478260869581,
+      "avg_mae": 44.91999999999996
+    },
+    "Three_Momentum_Bars": {
+      "total_occurrences": 484,
+      "win_rate_naive": 26.033057851239672,
+      "total_trend_aligned": 354,
+      "win_rate_trend": 20.903954802259886,
+      "expectancy_trend": -0.47740112994350276,
+      "asymmetry": 0.9326503697531995,
+      "avg_mfe": 41.86126033057857,
+      "avg_mae": 44.884194214876054
+    }
+  },
+  "H1": {
+    "Pin_Bar": {
+      "total_occurrences": 354,
+      "win_rate_naive": 32.48587570621469,
+      "total_trend_aligned": 202,
+      "win_rate_trend": 33.16831683168317,
+      "expectancy_trend": -0.17079207920792072,
+      "asymmetry": 0.9089890674049089,
+      "avg_mfe": 31.8604519774012,
+      "avg_mae": 35.05042372881364
+    },
+    "Engulfing": {
+      "total_occurrences": 540,
+      "win_rate_naive": 32.77777777777778,
+      "total_trend_aligned": 326,
+      "win_rate_trend": 30.981595092024538,
+      "expectancy_trend": -0.22546012269938653,
+      "asymmetry": 0.950291040043486,
+      "avg_mfe": 31.079444444444515,
+      "avg_mae": 32.705185185185265
+    },
+    "Inside_Bar": {
+      "total_occurrences": 177,
+      "win_rate_naive": 20.903954802259886,
+      "total_trend_aligned": 92,
+      "win_rate_trend": 21.73913043478261,
+      "expectancy_trend": -0.4565217391304348,
+      "asymmetry": 0.8143707055471839,
+      "avg_mfe": 27.453954802260114,
+      "avg_mae": 33.71186440677962
+    },
+    "Morning_Evening_Star": {
+      "total_occurrences": 245,
+      "win_rate_naive": 31.020408163265305,
+      "total_trend_aligned": 130,
+      "win_rate_trend": 27.692307692307693,
+      "expectancy_trend": -0.30769230769230765,
+      "asymmetry": 0.9471046770601375,
+      "avg_mfe": 31.24285714285735,
+      "avg_mae": 32.9877551020409
+    },
+    "Three_Momentum_Bars": {
+      "total_occurrences": 858,
+      "win_rate_naive": 23.65967365967366,
+      "total_trend_aligned": 662,
+      "win_rate_trend": 19.637462235649547,
+      "expectancy_trend": -0.5090634441087614,
+      "asymmetry": 0.9654191791068486,
+      "avg_mfe": 31.89067599067608,
+      "avg_mae": 33.03298368298373
+    }
+  },
+  "M30": {
+    "Pin_Bar": {
+      "total_occurrences": 755,
+      "win_rate_naive": 38.675496688741724,
+      "total_trend_aligned": 372,
+      "win_rate_trend": 36.82795698924731,
+      "expectancy_trend": -0.07930107526881713,
+      "asymmetry": 0.9815403220746104,
+      "avg_mfe": 22.790066225165678,
+      "avg_mae": 23.218675496688686
+    },
+    "Engulfing": {
+      "total_occurrences": 1126,
+      "win_rate_naive": 34.54706927175843,
+      "total_trend_aligned": 662,
+      "win_rate_trend": 33.68580060422961,
+      "expectancy_trend": -0.15785498489425975,
+      "asymmetry": 0.9379797918499834,
+      "avg_mfe": 21.963055062166994,
+      "avg_mae": 23.41527531083492
+    },
+    "Inside_Bar": {
+      "total_occurrences": 341,
+      "win_rate_naive": 29.61876832844575,
+      "total_trend_aligned": 184,
+      "win_rate_trend": 35.32608695652174,
+      "expectancy_trend": -0.11684782608695632,
+      "asymmetry": 1.072923042332341,
+      "avg_mfe": 25.18914956011735,
+      "avg_mae": 23.477126099706727
+    },
+    "Morning_Evening_Star": {
+      "total_occurrences": 522,
+      "win_rate_naive": 31.03448275862069,
+      "total_trend_aligned": 270,
+      "win_rate_trend": 27.77777777777778,
+      "expectancy_trend": -0.30555555555555564,
+      "asymmetry": 0.8993486364528123,
+      "avg_mfe": 21.95392720306516,
+      "avg_mae": 24.410919540229997
+    },
+    "Three_Momentum_Bars": {
+      "total_occurrences": 1700,
+      "win_rate_naive": 20.352941176470587,
+      "total_trend_aligned": 1285,
+      "win_rate_trend": 19.06614785992218,
+      "expectancy_trend": -0.5233463035019456,
+      "asymmetry": 1.0129415792830176,
+      "avg_mfe": 22.797382352941217,
+      "avg_mae": 22.50611764705888
+    }
+  },
+  "M15": {
+    "Pin_Bar": {
+      "total_occurrences": 1635,
+      "win_rate_naive": 37.06422018348624,
+      "total_trend_aligned": 832,
+      "win_rate_trend": 34.13461538461539,
+      "expectancy_trend": -0.1466346153846153,
+      "asymmetry": 0.9478069518706457,
+      "avg_mfe": 15.292415902140704,
+      "avg_mae": 16.1345259938838
+    },
+    "Engulfing": {
+      "total_occurrences": 2375,
+      "win_rate_naive": 35.45263157894737,
+      "total_trend_aligned": 1377,
+      "win_rate_trend": 34.13217138707335,
+      "expectancy_trend": -0.14669571532316616,
+      "asymmetry": 0.9771307503118126,
+      "avg_mfe": 15.272821052631638,
+      "avg_mae": 15.630273684210554
+    },
+    "Inside_Bar": {
+      "total_occurrences": 848,
+      "win_rate_naive": 26.53301886792453,
+      "total_trend_aligned": 450,
+      "win_rate_trend": 28.444444444444443,
+      "expectancy_trend": -0.288888888888889,
+      "asymmetry": 0.9057729567380198,
+      "avg_mfe": 15.932311320754746,
+      "avg_mae": 17.589740566037797
+    },
+    "Morning_Evening_Star": {
+      "total_occurrences": 972,
+      "win_rate_naive": 30.555555555555557,
+      "total_trend_aligned": 530,
+      "win_rate_trend": 30.943396226415093,
+      "expectancy_trend": -0.2264150943396227,
+      "asymmetry": 0.9965899907358129,
+      "avg_mfe": 15.604938271604976,
+      "avg_mae": 15.658333333333372
+    },
+    "Three_Momentum_Bars": {
+      "total_occurrences": 3519,
+      "win_rate_naive": 21.284455811310032,
+      "total_trend_aligned": 2565,
+      "win_rate_trend": 20.350877192982455,
+      "expectancy_trend": -0.4912280701754386,
+      "asymmetry": 0.966797275216982,
+      "avg_mfe": 15.418726911054314,
+      "avg_mae": 15.948252344416083
+    }
+  },
+  "M5": {
+    "Pin_Bar": {
+      "total_occurrences": 3223,
+      "win_rate_naive": 36.05336642879305,
+      "total_trend_aligned": 1701,
+      "win_rate_trend": 35.09700176366843,
+      "expectancy_trend": -0.12257495590828926,
+      "asymmetry": 1.0041003925999763,
+      "avg_mfe": 10.807958423828746,
+      "avg_mae": 10.763822525597329
+    },
+    "Engulfing": {
+      "total_occurrences": 4972,
+      "win_rate_naive": 35.35800482703137,
+      "total_trend_aligned": 2964,
+      "win_rate_trend": 34.37921727395412,
+      "expectancy_trend": -0.14051956815114708,
+      "asymmetry": 0.9795411099459598,
+      "avg_mfe": 9.816442075623522,
+      "avg_mae": 10.021470233306578
+    },
+    "Inside_Bar": {
+      "total_occurrences": 1374,
+      "win_rate_naive": 29.475982532751093,
+      "total_trend_aligned": 718,
+      "win_rate_trend": 31.47632311977716,
+      "expectancy_trend": -0.21309192200557098,
+      "asymmetry": 0.9806363694957534,
+      "avg_mfe": 11.626928675400306,
+      "avg_mae": 11.856513828238812
+    },
+    "Morning_Evening_Star": {
+      "total_occurrences": 2197,
+      "win_rate_naive": 30.58716431497497,
+      "total_trend_aligned": 1225,
+      "win_rate_trend": 29.714285714285715,
+      "expectancy_trend": -0.257142857142857,
+      "asymmetry": 0.9805697299517878,
+      "avg_mfe": 9.669412835685048,
+      "avg_mae": 9.8610150204825
+    },
+    "Three_Momentum_Bars": {
+      "total_occurrences": 7828,
+      "win_rate_naive": 19.941236586612163,
+      "total_trend_aligned": 5936,
+      "win_rate_trend": 19.036388140161726,
+      "expectancy_trend": -0.5240902964959568,
+      "asymmetry": 0.9784660256084697,
+      "avg_mfe": 10.212576647930552,
+      "avg_mae": 10.43733392948391
+    }
+  }
+}

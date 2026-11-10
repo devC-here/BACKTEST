@@ -1,0 +1,134 @@
+[
+  {
+    "asset": "EURUSD",
+    "model": "ASIAN_HL_RETEST",
+    "trades": 292,
+    "win_rate": 40.4,
+    "pf": 1.31,
+    "net_pips": 505.6,
+    "max_dd": 105.4,
+    "ret_dd": 4.8,
+    "expectancy": 1.73
+  },
+  {
+    "asset": "EURUSD",
+    "model": "H4_STOCH_M5_WICK",
+    "trades": 119,
+    "win_rate": 38.7,
+    "pf": 1.27,
+    "net_pips": 152.9,
+    "max_dd": 76.8,
+    "ret_dd": 1.99,
+    "expectancy": 1.28
+  },
+  {
+    "asset": "EURUSD",
+    "model": "NY_AFTERNOON_FADE",
+    "trades": 104,
+    "win_rate": 35.6,
+    "pf": 0.85,
+    "net_pips": -84.3,
+    "max_dd": 119.7,
+    "ret_dd": -0.7,
+    "expectancy": -0.81
+  },
+  {
+    "asset": "EURUSD",
+    "model": "ASIAN_ATR_MEAN_REV",
+    "trades": 192,
+    "win_rate": 42.2,
+    "pf": 1.1,
+    "net_pips": 85.2,
+    "max_dd": 104.8,
+    "ret_dd": 0.81,
+    "expectancy": 0.44
+  },
+  {
+    "asset": "USDJPY",
+    "model": "ASIAN_HL_RETEST",
+    "trades": 265,
+    "win_rate": 37.4,
+    "pf": 1.2,
+    "net_pips": 392.9,
+    "max_dd": 155.6,
+    "ret_dd": 2.53,
+    "expectancy": 1.48
+  },
+  {
+    "asset": "USDJPY",
+    "model": "H4_STOCH_M5_WICK",
+    "trades": 154,
+    "win_rate": 35.7,
+    "pf": 1.07,
+    "net_pips": 71.3,
+    "max_dd": 232.8,
+    "ret_dd": 0.31,
+    "expectancy": 0.46
+  },
+  {
+    "asset": "USDJPY",
+    "model": "NY_AFTERNOON_FADE",
+    "trades": 106,
+    "win_rate": 35.8,
+    "pf": 0.79,
+    "net_pips": -169.0,
+    "max_dd": 174.4,
+    "ret_dd": -0.97,
+    "expectancy": -1.59
+  },
+  {
+    "asset": "USDJPY",
+    "model": "ASIAN_ATR_MEAN_REV",
+    "trades": 299,
+    "win_rate": 38.1,
+    "pf": 0.92,
+    "net_pips": -149.0,
+    "max_dd": 351.2,
+    "ret_dd": -0.42,
+    "expectancy": -0.5
+  },
+  {
+    "asset": "EURGBP",
+    "model": "ASIAN_HL_RETEST",
+    "trades": 142,
+    "win_rate": 28.2,
+    "pf": 0.74,
+    "net_pips": -217.2,
+    "max_dd": 310.1,
+    "ret_dd": -0.7,
+    "expectancy": -1.53
+  },
+  {
+    "asset": "EURGBP",
+    "model": "H4_STOCH_M5_WICK",
+    "trades": 54,
+    "win_rate": 38.9,
+    "pf": 1.04,
+    "net_pips": 10.2,
+    "max_dd": 69.8,
+    "ret_dd": 0.15,
+    "expectancy": 0.19
+  },
+  {
+    "asset": "EURGBP",
+    "model": "NY_AFTERNOON_FADE",
+    "trades": 20,
+    "win_rate": 40.0,
+    "pf": 0.96,
+    "net_pips": -4.0,
+    "max_dd": 60.6,
+    "ret_dd": -0.07,
+    "expectancy": -0.2
+  },
+  {
+    "asset": "EURGBP",
+    "model": "ASIAN_ATR_MEAN_REV",
+    "trades": 43,
+    "win_rate": 25.6,
+    "pf": 0.48,
+    "net_pips": -122.9,
+    "max_dd": 122.9,
+    "ret_dd": -1.0,
+    "expectancy": -2.86
+  }
+]

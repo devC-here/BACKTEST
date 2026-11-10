@@ -1,0 +1,281 @@
+{
+  "edge_profile_by_hour": {
+    "0": {
+      "efficiency_ratio": 0.277,
+      "fwd_mfe": 8.6,
+      "fwd_mae": 8.3,
+      "asymmetry_ratio": 1.04,
+      "net_drift": 0.0,
+      "edge_type": "FRICTION NOISE"
+    },
+    "1": {
+      "efficiency_ratio": 0.253,
+      "fwd_mfe": 7.1,
+      "fwd_mae": 7.7,
+      "asymmetry_ratio": 0.92,
+      "net_drift": -0.4,
+      "edge_type": "FRICTION NOISE"
+    },
+    "2": {
+      "efficiency_ratio": 0.263,
+      "fwd_mfe": 6.8,
+      "fwd_mae": 6.7,
+      "asymmetry_ratio": 1.01,
+      "net_drift": -0.0,
+      "edge_type": "FRICTION NOISE"
+    },
+    "3": {
+      "efficiency_ratio": 0.234,
+      "fwd_mfe": 6.8,
+      "fwd_mae": 6.9,
+      "asymmetry_ratio": 0.99,
+      "net_drift": -0.2,
+      "edge_type": "FRICTION NOISE"
+    },
+    "4": {
+      "efficiency_ratio": 0.248,
+      "fwd_mfe": 9.0,
+      "fwd_mae": 9.0,
+      "asymmetry_ratio": 1.0,
+      "net_drift": -0.1,
+      "edge_type": "FRICTION NOISE"
+    },
+    "5": {
+      "efficiency_ratio": 0.26,
+      "fwd_mfe": 12.7,
+      "fwd_mae": 13.2,
+      "asymmetry_ratio": 0.96,
+      "net_drift": -0.3,
+      "edge_type": "FRICTION NOISE"
+    },
+    "6": {
+      "efficiency_ratio": 0.25,
+      "fwd_mfe": 16.0,
+      "fwd_mae": 15.3,
+      "asymmetry_ratio": 1.05,
+      "net_drift": 0.1,
+      "edge_type": "FRICTION NOISE"
+    },
+    "7": {
+      "efficiency_ratio": 0.266,
+      "fwd_mfe": 15.2,
+      "fwd_mae": 15.5,
+      "asymmetry_ratio": 0.98,
+      "net_drift": -0.1,
+      "edge_type": "FRICTION NOISE"
+    },
+    "8": {
+      "efficiency_ratio": 0.244,
+      "fwd_mfe": 14.0,
+      "fwd_mae": 13.9,
+      "asymmetry_ratio": 1.01,
+      "net_drift": 0.1,
+      "edge_type": "FRICTION NOISE"
+    },
+    "9": {
+      "efficiency_ratio": 0.235,
+      "fwd_mfe": 13.9,
+      "fwd_mae": 13.7,
+      "asymmetry_ratio": 1.01,
+      "net_drift": 0.4,
+      "edge_type": "FRICTION NOISE"
+    },
+    "10": {
+      "efficiency_ratio": 0.248,
+      "fwd_mfe": 15.8,
+      "fwd_mae": 14.7,
+      "asymmetry_ratio": 1.08,
+      "net_drift": 1.0,
+      "edge_type": "FRICTION NOISE"
+    },
+    "11": {
+      "efficiency_ratio": 0.259,
+      "fwd_mfe": 17.0,
+      "fwd_mae": 17.4,
+      "asymmetry_ratio": 0.98,
+      "net_drift": -0.8,
+      "edge_type": "FRICTION NOISE"
+    },
+    "12": {
+      "efficiency_ratio": 0.248,
+      "fwd_mfe": 19.3,
+      "fwd_mae": 20.0,
+      "asymmetry_ratio": 0.97,
+      "net_drift": -0.0,
+      "edge_type": "FRICTION NOISE"
+    },
+    "13": {
+      "efficiency_ratio": 0.239,
+      "fwd_mfe": 19.3,
+      "fwd_mae": 19.3,
+      "asymmetry_ratio": 1.0,
+      "net_drift": 0.2,
+      "edge_type": "FRICTION NOISE"
+    },
+    "14": {
+      "efficiency_ratio": 0.244,
+      "fwd_mfe": 16.3,
+      "fwd_mae": 17.2,
+      "asymmetry_ratio": 0.95,
+      "net_drift": -0.9,
+      "edge_type": "FRICTION NOISE"
+    },
+    "15": {
+      "efficiency_ratio": 0.257,
+      "fwd_mfe": 13.2,
+      "fwd_mae": 13.1,
+      "asymmetry_ratio": 1.01,
+      "net_drift": -0.0,
+      "edge_type": "FRICTION NOISE"
+    },
+    "16": {
+      "efficiency_ratio": 0.249,
+      "fwd_mfe": 11.4,
+      "fwd_mae": 11.7,
+      "asymmetry_ratio": 0.98,
+      "net_drift": -0.1,
+      "edge_type": "FRICTION NOISE"
+    },
+    "17": {
+      "efficiency_ratio": 0.261,
+      "fwd_mfe": 10.3,
+      "fwd_mae": 10.3,
+      "asymmetry_ratio": 1.01,
+      "net_drift": 0.1,
+      "edge_type": "FRICTION NOISE"
+    },
+    "18": {
+      "efficiency_ratio": 0.256,
+      "fwd_mfe": 8.2,
+      "fwd_mae": 8.7,
+      "asymmetry_ratio": 0.94,
+      "net_drift": -0.3,
+      "edge_type": "FRICTION NOISE"
+    },
+    "19": {
+      "efficiency_ratio": 0.245,
+      "fwd_mfe": 5.6,
+      "fwd_mae": 6.5,
+      "asymmetry_ratio": 0.87,
+      "net_drift": -0.7,
+      "edge_type": "CHOP / FADE"
+    },
+    "20": {
+      "efficiency_ratio": 0.225,
+      "fwd_mfe": 4.4,
+      "fwd_mae": 5.0,
+      "asymmetry_ratio": 0.88,
+      "net_drift": -0.5,
+      "edge_type": "CHOP / FADE"
+    },
+    "21": {
+      "efficiency_ratio": 0.184,
+      "fwd_mfe": 4.5,
+      "fwd_mae": 5.1,
+      "asymmetry_ratio": 0.89,
+      "net_drift": -0.3,
+      "edge_type": "CHOP / FADE"
+    },
+    "22": {
+      "efficiency_ratio": 0.197,
+      "fwd_mfe": 7.0,
+      "fwd_mae": 7.0,
+      "asymmetry_ratio": 1.01,
+      "net_drift": 0.7,
+      "edge_type": "FRICTION NOISE"
+    },
+    "23": {
+      "efficiency_ratio": 0.235,
+      "fwd_mfe": 8.8,
+      "fwd_mae": 8.6,
+      "asymmetry_ratio": 1.03,
+      "net_drift": 0.4,
+      "edge_type": "FRICTION NOISE"
+    }
+  },
+  "turning_point_phases": [
+    {
+      "phase": "Asian Drift & Tokyo Open",
+      "hours": "00:00 - 06:00",
+      "hod_pct": 27.0,
+      "lod_pct": 23.0,
+      "total_extreme_pct": 25.0
+    },
+    {
+      "phase": "Frankfurt Pre-Market Trap / Coil",
+      "hours": "06:00 - 07:00",
+      "hod_pct": 3.5,
+      "lod_pct": 4.7,
+      "total_extreme_pct": 4.1
+    },
+    {
+      "phase": "London Cash Open Surge",
+      "hours": "07:00 - 09:00",
+      "hod_pct": 12.5,
+      "lod_pct": 9.0,
+      "total_extreme_pct": 10.7
+    },
+    {
+      "phase": "London Midday / Trend Continuation",
+      "hours": "09:00 - 12:00",
+      "hod_pct": 12.9,
+      "lod_pct": 7.8,
+      "total_extreme_pct": 10.4
+    },
+    {
+      "phase": "European Midday / US Pre-Market",
+      "hours": "12:00 - 13:00",
+      "hod_pct": 6.2,
+      "lod_pct": 4.3,
+      "total_extreme_pct": 5.3
+    },
+    {
+      "phase": "London-NY Overlap (Peak Liquidity)",
+      "hours": "13:00 - 16:00",
+      "hod_pct": 16.8,
+      "lod_pct": 23.4,
+      "total_extreme_pct": 20.1
+    },
+    {
+      "phase": "London Close / US Afternoon Drift",
+      "hours": "16:00 - 20:00",
+      "hod_pct": 14.5,
+      "lod_pct": 18.0,
+      "total_extreme_pct": 16.2
+    },
+    {
+      "phase": "Late US / Rollover Spread Zone",
+      "hours": "20:00 - 24:00",
+      "hod_pct": 6.6,
+      "lod_pct": 9.8,
+      "total_extreme_pct": 8.2
+    }
+  ],
+  "day_of_week_volatility": {
+    "Monday": {
+      "mean_range": 76.5,
+      "median_range": 67.4,
+      "p90_expansion": 117.8
+    },
+    "Tuesday": {
+      "mean_range": 87.9,
+      "median_range": 76.7,
+      "p90_expansion": 143.3
+    },
+    "Wednesday": {
+      "mean_range": 91.3,
+      "median_range": 86.5,
+      "p90_expansion": 137.5
+    },
+    "Thursday": {
+      "mean_range": 97.8,
+      "median_range": 98.2,
+      "p90_expansion": 162.9
+    },
+    "Friday": {
+      "mean_range": 86.8,
+      "median_range": 83.8,
+      "p90_expansion": 135.4
+    }
+  }
+}

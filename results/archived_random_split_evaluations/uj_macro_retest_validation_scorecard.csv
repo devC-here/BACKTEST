@@ -1,0 +1,4 @@
+Partition,Weeks,Trades,Win_Rate,Profit_Factor,Net_Pips,Max_DD_Pips,Expectancy_pips
+70% Discovery Partition (In-Sample),210,22,72.7%,4.46,251.7,24.0,11.44
+30% Holdout Partition (Out-of-Sample),90,17,76.5%,5.0,193.9,24.1,11.41
+100% Full 5-Year Cycle (300 Weeks),300,39,74.4%,4.68,445.6,24.1,11.43

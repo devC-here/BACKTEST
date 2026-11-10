@@ -1,0 +1,150 @@
+{
+  "symbol": "EURNZD",
+  "qualified_discovery": [
+    {
+      "name": "MicroPullback_F12S36_SL20_TP42_B0.50",
+      "cand": {
+        "family": "MICRO_TREND_PULLBACK",
+        "symbol": "EURNZD",
+        "ema_fast": 12,
+        "ema_slow": 36,
+        "sl": 20.0,
+        "tp": 42.0,
+        "min_body": 0.5,
+        "name": "MicroPullback_F12S36_SL20_TP42_B0.50"
+      },
+      "trades": 66,
+      "ann_trades": 64.8,
+      "net_pips": 176.0,
+      "win_rate": 40.9,
+      "profit_factor": 1.19
+    },
+    {
+      "name": "MicroPullback_F12S36_SL25_TP50_B0.40",
+      "cand": {
+        "family": "MICRO_TREND_PULLBACK",
+        "symbol": "EURNZD",
+        "ema_fast": 12,
+        "ema_slow": 36,
+        "sl": 25.0,
+        "tp": 50.0,
+        "min_body": 0.4,
+        "name": "MicroPullback_F12S36_SL25_TP50_B0.40"
+      },
+      "trades": 73,
+      "ann_trades": 71.6,
+      "net_pips": 159.6,
+      "win_rate": 39.7,
+      "profit_factor": 1.13
+    },
+    {
+      "name": "MicroPullback_F12S36_SL25_TP50_B0.50",
+      "cand": {
+        "family": "MICRO_TREND_PULLBACK",
+        "symbol": "EURNZD",
+        "ema_fast": 12,
+        "ema_slow": 36,
+        "sl": 25.0,
+        "tp": 50.0,
+        "min_body": 0.5,
+        "name": "MicroPullback_F12S36_SL25_TP50_B0.50"
+      },
+      "trades": 66,
+      "ann_trades": 64.8,
+      "net_pips": 115.1,
+      "win_rate": 39.4,
+      "profit_factor": 1.11
+    },
+    {
+      "name": "MicroPullback_F10S30_SL20_TP42_B0.50",
+      "cand": {
+        "family": "MICRO_TREND_PULLBACK",
+        "symbol": "EURNZD",
+        "ema_fast": 10,
+        "ema_slow": 30,
+        "sl": 20.0,
+        "tp": 42.0,
+        "min_body": 0.5,
+        "name": "MicroPullback_F10S30_SL20_TP42_B0.50"
+      },
+      "trades": 66,
+      "ann_trades": 64.8,
+      "net_pips": 113.8,
+      "win_rate": 39.4,
+      "profit_factor": 1.12
+    },
+    {
+      "name": "MicroPullback_F10S30_SL25_TP50_B0.40",
+      "cand": {
+        "family": "MICRO_TREND_PULLBACK",
+        "symbol": "EURNZD",
+        "ema_fast": 10,
+        "ema_slow": 30,
+        "sl": 25.0,
+        "tp": 50.0,
+        "min_body": 0.4,
+        "name": "MicroPullback_F10S30_SL25_TP50_B0.40"
+      },
+      "trades": 72,
+      "ann_trades": 70.6,
+      "net_pips": 110.0,
+      "win_rate": 38.9,
+      "profit_factor": 1.09
+    },
+    {
+      "name": "MicroPullback_F12S36_SL18_TP36_B0.50",
+      "cand": {
+        "family": "MICRO_TREND_PULLBACK",
+        "symbol": "EURNZD",
+        "ema_fast": 12,
+        "ema_slow": 36,
+        "sl": 18.0,
+        "tp": 36.0,
+        "min_body": 0.5,
+        "name": "MicroPullback_F12S36_SL18_TP36_B0.50"
+      },
+      "trades": 67,
+      "ann_trades": 65.7,
+      "net_pips": 103.3,
+      "win_rate": 38.8,
+      "profit_factor": 1.13
+    },
+    {
+      "name": "MicroPullback_F12S36_SL20_TP42_B0.40",
+      "cand": {
+        "family": "MICRO_TREND_PULLBACK",
+        "symbol": "EURNZD",
+        "ema_fast": 12,
+        "ema_slow": 36,
+        "sl": 20.0,
+        "tp": 42.0,
+        "min_body": 0.4,
+        "name": "MicroPullback_F12S36_SL20_TP42_B0.40"
+      },
+      "trades": 73,
+      "ann_trades": 71.6,
+      "net_pips": 92.6,
+      "win_rate": 38.4,
+      "profit_factor": 1.09
+    },
+    {
+      "name": "MicroPullback_F10S30_SL18_TP36_B0.50",
+      "cand": {
+        "family": "MICRO_TREND_PULLBACK",
+        "symbol": "EURNZD",
+        "ema_fast": 10,
+        "ema_slow": 30,
+        "sl": 18.0,
+        "tp": 36.0,
+        "min_body": 0.5,
+        "name": "MicroPullback_F10S30_SL18_TP36_B0.50"
+      },
+      "trades": 67,
+      "ann_trades": 65.7,
+      "net_pips": 49.1,
+      "win_rate": 37.3,
+      "profit_factor": 1.06
+    }
+  ],
+  "champions": []
+}

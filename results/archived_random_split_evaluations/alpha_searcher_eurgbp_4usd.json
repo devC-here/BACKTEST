@@ -1,0 +1,2949 @@
+{
+  "symbol": "EURGBP",
+  "dollar_per_lot": 4.0,
+  "use_broker_spread": true,
+  "broker_spread_pips": 0.5,
+  "friction_commission_pips": 0.33,
+  "friction_slippage_pips": 0.05,
+  "total_friction_pips": 0.38,
+  "qualified_discovery_count": 144,
+  "dual_certified_holdout_count": 3,
+  "discovery_candidates": [
+    {
+      "name": "H4Retest_LB10_D9_W0.35_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 9.0,
+        "wick": 0.35,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB10_D9_W0.35_SL10_TP21"
+      },
+      "disc_trades": 39,
+      "ann_trades": 38.3,
+      "disc_net_pips": 202.6,
+      "ann_pips": 198.8,
+      "win_rate": 53.8,
+      "profit_factor": 2.11
+    },
+    {
+      "name": "H4Retest_LB10_D9_W0.35_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 9.0,
+        "wick": 0.35,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H4Retest_LB10_D9_W0.35_SL11_TP22"
+      },
+      "disc_trades": 38,
+      "ann_trades": 37.3,
+      "disc_net_pips": 193.1,
+      "ann_pips": 189.5,
+      "win_rate": 52.6,
+      "profit_factor": 1.99
+    },
+    {
+      "name": "H4Retest_LB10_D9_W0.45_SL9_TP18",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 9.0,
+        "wick": 0.45,
+        "sl": 9.0,
+        "tp": 18.0,
+        "name": "H4Retest_LB10_D9_W0.45_SL9_TP18"
+      },
+      "disc_trades": 34,
+      "ann_trades": 33.4,
+      "disc_net_pips": 174.3,
+      "ann_pips": 171.0,
+      "win_rate": 55.9,
+      "profit_factor": 2.31
+    },
+    {
+      "name": "H4Retest_LB10_D9_W0.35_SL9_TP18",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 9.0,
+        "wick": 0.35,
+        "sl": 9.0,
+        "tp": 18.0,
+        "name": "H4Retest_LB10_D9_W0.35_SL9_TP18"
+      },
+      "disc_trades": 40,
+      "ann_trades": 39.2,
+      "disc_net_pips": 173.9,
+      "ann_pips": 170.7,
+      "win_rate": 52.5,
+      "profit_factor": 2.02
+    },
+    {
+      "name": "H4Retest_LB10_D12_W0.45_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 12.0,
+        "wick": 0.45,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB10_D12_W0.45_SL10_TP21"
+      },
+      "disc_trades": 45,
+      "ann_trades": 44.2,
+      "disc_net_pips": 167.8,
+      "ann_pips": 164.7,
+      "win_rate": 48.9,
+      "profit_factor": 1.77
+    },
+    {
+      "name": "H4Retest_LB10_D12_W0.45_SL9_TP18",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 12.0,
+        "wick": 0.45,
+        "sl": 9.0,
+        "tp": 18.0,
+        "name": "H4Retest_LB10_D12_W0.45_SL9_TP18"
+      },
+      "disc_trades": 45,
+      "ann_trades": 44.2,
+      "disc_net_pips": 164.9,
+      "ann_pips": 161.8,
+      "win_rate": 48.9,
+      "profit_factor": 1.85
+    },
+    {
+      "name": "AsianSweep_D1.5_SL14_TP30_R11-49",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 1.5,
+        "sl": 13.5,
+        "tp": 30.0,
+        "min_rng": 11.2,
+        "max_rng": 48.8,
+        "name": "AsianSweep_D1.5_SL14_TP30_R11-49"
+      },
+      "disc_trades": 42,
+      "ann_trades": 41.2,
+      "disc_net_pips": 164.1,
+      "ann_pips": 161.0,
+      "win_rate": 47.6,
+      "profit_factor": 1.53
+    },
+    {
+      "name": "H4Retest_LB10_D9_W0.35_SL9_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 9.0,
+        "wick": 0.35,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H4Retest_LB10_D9_W0.35_SL9_TP21"
+      },
+      "disc_trades": 39,
+      "ann_trades": 38.3,
+      "disc_net_pips": 163.8,
+      "ann_pips": 160.7,
+      "win_rate": 48.7,
+      "profit_factor": 1.91
+    },
+    {
+      "name": "H4Retest_LB10_D9_W0.35_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 9.0,
+        "wick": 0.35,
+        "sl": 13.5,
+        "tp": 30.0,
+        "name": "H4Retest_LB10_D9_W0.35_SL14_TP30"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 163.3,
+      "ann_pips": 160.2,
+      "win_rate": 48.5,
+      "profit_factor": 1.76
+    },
+    {
+      "name": "H4Retest_LB10_D9_W0.45_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 9.0,
+        "wick": 0.45,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB10_D9_W0.45_SL10_TP21"
+      },
+      "disc_trades": 34,
+      "ann_trades": 33.4,
+      "disc_net_pips": 161.8,
+      "ann_pips": 158.8,
+      "win_rate": 52.9,
+      "profit_factor": 2.01
+    },
+    {
+      "name": "H4Retest_LB10_D12_W0.45_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 12.0,
+        "wick": 0.45,
+        "sl": 13.5,
+        "tp": 30.0,
+        "name": "H4Retest_LB10_D12_W0.45_SL14_TP30"
+      },
+      "disc_trades": 40,
+      "ann_trades": 39.2,
+      "disc_net_pips": 161.2,
+      "ann_pips": 158.2,
+      "win_rate": 47.5,
+      "profit_factor": 1.65
+    },
+    {
+      "name": "H4Retest_LB10_D9_W0.40_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 9.0,
+        "wick": 0.4,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB10_D9_W0.40_SL10_TP21"
+      },
+      "disc_trades": 37,
+      "ann_trades": 36.3,
+      "disc_net_pips": 160.6,
+      "ann_pips": 157.6,
+      "win_rate": 51.4,
+      "profit_factor": 1.88
+    },
+    {
+      "name": "H4Retest_LB10_D12_W0.45_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 12.0,
+        "wick": 0.45,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H4Retest_LB10_D12_W0.45_SL11_TP22"
+      },
+      "disc_trades": 44,
+      "ann_trades": 43.2,
+      "disc_net_pips": 157.8,
+      "ann_pips": 154.9,
+      "win_rate": 47.7,
+      "profit_factor": 1.68
+    },
+    {
+      "name": "H4Retest_LB10_D9_W0.40_SL9_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 9.0,
+        "wick": 0.4,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H4Retest_LB10_D9_W0.40_SL9_TP21"
+      },
+      "disc_trades": 37,
+      "ann_trades": 36.3,
+      "disc_net_pips": 151.8,
+      "ann_pips": 148.9,
+      "win_rate": 48.6,
+      "profit_factor": 1.89
+    },
+    {
+      "name": "H4Retest_LB10_D9_W0.45_SL9_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 9.0,
+        "wick": 0.45,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H4Retest_LB10_D9_W0.45_SL9_TP21"
+      },
+      "disc_trades": 34,
+      "ann_trades": 33.4,
+      "disc_net_pips": 149.7,
+      "ann_pips": 146.9,
+      "win_rate": 50.0,
+      "profit_factor": 1.99
+    },
+    {
+      "name": "H4Retest_LB10_D12_W0.45_SL9_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 12.0,
+        "wick": 0.45,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H4Retest_LB10_D12_W0.45_SL9_TP21"
+      },
+      "disc_trades": 45,
+      "ann_trades": 44.2,
+      "disc_net_pips": 149.3,
+      "ann_pips": 146.5,
+      "win_rate": 44.4,
+      "profit_factor": 1.7
+    },
+    {
+      "name": "H4Retest_LB10_D9_W0.45_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 9.0,
+        "wick": 0.45,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H4Retest_LB10_D9_W0.45_SL11_TP22"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 149.1,
+      "ann_pips": 146.2,
+      "win_rate": 51.5,
+      "profit_factor": 1.87
+    },
+    {
+      "name": "H4Retest_LB10_D9_W0.40_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 9.0,
+        "wick": 0.4,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H4Retest_LB10_D9_W0.40_SL11_TP22"
+      },
+      "disc_trades": 36,
+      "ann_trades": 35.3,
+      "disc_net_pips": 148.1,
+      "ann_pips": 145.3,
+      "win_rate": 50.0,
+      "profit_factor": 1.76
+    },
+    {
+      "name": "H4Retest_LB10_D9_W0.40_SL9_TP18",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 9.0,
+        "wick": 0.4,
+        "sl": 9.0,
+        "tp": 18.0,
+        "name": "H4Retest_LB10_D9_W0.40_SL9_TP18"
+      },
+      "disc_trades": 37,
+      "ann_trades": 36.3,
+      "disc_net_pips": 146.4,
+      "ann_pips": 143.6,
+      "win_rate": 51.4,
+      "profit_factor": 1.91
+    },
+    {
+      "name": "H4Retest_LB10_D12_W0.45_SL12_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 12.0,
+        "wick": 0.45,
+        "sl": 12.0,
+        "tp": 26.2,
+        "name": "H4Retest_LB10_D12_W0.45_SL12_TP26"
+      },
+      "disc_trades": 40,
+      "ann_trades": 39.2,
+      "disc_net_pips": 143.3,
+      "ann_pips": 140.6,
+      "win_rate": 47.5,
+      "profit_factor": 1.64
+    },
+    {
+      "name": "AsianSweep_D1.5_SL14_TP30_R9-38",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 1.5,
+        "sl": 13.5,
+        "tp": 30.0,
+        "min_rng": 9.0,
+        "max_rng": 37.5,
+        "name": "AsianSweep_D1.5_SL14_TP30_R9-38"
+      },
+      "disc_trades": 60,
+      "ann_trades": 58.9,
+      "disc_net_pips": 142.2,
+      "ann_pips": 139.5,
+      "win_rate": 43.3,
+      "profit_factor": 1.3
+    },
+    {
+      "name": "AsianSweep_D3.0_SL14_TP30_R11-49",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.0,
+        "sl": 13.5,
+        "tp": 30.0,
+        "min_rng": 11.2,
+        "max_rng": 48.8,
+        "name": "AsianSweep_D3.0_SL14_TP30_R11-49"
+      },
+      "disc_trades": 37,
+      "ann_trades": 36.3,
+      "disc_net_pips": 140.6,
+      "ann_pips": 138.0,
+      "win_rate": 43.2,
+      "profit_factor": 1.48
+    },
+    {
+      "name": "AsianSweep_D1.5_SL14_TP30_R8-30",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 1.5,
+        "sl": 13.5,
+        "tp": 30.0,
+        "min_rng": 7.5,
+        "max_rng": 30.0,
+        "name": "AsianSweep_D1.5_SL14_TP30_R8-30"
+      },
+      "disc_trades": 77,
+      "ann_trades": 75.5,
+      "disc_net_pips": 135.1,
+      "ann_pips": 132.5,
+      "win_rate": 41.6,
+      "profit_factor": 1.21
+    },
+    {
+      "name": "H4Retest_LB10_D12_W0.40_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 12.0,
+        "wick": 0.4,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H4Retest_LB10_D12_W0.40_SL11_TP22"
+      },
+      "disc_trades": 49,
+      "ann_trades": 48.1,
+      "disc_net_pips": 134.0,
+      "ann_pips": 131.5,
+      "win_rate": 44.9,
+      "profit_factor": 1.48
+    },
+    {
+      "name": "H4Retest_LB10_D12_W0.40_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 12.0,
+        "wick": 0.4,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB10_D12_W0.40_SL10_TP21"
+      },
+      "disc_trades": 51,
+      "ann_trades": 50.0,
+      "disc_net_pips": 133.9,
+      "ann_pips": 131.4,
+      "win_rate": 45.1,
+      "profit_factor": 1.49
+    },
+    {
+      "name": "H4Retest_LB10_D12_W0.35_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 12.0,
+        "wick": 0.35,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB10_D12_W0.35_SL10_TP21"
+      },
+      "disc_trades": 54,
+      "ann_trades": 53.0,
+      "disc_net_pips": 133.8,
+      "ann_pips": 131.3,
+      "win_rate": 44.4,
+      "profit_factor": 1.45
+    },
+    {
+      "name": "H4Retest_LB10_D12_W0.35_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 12.0,
+        "wick": 0.35,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H4Retest_LB10_D12_W0.35_SL11_TP22"
+      },
+      "disc_trades": 52,
+      "ann_trades": 51.0,
+      "disc_net_pips": 133.5,
+      "ann_pips": 131.0,
+      "win_rate": 44.2,
+      "profit_factor": 1.44
+    },
+    {
+      "name": "AsianSweep_D3.0_SL14_TP30_R9-38",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.0,
+        "sl": 13.5,
+        "tp": 30.0,
+        "min_rng": 9.0,
+        "max_rng": 37.5,
+        "name": "AsianSweep_D3.0_SL14_TP30_R9-38"
+      },
+      "disc_trades": 49,
+      "ann_trades": 48.1,
+      "disc_net_pips": 127.2,
+      "ann_pips": 124.8,
+      "win_rate": 40.8,
+      "profit_factor": 1.31
+    },
+    {
+      "name": "H4Retest_LB10_D12_W0.35_SL9_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 12.0,
+        "wick": 0.35,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H4Retest_LB10_D12_W0.35_SL9_TP21"
+      },
+      "disc_trades": 54,
+      "ann_trades": 53.0,
+      "disc_net_pips": 125.2,
+      "ann_pips": 122.9,
+      "win_rate": 40.7,
+      "profit_factor": 1.45
+    },
+    {
+      "name": "H4Retest_LB10_D9_W0.35_SL12_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 9.0,
+        "wick": 0.35,
+        "sl": 12.0,
+        "tp": 26.2,
+        "name": "H4Retest_LB10_D9_W0.35_SL12_TP26"
+      },
+      "disc_trades": 34,
+      "ann_trades": 33.4,
+      "disc_net_pips": 123.3,
+      "ann_pips": 121.0,
+      "win_rate": 47.1,
+      "profit_factor": 1.59
+    },
+    {
+      "name": "H4Retest_LB10_D12_W0.40_SL9_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 12.0,
+        "wick": 0.4,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H4Retest_LB10_D12_W0.40_SL9_TP21"
+      },
+      "disc_trades": 51,
+      "ann_trades": 50.0,
+      "disc_net_pips": 122.6,
+      "ann_pips": 120.3,
+      "win_rate": 41.2,
+      "profit_factor": 1.47
+    },
+    {
+      "name": "AsianSweep_D2.2_SL14_TP30_R11-49",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 2.2,
+        "sl": 13.5,
+        "tp": 30.0,
+        "min_rng": 11.2,
+        "max_rng": 48.8,
+        "name": "AsianSweep_D2.2_SL14_TP30_R11-49"
+      },
+      "disc_trades": 40,
+      "ann_trades": 39.2,
+      "disc_net_pips": 115.8,
+      "ann_pips": 113.7,
+      "win_rate": 42.5,
+      "profit_factor": 1.36
+    },
+    {
+      "name": "H4Retest_LB10_D12_W0.35_SL9_TP18",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 12.0,
+        "wick": 0.35,
+        "sl": 9.0,
+        "tp": 18.0,
+        "name": "H4Retest_LB10_D12_W0.35_SL9_TP18"
+      },
+      "disc_trades": 54,
+      "ann_trades": 53.0,
+      "disc_net_pips": 108.9,
+      "ann_pips": 106.9,
+      "win_rate": 42.6,
+      "profit_factor": 1.4
+    },
+    {
+      "name": "H4Retest_LB10_D12_W0.40_SL9_TP18",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 12.0,
+        "wick": 0.4,
+        "sl": 9.0,
+        "tp": 18.0,
+        "name": "H4Retest_LB10_D12_W0.40_SL9_TP18"
+      },
+      "disc_trades": 51,
+      "ann_trades": 50.0,
+      "disc_net_pips": 108.2,
+      "ann_pips": 106.2,
+      "win_rate": 43.1,
+      "profit_factor": 1.43
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.45_SL9_TP18",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.45,
+        "sl": 9.0,
+        "tp": 18.0,
+        "name": "H4Retest_LB8_D9_W0.45_SL9_TP18"
+      },
+      "disc_trades": 41,
+      "ann_trades": 40.2,
+      "disc_net_pips": 105.9,
+      "ann_pips": 103.9,
+      "win_rate": 46.3,
+      "profit_factor": 1.53
+    },
+    {
+      "name": "H4Retest_LB10_D9_W0.40_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 9.0,
+        "wick": 0.4,
+        "sl": 13.5,
+        "tp": 30.0,
+        "name": "H4Retest_LB10_D9_W0.40_SL14_TP30"
+      },
+      "disc_trades": 31,
+      "ann_trades": 30.4,
+      "disc_net_pips": 103.3,
+      "ann_pips": 101.4,
+      "win_rate": 45.2,
+      "profit_factor": 1.48
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.35_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.35,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB8_D9_W0.35_SL10_TP21"
+      },
+      "disc_trades": 47,
+      "ann_trades": 46.1,
+      "disc_net_pips": 102.8,
+      "ann_pips": 100.9,
+      "win_rate": 44.7,
+      "profit_factor": 1.38
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.35_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.35,
+        "sl": 13.5,
+        "tp": 30.0,
+        "name": "H4Retest_LB8_D9_W0.35_SL14_TP30"
+      },
+      "disc_trades": 41,
+      "ann_trades": 40.2,
+      "disc_net_pips": 90.6,
+      "ann_pips": 88.9,
+      "win_rate": 41.5,
+      "profit_factor": 1.31
+    },
+    {
+      "name": "H4Retest_LB12_D15_W0.45_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 15.0,
+        "wick": 0.45,
+        "sl": 13.5,
+        "tp": 30.0,
+        "name": "H4Retest_LB12_D15_W0.45_SL14_TP30"
+      },
+      "disc_trades": 31,
+      "ann_trades": 30.4,
+      "disc_net_pips": 89.1,
+      "ann_pips": 87.4,
+      "win_rate": 45.2,
+      "profit_factor": 1.49
+    },
+    {
+      "name": "AsianSweep_D3.0_SL12_TP26_R11-49",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.0,
+        "sl": 12.0,
+        "tp": 26.2,
+        "min_rng": 11.2,
+        "max_rng": 48.8,
+        "name": "AsianSweep_D3.0_SL12_TP26_R11-49"
+      },
+      "disc_trades": 37,
+      "ann_trades": 36.3,
+      "disc_net_pips": 88.5,
+      "ann_pips": 86.9,
+      "win_rate": 40.5,
+      "profit_factor": 1.32
+    },
+    {
+      "name": "H4Retest_LB12_D12_W0.35_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 12.0,
+        "wick": 0.35,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H4Retest_LB12_D12_W0.35_SL11_TP22"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 87.0,
+      "ann_pips": 85.4,
+      "win_rate": 45.5,
+      "profit_factor": 1.52
+    },
+    {
+      "name": "H4Retest_LB12_D12_W0.40_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 12.0,
+        "wick": 0.4,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H4Retest_LB12_D12_W0.40_SL11_TP22"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 87.0,
+      "ann_pips": 85.4,
+      "win_rate": 45.5,
+      "profit_factor": 1.52
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.35_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.35,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H4Retest_LB8_D9_W0.35_SL11_TP22"
+      },
+      "disc_trades": 46,
+      "ann_trades": 45.1,
+      "disc_net_pips": 86.9,
+      "ann_pips": 85.3,
+      "win_rate": 43.5,
+      "profit_factor": 1.3
+    },
+    {
+      "name": "H4Retest_LB12_D12_W0.35_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 12.0,
+        "wick": 0.35,
+        "sl": 13.5,
+        "tp": 30.0,
+        "name": "H4Retest_LB12_D12_W0.35_SL14_TP30"
+      },
+      "disc_trades": 32,
+      "ann_trades": 31.4,
+      "disc_net_pips": 86.9,
+      "ann_pips": 85.3,
+      "win_rate": 43.8,
+      "profit_factor": 1.45
+    },
+    {
+      "name": "H4Retest_LB12_D12_W0.40_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 12.0,
+        "wick": 0.4,
+        "sl": 13.5,
+        "tp": 30.0,
+        "name": "H4Retest_LB12_D12_W0.40_SL14_TP30"
+      },
+      "disc_trades": 32,
+      "ann_trades": 31.4,
+      "disc_net_pips": 86.9,
+      "ann_pips": 85.3,
+      "win_rate": 43.8,
+      "profit_factor": 1.45
+    },
+    {
+      "name": "H4Retest_LB12_D15_W0.35_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 15.0,
+        "wick": 0.35,
+        "sl": 13.5,
+        "tp": 30.0,
+        "name": "H4Retest_LB12_D15_W0.35_SL14_TP30"
+      },
+      "disc_trades": 36,
+      "ann_trades": 35.3,
+      "disc_net_pips": 79.8,
+      "ann_pips": 78.3,
+      "win_rate": 44.4,
+      "profit_factor": 1.35
+    },
+    {
+      "name": "H4Retest_LB12_D15_W0.45_SL12_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 15.0,
+        "wick": 0.45,
+        "sl": 12.0,
+        "tp": 26.2,
+        "name": "H4Retest_LB12_D15_W0.45_SL12_TP26"
+      },
+      "disc_trades": 31,
+      "ann_trades": 30.4,
+      "disc_net_pips": 79.3,
+      "ann_pips": 77.8,
+      "win_rate": 45.2,
+      "profit_factor": 1.48
+    },
+    {
+      "name": "H4Retest_LB10_D12_W0.35_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 12.0,
+        "wick": 0.35,
+        "sl": 13.5,
+        "tp": 30.0,
+        "name": "H4Retest_LB10_D12_W0.35_SL14_TP30"
+      },
+      "disc_trades": 47,
+      "ann_trades": 46.1,
+      "disc_net_pips": 78.2,
+      "ann_pips": 76.7,
+      "win_rate": 40.4,
+      "profit_factor": 1.23
+    },
+    {
+      "name": "H4Retest_LB12_D15_W0.35_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 15.0,
+        "wick": 0.35,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H4Retest_LB12_D15_W0.35_SL11_TP22"
+      },
+      "disc_trades": 37,
+      "ann_trades": 36.3,
+      "disc_net_pips": 78.0,
+      "ann_pips": 76.6,
+      "win_rate": 45.9,
+      "profit_factor": 1.41
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.35_SL9_TP18",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.35,
+        "sl": 9.0,
+        "tp": 18.0,
+        "name": "H4Retest_LB8_D9_W0.35_SL9_TP18"
+      },
+      "disc_trades": 47,
+      "ann_trades": 46.1,
+      "disc_net_pips": 77.7,
+      "ann_pips": 76.2,
+      "win_rate": 42.6,
+      "profit_factor": 1.31
+    },
+    {
+      "name": "H4Retest_LB10_D12_W0.40_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 12.0,
+        "wick": 0.4,
+        "sl": 13.5,
+        "tp": 30.0,
+        "name": "H4Retest_LB10_D12_W0.40_SL14_TP30"
+      },
+      "disc_trades": 44,
+      "ann_trades": 43.2,
+      "disc_net_pips": 75.8,
+      "ann_pips": 74.4,
+      "win_rate": 40.9,
+      "profit_factor": 1.24
+    },
+    {
+      "name": "H4Retest_LB12_D15_W0.45_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 15.0,
+        "wick": 0.45,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H4Retest_LB12_D15_W0.45_SL11_TP22"
+      },
+      "disc_trades": 31,
+      "ann_trades": 30.4,
+      "disc_net_pips": 75.9,
+      "ann_pips": 74.4,
+      "win_rate": 45.2,
+      "profit_factor": 1.49
+    },
+    {
+      "name": "H4Retest_LB10_D15_W0.45_SL9_TP18",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 15.0,
+        "wick": 0.45,
+        "sl": 9.0,
+        "tp": 18.0,
+        "name": "H4Retest_LB10_D15_W0.45_SL9_TP18"
+      },
+      "disc_trades": 48,
+      "ann_trades": 47.1,
+      "disc_net_pips": 74.8,
+      "ann_pips": 73.3,
+      "win_rate": 41.7,
+      "profit_factor": 1.3
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.35_SL12_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.35,
+        "sl": 12.0,
+        "tp": 26.2,
+        "name": "H4Retest_LB8_D9_W0.35_SL12_TP26"
+      },
+      "disc_trades": 43,
+      "ann_trades": 42.2,
+      "disc_net_pips": 74.6,
+      "ann_pips": 73.2,
+      "win_rate": 41.9,
+      "profit_factor": 1.25
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.35_SL9_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.35,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H4Retest_LB8_D9_W0.35_SL9_TP21"
+      },
+      "disc_trades": 47,
+      "ann_trades": 46.1,
+      "disc_net_pips": 74.1,
+      "ann_pips": 72.7,
+      "win_rate": 40.4,
+      "profit_factor": 1.29
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.45_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.45,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB8_D9_W0.45_SL10_TP21"
+      },
+      "disc_trades": 41,
+      "ann_trades": 40.2,
+      "disc_net_pips": 72.6,
+      "ann_pips": 71.2,
+      "win_rate": 43.9,
+      "profit_factor": 1.31
+    },
+    {
+      "name": "H4Retest_LB10_D9_W0.40_SL12_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 9.0,
+        "wick": 0.4,
+        "sl": 12.0,
+        "tp": 26.2,
+        "name": "H4Retest_LB10_D9_W0.40_SL12_TP26"
+      },
+      "disc_trades": 32,
+      "ann_trades": 31.4,
+      "disc_net_pips": 70.8,
+      "ann_pips": 69.5,
+      "win_rate": 43.8,
+      "profit_factor": 1.34
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.45_SL9_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.45,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H4Retest_LB8_D9_W0.45_SL9_TP21"
+      },
+      "disc_trades": 41,
+      "ann_trades": 40.2,
+      "disc_net_pips": 70.2,
+      "ann_pips": 68.9,
+      "win_rate": 41.5,
+      "profit_factor": 1.32
+    },
+    {
+      "name": "H4Retest_LB10_D15_W0.45_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 15.0,
+        "wick": 0.45,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB10_D15_W0.45_SL10_TP21"
+      },
+      "disc_trades": 48,
+      "ann_trades": 47.1,
+      "disc_net_pips": 70.2,
+      "ann_pips": 68.9,
+      "win_rate": 41.7,
+      "profit_factor": 1.25
+    },
+    {
+      "name": "H4Retest_LB12_D12_W0.35_SL12_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 12.0,
+        "wick": 0.35,
+        "sl": 12.0,
+        "tp": 26.2,
+        "name": "H4Retest_LB12_D12_W0.35_SL12_TP26"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 67.7,
+      "ann_pips": 66.4,
+      "win_rate": 42.4,
+      "profit_factor": 1.35
+    },
+    {
+      "name": "H4Retest_LB12_D12_W0.40_SL12_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 12.0,
+        "wick": 0.4,
+        "sl": 12.0,
+        "tp": 26.2,
+        "name": "H4Retest_LB12_D12_W0.40_SL12_TP26"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 67.7,
+      "ann_pips": 66.4,
+      "win_rate": 42.4,
+      "profit_factor": 1.35
+    },
+    {
+      "name": "AsianSweep_D1.5_SL11_TP22_R11-49",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 1.5,
+        "sl": 11.2,
+        "tp": 22.5,
+        "min_rng": 11.2,
+        "max_rng": 48.8,
+        "name": "AsianSweep_D1.5_SL11_TP22_R11-49"
+      },
+      "disc_trades": 42,
+      "ann_trades": 41.2,
+      "disc_net_pips": 66.3,
+      "ann_pips": 65.1,
+      "win_rate": 42.9,
+      "profit_factor": 1.23
+    },
+    {
+      "name": "H4Retest_LB12_D15_W0.40_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 15.0,
+        "wick": 0.4,
+        "sl": 13.5,
+        "tp": 30.0,
+        "name": "H4Retest_LB12_D15_W0.40_SL14_TP30"
+      },
+      "disc_trades": 35,
+      "ann_trades": 34.3,
+      "disc_net_pips": 66.3,
+      "ann_pips": 65.1,
+      "win_rate": 42.9,
+      "profit_factor": 1.29
+    },
+    {
+      "name": "H4Retest_LB12_D15_W0.40_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 15.0,
+        "wick": 0.4,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H4Retest_LB12_D15_W0.40_SL11_TP22"
+      },
+      "disc_trades": 36,
+      "ann_trades": 35.3,
+      "disc_net_pips": 64.6,
+      "ann_pips": 63.4,
+      "win_rate": 44.4,
+      "profit_factor": 1.34
+    },
+    {
+      "name": "H4Retest_LB12_D15_W0.35_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 15.0,
+        "wick": 0.35,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB12_D15_W0.35_SL10_TP21"
+      },
+      "disc_trades": 38,
+      "ann_trades": 37.3,
+      "disc_net_pips": 63.8,
+      "ann_pips": 62.6,
+      "win_rate": 44.7,
+      "profit_factor": 1.33
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.45_SL12_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.45,
+        "sl": 12.0,
+        "tp": 26.2,
+        "name": "H4Retest_LB8_D9_W0.45_SL12_TP26"
+      },
+      "disc_trades": 37,
+      "ann_trades": 36.3,
+      "disc_net_pips": 63.7,
+      "ann_pips": 62.5,
+      "win_rate": 43.2,
+      "profit_factor": 1.26
+    },
+    {
+      "name": "AsianSweep_D3.0_SL11_TP22_R11-49",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.0,
+        "sl": 11.2,
+        "tp": 22.5,
+        "min_rng": 11.2,
+        "max_rng": 48.8,
+        "name": "AsianSweep_D3.0_SL11_TP22_R11-49"
+      },
+      "disc_trades": 37,
+      "ann_trades": 36.3,
+      "disc_net_pips": 62.9,
+      "ann_pips": 61.7,
+      "win_rate": 40.5,
+      "profit_factor": 1.25
+    },
+    {
+      "name": "H4Retest_LB8_D12_W0.45_SL9_TP18",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 12.0,
+        "wick": 0.45,
+        "sl": 9.0,
+        "tp": 18.0,
+        "name": "H4Retest_LB8_D12_W0.45_SL9_TP18"
+      },
+      "disc_trades": 53,
+      "ann_trades": 52.0,
+      "disc_net_pips": 62.2,
+      "ann_pips": 61.0,
+      "win_rate": 39.6,
+      "profit_factor": 1.22
+    },
+    {
+      "name": "H4Retest_LB10_D12_W0.35_SL12_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 12.0,
+        "wick": 0.35,
+        "sl": 12.0,
+        "tp": 26.2,
+        "name": "H4Retest_LB10_D12_W0.35_SL12_TP26"
+      },
+      "disc_trades": 47,
+      "ann_trades": 46.1,
+      "disc_net_pips": 61.2,
+      "ann_pips": 60.1,
+      "win_rate": 40.4,
+      "profit_factor": 1.2
+    },
+    {
+      "name": "H4Retest_LB12_D15_W0.45_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 15.0,
+        "wick": 0.45,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB12_D15_W0.45_SL10_TP21"
+      },
+      "disc_trades": 32,
+      "ann_trades": 31.4,
+      "disc_net_pips": 61.1,
+      "ann_pips": 60.0,
+      "win_rate": 43.8,
+      "profit_factor": 1.39
+    },
+    {
+      "name": "AsianSweep_D3.0_SL12_TP26_R9-38",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.0,
+        "sl": 12.0,
+        "tp": 26.2,
+        "min_rng": 9.0,
+        "max_rng": 37.5,
+        "name": "AsianSweep_D3.0_SL12_TP26_R9-38"
+      },
+      "disc_trades": 50,
+      "ann_trades": 49.1,
+      "disc_net_pips": 60.2,
+      "ann_pips": 59.1,
+      "win_rate": 38.0,
+      "profit_factor": 1.15
+    },
+    {
+      "name": "H1Retest_LB16_D6_W0.25_SL11_TP22",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "EURGBP",
+        "lb": 16,
+        "dist": 6.0,
+        "wick": 0.25,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H1Retest_LB16_D6_W0.25_SL11_TP22"
+      },
+      "disc_trades": 53,
+      "ann_trades": 52.0,
+      "disc_net_pips": 59.9,
+      "ann_pips": 58.7,
+      "win_rate": 41.5,
+      "profit_factor": 1.17
+    },
+    {
+      "name": "H4Retest_LB10_D12_W0.40_SL12_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 12.0,
+        "wick": 0.4,
+        "sl": 12.0,
+        "tp": 26.2,
+        "name": "H4Retest_LB10_D12_W0.40_SL12_TP26"
+      },
+      "disc_trades": 44,
+      "ann_trades": 43.2,
+      "disc_net_pips": 59.2,
+      "ann_pips": 58.1,
+      "win_rate": 40.9,
+      "profit_factor": 1.2
+    },
+    {
+      "name": "AsianSweep_D3.0_SL10_TP21_R11-49",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.0,
+        "sl": 10.5,
+        "tp": 21.0,
+        "min_rng": 11.2,
+        "max_rng": 48.8,
+        "name": "AsianSweep_D3.0_SL10_TP21_R11-49"
+      },
+      "disc_trades": 37,
+      "ann_trades": 36.3,
+      "disc_net_pips": 57.7,
+      "ann_pips": 56.7,
+      "win_rate": 40.5,
+      "profit_factor": 1.24
+    },
+    {
+      "name": "H4Retest_LB10_D15_W0.40_SL9_TP18",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 15.0,
+        "wick": 0.4,
+        "sl": 9.0,
+        "tp": 18.0,
+        "name": "H4Retest_LB10_D15_W0.40_SL9_TP18"
+      },
+      "disc_trades": 54,
+      "ann_trades": 53.0,
+      "disc_net_pips": 56.2,
+      "ann_pips": 55.1,
+      "win_rate": 40.7,
+      "profit_factor": 1.2
+    },
+    {
+      "name": "H4Retest_LB12_D15_W0.35_SL12_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 15.0,
+        "wick": 0.35,
+        "sl": 12.0,
+        "tp": 26.2,
+        "name": "H4Retest_LB12_D15_W0.35_SL12_TP26"
+      },
+      "disc_trades": 37,
+      "ann_trades": 36.3,
+      "disc_net_pips": 56.1,
+      "ann_pips": 55.0,
+      "win_rate": 43.2,
+      "profit_factor": 1.26
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.45_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.45,
+        "sl": 13.5,
+        "tp": 30.0,
+        "name": "H4Retest_LB8_D9_W0.45_SL14_TP30"
+      },
+      "disc_trades": 36,
+      "ann_trades": 35.3,
+      "disc_net_pips": 55.6,
+      "ann_pips": 54.5,
+      "win_rate": 41.7,
+      "profit_factor": 1.22
+    },
+    {
+      "name": "H4Retest_LB10_D15_W0.45_SL9_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 15.0,
+        "wick": 0.45,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H4Retest_LB10_D15_W0.45_SL9_TP21"
+      },
+      "disc_trades": 48,
+      "ann_trades": 47.1,
+      "disc_net_pips": 55.3,
+      "ann_pips": 54.2,
+      "win_rate": 37.5,
+      "profit_factor": 1.21
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.45_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.45,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H4Retest_LB8_D9_W0.45_SL11_TP22"
+      },
+      "disc_trades": 40,
+      "ann_trades": 39.2,
+      "disc_net_pips": 54.2,
+      "ann_pips": 53.2,
+      "win_rate": 42.5,
+      "profit_factor": 1.22
+    },
+    {
+      "name": "AsianSweep_D1.5_SL12_TP26_R11-49",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 1.5,
+        "sl": 12.0,
+        "tp": 26.2,
+        "min_rng": 11.2,
+        "max_rng": 48.8,
+        "name": "AsianSweep_D1.5_SL12_TP26_R11-49"
+      },
+      "disc_trades": 42,
+      "ann_trades": 41.2,
+      "disc_net_pips": 52.9,
+      "ann_pips": 51.9,
+      "win_rate": 40.5,
+      "profit_factor": 1.17
+    },
+    {
+      "name": "H1Retest_LB16_D8_W0.25_SL11_TP22",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "EURGBP",
+        "lb": 16,
+        "dist": 7.5,
+        "wick": 0.25,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H1Retest_LB16_D8_W0.25_SL11_TP22"
+      },
+      "disc_trades": 69,
+      "ann_trades": 67.7,
+      "disc_net_pips": 52.4,
+      "ann_pips": 51.4,
+      "win_rate": 43.5,
+      "profit_factor": 1.12
+    },
+    {
+      "name": "H4Retest_LB12_D12_W0.35_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 12.0,
+        "wick": 0.35,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB12_D12_W0.35_SL10_TP21"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 51.6,
+      "ann_pips": 50.6,
+      "win_rate": 42.4,
+      "profit_factor": 1.31
+    },
+    {
+      "name": "H4Retest_LB12_D12_W0.40_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 12.0,
+        "wick": 0.4,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB12_D12_W0.40_SL10_TP21"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 51.6,
+      "ann_pips": 50.6,
+      "win_rate": 42.4,
+      "profit_factor": 1.31
+    },
+    {
+      "name": "H4Retest_LB12_D15_W0.40_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 15.0,
+        "wick": 0.4,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB12_D15_W0.40_SL10_TP21"
+      },
+      "disc_trades": 37,
+      "ann_trades": 36.3,
+      "disc_net_pips": 50.3,
+      "ann_pips": 49.4,
+      "win_rate": 43.2,
+      "profit_factor": 1.26
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.40_SL9_TP18",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.4,
+        "sl": 9.0,
+        "tp": 18.0,
+        "name": "H4Retest_LB8_D9_W0.40_SL9_TP18"
+      },
+      "disc_trades": 44,
+      "ann_trades": 43.2,
+      "disc_net_pips": 50.1,
+      "ann_pips": 49.1,
+      "win_rate": 40.9,
+      "profit_factor": 1.21
+    },
+    {
+      "name": "H4Retest_LB10_D15_W0.40_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 15.0,
+        "wick": 0.4,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB10_D15_W0.40_SL10_TP21"
+      },
+      "disc_trades": 54,
+      "ann_trades": 53.0,
+      "disc_net_pips": 48.6,
+      "ann_pips": 47.7,
+      "win_rate": 40.7,
+      "profit_factor": 1.15
+    },
+    {
+      "name": "H4Retest_LB10_D15_W0.35_SL9_TP18",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 15.0,
+        "wick": 0.35,
+        "sl": 9.0,
+        "tp": 18.0,
+        "name": "H4Retest_LB10_D15_W0.35_SL9_TP18"
+      },
+      "disc_trades": 58,
+      "ann_trades": 56.9,
+      "disc_net_pips": 47.5,
+      "ann_pips": 46.6,
+      "win_rate": 39.7,
+      "profit_factor": 1.15
+    },
+    {
+      "name": "AsianSweep_D3.0_SL14_TP30_R8-30",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.0,
+        "sl": 13.5,
+        "tp": 30.0,
+        "min_rng": 7.5,
+        "max_rng": 30.0,
+        "name": "AsianSweep_D3.0_SL14_TP30_R8-30"
+      },
+      "disc_trades": 65,
+      "ann_trades": 63.8,
+      "disc_net_pips": 46.9,
+      "ann_pips": 46.0,
+      "win_rate": 38.5,
+      "profit_factor": 1.08
+    },
+    {
+      "name": "AsianSweep_D3.0_SL10_TP21_R9-38",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.0,
+        "sl": 10.5,
+        "tp": 21.0,
+        "min_rng": 9.0,
+        "max_rng": 37.5,
+        "name": "AsianSweep_D3.0_SL10_TP21_R9-38"
+      },
+      "disc_trades": 51,
+      "ann_trades": 50.0,
+      "disc_net_pips": 45.7,
+      "ann_pips": 44.8,
+      "win_rate": 39.2,
+      "profit_factor": 1.13
+    },
+    {
+      "name": "H4Retest_LB12_D15_W0.40_SL12_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 15.0,
+        "wick": 0.4,
+        "sl": 12.0,
+        "tp": 26.2,
+        "name": "H4Retest_LB12_D15_W0.40_SL12_TP26"
+      },
+      "disc_trades": 36,
+      "ann_trades": 35.3,
+      "disc_net_pips": 42.6,
+      "ann_pips": 41.8,
+      "win_rate": 41.7,
+      "profit_factor": 1.19
+    },
+    {
+      "name": "H4Retest_LB8_D15_W0.45_SL9_TP18",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 15.0,
+        "wick": 0.45,
+        "sl": 9.0,
+        "tp": 18.0,
+        "name": "H4Retest_LB8_D15_W0.45_SL9_TP18"
+      },
+      "disc_trades": 62,
+      "ann_trades": 60.8,
+      "disc_net_pips": 42.1,
+      "ann_pips": 41.3,
+      "win_rate": 37.1,
+      "profit_factor": 1.13
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.40_SL9_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.4,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H4Retest_LB8_D9_W0.40_SL9_TP21"
+      },
+      "disc_trades": 44,
+      "ann_trades": 43.2,
+      "disc_net_pips": 41.5,
+      "ann_pips": 40.7,
+      "win_rate": 38.6,
+      "profit_factor": 1.17
+    },
+    {
+      "name": "AsianSweep_D1.5_SL12_TP26_R8-30",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 1.5,
+        "sl": 12.0,
+        "tp": 26.2,
+        "min_rng": 7.5,
+        "max_rng": 30.0,
+        "name": "AsianSweep_D1.5_SL12_TP26_R8-30"
+      },
+      "disc_trades": 79,
+      "ann_trades": 77.5,
+      "disc_net_pips": 41.2,
+      "ann_pips": 40.4,
+      "win_rate": 38.0,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.40_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.4,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB8_D9_W0.40_SL10_TP21"
+      },
+      "disc_trades": 44,
+      "ann_trades": 43.2,
+      "disc_net_pips": 39.9,
+      "ann_pips": 39.1,
+      "win_rate": 40.9,
+      "profit_factor": 1.15
+    },
+    {
+      "name": "H4Retest_LB8_D12_W0.45_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 12.0,
+        "wick": 0.45,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB8_D12_W0.45_SL10_TP21"
+      },
+      "disc_trades": 53,
+      "ann_trades": 52.0,
+      "disc_net_pips": 39.9,
+      "ann_pips": 39.1,
+      "win_rate": 39.6,
+      "profit_factor": 1.13
+    },
+    {
+      "name": "H4Retest_LB10_D15_W0.40_SL9_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 15.0,
+        "wick": 0.4,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H4Retest_LB10_D15_W0.40_SL9_TP21"
+      },
+      "disc_trades": 54,
+      "ann_trades": 53.0,
+      "disc_net_pips": 39.5,
+      "ann_pips": 38.8,
+      "win_rate": 37.0,
+      "profit_factor": 1.13
+    },
+    {
+      "name": "H1Retest_LB16_D6_W0.30_SL11_TP22",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "EURGBP",
+        "lb": 16,
+        "dist": 6.0,
+        "wick": 0.3,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H1Retest_LB16_D6_W0.30_SL11_TP22"
+      },
+      "disc_trades": 49,
+      "ann_trades": 48.1,
+      "disc_net_pips": 37.9,
+      "ann_pips": 37.2,
+      "win_rate": 40.8,
+      "profit_factor": 1.11
+    },
+    {
+      "name": "H4Retest_LB10_D15_W0.35_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 15.0,
+        "wick": 0.35,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB10_D15_W0.35_SL10_TP21"
+      },
+      "disc_trades": 58,
+      "ann_trades": 56.9,
+      "disc_net_pips": 37.6,
+      "ann_pips": 36.9,
+      "win_rate": 39.7,
+      "profit_factor": 1.11
+    },
+    {
+      "name": "AsianSweep_D3.8_SL14_TP30_R11-49",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.8,
+        "sl": 13.5,
+        "tp": 30.0,
+        "min_rng": 11.2,
+        "max_rng": 48.8,
+        "name": "AsianSweep_D3.8_SL14_TP30_R11-49"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 34.0,
+      "ann_pips": 33.4,
+      "win_rate": 36.4,
+      "profit_factor": 1.12
+    },
+    {
+      "name": "H1Retest_LB16_D6_W0.35_SL8_TP16",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "EURGBP",
+        "lb": 16,
+        "dist": 6.0,
+        "wick": 0.35,
+        "sl": 8.2,
+        "tp": 16.5,
+        "name": "H1Retest_LB16_D6_W0.35_SL8_TP16"
+      },
+      "disc_trades": 46,
+      "ann_trades": 45.1,
+      "disc_net_pips": 34.1,
+      "ann_pips": 33.4,
+      "win_rate": 39.1,
+      "profit_factor": 1.14
+    },
+    {
+      "name": "H4Retest_LB8_D15_W0.45_SL10_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 15.0,
+        "wick": 0.45,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB8_D15_W0.45_SL10_TP21"
+      },
+      "disc_trades": 60,
+      "ann_trades": 58.9,
+      "disc_net_pips": 33.2,
+      "ann_pips": 32.6,
+      "win_rate": 38.3,
+      "profit_factor": 1.09
+    },
+    {
+      "name": "AsianSweep_D3.8_SL12_TP26_R11-49",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.8,
+        "sl": 12.0,
+        "tp": 26.2,
+        "min_rng": 11.2,
+        "max_rng": 48.8,
+        "name": "AsianSweep_D3.8_SL12_TP26_R11-49"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 33.0,
+      "ann_pips": 32.3,
+      "win_rate": 36.4,
+      "profit_factor": 1.13
+    },
+    {
+      "name": "H4Retest_LB10_D15_W0.35_SL9_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 15.0,
+        "wick": 0.35,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H4Retest_LB10_D15_W0.35_SL9_TP21"
+      },
+      "disc_trades": 58,
+      "ann_trades": 56.9,
+      "disc_net_pips": 32.8,
+      "ann_pips": 32.1,
+      "win_rate": 36.2,
+      "profit_factor": 1.1
+    },
+    {
+      "name": "H4Retest_LB8_D12_W0.45_SL9_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 12.0,
+        "wick": 0.45,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H4Retest_LB8_D12_W0.45_SL9_TP21"
+      },
+      "disc_trades": 53,
+      "ann_trades": 52.0,
+      "disc_net_pips": 32.6,
+      "ann_pips": 31.9,
+      "win_rate": 35.8,
+      "profit_factor": 1.11
+    },
+    {
+      "name": "H4Retest_LB12_D15_W0.45_SL9_TP18",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 15.0,
+        "wick": 0.45,
+        "sl": 9.0,
+        "tp": 18.0,
+        "name": "H4Retest_LB12_D15_W0.45_SL9_TP18"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 32.0,
+      "ann_pips": 31.4,
+      "win_rate": 39.4,
+      "profit_factor": 1.19
+    },
+    {
+      "name": "AsianSweep_D3.0_SL9_TP21_R11-49",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.0,
+        "sl": 9.0,
+        "tp": 21.0,
+        "min_rng": 11.2,
+        "max_rng": 48.8,
+        "name": "AsianSweep_D3.0_SL9_TP21_R11-49"
+      },
+      "disc_trades": 37,
+      "ann_trades": 36.3,
+      "disc_net_pips": 30.9,
+      "ann_pips": 30.3,
+      "win_rate": 35.1,
+      "profit_factor": 1.14
+    },
+    {
+      "name": "AsianSweep_D3.0_SL9_TP21_R9-38",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.0,
+        "sl": 9.0,
+        "tp": 21.0,
+        "min_rng": 9.0,
+        "max_rng": 37.5,
+        "name": "AsianSweep_D3.0_SL9_TP21_R9-38"
+      },
+      "disc_trades": 51,
+      "ann_trades": 50.0,
+      "disc_net_pips": 29.8,
+      "ann_pips": 29.2,
+      "win_rate": 35.3,
+      "profit_factor": 1.09
+    },
+    {
+      "name": "AsianSweep_D3.0_SL11_TP22_R9-38",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.0,
+        "sl": 11.2,
+        "tp": 22.5,
+        "min_rng": 9.0,
+        "max_rng": 37.5,
+        "name": "AsianSweep_D3.0_SL11_TP22_R9-38"
+      },
+      "disc_trades": 50,
+      "ann_trades": 49.1,
+      "disc_net_pips": 29.3,
+      "ann_pips": 28.7,
+      "win_rate": 38.0,
+      "profit_factor": 1.08
+    },
+    {
+      "name": "H4Retest_LB12_D15_W0.35_SL9_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 15.0,
+        "wick": 0.35,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H4Retest_LB12_D15_W0.35_SL9_TP21"
+      },
+      "disc_trades": 39,
+      "ann_trades": 38.3,
+      "disc_net_pips": 28.9,
+      "ann_pips": 28.4,
+      "win_rate": 38.5,
+      "profit_factor": 1.14
+    },
+    {
+      "name": "H1Retest_LB16_D6_W0.35_SL11_TP22",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "EURGBP",
+        "lb": 16,
+        "dist": 6.0,
+        "wick": 0.35,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H1Retest_LB16_D6_W0.35_SL11_TP22"
+      },
+      "disc_trades": 43,
+      "ann_trades": 42.2,
+      "disc_net_pips": 28.9,
+      "ann_pips": 28.3,
+      "win_rate": 41.9,
+      "profit_factor": 1.1
+    },
+    {
+      "name": "H4Retest_LB8_D15_W0.45_SL9_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 15.0,
+        "wick": 0.45,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H4Retest_LB8_D15_W0.45_SL9_TP21"
+      },
+      "disc_trades": 61,
+      "ann_trades": 59.8,
+      "disc_net_pips": 27.8,
+      "ann_pips": 27.2,
+      "win_rate": 34.4,
+      "profit_factor": 1.08
+    },
+    {
+      "name": "AsianSweep_D3.0_SL8_TP16_R9-38",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.0,
+        "sl": 8.2,
+        "tp": 16.5,
+        "min_rng": 9.0,
+        "max_rng": 37.5,
+        "name": "AsianSweep_D3.0_SL8_TP16_R9-38"
+      },
+      "disc_trades": 51,
+      "ann_trades": 50.0,
+      "disc_net_pips": 27.7,
+      "ann_pips": 27.1,
+      "win_rate": 37.3,
+      "profit_factor": 1.1
+    },
+    {
+      "name": "AsianSweep_D3.0_SL9_TP18_R9-38",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.0,
+        "sl": 9.0,
+        "tp": 18.0,
+        "min_rng": 9.0,
+        "max_rng": 37.5,
+        "name": "AsianSweep_D3.0_SL9_TP18_R9-38"
+      },
+      "disc_trades": 51,
+      "ann_trades": 50.0,
+      "disc_net_pips": 23.9,
+      "ann_pips": 23.4,
+      "win_rate": 37.3,
+      "profit_factor": 1.08
+    },
+    {
+      "name": "H4Retest_LB8_D12_W0.45_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 12.0,
+        "wick": 0.45,
+        "sl": 13.5,
+        "tp": 30.0,
+        "name": "H4Retest_LB8_D12_W0.45_SL14_TP30"
+      },
+      "disc_trades": 46,
+      "ann_trades": 45.1,
+      "disc_net_pips": 23.3,
+      "ann_pips": 22.8,
+      "win_rate": 39.1,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "H4Retest_LB8_D12_W0.45_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 12.0,
+        "wick": 0.45,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H4Retest_LB8_D12_W0.45_SL11_TP22"
+      },
+      "disc_trades": 52,
+      "ann_trades": 51.0,
+      "disc_net_pips": 22.8,
+      "ann_pips": 22.4,
+      "win_rate": 38.5,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "H4Retest_LB12_D15_W0.45_SL9_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 15.0,
+        "wick": 0.45,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H4Retest_LB12_D15_W0.45_SL9_TP21"
+      },
+      "disc_trades": 33,
+      "ann_trades": 32.4,
+      "disc_net_pips": 22.1,
+      "ann_pips": 21.6,
+      "win_rate": 36.4,
+      "profit_factor": 1.13
+    },
+    {
+      "name": "H4Retest_LB8_D12_W0.45_SL12_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 12.0,
+        "wick": 0.45,
+        "sl": 12.0,
+        "tp": 26.2,
+        "name": "H4Retest_LB8_D12_W0.45_SL12_TP26"
+      },
+      "disc_trades": 49,
+      "ann_trades": 48.1,
+      "disc_net_pips": 21.7,
+      "ann_pips": 21.3,
+      "win_rate": 38.8,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "H4Retest_LB10_D15_W0.45_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 15.0,
+        "wick": 0.45,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H4Retest_LB10_D15_W0.45_SL11_TP22"
+      },
+      "disc_trades": 47,
+      "ann_trades": 46.1,
+      "disc_net_pips": 20.8,
+      "ann_pips": 20.4,
+      "win_rate": 38.3,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.40_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.4,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H4Retest_LB8_D9_W0.40_SL11_TP22"
+      },
+      "disc_trades": 43,
+      "ann_trades": 42.2,
+      "disc_net_pips": 19.4,
+      "ann_pips": 19.0,
+      "win_rate": 39.5,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "AsianSweep_D2.2_SL14_TP30_R9-38",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 2.2,
+        "sl": 13.5,
+        "tp": 30.0,
+        "min_rng": 9.0,
+        "max_rng": 37.5,
+        "name": "AsianSweep_D2.2_SL14_TP30_R9-38"
+      },
+      "disc_trades": 53,
+      "ann_trades": 52.0,
+      "disc_net_pips": 17.8,
+      "ann_pips": 17.4,
+      "win_rate": 35.8,
+      "profit_factor": 1.04
+    },
+    {
+      "name": "H1Retest_LB16_D8_W0.35_SL11_TP22",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "EURGBP",
+        "lb": 16,
+        "dist": 7.5,
+        "wick": 0.35,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H1Retest_LB16_D8_W0.35_SL11_TP22"
+      },
+      "disc_trades": 56,
+      "ann_trades": 54.9,
+      "disc_net_pips": 17.7,
+      "ann_pips": 17.3,
+      "win_rate": 42.9,
+      "profit_factor": 1.05
+    },
+    {
+      "name": "H1Retest_LB16_D8_W0.35_SL8_TP16",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "EURGBP",
+        "lb": 16,
+        "dist": 7.5,
+        "wick": 0.35,
+        "sl": 8.2,
+        "tp": 16.5,
+        "name": "H1Retest_LB16_D8_W0.35_SL8_TP16"
+      },
+      "disc_trades": 60,
+      "ann_trades": 58.9,
+      "disc_net_pips": 17.5,
+      "ann_pips": 17.2,
+      "win_rate": 38.3,
+      "profit_factor": 1.06
+    },
+    {
+      "name": "H1Retest_LB16_D6_W0.35_SL8_TP15",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "EURGBP",
+        "lb": 16,
+        "dist": 6.0,
+        "wick": 0.35,
+        "sl": 7.5,
+        "tp": 15.0,
+        "name": "H1Retest_LB16_D6_W0.35_SL8_TP15"
+      },
+      "disc_trades": 48,
+      "ann_trades": 47.1,
+      "disc_net_pips": 16.9,
+      "ann_pips": 16.5,
+      "win_rate": 37.5,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "NYSweep_D3.4_SL9_TP18_R11-49",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.4,
+        "sl": 9.0,
+        "tp": 18.0,
+        "min_rng": 11.2,
+        "max_rng": 48.8,
+        "name": "NYSweep_D3.4_SL9_TP18_R11-49"
+      },
+      "disc_trades": 32,
+      "ann_trades": 31.4,
+      "disc_net_pips": 15.6,
+      "ann_pips": 15.3,
+      "win_rate": 40.6,
+      "profit_factor": 1.08
+    },
+    {
+      "name": "H4Retest_LB8_D12_W0.35_SL9_TP18",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 12.0,
+        "wick": 0.35,
+        "sl": 9.0,
+        "tp": 18.0,
+        "name": "H4Retest_LB8_D12_W0.35_SL9_TP18"
+      },
+      "disc_trades": 61,
+      "ann_trades": 59.8,
+      "disc_net_pips": 15.6,
+      "ann_pips": 15.3,
+      "win_rate": 36.1,
+      "profit_factor": 1.05
+    },
+    {
+      "name": "H4Retest_LB12_D15_W0.40_SL9_TP21",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 15.0,
+        "wick": 0.4,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H4Retest_LB12_D15_W0.40_SL9_TP21"
+      },
+      "disc_trades": 38,
+      "ann_trades": 37.3,
+      "disc_net_pips": 15.5,
+      "ann_pips": 15.2,
+      "win_rate": 36.8,
+      "profit_factor": 1.08
+    },
+    {
+      "name": "H4Retest_LB8_D12_W0.40_SL9_TP18",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 12.0,
+        "wick": 0.4,
+        "sl": 9.0,
+        "tp": 18.0,
+        "name": "H4Retest_LB8_D12_W0.40_SL9_TP18"
+      },
+      "disc_trades": 58,
+      "ann_trades": 56.9,
+      "disc_net_pips": 15.1,
+      "ann_pips": 14.8,
+      "win_rate": 36.2,
+      "profit_factor": 1.05
+    },
+    {
+      "name": "AsianSweep_D1.5_SL12_TP26_R9-38",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 1.5,
+        "sl": 12.0,
+        "tp": 26.2,
+        "min_rng": 9.0,
+        "max_rng": 37.5,
+        "name": "AsianSweep_D1.5_SL12_TP26_R9-38"
+      },
+      "disc_trades": 61,
+      "ann_trades": 59.8,
+      "disc_net_pips": 14.5,
+      "ann_pips": 14.2,
+      "win_rate": 37.7,
+      "profit_factor": 1.03
+    },
+    {
+      "name": "H4Retest_LB12_D15_W0.35_SL9_TP18",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 12,
+        "dist": 15.0,
+        "wick": 0.35,
+        "sl": 9.0,
+        "tp": 18.0,
+        "name": "H4Retest_LB12_D15_W0.35_SL9_TP18"
+      },
+      "disc_trades": 39,
+      "ann_trades": 38.3,
+      "disc_net_pips": 13.1,
+      "ann_pips": 12.8,
+      "win_rate": 38.5,
+      "profit_factor": 1.06
+    },
+    {
+      "name": "NYSweep_D3.4_SL8_TP16_R11-49",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.4,
+        "sl": 8.2,
+        "tp": 16.5,
+        "min_rng": 11.2,
+        "max_rng": 48.8,
+        "name": "NYSweep_D3.4_SL8_TP16_R11-49"
+      },
+      "disc_trades": 32,
+      "ann_trades": 31.4,
+      "disc_net_pips": 11.4,
+      "ann_pips": 11.2,
+      "win_rate": 40.6,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "AsianSweep_D2.2_SL14_TP30_R8-30",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 2.2,
+        "sl": 13.5,
+        "tp": 30.0,
+        "min_rng": 7.5,
+        "max_rng": 30.0,
+        "name": "AsianSweep_D2.2_SL14_TP30_R8-30"
+      },
+      "disc_trades": 70,
+      "ann_trades": 68.7,
+      "disc_net_pips": 11.3,
+      "ann_pips": 11.1,
+      "win_rate": 35.7,
+      "profit_factor": 1.02
+    },
+    {
+      "name": "H4Retest_LB10_D15_W0.45_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 15.0,
+        "wick": 0.45,
+        "sl": 13.5,
+        "tp": 30.0,
+        "name": "H4Retest_LB10_D15_W0.45_SL14_TP30"
+      },
+      "disc_trades": 42,
+      "ann_trades": 41.2,
+      "disc_net_pips": 11.3,
+      "ann_pips": 11.1,
+      "win_rate": 38.1,
+      "profit_factor": 1.04
+    },
+    {
+      "name": "H4Retest_LB10_D15_W0.40_SL11_TP22",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 15.0,
+        "wick": 0.4,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H4Retest_LB10_D15_W0.40_SL11_TP22"
+      },
+      "disc_trades": 52,
+      "ann_trades": 51.0,
+      "disc_net_pips": 9.7,
+      "ann_pips": 9.6,
+      "win_rate": 38.5,
+      "profit_factor": 1.03
+    },
+    {
+      "name": "H1Retest_LB16_D6_W0.35_SL9_TP21",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "EURGBP",
+        "lb": 16,
+        "dist": 6.0,
+        "wick": 0.35,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H1Retest_LB16_D6_W0.35_SL9_TP21"
+      },
+      "disc_trades": 45,
+      "ann_trades": 44.2,
+      "disc_net_pips": 9.7,
+      "ann_pips": 9.5,
+      "win_rate": 35.6,
+      "profit_factor": 1.04
+    },
+    {
+      "name": "AsianSweep_D3.0_SL8_TP16_R11-49",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.0,
+        "sl": 8.2,
+        "tp": 16.5,
+        "min_rng": 11.2,
+        "max_rng": 48.8,
+        "name": "AsianSweep_D3.0_SL8_TP16_R11-49"
+      },
+      "disc_trades": 37,
+      "ann_trades": 36.3,
+      "disc_net_pips": 8.8,
+      "ann_pips": 8.7,
+      "win_rate": 35.1,
+      "profit_factor": 1.04
+    },
+    {
+      "name": "H4Retest_LB10_D15_W0.45_SL12_TP26",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 15.0,
+        "wick": 0.45,
+        "sl": 12.0,
+        "tp": 26.2,
+        "name": "H4Retest_LB10_D15_W0.45_SL12_TP26"
+      },
+      "disc_trades": 42,
+      "ann_trades": 41.2,
+      "disc_net_pips": 8.2,
+      "ann_pips": 8.1,
+      "win_rate": 38.1,
+      "profit_factor": 1.03
+    },
+    {
+      "name": "H1Retest_LB16_D8_W0.30_SL11_TP22",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "EURGBP",
+        "lb": 16,
+        "dist": 7.5,
+        "wick": 0.3,
+        "sl": 11.2,
+        "tp": 22.5,
+        "name": "H1Retest_LB16_D8_W0.30_SL11_TP22"
+      },
+      "disc_trades": 63,
+      "ann_trades": 61.8,
+      "disc_net_pips": 8.0,
+      "ann_pips": 7.8,
+      "win_rate": 41.3,
+      "profit_factor": 1.02
+    },
+    {
+      "name": "AsianSweep_D1.5_SL11_TP22_R9-38",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 1.5,
+        "sl": 11.2,
+        "tp": 22.5,
+        "min_rng": 9.0,
+        "max_rng": 37.5,
+        "name": "AsianSweep_D1.5_SL11_TP22_R9-38"
+      },
+      "disc_trades": 61,
+      "ann_trades": 59.8,
+      "disc_net_pips": 7.2,
+      "ann_pips": 7.1,
+      "win_rate": 37.7,
+      "profit_factor": 1.02
+    },
+    {
+      "name": "NYSweep_D3.4_SL8_TP15_R11-49",
+      "family": "NY_SWEEP",
+      "cand": {
+        "family": "NY_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.4,
+        "sl": 7.5,
+        "tp": 15.0,
+        "min_rng": 11.2,
+        "max_rng": 48.8,
+        "name": "NYSweep_D3.4_SL8_TP15_R11-49"
+      },
+      "disc_trades": 32,
+      "ann_trades": 31.4,
+      "disc_net_pips": 6.4,
+      "ann_pips": 6.3,
+      "win_rate": 40.6,
+      "profit_factor": 1.04
+    },
+    {
+      "name": "AsianSweep_D3.0_SL9_TP18_R11-49",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 3.0,
+        "sl": 9.0,
+        "tp": 18.0,
+        "min_rng": 11.2,
+        "max_rng": 48.8,
+        "name": "AsianSweep_D3.0_SL9_TP18_R11-49"
+      },
+      "disc_trades": 37,
+      "ann_trades": 36.3,
+      "disc_net_pips": 2.1,
+      "ann_pips": 2.1,
+      "win_rate": 35.1,
+      "profit_factor": 1.01
+    },
+    {
+      "name": "H1Retest_LB16_D6_W0.30_SL8_TP16",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "EURGBP",
+        "lb": 16,
+        "dist": 6.0,
+        "wick": 0.3,
+        "sl": 8.2,
+        "tp": 16.5,
+        "name": "H1Retest_LB16_D6_W0.30_SL8_TP16"
+      },
+      "disc_trades": 52,
+      "ann_trades": 51.0,
+      "disc_net_pips": 1.3,
+      "ann_pips": 1.3,
+      "win_rate": 34.6,
+      "profit_factor": 1.0
+    },
+    {
+      "name": "AsianSweep_D1.5_SL10_TP21_R11-49",
+      "family": "ASIAN_SWEEP",
+      "cand": {
+        "family": "ASIAN_SWEEP",
+        "symbol": "EURGBP",
+        "delta": 1.5,
+        "sl": 10.5,
+        "tp": 21.0,
+        "min_rng": 11.2,
+        "max_rng": 48.8,
+        "name": "AsianSweep_D1.5_SL10_TP21_R11-49"
+      },
+      "disc_trades": 42,
+      "ann_trades": 41.2,
+      "disc_net_pips": 1.2,
+      "ann_pips": 1.2,
+      "win_rate": 38.1,
+      "profit_factor": 1.0
+    },
+    {
+      "name": "H1Retest_LB16_D6_W0.25_SL9_TP21",
+      "family": "H1_RETEST",
+      "cand": {
+        "family": "H1_RETEST",
+        "symbol": "EURGBP",
+        "lb": 16,
+        "dist": 6.0,
+        "wick": 0.25,
+        "sl": 9.0,
+        "tp": 21.0,
+        "name": "H1Retest_LB16_D6_W0.25_SL9_TP21"
+      },
+      "disc_trades": 55,
+      "ann_trades": 54.0,
+      "disc_net_pips": 0.5,
+      "ann_pips": 0.5,
+      "win_rate": 32.7,
+      "profit_factor": 1.0
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.40_SL14_TP30",
+      "family": "H4_RETEST",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.4,
+        "sl": 13.5,
+        "tp": 30.0,
+        "name": "H4Retest_LB8_D9_W0.40_SL14_TP30"
+      },
+      "disc_trades": 38,
+      "ann_trades": 37.3,
+      "disc_net_pips": 0.6,
+      "ann_pips": 0.5,
+      "win_rate": 36.8,
+      "profit_factor": 1.0
+    }
+  ],
+  "holdout_champions": [
+    {
+      "name": "H4Retest_LB10_D9_W0.35_SL14_TP30",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 10,
+        "dist": 9.0,
+        "wick": 0.35,
+        "sl": 13.5,
+        "tp": 30.0,
+        "name": "H4Retest_LB10_D9_W0.35_SL14_TP30"
+      },
+      "holdout_trades": 72,
+      "ann_trades": 41.6,
+      "holdout_net_pips": 38.2,
+      "win_rate": 33.3,
+      "profit_factor": 1.06
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.35_SL10_TP21",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.35,
+        "sl": 10.5,
+        "tp": 21.0,
+        "name": "H4Retest_LB8_D9_W0.35_SL10_TP21"
+      },
+      "holdout_trades": 97,
+      "ann_trades": 56.0,
+      "holdout_net_pips": 65.2,
+      "win_rate": 34.0,
+      "profit_factor": 1.1
+    },
+    {
+      "name": "H4Retest_LB8_D9_W0.35_SL14_TP30",
+      "cand": {
+        "family": "H4_RETEST",
+        "symbol": "EURGBP",
+        "lb": 8,
+        "dist": 9.0,
+        "wick": 0.35,
+        "sl": 13.5,
+        "tp": 30.0,
+        "name": "H4Retest_LB8_D9_W0.35_SL14_TP30"
+      },
+      "holdout_trades": 92,
+      "ann_trades": 53.2,
+      "holdout_net_pips": 178.9,
+      "win_rate": 37.0,
+      "profit_factor": 1.24
+    }
+  ]
+}

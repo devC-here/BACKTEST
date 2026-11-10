@@ -1,0 +1,9 @@
+strategy_id,strategy_name,timeframe,allocation_weight,target_rr,realized_rr,win_rate_pct,total_5y_trades,annual_trades,train_net_pips,test_net_pips,total_5y_net_pips,max_drawdown_pips,ulcer_index_pips,martin_ratio,max_underwater_weeks,avg_recovery_weeks,production_status
+HF_M15,HighFrequency M15 Scalper Elite,M15,0.8x,2.20,1.96,35.7,1903,381,790.4,965.5,1755.9,336.5,106.8,3.26,71,11.7,ACTIVE_CHAMPION
+S66_44MA,S66 Bhanushali 44 MA Elite,H1,1.5x,3.40,3.45,40.7,123,25,785.6,368.3,1153.9,221.0,67.8,3.38,54,9.4,ACTIVE_CHAMPION
+S10_EMA,S10 Dual EMA Pullback Elite,H1,1.5x,2.20,2.18,33.0,176,35,161.9,641.7,803.6,171.8,80.3,1.99,92,18.8,ACTIVE_CHAMPION
+S14_IB,S14 Inside Bar M30 Elite,M30,2.0x,2.50,2.50,36.8,171,34,325.4,391.9,717.3,159.0,52.3,2.72,46,9.2,ACTIVE_CHAMPION
+S34_HA,S34 Heikin Ashi Momentum Elite,H1,0.0x,2.20,2.05,30.2,235,47,84.9,420.4,505.3,328.1,151.4,0.66,93,18.4,SIDELINED_DRAG
+S01_M15,S01 M15 Displacement Retest Elite,M15,0.0x,2.00,1.82,27.5,425,85,67.3,97.7,165.0,382.2,149.8,0.22,124,35.4,SIDELINED_DRAG
+V12_PRIME,Institutional Prime Sweep V12,M15,0.0x,2.50,1.95,25.2,131,26,-362.8,315.8,-47.0,433.6,210.5,-0.10,140,42.0,REJECTED
+FLEET_CONSOLIDATED,Corrected Institutional Production Fleet,Multi-TF,100%,2.45,2.38,36.5,2373,475,2940.5,3782.3,6722.8,432.5,140.9,9.47,26,6.1,PRODUCTION_APPROVED

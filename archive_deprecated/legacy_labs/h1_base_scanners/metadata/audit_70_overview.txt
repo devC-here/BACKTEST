@@ -1,0 +1,494 @@
+[ 1] ict_breaker            (forex_ict_breaker_block_scanner.py) | Vid: B-Y_5S0kVpQ
+     Desc SL: ['ICT yaani Inner Circle Trader concepts mein ek aisi strategy hai jo bahut kam traders jaante hain aur isliye iska fayda nahi utha paate. Maine is strategy ka Python pe algo bana ke broker ki API se data liya aur ek saal ka backtest kiya.', '✅ Stop-Loss: Breaker Block zone ke thoda upar']
+     Desc TP: ['Link: https://www.youtube.com/shorts/B-Y_5S0kVpQ', '✅ Target: Fixed 1:2 Risk Reward (koi partial exits nahi, koi trailing nahi)']
+     Desc RR: ['✅ Target: Fixed 1:2 Risk Reward (koi partial exits nahi, koi trailing nahi)']
+     Code SL: ['sl = zone_top + (2.5 * PIP_SIZE)', 'sl = zone_bot - (2.5 * PIP_SIZE)']
+     Code TP: ['tp = entry - (risk * RISK_REWARD_RATIO)', 'tp = entry + (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.0           # 1:2 Risk-to-Reward', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[ 2] ict_order_block        (forex_ict_order_block_scanner.py) | Vid: 4W3SUtxl0u8
+     Desc SL: ['✅ Stop-Loss: Daily OB midpoint se thoda neeche', 'Automation ya backtesting ke liye 1-1 video session book karna chahte ho? Telegram ya Instagram pe "Session" message karo. Video session chargeable hai -- session pe sab kuch discuss aur finalise hoga quickly. Hazaaron enquiries ki wajah se genuine requirements waale reh jaate the, isliye ab yeh process hai.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/4W3SUtxl0u8', '✅ Target: Daily chart ka major liquidity level']
+     Code SL: ['sl = invalidation - (2.0 * PIP_SIZE)', 'sl = invalidation + (2.0 * PIP_SIZE)']
+     Code TP: ['tp = entry + (risk * RISK_REWARD_RATIO)', 'tp = entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.0           # 1:2 Risk-to-Reward', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[ 3] tg_capital_london      (indicator_tg_capital_london_fvg_scanner.py) | Vid: _bdNNLDEyOU
+     Desc TP: ['Link: https://www.youtube.com/shorts/_bdNNLDEyOU']
+     Code SL: ['sl = bull_fvg[2] - (2.0 * PIP_SIZE)', 'sl = bear_fvg[2] + (2.0 * PIP_SIZE)']
+     Code TP: ['tp = entry + (risk * RISK_REWARD_RATIO)', 'tp = entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.5', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[ 4] william_fractal        (forex_william_fractal_scanner.py) | Vid: _0d1qw3p-wQ
+     Desc SL: ['✅ Stop-Loss: Breakout ke baad jo highest wick bani uske thoda upar']
+     Desc TP: ['Link: https://www.youtube.com/shorts/_0d1qw3p-wQ', '✅ Target: Fixed 1:2 Risk Reward']
+     Desc RR: ['✅ Target: Fixed 1:2 Risk Reward']
+     Code SL: ['sl = highest_wick + (2.0 * PIP_SIZE)', 'sl = lowest_wick - (2.0 * PIP_SIZE)']
+     Code TP: ['tp = entry - (risk * RISK_REWARD_RATIO)', 'tp = entry + (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.0           # 1:2 Risk-to-Reward', 'print(f" Risk/Reward:     1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[ 5] slc_supply_demand      (forex_slc_supply_demand_scanner.py) | Vid: snzJ4zWZXno
+     Desc SL: ['Demand supply pe bahut traders position lete hain lekin loss phir bhi hota hai. Kyunki akela zone kuch nahi karta. Iske saath poora process chahiye -- yahi SLC framework karta hai.', '✅ Stop-Loss: Demand Zone ke thoda neeche']
+     Desc TP: ['Link: https://www.youtube.com/shorts/snzJ4zWZXno', '✅ Target: 1:2 Risk Reward fixed']
+     Desc RR: ['✅ Target: 1:2 Risk Reward fixed']
+     Code SL: ['sl = zone_bot - (2.0 * PIP_SIZE)', 'sl = zone_top + (2.0 * PIP_SIZE)']
+     Code TP: ['tp = entry + (risk * RISK_REWARD_RATIO)', 'tp = entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.0           # 1:2 Risk-to-Reward', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[ 6] fibonacci_golden       (indicator_fibonacci_golden_zone_scanner.py) | Vid: epI1Clb4r54
+     Desc SL: ['Risk Management Guidelines: Placing strict protective stop loss limits right above the macro 0.786 Fibonacci boundary and configuring execution targets at a fixed 1:2 risk-reward distribution.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/epI1Clb4r54', 'Risk Management Guidelines: Placing strict protective stop loss limits right above the macro 0.786 Fibonacci boundary and configuring execution targets at a fixed 1:2 risk-reward distribution.']
+     Desc RR: ['Risk Management Guidelines: Placing strict protective stop loss limits right above the macro 0.786 Fibonacci boundary and configuring execution targets at a fixed 1:2 risk-reward distribution.']
+     Code SL: ['sl = fib_786 - (2.0 * PIP_SIZE)', 'sl = fib_786 + (2.0 * PIP_SIZE)']
+     Code TP: ['tp = entry + (risk * RISK_REWARD_RATIO)', 'tp = entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.0', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[ 7] stockburner_tl         (indicator_stockburner_trendline_scanner.py) | Vid: Q2EyAXyrcV0
+     Desc SL: ['✅ Stop-Loss: Neeche wale swing low ke thoda neeche', '✅ Target fixed nahi. Jab tak trend chale, SL trail karte jao har naye swing low ke neeche']
+     Desc TP: ['Link: https://www.youtube.com/shorts/Q2EyAXyrcV0', '✅ Target fixed nahi. Jab tak trend chale, SL trail karte jao har naye swing low ke neeche']
+     Desc RR: ['Stock Burner ke 1.27M YouTube subscribers aur 1.5M Instagram followers hain. Unhone 2026 ke liye ek strategy share ki jisme 1:20 aur 1:33 tak ke risk reward ka claim hai. Maine Python pe algo bana ke broker ki API se data liya aur yeh claim test kiya.']
+     Code SL: ['sl = recent_low - (2.0 * PIP_SIZE)', 'sl = recent_high + (2.0 * PIP_SIZE)']
+     Code TP: ['tp = entry + (risk * RISK_REWARD_RATIO)', 'tp = entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.5', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[ 8] smart_money_gold       (indicator_smart_money_gold_scanner.py) | Vid: zBvUf9v4EtU
+     Desc TP: ['Link: https://www.youtube.com/shorts/zBvUf9v4EtU']
+     Code SL: ['sl = z_bot - (4.0 * PIP_SIZE)', 'sl = z_top + (4.0 * PIP_SIZE)']
+     Code TP: ['tp = entry + (risk * RISK_REWARD_RATIO)', 'tp = entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.0', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[ 9] 833_ema                (forex_833_ema_scanner.py) | Vid: FaHKCazt49A
+     Desc SL: ['✅ 5M chart pe EMA 8 (fast) aur EMA 33 (slow) lagao', '✅ Stop-Loss: Recent swing low ke thoda neeche']
+     Desc TP: ['Link: https://www.youtube.com/shorts/FaHKCazt49A', '✅ Target: Agle major resistance zone tak']
+     Code SL: ['sl = recent_low - (2.0 * PIP_SIZE)', 'sl = recent_high + (2.0 * PIP_SIZE)']
+     Code TP: ['tp = entry + (risk * RISK_REWARD_RATIO)', 'tp = entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.0           # 1:2 Risk-to-Reward', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[10] 20_200_ema             (forex_20_200_ema_scanner.py) | Vid: R7kX_T4ZtNo
+     Desc SL: ['Backtest results: 320 total trades, win rate 37.5%, profit factor 1.61, total return 52.8%, max drawdown -14.4% — bina brokerage/slippage cost ke.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/R7kX_T4ZtNo', 'Strategy ka core logic simple hai: EMA 20 aur EMA 200 ka combination, 5-minute timeframe pe. Jab price 200 EMA ke upar trade kare aur 20 EMA bhi 200 ke upar ho, sirf long trades plan karni hain. Price jab pullback dekar 20 EMA ke paas wapas close de, wahi entry trigger hai. Stoploss 2x ATR(14) pe, aur target 1:2 se 1:3 ke R-multiple pe rakha gaya hai. Short setup bilkul mirror logic follow karta hai, 200 EMA ke neeche.']
+     Desc RR: ['Strategy ka core logic simple hai: EMA 20 aur EMA 200 ka combination, 5-minute timeframe pe. Jab price 200 EMA ke upar trade kare aur 20 EMA bhi 200 ke upar ho, sirf long trades plan karni hain. Price jab pullback dekar 20 EMA ke paas wapas close de, wahi entry trigger hai. Stoploss 2x ATR(14) pe, aur target 1:2 se 1:3 ke R-multiple pe rakha gaya hai. Short setup bilkul mirror logic follow karta hai, 200 EMA ke neeche.']
+     Code SL: ['sl = entry - sl_dist', 'sl = entry + sl_dist']
+     Code TP: ['tp = entry + (sl_dist * RISK_REWARD_RATIO)', 'tp = entry - (sl_dist * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.0           # 1:2 Risk-to-Reward', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[11] 50_ema_rejection       (indicator_50_ema_rejection_scanner.py) | Vid: AKuM1cTgPks
+     Desc SL: ['SL: Engulfing candle ya red candle ka jo bhi neeche']
+     Desc TP: ['Link: https://www.youtube.com/shorts/AKuM1cTgPks', 'Target: Next resistance ya rejection level.']
+     Code SL: ["sl = rejection_bar['low'] - (2.0 * PIP_SIZE)", "sl = rejection_bar['high'] + (2.0 * PIP_SIZE)"]
+     Code TP: ['tp = entry + (risk * RISK_REWARD_RATIO)', 'tp = entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.0', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[12] subasish_5_ema         (indicator_subasish_5_ema_scanner.py) | Vid: ttSbBzKmXyc
+     Desc TP: ['Link: https://www.youtube.com/shorts/ttSbBzKmXyc', "So, we will go to trading view platform, we will take 5 minute timeframe chart for short selling, futures short, PE Buy or CE short trades, add 5 EMA indicator on it, and any candle which closes  above 5 EMA line and also the low of that candle doesn't touch the 5 EMA line, then that candle is called an Alert Candle, and any next candle which breakout of the 5 EMA line, then entry will be taken at  that breakout candle, Stoploss will be previous Alert Candle high and target will be decided by Risk: Reward ratio of 1:3."]
+     Desc RR: ["So, we will go to trading view platform, we will take 5 minute timeframe chart for short selling, futures short, PE Buy or CE short trades, add 5 EMA indicator on it, and any candle which closes  above 5 EMA line and also the low of that candle doesn't touch the 5 EMA line, then that candle is called an Alert Candle, and any next candle which breakout of the 5 EMA line, then entry will be taken at  that breakout candle, Stoploss will be previous Alert Candle high and target will be decided by Risk: Reward ratio of 1:3."]
+     Code SL: ["sl = alert_bar_m5['high'] + (2.0 * PIP_SIZE)", "sl = alert_bar_m15['low'] - (2.0 * PIP_SIZE)"]
+     Code TP: ['tp = entry - (risk * RISK_REWARD_RATIO)', 'tp = entry + (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 3.0              # Fixed 1:3 RR', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[13] 10_ema_anant_ladha     (indicator_10_ema_anant_ladha_scanner.py) | Vid: FYfQqZ3bM6g
+     Desc TP: ['Link: https://www.youtube.com/shorts/FYfQqZ3bM6g', 'Stoploss fixed price pe nahi, balki 10 EMA line khud stoploss ka kaam karti hai. Trade tab tak chalta rahta hai jab tak koi candle 10 EMA ke neeche close na kare. Isi wajah se is strategy mein fixed target nahi hota — Anant Ladha ke mutabik isse 1:4, 1:5, aur kabhi kabhi 1:10 tak ka risk reward bhi mil sakta hai.']
+     Desc RR: ['Stoploss fixed price pe nahi, balki 10 EMA line khud stoploss ka kaam karti hai. Trade tab tak chalta rahta hai jab tak koi candle 10 EMA ke neeche close na kare. Isi wajah se is strategy mein fixed target nahi hota — Anant Ladha ke mutabik isse 1:4, 1:5, aur kabhi kabhi 1:10 tak ka risk reward bhi mil sakta hai.', 'Average Risk Reward: 1:3']
+     Code SL: ["sl = min(alert_bar['low'], alert_bar['ema10']) - (2.0 * PIP_SIZE)", "sl = max(alert_bar['high'], alert_bar['ema10']) + (2.0 * PIP_SIZE)"]
+     Code TP: ['tp = entry + (risk * RISK_REWARD_RATIO)', 'tp = entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 3.0          # High RR trend runner (1:3 to 1:5)', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[14] rayner_inside_bar      (indicator_rayner_teo_inside_bar_scanner.py) | Vid: r-0XAsrQR-I
+     Desc TP: ['Link: https://www.youtube.com/shorts/r-0XAsrQR-I', 'We will open daily timeframe chart of a liquid stock on trading view, put EMA 10 indicator on it, and when the price moves above EMA 10 indicator, then we will find inside bar candle which is a candle which easily fits inside high and low of the previous candle, thus it is called inside bar candle and the larger bar is called Mother candle. And, as soon as the breakout happens on high of the mother candle, we take BUY trade, with stoploss a notch below low of the inside bar candle and target decided by risk reward ratio of 1:2 to 1:3.']
+     Desc RR: ['We will open daily timeframe chart of a liquid stock on trading view, put EMA 10 indicator on it, and when the price moves above EMA 10 indicator, then we will find inside bar candle which is a candle which easily fits inside high and low of the previous candle, thus it is called inside bar candle and the larger bar is called Mother candle. And, as soon as the breakout happens on high of the mother candle, we take BUY trade, with stoploss a notch below low of the inside bar candle and target decided by risk reward ratio of 1:2 to 1:3.']
+     Code SL: ["sl = inside_bar['low'] - (2.0 * PIP_SIZE)", "sl = inside_bar['high'] + (2.0 * PIP_SIZE)"]
+     Code TP: ['tp = entry + (risk * RISK_REWARD_RATIO)', 'tp = entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.5', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[15] 8_20_ema_scalp         (indicator_8_20_ema_scalp_scanner.py) | Vid: uDGXfF1kjHI
+     Desc TP: ['Link: https://www.youtube.com/shorts/uDGXfF1kjHI', 'Exit Criteria: No fixed target, hold the trend and exit instantly when any candle closes decisively below the 8 EMA.']
+     Desc RR: ['Managing drawdown and risk reward ratio in Nifty and Bank Nifty options buying']
+     Code SL: ['sl = recent_low - (2.0 * PIP_SIZE)', 'sl = recent_high + (2.0 * PIP_SIZE)']
+     Code TP: ['tp = entry + (risk * RISK_REWARD_RATIO)', 'tp = entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.0', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[16] stoch_200_ema          (indicator_stochastic_200_ema_scanner.py) | Vid: _cMfadzVxpo
+     Desc TP: ['Link: https://www.youtube.com/shorts/_cMfadzVxpo', 'Stochastic intraday strategy logic is that we take 15 minute timeframe on any instrument like stocks, index, crypto, forex or commodity. Then add two indicators namely Exponential moving average (EMA) of length 200 and stochastic indicator.When the candle is moving above EMA 200 line and both the lines of stochastic indicator is below 20 and then breaks out of 20 level then we take entry at the closing price of the corresponding candle, with stoploss at recent swinh low and target decided by 1:2 risk reward ratio..']
+     Desc RR: ['Stochastic intraday strategy logic is that we take 15 minute timeframe on any instrument like stocks, index, crypto, forex or commodity. Then add two indicators namely Exponential moving average (EMA) of length 200 and stochastic indicator.When the candle is moving above EMA 200 line and both the lines of stochastic indicator is below 20 and then breaks out of 20 level then we take entry at the closing price of the corresponding candle, with stoploss at recent swinh low and target decided by 1:2 risk reward ratio..']
+     Code SL: ['sl = recent_low - (2.0 * PIP_SIZE)', 'sl = recent_high + (2.0 * PIP_SIZE)']
+     Code TP: ['tp = entry + (risk * RISK_REWARD_RATIO)', 'tp = entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.0', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[17] rayner_teo_sma_rsi     (indicator_rayner_teo_sma_rsi_scanner.py) | Vid: xLTliEACIQc
+     Desc SL: ['Stop Loss — Recent swing low ke thoda neeche.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/xLTliEACIQc']
+     Code SL: ['sl = recent_low - (2.0 * PIP_SIZE)', 'sl = recent_high + (2.0 * PIP_SIZE)']
+     Code TP: ['tp = entry + (risk * RISK_REWARD_RATIO)', 'tp = entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.0', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[18] macd_momentum          (indicator_macd_momentum_scanner.py) | Vid: aUKmS6ZDeq4
+     Desc SL: ['Advanced trailing stop loss strategies for building sustainable secondary sources of income from markets']
+     Desc TP: ['Link: https://www.youtube.com/shorts/aUKmS6ZDeq4']
+     Desc RR: ['Scale Out & Trailing Mechanics: Extracting a fixed 50% quantity profit size straight at a clear 1:2 risk-to-reward ratio, updating initial protection stop limits to the absolute breakdown entry cost, and trailing remaining core lots until the macro 4-Hour trend framework prints an opposing exit crossover wave.']
+     Code SL: ['sl = recent_low - (2.0 * PIP_SIZE)', 'sl = recent_high + (2.0 * PIP_SIZE)']
+     Code TP: ['tp = entry + (risk * RISK_REWARD_RATIO)', 'tp = entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.0', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[19] rsi_pullback           (forex_rsi_pullback_scanner.py) | Vid: ryoDybQXEs4
+     Desc SL: ['Strategy rules: trend filter (50-EMA), RSI oversold + confirmation entry, stop-loss placement, aur target logic — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/ryoDybQXEs4', 'Strategy rules: trend filter (50-EMA), RSI oversold + confirmation entry, stop-loss placement, aur target logic — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai.']
+     Code SL: ['sl = pullback_low - (2.0 * PIP_SIZE)', 'sl = pullback_high + (2.0 * PIP_SIZE)']
+     Code TP: ['tp = entry + (risk * RISK_REWARD_RATIO)', 'tp = entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.0           # 1:2 Risk-to-Reward', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[20] subasish_bollinger     (indicator_subasish_bollinger_scanner.py) | Vid: QZMvJrxS_HQ
+     Desc SL: ['Stop Loss — Alert candle ke low pe. Index mein maximum', '55 points tak hi SL lo. Stocks mein max 100 points.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/QZMvJrxS_HQ', 'Target — Fixed 1:4 risk reward. Matlab agar 40 points']
+     Desc RR: ['Nifty 50 | 52.3% Return | 1:4 Risk Reward', 'Target — Fixed 1:4 risk reward. Matlab agar 40 points']
+     Code SL: ["sl = alert_bar['high'] + (2.0 * PIP_SIZE)", "sl = alert_bar['low'] - (2.0 * PIP_SIZE)"]
+     Code TP: ['tp = entry - (risk * RISK_REWARD_RATIO)', 'tp = entry + (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 3.0          # Subasish Pani uses 1:3 to 1:4 RR', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[21] tanisha_garg_cpr_rsi   (indicator_tanisha_garg_cpr_rsi_scanner.py) | Vid: Vm3nN5biOjI
+     Desc TP: ['Link: https://www.youtube.com/shorts/Vm3nN5biOjI', 'Link: https://www.youtube.com/shorts/5pQj0s_BBV4']
+     Code SL: ["sl = cam['S4'] - (3.0 * PIP_SIZE)", "sl = cam['R4'] + (3.0 * PIP_SIZE)"]
+     Code TP: ["tp = cam['R2'] if cam['R2'] > entry else entry + (risk * RISK_REWARD_RATIO)", "tp = cam['S2'] if cam['S2'] < entry else entry - (risk * RISK_REWARD_RATIO)"]
+     Code RR: ['RISK_REWARD_RATIO = 2.0', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[22] camarilla_pivot        (indicator_camarilla_pivot_scanner.py) | Vid: GPSvVOZv-No
+     Desc SL: ['Risk Management Guidelines: Setting protective stop loss orders precisely at the opposite inner bounds (R3 for buy setups, S3 for sell setups) and projection targets at 1.5 to 2 times the risk value.', 'How to scale position sizing while maintaining static stop loss controls at major pivot curves']
+     Desc TP: ['Link: https://www.youtube.com/shorts/GPSvVOZv-No', 'Risk Management Guidelines: Setting protective stop loss orders precisely at the opposite inner bounds (R3 for buy setups, S3 for sell setups) and projection targets at 1.5 to 2 times the risk value.']
+     Code SL: ["sl = levels['L4'] - (2.0 * PIP_SIZE)", "sl = levels['H4'] + (2.0 * PIP_SIZE)"]
+     Code TP: ["tp = levels['H3'] if levels['H3'] > entry else entry + (risk * RISK_REWARD_RATIO)", "tp = levels['L3'] if levels['L3'] < entry else entry - (risk * RISK_REWARD_RATIO)"]
+     Code RR: ['RISK_REWARD_RATIO = 2.0', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[23] cpr_pivot_multi_tf     (indicator_cpr_pivot_multi_tf_scanner.py) | Vid: i5eNsT9GFDM
+     Desc TP: ['Link: https://www.youtube.com/shorts/i5eNsT9GFDM', 'Kya India ke pioneering pioneer Gomathi Shankar ki multi-timeframe Central Pivot Range yaani CPR strategy professional order books me high accuracy system create kar sakti hai? Is video mein humne unki weekly aur daily overlapping pivot breakout strategy ko coding standards ke sath completely automate kiya hai. Big players dynamic support levels aur daily range boundaries ko target karke short covering moves kaise triggers karte hain, humne is structural workflow ka python algorithm banaya hai aur broker API ke structural historical data setups par detailed validation tests run karke real equity curves aur actual drawdown data analyze kiya hai.']
+     Code SL: ["sl = max(cpr['R1'], cpr['PDH']) - (3.0 * PIP_SIZE)", "sl = min(cpr['S1'], cpr['PDL']) + (3.0 * PIP_SIZE)"]
+     Code TP: ["tp = cpr['R2'] if cpr['R2'] > entry else entry + (risk * RISK_REWARD_RATIO)", "tp = cpr['S2'] if cpr['S2'] < entry else entry - (risk * RISK_REWARD_RATIO)"]
+     Code RR: ['RISK_REWARD_RATIO = 2.0', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[24] supertrend_swing       (forex_supertrend_swing_scanner.py) | Vid: YwDleTVqM5c
+     Desc SL: ['Strategy rules, entry-exit logic, stop-loss placement, aur breakeven trail technique — sab is video mein detail se samjhaya hai. Backtest ka Python code Google Colab pe dikhaya gaya hai.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/YwDleTVqM5c', 'Link: https://www.youtube.com/shorts/7ircBjxjvNE']
+     Code SL: ["sl = closed_bar['st'] - (2.0 * PIP_SIZE)", "sl = closed_bar['st'] + (2.0 * PIP_SIZE)"]
+     Code TP: ['tp = entry + (risk * RISK_REWARD_RATIO)', 'tp = entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.0           # 1:2 Risk-to-Reward', 'print(f" Risk/Reward:      1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[25] ut_bot_alert           (indicator_ut_bot_alert_scanner.py) | Vid: SggjoXJiNXw
+     Desc TP: ['Link: https://www.youtube.com/shorts/SggjoXJiNXw']
+     Code SL: ["sl = closed_bar['ut_stop'] - (2.0 * PIP_SIZE)", "sl = closed_bar['ut_stop'] + (2.0 * PIP_SIZE)"]
+     Code TP: ['tp = entry + (risk * RISK_REWARD_RATIO)', 'tp = entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.0', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[26] mambafx_sr_sma         (indicator_mambafx_support_resistance_scanner.py) | Vid: TSRKVlz4tjo
+     Desc TP: ['Link: https://www.youtube.com/shorts/TSRKVlz4tjo', 'Target = next resistance/support']
+     Code SL: ["sl = closed_bar['sma50'] - (3.0 * PIP_SIZE)", "sl = closed_bar['sma50'] + (3.0 * PIP_SIZE)"]
+     Code TP: ['tp = h4_resistance if h4_resistance > entry else entry + (risk * RISK_REWARD_RATIO)', 'tp = h4_support if h4_support < entry else entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.5', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[27] traffic_light          (indicator_traffic_light_breakout_scanner.py) | Vid: _e9_VfItAFE
+     Desc TP: ['Link: https://www.youtube.com/shorts/_e9_VfItAFE']
+     Code SL: ['sl = tl_low - (2.0 * PIP_SIZE)', 'sl = tl_high + (2.0 * PIP_SIZE)']
+     Code TP: ['tp = entry + (risk * RISK_REWARD_RATIO)', 'tp = entry - (risk * RISK_REWARD_RATIO)']
+     Code RR: ['RISK_REWARD_RATIO = 2.0', 'print(f" Risk/Reward:   1:{RISK_REWARD_RATIO:.1f}")']
+--------------------------------------------------------------------------------
+[28] chandelier_zlsma       (indicator_chandelier_exit_zlsma_scanner.py) | Vid: -0oWb3Uv9FM
+     Desc SL: ['Stop Loss: Recent swing low']
+     Desc TP: ['Link: https://www.youtube.com/shorts/-0oWb3Uv9FM', 'Target: Risk Reward 1:2']
+     Desc RR: ['Target: Risk Reward 1:2']
+     Code SL: ['sl = min(bar["low"], bar["long_stop"])', 'sl = close - risk']
+     Code TP: ['tp = close + 2.0 * risk', 'tp = close - 2.0 * risk']
+     Code RR: ['rr = round((tp - close) / (close - sl), 2)', 'rr = round((close - tp) / (sl - close), 2)']
+--------------------------------------------------------------------------------
+[29] kojo_demand_supply     (forex_kojo_price_action_demand_scanner.py) | Vid: 7XtF2FH92MM
+     Desc SL: ['Stop Loss: Demand zone ke low ke thoda neeche']
+     Desc TP: ['Link: https://www.youtube.com/shorts/7XtF2FH92MM', 'Target: Agli visible resistance level tak — jo pehle']
+     Code SL: ['sl = dz["low"] - (dz["high"] - dz["low"]) * 0.2', 'sl = close - risk']
+     Code TP: ['tp = max(target, close + 2 * risk)', 'tp = min(target, close - 2 * risk)']
+     Code RR: ['rr = round((tp - close) / risk, 2)', 'rr = round((close - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[30] trading_school_mbp     (forex_trading_school_mbp_gold_scanner.py) | Vid: 9Jxhj7mVb1w
+     Desc SL: ['Stop Loss — FVG zone ke thoda neeche.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/9Jxhj7mVb1w', 'fixed target ke saath, real broker data se, 1 lakh ki']
+     Desc RR: ['1:3 Fixed RR', '1:8 tak ka risk reward achieve karne ka claim karte']
+     Code SL: ['sl = fvg["low"] - (fvg["high"] - fvg["low"]) * 0.2', 'sl = close - risk']
+     Code TP: ['tp = close + 3.0 * risk  # Fixed 1:3 RR', 'tp = close - 3.0 * risk  # Fixed 1:3 RR']
+     Code RR: ['rr = round((tp - close) / risk, 2)', 'rr = round((close - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[31] trade_with_pat         (forex_trade_with_pat_demand_fvg_scanner.py) | Vid: YPAN6XgXbQM
+     Desc SL: ['Risk Management: Stop loss is safely placed outside the zone boundaries, and the target is locked at the recent swing high or low.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/YPAN6XgXbQM', 'Risk Management: Stop loss is safely placed outside the zone boundaries, and the target is locked at the recent swing high or low.']
+     Desc RR: ['Managing drawdown and risk reward ratio in index options buying']
+     Code SL: ['sl = dz["low"] - (dz["high"] - dz["low"]) * 0.15', 'sl = close - risk']
+     Code TP: ['tp = target', 'tp = target']
+     Code RR: ['rr = round((tp - close) / risk, 2)', 'rr = round((close - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[32] smc_liquidity_sniper   (forex_smc_liquidity_sniper_71fib_scanner.py) | Vid: LkTzH_5xiJ0
+     Desc SL: ['✅ Stop-Loss aur Target dono Fibonacci ke extreme levels pe -- fixed RR approximately 2.4:1']
+     Desc TP: ['Link: https://www.youtube.com/shorts/LkTzH_5xiJ0', '✅ Stop-Loss aur Target dono Fibonacci ke extreme levels pe -- fixed RR approximately 2.4:1']
+     Desc RR: ['✅ Stop-Loss aur Target dono Fibonacci ke extreme levels pe -- fixed RR approximately 2.4:1']
+     Code SL: ['sl = sweep_extreme_low - leg_range * 0.05', 'sl = close - risk']
+     Code TP: ['tp = impulse_high + 0.5 * leg_range', 'tp = impulse_low - 0.5 * leg_range']
+     Code RR: ['rr = round((tp - close) / risk, 2)', 'rr = round((close - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[33] double_bo_retest       (indicator_double_breakout_retest_scanner.py) | Vid: VhNXhA6cmDE
+     Desc TP: ['Link: https://www.youtube.com/shorts/VhNXhA6cmDE', 'Target = 1:2 ya 1:3 risk reward']
+     Desc RR: ['Target = 1:2 ya 1:3 risk reward']
+     Code SL: ['sl = retest_low - (first_bo_high - retest_low) * 0.15', 'sl = close - risk']
+     Code TP: ['tp = close + 2.5 * risk', 'tp = close - 2.5 * risk']
+     Code RR: ['rr = round((tp - close) / risk, 2)', 'rr = round((close - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[34] asia_forex_mentor      (forex_asia_forex_mentor_heikin_ashi_scanner.py) | Vid: wVSM7VuZbT8
+     Desc TP: ['Link: https://www.youtube.com/shorts/wVSM7VuZbT8', 'Target = next resistance/support']
+     Code SL: ['sl = min(recent_swing_low, low) - (high - low) * 0.2', 'sl = close - risk']
+     Code TP: ['tp = close + 2.0 * risk', 'tp = close - 2.0 * risk']
+     Code RR: ['rr = round((tp - close) / risk, 2)', 'rr = round((close - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[35] bharat_rsi_bb          (indicator_bharat_jhunjhunwala_rsi_bb_scanner.py) | Vid: 4gvWmhCzE30
+     Desc TP: ['Link: https://www.youtube.com/shorts/4gvWmhCzE30']
+     Code SL: ['sl = min(recent_low, low) - (high - low) * 0.15', 'sl = close - risk']
+     Code TP: ['tp = max(upper, close + 2.0 * risk)', 'tp = min(lower, close - 2.0 * risk)']
+     Code RR: ['rr = round((tp - close) / risk, 2)', 'rr = round((close - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[36] berlin_7_ema           (forex_trade_like_berlin_7_ema_scanner.py) | Vid: 2NZW106gUfU
+     Desc SL: ['Stop Loss: Entry candle ke low ke thoda neeche', 'Agar SL chota hai → 1:3 Risk Reward']
+     Desc TP: ['Link: https://www.youtube.com/shorts/2NZW106gUfU', 'Target: Dynamic RR system —']
+     Desc RR: ['Target: Dynamic RR system —', 'Agar SL chota hai → 1:3 Risk Reward']
+     Code SL: ['sl = low - (high - low) * 0.15', 'sl = close - risk']
+     Code TP: ['tp = close + mult * risk', 'tp = close - mult * risk']
+     Code RR: ['rr = round((tp - close) / risk, 2)', 'rr = round((close - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[37] ezekiel_50_ema_pb      (forex_ezekiel_chew_50_ema_pullback_scanner.py) | Vid: AKuM1cTgPks
+     Desc SL: ['SL: Engulfing candle ya red candle ka jo bhi neeche']
+     Desc TP: ['Link: https://www.youtube.com/shorts/AKuM1cTgPks', 'Target: Next resistance ya rejection level.']
+     Code SL: ['sl = low - (high - low) * 0.15', 'sl = close - risk']
+     Code TP: ['tp = max(swing_high, close + 2.0 * risk)', 'tp = min(swing_low, close - 2.0 * risk)']
+     Code RR: ['rr = round((tp - close) / risk, 2)', 'rr = round((close - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[38] trading_geek_sr        (forex_trading_geek_exhaustion_scanner.py) | Vid: aPEzamtaYw4
+     Desc SL: ['21 saal ki umar mein pehla million dollar banane wale Brad Goh — The Trading Geek (1.54 million subscribers) — ki price action strategy ka claim hai ki yeh ek strategy poori zindagi ke liye kaafi hai. Maine iss claim ko seriously liya, Python pe algo banaya aur Gold (XAUUSD) aur Forex pe real broker data se backtest kiya.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/aPEzamtaYw4', 'Step 3: Jab ek bada green candle aaye — uske close pe BUY entry lo. Stoploss zone ke lowest wick ke neeche. Target next resistance level pe. SELL ke liye bilkul ulta karo at resistance.']
+     Code SL: ['sl = exhaustion_low - (high - low) * 0.15', 'sl = close - risk']
+     Code TP: ['tp = max(target_res, close + 2.0 * risk)', 'tp = min(target_sup, close - 2.0 * risk)']
+     Code RR: ['rr = round((tp - close) / risk, 2)', 'rr = round((close - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[39] tori_trendline         (indicator_tori_trades_trendline_scanner.py) | Vid: 0n4sMsqTZdw
+     Desc TP: ['Link: https://www.youtube.com/shorts/0n4sMsqTZdw', "So, let's go to the trading view platform, open Nifty 50 chart on 1 hour timeframe, draw upward and downward trendlines, when any candlestick breaks out of any trendline then we will take entry at that candle, stoploss will be our previous/other trendline and target will be either next support/ resistance levels or we can also trail our profits and limit our losses."]
+     Code SL: ['sl = min(recent_low, low) - (high - low) * 0.15', 'sl = close - risk']
+     Code TP: ['tp = close + 2.0 * risk', 'tp = close - 2.0 * risk']
+     Code RR: ['rr = round((tp - close) / risk, 2)', 'rr = round((close - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[40] priyank_21_ema         (indicator_hold_with_priyank_21_ema_scanner.py) | Vid: 0pbzM_4QkOs
+     Desc TP: ['Link: https://www.youtube.com/shorts/0pbzM_4QkOs']
+     Code SL: ['sl = pb_low - (high - low) * 0.15', 'sl = close - risk']
+     Code TP: ['tp = close + 1.5 * risk', 'tp = close - 1.5 * risk']
+     Code RR: ['rr = round((tp - close) / risk, 2)', 'rr = round((close - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[41] jenfer_impulse         (forex_jenfer_impulse_scalp_scanner.py) | Vid: AD36fIiJWVs
+     Desc TP: ['Link: https://www.youtube.com/shorts/AD36fIiJWVs', 'Step 4: Entry usi retest zone mein lo. Stoploss impulse candle ke low ke neeche. Target fixed 1:2 risk reward.']
+     Desc RR: ['Step 4: Entry usi retest zone mein lo. Stoploss impulse candle ke low ke neeche. Target fixed 1:2 risk reward.', 'ONE Candle Strategy | Opening Range Breakout | ORB Scalping | Volume Confirmation Trading | Beginner Scalping Strategy | Algo Trading India | Nifty Intraday Trading | Prop Firm Strategy | Backtest Results | Python Trading Bot | Scalping for Beginners | Day Trading Strategy | Technical Analysis | Risk Reward Strategy | 5 Minute Chart Strategy']
+     Code SL: ['sl = c_low - c_range * 0.10', 'sl = close - risk']
+     Code TP: ['tp = close + 2.0 * risk', 'tp = close - 2.0 * risk']
+     Code RR: ['rr = round((tp - close) / risk, 2)', 'rr = round((close - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[42] trading_lab_dema       (indicator_trading_lab_dema_supertrend_scanner.py) | Vid: WFMCsknKHD4
+     Desc SL: ['This intraday trading strategy can be used on stocks, index, forex, crypto, etc. For this strategy we will go to the trading view 15 minute timeframe, then put double ema indicator and supertrend indicator with the settings that I have guided in the video.Then, when the candles are above the double ema, and simultaneously, supertrend also gives BUY signal, then we take the long position on the close of the candle where supertrend gave BUY signal, with stoploss at the supertrend line and target is not fixed for this intraday strategy, we will trail the profits until supertrend gives SELL signal. The reverse of this we will do for doing short selling.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/WFMCsknKHD4', 'This intraday trading strategy can be used on stocks, index, forex, crypto, etc. For this strategy we will go to the trading view 15 minute timeframe, then put double ema indicator and supertrend indicator with the settings that I have guided in the video.Then, when the candles are above the double ema, and simultaneously, supertrend also gives BUY signal, then we take the long position on the close of the candle where supertrend gave BUY signal, with stoploss at the supertrend line and target is not fixed for this intraday strategy, we will trail the profits until supertrend gives SELL signal. The reverse of this we will do for doing short selling.']
+     Code SL: ['sl = min(st_val, float(bar["low"])) - (float(bar["high"]) - float(bar["low"])) * 0.15', 'sl = close - risk']
+     Code TP: ['tp = close + 2.0 * risk', 'tp = close - 2.0 * risk']
+     Code RR: ['rr = round((tp - close) / risk, 2)', 'rr = round((close - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[43] half_trend_atr         (indicator_half_trend_atr_scanner.py) | Vid: WRczqfxjR4g
+     Code SL: ['sl = ht_val - (high - low) * 0.15', 'sl = close - risk']
+     Code TP: ['tp = close + 2.0 * risk', 'tp = close - 2.0 * risk']
+     Code RR: ['rr = round((tp - close) / risk, 2)', 'rr = round((close - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[44] umer_sandwich          (forex_umer_akhtar_sandwich_scanner.py) | Vid: t9VzgJhqgHk
+     Desc SL: ['✅ Stop-loss aur fixed 1:2 Risk:Reward target']
+     Desc TP: ['Link: https://www.youtube.com/shorts/t9VzgJhqgHk', '✅ Stop-loss aur fixed 1:2 Risk:Reward target']
+     Desc RR: ['✅ Stop-loss aur fixed 1:2 Risk:Reward target']
+     Code SL: ['sl = c1_low - (high - low) * 0.15', 'sl = close - risk']
+     Code TP: ['tp = close + 2.0 * risk', 'tp = close - 2.0 * risk']
+     Code RR: ['rr = round((tp - close) / risk, 2)', 'rr = round((close - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[45] 3tf_macd_momentum      (indicator_3tf_macd_momentum_scanner.py) | Vid: aUKmS6ZDeq4
+     Desc SL: ['Advanced trailing stop loss strategies for building sustainable secondary sources of income from markets']
+     Desc TP: ['Link: https://www.youtube.com/shorts/aUKmS6ZDeq4']
+     Desc RR: ['Scale Out & Trailing Mechanics: Extracting a fixed 50% quantity profit size straight at a clear 1:2 risk-to-reward ratio, updating initial protection stop limits to the absolute breakdown entry cost, and trailing remaining core lots until the macro 4-Hour trend framework prints an opposing exit crossover wave.']
+     Code SL: ['sl = min(recent_low, low) - (high - low) * 0.15', 'sl = close - risk']
+     Code TP: ['tp = close + 3.0 * risk  # 1:3 RR', 'tp = close - 3.0 * risk']
+     Code RR: ['rr = round((tp - close) / risk, 2)', 'rr = round((close - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[46] ict_double_sweep       (forex_ict_double_sweep_sniper_scanner.py) | Vid: bffQ8_1ShO8
+     Desc SL: ['ICT (Inner Circle Trader) ka woh sniper entry model jisse aap ek dum perfect entry le sakte ho. Institutions pehle retail traders ke stop-loss ko trigger karti hain, phir ulti direction mein move karti hain — aur yeh liquidity-based strategy exactly usi trap ko apne favour mein use karti hai.', 'Puri step-by-step entry, stop-loss aur target ki strategy maine ek PDF mein diagram ke saath samjhayi hai. Woh yahan reveal nahi kar raha — neeche "Sniper" comment karo, main PDF bhej dunga.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/bffQ8_1ShO8', 'Puri step-by-step entry, stop-loss aur target ki strategy maine ek PDF mein diagram ke saath samjhayi hai. Woh yahan reveal nahi kar raha — neeche "Sniper" comment karo, main PDF bhej dunga.']
+     Code SL: ['sl = float(sweep1_low - (spread * 2) - 0.0003)', 'sl = float(sweep1_high + (spread * 2) + 0.0003)']
+     Code TP: ['tp = max(entry + (risk * 2.5), float(h1_high))', 'tp = min(entry - (risk * 2.5), float(h1_low))']
+     Code RR: ['rr = round((tp - entry) / risk, 2)', 'rr = round((entry - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[47] ict_daily_ob_fvg       (forex_ict_daily_ob_h1_fvg_scanner.py) | Vid: 4W3SUtxl0u8
+     Desc SL: ['✅ Stop-Loss: Daily OB midpoint se thoda neeche', 'Automation ya backtesting ke liye 1-1 video session book karna chahte ho? Telegram ya Instagram pe "Session" message karo. Video session chargeable hai -- session pe sab kuch discuss aur finalise hoga quickly. Hazaaron enquiries ki wajah se genuine requirements waale reh jaate the, isliye ab yeh process hai.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/4W3SUtxl0u8', '✅ Target: Daily chart ka major liquidity level']
+     Code SL: ['sl = float(min(ob["mid"], h1_now["low"]) - (spread * 2) - 0.0003)', 'sl = float(max(ob["mid"], h1_now["high"]) + (spread * 2) + 0.0003)']
+     Code TP: ['tp = max(entry + (risk * 2.0), target_liq)', 'tp = min(entry - (risk * 2.0), target_liq)']
+     Code RR: ['rr = round((tp - entry) / risk, 2)', 'rr = round((entry - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[48] tg_ema_stack_doji      (forex_tg_capital_ema_stack_doji_scanner.py) | Vid: ZWSeWYom1Yg
+     Desc TP: ['Link: https://www.youtube.com/shorts/ZWSeWYom1Yg', 'Step 6: Target fixed nahi — jab tak daily chart pe 4 stacked EMAs (5, 9, 13, 21) intact rahein tab tak trade chalti rahe. Jab strong bearish candle in sab ke neeche close kare — exit.']
+     Desc RR: ['TG Capital yaani Tyler — jisne sirf 3 mahine mein $4 lakh ka prop firm payout liya — ne Chart Fanatics pe apni woh strategy share ki jo unhe broke se six figures tak le gayi. Minimum 1:20 risk reward ka claim hai. Maine iska algo banaya aur 5 Forex pairs pe khud backtest kiya — results aaj video mein hain.', 'London Killzone Strategy | FVG Trading | ICT Trading | Consequent Encroachment | EMA Stack Forex | Fair Value Gap | Algo Trading India | Forex Swing Trading | Prop Firm Strategy | Smart Money Concepts | TG Capital Strategy | Chart Fanatics | Backtest Results | Forex Day Trading | London Session Forex | ICT FVG Setup | Python Trading Bot | 1:20 Risk Reward Strategy']
+     Code SL: ['sl = float(mid_candle_low - (spread * 2) - 0.0003)', 'sl = float(mid_candle_high + (spread * 2) + 0.0003)']
+     Code TP: ['tp = round(entry + (risk * 3.5), 5)', 'tp = round(entry - (risk * 3.5), 5)']
+     Code RR: ['rr = round((tp - entry) / risk, 2)', 'rr = round((entry - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[49] rayner_50_ema_swing    (forex_rayner_teo_50_ema_swing_scanner.py) | Vid: KGKC9Tkiii0
+     Desc SL: ['Risk Management: Execute a long trade at the candle close, place a protective stop loss below the candle low, and lock targets right before the previous resistance swing high.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/KGKC9Tkiii0', 'Risk Management: Execute a long trade at the candle close, place a protective stop loss below the candle low, and lock targets right before the previous resistance swing high.']
+     Code SL: ['sl = float(min(curr["low"], prev["low"]) - (spread * 2) - 0.0005)', 'sl = float(max(curr["high"], prev["high"]) + (spread * 2) + 0.0005)']
+     Code TP: ['tp = max(entry + (risk * 2.0), float(recent_swing_high * 0.998))', 'tp = min(entry - (risk * 2.0), float(recent_swing_low * 1.002))']
+     Code RR: ['rr = round((tp - entry) / risk, 2)', 'rr = round((entry - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[50] ema_rsi_reclaim        (forex_50_ema_rsi_reclaim_scanner.py) | Vid: ryoDybQXEs4
+     Desc SL: ['Strategy rules: trend filter (50-EMA), RSI oversold + confirmation entry, stop-loss placement, aur target logic — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/ryoDybQXEs4', 'Strategy rules: trend filter (50-EMA), RSI oversold + confirmation entry, stop-loss placement, aur target logic — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai.']
+     Code SL: ['sl = float(pullback_low - (spread * 2) - 0.0003)', 'sl = float(pullback_high + (spread * 2) + 0.0003)']
+     Code TP: ['tp = max(entry + (risk * 2.2), float(recent_swing_high))', 'tp = min(entry - (risk * 2.2), float(recent_swing_low))']
+     Code RR: ['rr = round((tp - entry) / risk, 2)', 'rr = round((entry - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[51] booming_halftrend      (forex_booming_bulls_halftrend_dmi_scanner.py) | Vid: pFs09yBjQU4
+     Desc TP: ['Link: https://www.youtube.com/shorts/pFs09yBjQU4']
+     Desc RR: ['• Risk-Reward: 1:3']
+     Code SL: ['sl = float(curr["ht_line"] - (spread * 2) - 0.0003)', 'sl = float(curr["ht_line"] + (spread * 2) + 0.0003)']
+     Code TP: ['tp = round(entry + (risk * 3.0), 5)', 'tp = round(entry - (risk * 3.0), 5)']
+     Code RR: []
+--------------------------------------------------------------------------------
+[52] priyank_weekly_trap    (forex_priyank_weekly_trap_mss_scanner.py) | Vid: fipzUyTxUxw
+     Desc SL: ['Money Management Rules: Setting protective stop loss boundaries beneath the lowest wick of the fake breakout setup and trailing the maximum target expansion up to the macro previous week high level line.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/fipzUyTxUxw', 'Money Management Rules: Setting protective stop loss boundaries beneath the lowest wick of the fake breakout setup and trailing the maximum target expansion up to the macro previous week high level line.']
+     Code SL: ['sl = float(trap_extreme_low - (spread * 2) - 0.0003)', 'sl = float(trap_extreme_high + (spread * 2) + 0.0003)']
+     Code TP: ['tp = max(entry + (risk * 2.0), pwh)', 'tp = min(entry - (risk * 2.0), pwl)']
+     Code RR: ['rr = round((tp - entry) / risk, 2)', 'rr = round((entry - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[53] paradise_redbox        (forex_traders_paradise_redbox_scanner.py) | Vid: KJmLvxyzXSg
+     Desc TP: ['Link: https://www.youtube.com/shorts/KJmLvxyzXSg', 'Target = next support level']
+     Code SL: ['sl = float(max(fakeout_high, curr["high"]) + (spread * 2) + 0.0003)', 'sl = float(min(fakeout_low, curr["low"]) - (spread * 2) - 0.0003)']
+     Code TP: ['tp = min(entry - (risk * 2.0), support)', 'tp = max(entry + (risk * 2.0), resistance)']
+     Code RR: ['rr = round((entry - tp) / risk, 2)', 'rr = round((tp - entry) / risk, 2)']
+--------------------------------------------------------------------------------
+[54] renko_10_sma_obv       (indicator_renko_brick_trend_scanner.py) | Vid: IkCC_gC-wXQ
+     Desc SL: ['✅ Stop-Loss: 2 Renko bricks neeche', '✅ First Target: 3 bricks upar -- target hit hote hi SL breakeven pe le aao']
+     Desc TP: ['Link: https://www.youtube.com/shorts/IkCC_gC-wXQ', '✅ First Target: 3 bricks upar -- target hit hote hi SL breakeven pe le aao']
+     Code SL: ['sl = float(curr_b["close"] - (2 * brick_size) - (spread * 2))', 'sl = float(curr_b["close"] + (2 * brick_size) + (spread * 2))']
+     Code TP: ['tp = float(curr_b["close"] + (3 * brick_size))', 'tp = float(curr_b["close"] - (3 * brick_size))']
+     Code RR: ['rr = round((tp - entry) / max(risk, 1e-5), 2)', 'rr = round((entry - tp) / max(risk, 1e-5), 2)']
+--------------------------------------------------------------------------------
+[55] umar_gold_london       (forex_umar_punjabi_gold_london_scanner.py) | Vid: uXG8eHYhG9E
+     Desc SL: ['Capital Security Borders: Pinning stop loss barriers beneath the prominent structural swing low anchors and projecting fixed asset execution take-profits at a clear 1:2 risk-to-reward ratio.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/uXG8eHYhG9E', 'Capital Security Borders: Pinning stop loss barriers beneath the prominent structural swing low anchors and projecting fixed asset execution take-profits at a clear 1:2 risk-to-reward ratio.']
+     Desc RR: ['Capital Security Borders: Pinning stop loss barriers beneath the prominent structural swing low anchors and projecting fixed asset execution take-profits at a clear 1:2 risk-to-reward ratio.']
+     Code SL: ['sl = float(sweep_peak + (spread * 2) + 0.0005)', 'sl = float(sweep_trough - (spread * 2) - 0.0005)']
+     Code TP: ['tp = round(entry - (risk * 2.0), 5)', 'tp = round(entry + (risk * 2.0), 5)']
+     Code RR: []
+--------------------------------------------------------------------------------
+[56] bill_alligator         (indicator_bill_williams_alligator_scanner.py) | Vid: tW3pNDWhKHE
+     Desc SL: ['Exit Rule: No fixed stop loss, exit manually when any candle touches the green line.', 'Trading without a fixed stop loss using dynamic indicator exits']
+     Desc TP: ['Link: https://www.youtube.com/shorts/tW3pNDWhKHE']
+     Code SL: ['sl = float(curr["jaw"] - (spread * 2) - 0.0003)', 'sl = float(curr["jaw"] + (spread * 2) + 0.0003)']
+     Code TP: ['tp = round(entry + (risk * 2.0), 5)', 'tp = round(entry - (risk * 2.0), 5)']
+     Code RR: ['rr = round((tp - entry) / risk, 2)', 'rr = round((entry - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[57] ict_po3_amd            (forex_ict_po3_amd_framework_scanner.py) | Vid: ujdzVPO97bU
+     Desc TP: ['Link: https://www.youtube.com/shorts/ujdzVPO97bU', 'Stoploss us candle ke low ke thoda neeche. Target']
+     Code SL: ['sl = float(sweep_extreme - (spread * 2) - 0.0003)', 'sl = float(sweep_extreme + (spread * 2) + 0.0003)']
+     Code TP: ['tp = float(crt_high)', 'tp = float(crt_low)']
+     Code RR: ['rr = round((tp - entry) / risk, 2)', 'rr = round((entry - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[58] oliver_elephant_180    (forex_oliver_velez_elephant_180_scanner.py) | Vid: Lzzi6ylRObY
+     Desc SL: ['Stop Loss — Green signal candle ke low ke thoda neeche.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/Lzzi6ylRObY', 'ho jaye toh exit karo. Koi fixed target nahi hai.']
+     Code SL: ['sl = float(min(curr["low"], prev["low"]) - (spread * 2) - 0.0003)', 'sl = float(max(curr["high"], prev["high"]) + (spread * 2) + 0.0003)']
+     Code TP: ['tp = round(entry + (risk * 2.5), 5)', 'tp = round(entry - (risk * 2.5), 5)']
+     Code RR: ['rr = round((tp - entry) / risk, 2)', 'rr = round((entry - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[59] mov_avg_fib_scalp      (forex_the_moving_average_fib_scalp_scanner.py) | Vid: 1nOpTr6aNjQ
+     Desc TP: ['Link: https://www.youtube.com/shorts/1nOpTr6aNjQ', 'Account Risk Boundaries: Securing defensive exit points at the hard structural Fib 1.0 zone line while mapping exit limit targets directly over the anchor swing low points.']
+     Code SL: ['sl = float(fib_786_bull - (spread * 2) - 0.0003)', 'sl = float(fib_786_bear + (spread * 2) + 0.0003)']
+     Code TP: ['tp = round(swing_high + (0.272 * swing_range), 5)', 'tp = round(swing_low - (0.272 * swing_range), 5)']
+     Code RR: ['rr = round((tp - entry) / risk, 2)', 'rr = round((entry - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[60] jesse_smc_fvg          (forex_jesse_rogers_smc_fvg_scanner.py) | Vid: 0O2w9OYLuTs
+     Desc TP: ['Link: https://www.youtube.com/shorts/0O2w9OYLuTs', 'Target = 1:3 risk reward']
+     Desc RR: ['Target = 1:3 risk reward']
+     Code SL: ['sl = float(c2["low"] - (spread * 2) - 0.0003)', 'sl = float(c2["high"] + (spread * 2) + 0.0003)']
+     Code TP: ['tp = round(entry + (risk * 2.5), 5)', 'tp = round(entry - (risk * 2.5), 5)']
+     Code RR: ['rr = round((tp - entry) / risk, 2)', 'rr = round((entry - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[61] theta_ema_rsi          (forex_theta_gainers_ema_rsi_scanner.py) | Vid: vGHK12UgsmE
+     Desc SL: ['Stop Loss — Recent swing low pe. Ya RSI']
+     Desc TP: ['Link: https://www.youtube.com/shorts/vGHK12UgsmE', 'Exit (Target) — Koi fixed target nahi. Jab RSI 70 se']
+     Code SL: ['sl = float(min(recent_swing_low, ema50) - (spread * 2) - 0.0003)', 'sl = float(max(recent_swing_high, ema50) + (spread * 2) + 0.0003)']
+     Code TP: ['tp = round(entry + (risk * 2.2), 5)', 'tp = round(entry - (risk * 2.2), 5)']
+     Code RR: ['rr = round((tp - entry) / risk, 2)', 'rr = round((entry - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[62] gold_smc_imbalance     (forex_gold_smc_imbalance_zone_scanner.py) | Vid: qQgjJIBE2hk
+     Desc SL: ['Exit Criteria: Protective stop loss placed slightly above the zone and profit target at the next major demand zone.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/qQgjJIBE2hk', 'Exit Criteria: Protective stop loss placed slightly above the zone and profit target at the next major demand zone.']
+     Desc RR: ['Managing drawdown and risk reward ratio in commodity options trading']
+     Code SL: ['sl = float(c2["low"] - (spread * 2) - 0.0005)', 'sl = float(c2["high"] + (spread * 2) + 0.0005)']
+     Code TP: ['tp = max(entry + (risk * 2.5), recent_swing_high)', 'tp = min(entry - (risk * 2.5), recent_swing_low)']
+     Code RR: ['rr = round((tp - entry) / risk, 2)', 'rr = round((entry - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[63] dual_ema_stoch_rsi     (forex_dual_ema_stoch_rsi_scanner.py) | Vid: FvHJKuGaoqg
+     Desc SL: ['Stop Loss: Recent swing low ke neeche']
+     Desc TP: ['Link: https://www.youtube.com/shorts/FvHJKuGaoqg', 'Target: 1.5 to 2 Risk Reward']
+     Desc RR: ['Target: 1.5 to 2 Risk Reward']
+     Code SL: ['sl = float(recent_swing_low - (spread * 2) - 0.0003)', 'sl = float(recent_swing_high + (spread * 2) + 0.0003)']
+     Code TP: ['tp = round(entry + (risk * 2.0), 5)', 'tp = round(entry - (risk * 2.0), 5)']
+     Code RR: []
+--------------------------------------------------------------------------------
+[64] smc_breaker_v2         (forex_smc_breaker_block_v2_scanner.py) | Vid: AkoRQx8SDLc
+     Desc SL: ['Execution Target: Entering a market buy position right at the breach of the internal pullback wave high limit, defining stop loss limits below the pullback pivot floor, and aligning exit targets at the prominent 5-Minute chart swing high reference structure.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/AkoRQx8SDLc', 'Execution Target: Entering a market buy position right at the breach of the internal pullback wave high limit, defining stop loss limits below the pullback pivot floor, and aligning exit targets at the prominent 5-Minute chart swing high reference structure.']
+     Code SL: ['sl = float(breaker_bottom - (spread * 2) - 0.0003)', 'sl = float(breaker_top + (spread * 2) + 0.0003)']
+     Code TP: ['tp = max(entry + (risk * 2.2), recent_swing_high)', 'tp = min(entry - (risk * 2.2), recent_swing_low)']
+     Code RR: ['rr = round((tp - entry) / risk, 2)', 'rr = round((entry - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[65] steven_hart_4h         (forex_steven_hart_4h_trend_pullback_scanner.py) | Vid: Em-Ao3orPbU
+     Desc SL: ['✅ Stop-Loss: Double Bottom ke lowest low ke thoda neeche', 'Isliye yeh strategy ya mere channel ki 150 se zyada backtested strategies mein se koi bhi chuno -- ya apni khud ki strategy ho -- bas Telegram pe meri team ko strategy ka naam aur market batao jispe algo setup karwana ho. Apke trades khud lagenge har waqt. Telegram link channel profile mein hai.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/Em-Ao3orPbU', '✅ Target: Pichla HTF swing high (avg RR 2:1 se 2.4:1)']
+     Desc RR: ['✅ Target: Pichla HTF swing high (avg RR 2:1 se 2.4:1)']
+     Code SL: ['sl = float(min(h1_now["low"], h1_prev["low"]) - (spread * 2) - 0.0003)', 'sl = float(max(h1_now["high"], h1_prev["high"]) + (spread * 2) + 0.0003)']
+     Code TP: ['tp = max(entry + (risk * 2.2), float(df_h4.iloc[-15:]["high"].max()))', 'tp = min(entry - (risk * 2.2), float(df_h4.iloc[-15:]["low"].min()))']
+     Code RR: ['rr = round((tp - entry) / risk, 2)', 'rr = round((entry - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[66] bhanushali_44_ma       (forex_bhanushali_44_ma_rejection_scanner.py) | Vid: EIF1PHduEbo
+     Desc TP: ['Link: https://www.youtube.com/shorts/EIF1PHduEbo', 'For this 44 MA swing trading strategy, we will go to the Nifty 50 chart on daily timeframe, add Simple Moving Average (SMA) indicator with length 44. So, if the SMA line is in uptrend, and candles are also moving above the SMA level, then when the candles will pullback to the SMA line which is acting as a dynamic support level here, and subsequently, when a green bullish candle is formed, then we will take long position on a bit higher from high of this green candle, stoploss a bit lower from low of this green candle and target decided by risk:reward ratio of 1:2 to 1:3.']
+     Desc RR: ['For this 44 MA swing trading strategy, we will go to the Nifty 50 chart on daily timeframe, add Simple Moving Average (SMA) indicator with length 44. So, if the SMA line is in uptrend, and candles are also moving above the SMA level, then when the candles will pullback to the SMA line which is acting as a dynamic support level here, and subsequently, when a green bullish candle is formed, then we will take long position on a bit higher from high of this green candle, stoploss a bit lower from low of this green candle and target decided by risk:reward ratio of 1:2 to 1:3.']
+     Code SL: ['sl = float(min(curr["low"], prev1["low"], sma44) - (spread * 2) - 0.0005)', 'sl = float(max(curr["high"], prev1["high"], sma44) + (spread * 2) + 0.0005)']
+     Code TP: ['tp = round(entry + (risk * 2.0), 5)', 'tp = round(entry - (risk * 2.0), 5)']
+     Code RR: []
+--------------------------------------------------------------------------------
+[67] mukul_10_ema_vwap      (forex_mukul_chowdhary_10_ema_vwap_scanner.py) | Vid: I7i8MnUsqJ4
+     Desc TP: ['Link: https://www.youtube.com/shorts/I7i8MnUsqJ4', "Entry/Exit: VWAP breakdown/breakout with 10 EMA crossover, keeping target at previous day's high/low."]
+     Desc RR: ['Kya Mukul Choudhary sir ki VWAP + 10EMA "Failure Concept" strategy sach me 70% accurate hai? Is video me humne 1:4 risk-reward ratio ke is claim ka sach pta lagaya hai. Maine is pure logic ko Python algo ke sath backtest kiya hai real market data par!', 'High risk-reward trading strategies (1:3 and 1:4 RR setups)']
+     Code SL: ['sl = float(min(curr["low"], prev1["low"], ema10) - (spread * 2) - 0.0003)', 'sl = float(max(curr["high"], prev1["high"], ema10) + (spread * 2) + 0.0003)']
+     Code TP: ['tp = round(entry + (risk * 4.0), 5)', 'tp = round(entry - (risk * 4.0), 5)']
+     Code RR: []
+--------------------------------------------------------------------------------
+[68] luxalgo_confirm        (indicator_luxalgo_confirmation_trend_scanner.py) | Vid: x-7CInJes_s
+     Desc SL: ['sideways mein slow rehti hai — trend filter aur', 'Stop Loss — Jab price TRAMA ke neeche close ho jaaye.']
+     Desc TP: ['Link: https://www.youtube.com/shorts/x-7CInJes_s', 'Exit (Target) — RSI 70 ke upar aa jaaye tab exit karo.']
+     Code SL: ['sl = float(min(recent_swing_low, curr["baseline"]) - (spread * 2) - 0.0003)', 'sl = float(max(recent_swing_high, curr["baseline"]) + (spread * 2) + 0.0003)']
+     Code TP: ['tp = round(entry + (risk * 2.0), 5)', 'tp = round(entry - (risk * 2.0), 5)']
+     Code RR: []
+--------------------------------------------------------------------------------
+[69] uk_break_bounce        (forex_uk_trader_break_and_bounce_scanner.py) | Vid: ulkbJJzPHzE
+     Desc TP: ['Link: https://www.youtube.com/shorts/ulkbJJzPHzE', 'Risk to Reward: 1:2 to 1:3 target.']
+     Desc RR: ['Risk to Reward: 1:2 to 1:3 target.']
+     Code SL: ['sl = float(min(curr["low"], prev1["low"], resistance) - (spread * 2) - 0.0003)', 'sl = float(max(curr["high"], prev1["high"], support) + (spread * 2) + 0.0003)']
+     Code TP: ['tp = round(entry + (risk * 2.2), 5)', 'tp = round(entry - (risk * 2.2), 5)']
+     Code RR: ['rr = round((tp - entry) / risk, 2)', 'rr = round((entry - tp) / risk, 2)']
+--------------------------------------------------------------------------------
+[70] pb_multi_tf_fvg        (forex_pb_trading_h1_m5_fvg_scanner.py) | Vid: N3o-py_LA3A
+     Desc SL: ['✅ SL: pullback ka swing low']
+     Desc TP: ['Link: https://www.youtube.com/shorts/N3o-py_LA3A', '✅ Target: 1:2 RR fixed']
+     Desc RR: ['✅ Target: 1:2 RR fixed']
+     Code SL: ['sl = float(mc2["low"] - (spread * 2) - 0.0003)', 'sl = float(mc2["high"] + (spread * 2) + 0.0003)']
+     Code TP: ['tp = round(entry + (risk * 3.0), 5)', 'tp = round(entry - (risk * 3.0), 5)']
+     Code RR: []
+--------------------------------------------------------------------------------

@@ -1,0 +1,2949 @@
+{
+  "version": "1.0.0",
+  "verification_standard": "Institutional Dual-Partition Continuous Walkforward Standard",
+  "friction_policy": "$4.00/lot commission + 0.20p adverse entry slippage + raw Dukascopy floating spread",
+  "order_timing_contract": "Strict Bar-Close Subsequent-Tick Causal Execution (T_fill > T_signal)",
+  "causal_warmup": "100,000 rolling prior-week ticks with min_entry_timestamp gate",
+  "partitions": {
+    "in_sample_discovery": "Weeks 1..210 (Jan 2021 - Dec 2024, ~1.12B ticks)",
+    "quarantined_holdout": "Weeks 211..300 (Jan 2025 - Oct 2026, ~421M ticks)"
+  },
+  "portfolio_totals": {
+    "total_certified_strategies": 72,
+    "holdout_net_pips": 11723.3,
+    "in_sample_net_pips": 31037.4,
+    "combined_5y_net_pips": 42760.7,
+    "holdout_executed_trades": 9726,
+    "realized_holdout_expectancy_pips": 1.21
+  },
+  "strategies": [
+    {
+      "name": "audnzd_disc111_h4_macro_structure_retest_elite",
+      "filename": "strategy.py",
+      "symbol": "AUDNZD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 231.6,
+        "profit_factor": 2.56,
+        "total_trades": 28,
+        "win_rate_pct": 60.7,
+        "expectancy_pips": 8.27,
+        "max_drawdown_pips": 58.9
+      },
+      "discovery_metrics": {
+        "total_trades": 70,
+        "net_pips": 481.5,
+        "win_rate_pct": 54.3,
+        "profit_factor": 1.99,
+        "expectancy_pips": 6.88,
+        "expectancy_std_err": 2.54,
+        "expectancy_ci_95": [
+          1.9,
+          11.86
+        ],
+        "t_statistic": 2.71,
+        "p_value": 0.0067,
+        "bonferroni_p_threshold": 0.005,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 67.2,
+        "worst_month_pips": -46.7,
+        "bootstrap_95_max_dd_pips": 149.6,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 453.5,
+          "pips_ex_top3": 397.9,
+          "pips_ex_top5": 342.5,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "ec39bb70089e74d9e62e06174b9259d5487b6486750476dded4b5010b14015b5",
+      "manifest_file": "results\\certified_strategy_manifests\\audnzd_disc111_h4_macro_structure_retest_elite_run_manifest.json"
+    },
+    {
+      "name": "audnzd_disc112_h4_macro_precision_retest_elite",
+      "filename": "strategy.py",
+      "symbol": "AUDNZD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 167.6,
+        "profit_factor": 2.06,
+        "total_trades": 29,
+        "win_rate_pct": 55.2,
+        "expectancy_pips": 5.78,
+        "max_drawdown_pips": 54.0
+      },
+      "discovery_metrics": {
+        "total_trades": 70,
+        "net_pips": 340.2,
+        "win_rate_pct": 51.4,
+        "profit_factor": 1.71,
+        "expectancy_pips": 4.86,
+        "expectancy_std_err": 2.29,
+        "expectancy_ci_95": [
+          0.37,
+          9.35
+        ],
+        "t_statistic": 2.12,
+        "p_value": 0.034,
+        "bonferroni_p_threshold": 0.005,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 85.4,
+        "worst_month_pips": -42.8,
+        "bootstrap_95_max_dd_pips": 170.8,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 315.8,
+          "pips_ex_top3": 267.8,
+          "pips_ex_top5": 220.6,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "24e01bee647080d9c76e56bb6fff32824a8e5d6af38e4b36b011b5e41e53defc",
+      "manifest_file": "results\\certified_strategy_manifests\\audnzd_disc112_h4_macro_precision_retest_elite_run_manifest.json"
+    },
+    {
+      "name": "audnzd_disc113_h1_macro_intraday_retest_elite",
+      "filename": "strategy.py",
+      "symbol": "AUDNZD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 74.7,
+        "profit_factor": 1.72,
+        "total_trades": 18,
+        "win_rate_pct": 50.0,
+        "expectancy_pips": 4.15,
+        "max_drawdown_pips": 26.5
+      },
+      "discovery_metrics": {
+        "total_trades": 68,
+        "net_pips": 148.5,
+        "win_rate_pct": 47.1,
+        "profit_factor": 1.32,
+        "expectancy_pips": 2.18,
+        "expectancy_std_err": 1.98,
+        "expectancy_ci_95": [
+          -1.7,
+          6.07
+        ],
+        "t_statistic": 1.1,
+        "p_value": 0.2713,
+        "bonferroni_p_threshold": 0.005,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 70.4,
+        "worst_month_pips": -29.6,
+        "bootstrap_95_max_dd_pips": 183.6,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 127.4,
+          "pips_ex_top3": 87.1,
+          "pips_ex_top5": 47.8,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "b0cad95fbfcb08e1182c61ac1c99ac06ec4b1ca18bc9a264ec0edf7f4ac8f206",
+      "manifest_file": "results\\certified_strategy_manifests\\audnzd_disc113_h1_macro_intraday_retest_elite_run_manifest.json"
+    },
+    {
+      "name": "audnzd_disc114_h4_macro_wide_runner_elite",
+      "filename": "strategy.py",
+      "symbol": "AUDNZD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 290.3,
+        "profit_factor": 3.03,
+        "total_trades": 28,
+        "win_rate_pct": 64.3,
+        "expectancy_pips": 10.37,
+        "max_drawdown_pips": 63.0
+      },
+      "discovery_metrics": {
+        "total_trades": 70,
+        "net_pips": 362.4,
+        "win_rate_pct": 50.0,
+        "profit_factor": 1.65,
+        "expectancy_pips": 5.18,
+        "expectancy_std_err": 2.66,
+        "expectancy_ci_95": [
+          -0.05,
+          10.4
+        ],
+        "t_statistic": 1.94,
+        "p_value": 0.0524,
+        "bonferroni_p_threshold": 0.005,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 123.6,
+        "worst_month_pips": -48.9,
+        "bootstrap_95_max_dd_pips": 190.0,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 332.1,
+          "pips_ex_top3": 272.1,
+          "pips_ex_top5": 212.7,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "cd2d52d61b4eaed7ca92d35f6bdc051ba38e2bef8e0b2f79d6cbf2f075ae482b",
+      "manifest_file": "results\\certified_strategy_manifests\\audnzd_disc114_h4_macro_wide_runner_elite_run_manifest.json"
+    },
+    {
+      "name": "disc58_h1_keltner_squeeze_explosion_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 392.3,
+        "profit_factor": 1.63,
+        "total_trades": 111,
+        "win_rate_pct": 45.9,
+        "expectancy_pips": 3.53,
+        "max_drawdown_pips": 71.0
+      },
+      "discovery_metrics": {
+        "total_trades": 292,
+        "net_pips": 561.6,
+        "win_rate_pct": 41.4,
+        "profit_factor": 1.31,
+        "expectancy_pips": 1.92,
+        "expectancy_std_err": 0.88,
+        "expectancy_ci_95": [
+          0.19,
+          3.65
+        ],
+        "t_statistic": 2.18,
+        "p_value": 0.0293,
+        "bonferroni_p_threshold": 0.00114,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 163.7,
+        "worst_month_pips": -63.4,
+        "bootstrap_95_max_dd_pips": 266.6,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 530.7,
+          "pips_ex_top3": 480.0,
+          "pips_ex_top5": 436.9,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "4f3cbd1026fb345f8c2a7eea70df7f71f9844c7fbb74c4a3b2aa9a4e9c79fc0c",
+      "manifest_file": "results\\certified_strategy_manifests\\disc58_h1_keltner_squeeze_explosion_elite_run_manifest.json"
+    },
+    {
+      "name": "disc59_m15_macd_zero_cross_momentum_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 366.5,
+        "profit_factor": 1.3,
+        "total_trades": 217,
+        "win_rate_pct": 41.0,
+        "expectancy_pips": 1.69,
+        "max_drawdown_pips": 88.6
+      },
+      "discovery_metrics": {
+        "total_trades": 515,
+        "net_pips": 871.2,
+        "win_rate_pct": 41.2,
+        "profit_factor": 1.3,
+        "expectancy_pips": 1.69,
+        "expectancy_std_err": 0.59,
+        "expectancy_ci_95": [
+          0.53,
+          2.85
+        ],
+        "t_statistic": 2.86,
+        "p_value": 0.0042,
+        "bonferroni_p_threshold": 0.00114,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 137.2,
+        "worst_month_pips": -84.7,
+        "bootstrap_95_max_dd_pips": 278.5,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 849.1,
+          "pips_ex_top3": 810.6,
+          "pips_ex_top5": 773.0,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "5b818cd072e798b652f2313daed2a016376a25c432c242962163e522b45b6ef9",
+      "manifest_file": "results\\certified_strategy_manifests\\disc59_m15_macd_zero_cross_momentum_elite_run_manifest.json"
+    },
+    {
+      "name": "disc65_session_vwap_band_fade_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 409.0,
+        "profit_factor": 1.3,
+        "total_trades": 242,
+        "win_rate_pct": 41.7,
+        "expectancy_pips": 1.69,
+        "max_drawdown_pips": 151.0
+      },
+      "discovery_metrics": {
+        "total_trades": 692,
+        "net_pips": 1240.8,
+        "win_rate_pct": 41.5,
+        "profit_factor": 1.32,
+        "expectancy_pips": 1.79,
+        "expectancy_std_err": 0.51,
+        "expectancy_ci_95": [
+          0.79,
+          2.8
+        ],
+        "t_statistic": 3.5,
+        "p_value": 0.0005,
+        "bonferroni_p_threshold": 0.00114,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 199.1,
+        "worst_month_pips": -86.0,
+        "bootstrap_95_max_dd_pips": 272.0,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 1202.2,
+          "pips_ex_top3": 1164.2,
+          "pips_ex_top5": 1127.0,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "456e8ceb23f3ec22185a07d9fab5820ddbaa4aabb5f7f6cf0dabb2c9b99fdff7",
+      "manifest_file": "results\\certified_strategy_manifests\\disc65_session_vwap_band_fade_elite_run_manifest.json"
+    },
+    {
+      "name": "disc74_daily_pivot_pullback_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 513.8,
+        "profit_factor": 1.88,
+        "total_trades": 123,
+        "win_rate_pct": 50.4,
+        "expectancy_pips": 4.18,
+        "max_drawdown_pips": 67.1
+      },
+      "discovery_metrics": {
+        "total_trades": 300,
+        "net_pips": 513.8,
+        "win_rate_pct": 41.7,
+        "profit_factor": 1.31,
+        "expectancy_pips": 1.71,
+        "expectancy_std_err": 0.78,
+        "expectancy_ci_95": [
+          0.19,
+          3.23
+        ],
+        "t_statistic": 2.21,
+        "p_value": 0.0271,
+        "bonferroni_p_threshold": 0.00114,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 107.4,
+        "worst_month_pips": -75.4,
+        "bootstrap_95_max_dd_pips": 240.0,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 491.6,
+          "pips_ex_top3": 449.0,
+          "pips_ex_top5": 411.4,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "0d4a29faefa200ab91516c1d8d25622179a2a56459a1dcee54c994648e2e2edd",
+      "manifest_file": "results\\certified_strategy_manifests\\disc74_daily_pivot_pullback_elite_run_manifest.json"
+    },
+    {
+      "name": "disc75_weekly_pivot_pullback_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 81.6,
+        "profit_factor": 1.15,
+        "total_trades": 86,
+        "win_rate_pct": 33.7,
+        "expectancy_pips": 0.95,
+        "max_drawdown_pips": 175.5
+      },
+      "discovery_metrics": {
+        "total_trades": 196,
+        "net_pips": 891.3,
+        "win_rate_pct": 44.9,
+        "profit_factor": 1.87,
+        "expectancy_pips": 4.55,
+        "expectancy_std_err": 1.12,
+        "expectancy_ci_95": [
+          2.35,
+          6.75
+        ],
+        "t_statistic": 4.05,
+        "p_value": 0.0001,
+        "bonferroni_p_threshold": 0.00114,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 97.2,
+        "worst_month_pips": -37.6,
+        "bootstrap_95_max_dd_pips": 144.3,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 864.6,
+          "pips_ex_top3": 814.5,
+          "pips_ex_top5": 768.1,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "76336eb8820b6d28a15d4472206f54250a767f1b361ef353361af395d3ae3ea2",
+      "manifest_file": "results\\certified_strategy_manifests\\disc75_weekly_pivot_pullback_elite_run_manifest.json"
+    },
+    {
+      "name": "disc76_vwap_1sd_rebound_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 313.3,
+        "profit_factor": 1.4,
+        "total_trades": 143,
+        "win_rate_pct": 43.4,
+        "expectancy_pips": 2.19,
+        "max_drawdown_pips": 95.9
+      },
+      "discovery_metrics": {
+        "total_trades": 364,
+        "net_pips": 680.8,
+        "win_rate_pct": 41.8,
+        "profit_factor": 1.34,
+        "expectancy_pips": 1.87,
+        "expectancy_std_err": 0.7,
+        "expectancy_ci_95": [
+          0.49,
+          3.25
+        ],
+        "t_statistic": 2.66,
+        "p_value": 0.0078,
+        "bonferroni_p_threshold": 0.00114,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 99.1,
+        "worst_month_pips": -57.4,
+        "bootstrap_95_max_dd_pips": 234.9,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 658.2,
+          "pips_ex_top3": 617.8,
+          "pips_ex_top5": 580.1,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "d2df4052775f86690d74cb68b5b974c6030ee7acd4b4734ebe57f2d4d3792326",
+      "manifest_file": "results\\certified_strategy_manifests\\disc76_vwap_1sd_rebound_elite_run_manifest.json"
+    },
+    {
+      "name": "disc80_double_swing_neckline_retest_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 280.8,
+        "profit_factor": 1.28,
+        "total_trades": 177,
+        "win_rate_pct": 40.7,
+        "expectancy_pips": 1.59,
+        "max_drawdown_pips": 105.5
+      },
+      "discovery_metrics": {
+        "total_trades": 420,
+        "net_pips": 395.4,
+        "win_rate_pct": 38.6,
+        "profit_factor": 1.16,
+        "expectancy_pips": 0.94,
+        "expectancy_std_err": 0.65,
+        "expectancy_ci_95": [
+          -0.33,
+          2.21
+        ],
+        "t_statistic": 1.45,
+        "p_value": 0.1471,
+        "bonferroni_p_threshold": 0.00114,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 269.4,
+        "worst_month_pips": -103.6,
+        "bootstrap_95_max_dd_pips": 358.9,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 373.3,
+          "pips_ex_top3": 333.8,
+          "pips_ex_top5": 296.2,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "7f4e566bdfc1bf0991292b4bcb4e11345a1896b9ad6a776d1523858707a75c5a",
+      "manifest_file": "results\\certified_strategy_manifests\\disc80_double_swing_neckline_retest_elite_run_manifest.json"
+    },
+    {
+      "name": "disc82_chaikin_volatility_surge_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 405.8,
+        "profit_factor": 1.19,
+        "total_trades": 364,
+        "win_rate_pct": 39.0,
+        "expectancy_pips": 1.11,
+        "max_drawdown_pips": 118.4
+      },
+      "discovery_metrics": {
+        "total_trades": 901,
+        "net_pips": 779.6,
+        "win_rate_pct": 38.1,
+        "profit_factor": 1.15,
+        "expectancy_pips": 0.87,
+        "expectancy_std_err": 0.44,
+        "expectancy_ci_95": [
+          -0.0,
+          1.73
+        ],
+        "t_statistic": 1.96,
+        "p_value": 0.05,
+        "bonferroni_p_threshold": 0.00114,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 341.9,
+        "worst_month_pips": -115.8,
+        "bootstrap_95_max_dd_pips": 442.3,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 758.9,
+          "pips_ex_top3": 718.8,
+          "pips_ex_top5": 679.8,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "fef38a3e2f2f1b6329c42cb77a24e8499158be43b8b1c36ce48be92ac62bbf48",
+      "manifest_file": "results\\certified_strategy_manifests\\disc82_chaikin_volatility_surge_elite_run_manifest.json"
+    },
+    {
+      "name": "disc86_ema_cross_atr_expansion_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 552.9,
+        "profit_factor": 1.42,
+        "total_trades": 261,
+        "win_rate_pct": 43.3,
+        "expectancy_pips": 2.12,
+        "max_drawdown_pips": 118.5
+      },
+      "discovery_metrics": {
+        "total_trades": 640,
+        "net_pips": 831.8,
+        "win_rate_pct": 40.0,
+        "profit_factor": 1.24,
+        "expectancy_pips": 1.3,
+        "expectancy_std_err": 0.5,
+        "expectancy_ci_95": [
+          0.32,
+          2.28
+        ],
+        "t_statistic": 2.59,
+        "p_value": 0.0096,
+        "bonferroni_p_threshold": 0.00114,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 143.5,
+        "worst_month_pips": -83.9,
+        "bootstrap_95_max_dd_pips": 306.9,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 805.0,
+          "pips_ex_top3": 758.9,
+          "pips_ex_top5": 721.9,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "7ce049ebc28b8a78bb4a6dede6ba87878c95649cda3b357391393d4901714e2c",
+      "manifest_file": "results\\certified_strategy_manifests\\disc86_ema_cross_atr_expansion_elite_run_manifest.json"
+    },
+    {
+      "name": "eurgbp_disc107_h1_keltner_squeeze_explosion_elite",
+      "filename": "strategy.py",
+      "symbol": "EURGBP",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 126.0,
+        "profit_factor": 1.71,
+        "total_trades": 40,
+        "win_rate_pct": 47.5,
+        "expectancy_pips": 3.15,
+        "max_drawdown_pips": 62.7
+      },
+      "discovery_metrics": {
+        "total_trades": 229,
+        "net_pips": 364.6,
+        "win_rate_pct": 42.4,
+        "profit_factor": 1.33,
+        "expectancy_pips": 1.59,
+        "expectancy_std_err": 0.78,
+        "expectancy_ci_95": [
+          0.07,
+          3.12
+        ],
+        "t_statistic": 2.05,
+        "p_value": 0.0404,
+        "bonferroni_p_threshold": 0.002,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 117.7,
+        "worst_month_pips": -67.8,
+        "bootstrap_95_max_dd_pips": 188.3,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 347.9,
+          "pips_ex_top3": 315.3,
+          "pips_ex_top5": 283.1,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "51c2878965c6d1fcb0cf49f99907dba4e25846c00d7d304ccb31095d9c29b66c",
+      "manifest_file": "results\\certified_strategy_manifests\\eurgbp_disc107_h1_keltner_squeeze_explosion_elite_run_manifest.json"
+    },
+    {
+      "name": "eurgbp_disc108_macro_asymmetric_runner_elite",
+      "filename": "strategy.py",
+      "symbol": "EURGBP",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 0.1,
+        "profit_factor": 1.01,
+        "total_trades": 3,
+        "win_rate_pct": 33.3,
+        "expectancy_pips": 0.04,
+        "max_drawdown_pips": 19.6
+      },
+      "discovery_metrics": {
+        "total_trades": 68,
+        "net_pips": 324.6,
+        "win_rate_pct": 47.1,
+        "profit_factor": 2.11,
+        "expectancy_pips": 4.77,
+        "expectancy_std_err": 1.69,
+        "expectancy_ci_95": [
+          1.46,
+          8.09
+        ],
+        "t_statistic": 2.82,
+        "p_value": 0.0048,
+        "bonferroni_p_threshold": 0.00167,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 34.4,
+        "worst_month_pips": -25.2,
+        "bootstrap_95_max_dd_pips": 89.5,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 304.6,
+          "pips_ex_top3": 264.6,
+          "pips_ex_top5": 224.9,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "d7c47ffa99023e86b0ad067745ba786839c1490f2db47604e74e051949ee3a06",
+      "manifest_file": "results\\certified_strategy_manifests\\eurgbp_disc108_macro_asymmetric_runner_elite_run_manifest.json"
+    },
+    {
+      "name": "eurgbp_disc42_macro_structure_h4_m30_elite",
+      "filename": "strategy.py",
+      "symbol": "EURGBP",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 28.2,
+        "profit_factor": 1.92,
+        "total_trades": 8,
+        "win_rate_pct": 50.0,
+        "expectancy_pips": 3.52,
+        "max_drawdown_pips": 30.5
+      },
+      "discovery_metrics": {
+        "total_trades": 53,
+        "net_pips": 101.3,
+        "win_rate_pct": 49.1,
+        "profit_factor": 1.36,
+        "expectancy_pips": 1.91,
+        "expectancy_std_err": 1.76,
+        "expectancy_ci_95": [
+          -1.54,
+          5.36
+        ],
+        "t_statistic": 1.09,
+        "p_value": 0.2757,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 70.7,
+        "worst_month_pips": -27.0,
+        "bootstrap_95_max_dd_pips": 133.2,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 84.2,
+          "pips_ex_top3": 54.5,
+          "pips_ex_top5": 24.8,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "e09801609732a4b7a7a4ffba33b8bb4e92128a4ad7767577da6115cab42288f8",
+      "manifest_file": "results\\certified_strategy_manifests\\eurgbp_disc42_macro_structure_h4_m30_elite_run_manifest.json"
+    },
+    {
+      "name": "eurgbp_disc48_camarilla_floor_elite",
+      "filename": "strategy.py",
+      "symbol": "EURGBP",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 49.6,
+        "profit_factor": 1.17,
+        "total_trades": 55,
+        "win_rate_pct": 45.5,
+        "expectancy_pips": 0.9,
+        "max_drawdown_pips": 61.0
+      },
+      "discovery_metrics": {
+        "total_trades": 255,
+        "net_pips": 344.3,
+        "win_rate_pct": 44.3,
+        "profit_factor": 1.28,
+        "expectancy_pips": 1.35,
+        "expectancy_std_err": 0.77,
+        "expectancy_ci_95": [
+          -0.16,
+          2.86
+        ],
+        "t_statistic": 1.75,
+        "p_value": 0.0801,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 74.3,
+        "worst_month_pips": -30.7,
+        "bootstrap_95_max_dd_pips": 226.3,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 263.3,
+          "pips_ex_top3": 229.4,
+          "pips_ex_top5": 201.4,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "9a52087126ffe2c52e0f72b447ab704f7830b9719065da03db856ed5bff10bc8",
+      "manifest_file": "results\\certified_strategy_manifests\\eurgbp_disc48_camarilla_floor_elite_run_manifest.json"
+    },
+    {
+      "name": "eurusd_disc03_ny_open_overlap_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 188.8,
+        "profit_factor": 1.32,
+        "total_trades": 84,
+        "win_rate_pct": 46.4,
+        "expectancy_pips": 2.25,
+        "max_drawdown_pips": 80.3
+      },
+      "discovery_metrics": {
+        "total_trades": 157,
+        "net_pips": -13.6,
+        "win_rate_pct": 39.5,
+        "profit_factor": 0.99,
+        "expectancy_pips": -0.09,
+        "expectancy_std_err": 1.33,
+        "expectancy_ci_95": [
+          -2.7,
+          2.53
+        ],
+        "t_statistic": -0.06,
+        "p_value": 0.9522,
+        "bonferroni_p_threshold": 0.002,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 184.8,
+        "worst_month_pips": -55.1,
+        "bootstrap_95_max_dd_pips": 462.6,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -38.7,
+          "pips_ex_top3": -88.6,
+          "pips_ex_top5": -138.2,
+          "is_outlier_dependent": true
+        }
+      },
+      "code_sha256": "5c2d52a05755c0f82015a6d7743c0d0986852b68368ee74d8fa51f4fcc6c3834",
+      "manifest_file": "results\\certified_strategy_manifests\\eurusd_disc03_ny_open_overlap_elite_run_manifest.json"
+    },
+    {
+      "name": "eurusd_disc38_london_midday_macd_acceleration_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 40.7,
+        "profit_factor": 1.08,
+        "total_trades": 67,
+        "win_rate_pct": 41.8,
+        "expectancy_pips": 0.61,
+        "max_drawdown_pips": 60.9
+      },
+      "discovery_metrics": {
+        "total_trades": 169,
+        "net_pips": 466.1,
+        "win_rate_pct": 45.6,
+        "profit_factor": 1.4,
+        "expectancy_pips": 2.76,
+        "expectancy_std_err": 1.33,
+        "expectancy_ci_95": [
+          0.16,
+          5.36
+        ],
+        "t_statistic": 2.08,
+        "p_value": 0.0375,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 174.1,
+        "worst_month_pips": -82.0,
+        "bootstrap_95_max_dd_pips": 240.4,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 439.3,
+          "pips_ex_top3": 390.4,
+          "pips_ex_top5": 342.2,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "71a040f21913d6c287c647bd3632da2cfebfbb5b366ac8294a9652f2b7a4a61a",
+      "manifest_file": "results\\certified_strategy_manifests\\eurusd_disc38_london_midday_macd_acceleration_elite_run_manifest.json"
+    },
+    {
+      "name": "eurusd_disc41_thursday_macro_trend_ignition_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 31.2,
+        "profit_factor": 1.1,
+        "total_trades": 36,
+        "win_rate_pct": 41.7,
+        "expectancy_pips": 0.87,
+        "max_drawdown_pips": 99.6
+      },
+      "discovery_metrics": {
+        "total_trades": 115,
+        "net_pips": 22.0,
+        "win_rate_pct": 38.3,
+        "profit_factor": 1.02,
+        "expectancy_pips": 0.19,
+        "expectancy_std_err": 1.82,
+        "expectancy_ci_95": [
+          -3.37,
+          3.76
+        ],
+        "t_statistic": 0.11,
+        "p_value": 0.9124,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 188.8,
+        "worst_month_pips": -46.4,
+        "bootstrap_95_max_dd_pips": 411.5,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -4.7,
+          "pips_ex_top3": -56.4,
+          "pips_ex_top5": -107.8,
+          "is_outlier_dependent": true
+        }
+      },
+      "code_sha256": "df89a5db19909d96d0b3d1efe886602bcf71d889f31f65395a01a9d910f1d605",
+      "manifest_file": "results\\certified_strategy_manifests\\eurusd_disc41_thursday_macro_trend_ignition_elite_run_manifest.json"
+    },
+    {
+      "name": "eurusd_disc42_macro_structure_h4_m30_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 106.9,
+        "profit_factor": 3.53,
+        "total_trades": 14,
+        "win_rate_pct": 71.4,
+        "expectancy_pips": 7.64,
+        "max_drawdown_pips": 21.1
+      },
+      "discovery_metrics": {
+        "total_trades": 30,
+        "net_pips": 172.8,
+        "win_rate_pct": 63.3,
+        "profit_factor": 2.5,
+        "expectancy_pips": 5.76,
+        "expectancy_std_err": 2.31,
+        "expectancy_ci_95": [
+          1.23,
+          10.29
+        ],
+        "t_statistic": 2.49,
+        "p_value": 0.0128,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 21.0,
+        "worst_month_pips": -10.9,
+        "bootstrap_95_max_dd_pips": 59.9,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 149.3,
+          "pips_ex_top3": 119.4,
+          "pips_ex_top5": 90.0,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "8eab1f942e47ca6f2b3240e05a0a31f478bce5478757249412a3ce6536c1b437",
+      "manifest_file": "results\\certified_strategy_manifests\\eurusd_disc42_macro_structure_h4_m30_elite_run_manifest.json"
+    },
+    {
+      "name": "eurusd_disc49_intraday_macro_retest_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 153.6,
+        "profit_factor": 5.06,
+        "total_trades": 17,
+        "win_rate_pct": 76.5,
+        "expectancy_pips": 9.04,
+        "max_drawdown_pips": 9.5
+      },
+      "discovery_metrics": {
+        "total_trades": 48,
+        "net_pips": 444.8,
+        "win_rate_pct": 77.1,
+        "profit_factor": 4.99,
+        "expectancy_pips": 9.27,
+        "expectancy_std_err": 1.57,
+        "expectancy_ci_95": [
+          6.2,
+          12.34
+        ],
+        "t_statistic": 5.91,
+        "p_value": 0.0,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 20.3,
+        "worst_month_pips": -10.9,
+        "bootstrap_95_max_dd_pips": 42.9,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 418.5,
+          "pips_ex_top3": 386.6,
+          "pips_ex_top5": 357.0,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "43edabb5befbebc338b1b00fcba7a4c1f050174e523cf2254f653bea82c767eb",
+      "manifest_file": "results\\certified_strategy_manifests\\eurusd_disc49_intraday_macro_retest_elite_run_manifest.json"
+    },
+    {
+      "name": "eurusd_disc50_m30_m5_precision_retest_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 66.8,
+        "profit_factor": 1.79,
+        "total_trades": 22,
+        "win_rate_pct": 54.5,
+        "expectancy_pips": 3.04,
+        "max_drawdown_pips": 34.3
+      },
+      "discovery_metrics": {
+        "total_trades": 73,
+        "net_pips": 461.0,
+        "win_rate_pct": 69.9,
+        "profit_factor": 3.47,
+        "expectancy_pips": 6.32,
+        "expectancy_std_err": 1.15,
+        "expectancy_ci_95": [
+          4.07,
+          8.56
+        ],
+        "t_statistic": 5.51,
+        "p_value": 0.0,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 30.6,
+        "worst_month_pips": -17.6,
+        "bootstrap_95_max_dd_pips": 46.7,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 447.9,
+          "pips_ex_top3": 422.0,
+          "pips_ex_top5": 396.2,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "a2702de440318404ef656db4851936178704ef86259dfc6a050a3f7d71972217",
+      "manifest_file": "results\\certified_strategy_manifests\\eurusd_disc50_m30_m5_precision_retest_elite_run_manifest.json"
+    },
+    {
+      "name": "eurusd_disc51_macro_asymmetric_runner_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 238.5,
+        "profit_factor": 6.05,
+        "total_trades": 17,
+        "win_rate_pct": 70.6,
+        "expectancy_pips": 14.03,
+        "max_drawdown_pips": 18.8
+      },
+      "discovery_metrics": {
+        "total_trades": 48,
+        "net_pips": 609.4,
+        "win_rate_pct": 68.8,
+        "profit_factor": 5.24,
+        "expectancy_pips": 12.7,
+        "expectancy_std_err": 2.28,
+        "expectancy_ci_95": [
+          8.23,
+          17.16
+        ],
+        "t_statistic": 5.57,
+        "p_value": 0.0,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 20.3,
+        "worst_month_pips": -10.9,
+        "bootstrap_95_max_dd_pips": 48.8,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 579.0,
+          "pips_ex_top3": 526.9,
+          "pips_ex_top5": 478.8,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "d0f7397d719c5ac5c5957647eda55c6b154271736313275fe7cbe29d73ac91cc",
+      "manifest_file": "results\\certified_strategy_manifests\\eurusd_disc51_macro_asymmetric_runner_elite_run_manifest.json"
+    },
+    {
+      "name": "eurusd_disc71_asian_hl_retest_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 90.7,
+        "profit_factor": 1.11,
+        "total_trades": 141,
+        "win_rate_pct": 37.6,
+        "expectancy_pips": 0.64,
+        "max_drawdown_pips": 120.9
+      },
+      "discovery_metrics": {
+        "total_trades": 310,
+        "net_pips": 476.3,
+        "win_rate_pct": 40.6,
+        "profit_factor": 1.27,
+        "expectancy_pips": 1.54,
+        "expectancy_std_err": 0.76,
+        "expectancy_ci_95": [
+          0.04,
+          3.03
+        ],
+        "t_statistic": 2.02,
+        "p_value": 0.0434,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 97.0,
+        "worst_month_pips": -48.7,
+        "bootstrap_95_max_dd_pips": 263.3,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 457.2,
+          "pips_ex_top3": 420.8,
+          "pips_ex_top5": 384.7,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "49a6300675f33bc2ee0edaf34f36e0f8f056bd9b614df1d5f99028a4dfd7b38f",
+      "manifest_file": "results\\certified_strategy_manifests\\eurusd_disc71_asian_hl_retest_elite_run_manifest.json"
+    },
+    {
+      "name": "eurusd_disc77_keltner_midline_expansion_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 99.1,
+        "profit_factor": 1.05,
+        "total_trades": 360,
+        "win_rate_pct": 36.4,
+        "expectancy_pips": 0.28,
+        "max_drawdown_pips": 192.1
+      },
+      "discovery_metrics": {
+        "total_trades": 896,
+        "net_pips": 663.2,
+        "win_rate_pct": 37.6,
+        "profit_factor": 1.12,
+        "expectancy_pips": 0.74,
+        "expectancy_std_err": 0.44,
+        "expectancy_ci_95": [
+          -0.13,
+          1.61
+        ],
+        "t_statistic": 1.67,
+        "p_value": 0.0949,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 349.1,
+        "worst_month_pips": -143.1,
+        "bootstrap_95_max_dd_pips": 481.4,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 642.6,
+          "pips_ex_top3": 602.0,
+          "pips_ex_top5": 563.5,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "5bbfd97bd6cf8942cc493b06ea27bf5ec81e28e439b2aa8f7ae420ed9dc81212",
+      "manifest_file": "results\\certified_strategy_manifests\\eurusd_disc77_keltner_midline_expansion_elite_run_manifest.json"
+    },
+    {
+      "name": "eurusd_disc78_three_bar_inside_confirmation_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 45.7,
+        "profit_factor": 1.02,
+        "total_trades": 302,
+        "win_rate_pct": 35.4,
+        "expectancy_pips": 0.15,
+        "max_drawdown_pips": 328.3
+      },
+      "discovery_metrics": {
+        "total_trades": 732,
+        "net_pips": 271.7,
+        "win_rate_pct": 36.3,
+        "profit_factor": 1.06,
+        "expectancy_pips": 0.37,
+        "expectancy_std_err": 0.49,
+        "expectancy_ci_95": [
+          -0.58,
+          1.33
+        ],
+        "t_statistic": 0.76,
+        "p_value": 0.4473,
+        "bonferroni_p_threshold": 0.002,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 389.2,
+        "worst_month_pips": -114.3,
+        "bootstrap_95_max_dd_pips": 601.2,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 251.9,
+          "pips_ex_top3": 213.9,
+          "pips_ex_top5": 176.2,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "2a11fcb12d5ed22e56a6b4aad9c547f992a7740858bd231ef5613cc5d5be107a",
+      "manifest_file": "results\\certified_strategy_manifests\\eurusd_disc78_three_bar_inside_confirmation_elite_run_manifest.json"
+    },
+    {
+      "name": "eurusd_disc79_london_open_15m_expansion_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 172.8,
+        "profit_factor": 1.21,
+        "total_trades": 145,
+        "win_rate_pct": 39.3,
+        "expectancy_pips": 1.19,
+        "max_drawdown_pips": 94.5
+      },
+      "discovery_metrics": {
+        "total_trades": 393,
+        "net_pips": -25.8,
+        "win_rate_pct": 34.6,
+        "profit_factor": 0.99,
+        "expectancy_pips": -0.07,
+        "expectancy_std_err": 0.66,
+        "expectancy_ci_95": [
+          -1.35,
+          1.22
+        ],
+        "t_statistic": -0.1,
+        "p_value": 0.9203,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 412.2,
+        "worst_month_pips": -85.2,
+        "bootstrap_95_max_dd_pips": 589.0,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -46.5,
+          "pips_ex_top3": -86.4,
+          "pips_ex_top5": -124.4,
+          "is_outlier_dependent": true
+        }
+      },
+      "code_sha256": "8d58a4f8c916ddb52322f3737f468b9450b5f57d18491e2d321eb03d6baad9c6",
+      "manifest_file": "results\\certified_strategy_manifests\\eurusd_disc79_london_open_15m_expansion_elite_run_manifest.json"
+    },
+    {
+      "name": "eurusd_disc85_session_open_impulse_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 96.8,
+        "profit_factor": 1.08,
+        "total_trades": 226,
+        "win_rate_pct": 36.3,
+        "expectancy_pips": 0.43,
+        "max_drawdown_pips": 104.3
+      },
+      "discovery_metrics": {
+        "total_trades": 561,
+        "net_pips": 527.6,
+        "win_rate_pct": 38.5,
+        "profit_factor": 1.17,
+        "expectancy_pips": 0.94,
+        "expectancy_std_err": 0.53,
+        "expectancy_ci_95": [
+          -0.1,
+          1.98
+        ],
+        "t_statistic": 1.77,
+        "p_value": 0.0767,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 217.6,
+        "worst_month_pips": -56.0,
+        "bootstrap_95_max_dd_pips": 344.1,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 501.1,
+          "pips_ex_top3": 463.6,
+          "pips_ex_top5": 426.8,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "15c981b429cb550867797ffbb239c99ed5bfe797d362ca311420367dc3fa1fb6",
+      "manifest_file": "results\\certified_strategy_manifests\\eurusd_disc85_session_open_impulse_elite_run_manifest.json"
+    },
+    {
+      "name": "eurusd_high_frequency_m15_scalper_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 66.8,
+        "profit_factor": 1.01,
+        "total_trades": 659,
+        "win_rate_pct": 33.4,
+        "expectancy_pips": 0.1,
+        "max_drawdown_pips": 487.0
+      },
+      "discovery_metrics": {
+        "total_trades": 1557,
+        "net_pips": 306.1,
+        "win_rate_pct": 34.7,
+        "profit_factor": 1.03,
+        "expectancy_pips": 0.2,
+        "expectancy_std_err": 0.43,
+        "expectancy_ci_95": [
+          -0.64,
+          1.04
+        ],
+        "t_statistic": 0.46,
+        "p_value": 0.6455,
+        "bonferroni_p_threshold": 0.00167,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 525.9,
+        "worst_month_pips": -161.7,
+        "bootstrap_95_max_dd_pips": 1260.5,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 239.7,
+          "pips_ex_top3": 136.5,
+          "pips_ex_top5": 42.1,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "50d91256a10829338dc6ebeab33087597029aeb7fcc53b9d8d4fcd4f8af7fa45",
+      "manifest_file": "results\\certified_strategy_manifests\\eurusd_high_frequency_m15_scalper_elite_run_manifest.json"
+    },
+    {
+      "name": "gbpchf_strategy_26_gbpchf_asian_sweep",
+      "filename": "strategy.py",
+      "symbol": "GBPCHF",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 37.1,
+        "profit_factor": 1.03,
+        "total_trades": 113,
+        "win_rate_pct": 37.2,
+        "expectancy_pips": 0.33,
+        "max_drawdown_pips": 350.0
+      },
+      "discovery_metrics": {
+        "total_trades": 384,
+        "net_pips": -407.8,
+        "win_rate_pct": 33.6,
+        "profit_factor": 0.92,
+        "expectancy_pips": -1.06,
+        "expectancy_std_err": 1.44,
+        "expectancy_ci_95": [
+          -3.88,
+          1.75
+        ],
+        "t_statistic": -0.74,
+        "p_value": 0.4593,
+        "bonferroni_p_threshold": 0.00167,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 1074.7,
+        "worst_month_pips": -186.5,
+        "bootstrap_95_max_dd_pips": 1577.7,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -449.5,
+          "pips_ex_top3": -530.6,
+          "pips_ex_top5": -611.4,
+          "is_outlier_dependent": true
+        }
+      },
+      "code_sha256": "aca24fbe11b5a07b7aa9587cbfdb3feac1050a2f127353bd174dd7226d41e0ba",
+      "manifest_file": "results\\certified_strategy_manifests\\gbpchf_strategy_26_gbpchf_asian_sweep_run_manifest.json"
+    },
+    {
+      "name": "gbpchf_strategy_27_gbpchf_asian_sweep",
+      "filename": "strategy.py",
+      "symbol": "GBPCHF",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 45.7,
+        "profit_factor": 1.04,
+        "total_trades": 85,
+        "win_rate_pct": 36.5,
+        "expectancy_pips": 0.54,
+        "max_drawdown_pips": 360.0
+      },
+      "discovery_metrics": {
+        "total_trades": 339,
+        "net_pips": -301.2,
+        "win_rate_pct": 34.2,
+        "profit_factor": 0.94,
+        "expectancy_pips": -0.89,
+        "expectancy_std_err": 1.53,
+        "expectancy_ci_95": [
+          -3.88,
+          2.11
+        ],
+        "t_statistic": -0.58,
+        "p_value": 0.5619,
+        "bonferroni_p_threshold": 0.00167,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 981.6,
+        "worst_month_pips": -174.2,
+        "bootstrap_95_max_dd_pips": 1389.1,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -342.8,
+          "pips_ex_top3": -424.7,
+          "pips_ex_top5": -505.4,
+          "is_outlier_dependent": true
+        }
+      },
+      "code_sha256": "328e736eb79abcd7e673997339e80c37d4e7707abb91a5a5d4c1d51df3f3ec9e",
+      "manifest_file": "results\\certified_strategy_manifests\\gbpchf_strategy_27_gbpchf_asian_sweep_run_manifest.json"
+    },
+    {
+      "name": "gbpchf_strategy_29_gbpchf_asian_sweep",
+      "filename": "strategy.py",
+      "symbol": "GBPCHF",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 41.6,
+        "profit_factor": 1.05,
+        "total_trades": 64,
+        "win_rate_pct": 32.8,
+        "expectancy_pips": 0.65,
+        "max_drawdown_pips": 349.1
+      },
+      "discovery_metrics": {
+        "total_trades": 295,
+        "net_pips": 114.2,
+        "win_rate_pct": 32.9,
+        "profit_factor": 1.03,
+        "expectancy_pips": 0.39,
+        "expectancy_std_err": 1.84,
+        "expectancy_ci_95": [
+          -3.22,
+          4.0
+        ],
+        "t_statistic": 0.21,
+        "p_value": 0.8337,
+        "bonferroni_p_threshold": 0.00167,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 496.9,
+        "worst_month_pips": -153.8,
+        "bootstrap_95_max_dd_pips": 1094.3,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 62.8,
+          "pips_ex_top3": -38.1,
+          "pips_ex_top5": -138.6,
+          "is_outlier_dependent": true
+        }
+      },
+      "code_sha256": "c7145b3125971287eeb9f6f81a0afc8b7aa7d824a15d93152cc255f97176989e",
+      "manifest_file": "results\\certified_strategy_manifests\\gbpchf_strategy_29_gbpchf_asian_sweep_run_manifest.json"
+    },
+    {
+      "name": "s10_dual_ema_pullback_elite",
+      "filename": "strategy.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 233.1,
+        "profit_factor": 1.14,
+        "total_trades": 137,
+        "win_rate_pct": 34.3,
+        "expectancy_pips": 1.7,
+        "max_drawdown_pips": 298.4
+      },
+      "discovery_metrics": {
+        "total_trades": 266,
+        "net_pips": 1044.6,
+        "win_rate_pct": 34.2,
+        "profit_factor": 1.34,
+        "expectancy_pips": 3.93,
+        "expectancy_std_err": 1.88,
+        "expectancy_ci_95": [
+          0.24,
+          7.62
+        ],
+        "t_statistic": 2.09,
+        "p_value": 0.0366,
+        "bonferroni_p_threshold": 0.00114,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 340.1,
+        "worst_month_pips": -149.3,
+        "bootstrap_95_max_dd_pips": 533.1,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 984.5,
+          "pips_ex_top3": 865.1,
+          "pips_ex_top5": 746.4,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "901c995c98c4987f56996c17c2bcd091cfc6669a167132674f49e7eb072e04ce",
+      "manifest_file": "results\\certified_strategy_manifests\\s10_dual_ema_pullback_elite_run_manifest.json"
+    },
+    {
+      "name": "strategy_09_eurusd_ny_sweep_fade",
+      "filename": "strategy_09_eurusd_ny_sweep_fade.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 89.9,
+        "profit_factor": 1.15,
+        "total_trades": 97,
+        "win_rate_pct": 38.1,
+        "expectancy_pips": 0.93,
+        "max_drawdown_pips": 101.6
+      },
+      "discovery_metrics": {
+        "total_trades": 216,
+        "net_pips": -138.5,
+        "win_rate_pct": 33.8,
+        "profit_factor": 0.91,
+        "expectancy_pips": -0.64,
+        "expectancy_std_err": 0.95,
+        "expectancy_ci_95": [
+          -2.5,
+          1.22
+        ],
+        "t_statistic": -0.68,
+        "p_value": 0.4965,
+        "bonferroni_p_threshold": 0.00313,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 378.7,
+        "worst_month_pips": -74.2,
+        "bootstrap_95_max_dd_pips": 539.3,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -161.7,
+          "pips_ex_top3": -203.4,
+          "pips_ex_top5": -244.0,
+          "is_outlier_dependent": true
+        }
+      },
+      "code_sha256": "0cfd0278623862db62f7144653009eb302ad673823ca7f3771cc5a569e7186c0",
+      "manifest_file": "results\\certified_strategy_manifests\\strategy_09_eurusd_ny_sweep_fade_run_manifest.json"
+    },
+    {
+      "name": "strategy_10_eurusd_ny_sweep_fade",
+      "filename": "strategy_10_eurusd_ny_sweep_fade.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 93.5,
+        "profit_factor": 1.15,
+        "total_trades": 97,
+        "win_rate_pct": 37.1,
+        "expectancy_pips": 0.96,
+        "max_drawdown_pips": 114.9
+      },
+      "discovery_metrics": {
+        "total_trades": 216,
+        "net_pips": -178.0,
+        "win_rate_pct": 32.4,
+        "profit_factor": 0.88,
+        "expectancy_pips": -0.82,
+        "expectancy_std_err": 0.96,
+        "expectancy_ci_95": [
+          -2.71,
+          1.07
+        ],
+        "t_statistic": -0.85,
+        "p_value": 0.3953,
+        "bonferroni_p_threshold": 0.00313,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 388.7,
+        "worst_month_pips": -74.2,
+        "bootstrap_95_max_dd_pips": 594.4,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -203.1,
+          "pips_ex_top3": -247.5,
+          "pips_ex_top5": -289.5,
+          "is_outlier_dependent": true
+        }
+      },
+      "code_sha256": "9f6c6dcb3660ab2c8dfdc30d9f24d093c13928d37ecdb7f064334015423560fd",
+      "manifest_file": "results\\certified_strategy_manifests\\strategy_10_eurusd_ny_sweep_fade_run_manifest.json"
+    },
+    {
+      "name": "strategy_11_eurusd_ny_sweep_fade",
+      "filename": "strategy_11_eurusd_ny_sweep_fade.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 124.3,
+        "profit_factor": 1.18,
+        "total_trades": 97,
+        "win_rate_pct": 37.1,
+        "expectancy_pips": 1.28,
+        "max_drawdown_pips": 112.9
+      },
+      "discovery_metrics": {
+        "total_trades": 216,
+        "net_pips": -267.3,
+        "win_rate_pct": 31.5,
+        "profit_factor": 0.84,
+        "expectancy_pips": -1.24,
+        "expectancy_std_err": 1.05,
+        "expectancy_ci_95": [
+          -3.3,
+          0.83
+        ],
+        "t_statistic": -1.17,
+        "p_value": 0.242,
+        "bonferroni_p_threshold": 0.00313,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 462.9,
+        "worst_month_pips": -82.0,
+        "bootstrap_95_max_dd_pips": 724.7,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -292.4,
+          "pips_ex_top3": -340.8,
+          "pips_ex_top5": -389.0,
+          "is_outlier_dependent": true
+        }
+      },
+      "code_sha256": "5492186fcc82045e63990655898e49b6ed8cb8c282198c92d85f715637000fcb",
+      "manifest_file": "results\\certified_strategy_manifests\\strategy_11_eurusd_ny_sweep_fade_run_manifest.json"
+    },
+    {
+      "name": "strategy_12_eurusd_ny_sweep_fade",
+      "filename": "strategy_12_eurusd_ny_sweep_fade.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 136.5,
+        "profit_factor": 1.17,
+        "total_trades": 97,
+        "win_rate_pct": 37.1,
+        "expectancy_pips": 1.41,
+        "max_drawdown_pips": 133.0
+      },
+      "discovery_metrics": {
+        "total_trades": 215,
+        "net_pips": -402.3,
+        "win_rate_pct": 30.7,
+        "profit_factor": 0.8,
+        "expectancy_pips": -1.87,
+        "expectancy_std_err": 1.21,
+        "expectancy_ci_95": [
+          -4.25,
+          0.51
+        ],
+        "t_statistic": -1.54,
+        "p_value": 0.1236,
+        "bonferroni_p_threshold": 0.00313,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 636.9,
+        "worst_month_pips": -95.2,
+        "bootstrap_95_max_dd_pips": 897.9,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -431.2,
+          "pips_ex_top3": -488.3,
+          "pips_ex_top5": -544.6,
+          "is_outlier_dependent": true
+        }
+      },
+      "code_sha256": "782f1ccd4d5c7e61d71a2714b4faf97ecbe13606fde977383fb3c172fb2b0a1a",
+      "manifest_file": "results\\certified_strategy_manifests\\strategy_12_eurusd_ny_sweep_fade_run_manifest.json"
+    },
+    {
+      "name": "strategy_15_eurusd_ny_sweep_fade",
+      "filename": "strategy_15_eurusd_ny_sweep_fade.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 89.9,
+        "profit_factor": 1.15,
+        "total_trades": 97,
+        "win_rate_pct": 38.1,
+        "expectancy_pips": 0.93,
+        "max_drawdown_pips": 107.2
+      },
+      "discovery_metrics": {
+        "total_trades": 216,
+        "net_pips": -138.5,
+        "win_rate_pct": 33.8,
+        "profit_factor": 0.91,
+        "expectancy_pips": -0.64,
+        "expectancy_std_err": 0.95,
+        "expectancy_ci_95": [
+          -2.5,
+          1.22
+        ],
+        "t_statistic": -0.68,
+        "p_value": 0.4965,
+        "bonferroni_p_threshold": 0.00313,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 367.4,
+        "worst_month_pips": -74.2,
+        "bootstrap_95_max_dd_pips": 536.8,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -161.7,
+          "pips_ex_top3": -203.4,
+          "pips_ex_top5": -244.0,
+          "is_outlier_dependent": true
+        }
+      },
+      "code_sha256": "14a336fb947f13afef7f2b0b01ca66ba846480b44efa7fc5567890260d03d8ac",
+      "manifest_file": "results\\certified_strategy_manifests\\strategy_15_eurusd_ny_sweep_fade_run_manifest.json"
+    },
+    {
+      "name": "strategy_16_eurusd_ny_sweep_fade",
+      "filename": "strategy_16_eurusd_ny_sweep_fade.py",
+      "symbol": "EURUSD",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 93.5,
+        "profit_factor": 1.15,
+        "total_trades": 97,
+        "win_rate_pct": 37.1,
+        "expectancy_pips": 0.96,
+        "max_drawdown_pips": 124.8
+      },
+      "discovery_metrics": {
+        "total_trades": 216,
+        "net_pips": -178.0,
+        "win_rate_pct": 32.4,
+        "profit_factor": 0.88,
+        "expectancy_pips": -0.82,
+        "expectancy_std_err": 0.96,
+        "expectancy_ci_95": [
+          -2.71,
+          1.07
+        ],
+        "t_statistic": -0.85,
+        "p_value": 0.3953,
+        "bonferroni_p_threshold": 0.00313,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 398.8,
+        "worst_month_pips": -74.2,
+        "bootstrap_95_max_dd_pips": 603.9,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -203.1,
+          "pips_ex_top3": -247.5,
+          "pips_ex_top5": -289.5,
+          "is_outlier_dependent": true
+        }
+      },
+      "code_sha256": "771ccda02a1121d33d260a3cd2c6e060e821d8c44637f1b1ade9133450c5cb96",
+      "manifest_file": "results\\certified_strategy_manifests\\strategy_16_eurusd_ny_sweep_fade_run_manifest.json"
+    },
+    {
+      "name": "Strategy_17_usdcad_asian_sweep",
+      "filename": "strategy_17_usdcad_asian_sweep.py",
+      "symbol": "USDCAD",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 68.5,
+        "profit_factor": 1.31,
+        "total_trades": 22,
+        "win_rate_pct": 31.8,
+        "expectancy_pips": 3.11,
+        "max_drawdown_pips": 102.1
+      },
+      "discovery_metrics": {},
+      "code_sha256": "83cfbcbeeddb7fd14701c769bc4ac7a8f38b978574ec62537d670da04fa68b33",
+      "manifest_file": "results\\certified_strategy_manifests\\strategy_17_usdcad_asian_sweep_run_manifest.json"
+    },
+    {
+      "name": "strategy_18_usdcad_asian_sweep",
+      "filename": "strategy_18_usdcad_asian_sweep.py",
+      "symbol": "USDCAD",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 53.9,
+        "profit_factor": 1.23,
+        "total_trades": 23,
+        "win_rate_pct": 30.4,
+        "expectancy_pips": 2.34,
+        "max_drawdown_pips": 73.0
+      },
+      "discovery_metrics": {
+        "total_trades": 122,
+        "net_pips": 207.4,
+        "win_rate_pct": 29.5,
+        "profit_factor": 1.16,
+        "expectancy_pips": 1.7,
+        "expectancy_std_err": 2.35,
+        "expectancy_ci_95": [
+          -2.92,
+          6.32
+        ],
+        "t_statistic": 0.72,
+        "p_value": 0.4715,
+        "bonferroni_p_threshold": 0.00313,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 208.2,
+        "worst_month_pips": -117.4,
+        "bootstrap_95_max_dd_pips": 447.5,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 160.1,
+          "pips_ex_top3": 69.4,
+          "pips_ex_top5": -20.5,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "2bb168add15c020a471fc69a9d1d7f0c676556e8b55c355badd0a06cd814cde0",
+      "manifest_file": "results\\certified_strategy_manifests\\strategy_18_usdcad_asian_sweep_run_manifest.json"
+    },
+    {
+      "name": "strategy_19_usdcad_asian_sweep",
+      "filename": "strategy_19_usdcad_asian_sweep.py",
+      "symbol": "USDCAD",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 53.9,
+        "profit_factor": 1.23,
+        "total_trades": 23,
+        "win_rate_pct": 30.4,
+        "expectancy_pips": 2.34,
+        "max_drawdown_pips": 87.5
+      },
+      "discovery_metrics": {
+        "total_trades": 122,
+        "net_pips": 207.4,
+        "win_rate_pct": 29.5,
+        "profit_factor": 1.16,
+        "expectancy_pips": 1.7,
+        "expectancy_std_err": 2.35,
+        "expectancy_ci_95": [
+          -2.92,
+          6.32
+        ],
+        "t_statistic": 0.72,
+        "p_value": 0.4715,
+        "bonferroni_p_threshold": 0.00313,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 208.2,
+        "worst_month_pips": -117.4,
+        "bootstrap_95_max_dd_pips": 439.4,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 160.1,
+          "pips_ex_top3": 69.4,
+          "pips_ex_top5": -20.5,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "d1ef65de7b4ced36f8a245c3c7759c8729e2c58cf45da5c43d56e24f7698c855",
+      "manifest_file": "results\\certified_strategy_manifests\\strategy_19_usdcad_asian_sweep_run_manifest.json"
+    },
+    {
+      "name": "strategy_20_usdcad_asian_sweep",
+      "filename": "strategy_20_usdcad_asian_sweep.py",
+      "symbol": "USDCAD",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 95.8,
+        "profit_factor": 1.47,
+        "total_trades": 22,
+        "win_rate_pct": 36.4,
+        "expectancy_pips": 4.35,
+        "max_drawdown_pips": 58.4
+      },
+      "discovery_metrics": {
+        "total_trades": 121,
+        "net_pips": 160.8,
+        "win_rate_pct": 31.4,
+        "profit_factor": 1.13,
+        "expectancy_pips": 1.33,
+        "expectancy_std_err": 2.18,
+        "expectancy_ci_95": [
+          -2.94,
+          5.6
+        ],
+        "t_statistic": 0.61,
+        "p_value": 0.5419,
+        "bonferroni_p_threshold": 0.00313,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 222.1,
+        "worst_month_pips": -117.4,
+        "bootstrap_95_max_dd_pips": 433.1,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 122.9,
+          "pips_ex_top3": 47.2,
+          "pips_ex_top5": -28.4,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "8c52de830089375d32a84be8d182e5b19e12b9e866c60f74f35e27b24058d5ff",
+      "manifest_file": "results\\certified_strategy_manifests\\strategy_20_usdcad_asian_sweep_run_manifest.json"
+    },
+    {
+      "name": "strategy_21_usdcad_asian_sweep",
+      "filename": "strategy_21_usdcad_asian_sweep.py",
+      "symbol": "USDCAD",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 81.2,
+        "profit_factor": 1.37,
+        "total_trades": 23,
+        "win_rate_pct": 34.8,
+        "expectancy_pips": 3.53,
+        "max_drawdown_pips": 73.0
+      },
+      "discovery_metrics": {
+        "total_trades": 122,
+        "net_pips": 146.3,
+        "win_rate_pct": 31.1,
+        "profit_factor": 1.12,
+        "expectancy_pips": 1.2,
+        "expectancy_std_err": 2.16,
+        "expectancy_ci_95": [
+          -3.04,
+          5.44
+        ],
+        "t_statistic": 0.55,
+        "p_value": 0.5823,
+        "bonferroni_p_threshold": 0.00313,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 184.6,
+        "worst_month_pips": -117.4,
+        "bootstrap_95_max_dd_pips": 430.5,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 108.3,
+          "pips_ex_top3": 32.7,
+          "pips_ex_top5": -42.9,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "4e7f940b9a3b6c7e687613a9b85eecdbe7dd35a17caf1a029d870d7d85f98340",
+      "manifest_file": "results\\certified_strategy_manifests\\strategy_21_usdcad_asian_sweep_run_manifest.json"
+    },
+    {
+      "name": "strategy_22_usdcad_asian_sweep",
+      "filename": "strategy_22_usdcad_asian_sweep.py",
+      "symbol": "USDCAD",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 81.2,
+        "profit_factor": 1.37,
+        "total_trades": 23,
+        "win_rate_pct": 34.8,
+        "expectancy_pips": 3.53,
+        "max_drawdown_pips": 73.0
+      },
+      "discovery_metrics": {
+        "total_trades": 122,
+        "net_pips": 146.3,
+        "win_rate_pct": 31.1,
+        "profit_factor": 1.12,
+        "expectancy_pips": 1.2,
+        "expectancy_std_err": 2.16,
+        "expectancy_ci_95": [
+          -3.04,
+          5.44
+        ],
+        "t_statistic": 0.55,
+        "p_value": 0.5823,
+        "bonferroni_p_threshold": 0.00313,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 222.1,
+        "worst_month_pips": -117.4,
+        "bootstrap_95_max_dd_pips": 453.2,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 108.3,
+          "pips_ex_top3": 32.7,
+          "pips_ex_top5": -42.9,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "546c037dfee010fb10f15cd0666638ab18d7f103b34aeb49b2c6a33710f9a7e3",
+      "manifest_file": "results\\certified_strategy_manifests\\strategy_22_usdcad_asian_sweep_run_manifest.json"
+    },
+    {
+      "name": "strategy_23_usdcad_asian_sweep",
+      "filename": "strategy_23_usdcad_asian_sweep.py",
+      "symbol": "USDCAD",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 112.6,
+        "profit_factor": 1.51,
+        "total_trades": 22,
+        "win_rate_pct": 36.4,
+        "expectancy_pips": 5.12,
+        "max_drawdown_pips": 78.1
+      },
+      "discovery_metrics": {
+        "total_trades": 121,
+        "net_pips": 157.5,
+        "win_rate_pct": 30.6,
+        "profit_factor": 1.12,
+        "expectancy_pips": 1.3,
+        "expectancy_std_err": 2.41,
+        "expectancy_ci_95": [
+          -3.41,
+          6.02
+        ],
+        "t_statistic": 0.54,
+        "p_value": 0.5892,
+        "bonferroni_p_threshold": 0.00313,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 196.2,
+        "worst_month_pips": -125.0,
+        "bootstrap_95_max_dd_pips": 469.1,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 110.3,
+          "pips_ex_top3": 19.5,
+          "pips_ex_top5": -70.4,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "13574f061eb95af339043d0e9d873eb082ac5ab4ce21a4b16db951564f33bb76",
+      "manifest_file": "results\\certified_strategy_manifests\\strategy_23_usdcad_asian_sweep_run_manifest.json"
+    },
+    {
+      "name": "strategy_24_usdcad_asian_sweep",
+      "filename": "strategy_24_usdcad_asian_sweep.py",
+      "symbol": "USDCAD",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 86.3,
+        "profit_factor": 1.39,
+        "total_trades": 22,
+        "win_rate_pct": 31.8,
+        "expectancy_pips": 3.92,
+        "max_drawdown_pips": 72.9
+      },
+      "discovery_metrics": {
+        "total_trades": 121,
+        "net_pips": 162.2,
+        "win_rate_pct": 28.1,
+        "profit_factor": 1.13,
+        "expectancy_pips": 1.34,
+        "expectancy_std_err": 2.41,
+        "expectancy_ci_95": [
+          -3.38,
+          6.06
+        ],
+        "t_statistic": 0.56,
+        "p_value": 0.5755,
+        "bonferroni_p_threshold": 0.00313,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 222.0,
+        "worst_month_pips": -117.4,
+        "bootstrap_95_max_dd_pips": 469.9,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 113.5,
+          "pips_ex_top3": 17.0,
+          "pips_ex_top5": -79.3,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "e2bb313641e85e8ffaae9e3b68abe69190cec2402f32b939ce6b9a8957523e34",
+      "manifest_file": "results\\certified_strategy_manifests\\strategy_24_usdcad_asian_sweep_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc100_double_structure_neckline_breakout_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 77.5,
+        "profit_factor": 1.09,
+        "total_trades": 111,
+        "win_rate_pct": 37.8,
+        "expectancy_pips": 0.7,
+        "max_drawdown_pips": 159.2
+      },
+      "discovery_metrics": {
+        "total_trades": 286,
+        "net_pips": 475.1,
+        "win_rate_pct": 40.2,
+        "profit_factor": 1.22,
+        "expectancy_pips": 1.66,
+        "expectancy_std_err": 1.06,
+        "expectancy_ci_95": [
+          -0.41,
+          3.74
+        ],
+        "t_statistic": 1.57,
+        "p_value": 0.1164,
+        "bonferroni_p_threshold": 0.002,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 155.7,
+        "worst_month_pips": -91.8,
+        "bootstrap_95_max_dd_pips": 364.8,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 441.4,
+          "pips_ex_top3": 385.3,
+          "pips_ex_top5": 334.1,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "fceccec7361cf33b7395ef0f305e5740cb7528d3a5a2ba0e5a1fd8f4d0f0210c",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc100_double_structure_neckline_breakout_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc102_keltner_midline_expansion_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 161.8,
+        "profit_factor": 1.06,
+        "total_trades": 336,
+        "win_rate_pct": 36.6,
+        "expectancy_pips": 0.48,
+        "max_drawdown_pips": 298.6
+      },
+      "discovery_metrics": {
+        "total_trades": 754,
+        "net_pips": 1400.9,
+        "win_rate_pct": 40.7,
+        "profit_factor": 1.24,
+        "expectancy_pips": 1.86,
+        "expectancy_std_err": 0.66,
+        "expectancy_ci_95": [
+          0.57,
+          3.14
+        ],
+        "t_statistic": 2.83,
+        "p_value": 0.0047,
+        "bonferroni_p_threshold": 0.002,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 222.4,
+        "worst_month_pips": -123.7,
+        "bootstrap_95_max_dd_pips": 452.5,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 1370.9,
+          "pips_ex_top3": 1316.5,
+          "pips_ex_top5": 1263.9,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "451006fd53798c892d827b01ddb76cbf1b1833528fd745e8136e2cc0620dab64",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc102_keltner_midline_expansion_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc106_chaikin_volatility_surge_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 465.3,
+        "profit_factor": 1.17,
+        "total_trades": 305,
+        "win_rate_pct": 38.4,
+        "expectancy_pips": 1.53,
+        "max_drawdown_pips": 208.3
+      },
+      "discovery_metrics": {
+        "total_trades": 773,
+        "net_pips": 1137.5,
+        "win_rate_pct": 38.4,
+        "profit_factor": 1.16,
+        "expectancy_pips": 1.47,
+        "expectancy_std_err": 0.73,
+        "expectancy_ci_95": [
+          0.03,
+          2.91
+        ],
+        "t_statistic": 2.0,
+        "p_value": 0.0455,
+        "bonferroni_p_threshold": 0.002,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 454.2,
+        "worst_month_pips": -166.2,
+        "bootstrap_95_max_dd_pips": 649.6,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 1108.3,
+          "pips_ex_top3": 1050.4,
+          "pips_ex_top5": 993.0,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "64b1b9b8bb4bfe7da8b78e6e7f918c5424761a7cdf4f3f6a44e1938466b0799c",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc106_chaikin_volatility_surge_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc49_intraday_macro_retest_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 53.8,
+        "profit_factor": 3.12,
+        "total_trades": 6,
+        "win_rate_pct": 66.7,
+        "expectancy_pips": 8.97,
+        "max_drawdown_pips": 25.4
+      },
+      "discovery_metrics": {
+        "total_trades": 27,
+        "net_pips": 244.3,
+        "win_rate_pct": 66.7,
+        "profit_factor": 3.27,
+        "expectancy_pips": 9.05,
+        "expectancy_std_err": 2.93,
+        "expectancy_ci_95": [
+          3.31,
+          14.78
+        ],
+        "t_statistic": 3.09,
+        "p_value": 0.002,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 25.8,
+        "worst_month_pips": -25.8,
+        "bootstrap_95_max_dd_pips": 58.1,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 224.3,
+          "pips_ex_top3": 184.6,
+          "pips_ex_top5": 145.2,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "60b92e0841a0b08063349723cb857a61b4e856f8fbb083f198d20dabf5089f51",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc49_intraday_macro_retest_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc50_m30_m5_precision_retest_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 57.4,
+        "profit_factor": 2.08,
+        "total_trades": 12,
+        "win_rate_pct": 58.3,
+        "expectancy_pips": 4.79,
+        "max_drawdown_pips": 31.9
+      },
+      "discovery_metrics": {
+        "total_trades": 24,
+        "net_pips": 252.4,
+        "win_rate_pct": 79.2,
+        "profit_factor": 5.63,
+        "expectancy_pips": 10.52,
+        "expectancy_std_err": 2.31,
+        "expectancy_ci_95": [
+          5.98,
+          15.05
+        ],
+        "t_statistic": 4.55,
+        "p_value": 0.0,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 22.5,
+        "worst_month_pips": -11.8,
+        "bootstrap_95_max_dd_pips": 34.3,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 229.6,
+          "pips_ex_top3": 195.1,
+          "pips_ex_top5": 162.8,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "197b3a1c2a8e7b64455b92193f4db211504c9834b0bcf55c426d5cda0de3644d",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc50_m30_m5_precision_retest_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc51_macro_asymmetric_runner_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 50.1,
+        "profit_factor": 2.32,
+        "total_trades": 6,
+        "win_rate_pct": 50.0,
+        "expectancy_pips": 8.35,
+        "max_drawdown_pips": 38.0
+      },
+      "discovery_metrics": {
+        "total_trades": 27,
+        "net_pips": 254.9,
+        "win_rate_pct": 51.9,
+        "profit_factor": 2.61,
+        "expectancy_pips": 9.44,
+        "expectancy_std_err": 4.1,
+        "expectancy_ci_95": [
+          1.4,
+          17.48
+        ],
+        "t_statistic": 2.3,
+        "p_value": 0.0214,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 37.9,
+        "worst_month_pips": -25.8,
+        "bootstrap_95_max_dd_pips": 90.0,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 224.7,
+          "pips_ex_top3": 165.4,
+          "pips_ex_top5": 106.2,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "b2340d5870b9463dcc952b40b8e10a0cd1ff265639ea6499d7c5ac50baee53a4",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc51_macro_asymmetric_runner_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc65_session_vwap_band_fade_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 257.9,
+        "profit_factor": 1.18,
+        "total_trades": 189,
+        "win_rate_pct": 40.2,
+        "expectancy_pips": 1.36,
+        "max_drawdown_pips": 170.4
+      },
+      "discovery_metrics": {
+        "total_trades": 495,
+        "net_pips": 1284.5,
+        "win_rate_pct": 42.8,
+        "profit_factor": 1.35,
+        "expectancy_pips": 2.6,
+        "expectancy_std_err": 0.81,
+        "expectancy_ci_95": [
+          1.01,
+          4.18
+        ],
+        "t_statistic": 3.2,
+        "p_value": 0.0014,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 118.8,
+        "worst_month_pips": -91.8,
+        "bootstrap_95_max_dd_pips": 324.3,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 1231.3,
+          "pips_ex_top3": 1169.1,
+          "pips_ex_top5": 1117.8,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "4f2227caad820e83fb9582a775ec9e3694999479fbe8c7f8d0428eef7d8b5d3d",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc65_session_vwap_band_fade_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc67_london_lunch_expansion_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 276.7,
+        "profit_factor": 1.27,
+        "total_trades": 135,
+        "win_rate_pct": 41.5,
+        "expectancy_pips": 2.05,
+        "max_drawdown_pips": 120.9
+      },
+      "discovery_metrics": {
+        "total_trades": 245,
+        "net_pips": 395.0,
+        "win_rate_pct": 40.0,
+        "profit_factor": 1.21,
+        "expectancy_pips": 1.61,
+        "expectancy_std_err": 1.13,
+        "expectancy_ci_95": [
+          -0.61,
+          3.83
+        ],
+        "t_statistic": 1.42,
+        "p_value": 0.1556,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 143.7,
+        "worst_month_pips": -52.4,
+        "bootstrap_95_max_dd_pips": 347.2,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 368.9,
+          "pips_ex_top3": 318.9,
+          "pips_ex_top5": 269.8,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "4a3f374c8a3f34013adb4a3a36a697f86f4906d66d0e69ff9a08832022cea279",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc67_london_lunch_expansion_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc68_cmf_momentum_expansion_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 173.1,
+        "profit_factor": 1.06,
+        "total_trades": 358,
+        "win_rate_pct": 36.9,
+        "expectancy_pips": 0.48,
+        "max_drawdown_pips": 249.8
+      },
+      "discovery_metrics": {
+        "total_trades": 861,
+        "net_pips": 919.4,
+        "win_rate_pct": 38.3,
+        "profit_factor": 1.14,
+        "expectancy_pips": 1.07,
+        "expectancy_std_err": 0.6,
+        "expectancy_ci_95": [
+          -0.11,
+          2.25
+        ],
+        "t_statistic": 1.77,
+        "p_value": 0.0767,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 308.2,
+        "worst_month_pips": -122.1,
+        "bootstrap_95_max_dd_pips": 645.2,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 872.4,
+          "pips_ex_top3": 803.2,
+          "pips_ex_top5": 748.9,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "f4a28173fa67bc1d486ea2d64fe8870c8faf70a5df50c2395d522c53efccf363",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc68_cmf_momentum_expansion_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc71_asian_hl_retest_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 128.8,
+        "profit_factor": 1.14,
+        "total_trades": 118,
+        "win_rate_pct": 38.1,
+        "expectancy_pips": 1.09,
+        "max_drawdown_pips": 168.1
+      },
+      "discovery_metrics": {
+        "total_trades": 238,
+        "net_pips": 113.5,
+        "win_rate_pct": 36.6,
+        "profit_factor": 1.06,
+        "expectancy_pips": 0.48,
+        "expectancy_std_err": 1.13,
+        "expectancy_ci_95": [
+          -1.75,
+          2.7
+        ],
+        "t_statistic": 0.42,
+        "p_value": 0.6745,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 285.3,
+        "worst_month_pips": -80.2,
+        "bootstrap_95_max_dd_pips": 517.3,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 84.7,
+          "pips_ex_top3": 31.6,
+          "pips_ex_top5": -19.3,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "c69387f4a3662f0d64d724d5b3ae7d3a59748e7ec9a1e53528bd26d32bcef855",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc71_asian_hl_retest_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc77_keltner_midline_expansion_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 161.8,
+        "profit_factor": 1.06,
+        "total_trades": 336,
+        "win_rate_pct": 36.6,
+        "expectancy_pips": 0.48,
+        "max_drawdown_pips": 298.6
+      },
+      "discovery_metrics": {
+        "total_trades": 754,
+        "net_pips": 1400.9,
+        "win_rate_pct": 40.7,
+        "profit_factor": 1.24,
+        "expectancy_pips": 1.86,
+        "expectancy_std_err": 0.66,
+        "expectancy_ci_95": [
+          0.57,
+          3.14
+        ],
+        "t_statistic": 2.83,
+        "p_value": 0.0047,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 222.4,
+        "worst_month_pips": -123.7,
+        "bootstrap_95_max_dd_pips": 452.5,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 1370.9,
+          "pips_ex_top3": 1316.5,
+          "pips_ex_top5": 1263.9,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "73323fc8e2c3276f9a4ec15a76e2bbad34f80bc007a83fb46b428a0fffea8bf2",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc77_keltner_midline_expansion_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc80_double_swing_neckline_retest_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 101.7,
+        "profit_factor": 1.08,
+        "total_trades": 167,
+        "win_rate_pct": 37.1,
+        "expectancy_pips": 0.61,
+        "max_drawdown_pips": 225.5
+      },
+      "discovery_metrics": {
+        "total_trades": 369,
+        "net_pips": 64.4,
+        "win_rate_pct": 36.0,
+        "profit_factor": 1.02,
+        "expectancy_pips": 0.17,
+        "expectancy_std_err": 0.91,
+        "expectancy_ci_95": [
+          -1.61,
+          1.96
+        ],
+        "t_statistic": 0.19,
+        "p_value": 0.8493,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 381.0,
+        "worst_month_pips": -98.0,
+        "bootstrap_95_max_dd_pips": 711.7,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 35.7,
+          "pips_ex_top3": -14.8,
+          "pips_ex_top5": -64.2,
+          "is_outlier_dependent": true
+        }
+      },
+      "code_sha256": "49e69612530e539904ec9ccbd85e9082a01de0be080e8b59debf710d3a7836a9",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc80_double_swing_neckline_retest_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc82_chaikin_volatility_surge_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 165.4,
+        "profit_factor": 1.07,
+        "total_trades": 307,
+        "win_rate_pct": 36.5,
+        "expectancy_pips": 0.54,
+        "max_drawdown_pips": 223.8
+      },
+      "discovery_metrics": {
+        "total_trades": 781,
+        "net_pips": 733.7,
+        "win_rate_pct": 37.8,
+        "profit_factor": 1.12,
+        "expectancy_pips": 0.94,
+        "expectancy_std_err": 0.63,
+        "expectancy_ci_95": [
+          -0.29,
+          2.17
+        ],
+        "t_statistic": 1.49,
+        "p_value": 0.1362,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 420.0,
+        "worst_month_pips": -144.5,
+        "bootstrap_95_max_dd_pips": 632.7,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 706.9,
+          "pips_ex_top3": 656.2,
+          "pips_ex_top5": 606.8,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "a86e2a6f12c4c4419d07d7ed195f090b6b45b40059794fd6c6221637df369d68",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc82_chaikin_volatility_surge_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc83_parabolic_sar_flip_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 438.5,
+        "profit_factor": 1.23,
+        "total_trades": 247,
+        "win_rate_pct": 40.1,
+        "expectancy_pips": 1.78,
+        "max_drawdown_pips": 127.2
+      },
+      "discovery_metrics": {
+        "total_trades": 506,
+        "net_pips": 1465.5,
+        "win_rate_pct": 43.5,
+        "profit_factor": 1.4,
+        "expectancy_pips": 2.9,
+        "expectancy_std_err": 0.81,
+        "expectancy_ci_95": [
+          1.31,
+          4.48
+        ],
+        "t_statistic": 3.58,
+        "p_value": 0.0003,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 231.0,
+        "worst_month_pips": -114.9,
+        "bootstrap_95_max_dd_pips": 336.2,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 1435.5,
+          "pips_ex_top3": 1382.1,
+          "pips_ex_top5": 1330.5,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "52715052f14948b1dbacfe18739b48e1117f2eac4a7d1307ff7deef6c3a2dd4c",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc83_parabolic_sar_flip_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc84_london_30m_orb_continuation_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 170.3,
+        "profit_factor": 1.07,
+        "total_trades": 298,
+        "win_rate_pct": 36.9,
+        "expectancy_pips": 0.57,
+        "max_drawdown_pips": 160.6
+      },
+      "discovery_metrics": {
+        "total_trades": 701,
+        "net_pips": 952.9,
+        "win_rate_pct": 38.9,
+        "profit_factor": 1.18,
+        "expectancy_pips": 1.36,
+        "expectancy_std_err": 0.67,
+        "expectancy_ci_95": [
+          0.05,
+          2.67
+        ],
+        "t_statistic": 2.03,
+        "p_value": 0.0424,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 582.7,
+        "worst_month_pips": -168.8,
+        "bootstrap_95_max_dd_pips": 535.3,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 927.6,
+          "pips_ex_top3": 878.2,
+          "pips_ex_top5": 829.0,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "03030d000f0f953ee9d532c2b1a25ee238a0b38ab3d67da144c9da7ba962a9a5",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc84_london_30m_orb_continuation_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc85_session_open_impulse_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 125.1,
+        "profit_factor": 1.07,
+        "total_trades": 213,
+        "win_rate_pct": 37.1,
+        "expectancy_pips": 0.59,
+        "max_drawdown_pips": 145.8
+      },
+      "discovery_metrics": {
+        "total_trades": 473,
+        "net_pips": 310.3,
+        "win_rate_pct": 37.0,
+        "profit_factor": 1.08,
+        "expectancy_pips": 0.66,
+        "expectancy_std_err": 0.81,
+        "expectancy_ci_95": [
+          -0.93,
+          2.24
+        ],
+        "t_statistic": 0.81,
+        "p_value": 0.4179,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 612.4,
+        "worst_month_pips": -115.2,
+        "bootstrap_95_max_dd_pips": 631.4,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 280.0,
+          "pips_ex_top3": 223.8,
+          "pips_ex_top5": 173.9,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "99a6681abe43a0100ef6ef1e79b6c48f93d48a6a70f24f0668546426d1ea8178",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc85_session_open_impulse_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc87_pivot_r1_s1_breakout_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 52.0,
+        "profit_factor": 1.05,
+        "total_trades": 135,
+        "win_rate_pct": 36.3,
+        "expectancy_pips": 0.39,
+        "max_drawdown_pips": 244.0
+      },
+      "discovery_metrics": {
+        "total_trades": 316,
+        "net_pips": 1254.6,
+        "win_rate_pct": 46.5,
+        "profit_factor": 1.58,
+        "expectancy_pips": 3.97,
+        "expectancy_std_err": 1.02,
+        "expectancy_ci_95": [
+          1.97,
+          5.97
+        ],
+        "t_statistic": 3.88,
+        "p_value": 0.0001,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 225.4,
+        "worst_month_pips": -114.8,
+        "bootstrap_95_max_dd_pips": 223.8,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 1229.2,
+          "pips_ex_top3": 1180.3,
+          "pips_ex_top5": 1131.7,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "882d985a3f9cfe51223e92d3c3cf78ca80797d98607d5eda21fc523a61d239e3",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc87_pivot_r1_s1_breakout_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc89_ny_london_vwap_ignition_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 84.5,
+        "profit_factor": 1.1,
+        "total_trades": 106,
+        "win_rate_pct": 38.7,
+        "expectancy_pips": 0.8,
+        "max_drawdown_pips": 244.3
+      },
+      "discovery_metrics": {
+        "total_trades": 214,
+        "net_pips": 496.7,
+        "win_rate_pct": 42.1,
+        "profit_factor": 1.32,
+        "expectancy_pips": 2.32,
+        "expectancy_std_err": 1.21,
+        "expectancy_ci_95": [
+          -0.06,
+          4.7
+        ],
+        "t_statistic": 1.91,
+        "p_value": 0.0561,
+        "bonferroni_p_threshold": 0.002,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 153.8,
+        "worst_month_pips": -45.0,
+        "bootstrap_95_max_dd_pips": 292.3,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 471.5,
+          "pips_ex_top3": 421.4,
+          "pips_ex_top5": 372.5,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "96bd70d6b6c9174eda6816ff3d719263fce8172d0f78af0922906477d3b8e2f9",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc89_ny_london_vwap_ignition_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc90_opening_range_impulse_expansion_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 299.1,
+        "profit_factor": 1.14,
+        "total_trades": 270,
+        "win_rate_pct": 40.7,
+        "expectancy_pips": 1.11,
+        "max_drawdown_pips": 192.9
+      },
+      "discovery_metrics": {
+        "total_trades": 633,
+        "net_pips": 1278.5,
+        "win_rate_pct": 43.0,
+        "profit_factor": 1.26,
+        "expectancy_pips": 2.02,
+        "expectancy_std_err": 0.73,
+        "expectancy_ci_95": [
+          0.59,
+          3.45
+        ],
+        "t_statistic": 2.77,
+        "p_value": 0.0056,
+        "bonferroni_p_threshold": 0.002,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 380.2,
+        "worst_month_pips": -103.2,
+        "bootstrap_95_max_dd_pips": 428.6,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 1225.2,
+          "pips_ex_top3": 1170.9,
+          "pips_ex_top5": 1122.3,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "8c47063de7aa8bf94f0aad8ddf6eff7d11ee53f6dbca32ac507187faeba542ac",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc90_opening_range_impulse_expansion_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc91_session_donchian_midline_bounce_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 347.6,
+        "profit_factor": 1.23,
+        "total_trades": 197,
+        "win_rate_pct": 40.1,
+        "expectancy_pips": 1.76,
+        "max_drawdown_pips": 131.3
+      },
+      "discovery_metrics": {
+        "total_trades": 489,
+        "net_pips": 436.6,
+        "win_rate_pct": 38.0,
+        "profit_factor": 1.11,
+        "expectancy_pips": 0.89,
+        "expectancy_std_err": 0.8,
+        "expectancy_ci_95": [
+          -0.67,
+          2.45
+        ],
+        "t_statistic": 1.12,
+        "p_value": 0.2627,
+        "bonferroni_p_threshold": 0.002,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 326.2,
+        "worst_month_pips": -121.5,
+        "bootstrap_95_max_dd_pips": 586.1,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 405.8,
+          "pips_ex_top3": 350.2,
+          "pips_ex_top5": 299.4,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "3627c9049f7bb2b4272b2f1891ad8111ec110774d943ced98f7e0a7b1b7d8370",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc91_session_donchian_midline_bounce_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc94_london_vwap_pullback_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 240.0,
+        "profit_factor": 1.2,
+        "total_trades": 154,
+        "win_rate_pct": 39.6,
+        "expectancy_pips": 1.56,
+        "max_drawdown_pips": 171.1
+      },
+      "discovery_metrics": {
+        "total_trades": 346,
+        "net_pips": 466.0,
+        "win_rate_pct": 39.3,
+        "profit_factor": 1.17,
+        "expectancy_pips": 1.35,
+        "expectancy_std_err": 0.95,
+        "expectancy_ci_95": [
+          -0.52,
+          3.21
+        ],
+        "t_statistic": 1.41,
+        "p_value": 0.1585,
+        "bonferroni_p_threshold": 0.002,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 153.1,
+        "worst_month_pips": -92.9,
+        "bootstrap_95_max_dd_pips": 464.0,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 438.8,
+          "pips_ex_top3": 387.7,
+          "pips_ex_top5": 338.6,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "208a30f9c306bf9ff67a46c4f1e83ec1294a5d8eaccb990c764cc96fa23cd90c",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc94_london_vwap_pullback_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc95_camarilla_expansion_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 257.4,
+        "profit_factor": 1.3,
+        "total_trades": 115,
+        "win_rate_pct": 40.9,
+        "expectancy_pips": 2.24,
+        "max_drawdown_pips": 89.2
+      },
+      "discovery_metrics": {
+        "total_trades": 278,
+        "net_pips": 529.4,
+        "win_rate_pct": 40.6,
+        "profit_factor": 1.25,
+        "expectancy_pips": 1.9,
+        "expectancy_std_err": 1.07,
+        "expectancy_ci_95": [
+          -0.2,
+          4.0
+        ],
+        "t_statistic": 1.78,
+        "p_value": 0.0751,
+        "bonferroni_p_threshold": 0.002,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 183.2,
+        "worst_month_pips": -84.3,
+        "bootstrap_95_max_dd_pips": 352.8,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 503.1,
+          "pips_ex_top3": 452.1,
+          "pips_ex_top5": 403.0,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "9f68617cec48634171597f318fb95c2bcfdbf76029dc8c0c757fc32cca00a2ac",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc95_camarilla_expansion_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc96_cardwell_rsi50_momentum_bounce_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 55.9,
+        "profit_factor": 1.03,
+        "total_trades": 241,
+        "win_rate_pct": 34.4,
+        "expectancy_pips": 0.23,
+        "max_drawdown_pips": 214.2
+      },
+      "discovery_metrics": {
+        "total_trades": 524,
+        "net_pips": 744.8,
+        "win_rate_pct": 37.2,
+        "profit_factor": 1.18,
+        "expectancy_pips": 1.42,
+        "expectancy_std_err": 0.78,
+        "expectancy_ci_95": [
+          -0.12,
+          2.96
+        ],
+        "t_statistic": 1.81,
+        "p_value": 0.0703,
+        "bonferroni_p_threshold": 0.00167,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 319.6,
+        "worst_month_pips": -109.0,
+        "bootstrap_95_max_dd_pips": 493.9,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 697.3,
+          "pips_ex_top3": 635.7,
+          "pips_ex_top5": 577.9,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "4a9db8ee88fefaec4524528196b1a1ad9d47f958774222dae268297d2f25e403",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc96_cardwell_rsi50_momentum_bounce_elite_run_manifest.json"
+    },
+    {
+      "name": "usdjpy_disc99_m15_macd_zero_cross_momentum_elite",
+      "filename": "strategy.py",
+      "symbol": "USDJPY",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 220.6,
+        "profit_factor": 1.16,
+        "total_trades": 180,
+        "win_rate_pct": 38.3,
+        "expectancy_pips": 1.23,
+        "max_drawdown_pips": 147.4
+      },
+      "discovery_metrics": {
+        "total_trades": 421,
+        "net_pips": 475.2,
+        "win_rate_pct": 38.7,
+        "profit_factor": 1.14,
+        "expectancy_pips": 1.13,
+        "expectancy_std_err": 0.88,
+        "expectancy_ci_95": [
+          -0.59,
+          2.84
+        ],
+        "t_statistic": 1.29,
+        "p_value": 0.1971,
+        "bonferroni_p_threshold": 0.002,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 328.2,
+        "worst_month_pips": -80.0,
+        "bootstrap_95_max_dd_pips": 520.9,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 428.2,
+          "pips_ex_top3": 373.8,
+          "pips_ex_top5": 322.9,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "06db163c1eb800d4c6170abd96ecee3b76fde01c804b9b5f863d387905f4a65d",
+      "manifest_file": "results\\certified_strategy_manifests\\usdjpy_disc99_m15_macd_zero_cross_momentum_elite_run_manifest.json"
+    }
+  ]
+}

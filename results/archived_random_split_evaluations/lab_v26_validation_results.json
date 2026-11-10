@@ -1,0 +1,350 @@
+{
+  "EURUSD_ASIA_RANGE_HIGH_LOW_RETEST_IGNITION": {
+    "discovery": {
+      "trades": 241,
+      "win_rate": 37.8,
+      "pf": 1.18,
+      "net_pips": 243.0,
+      "max_dd": 148.7,
+      "ret_dd": 1.63,
+      "expectancy": 1.01
+    },
+    "holdout": {
+      "trades": 110,
+      "win_rate": 36.4,
+      "pf": 1.14,
+      "net_pips": 86.6,
+      "max_dd": 67.0,
+      "ret_dd": 1.29,
+      "expectancy": 0.79
+    },
+    "full": {
+      "trades": 351,
+      "win_rate": 37.3,
+      "pf": 1.17,
+      "net_pips": 329.6,
+      "max_dd": 148.7,
+      "ret_dd": 2.22,
+      "expectancy": 0.94
+    }
+  },
+  "EURUSD_CONSECUTIVE_THREE_DRIVE_IGNITION": {
+    "discovery": {
+      "trades": 561,
+      "win_rate": 36.2,
+      "pf": 1.12,
+      "net_pips": 378.4,
+      "max_dd": 192.3,
+      "ret_dd": 1.97,
+      "expectancy": 0.67
+    },
+    "holdout": {
+      "trades": 243,
+      "win_rate": 36.6,
+      "pf": 1.17,
+      "net_pips": 223.9,
+      "max_dd": 100.8,
+      "ret_dd": 2.22,
+      "expectancy": 0.92
+    },
+    "full": {
+      "trades": 804,
+      "win_rate": 36.3,
+      "pf": 1.14,
+      "net_pips": 602.3,
+      "max_dd": 192.3,
+      "ret_dd": 3.13,
+      "expectancy": 0.75
+    }
+  },
+  "EURUSD_EMA_CROSS_ATR_BAND_EXPANSION": {
+    "discovery": {
+      "trades": 550,
+      "win_rate": 44.4,
+      "pf": 1.6,
+      "net_pips": 1573.1,
+      "max_dd": 120.9,
+      "ret_dd": 13.01,
+      "expectancy": 2.86
+    },
+    "holdout": {
+      "trades": 244,
+      "win_rate": 37.3,
+      "pf": 1.18,
+      "net_pips": 242.2,
+      "max_dd": 132.2,
+      "ret_dd": 1.83,
+      "expectancy": 0.99
+    },
+    "full": {
+      "trades": 794,
+      "win_rate": 42.2,
+      "pf": 1.46,
+      "net_pips": 1815.3,
+      "max_dd": 132.2,
+      "ret_dd": 13.73,
+      "expectancy": 2.29
+    }
+  },
+  "EURUSD_PIVOT_R1_S1_BREAKOUT_DRIVE": {
+    "discovery": {
+      "trades": 257,
+      "win_rate": 28.4,
+      "pf": 0.78,
+      "net_pips": -351.5,
+      "max_dd": 385.2,
+      "ret_dd": -0.91,
+      "expectancy": -1.37
+    },
+    "holdout": {
+      "trades": 110,
+      "win_rate": 33.6,
+      "pf": 1.01,
+      "net_pips": 7.0,
+      "max_dd": 113.1,
+      "ret_dd": 0.06,
+      "expectancy": 0.06
+    },
+    "full": {
+      "trades": 367,
+      "win_rate": 30.0,
+      "pf": 0.84,
+      "net_pips": -344.5,
+      "max_dd": 378.2,
+      "ret_dd": -0.91,
+      "expectancy": -0.94
+    }
+  },
+  "USDJPY_ASIA_RANGE_HIGH_LOW_RETEST_IGNITION": {
+    "discovery": {
+      "trades": 203,
+      "win_rate": 36.9,
+      "pf": 1.17,
+      "net_pips": 263.0,
+      "max_dd": 211.1,
+      "ret_dd": 1.25,
+      "expectancy": 1.3
+    },
+    "holdout": {
+      "trades": 99,
+      "win_rate": 36.4,
+      "pf": 1.15,
+      "net_pips": 111.1,
+      "max_dd": 125.2,
+      "ret_dd": 0.89,
+      "expectancy": 1.12
+    },
+    "full": {
+      "trades": 302,
+      "win_rate": 36.8,
+      "pf": 1.16,
+      "net_pips": 374.1,
+      "max_dd": 211.1,
+      "ret_dd": 1.77,
+      "expectancy": 1.24
+    }
+  },
+  "USDJPY_CONSECUTIVE_THREE_DRIVE_IGNITION": {
+    "discovery": {
+      "trades": 589,
+      "win_rate": 38.0,
+      "pf": 1.21,
+      "net_pips": 934.5,
+      "max_dd": 215.9,
+      "ret_dd": 4.33,
+      "expectancy": 1.59
+    },
+    "holdout": {
+      "trades": 269,
+      "win_rate": 39.0,
+      "pf": 1.23,
+      "net_pips": 459.7,
+      "max_dd": 152.2,
+      "ret_dd": 3.02,
+      "expectancy": 1.71
+    },
+    "full": {
+      "trades": 858,
+      "win_rate": 38.3,
+      "pf": 1.22,
+      "net_pips": 1394.2,
+      "max_dd": 213.7,
+      "ret_dd": 6.52,
+      "expectancy": 1.62
+    }
+  },
+  "USDJPY_EMA_CROSS_ATR_BAND_EXPANSION": {
+    "discovery": {
+      "trades": 538,
+      "win_rate": 37.2,
+      "pf": 1.16,
+      "net_pips": 675.4,
+      "max_dd": 343.3,
+      "ret_dd": 1.97,
+      "expectancy": 1.26
+    },
+    "holdout": {
+      "trades": 238,
+      "win_rate": 42.4,
+      "pf": 1.42,
+      "net_pips": 705.9,
+      "max_dd": 173.0,
+      "ret_dd": 4.08,
+      "expectancy": 2.97
+    },
+    "full": {
+      "trades": 776,
+      "win_rate": 38.8,
+      "pf": 1.24,
+      "net_pips": 1381.3,
+      "max_dd": 343.3,
+      "ret_dd": 4.02,
+      "expectancy": 1.78
+    }
+  },
+  "USDJPY_PIVOT_R1_S1_BREAKOUT_DRIVE": {
+    "discovery": {
+      "trades": 332,
+      "win_rate": 43.1,
+      "pf": 1.49,
+      "net_pips": 1130.6,
+      "max_dd": 184.5,
+      "ret_dd": 6.13,
+      "expectancy": 3.41
+    },
+    "holdout": {
+      "trades": 150,
+      "win_rate": 40.0,
+      "pf": 1.27,
+      "net_pips": 304.0,
+      "max_dd": 237.9,
+      "ret_dd": 1.28,
+      "expectancy": 2.03
+    },
+    "full": {
+      "trades": 482,
+      "win_rate": 42.1,
+      "pf": 1.42,
+      "net_pips": 1434.6,
+      "max_dd": 237.9,
+      "ret_dd": 6.03,
+      "expectancy": 2.98
+    }
+  },
+  "EURGBP_ASIA_RANGE_HIGH_LOW_RETEST_IGNITION": {
+    "discovery": {
+      "trades": 235,
+      "win_rate": 33.6,
+      "pf": 1.0,
+      "net_pips": 3.0,
+      "max_dd": 135.9,
+      "ret_dd": 0.02,
+      "expectancy": 0.01
+    },
+    "holdout": {
+      "trades": 113,
+      "win_rate": 35.4,
+      "pf": 0.99,
+      "net_pips": -7.9,
+      "max_dd": 91.5,
+      "ret_dd": -0.09,
+      "expectancy": -0.07
+    },
+    "full": {
+      "trades": 348,
+      "win_rate": 34.2,
+      "pf": 1.0,
+      "net_pips": -4.9,
+      "max_dd": 135.9,
+      "ret_dd": -0.04,
+      "expectancy": -0.01
+    }
+  },
+  "EURGBP_CONSECUTIVE_THREE_DRIVE_IGNITION": {
+    "discovery": {
+      "trades": 308,
+      "win_rate": 30.2,
+      "pf": 0.83,
+      "net_pips": -263.0,
+      "max_dd": 435.6,
+      "ret_dd": -0.6,
+      "expectancy": -0.85
+    },
+    "holdout": {
+      "trades": 156,
+      "win_rate": 30.8,
+      "pf": 0.82,
+      "net_pips": -143.7,
+      "max_dd": 214.8,
+      "ret_dd": -0.67,
+      "expectancy": -0.92
+    },
+    "full": {
+      "trades": 464,
+      "win_rate": 30.4,
+      "pf": 0.83,
+      "net_pips": -406.7,
+      "max_dd": 554.7,
+      "ret_dd": -0.73,
+      "expectancy": -0.88
+    }
+  },
+  "EURGBP_EMA_CROSS_ATR_BAND_EXPANSION": {
+    "discovery": {
+      "trades": 315,
+      "win_rate": 32.1,
+      "pf": 0.89,
+      "net_pips": -168.0,
+      "max_dd": 345.8,
+      "ret_dd": -0.49,
+      "expectancy": -0.53
+    },
+    "holdout": {
+      "trades": 158,
+      "win_rate": 34.2,
+      "pf": 0.92,
+      "net_pips": -62.6,
+      "max_dd": 178.0,
+      "ret_dd": -0.35,
+      "expectancy": -0.4
+    },
+    "full": {
+      "trades": 473,
+      "win_rate": 32.8,
+      "pf": 0.9,
+      "net_pips": -230.6,
+      "max_dd": 396.9,
+      "ret_dd": -0.58,
+      "expectancy": -0.49
+    }
+  },
+  "EURGBP_PIVOT_R1_S1_BREAKOUT_DRIVE": {
+    "discovery": {
+      "trades": 180,
+      "win_rate": 27.2,
+      "pf": 0.71,
+      "net_pips": -272.6,
+      "max_dd": 348.8,
+      "ret_dd": -0.78,
+      "expectancy": -1.51
+    },
+    "holdout": {
+      "trades": 101,
+      "win_rate": 35.6,
+      "pf": 1.04,
+      "net_pips": 18.0,
+      "max_dd": 91.3,
+      "ret_dd": 0.2,
+      "expectancy": 0.18
+    },
+    "full": {
+      "trades": 281,
+      "win_rate": 30.2,
+      "pf": 0.82,
+      "net_pips": -254.6,
+      "max_dd": 348.8,
+      "ret_dd": -0.73,
+      "expectancy": -0.91
+    }
+  }
+}

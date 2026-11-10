@@ -1,0 +1,89 @@
+{
+  "EURUSD_SESSION_OPEN_MIDPOINT_IMPULSE": {
+    "discovery": {
+      "trades": 499,
+      "win_rate": 38.5,
+      "pf": 1.26,
+      "net_pips": 677.4,
+      "max_dd": 180.8,
+      "ret_dd": 3.75,
+      "expectancy": 1.36
+    },
+    "holdout": {
+      "trades": 213,
+      "win_rate": 37.6,
+      "pf": 1.22,
+      "net_pips": 252.8,
+      "max_dd": 163.2,
+      "ret_dd": 1.55,
+      "expectancy": 1.19
+    },
+    "full": {
+      "trades": 712,
+      "win_rate": 38.2,
+      "pf": 1.25,
+      "net_pips": 930.2,
+      "max_dd": 180.8,
+      "ret_dd": 5.14,
+      "expectancy": 1.31
+    }
+  },
+  "USDJPY_SESSION_OPEN_MIDPOINT_IMPULSE": {
+    "discovery": {
+      "trades": 498,
+      "win_rate": 35.7,
+      "pf": 1.11,
+      "net_pips": 427.8,
+      "max_dd": 402.1,
+      "ret_dd": 1.06,
+      "expectancy": 0.86
+    },
+    "holdout": {
+      "trades": 219,
+      "win_rate": 41.1,
+      "pf": 1.37,
+      "net_pips": 581.5,
+      "max_dd": 321.5,
+      "ret_dd": 1.81,
+      "expectancy": 2.66
+    },
+    "full": {
+      "trades": 717,
+      "win_rate": 37.4,
+      "pf": 1.19,
+      "net_pips": 1009.3,
+      "max_dd": 402.1,
+      "ret_dd": 2.51,
+      "expectancy": 1.41
+    }
+  },
+  "EURGBP_SESSION_OPEN_MIDPOINT_IMPULSE": {
+    "discovery": {
+      "trades": 282,
+      "win_rate": 28.7,
+      "pf": 0.8,
+      "net_pips": -287.6,
+      "max_dd": 389.0,
+      "ret_dd": -0.74,
+      "expectancy": -1.02
+    },
+    "holdout": {
+      "trades": 139,
+      "win_rate": 26.6,
+      "pf": 0.71,
+      "net_pips": -210.6,
+      "max_dd": 303.3,
+      "ret_dd": -0.69,
+      "expectancy": -1.52
+    },
+    "full": {
+      "trades": 421,
+      "win_rate": 28.0,
+      "pf": 0.77,
+      "net_pips": -498.2,
+      "max_dd": 602.7,
+      "ret_dd": -0.83,
+      "expectancy": -1.18
+    }
+  }
+}

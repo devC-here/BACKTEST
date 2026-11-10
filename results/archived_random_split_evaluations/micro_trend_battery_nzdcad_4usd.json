@@ -1,0 +1,547 @@
+{
+  "symbol": "NZDCAD",
+  "qualified_discovery": [
+    {
+      "name": "MicroBreakout_D2.5_SL10_TP20_R12-50",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 2.5,
+        "sl": 10.0,
+        "tp": 20.0,
+        "min_rng": 12.0,
+        "max_rng": 50.0,
+        "name": "MicroBreakout_D2.5_SL10_TP20_R12-50"
+      },
+      "trades": 98,
+      "ann_trades": 96.2,
+      "net_pips": 238.4,
+      "win_rate": 42.9,
+      "profit_factor": 1.39
+    },
+    {
+      "name": "MicroBreakout_D2.5_SL10_TP20_R10-40",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 2.5,
+        "sl": 10.0,
+        "tp": 20.0,
+        "min_rng": 10.0,
+        "max_rng": 40.0,
+        "name": "MicroBreakout_D2.5_SL10_TP20_R10-40"
+      },
+      "trades": 94,
+      "ann_trades": 92.2,
+      "net_pips": 219.2,
+      "win_rate": 42.6,
+      "profit_factor": 1.37
+    },
+    {
+      "name": "MicroBreakout_D4.0_SL16_TP32_R10-40",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 4.0,
+        "sl": 16.0,
+        "tp": 32.0,
+        "min_rng": 10.0,
+        "max_rng": 40.0,
+        "name": "MicroBreakout_D4.0_SL16_TP32_R10-40"
+      },
+      "trades": 86,
+      "ann_trades": 84.4,
+      "net_pips": 187.6,
+      "win_rate": 40.7,
+      "profit_factor": 1.22
+    },
+    {
+      "name": "MicroBreakout_D6.0_SL16_TP32_R12-50",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 6.0,
+        "sl": 16.0,
+        "tp": 32.0,
+        "min_rng": 12.0,
+        "max_rng": 50.0,
+        "name": "MicroBreakout_D6.0_SL16_TP32_R12-50"
+      },
+      "trades": 81,
+      "ann_trades": 79.5,
+      "net_pips": 184.1,
+      "win_rate": 40.7,
+      "profit_factor": 1.23
+    },
+    {
+      "name": "MicroBreakout_D6.0_SL16_TP32_R10-40",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 6.0,
+        "sl": 16.0,
+        "tp": 32.0,
+        "min_rng": 10.0,
+        "max_rng": 40.0,
+        "name": "MicroBreakout_D6.0_SL16_TP32_R10-40"
+      },
+      "trades": 78,
+      "ann_trades": 76.5,
+      "net_pips": 181.4,
+      "win_rate": 41.0,
+      "profit_factor": 1.24
+    },
+    {
+      "name": "MicroBreakout_D4.0_SL16_TP32_R12-50",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 4.0,
+        "sl": 16.0,
+        "tp": 32.0,
+        "min_rng": 12.0,
+        "max_rng": 50.0,
+        "name": "MicroBreakout_D4.0_SL16_TP32_R12-50"
+      },
+      "trades": 90,
+      "ann_trades": 88.3,
+      "net_pips": 177.0,
+      "win_rate": 40.0,
+      "profit_factor": 1.2
+    },
+    {
+      "name": "MicroBreakout_D6.0_SL14_TP28_R12-50",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 6.0,
+        "sl": 14.0,
+        "tp": 28.0,
+        "min_rng": 12.0,
+        "max_rng": 50.0,
+        "name": "MicroBreakout_D6.0_SL14_TP28_R12-50"
+      },
+      "trades": 82,
+      "ann_trades": 80.5,
+      "net_pips": 154.9,
+      "win_rate": 40.2,
+      "profit_factor": 1.21
+    },
+    {
+      "name": "MicroBreakout_D4.0_SL10_TP20_R10-40",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 4.0,
+        "sl": 10.0,
+        "tp": 20.0,
+        "min_rng": 10.0,
+        "max_rng": 40.0,
+        "name": "MicroBreakout_D4.0_SL10_TP20_R10-40"
+      },
+      "trades": 91,
+      "ann_trades": 89.3,
+      "net_pips": 128.7,
+      "win_rate": 39.6,
+      "profit_factor": 1.21
+    },
+    {
+      "name": "MicroBreakout_D2.5_SL12_TP24_R10-40",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 2.5,
+        "sl": 12.0,
+        "tp": 24.0,
+        "min_rng": 10.0,
+        "max_rng": 40.0,
+        "name": "MicroBreakout_D2.5_SL12_TP24_R10-40"
+      },
+      "trades": 93,
+      "ann_trades": 91.2,
+      "net_pips": 122.6,
+      "win_rate": 38.7,
+      "profit_factor": 1.17
+    },
+    {
+      "name": "MicroBreakout_D4.0_SL12_TP24_R10-40",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 4.0,
+        "sl": 12.0,
+        "tp": 24.0,
+        "min_rng": 10.0,
+        "max_rng": 40.0,
+        "name": "MicroBreakout_D4.0_SL12_TP24_R10-40"
+      },
+      "trades": 90,
+      "ann_trades": 88.3,
+      "net_pips": 119.3,
+      "win_rate": 38.9,
+      "profit_factor": 1.17
+    },
+    {
+      "name": "MicroBreakout_D4.0_SL10_TP20_R12-50",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 4.0,
+        "sl": 10.0,
+        "tp": 20.0,
+        "min_rng": 12.0,
+        "max_rng": 50.0,
+        "name": "MicroBreakout_D4.0_SL10_TP20_R12-50"
+      },
+      "trades": 95,
+      "ann_trades": 93.2,
+      "net_pips": 118.3,
+      "win_rate": 38.9,
+      "profit_factor": 1.19
+    },
+    {
+      "name": "MicroBreakout_D2.5_SL12_TP24_R12-50",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 2.5,
+        "sl": 12.0,
+        "tp": 24.0,
+        "min_rng": 12.0,
+        "max_rng": 50.0,
+        "name": "MicroBreakout_D2.5_SL12_TP24_R12-50"
+      },
+      "trades": 97,
+      "ann_trades": 95.2,
+      "net_pips": 115.3,
+      "win_rate": 38.1,
+      "profit_factor": 1.15
+    },
+    {
+      "name": "MicroBreakout_D4.0_SL14_TP28_R12-50",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 4.0,
+        "sl": 14.0,
+        "tp": 28.0,
+        "min_rng": 12.0,
+        "max_rng": 50.0,
+        "name": "MicroBreakout_D4.0_SL14_TP28_R12-50"
+      },
+      "trades": 91,
+      "ann_trades": 89.3,
+      "net_pips": 113.2,
+      "win_rate": 38.5,
+      "profit_factor": 1.14
+    },
+    {
+      "name": "MicroBreakout_D6.0_SL14_TP28_R10-40",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 6.0,
+        "sl": 14.0,
+        "tp": 28.0,
+        "min_rng": 10.0,
+        "max_rng": 40.0,
+        "name": "MicroBreakout_D6.0_SL14_TP28_R10-40"
+      },
+      "trades": 79,
+      "ann_trades": 77.5,
+      "net_pips": 112.8,
+      "win_rate": 39.2,
+      "profit_factor": 1.16
+    },
+    {
+      "name": "MicroBreakout_D2.5_SL16_TP32_R10-40",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 2.5,
+        "sl": 16.0,
+        "tp": 32.0,
+        "min_rng": 10.0,
+        "max_rng": 40.0,
+        "name": "MicroBreakout_D2.5_SL16_TP32_R10-40"
+      },
+      "trades": 89,
+      "ann_trades": 87.3,
+      "net_pips": 111.7,
+      "win_rate": 38.2,
+      "profit_factor": 1.12
+    },
+    {
+      "name": "MicroBreakout_D4.0_SL12_TP24_R12-50",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 4.0,
+        "sl": 12.0,
+        "tp": 24.0,
+        "min_rng": 12.0,
+        "max_rng": 50.0,
+        "name": "MicroBreakout_D4.0_SL12_TP24_R12-50"
+      },
+      "trades": 94,
+      "ann_trades": 92.2,
+      "net_pips": 105.3,
+      "win_rate": 38.3,
+      "profit_factor": 1.14
+    },
+    {
+      "name": "MicroBreakout_D2.5_SL16_TP32_R12-50",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 2.5,
+        "sl": 16.0,
+        "tp": 32.0,
+        "min_rng": 12.0,
+        "max_rng": 50.0,
+        "name": "MicroBreakout_D2.5_SL16_TP32_R12-50"
+      },
+      "trades": 93,
+      "ann_trades": 91.2,
+      "net_pips": 104.8,
+      "win_rate": 37.6,
+      "profit_factor": 1.11
+    },
+    {
+      "name": "MicroBreakout_D2.5_SL14_TP28_R12-50",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 2.5,
+        "sl": 14.0,
+        "tp": 28.0,
+        "min_rng": 12.0,
+        "max_rng": 50.0,
+        "name": "MicroBreakout_D2.5_SL14_TP28_R12-50"
+      },
+      "trades": 94,
+      "ann_trades": 92.2,
+      "net_pips": 89.5,
+      "win_rate": 37.2,
+      "profit_factor": 1.1
+    },
+    {
+      "name": "MicroBreakout_D4.0_SL14_TP28_R10-40",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 4.0,
+        "sl": 14.0,
+        "tp": 28.0,
+        "min_rng": 10.0,
+        "max_rng": 40.0,
+        "name": "MicroBreakout_D4.0_SL14_TP28_R10-40"
+      },
+      "trades": 87,
+      "ann_trades": 85.4,
+      "net_pips": 80.9,
+      "win_rate": 37.9,
+      "profit_factor": 1.1
+    },
+    {
+      "name": "MicroBreakout_D2.5_SL14_TP28_R10-40",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 2.5,
+        "sl": 14.0,
+        "tp": 28.0,
+        "min_rng": 10.0,
+        "max_rng": 40.0,
+        "name": "MicroBreakout_D2.5_SL14_TP28_R10-40"
+      },
+      "trades": 90,
+      "ann_trades": 88.3,
+      "net_pips": 56.0,
+      "win_rate": 36.7,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "MicroBreakout_D6.0_SL12_TP24_R10-40",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 6.0,
+        "sl": 12.0,
+        "tp": 24.0,
+        "min_rng": 10.0,
+        "max_rng": 40.0,
+        "name": "MicroBreakout_D6.0_SL12_TP24_R10-40"
+      },
+      "trades": 81,
+      "ann_trades": 79.5,
+      "net_pips": 53.1,
+      "win_rate": 37.0,
+      "profit_factor": 1.08
+    },
+    {
+      "name": "MicroBreakout_D6.0_SL12_TP24_R12-50",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 6.0,
+        "sl": 12.0,
+        "tp": 24.0,
+        "min_rng": 12.0,
+        "max_rng": 50.0,
+        "name": "MicroBreakout_D6.0_SL12_TP24_R12-50"
+      },
+      "trades": 84,
+      "ann_trades": 82.4,
+      "net_pips": 44.6,
+      "win_rate": 36.9,
+      "profit_factor": 1.06
+    },
+    {
+      "name": "MicroBreakout_D6.0_SL10_TP20_R12-50",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 6.0,
+        "sl": 10.0,
+        "tp": 20.0,
+        "min_rng": 12.0,
+        "max_rng": 50.0,
+        "name": "MicroBreakout_D6.0_SL10_TP20_R12-50"
+      },
+      "trades": 85,
+      "ann_trades": 83.4,
+      "net_pips": 39.4,
+      "win_rate": 37.6,
+      "profit_factor": 1.07
+    },
+    {
+      "name": "MicroBreakout_D6.0_SL10_TP20_R10-40",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 6.0,
+        "sl": 10.0,
+        "tp": 20.0,
+        "min_rng": 10.0,
+        "max_rng": 40.0,
+        "name": "MicroBreakout_D6.0_SL10_TP20_R10-40"
+      },
+      "trades": 82,
+      "ann_trades": 80.5,
+      "net_pips": 39.0,
+      "win_rate": 37.8,
+      "profit_factor": 1.07
+    }
+  ],
+  "champions": [
+    {
+      "name": "MicroBreakout_D2.5_SL10_TP20_R12-50",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 2.5,
+        "sl": 10.0,
+        "tp": 20.0,
+        "min_rng": 12.0,
+        "max_rng": 50.0,
+        "name": "MicroBreakout_D2.5_SL10_TP20_R12-50"
+      },
+      "holdout_trades": 175,
+      "ann_trades": 101.1,
+      "win_rate": 37.7,
+      "profit_factor": 1.07,
+      "holdout_net_pips": 77.7
+    },
+    {
+      "name": "MicroBreakout_D2.5_SL10_TP20_R10-40",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 2.5,
+        "sl": 10.0,
+        "tp": 20.0,
+        "min_rng": 10.0,
+        "max_rng": 40.0,
+        "name": "MicroBreakout_D2.5_SL10_TP20_R10-40"
+      },
+      "holdout_trades": 161,
+      "ann_trades": 93.0,
+      "win_rate": 40.4,
+      "profit_factor": 1.19,
+      "holdout_net_pips": 196.3
+    },
+    {
+      "name": "MicroBreakout_D4.0_SL10_TP20_R10-40",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 4.0,
+        "sl": 10.0,
+        "tp": 20.0,
+        "min_rng": 10.0,
+        "max_rng": 40.0,
+        "name": "MicroBreakout_D4.0_SL10_TP20_R10-40"
+      },
+      "holdout_trades": 157,
+      "ann_trades": 90.7,
+      "win_rate": 40.1,
+      "profit_factor": 1.2,
+      "holdout_net_pips": 201.9
+    },
+    {
+      "name": "MicroBreakout_D2.5_SL12_TP24_R10-40",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 2.5,
+        "sl": 12.0,
+        "tp": 24.0,
+        "min_rng": 10.0,
+        "max_rng": 40.0,
+        "name": "MicroBreakout_D2.5_SL12_TP24_R10-40"
+      },
+      "holdout_trades": 160,
+      "ann_trades": 92.4,
+      "win_rate": 41.2,
+      "profit_factor": 1.23,
+      "holdout_net_pips": 273.3
+    },
+    {
+      "name": "MicroBreakout_D4.0_SL12_TP24_R10-40",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 4.0,
+        "sl": 12.0,
+        "tp": 24.0,
+        "min_rng": 10.0,
+        "max_rng": 40.0,
+        "name": "MicroBreakout_D4.0_SL12_TP24_R10-40"
+      },
+      "holdout_trades": 156,
+      "ann_trades": 90.1,
+      "win_rate": 40.4,
+      "profit_factor": 1.2,
+      "holdout_net_pips": 235.3
+    },
+    {
+      "name": "MicroBreakout_D4.0_SL10_TP20_R12-50",
+      "cand": {
+        "family": "MICRO_TREND_BREAKOUT",
+        "symbol": "NZDCAD",
+        "delta": 4.0,
+        "sl": 10.0,
+        "tp": 20.0,
+        "min_rng": 12.0,
+        "max_rng": 50.0,
+        "name": "MicroBreakout_D4.0_SL10_TP20_R12-50"
+      },
+      "holdout_trades": 171,
+      "ann_trades": 98.8,
+      "win_rate": 37.4,
+      "profit_factor": 1.07,
+      "holdout_net_pips": 83.2
+    }
+  ]
+}

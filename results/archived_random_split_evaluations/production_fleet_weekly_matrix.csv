@@ -1,0 +1,1835 @@
+week,start_date,end_date,ticks,split,strategy_id,strategy_name,trades,net_pips,win_rate,profit_factor,max_dd
+1,2021-10-01,2021-10-01,66064,train,HF_M15,HighFrequency M15 Scalper Elite,1,-5.0,0.0,0.0,0.0
+2,2021-10-04,2021-10-08,251914,train,HF_M15,HighFrequency M15 Scalper Elite,12,1.0,33.3,1.02,28.6
+3,2021-10-11,2021-10-15,240306,train,HF_M15,HighFrequency M15 Scalper Elite,7,29.6,42.9,1.88,22.1
+4,2021-10-18,2021-10-22,250266,train,HF_M15,HighFrequency M15 Scalper Elite,5,-18.1,20.0,0.42,23.6
+5,2021-10-25,2021-10-29,303849,train,HF_M15,HighFrequency M15 Scalper Elite,6,8.5,33.3,1.22,23.3
+6,2021-11-01,2021-11-05,301718,train,HF_M15,HighFrequency M15 Scalper Elite,6,59.0,66.7,3.17,27.2
+7,2021-11-08,2021-11-12,267525,train,HF_M15,HighFrequency M15 Scalper Elite,10,3.4,40.0,1.08,9.8
+8,2021-11-15,2021-11-19,301280,train,HF_M15,HighFrequency M15 Scalper Elite,7,55.2,57.1,3.32,23.8
+9,2021-11-22,2021-11-26,375637,train,HF_M15,HighFrequency M15 Scalper Elite,9,-46.9,22.2,0.45,67.7
+10,2021-11-29,2021-12-03,433065,train,HF_M15,HighFrequency M15 Scalper Elite,8,-38.9,25.0,0.47,51.4
+11,2021-12-06,2021-12-10,277143,train,HF_M15,HighFrequency M15 Scalper Elite,9,38.4,44.4,1.93,26.0
+12,2021-12-13,2021-12-17,327420,train,HF_M15,HighFrequency M15 Scalper Elite,6,81.5,66.7,5.53,18.0
+13,2021-12-20,2021-12-24,328794,train,HF_M15,HighFrequency M15 Scalper Elite,7,22.9,42.9,1.69,18.9
+14,2021-12-27,2021-12-31,198768,train,HF_M15,HighFrequency M15 Scalper Elite,6,63.4,66.7,4.27,12.3
+15,2022-01-03,2022-01-07,326373,train,HF_M15,HighFrequency M15 Scalper Elite,5,19.3,40.0,1.77,25.2
+16,2022-01-10,2022-01-14,313064,train,HF_M15,HighFrequency M15 Scalper Elite,8,20.4,37.5,1.45,18.2
+17,2022-01-17,2022-01-21,304075,train,HF_M15,HighFrequency M15 Scalper Elite,8,-40.7,12.5,0.28,33.9
+18,2022-01-24,2022-01-28,372229,train,HF_M15,HighFrequency M15 Scalper Elite,8,37.2,50.0,1.93,12.8
+19,2022-01-31,2022-02-04,368949,train,HF_M15,HighFrequency M15 Scalper Elite,7,-10.2,28.6,0.81,40.0
+20,2022-02-07,2022-02-11,374602,train,HF_M15,HighFrequency M15 Scalper Elite,5,45.0,60.0,3.69,16.7
+21,2022-02-14,2022-02-18,394600,train,HF_M15,HighFrequency M15 Scalper Elite,10,-40.4,20.0,0.49,62.7
+22,2022-02-21,2022-02-25,496594,train,HF_M15,HighFrequency M15 Scalper Elite,10,26.5,40.0,1.42,28.8
+23,2022-02-28,2022-03-04,591300,train,HF_M15,HighFrequency M15 Scalper Elite,12,90.6,58.3,2.45,31.2
+24,2022-03-07,2022-03-11,758799,train,HF_M15,HighFrequency M15 Scalper Elite,9,-64.4,22.2,0.41,64.4
+25,2022-03-14,2022-03-18,545368,train,HF_M15,HighFrequency M15 Scalper Elite,10,-19.4,30.0,0.79,54.3
+26,2022-03-21,2022-03-25,427901,train,HF_M15,HighFrequency M15 Scalper Elite,6,19.6,33.3,1.56,22.4
+27,2022-03-28,2022-04-01,532184,train,HF_M15,HighFrequency M15 Scalper Elite,6,28.5,50.0,1.63,16.2
+28,2022-04-04,2022-04-08,373379,train,HF_M15,HighFrequency M15 Scalper Elite,4,-5.7,25.0,0.82,31.9
+29,2022-04-11,2022-04-15,497788,train,HF_M15,HighFrequency M15 Scalper Elite,9,-40.5,22.2,0.57,41.9
+30,2022-04-18,2022-04-22,456005,train,HF_M15,HighFrequency M15 Scalper Elite,12,50.3,50.0,1.64,30.9
+31,2022-04-25,2022-04-29,595013,train,HF_M15,HighFrequency M15 Scalper Elite,11,26.7,45.5,1.31,43.3
+32,2022-05-02,2022-05-06,622942,train,HF_M15,HighFrequency M15 Scalper Elite,7,-6.8,28.6,0.91,27.3
+33,2022-05-09,2022-05-13,670192,train,HF_M15,HighFrequency M15 Scalper Elite,8,52.7,50.0,1.75,41.6
+34,2022-05-16,2022-05-20,553411,train,HF_M15,HighFrequency M15 Scalper Elite,5,-24.8,20.0,0.58,34.9
+35,2022-05-23,2022-05-27,472900,train,HF_M15,HighFrequency M15 Scalper Elite,7,108.6,71.4,4.61,17.5
+36,2022-05-30,2022-06-03,393119,train,HF_M15,HighFrequency M15 Scalper Elite,4,18.3,50.0,1.58,25.5
+37,2022-06-06,2022-06-10,457562,train,HF_M15,HighFrequency M15 Scalper Elite,4,15.7,50.0,1.73,14.2
+38,2022-06-13,2022-06-17,797815,train,HF_M15,HighFrequency M15 Scalper Elite,14,34.9,35.7,1.25,34.5
+39,2022-06-20,2022-06-24,549879,train,HF_M15,HighFrequency M15 Scalper Elite,10,-126.2,0.0,0.0,116.1
+40,2022-06-27,2022-07-01,589977,train,HF_M15,HighFrequency M15 Scalper Elite,6,112.4,83.3,9.92,12.6
+41,2022-07-04,2022-07-08,610719,train,HF_M15,HighFrequency M15 Scalper Elite,8,13.8,37.5,1.19,32.5
+42,2022-07-11,2022-07-15,729233,train,HF_M15,HighFrequency M15 Scalper Elite,7,78.2,57.1,3.74,28.5
+43,2022-07-18,2022-07-22,721893,train,HF_M15,HighFrequency M15 Scalper Elite,5,-70.5,20.0,0.17,68.8
+44,2022-07-25,2022-07-29,713887,train,HF_M15,HighFrequency M15 Scalper Elite,7,-55.0,14.3,0.43,60.0
+45,2022-08-01,2022-08-05,870781,train,HF_M15,HighFrequency M15 Scalper Elite,6,-52.6,16.7,0.3,42.0
+46,2022-08-08,2022-08-12,670778,train,HF_M15,HighFrequency M15 Scalper Elite,6,27.2,50.0,1.64,42.4
+47,2022-08-15,2022-08-19,667944,train,HF_M15,HighFrequency M15 Scalper Elite,8,67.9,62.5,2.71,39.8
+48,2022-08-22,2022-08-26,747556,train,HF_M15,HighFrequency M15 Scalper Elite,8,-4.7,37.5,0.95,45.8
+49,2022-08-29,2022-09-02,842425,train,HF_M15,HighFrequency M15 Scalper Elite,7,-66.5,14.3,0.26,53.1
+50,2022-09-05,2022-09-09,836393,train,HF_M15,HighFrequency M15 Scalper Elite,13,-3.9,38.5,0.97,69.8
+51,2022-09-12,2022-09-16,848810,train,HF_M15,HighFrequency M15 Scalper Elite,5,-75.4,0.0,0.0,60.3
+52,2022-09-19,2022-09-23,908032,train,HF_M15,HighFrequency M15 Scalper Elite,6,20.4,33.3,1.45,23.9
+53,2022-09-26,2022-09-30,1318753,train,HF_M15,HighFrequency M15 Scalper Elite,11,-14.2,27.3,0.88,91.8
+54,2022-10-03,2022-10-07,969648,train,HF_M15,HighFrequency M15 Scalper Elite,7,67.5,57.1,1.84,16.6
+55,2022-10-10,2022-10-14,1081116,train,HF_M15,HighFrequency M15 Scalper Elite,6,-2.1,33.3,0.96,59.0
+56,2022-10-17,2022-10-21,1051001,train,HF_M15,HighFrequency M15 Scalper Elite,8,-1.9,37.5,0.98,47.9
+57,2022-10-24,2022-10-28,995862,train,HF_M15,HighFrequency M15 Scalper Elite,8,-38.9,25.0,0.52,29.9
+58,2022-10-31,2022-11-04,941719,train,HF_M15,HighFrequency M15 Scalper Elite,11,-29.3,36.4,0.75,84.5
+59,2022-11-07,2022-11-11,984513,train,HF_M15,HighFrequency M15 Scalper Elite,8,119.6,62.5,4.57,11.2
+60,2022-11-14,2022-11-18,1059083,train,HF_M15,HighFrequency M15 Scalper Elite,7,-70.2,14.3,0.23,57.0
+61,2022-11-21,2022-11-25,727070,train,HF_M15,HighFrequency M15 Scalper Elite,3,-40.4,0.0,0.0,26.0
+62,2022-11-28,2022-12-02,990766,train,HF_M15,HighFrequency M15 Scalper Elite,7,-4.3,28.6,0.94,36.8
+63,2022-12-05,2022-12-09,823278,train,HF_M15,HighFrequency M15 Scalper Elite,8,-53.9,12.5,0.36,37.4
+64,2022-12-12,2022-12-16,836394,train,HF_M15,HighFrequency M15 Scalper Elite,6,0.3,33.3,1.01,28.8
+65,2022-12-19,2022-12-23,726294,train,HF_M15,HighFrequency M15 Scalper Elite,4,-55.6,0.0,0.0,45.2
+66,2022-12-26,2022-12-30,516263,train,HF_M15,HighFrequency M15 Scalper Elite,7,95.3,71.4,6.78,16.5
+67,2023-01-02,2023-01-06,703639,train,HF_M15,HighFrequency M15 Scalper Elite,8,-22.2,25.0,0.66,37.9
+68,2023-01-09,2023-01-13,746714,train,HF_M15,HighFrequency M15 Scalper Elite,9,65.9,55.6,2.35,18.2
+69,2023-01-16,2023-01-20,654895,train,HF_M15,HighFrequency M15 Scalper Elite,11,-0.0,36.4,1.0,31.7
+70,2023-01-23,2023-01-27,563153,train,HF_M15,HighFrequency M15 Scalper Elite,5,72.2,60.0,6.01,6.1
+71,2023-01-30,2023-02-03,697934,train,HF_M15,HighFrequency M15 Scalper Elite,10,9.1,30.0,1.08,65.9
+72,2023-02-06,2023-02-10,631034,train,HF_M15,HighFrequency M15 Scalper Elite,7,39.1,42.9,2.07,36.4
+73,2023-02-13,2023-02-17,670051,train,HF_M15,HighFrequency M15 Scalper Elite,6,8.0,33.3,1.19,35.4
+74,2023-02-20,2023-02-24,590853,train,HF_M15,HighFrequency M15 Scalper Elite,9,48.7,44.4,2.15,18.3
+75,2023-02-27,2023-03-03,617674,train,HF_M15,HighFrequency M15 Scalper Elite,7,1.3,28.6,1.03,32.2
+76,2023-03-06,2023-03-10,670303,train,HF_M15,HighFrequency M15 Scalper Elite,14,-33.4,21.4,0.71,61.5
+77,2023-03-13,2023-03-17,1008651,train,HF_M15,HighFrequency M15 Scalper Elite,6,-50.7,33.3,0.51,85.2
+78,2023-03-20,2023-03-24,729988,train,HF_M15,HighFrequency M15 Scalper Elite,8,-50.7,12.5,0.39,47.1
+79,2023-03-27,2023-03-31,517033,train,HF_M15,HighFrequency M15 Scalper Elite,5,78.9,80.0,11.25,0.0
+80,2023-04-03,2023-04-07,428286,train,HF_M15,HighFrequency M15 Scalper Elite,10,1.3,30.0,1.02,75.7
+81,2023-04-10,2023-04-14,437067,train,HF_M15,HighFrequency M15 Scalper Elite,4,-38.7,0.0,0.0,31.9
+82,2023-04-17,2023-04-21,424407,train,HF_M15,HighFrequency M15 Scalper Elite,10,47.8,50.0,2.09,27.1
+83,2023-04-24,2023-04-28,515072,train,HF_M15,HighFrequency M15 Scalper Elite,8,85.4,62.5,3.33,30.6
+84,2023-05-01,2023-05-05,531787,train,HF_M15,HighFrequency M15 Scalper Elite,9,10.1,33.3,1.15,55.8
+85,2023-05-08,2023-05-12,446339,train,HF_M15,HighFrequency M15 Scalper Elite,6,26.0,50.0,1.95,13.3
+86,2023-05-15,2023-05-19,462221,train,HF_M15,HighFrequency M15 Scalper Elite,13,27.2,46.2,1.44,40.0
+87,2023-05-22,2023-05-26,512535,train,HF_M15,HighFrequency M15 Scalper Elite,6,52.3,50.0,3.07,19.2
+88,2023-05-29,2023-06-02,459486,train,HF_M15,HighFrequency M15 Scalper Elite,6,-4.7,33.3,0.9,27.1
+89,2023-06-05,2023-06-09,400200,train,HF_M15,HighFrequency M15 Scalper Elite,5,53.4,80.0,5.41,12.1
+90,2023-06-12,2023-06-16,462272,train,HF_M15,HighFrequency M15 Scalper Elite,9,71.6,44.4,2.29,43.6
+91,2023-06-19,2023-06-23,458548,train,HF_M15,HighFrequency M15 Scalper Elite,4,2.0,50.0,1.06,21.8
+92,2023-06-26,2023-06-30,459922,train,HF_M15,HighFrequency M15 Scalper Elite,8,-17.6,25.0,0.77,32.0
+93,2023-07-03,2023-07-07,429207,train,HF_M15,HighFrequency M15 Scalper Elite,6,-15.7,33.3,0.7,31.4
+94,2023-07-10,2023-07-14,489669,train,HF_M15,HighFrequency M15 Scalper Elite,11,5.8,27.3,1.09,34.9
+95,2023-07-17,2023-07-21,454186,train,HF_M15,HighFrequency M15 Scalper Elite,6,-40.7,16.7,0.3,27.4
+96,2023-07-24,2023-07-28,576515,train,HF_M15,HighFrequency M15 Scalper Elite,6,-39.5,16.7,0.45,58.1
+97,2023-07-31,2023-08-04,530942,train,HF_M15,HighFrequency M15 Scalper Elite,6,-12.8,16.7,0.73,20.6
+98,2023-08-07,2023-08-11,463097,train,HF_M15,HighFrequency M15 Scalper Elite,5,-17.8,20.0,0.51,19.6
+99,2023-08-14,2023-08-18,488279,train,HF_M15,HighFrequency M15 Scalper Elite,6,24.5,50.0,1.89,10.1
+100,2023-08-21,2023-08-25,438673,train,HF_M15,HighFrequency M15 Scalper Elite,9,-9.8,33.3,0.83,38.8
+101,2023-08-28,2023-09-01,420793,train,HF_M15,HighFrequency M15 Scalper Elite,6,7.0,50.0,1.19,28.5
+102,2023-09-04,2023-09-08,348926,train,HF_M15,HighFrequency M15 Scalper Elite,7,-28.2,14.3,0.38,45.4
+103,2023-09-11,2023-09-15,396599,train,HF_M15,HighFrequency M15 Scalper Elite,7,-41.2,14.3,0.38,66.0
+104,2023-09-18,2023-09-22,362967,train,HF_M15,HighFrequency M15 Scalper Elite,5,32.2,60.0,2.63,10.8
+105,2023-09-25,2023-09-29,419080,train,HF_M15,HighFrequency M15 Scalper Elite,10,-58.2,20.0,0.4,80.6
+106,2023-10-02,2023-10-06,501258,train,HF_M15,HighFrequency M15 Scalper Elite,10,8.3,40.0,1.1,62.4
+107,2023-10-09,2023-10-13,520184,train,HF_M15,HighFrequency M15 Scalper Elite,7,11.5,28.6,1.28,15.9
+108,2023-10-16,2023-10-20,491332,train,HF_M15,HighFrequency M15 Scalper Elite,8,-11.5,25.0,0.78,33.7
+109,2023-10-23,2023-10-27,450450,train,HF_M15,HighFrequency M15 Scalper Elite,5,24.6,40.0,2.13,14.6
+110,2023-10-30,2023-11-03,488898,train,HF_M15,HighFrequency M15 Scalper Elite,10,20.2,30.0,1.27,47.6
+111,2023-11-06,2023-11-10,410738,train,HF_M15,HighFrequency M15 Scalper Elite,7,-44.5,14.3,0.31,38.0
+112,2023-11-13,2023-11-17,427943,train,HF_M15,HighFrequency M15 Scalper Elite,8,51.8,37.5,2.46,16.3
+113,2023-11-20,2023-11-24,380125,train,HF_M15,HighFrequency M15 Scalper Elite,9,0.5,33.3,1.01,40.2
+114,2023-11-27,2023-12-01,516569,train,HF_M15,HighFrequency M15 Scalper Elite,8,-1.7,25.0,0.97,36.5
+115,2023-12-04,2023-12-08,555913,train,HF_M15,HighFrequency M15 Scalper Elite,9,-10.6,33.3,0.83,47.7
+116,2023-12-11,2023-12-15,583250,train,HF_M15,HighFrequency M15 Scalper Elite,7,28.7,42.9,1.88,10.9
+117,2023-12-18,2023-12-22,522868,train,HF_M15,HighFrequency M15 Scalper Elite,7,-8.5,28.6,0.8,41.8
+118,2023-12-25,2023-12-29,328613,train,HF_M15,HighFrequency M15 Scalper Elite,3,11.3,66.7,1.75,0.0
+119,2024-01-01,2024-01-05,437837,train,HF_M15,HighFrequency M15 Scalper Elite,8,28.7,37.5,1.63,37.2
+120,2024-01-08,2024-01-12,483248,train,HF_M15,HighFrequency M15 Scalper Elite,5,8.7,40.0,1.37,16.8
+121,2024-01-15,2024-01-19,474792,train,HF_M15,HighFrequency M15 Scalper Elite,6,58.0,66.7,4.43,9.6
+122,2024-01-22,2024-01-26,460930,train,HF_M15,HighFrequency M15 Scalper Elite,12,-15.8,25.0,0.81,33.6
+123,2024-01-29,2024-02-02,530583,train,HF_M15,HighFrequency M15 Scalper Elite,13,-62.3,23.1,0.42,97.7
+124,2024-02-05,2024-02-09,427930,train,HF_M15,HighFrequency M15 Scalper Elite,9,-1.3,33.3,0.97,38.4
+125,2024-02-12,2024-02-16,416963,train,HF_M15,HighFrequency M15 Scalper Elite,6,1.9,33.3,1.06,16.4
+126,2024-02-19,2024-02-23,351563,train,HF_M15,HighFrequency M15 Scalper Elite,6,28.4,50.0,2.21,17.5
+127,2024-02-26,2024-03-01,345494,train,HF_M15,HighFrequency M15 Scalper Elite,9,-20.8,33.3,0.66,28.1
+128,2024-03-04,2024-03-08,358169,train,HF_M15,HighFrequency M15 Scalper Elite,9,16.6,44.4,1.46,29.2
+129,2024-03-11,2024-03-15,356850,train,HF_M15,HighFrequency M15 Scalper Elite,6,9.0,33.3,1.35,9.3
+130,2024-03-18,2024-03-22,353105,train,HF_M15,HighFrequency M15 Scalper Elite,2,26.5,100.0,Inf,0.0
+131,2024-03-25,2024-03-29,319499,train,HF_M15,HighFrequency M15 Scalper Elite,7,4.9,42.9,1.14,22.1
+132,2024-04-01,2024-04-05,320122,train,HF_M15,HighFrequency M15 Scalper Elite,5,-19.6,40.0,0.47,14.1
+133,2024-04-08,2024-04-12,363390,train,HF_M15,HighFrequency M15 Scalper Elite,4,15.8,50.0,1.82,11.9
+134,2024-04-15,2024-04-19,410373,train,HF_M15,HighFrequency M15 Scalper Elite,5,-33.7,20.0,0.31,21.2
+135,2024-04-22,2024-04-26,300509,train,HF_M15,HighFrequency M15 Scalper Elite,5,37.1,60.0,3.67,6.0
+136,2024-04-29,2024-05-03,391073,train,HF_M15,HighFrequency M15 Scalper Elite,11,7.2,36.4,1.1,30.5
+137,2024-05-06,2024-05-10,240631,train,HF_M15,HighFrequency M15 Scalper Elite,8,-41.8,12.5,0.29,31.9
+138,2024-05-13,2024-05-17,242575,train,HF_M15,HighFrequency M15 Scalper Elite,2,27.6,100.0,Inf,0.0
+139,2024-05-20,2024-05-24,244283,train,HF_M15,HighFrequency M15 Scalper Elite,6,-18.8,16.7,0.45,28.1
+140,2024-05-27,2024-05-31,272338,train,HF_M15,HighFrequency M15 Scalper Elite,5,24.7,40.0,2.12,9.1
+141,2024-06-03,2024-06-07,320328,train,HF_M15,HighFrequency M15 Scalper Elite,6,-5.0,33.3,0.85,33.8
+142,2024-06-10,2024-06-14,373303,train,HF_M15,HighFrequency M15 Scalper Elite,7,24.1,42.9,1.61,25.4
+143,2024-06-17,2024-06-21,303407,train,HF_M15,HighFrequency M15 Scalper Elite,3,-25.3,0.0,0.0,18.4
+144,2024-06-24,2024-06-28,317301,train,HF_M15,HighFrequency M15 Scalper Elite,5,-33.2,20.0,0.29,33.6
+145,2024-07-01,2024-07-05,281396,train,HF_M15,HighFrequency M15 Scalper Elite,5,-22.3,20.0,0.37,15.2
+146,2024-07-08,2024-07-12,310322,train,HF_M15,HighFrequency M15 Scalper Elite,6,-26.0,16.7,0.3,27.1
+147,2024-07-15,2024-07-19,319606,train,HF_M15,HighFrequency M15 Scalper Elite,6,-4.9,33.3,0.84,25.6
+148,2024-07-22,2024-07-26,323852,train,HF_M15,HighFrequency M15 Scalper Elite,3,0.9,33.3,1.07,12.4
+149,2024-07-29,2024-08-02,416947,train,HF_M15,HighFrequency M15 Scalper Elite,5,-6.7,20.0,0.8,21.8
+150,2024-08-05,2024-08-09,578389,train,HF_M15,HighFrequency M15 Scalper Elite,5,-22.7,20.0,0.37,17.3
+151,2024-08-12,2024-08-16,307022,train,HF_M15,HighFrequency M15 Scalper Elite,6,36.1,50.0,2.58,14.5
+152,2024-08-19,2024-08-23,360166,train,HF_M15,HighFrequency M15 Scalper Elite,7,-1.0,42.9,0.98,35.1
+153,2024-08-26,2024-08-30,380784,train,HF_M15,HighFrequency M15 Scalper Elite,9,34.0,44.4,1.83,26.3
+154,2024-09-02,2024-09-06,392687,train,HF_M15,HighFrequency M15 Scalper Elite,7,-43.2,14.3,0.32,50.2
+155,2024-09-09,2024-09-13,372952,train,HF_M15,HighFrequency M15 Scalper Elite,6,19.6,33.3,1.43,36.5
+156,2024-09-16,2024-09-20,461938,train,HF_M15,HighFrequency M15 Scalper Elite,5,-15.4,20.0,0.53,22.7
+157,2024-09-23,2024-09-27,455814,test,HF_M15,HighFrequency M15 Scalper Elite,4,-34.9,0.0,0.0,27.5
+158,2024-09-30,2024-10-04,466207,test,HF_M15,HighFrequency M15 Scalper Elite,6,82.9,66.7,7.58,6.0
+159,2024-10-07,2024-10-11,392615,test,HF_M15,HighFrequency M15 Scalper Elite,9,54.3,44.4,2.76,12.3
+160,2024-10-14,2024-10-18,340404,test,HF_M15,HighFrequency M15 Scalper Elite,8,-7.3,25.0,0.84,26.5
+161,2024-10-21,2024-10-25,333268,test,HF_M15,HighFrequency M15 Scalper Elite,7,15.6,42.9,1.56,27.7
+162,2024-10-28,2024-11-01,402255,test,HF_M15,HighFrequency M15 Scalper Elite,8,21.8,37.5,1.47,40.6
+163,2024-11-04,2024-11-08,618293,test,HF_M15,HighFrequency M15 Scalper Elite,7,25.6,42.9,1.57,36.6
+164,2024-11-11,2024-11-15,508267,test,HF_M15,HighFrequency M15 Scalper Elite,9,-10.5,33.3,0.86,48.4
+165,2024-11-18,2024-11-22,519572,test,HF_M15,HighFrequency M15 Scalper Elite,8,19.8,37.5,1.41,25.0
+166,2024-11-25,2024-11-29,574123,test,HF_M15,HighFrequency M15 Scalper Elite,5,58.9,60.0,3.45,24.0
+167,2024-12-02,2024-12-06,564478,test,HF_M15,HighFrequency M15 Scalper Elite,10,-29.7,30.0,0.65,36.3
+168,2024-12-09,2024-12-13,475108,test,HF_M15,HighFrequency M15 Scalper Elite,9,98.6,66.7,3.6,17.1
+169,2024-12-16,2024-12-20,503681,test,HF_M15,HighFrequency M15 Scalper Elite,7,36.2,42.9,1.89,20.2
+170,2024-12-23,2024-12-27,260254,test,HF_M15,HighFrequency M15 Scalper Elite,4,7.1,25.0,1.28,9.8
+171,2024-12-30,2025-01-03,330207,test,HF_M15,HighFrequency M15 Scalper Elite,8,44.1,37.5,1.8,36.6
+172,2025-01-06,2025-01-10,504165,test,HF_M15,HighFrequency M15 Scalper Elite,6,62.9,66.7,2.88,33.4
+173,2025-01-13,2025-01-17,497875,test,HF_M15,HighFrequency M15 Scalper Elite,9,32.7,33.3,1.59,29.3
+174,2025-01-20,2025-01-24,531123,test,HF_M15,HighFrequency M15 Scalper Elite,12,72.0,50.0,2.03,16.5
+175,2025-01-27,2025-01-31,564805,test,HF_M15,HighFrequency M15 Scalper Elite,8,17.7,37.5,1.36,22.2
+176,2025-02-03,2025-02-07,620180,test,HF_M15,HighFrequency M15 Scalper Elite,10,0.4,30.0,1.0,42.1
+177,2025-02-10,2025-02-14,479840,test,HF_M15,HighFrequency M15 Scalper Elite,8,12.0,37.5,1.23,36.4
+178,2025-02-17,2025-02-21,379284,test,HF_M15,HighFrequency M15 Scalper Elite,9,-41.3,11.1,0.38,51.8
+179,2025-02-24,2025-02-28,545625,test,HF_M15,HighFrequency M15 Scalper Elite,8,-58.6,0.0,0.0,51.6
+180,2025-03-03,2025-03-07,757198,test,HF_M15,HighFrequency M15 Scalper Elite,11,56.8,54.5,1.72,33.0
+181,2025-03-10,2025-03-14,618305,test,HF_M15,HighFrequency M15 Scalper Elite,11,-68.8,18.2,0.37,74.7
+182,2025-03-17,2025-03-21,420964,test,HF_M15,HighFrequency M15 Scalper Elite,8,15.4,37.5,1.28,24.3
+183,2025-03-24,2025-03-28,424443,test,HF_M15,HighFrequency M15 Scalper Elite,11,-56.4,18.2,0.39,65.0
+184,2025-03-31,2025-04-04,777302,test,HF_M15,HighFrequency M15 Scalper Elite,11,-43.2,27.3,0.7,77.5
+185,2025-04-07,2025-04-11,1384857,test,HF_M15,HighFrequency M15 Scalper Elite,12,32.6,33.3,1.19,108.8
+186,2025-04-14,2025-04-18,778436,test,HF_M15,HighFrequency M15 Scalper Elite,5,21.3,40.0,1.47,45.2
+187,2025-04-21,2025-04-25,673141,test,HF_M15,HighFrequency M15 Scalper Elite,13,-52.7,23.1,0.63,86.3
+188,2025-04-28,2025-05-02,540080,test,HF_M15,HighFrequency M15 Scalper Elite,10,19.5,30.0,1.25,50.9
+189,2025-05-05,2025-05-09,551873,test,HF_M15,HighFrequency M15 Scalper Elite,16,29.2,25.0,1.24,69.4
+190,2025-05-12,2025-05-16,557707,test,HF_M15,HighFrequency M15 Scalper Elite,12,-70.9,16.7,0.54,114.9
+191,2025-05-19,2025-05-23,547474,test,HF_M15,HighFrequency M15 Scalper Elite,9,82.4,55.6,2.64,39.4
+192,2025-05-26,2025-05-30,514130,test,HF_M15,HighFrequency M15 Scalper Elite,7,-3.7,28.6,0.93,21.4
+193,2025-06-02,2025-06-06,495661,test,HF_M15,HighFrequency M15 Scalper Elite,5,-16.5,20.0,0.49,25.3
+194,2025-06-09,2025-06-13,451573,test,HF_M15,HighFrequency M15 Scalper Elite,9,41.8,44.4,1.85,22.7
+195,2025-06-16,2025-06-20,481144,test,HF_M15,HighFrequency M15 Scalper Elite,3,0.1,33.3,1.01,8.6
+196,2025-06-23,2025-06-27,470127,test,HF_M15,HighFrequency M15 Scalper Elite,6,34.1,50.0,2.08,21.9
+197,2025-06-30,2025-07-04,357758,test,HF_M15,HighFrequency M15 Scalper Elite,10,-29.3,30.0,0.64,41.7
+198,2025-07-07,2025-07-11,324813,test,HF_M15,HighFrequency M15 Scalper Elite,9,-22.9,22.2,0.67,60.4
+199,2025-07-14,2025-07-18,335188,test,HF_M15,HighFrequency M15 Scalper Elite,8,-28.3,25.0,0.48,48.1
+200,2025-07-21,2025-07-25,302690,test,HF_M15,HighFrequency M15 Scalper Elite,8,-54.8,12.5,0.23,71.1
+201,2025-07-28,2025-08-01,408886,test,HF_M15,HighFrequency M15 Scalper Elite,9,12.7,44.4,1.15,41.7
+202,2025-08-04,2025-08-08,328168,test,HF_M15,HighFrequency M15 Scalper Elite,11,80.5,54.5,2.89,25.4
+203,2025-08-11,2025-08-15,329838,test,HF_M15,HighFrequency M15 Scalper Elite,6,-15.5,33.3,0.69,40.2
+204,2025-08-18,2025-08-22,275092,test,HF_M15,HighFrequency M15 Scalper Elite,6,18.2,33.3,1.64,22.4
+205,2025-08-25,2025-08-29,286324,test,HF_M15,HighFrequency M15 Scalper Elite,6,37.5,50.0,2.8,8.1
+206,2025-09-01,2025-09-05,319884,test,HF_M15,HighFrequency M15 Scalper Elite,11,-35.9,18.2,0.63,48.4
+207,2025-09-08,2025-09-12,319380,test,HF_M15,HighFrequency M15 Scalper Elite,5,8.1,40.0,1.28,29.3
+208,2025-09-15,2025-09-19,376717,test,HF_M15,HighFrequency M15 Scalper Elite,4,24.3,50.0,2.33,11.0
+209,2025-09-22,2025-09-26,335093,test,HF_M15,HighFrequency M15 Scalper Elite,8,23.4,37.5,1.45,20.9
+210,2025-09-29,2025-10-03,327783,test,HF_M15,HighFrequency M15 Scalper Elite,5,-31.3,20.0,0.41,32.3
+211,2025-10-06,2025-10-10,329286,test,HF_M15,HighFrequency M15 Scalper Elite,10,2.0,30.0,1.03,50.7
+212,2025-10-13,2025-10-17,350572,test,HF_M15,HighFrequency M15 Scalper Elite,8,3.3,25.0,1.07,33.9
+213,2025-10-20,2025-10-24,281828,test,HF_M15,HighFrequency M15 Scalper Elite,4,-38.2,0.0,0.0,25.4
+214,2025-10-27,2025-10-31,297843,test,HF_M15,HighFrequency M15 Scalper Elite,6,45.5,66.7,3.77,8.7
+215,2025-11-03,2025-11-07,273169,test,HF_M15,HighFrequency M15 Scalper Elite,9,49.3,55.6,2.75,14.4
+216,2025-11-10,2025-11-14,270691,test,HF_M15,HighFrequency M15 Scalper Elite,6,-3.0,33.3,0.9,20.5
+217,2025-11-17,2025-11-21,314838,test,HF_M15,HighFrequency M15 Scalper Elite,9,57.9,44.4,2.86,10.5
+218,2025-11-24,2025-11-28,355828,test,HF_M15,HighFrequency M15 Scalper Elite,6,32.8,33.3,2.18,7.7
+219,2025-12-01,2025-12-05,276400,test,HF_M15,HighFrequency M15 Scalper Elite,6,-7.4,33.3,0.8,23.9
+220,2025-12-08,2025-12-12,304175,test,HF_M15,HighFrequency M15 Scalper Elite,6,-12.0,33.3,0.67,30.1
+221,2025-12-15,2025-12-19,318945,test,HF_M15,HighFrequency M15 Scalper Elite,6,-28.0,16.7,0.33,41.9
+222,2025-12-22,2025-12-26,222330,test,HF_M15,HighFrequency M15 Scalper Elite,8,29.7,50.0,1.65,27.6
+223,2025-12-29,2026-01-02,213620,test,HF_M15,HighFrequency M15 Scalper Elite,1,-7.9,0.0,0.0,0.0
+224,2026-01-05,2026-01-09,280259,test,HF_M15,HighFrequency M15 Scalper Elite,7,-36.4,14.3,0.29,36.1
+225,2026-01-12,2026-01-16,264192,test,HF_M15,HighFrequency M15 Scalper Elite,10,-8.6,30.0,0.83,26.2
+226,2026-01-19,2026-01-23,323332,test,HF_M15,HighFrequency M15 Scalper Elite,7,3.3,42.9,1.07,36.1
+227,2026-01-26,2026-01-30,566217,test,HF_M15,HighFrequency M15 Scalper Elite,11,-30.7,27.3,0.63,33.1
+228,2026-02-02,2026-02-06,406486,test,HF_M15,HighFrequency M15 Scalper Elite,5,82.1,80.0,6.01,0.0
+229,2026-02-09,2026-02-13,356037,test,HF_M15,HighFrequency M15 Scalper Elite,11,-32.1,36.4,0.65,72.9
+230,2026-02-16,2026-02-20,264110,test,HF_M15,HighFrequency M15 Scalper Elite,5,-20.8,20.0,0.39,34.0
+231,2026-02-23,2026-02-27,284997,test,HF_M15,HighFrequency M15 Scalper Elite,9,21.7,44.4,1.55,25.4
+232,2026-03-02,2026-03-06,636433,test,HF_M15,HighFrequency M15 Scalper Elite,8,100.1,62.5,3.33,25.0
+233,2026-03-09,2026-03-13,604058,test,HF_M15,HighFrequency M15 Scalper Elite,13,86.9,46.2,2.35,38.7
+234,2026-03-16,2026-03-20,504489,test,HF_M15,HighFrequency M15 Scalper Elite,6,-56.0,16.7,0.3,79.6
+235,2026-03-23,2026-03-27,632349,test,HF_M15,HighFrequency M15 Scalper Elite,8,16.2,37.5,1.3,19.4
+236,2026-03-30,2026-04-03,457136,test,HF_M15,HighFrequency M15 Scalper Elite,8,-8.9,25.0,0.82,20.3
+237,2026-04-06,2026-04-10,478507,test,HF_M15,HighFrequency M15 Scalper Elite,9,46.1,55.6,2.27,22.5
+238,2026-04-13,2026-04-17,376495,test,HF_M15,HighFrequency M15 Scalper Elite,5,45.4,60.0,3.1,13.1
+239,2026-04-20,2026-04-24,418545,test,HF_M15,HighFrequency M15 Scalper Elite,7,0.6,42.9,1.01,19.4
+240,2026-04-27,2026-05-01,450762,test,HF_M15,HighFrequency M15 Scalper Elite,4,-27.6,0.0,0.0,21.6
+241,2026-05-04,2026-05-08,463785,test,HF_M15,HighFrequency M15 Scalper Elite,7,7.0,28.6,1.17,40.1
+242,2026-05-11,2026-05-15,284816,test,HF_M15,HighFrequency M15 Scalper Elite,8,-18.5,25.0,0.63,29.7
+243,2026-05-18,2026-05-22,333098,test,HF_M15,HighFrequency M15 Scalper Elite,4,5.8,50.0,1.21,28.0
+244,2026-05-25,2026-05-29,252573,test,HF_M15,HighFrequency M15 Scalper Elite,5,-16.4,20.0,0.45,15.2
+245,2026-06-01,2026-06-05,268764,test,HF_M15,HighFrequency M15 Scalper Elite,2,26.8,50.0,4.08,0.0
+246,2026-06-08,2026-06-12,382318,test,HF_M15,HighFrequency M15 Scalper Elite,7,3.3,42.9,1.08,37.1
+247,2026-06-15,2026-06-19,311560,test,HF_M15,HighFrequency M15 Scalper Elite,6,50.3,66.7,3.52,14.0
+248,2026-06-22,2026-06-26,314112,test,HF_M15,HighFrequency M15 Scalper Elite,7,42.5,42.9,2.05,20.5
+249,2026-06-29,2026-07-03,315634,test,HF_M15,HighFrequency M15 Scalper Elite,3,38.0,66.7,4.25,11.7
+250,2026-07-06,2026-07-10,271547,test,HF_M15,HighFrequency M15 Scalper Elite,3,-26.3,0.0,0.0,20.3
+251,2026-07-13,2026-07-17,317137,test,HF_M15,HighFrequency M15 Scalper Elite,11,-21.3,18.2,0.66,61.4
+252,2026-07-20,2026-07-24,237779,test,HF_M15,HighFrequency M15 Scalper Elite,8,14.9,37.5,1.4,25.0
+253,2026-07-27,2026-07-31,340571,test,HF_M15,HighFrequency M15 Scalper Elite,6,42.0,66.7,4.04,7.3
+254,2026-08-03,2026-08-07,258550,test,HF_M15,HighFrequency M15 Scalper Elite,5,-19.6,20.0,0.4,32.8
+255,2026-08-10,2026-08-14,203137,test,HF_M15,HighFrequency M15 Scalper Elite,2,-16.1,0.0,0.0,6.2
+256,2026-08-17,2026-08-21,279265,test,HF_M15,HighFrequency M15 Scalper Elite,8,11.2,37.5,1.26,15.7
+257,2026-08-24,2026-08-28,246477,test,HF_M15,HighFrequency M15 Scalper Elite,5,-18.7,20.0,0.41,23.1
+258,2026-08-31,2026-09-04,275495,test,HF_M15,HighFrequency M15 Scalper Elite,2,4.3,50.0,1.43,10.1
+259,2026-09-07,2026-09-11,274509,test,HF_M15,HighFrequency M15 Scalper Elite,9,31.4,44.4,1.86,19.9
+260,2026-09-14,2026-09-18,306514,test,HF_M15,HighFrequency M15 Scalper Elite,3,2.9,33.3,1.27,10.7
+261,2026-09-21,2026-09-25,331517,test,HF_M15,HighFrequency M15 Scalper Elite,4,-6.8,25.0,0.71,17.0
+262,2026-09-28,2026-10-01,231329,test,HF_M15,HighFrequency M15 Scalper Elite,4,35.5,75.0,3.59,13.7
+1,2021-10-01,2021-10-01,66064,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+2,2021-10-04,2021-10-08,251914,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+3,2021-10-11,2021-10-15,240306,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+4,2021-10-18,2021-10-22,250266,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+5,2021-10-25,2021-10-29,303849,train,V12_PRIME,Institutional Prime Sweep V12,2,-22.2,0.0,0.0,15.2
+6,2021-11-01,2021-11-05,301718,train,V12_PRIME,Institutional Prime Sweep V12,2,7.7,50.0,2.48,5.2
+7,2021-11-08,2021-11-12,267525,train,V12_PRIME,Institutional Prime Sweep V12,2,6.2,50.0,1.6,10.3
+8,2021-11-15,2021-11-19,301280,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+9,2021-11-22,2021-11-26,375637,train,V12_PRIME,Institutional Prime Sweep V12,1,43.5,100.0,Inf,0.0
+10,2021-11-29,2021-12-03,433065,train,V12_PRIME,Institutional Prime Sweep V12,2,-28.8,0.0,0.0,12.8
+11,2021-12-06,2021-12-10,277143,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+12,2021-12-13,2021-12-17,327420,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+13,2021-12-20,2021-12-24,328794,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+14,2021-12-27,2021-12-31,198768,train,V12_PRIME,Institutional Prime Sweep V12,1,-11.7,0.0,0.0,0.0
+15,2022-01-03,2022-01-07,326373,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+16,2022-01-10,2022-01-14,313064,train,V12_PRIME,Institutional Prime Sweep V12,1,-7.6,0.0,0.0,0.0
+17,2022-01-17,2022-01-21,304075,train,V12_PRIME,Institutional Prime Sweep V12,1,-10.4,0.0,0.0,0.0
+18,2022-01-24,2022-01-28,372229,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+19,2022-01-31,2022-02-04,368949,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+20,2022-02-07,2022-02-11,374602,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+21,2022-02-14,2022-02-18,394600,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+22,2022-02-21,2022-02-25,496594,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+23,2022-02-28,2022-03-04,591300,train,V12_PRIME,Institutional Prime Sweep V12,1,-5.1,0.0,0.0,0.0
+24,2022-03-07,2022-03-11,758799,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+25,2022-03-14,2022-03-18,545368,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+26,2022-03-21,2022-03-25,427901,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+27,2022-03-28,2022-04-01,532184,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+28,2022-04-04,2022-04-08,373379,train,V12_PRIME,Institutional Prime Sweep V12,2,-23.5,0.0,0.0,11.9
+29,2022-04-11,2022-04-15,497788,train,V12_PRIME,Institutional Prime Sweep V12,1,6.8,100.0,Inf,0.0
+30,2022-04-18,2022-04-22,456005,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+31,2022-04-25,2022-04-29,595013,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+32,2022-05-02,2022-05-06,622942,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+33,2022-05-09,2022-05-13,670192,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+34,2022-05-16,2022-05-20,553411,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+35,2022-05-23,2022-05-27,472900,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+36,2022-05-30,2022-06-03,393119,train,V12_PRIME,Institutional Prime Sweep V12,1,-13.4,0.0,0.0,0.0
+37,2022-06-06,2022-06-10,457562,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+38,2022-06-13,2022-06-17,797815,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+39,2022-06-20,2022-06-24,549879,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+40,2022-06-27,2022-07-01,589977,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+41,2022-07-04,2022-07-08,610719,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+42,2022-07-11,2022-07-15,729233,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+43,2022-07-18,2022-07-22,721893,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+44,2022-07-25,2022-07-29,713887,train,V12_PRIME,Institutional Prime Sweep V12,1,44.8,100.0,Inf,0.0
+45,2022-08-01,2022-08-05,870781,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+46,2022-08-08,2022-08-12,670778,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+47,2022-08-15,2022-08-19,667944,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+48,2022-08-22,2022-08-26,747556,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+49,2022-08-29,2022-09-02,842425,train,V12_PRIME,Institutional Prime Sweep V12,1,-6.1,0.0,0.0,0.0
+50,2022-09-05,2022-09-09,836393,train,V12_PRIME,Institutional Prime Sweep V12,1,-13.6,0.0,0.0,0.0
+51,2022-09-12,2022-09-16,848810,train,V12_PRIME,Institutional Prime Sweep V12,1,-16.0,0.0,0.0,0.0
+52,2022-09-19,2022-09-23,908032,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+53,2022-09-26,2022-09-30,1318753,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+54,2022-10-03,2022-10-07,969648,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+55,2022-10-10,2022-10-14,1081116,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+56,2022-10-17,2022-10-21,1051001,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+57,2022-10-24,2022-10-28,995862,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+58,2022-10-31,2022-11-04,941719,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+59,2022-11-07,2022-11-11,984513,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+60,2022-11-14,2022-11-18,1059083,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+61,2022-11-21,2022-11-25,727070,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+62,2022-11-28,2022-12-02,990766,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+63,2022-12-05,2022-12-09,823278,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+64,2022-12-12,2022-12-16,836394,train,V12_PRIME,Institutional Prime Sweep V12,2,17.6,50.0,2.16,15.2
+65,2022-12-19,2022-12-23,726294,train,V12_PRIME,Institutional Prime Sweep V12,2,-31.9,0.0,0.0,15.7
+66,2022-12-26,2022-12-30,516263,train,V12_PRIME,Institutional Prime Sweep V12,1,-8.6,0.0,0.0,0.0
+67,2023-01-02,2023-01-06,703639,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+68,2023-01-09,2023-01-13,746714,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+69,2023-01-16,2023-01-20,654895,train,V12_PRIME,Institutional Prime Sweep V12,2,-26.7,0.0,0.0,14.8
+70,2023-01-23,2023-01-27,563153,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+71,2023-01-30,2023-02-03,697934,train,V12_PRIME,Institutional Prime Sweep V12,2,-23.7,0.0,0.0,16.6
+72,2023-02-06,2023-02-10,631034,train,V12_PRIME,Institutional Prime Sweep V12,2,-27.4,0.0,0.0,11.3
+73,2023-02-13,2023-02-17,670051,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+74,2023-02-20,2023-02-24,590853,train,V12_PRIME,Institutional Prime Sweep V12,1,-13.0,0.0,0.0,0.0
+75,2023-02-27,2023-03-03,617674,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+76,2023-03-06,2023-03-10,670303,train,V12_PRIME,Institutional Prime Sweep V12,2,-27.4,0.0,0.0,16.1
+77,2023-03-13,2023-03-17,1008651,train,V12_PRIME,Institutional Prime Sweep V12,1,26.2,100.0,Inf,0.0
+78,2023-03-20,2023-03-24,729988,train,V12_PRIME,Institutional Prime Sweep V12,1,-11.8,0.0,0.0,0.0
+79,2023-03-27,2023-03-31,517033,train,V12_PRIME,Institutional Prime Sweep V12,1,-16.0,0.0,0.0,0.0
+80,2023-04-03,2023-04-07,428286,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+81,2023-04-10,2023-04-14,437067,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+82,2023-04-17,2023-04-21,424407,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+83,2023-04-24,2023-04-28,515072,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+84,2023-05-01,2023-05-05,531787,train,V12_PRIME,Institutional Prime Sweep V12,1,-16.0,0.0,0.0,0.0
+85,2023-05-08,2023-05-12,446339,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+86,2023-05-15,2023-05-19,462221,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+87,2023-05-22,2023-05-26,512535,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+88,2023-05-29,2023-06-02,459486,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+89,2023-06-05,2023-06-09,400200,train,V12_PRIME,Institutional Prime Sweep V12,1,-10.1,0.0,0.0,0.0
+90,2023-06-12,2023-06-16,462272,train,V12_PRIME,Institutional Prime Sweep V12,1,25.5,100.0,Inf,0.0
+91,2023-06-19,2023-06-23,458548,train,V12_PRIME,Institutional Prime Sweep V12,1,-9.6,0.0,0.0,0.0
+92,2023-06-26,2023-06-30,459922,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+93,2023-07-03,2023-07-07,429207,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+94,2023-07-10,2023-07-14,489669,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+95,2023-07-17,2023-07-21,454186,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+96,2023-07-24,2023-07-28,576515,train,V12_PRIME,Institutional Prime Sweep V12,1,45.5,100.0,Inf,0.0
+97,2023-07-31,2023-08-04,530942,train,V12_PRIME,Institutional Prime Sweep V12,1,-11.6,0.0,0.0,0.0
+98,2023-08-07,2023-08-11,463097,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+99,2023-08-14,2023-08-18,488279,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+100,2023-08-21,2023-08-25,438673,train,V12_PRIME,Institutional Prime Sweep V12,1,-16.0,0.0,0.0,0.0
+101,2023-08-28,2023-09-01,420793,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+102,2023-09-04,2023-09-08,348926,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+103,2023-09-11,2023-09-15,396599,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+104,2023-09-18,2023-09-22,362967,train,V12_PRIME,Institutional Prime Sweep V12,1,-16.4,0.0,0.0,0.0
+105,2023-09-25,2023-09-29,419080,train,V12_PRIME,Institutional Prime Sweep V12,1,-8.3,0.0,0.0,0.0
+106,2023-10-02,2023-10-06,501258,train,V12_PRIME,Institutional Prime Sweep V12,1,-6.3,0.0,0.0,0.0
+107,2023-10-09,2023-10-13,520184,train,V12_PRIME,Institutional Prime Sweep V12,2,-25.3,0.0,0.0,9.0
+108,2023-10-16,2023-10-20,491332,train,V12_PRIME,Institutional Prime Sweep V12,1,-10.3,0.0,0.0,0.0
+109,2023-10-23,2023-10-27,450450,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+110,2023-10-30,2023-11-03,488898,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+111,2023-11-06,2023-11-10,410738,train,V12_PRIME,Institutional Prime Sweep V12,1,-6.8,0.0,0.0,0.0
+112,2023-11-13,2023-11-17,427943,train,V12_PRIME,Institutional Prime Sweep V12,3,-18.9,0.0,0.0,11.6
+113,2023-11-20,2023-11-24,380125,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+114,2023-11-27,2023-12-01,516569,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+115,2023-12-04,2023-12-08,555913,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+116,2023-12-11,2023-12-15,583250,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+117,2023-12-18,2023-12-22,522868,train,V12_PRIME,Institutional Prime Sweep V12,1,-12.6,0.0,0.0,0.0
+118,2023-12-25,2023-12-29,328613,train,V12_PRIME,Institutional Prime Sweep V12,1,-13.1,0.0,0.0,0.0
+119,2024-01-01,2024-01-05,437837,train,V12_PRIME,Institutional Prime Sweep V12,1,37.4,100.0,Inf,0.0
+120,2024-01-08,2024-01-12,483248,train,V12_PRIME,Institutional Prime Sweep V12,3,-34.7,0.0,0.0,18.7
+121,2024-01-15,2024-01-19,474792,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+122,2024-01-22,2024-01-26,460930,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+123,2024-01-29,2024-02-02,530583,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+124,2024-02-05,2024-02-09,427930,train,V12_PRIME,Institutional Prime Sweep V12,1,-11.8,0.0,0.0,0.0
+125,2024-02-12,2024-02-16,416963,train,V12_PRIME,Institutional Prime Sweep V12,2,-1.4,50.0,0.83,8.2
+126,2024-02-19,2024-02-23,351563,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+127,2024-02-26,2024-03-01,345494,train,V12_PRIME,Institutional Prime Sweep V12,1,-10.7,0.0,0.0,0.0
+128,2024-03-04,2024-03-08,358169,train,V12_PRIME,Institutional Prime Sweep V12,2,-19.6,0.0,0.0,6.9
+129,2024-03-11,2024-03-15,356850,train,V12_PRIME,Institutional Prime Sweep V12,2,2.6,50.0,1.23,11.3
+130,2024-03-18,2024-03-22,353105,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+131,2024-03-25,2024-03-29,319499,train,V12_PRIME,Institutional Prime Sweep V12,1,-8.6,0.0,0.0,0.0
+132,2024-04-01,2024-04-05,320122,train,V12_PRIME,Institutional Prime Sweep V12,2,21.7,50.0,3.86,0.0
+133,2024-04-08,2024-04-12,363390,train,V12_PRIME,Institutional Prime Sweep V12,2,9.0,50.0,2.8,0.0
+134,2024-04-15,2024-04-19,410373,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+135,2024-04-22,2024-04-26,300509,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+136,2024-04-29,2024-05-03,391073,train,V12_PRIME,Institutional Prime Sweep V12,1,-6.8,0.0,0.0,0.0
+137,2024-05-06,2024-05-10,240631,train,V12_PRIME,Institutional Prime Sweep V12,1,-5.0,0.0,0.0,0.0
+138,2024-05-13,2024-05-17,242575,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+139,2024-05-20,2024-05-24,244283,train,V12_PRIME,Institutional Prime Sweep V12,1,-9.4,0.0,0.0,0.0
+140,2024-05-27,2024-05-31,272338,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+141,2024-06-03,2024-06-07,320328,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+142,2024-06-10,2024-06-14,373303,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+143,2024-06-17,2024-06-21,303407,train,V12_PRIME,Institutional Prime Sweep V12,1,-13.7,0.0,0.0,0.0
+144,2024-06-24,2024-06-28,317301,train,V12_PRIME,Institutional Prime Sweep V12,1,-6.1,0.0,0.0,0.0
+145,2024-07-01,2024-07-05,281396,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+146,2024-07-08,2024-07-12,310322,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+147,2024-07-15,2024-07-19,319606,train,V12_PRIME,Institutional Prime Sweep V12,1,-5.0,0.0,0.0,0.0
+148,2024-07-22,2024-07-26,323852,train,V12_PRIME,Institutional Prime Sweep V12,1,-8.6,0.0,0.0,0.0
+149,2024-07-29,2024-08-02,416947,train,V12_PRIME,Institutional Prime Sweep V12,1,-8.9,0.0,0.0,0.0
+150,2024-08-05,2024-08-09,578389,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+151,2024-08-12,2024-08-16,307022,train,V12_PRIME,Institutional Prime Sweep V12,1,-10.1,0.0,0.0,0.0
+152,2024-08-19,2024-08-23,360166,train,V12_PRIME,Institutional Prime Sweep V12,2,38.5,50.0,7.11,0.0
+153,2024-08-26,2024-08-30,380784,train,V12_PRIME,Institutional Prime Sweep V12,1,-9.0,0.0,0.0,0.0
+154,2024-09-02,2024-09-06,392687,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+155,2024-09-09,2024-09-13,372952,train,V12_PRIME,Institutional Prime Sweep V12,1,-0.2,0.0,0.0,0.0
+156,2024-09-16,2024-09-20,461938,train,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+157,2024-09-23,2024-09-27,455814,test,V12_PRIME,Institutional Prime Sweep V12,1,-5.1,0.0,0.0,0.0
+158,2024-09-30,2024-10-04,466207,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+159,2024-10-07,2024-10-11,392615,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+160,2024-10-14,2024-10-18,340404,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+161,2024-10-21,2024-10-25,333268,test,V12_PRIME,Institutional Prime Sweep V12,2,14.8,50.0,2.72,8.6
+162,2024-10-28,2024-11-01,402255,test,V12_PRIME,Institutional Prime Sweep V12,2,-12.2,0.0,0.0,6.2
+163,2024-11-04,2024-11-08,618293,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+164,2024-11-11,2024-11-15,508267,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+165,2024-11-18,2024-11-22,519572,test,V12_PRIME,Institutional Prime Sweep V12,1,44.6,100.0,Inf,0.0
+166,2024-11-25,2024-11-29,574123,test,V12_PRIME,Institutional Prime Sweep V12,1,-0.4,0.0,0.0,0.0
+167,2024-12-02,2024-12-06,564478,test,V12_PRIME,Institutional Prime Sweep V12,2,-23.7,0.0,0.0,12.1
+168,2024-12-09,2024-12-13,475108,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+169,2024-12-16,2024-12-20,503681,test,V12_PRIME,Institutional Prime Sweep V12,1,0.5,100.0,Inf,0.0
+170,2024-12-23,2024-12-27,260254,test,V12_PRIME,Institutional Prime Sweep V12,1,-1.0,0.0,0.0,0.0
+171,2024-12-30,2025-01-03,330207,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+172,2025-01-06,2025-01-10,504165,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+173,2025-01-13,2025-01-17,497875,test,V12_PRIME,Institutional Prime Sweep V12,2,-17.2,0.0,0.0,5.0
+174,2025-01-20,2025-01-24,531123,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+175,2025-01-27,2025-01-31,564805,test,V12_PRIME,Institutional Prime Sweep V12,1,44.8,100.0,Inf,0.0
+176,2025-02-03,2025-02-07,620180,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+177,2025-02-10,2025-02-14,479840,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+178,2025-02-17,2025-02-21,379284,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+179,2025-02-24,2025-02-28,545625,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+180,2025-03-03,2025-03-07,757198,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+181,2025-03-10,2025-03-14,618305,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+182,2025-03-17,2025-03-21,420964,test,V12_PRIME,Institutional Prime Sweep V12,2,33.9,50.0,5.99,6.8
+183,2025-03-24,2025-03-28,424443,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+184,2025-03-31,2025-04-04,777302,test,V12_PRIME,Institutional Prime Sweep V12,1,45.2,100.0,Inf,0.0
+185,2025-04-07,2025-04-11,1384857,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+186,2025-04-14,2025-04-18,778436,test,V12_PRIME,Institutional Prime Sweep V12,1,17.4,100.0,Inf,0.0
+187,2025-04-21,2025-04-25,673141,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+188,2025-04-28,2025-05-02,540080,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+189,2025-05-05,2025-05-09,551873,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+190,2025-05-12,2025-05-16,557707,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+191,2025-05-19,2025-05-23,547474,test,V12_PRIME,Institutional Prime Sweep V12,1,-16.0,0.0,0.0,0.0
+192,2025-05-26,2025-05-30,514130,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+193,2025-06-02,2025-06-06,495661,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+194,2025-06-09,2025-06-13,451573,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+195,2025-06-16,2025-06-20,481144,test,V12_PRIME,Institutional Prime Sweep V12,1,14.0,100.0,Inf,0.0
+196,2025-06-23,2025-06-27,470127,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+197,2025-06-30,2025-07-04,357758,test,V12_PRIME,Institutional Prime Sweep V12,1,45.3,100.0,Inf,0.0
+198,2025-07-07,2025-07-11,324813,test,V12_PRIME,Institutional Prime Sweep V12,1,-9.2,0.0,0.0,0.0
+199,2025-07-14,2025-07-18,335188,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+200,2025-07-21,2025-07-25,302690,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+201,2025-07-28,2025-08-01,408886,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+202,2025-08-04,2025-08-08,328168,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+203,2025-08-11,2025-08-15,329838,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+204,2025-08-18,2025-08-22,275092,test,V12_PRIME,Institutional Prime Sweep V12,1,-8.6,0.0,0.0,0.0
+205,2025-08-25,2025-08-29,286324,test,V12_PRIME,Institutional Prime Sweep V12,2,24.8,50.0,2.77,14.0
+206,2025-09-01,2025-09-05,319884,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+207,2025-09-08,2025-09-12,319380,test,V12_PRIME,Institutional Prime Sweep V12,1,-1.1,0.0,0.0,0.0
+208,2025-09-15,2025-09-19,376717,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+209,2025-09-22,2025-09-26,335093,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+210,2025-09-29,2025-10-03,327783,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+211,2025-10-06,2025-10-10,329286,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+212,2025-10-13,2025-10-17,350572,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+213,2025-10-20,2025-10-24,281828,test,V12_PRIME,Institutional Prime Sweep V12,1,-24.7,0.0,0.0,0.0
+214,2025-10-27,2025-10-31,297843,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+215,2025-11-03,2025-11-07,273169,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+216,2025-11-10,2025-11-14,270691,test,V12_PRIME,Institutional Prime Sweep V12,1,14.2,100.0,Inf,0.0
+217,2025-11-17,2025-11-21,314838,test,V12_PRIME,Institutional Prime Sweep V12,1,44.8,100.0,Inf,0.0
+218,2025-11-24,2025-11-28,355828,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+219,2025-12-01,2025-12-05,276400,test,V12_PRIME,Institutional Prime Sweep V12,1,-5.1,0.0,0.0,0.0
+220,2025-12-08,2025-12-12,304175,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+221,2025-12-15,2025-12-19,318945,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+222,2025-12-22,2025-12-26,222330,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+223,2025-12-29,2026-01-02,213620,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+224,2026-01-05,2026-01-09,280259,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+225,2026-01-12,2026-01-16,264192,test,V12_PRIME,Institutional Prime Sweep V12,2,-12.2,0.0,0.0,7.2
+226,2026-01-19,2026-01-23,323332,test,V12_PRIME,Institutional Prime Sweep V12,1,43.0,100.0,Inf,0.0
+227,2026-01-26,2026-01-30,566217,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+228,2026-02-02,2026-02-06,406486,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+229,2026-02-09,2026-02-13,356037,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+230,2026-02-16,2026-02-20,264110,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+231,2026-02-23,2026-02-27,284997,test,V12_PRIME,Institutional Prime Sweep V12,1,-5.0,0.0,0.0,0.0
+232,2026-03-02,2026-03-06,636433,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+233,2026-03-09,2026-03-13,604058,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+234,2026-03-16,2026-03-20,504489,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+235,2026-03-23,2026-03-27,632349,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+236,2026-03-30,2026-04-03,457136,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+237,2026-04-06,2026-04-10,478507,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+238,2026-04-13,2026-04-17,376495,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+239,2026-04-20,2026-04-24,418545,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+240,2026-04-27,2026-05-01,450762,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+241,2026-05-04,2026-05-08,463785,test,V12_PRIME,Institutional Prime Sweep V12,1,-9.7,0.0,0.0,0.0
+242,2026-05-11,2026-05-15,284816,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+243,2026-05-18,2026-05-22,333098,test,V12_PRIME,Institutional Prime Sweep V12,1,-16.1,0.0,0.0,0.0
+244,2026-05-25,2026-05-29,252573,test,V12_PRIME,Institutional Prime Sweep V12,1,-7.0,0.0,0.0,0.0
+245,2026-06-01,2026-06-05,268764,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+246,2026-06-08,2026-06-12,382318,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+247,2026-06-15,2026-06-19,311560,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+248,2026-06-22,2026-06-26,314112,test,V12_PRIME,Institutional Prime Sweep V12,1,36.1,100.0,Inf,0.0
+249,2026-06-29,2026-07-03,315634,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+250,2026-07-06,2026-07-10,271547,test,V12_PRIME,Institutional Prime Sweep V12,1,-5.1,0.0,0.0,0.0
+251,2026-07-13,2026-07-17,317137,test,V12_PRIME,Institutional Prime Sweep V12,1,25.4,100.0,Inf,0.0
+252,2026-07-20,2026-07-24,237779,test,V12_PRIME,Institutional Prime Sweep V12,1,-13.6,0.0,0.0,0.0
+253,2026-07-27,2026-07-31,340571,test,V12_PRIME,Institutional Prime Sweep V12,1,29.3,100.0,Inf,0.0
+254,2026-08-03,2026-08-07,258550,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+255,2026-08-10,2026-08-14,203137,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+256,2026-08-17,2026-08-21,279265,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+257,2026-08-24,2026-08-28,246477,test,V12_PRIME,Institutional Prime Sweep V12,1,14.8,100.0,Inf,0.0
+258,2026-08-31,2026-09-04,275495,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+259,2026-09-07,2026-09-11,274509,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+260,2026-09-14,2026-09-18,306514,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+261,2026-09-21,2026-09-25,331517,test,V12_PRIME,Institutional Prime Sweep V12,1,15.9,100.0,Inf,0.0
+262,2026-09-28,2026-10-01,231329,test,V12_PRIME,Institutional Prime Sweep V12,0,0.0,0.0,0.0,0.0
+1,2021-10-01,2021-10-01,66064,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+2,2021-10-04,2021-10-08,251914,train,S01_M15,S01 M15 Displacement Retest Elite,1,29.2,100.0,Inf,0.0
+3,2021-10-11,2021-10-15,240306,train,S01_M15,S01 M15 Displacement Retest Elite,2,-21.2,0.0,0.0,9.1
+4,2021-10-18,2021-10-22,250266,train,S01_M15,S01 M15 Displacement Retest Elite,2,-20.6,0.0,0.0,13.4
+5,2021-10-25,2021-10-29,303849,train,S01_M15,S01 M15 Displacement Retest Elite,1,-13.4,0.0,0.0,0.0
+6,2021-11-01,2021-11-05,301718,train,S01_M15,S01 M15 Displacement Retest Elite,3,13.1,33.3,1.65,20.1
+7,2021-11-08,2021-11-12,267525,train,S01_M15,S01 M15 Displacement Retest Elite,4,-2.3,25.0,0.92,10.2
+8,2021-11-15,2021-11-19,301280,train,S01_M15,S01 M15 Displacement Retest Elite,1,-8.2,0.0,0.0,0.0
+9,2021-11-22,2021-11-26,375637,train,S01_M15,S01 M15 Displacement Retest Elite,1,-10.8,0.0,0.0,0.0
+10,2021-11-29,2021-12-03,433065,train,S01_M15,S01 M15 Displacement Retest Elite,1,-12.0,0.0,0.0,0.0
+11,2021-12-06,2021-12-10,277143,train,S01_M15,S01 M15 Displacement Retest Elite,2,-22.6,0.0,0.0,9.9
+12,2021-12-13,2021-12-17,327420,train,S01_M15,S01 M15 Displacement Retest Elite,1,36.2,100.0,Inf,0.0
+13,2021-12-20,2021-12-24,328794,train,S01_M15,S01 M15 Displacement Retest Elite,2,11.4,50.0,1.95,12.0
+14,2021-12-27,2021-12-31,198768,train,S01_M15,S01 M15 Displacement Retest Elite,1,-11.8,0.0,0.0,0.0
+15,2022-01-03,2022-01-07,326373,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+16,2022-01-10,2022-01-14,313064,train,S01_M15,S01 M15 Displacement Retest Elite,3,-26.5,0.0,0.0,19.8
+17,2022-01-17,2022-01-21,304075,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+18,2022-01-24,2022-01-28,372229,train,S01_M15,S01 M15 Displacement Retest Elite,2,65.9,100.0,Inf,0.0
+19,2022-01-31,2022-02-04,368949,train,S01_M15,S01 M15 Displacement Retest Elite,1,-10.9,0.0,0.0,0.0
+20,2022-02-07,2022-02-11,374602,train,S01_M15,S01 M15 Displacement Retest Elite,1,-13.8,0.0,0.0,0.0
+21,2022-02-14,2022-02-18,394600,train,S01_M15,S01 M15 Displacement Retest Elite,2,-23.4,0.0,0.0,8.1
+22,2022-02-21,2022-02-25,496594,train,S01_M15,S01 M15 Displacement Retest Elite,2,62.2,100.0,Inf,0.0
+23,2022-02-28,2022-03-04,591300,train,S01_M15,S01 M15 Displacement Retest Elite,3,52.3,66.7,5.02,0.0
+24,2022-03-07,2022-03-11,758799,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+25,2022-03-14,2022-03-18,545368,train,S01_M15,S01 M15 Displacement Retest Elite,1,-13.2,0.0,0.0,0.0
+26,2022-03-21,2022-03-25,427901,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+27,2022-03-28,2022-04-01,532184,train,S01_M15,S01 M15 Displacement Retest Elite,2,-4.8,50.0,0.45,0.0
+28,2022-04-04,2022-04-08,373379,train,S01_M15,S01 M15 Displacement Retest Elite,5,72.9,60.0,4.39,21.5
+29,2022-04-11,2022-04-15,497788,train,S01_M15,S01 M15 Displacement Retest Elite,6,-72.9,0.0,0.0,59.2
+30,2022-04-18,2022-04-22,456005,train,S01_M15,S01 M15 Displacement Retest Elite,3,16.7,66.7,2.52,0.0
+31,2022-04-25,2022-04-29,595013,train,S01_M15,S01 M15 Displacement Retest Elite,2,14.0,50.0,2.0,0.0
+32,2022-05-02,2022-05-06,622942,train,S01_M15,S01 M15 Displacement Retest Elite,1,-12.5,0.0,0.0,0.0
+33,2022-05-09,2022-05-13,670192,train,S01_M15,S01 M15 Displacement Retest Elite,1,-8.2,0.0,0.0,0.0
+34,2022-05-16,2022-05-20,553411,train,S01_M15,S01 M15 Displacement Retest Elite,3,-36.2,0.0,0.0,24.5
+35,2022-05-23,2022-05-27,472900,train,S01_M15,S01 M15 Displacement Retest Elite,1,-13.2,0.0,0.0,0.0
+36,2022-05-30,2022-06-03,393119,train,S01_M15,S01 M15 Displacement Retest Elite,1,-11.4,0.0,0.0,0.0
+37,2022-06-06,2022-06-10,457562,train,S01_M15,S01 M15 Displacement Retest Elite,1,-7.6,0.0,0.0,0.0
+38,2022-06-13,2022-06-17,797815,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+39,2022-06-20,2022-06-24,549879,train,S01_M15,S01 M15 Displacement Retest Elite,4,-49.8,0.0,0.0,39.1
+40,2022-06-27,2022-07-01,589977,train,S01_M15,S01 M15 Displacement Retest Elite,1,32.6,100.0,Inf,0.0
+41,2022-07-04,2022-07-08,610719,train,S01_M15,S01 M15 Displacement Retest Elite,4,50.0,50.0,3.31,21.6
+42,2022-07-11,2022-07-15,729233,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+43,2022-07-18,2022-07-22,721893,train,S01_M15,S01 M15 Displacement Retest Elite,1,-11.8,0.0,0.0,0.0
+44,2022-07-25,2022-07-29,713887,train,S01_M15,S01 M15 Displacement Retest Elite,1,-10.7,0.0,0.0,0.0
+45,2022-08-01,2022-08-05,870781,train,S01_M15,S01 M15 Displacement Retest Elite,1,-12.6,0.0,0.0,0.0
+46,2022-08-08,2022-08-12,670778,train,S01_M15,S01 M15 Displacement Retest Elite,2,23.0,50.0,2.81,12.7
+47,2022-08-15,2022-08-19,667944,train,S01_M15,S01 M15 Displacement Retest Elite,3,56.0,66.7,7.51,8.6
+48,2022-08-22,2022-08-26,747556,train,S01_M15,S01 M15 Displacement Retest Elite,2,-24.3,0.0,0.0,13.3
+49,2022-08-29,2022-09-02,842425,train,S01_M15,S01 M15 Displacement Retest Elite,2,-19.8,0.0,0.0,7.8
+50,2022-09-05,2022-09-09,836393,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+51,2022-09-12,2022-09-16,848810,train,S01_M15,S01 M15 Displacement Retest Elite,1,-15.3,0.0,0.0,0.0
+52,2022-09-19,2022-09-23,908032,train,S01_M15,S01 M15 Displacement Retest Elite,1,-11.4,0.0,0.0,0.0
+53,2022-09-26,2022-09-30,1318753,train,S01_M15,S01 M15 Displacement Retest Elite,2,-24.6,0.0,0.0,11.2
+54,2022-10-03,2022-10-07,969648,train,S01_M15,S01 M15 Displacement Retest Elite,2,-20.3,0.0,0.0,10.4
+55,2022-10-10,2022-10-14,1081116,train,S01_M15,S01 M15 Displacement Retest Elite,3,45.0,66.7,4.52,0.0
+56,2022-10-17,2022-10-21,1051001,train,S01_M15,S01 M15 Displacement Retest Elite,2,-19.5,0.0,0.0,7.4
+57,2022-10-24,2022-10-28,995862,train,S01_M15,S01 M15 Displacement Retest Elite,1,-9.1,0.0,0.0,0.0
+58,2022-10-31,2022-11-04,941719,train,S01_M15,S01 M15 Displacement Retest Elite,2,-20.4,0.0,0.0,8.7
+59,2022-11-07,2022-11-11,984513,train,S01_M15,S01 M15 Displacement Retest Elite,1,-11.1,0.0,0.0,0.0
+60,2022-11-14,2022-11-18,1059083,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+61,2022-11-21,2022-11-25,727070,train,S01_M15,S01 M15 Displacement Retest Elite,1,-13.3,0.0,0.0,0.0
+62,2022-11-28,2022-12-02,990766,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+63,2022-12-05,2022-12-09,823278,train,S01_M15,S01 M15 Displacement Retest Elite,1,39.1,100.0,Inf,0.0
+64,2022-12-12,2022-12-16,836394,train,S01_M15,S01 M15 Displacement Retest Elite,1,-13.9,0.0,0.0,0.0
+65,2022-12-19,2022-12-23,726294,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+66,2022-12-26,2022-12-30,516263,train,S01_M15,S01 M15 Displacement Retest Elite,3,-37.6,0.0,0.0,26.7
+67,2023-01-02,2023-01-06,703639,train,S01_M15,S01 M15 Displacement Retest Elite,3,-2.4,33.3,0.9,24.3
+68,2023-01-09,2023-01-13,746714,train,S01_M15,S01 M15 Displacement Retest Elite,2,16.1,50.0,2.4,11.5
+69,2023-01-16,2023-01-20,654895,train,S01_M15,S01 M15 Displacement Retest Elite,3,4.7,33.3,1.23,8.4
+70,2023-01-23,2023-01-27,563153,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+71,2023-01-30,2023-02-03,697934,train,S01_M15,S01 M15 Displacement Retest Elite,1,-8.4,0.0,0.0,0.0
+72,2023-02-06,2023-02-10,631034,train,S01_M15,S01 M15 Displacement Retest Elite,2,69.3,100.0,Inf,0.0
+73,2023-02-13,2023-02-17,670051,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+74,2023-02-20,2023-02-24,590853,train,S01_M15,S01 M15 Displacement Retest Elite,2,-22.5,0.0,0.0,8.7
+75,2023-02-27,2023-03-03,617674,train,S01_M15,S01 M15 Displacement Retest Elite,5,-11.5,20.0,0.74,34.5
+76,2023-03-06,2023-03-10,670303,train,S01_M15,S01 M15 Displacement Retest Elite,1,-11.2,0.0,0.0,0.0
+77,2023-03-13,2023-03-17,1008651,train,S01_M15,S01 M15 Displacement Retest Elite,1,-7.4,0.0,0.0,0.0
+78,2023-03-20,2023-03-24,729988,train,S01_M15,S01 M15 Displacement Retest Elite,1,30.5,100.0,Inf,0.0
+79,2023-03-27,2023-03-31,517033,train,S01_M15,S01 M15 Displacement Retest Elite,2,-19.7,0.0,0.0,11.7
+80,2023-04-03,2023-04-07,428286,train,S01_M15,S01 M15 Displacement Retest Elite,2,23.9,50.0,2.78,13.4
+81,2023-04-10,2023-04-14,437067,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+82,2023-04-17,2023-04-21,424407,train,S01_M15,S01 M15 Displacement Retest Elite,1,-10.2,0.0,0.0,0.0
+83,2023-04-24,2023-04-28,515072,train,S01_M15,S01 M15 Displacement Retest Elite,1,39.4,100.0,Inf,0.0
+84,2023-05-01,2023-05-05,531787,train,S01_M15,S01 M15 Displacement Retest Elite,2,-22.5,0.0,0.0,13.0
+85,2023-05-08,2023-05-12,446339,train,S01_M15,S01 M15 Displacement Retest Elite,1,-12.7,0.0,0.0,0.0
+86,2023-05-15,2023-05-19,462221,train,S01_M15,S01 M15 Displacement Retest Elite,1,-11.4,0.0,0.0,0.0
+87,2023-05-22,2023-05-26,512535,train,S01_M15,S01 M15 Displacement Retest Elite,2,76.4,100.0,Inf,0.0
+88,2023-05-29,2023-06-02,459486,train,S01_M15,S01 M15 Displacement Retest Elite,2,21.6,50.0,3.2,9.8
+89,2023-06-05,2023-06-09,400200,train,S01_M15,S01 M15 Displacement Retest Elite,1,-12.4,0.0,0.0,0.0
+90,2023-06-12,2023-06-16,462272,train,S01_M15,S01 M15 Displacement Retest Elite,4,0.0,25.0,1.0,11.7
+91,2023-06-19,2023-06-23,458548,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+92,2023-06-26,2023-06-30,459922,train,S01_M15,S01 M15 Displacement Retest Elite,2,15.1,50.0,2.74,0.0
+93,2023-07-03,2023-07-07,429207,train,S01_M15,S01 M15 Displacement Retest Elite,1,-11.3,0.0,0.0,0.0
+94,2023-07-10,2023-07-14,489669,train,S01_M15,S01 M15 Displacement Retest Elite,2,62.0,100.0,Inf,0.0
+95,2023-07-17,2023-07-21,454186,train,S01_M15,S01 M15 Displacement Retest Elite,3,1.7,33.3,1.08,22.6
+96,2023-07-24,2023-07-28,576515,train,S01_M15,S01 M15 Displacement Retest Elite,4,-48.0,0.0,0.0,33.9
+97,2023-07-31,2023-08-04,530942,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+98,2023-08-07,2023-08-11,463097,train,S01_M15,S01 M15 Displacement Retest Elite,3,-26.1,0.0,0.0,19.1
+99,2023-08-14,2023-08-18,488279,train,S01_M15,S01 M15 Displacement Retest Elite,3,3.7,33.3,1.19,19.7
+100,2023-08-21,2023-08-25,438673,train,S01_M15,S01 M15 Displacement Retest Elite,2,13.9,50.0,2.99,7.0
+101,2023-08-28,2023-09-01,420793,train,S01_M15,S01 M15 Displacement Retest Elite,3,4.3,33.3,1.25,17.2
+102,2023-09-04,2023-09-08,348926,train,S01_M15,S01 M15 Displacement Retest Elite,1,-10.5,0.0,0.0,0.0
+103,2023-09-11,2023-09-15,396599,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+104,2023-09-18,2023-09-22,362967,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+105,2023-09-25,2023-09-29,419080,train,S01_M15,S01 M15 Displacement Retest Elite,3,3.4,33.3,1.16,21.4
+106,2023-10-02,2023-10-06,501258,train,S01_M15,S01 M15 Displacement Retest Elite,3,-4.2,33.3,0.86,29.5
+107,2023-10-09,2023-10-13,520184,train,S01_M15,S01 M15 Displacement Retest Elite,3,26.3,33.3,3.04,5.7
+108,2023-10-16,2023-10-20,491332,train,S01_M15,S01 M15 Displacement Retest Elite,2,-16.0,0.0,0.0,8.0
+109,2023-10-23,2023-10-27,450450,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+110,2023-10-30,2023-11-03,488898,train,S01_M15,S01 M15 Displacement Retest Elite,1,-11.6,0.0,0.0,0.0
+111,2023-11-06,2023-11-10,410738,train,S01_M15,S01 M15 Displacement Retest Elite,3,-25.8,0.0,0.0,18.4
+112,2023-11-13,2023-11-17,427943,train,S01_M15,S01 M15 Displacement Retest Elite,3,2.1,33.3,1.11,18.7
+113,2023-11-20,2023-11-24,380125,train,S01_M15,S01 M15 Displacement Retest Elite,2,-15.4,0.0,0.0,7.6
+114,2023-11-27,2023-12-01,516569,train,S01_M15,S01 M15 Displacement Retest Elite,2,69.3,100.0,Inf,0.0
+115,2023-12-04,2023-12-08,555913,train,S01_M15,S01 M15 Displacement Retest Elite,3,55.3,66.7,6.37,10.3
+116,2023-12-11,2023-12-15,583250,train,S01_M15,S01 M15 Displacement Retest Elite,2,-21.7,0.0,0.0,10.9
+117,2023-12-18,2023-12-22,522868,train,S01_M15,S01 M15 Displacement Retest Elite,2,18.8,50.0,2.77,10.6
+118,2023-12-25,2023-12-29,328613,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+119,2024-01-01,2024-01-05,437837,train,S01_M15,S01 M15 Displacement Retest Elite,2,26.8,50.0,3.95,0.0
+120,2024-01-08,2024-01-12,483248,train,S01_M15,S01 M15 Displacement Retest Elite,1,-7.9,0.0,0.0,0.0
+121,2024-01-15,2024-01-19,474792,train,S01_M15,S01 M15 Displacement Retest Elite,2,12.2,50.0,2.14,10.7
+122,2024-01-22,2024-01-26,460930,train,S01_M15,S01 M15 Displacement Retest Elite,2,-24.5,0.0,0.0,10.8
+123,2024-01-29,2024-02-02,530583,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+124,2024-02-05,2024-02-09,427930,train,S01_M15,S01 M15 Displacement Retest Elite,1,-9.4,0.0,0.0,0.0
+125,2024-02-12,2024-02-16,416963,train,S01_M15,S01 M15 Displacement Retest Elite,1,-9.0,0.0,0.0,0.0
+126,2024-02-19,2024-02-23,351563,train,S01_M15,S01 M15 Displacement Retest Elite,1,23.1,100.0,Inf,0.0
+127,2024-02-26,2024-03-01,345494,train,S01_M15,S01 M15 Displacement Retest Elite,1,-9.0,0.0,0.0,0.0
+128,2024-03-04,2024-03-08,358169,train,S01_M15,S01 M15 Displacement Retest Elite,2,-17.6,0.0,0.0,8.9
+129,2024-03-11,2024-03-15,356850,train,S01_M15,S01 M15 Displacement Retest Elite,1,25.0,100.0,Inf,0.0
+130,2024-03-18,2024-03-22,353105,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+131,2024-03-25,2024-03-29,319499,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+132,2024-04-01,2024-04-05,320122,train,S01_M15,S01 M15 Displacement Retest Elite,1,-12.6,0.0,0.0,0.0
+133,2024-04-08,2024-04-12,363390,train,S01_M15,S01 M15 Displacement Retest Elite,3,37.5,66.7,5.21,8.9
+134,2024-04-15,2024-04-19,410373,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+135,2024-04-22,2024-04-26,300509,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+136,2024-04-29,2024-05-03,391073,train,S01_M15,S01 M15 Displacement Retest Elite,1,28.0,100.0,Inf,0.0
+137,2024-05-06,2024-05-10,240631,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+138,2024-05-13,2024-05-17,242575,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+139,2024-05-20,2024-05-24,244283,train,S01_M15,S01 M15 Displacement Retest Elite,2,-17.9,0.0,0.0,7.8
+140,2024-05-27,2024-05-31,272338,train,S01_M15,S01 M15 Displacement Retest Elite,1,-12.8,0.0,0.0,0.0
+141,2024-06-03,2024-06-07,320328,train,S01_M15,S01 M15 Displacement Retest Elite,2,5.9,50.0,1.62,0.0
+142,2024-06-10,2024-06-14,373303,train,S01_M15,S01 M15 Displacement Retest Elite,1,-9.9,0.0,0.0,0.0
+143,2024-06-17,2024-06-21,303407,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+144,2024-06-24,2024-06-28,317301,train,S01_M15,S01 M15 Displacement Retest Elite,3,-33.3,0.0,0.0,20.1
+145,2024-07-01,2024-07-05,281396,train,S01_M15,S01 M15 Displacement Retest Elite,1,-10.8,0.0,0.0,0.0
+146,2024-07-08,2024-07-12,310322,train,S01_M15,S01 M15 Displacement Retest Elite,2,4.0,50.0,1.56,0.0
+147,2024-07-15,2024-07-19,319606,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+148,2024-07-22,2024-07-26,323852,train,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+149,2024-07-29,2024-08-02,416947,train,S01_M15,S01 M15 Displacement Retest Elite,2,-20.6,0.0,0.0,9.4
+150,2024-08-05,2024-08-09,578389,train,S01_M15,S01 M15 Displacement Retest Elite,2,-8.2,50.0,0.36,0.0
+151,2024-08-12,2024-08-16,307022,train,S01_M15,S01 M15 Displacement Retest Elite,1,30.8,100.0,Inf,0.0
+152,2024-08-19,2024-08-23,360166,train,S01_M15,S01 M15 Displacement Retest Elite,1,-9.5,0.0,0.0,0.0
+153,2024-08-26,2024-08-30,380784,train,S01_M15,S01 M15 Displacement Retest Elite,1,-10.7,0.0,0.0,0.0
+154,2024-09-02,2024-09-06,392687,train,S01_M15,S01 M15 Displacement Retest Elite,3,-31.7,0.0,0.0,23.7
+155,2024-09-09,2024-09-13,372952,train,S01_M15,S01 M15 Displacement Retest Elite,3,8.0,33.3,1.37,21.7
+156,2024-09-16,2024-09-20,461938,train,S01_M15,S01 M15 Displacement Retest Elite,1,-10.1,0.0,0.0,0.0
+157,2024-09-23,2024-09-27,455814,test,S01_M15,S01 M15 Displacement Retest Elite,3,0.0,33.3,1.0,20.5
+158,2024-09-30,2024-10-04,466207,test,S01_M15,S01 M15 Displacement Retest Elite,1,-11.0,0.0,0.0,0.0
+159,2024-10-07,2024-10-11,392615,test,S01_M15,S01 M15 Displacement Retest Elite,2,-17.9,0.0,0.0,9.2
+160,2024-10-14,2024-10-18,340404,test,S01_M15,S01 M15 Displacement Retest Elite,3,5.0,33.3,1.22,11.5
+161,2024-10-21,2024-10-25,333268,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+162,2024-10-28,2024-11-01,402255,test,S01_M15,S01 M15 Displacement Retest Elite,1,-11.8,0.0,0.0,0.0
+163,2024-11-04,2024-11-08,618293,test,S01_M15,S01 M15 Displacement Retest Elite,1,29.4,100.0,Inf,0.0
+164,2024-11-11,2024-11-15,508267,test,S01_M15,S01 M15 Displacement Retest Elite,3,-0.6,33.3,0.98,13.5
+165,2024-11-18,2024-11-22,519572,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+166,2024-11-25,2024-11-29,574123,test,S01_M15,S01 M15 Displacement Retest Elite,2,28.0,50.0,3.98,9.4
+167,2024-12-02,2024-12-06,564478,test,S01_M15,S01 M15 Displacement Retest Elite,2,19.4,50.0,2.81,0.0
+168,2024-12-09,2024-12-13,475108,test,S01_M15,S01 M15 Displacement Retest Elite,1,25.6,100.0,Inf,0.0
+169,2024-12-16,2024-12-20,503681,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+170,2024-12-23,2024-12-27,260254,test,S01_M15,S01 M15 Displacement Retest Elite,1,-10.1,0.0,0.0,0.0
+171,2024-12-30,2025-01-03,330207,test,S01_M15,S01 M15 Displacement Retest Elite,1,-11.5,0.0,0.0,0.0
+172,2025-01-06,2025-01-10,504165,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+173,2025-01-13,2025-01-17,497875,test,S01_M15,S01 M15 Displacement Retest Elite,2,-18.0,0.0,0.0,10.1
+174,2025-01-20,2025-01-24,531123,test,S01_M15,S01 M15 Displacement Retest Elite,3,11.5,33.3,1.75,7.5
+175,2025-01-27,2025-01-31,564805,test,S01_M15,S01 M15 Displacement Retest Elite,3,10.6,33.3,1.49,10.0
+176,2025-02-03,2025-02-07,620180,test,S01_M15,S01 M15 Displacement Retest Elite,2,-23.1,0.0,0.0,10.0
+177,2025-02-10,2025-02-14,479840,test,S01_M15,S01 M15 Displacement Retest Elite,3,-22.9,0.0,0.0,15.7
+178,2025-02-17,2025-02-21,379284,test,S01_M15,S01 M15 Displacement Retest Elite,1,-8.8,0.0,0.0,0.0
+179,2025-02-24,2025-02-28,545625,test,S01_M15,S01 M15 Displacement Retest Elite,2,-18.6,0.0,0.0,8.1
+180,2025-03-03,2025-03-07,757198,test,S01_M15,S01 M15 Displacement Retest Elite,3,6.8,33.3,1.3,13.4
+181,2025-03-10,2025-03-14,618305,test,S01_M15,S01 M15 Displacement Retest Elite,2,-24.9,0.0,0.0,11.2
+182,2025-03-17,2025-03-21,420964,test,S01_M15,S01 M15 Displacement Retest Elite,5,-8.3,20.0,0.82,26.1
+183,2025-03-24,2025-03-28,424443,test,S01_M15,S01 M15 Displacement Retest Elite,1,-12.4,0.0,0.0,0.0
+184,2025-03-31,2025-04-04,777302,test,S01_M15,S01 M15 Displacement Retest Elite,2,-20.3,0.0,0.0,10.7
+185,2025-04-07,2025-04-11,1384857,test,S01_M15,S01 M15 Displacement Retest Elite,1,-11.3,0.0,0.0,0.0
+186,2025-04-14,2025-04-18,778436,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+187,2025-04-21,2025-04-25,673141,test,S01_M15,S01 M15 Displacement Retest Elite,7,-34.8,14.3,0.53,73.4
+188,2025-04-28,2025-05-02,540080,test,S01_M15,S01 M15 Displacement Retest Elite,5,-14.3,20.0,0.7,39.7
+189,2025-05-05,2025-05-09,551873,test,S01_M15,S01 M15 Displacement Retest Elite,2,-23.0,0.0,0.0,9.2
+190,2025-05-12,2025-05-16,557707,test,S01_M15,S01 M15 Displacement Retest Elite,1,-10.8,0.0,0.0,0.0
+191,2025-05-19,2025-05-23,547474,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+192,2025-05-26,2025-05-30,514130,test,S01_M15,S01 M15 Displacement Retest Elite,2,-15.9,0.0,0.0,8.5
+193,2025-06-02,2025-06-06,495661,test,S01_M15,S01 M15 Displacement Retest Elite,1,-7.6,0.0,0.0,0.0
+194,2025-06-09,2025-06-13,451573,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+195,2025-06-16,2025-06-20,481144,test,S01_M15,S01 M15 Displacement Retest Elite,3,-31.3,0.0,0.0,20.8
+196,2025-06-23,2025-06-27,470127,test,S01_M15,S01 M15 Displacement Retest Elite,1,36.9,100.0,Inf,0.0
+197,2025-06-30,2025-07-04,357758,test,S01_M15,S01 M15 Displacement Retest Elite,3,-31.6,0.0,0.0,20.9
+198,2025-07-07,2025-07-11,324813,test,S01_M15,S01 M15 Displacement Retest Elite,5,27.3,40.0,1.82,33.1
+199,2025-07-14,2025-07-18,335188,test,S01_M15,S01 M15 Displacement Retest Elite,3,-29.2,0.0,0.0,18.5
+200,2025-07-21,2025-07-25,302690,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+201,2025-07-28,2025-08-01,408886,test,S01_M15,S01 M15 Displacement Retest Elite,4,6.0,25.0,1.21,10.8
+202,2025-08-04,2025-08-08,328168,test,S01_M15,S01 M15 Displacement Retest Elite,5,2.5,20.0,1.07,35.1
+203,2025-08-11,2025-08-15,329838,test,S01_M15,S01 M15 Displacement Retest Elite,3,-34.4,0.0,0.0,22.8
+204,2025-08-18,2025-08-22,275092,test,S01_M15,S01 M15 Displacement Retest Elite,2,57.3,100.0,Inf,0.0
+205,2025-08-25,2025-08-29,286324,test,S01_M15,S01 M15 Displacement Retest Elite,1,-12.1,0.0,0.0,0.0
+206,2025-09-01,2025-09-05,319884,test,S01_M15,S01 M15 Displacement Retest Elite,4,51.7,50.0,3.23,23.2
+207,2025-09-08,2025-09-12,319380,test,S01_M15,S01 M15 Displacement Retest Elite,3,51.5,66.7,7.6,0.0
+208,2025-09-15,2025-09-19,376717,test,S01_M15,S01 M15 Displacement Retest Elite,4,4.9,25.0,1.19,18.4
+209,2025-09-22,2025-09-26,335093,test,S01_M15,S01 M15 Displacement Retest Elite,4,11.4,25.0,1.5,15.0
+210,2025-09-29,2025-10-03,327783,test,S01_M15,S01 M15 Displacement Retest Elite,3,-31.9,0.0,0.0,21.0
+211,2025-10-06,2025-10-10,329286,test,S01_M15,S01 M15 Displacement Retest Elite,4,0.7,25.0,1.03,26.5
+212,2025-10-13,2025-10-17,350572,test,S01_M15,S01 M15 Displacement Retest Elite,1,-8.4,0.0,0.0,0.0
+213,2025-10-20,2025-10-24,281828,test,S01_M15,S01 M15 Displacement Retest Elite,2,-25.9,0.0,0.0,12.8
+214,2025-10-27,2025-10-31,297843,test,S01_M15,S01 M15 Displacement Retest Elite,1,26.1,100.0,Inf,0.0
+215,2025-11-03,2025-11-07,273169,test,S01_M15,S01 M15 Displacement Retest Elite,2,41.7,100.0,Inf,0.0
+216,2025-11-10,2025-11-14,270691,test,S01_M15,S01 M15 Displacement Retest Elite,1,-9.3,0.0,0.0,0.0
+217,2025-11-17,2025-11-21,314838,test,S01_M15,S01 M15 Displacement Retest Elite,1,-6.7,0.0,0.0,0.0
+218,2025-11-24,2025-11-28,355828,test,S01_M15,S01 M15 Displacement Retest Elite,1,-7.8,0.0,0.0,0.0
+219,2025-12-01,2025-12-05,276400,test,S01_M15,S01 M15 Displacement Retest Elite,2,-20.6,0.0,0.0,9.9
+220,2025-12-08,2025-12-12,304175,test,S01_M15,S01 M15 Displacement Retest Elite,1,24.1,100.0,Inf,0.0
+221,2025-12-15,2025-12-19,318945,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+222,2025-12-22,2025-12-26,222330,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+223,2025-12-29,2026-01-02,213620,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+224,2026-01-05,2026-01-09,280259,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+225,2026-01-12,2026-01-16,264192,test,S01_M15,S01 M15 Displacement Retest Elite,1,-11.4,0.0,0.0,0.0
+226,2026-01-19,2026-01-23,323332,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+227,2026-01-26,2026-01-30,566217,test,S01_M15,S01 M15 Displacement Retest Elite,2,62.5,100.0,Inf,0.0
+228,2026-02-02,2026-02-06,406486,test,S01_M15,S01 M15 Displacement Retest Elite,1,-13.9,0.0,0.0,0.0
+229,2026-02-09,2026-02-13,356037,test,S01_M15,S01 M15 Displacement Retest Elite,1,-12.7,0.0,0.0,0.0
+230,2026-02-16,2026-02-20,264110,test,S01_M15,S01 M15 Displacement Retest Elite,2,15.5,50.0,2.26,12.3
+231,2026-02-23,2026-02-27,284997,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+232,2026-03-02,2026-03-06,636433,test,S01_M15,S01 M15 Displacement Retest Elite,3,58.5,66.7,5.21,13.9
+233,2026-03-09,2026-03-13,604058,test,S01_M15,S01 M15 Displacement Retest Elite,1,-12.7,0.0,0.0,0.0
+234,2026-03-16,2026-03-20,504489,test,S01_M15,S01 M15 Displacement Retest Elite,2,18.8,50.0,2.58,11.9
+235,2026-03-23,2026-03-27,632349,test,S01_M15,S01 M15 Displacement Retest Elite,1,-9.6,0.0,0.0,0.0
+236,2026-03-30,2026-04-03,457136,test,S01_M15,S01 M15 Displacement Retest Elite,3,7.0,33.3,1.39,10.5
+237,2026-04-06,2026-04-10,478507,test,S01_M15,S01 M15 Displacement Retest Elite,1,27.3,100.0,Inf,0.0
+238,2026-04-13,2026-04-17,376495,test,S01_M15,S01 M15 Displacement Retest Elite,3,8.9,33.3,1.46,19.4
+239,2026-04-20,2026-04-24,418545,test,S01_M15,S01 M15 Displacement Retest Elite,3,11.3,33.3,1.6,9.0
+240,2026-04-27,2026-05-01,450762,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+241,2026-05-04,2026-05-08,463785,test,S01_M15,S01 M15 Displacement Retest Elite,2,20.9,50.0,3.4,8.7
+242,2026-05-11,2026-05-15,284816,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+243,2026-05-18,2026-05-22,333098,test,S01_M15,S01 M15 Displacement Retest Elite,1,23.8,100.0,Inf,0.0
+244,2026-05-25,2026-05-29,252573,test,S01_M15,S01 M15 Displacement Retest Elite,2,-26.5,0.0,0.0,12.8
+245,2026-06-01,2026-06-05,268764,test,S01_M15,S01 M15 Displacement Retest Elite,1,26.4,100.0,Inf,0.0
+246,2026-06-08,2026-06-12,382318,test,S01_M15,S01 M15 Displacement Retest Elite,1,-14.0,0.0,0.0,0.0
+247,2026-06-15,2026-06-19,311560,test,S01_M15,S01 M15 Displacement Retest Elite,3,16.6,33.3,2.07,8.3
+248,2026-06-22,2026-06-26,314112,test,S01_M15,S01 M15 Displacement Retest Elite,2,14.8,50.0,2.06,0.0
+249,2026-06-29,2026-07-03,315634,test,S01_M15,S01 M15 Displacement Retest Elite,1,-13.5,0.0,0.0,0.0
+250,2026-07-06,2026-07-10,271547,test,S01_M15,S01 M15 Displacement Retest Elite,2,-22.3,0.0,0.0,13.1
+251,2026-07-13,2026-07-17,317137,test,S01_M15,S01 M15 Displacement Retest Elite,2,17.6,50.0,2.83,9.6
+252,2026-07-20,2026-07-24,237779,test,S01_M15,S01 M15 Displacement Retest Elite,1,-6.4,0.0,0.0,0.0
+253,2026-07-27,2026-07-31,340571,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+254,2026-08-03,2026-08-07,258550,test,S01_M15,S01 M15 Displacement Retest Elite,1,-13.8,0.0,0.0,0.0
+255,2026-08-10,2026-08-14,203137,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+256,2026-08-17,2026-08-21,279265,test,S01_M15,S01 M15 Displacement Retest Elite,1,35.9,100.0,Inf,0.0
+257,2026-08-24,2026-08-28,246477,test,S01_M15,S01 M15 Displacement Retest Elite,0,0.0,0.0,0.0,0.0
+258,2026-08-31,2026-09-04,275495,test,S01_M15,S01 M15 Displacement Retest Elite,1,-10.4,0.0,0.0,0.0
+259,2026-09-07,2026-09-11,274509,test,S01_M15,S01 M15 Displacement Retest Elite,1,-6.8,0.0,0.0,0.0
+260,2026-09-14,2026-09-18,306514,test,S01_M15,S01 M15 Displacement Retest Elite,1,-4.7,0.0,0.0,0.0
+261,2026-09-21,2026-09-25,331517,test,S01_M15,S01 M15 Displacement Retest Elite,1,-11.3,0.0,0.0,0.0
+262,2026-09-28,2026-10-01,231329,test,S01_M15,S01 M15 Displacement Retest Elite,1,30.6,100.0,Inf,0.0
+1,2021-10-01,2021-10-01,66064,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+2,2021-10-04,2021-10-08,251914,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-15.4,0.0,0.0,0.0
+3,2021-10-11,2021-10-15,240306,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-19.0,0.0,0.0,0.0
+4,2021-10-18,2021-10-22,250266,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-20.9,0.0,0.0,0.0
+5,2021-10-25,2021-10-29,303849,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-20.2,0.0,0.0,0.0
+6,2021-11-01,2021-11-05,301718,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-15.8,0.0,0.0,0.0
+7,2021-11-08,2021-11-12,267525,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-20.7,0.0,0.0,0.0
+8,2021-11-15,2021-11-19,301280,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-18.8,0.0,0.0,0.0
+9,2021-11-22,2021-11-26,375637,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+10,2021-11-29,2021-12-03,433065,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-19.9,0.0,0.0,0.0
+11,2021-12-06,2021-12-10,277143,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+12,2021-12-13,2021-12-17,327420,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.1,0.0,0.0,0.0
+13,2021-12-20,2021-12-24,328794,train,S10_EMA,S10 Dual EMA Pullback Elite,1,32.2,100.0,Inf,0.0
+14,2021-12-27,2021-12-31,198768,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+15,2022-01-03,2022-01-07,326373,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+16,2022-01-10,2022-01-14,313064,train,S10_EMA,S10 Dual EMA Pullback Elite,1,55.4,100.0,Inf,0.0
+17,2022-01-17,2022-01-21,304075,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-17.6,0.0,0.0,0.0
+18,2022-01-24,2022-01-28,372229,train,S10_EMA,S10 Dual EMA Pullback Elite,1,50.2,100.0,Inf,0.0
+19,2022-01-31,2022-02-04,368949,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+20,2022-02-07,2022-02-11,374602,train,S10_EMA,S10 Dual EMA Pullback Elite,1,48.9,100.0,Inf,0.0
+21,2022-02-14,2022-02-18,394600,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-16.3,0.0,0.0,0.0
+22,2022-02-21,2022-02-25,496594,train,S10_EMA,S10 Dual EMA Pullback Elite,1,47.6,100.0,Inf,0.0
+23,2022-02-28,2022-03-04,591300,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-17.2,0.0,0.0,0.0
+24,2022-03-07,2022-03-11,758799,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+25,2022-03-14,2022-03-18,545368,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+26,2022-03-21,2022-03-25,427901,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.2,0.0,0.0,0.0
+27,2022-03-28,2022-04-01,532184,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+28,2022-04-04,2022-04-08,373379,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+29,2022-04-11,2022-04-15,497788,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-25.7,0.0,0.0,0.0
+30,2022-04-18,2022-04-22,456005,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+31,2022-04-25,2022-04-29,595013,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+32,2022-05-02,2022-05-06,622942,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+33,2022-05-09,2022-05-13,670192,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.7,0.0,0.0,0.0
+34,2022-05-16,2022-05-20,553411,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+35,2022-05-23,2022-05-27,472900,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+36,2022-05-30,2022-06-03,393119,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+37,2022-06-06,2022-06-10,457562,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-17.8,0.0,0.0,0.0
+38,2022-06-13,2022-06-17,797815,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+39,2022-06-20,2022-06-24,549879,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+40,2022-06-27,2022-07-01,589977,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+41,2022-07-04,2022-07-08,610719,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+42,2022-07-11,2022-07-15,729233,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+43,2022-07-18,2022-07-22,721893,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+44,2022-07-25,2022-07-29,713887,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+45,2022-08-01,2022-08-05,870781,train,S10_EMA,S10 Dual EMA Pullback Elite,1,55.9,100.0,Inf,0.0
+46,2022-08-08,2022-08-12,670778,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+47,2022-08-15,2022-08-19,667944,train,S10_EMA,S10 Dual EMA Pullback Elite,1,56.7,100.0,Inf,0.0
+48,2022-08-22,2022-08-26,747556,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+49,2022-08-29,2022-09-02,842425,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+50,2022-09-05,2022-09-09,836393,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+51,2022-09-12,2022-09-16,848810,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+52,2022-09-19,2022-09-23,908032,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+53,2022-09-26,2022-09-30,1318753,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+54,2022-10-03,2022-10-07,969648,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+55,2022-10-10,2022-10-14,1081116,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+56,2022-10-17,2022-10-21,1051001,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+57,2022-10-24,2022-10-28,995862,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+58,2022-10-31,2022-11-04,941719,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+59,2022-11-07,2022-11-11,984513,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+60,2022-11-14,2022-11-18,1059083,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+61,2022-11-21,2022-11-25,727070,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-17.6,0.0,0.0,0.0
+62,2022-11-28,2022-12-02,990766,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+63,2022-12-05,2022-12-09,823278,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+64,2022-12-12,2022-12-16,836394,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+65,2022-12-19,2022-12-23,726294,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+66,2022-12-26,2022-12-30,516263,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-22.7,0.0,0.0,0.0
+67,2023-01-02,2023-01-06,703639,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+68,2023-01-09,2023-01-13,746714,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+69,2023-01-16,2023-01-20,654895,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.3,0.0,0.0,0.0
+70,2023-01-23,2023-01-27,563153,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-18.4,0.0,0.0,0.0
+71,2023-01-30,2023-02-03,697934,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+72,2023-02-06,2023-02-10,631034,train,S10_EMA,S10 Dual EMA Pullback Elite,1,60.8,100.0,Inf,0.0
+73,2023-02-13,2023-02-17,670051,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-15.0,0.0,0.0,0.0
+74,2023-02-20,2023-02-24,590853,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-18.5,0.0,0.0,0.0
+75,2023-02-27,2023-03-03,617674,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-13.6,0.0,0.0,0.0
+76,2023-03-06,2023-03-10,670303,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+77,2023-03-13,2023-03-17,1008651,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+78,2023-03-20,2023-03-24,729988,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-17.3,0.0,0.0,0.0
+79,2023-03-27,2023-03-31,517033,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.2,0.0,0.0,0.0
+80,2023-04-03,2023-04-07,428286,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-13.3,0.0,0.0,0.0
+81,2023-04-10,2023-04-14,437067,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-16.2,0.0,0.0,0.0
+82,2023-04-17,2023-04-21,424407,train,S10_EMA,S10 Dual EMA Pullback Elite,1,52.4,100.0,Inf,0.0
+83,2023-04-24,2023-04-28,515072,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+84,2023-05-01,2023-05-05,531787,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+85,2023-05-08,2023-05-12,446339,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+86,2023-05-15,2023-05-19,462221,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+87,2023-05-22,2023-05-26,512535,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+88,2023-05-29,2023-06-02,459486,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+89,2023-06-05,2023-06-09,400200,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-18.9,0.0,0.0,0.0
+90,2023-06-12,2023-06-16,462272,train,S10_EMA,S10 Dual EMA Pullback Elite,1,49.7,100.0,Inf,0.0
+91,2023-06-19,2023-06-23,458548,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+92,2023-06-26,2023-06-30,459922,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.2,0.0,0.0,0.0
+93,2023-07-03,2023-07-07,429207,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-16.2,0.0,0.0,0.0
+94,2023-07-10,2023-07-14,489669,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+95,2023-07-17,2023-07-21,454186,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-19.4,0.0,0.0,0.0
+96,2023-07-24,2023-07-28,576515,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-17.8,0.0,0.0,0.0
+97,2023-07-31,2023-08-04,530942,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-16.9,0.0,0.0,0.0
+98,2023-08-07,2023-08-11,463097,train,S10_EMA,S10 Dual EMA Pullback Elite,1,58.6,100.0,Inf,0.0
+99,2023-08-14,2023-08-18,488279,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-15.7,0.0,0.0,0.0
+100,2023-08-21,2023-08-25,438673,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+101,2023-08-28,2023-09-01,420793,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+102,2023-09-04,2023-09-08,348926,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.4,0.0,0.0,0.0
+103,2023-09-11,2023-09-15,396599,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.0,0.0,0.0,0.0
+104,2023-09-18,2023-09-22,362967,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-16.6,0.0,0.0,0.0
+105,2023-09-25,2023-09-29,419080,train,S10_EMA,S10 Dual EMA Pullback Elite,1,45.8,100.0,Inf,0.0
+106,2023-10-02,2023-10-06,501258,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-20.4,0.0,0.0,0.0
+107,2023-10-09,2023-10-13,520184,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+108,2023-10-16,2023-10-20,491332,train,S10_EMA,S10 Dual EMA Pullback Elite,1,51.0,100.0,Inf,0.0
+109,2023-10-23,2023-10-27,450450,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-13.8,0.0,0.0,0.0
+110,2023-10-30,2023-11-03,488898,train,S10_EMA,S10 Dual EMA Pullback Elite,1,55.5,100.0,Inf,0.0
+111,2023-11-06,2023-11-10,410738,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.9,0.0,0.0,0.0
+112,2023-11-13,2023-11-17,427943,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.6,0.0,0.0,0.0
+113,2023-11-20,2023-11-24,380125,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-20.0,0.0,0.0,0.0
+114,2023-11-27,2023-12-01,516569,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.0,0.0,0.0,0.0
+115,2023-12-04,2023-12-08,555913,train,S10_EMA,S10 Dual EMA Pullback Elite,1,41.1,100.0,Inf,0.0
+116,2023-12-11,2023-12-15,583250,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-11.2,0.0,0.0,0.0
+117,2023-12-18,2023-12-22,522868,train,S10_EMA,S10 Dual EMA Pullback Elite,1,58.2,100.0,Inf,0.0
+118,2023-12-25,2023-12-29,328613,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-22.5,0.0,0.0,0.0
+119,2024-01-01,2024-01-05,437837,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+120,2024-01-08,2024-01-12,483248,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-12.5,0.0,0.0,0.0
+121,2024-01-15,2024-01-19,474792,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-22.0,0.0,0.0,0.0
+122,2024-01-22,2024-01-26,460930,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+123,2024-01-29,2024-02-02,530583,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+124,2024-02-05,2024-02-09,427930,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-12.9,0.0,0.0,0.0
+125,2024-02-12,2024-02-16,416963,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+126,2024-02-19,2024-02-23,351563,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-15.1,0.0,0.0,0.0
+127,2024-02-26,2024-03-01,345494,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-17.9,0.0,0.0,0.0
+128,2024-03-04,2024-03-08,358169,train,S10_EMA,S10 Dual EMA Pullback Elite,1,44.7,100.0,Inf,0.0
+129,2024-03-11,2024-03-15,356850,train,S10_EMA,S10 Dual EMA Pullback Elite,1,35.0,100.0,Inf,0.0
+130,2024-03-18,2024-03-22,353105,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.9,0.0,0.0,0.0
+131,2024-03-25,2024-03-29,319499,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-20.5,0.0,0.0,0.0
+132,2024-04-01,2024-04-05,320122,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-18.7,0.0,0.0,0.0
+133,2024-04-08,2024-04-12,363390,train,S10_EMA,S10 Dual EMA Pullback Elite,1,44.6,100.0,Inf,0.0
+134,2024-04-15,2024-04-19,410373,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-9.3,0.0,0.0,0.0
+135,2024-04-22,2024-04-26,300509,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.4,0.0,0.0,0.0
+136,2024-04-29,2024-05-03,391073,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-20.2,0.0,0.0,0.0
+137,2024-05-06,2024-05-10,240631,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-20.4,0.0,0.0,0.0
+138,2024-05-13,2024-05-17,242575,train,S10_EMA,S10 Dual EMA Pullback Elite,1,49.8,100.0,Inf,0.0
+139,2024-05-20,2024-05-24,244283,train,S10_EMA,S10 Dual EMA Pullback Elite,1,61.4,100.0,Inf,0.0
+140,2024-05-27,2024-05-31,272338,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-19.0,0.0,0.0,0.0
+141,2024-06-03,2024-06-07,320328,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-17.4,0.0,0.0,0.0
+142,2024-06-10,2024-06-14,373303,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-15.9,0.0,0.0,0.0
+143,2024-06-17,2024-06-21,303407,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+144,2024-06-24,2024-06-28,317301,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-16.6,0.0,0.0,0.0
+145,2024-07-01,2024-07-05,281396,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-16.9,0.0,0.0,0.0
+146,2024-07-08,2024-07-12,310322,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-15.7,0.0,0.0,0.0
+147,2024-07-15,2024-07-19,319606,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-14.6,0.0,0.0,0.0
+148,2024-07-22,2024-07-26,323852,train,S10_EMA,S10 Dual EMA Pullback Elite,1,37.7,100.0,Inf,0.0
+149,2024-07-29,2024-08-02,416947,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-13.3,0.0,0.0,0.0
+150,2024-08-05,2024-08-09,578389,train,S10_EMA,S10 Dual EMA Pullback Elite,1,-11.9,0.0,0.0,0.0
+151,2024-08-12,2024-08-16,307022,train,S10_EMA,S10 Dual EMA Pullback Elite,1,54.1,100.0,Inf,0.0
+152,2024-08-19,2024-08-23,360166,train,S10_EMA,S10 Dual EMA Pullback Elite,1,56.2,100.0,Inf,0.0
+153,2024-08-26,2024-08-30,380784,train,S10_EMA,S10 Dual EMA Pullback Elite,1,61.5,100.0,Inf,0.0
+154,2024-09-02,2024-09-06,392687,train,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+155,2024-09-09,2024-09-13,372952,train,S10_EMA,S10 Dual EMA Pullback Elite,1,32.9,100.0,Inf,0.0
+156,2024-09-16,2024-09-20,461938,train,S10_EMA,S10 Dual EMA Pullback Elite,1,60.0,100.0,Inf,0.0
+157,2024-09-23,2024-09-27,455814,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.4,0.0,0.0,0.0
+158,2024-09-30,2024-10-04,466207,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-16.7,0.0,0.0,0.0
+159,2024-10-07,2024-10-11,392615,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-20.8,0.0,0.0,0.0
+160,2024-10-14,2024-10-18,340404,test,S10_EMA,S10 Dual EMA Pullback Elite,1,45.0,100.0,Inf,0.0
+161,2024-10-21,2024-10-25,333268,test,S10_EMA,S10 Dual EMA Pullback Elite,1,58.8,100.0,Inf,0.0
+162,2024-10-28,2024-11-01,402255,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-20.9,0.0,0.0,0.0
+163,2024-11-04,2024-11-08,618293,test,S10_EMA,S10 Dual EMA Pullback Elite,1,47.9,100.0,Inf,0.0
+164,2024-11-11,2024-11-15,508267,test,S10_EMA,S10 Dual EMA Pullback Elite,1,60.4,100.0,Inf,0.0
+165,2024-11-18,2024-11-22,519572,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-20.5,0.0,0.0,0.0
+166,2024-11-25,2024-11-29,574123,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.0,0.0,0.0,0.0
+167,2024-12-02,2024-12-06,564478,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-17.7,0.0,0.0,0.0
+168,2024-12-09,2024-12-13,475108,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.4,0.0,0.0,0.0
+169,2024-12-16,2024-12-20,503681,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.0,0.0,0.0,0.0
+170,2024-12-23,2024-12-27,260254,test,S10_EMA,S10 Dual EMA Pullback Elite,1,2.0,100.0,Inf,0.0
+171,2024-12-30,2025-01-03,330207,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+172,2025-01-06,2025-01-10,504165,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.8,0.0,0.0,0.0
+173,2025-01-13,2025-01-17,497875,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.7,0.0,0.0,0.0
+174,2025-01-20,2025-01-24,531123,test,S10_EMA,S10 Dual EMA Pullback Elite,1,52.2,100.0,Inf,0.0
+175,2025-01-27,2025-01-31,564805,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+176,2025-02-03,2025-02-07,620180,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-18.7,0.0,0.0,0.0
+177,2025-02-10,2025-02-14,479840,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-9.2,0.0,0.0,0.0
+178,2025-02-17,2025-02-21,379284,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-12.2,0.0,0.0,0.0
+179,2025-02-24,2025-02-28,545625,test,S10_EMA,S10 Dual EMA Pullback Elite,1,48.8,100.0,Inf,0.0
+180,2025-03-03,2025-03-07,757198,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+181,2025-03-10,2025-03-14,618305,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+182,2025-03-17,2025-03-21,420964,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+183,2025-03-24,2025-03-28,424443,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-20.6,0.0,0.0,0.0
+184,2025-03-31,2025-04-04,777302,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-15.5,0.0,0.0,0.0
+185,2025-04-07,2025-04-11,1384857,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+186,2025-04-14,2025-04-18,778436,test,S10_EMA,S10 Dual EMA Pullback Elite,1,43.6,100.0,Inf,0.0
+187,2025-04-21,2025-04-25,673141,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+188,2025-04-28,2025-05-02,540080,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+189,2025-05-05,2025-05-09,551873,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-20.4,0.0,0.0,0.0
+190,2025-05-12,2025-05-16,557707,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+191,2025-05-19,2025-05-23,547474,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+192,2025-05-26,2025-05-30,514130,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-17.0,0.0,0.0,0.0
+193,2025-06-02,2025-06-06,495661,test,S10_EMA,S10 Dual EMA Pullback Elite,1,61.7,100.0,Inf,0.0
+194,2025-06-09,2025-06-13,451573,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+195,2025-06-16,2025-06-20,481144,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.0,0.0,0.0,0.0
+196,2025-06-23,2025-06-27,470127,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-14.6,0.0,0.0,0.0
+197,2025-06-30,2025-07-04,357758,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-17.7,0.0,0.0,0.0
+198,2025-07-07,2025-07-11,324813,test,S10_EMA,S10 Dual EMA Pullback Elite,1,60.6,100.0,Inf,0.0
+199,2025-07-14,2025-07-18,335188,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-15.1,0.0,0.0,0.0
+200,2025-07-21,2025-07-25,302690,test,S10_EMA,S10 Dual EMA Pullback Elite,1,52.4,100.0,Inf,0.0
+201,2025-07-28,2025-08-01,408886,test,S10_EMA,S10 Dual EMA Pullback Elite,1,59.7,100.0,Inf,0.0
+202,2025-08-04,2025-08-08,328168,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-16.4,0.0,0.0,0.0
+203,2025-08-11,2025-08-15,329838,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-19.3,0.0,0.0,0.0
+204,2025-08-18,2025-08-22,275092,test,S10_EMA,S10 Dual EMA Pullback Elite,1,59.0,100.0,Inf,0.0
+205,2025-08-25,2025-08-29,286324,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-20.0,0.0,0.0,0.0
+206,2025-09-01,2025-09-05,319884,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-19.0,0.0,0.0,0.0
+207,2025-09-08,2025-09-12,319380,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+208,2025-09-15,2025-09-19,376717,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-17.9,0.0,0.0,0.0
+209,2025-09-22,2025-09-26,335093,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-15.9,0.0,0.0,0.0
+210,2025-09-29,2025-10-03,327783,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+211,2025-10-06,2025-10-10,329286,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-17.1,0.0,0.0,0.0
+212,2025-10-13,2025-10-17,350572,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-16.1,0.0,0.0,0.0
+213,2025-10-20,2025-10-24,281828,test,S10_EMA,S10 Dual EMA Pullback Elite,1,57.0,100.0,Inf,0.0
+214,2025-10-27,2025-10-31,297843,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-12.1,0.0,0.0,0.0
+215,2025-11-03,2025-11-07,273169,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.9,0.0,0.0,0.0
+216,2025-11-10,2025-11-14,270691,test,S10_EMA,S10 Dual EMA Pullback Elite,1,41.6,100.0,Inf,0.0
+217,2025-11-17,2025-11-21,314838,test,S10_EMA,S10 Dual EMA Pullback Elite,1,56.7,100.0,Inf,0.0
+218,2025-11-24,2025-11-28,355828,test,S10_EMA,S10 Dual EMA Pullback Elite,1,55.8,100.0,Inf,0.0
+219,2025-12-01,2025-12-05,276400,test,S10_EMA,S10 Dual EMA Pullback Elite,1,44.9,100.0,Inf,0.0
+220,2025-12-08,2025-12-12,304175,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-19.1,0.0,0.0,0.0
+221,2025-12-15,2025-12-19,318945,test,S10_EMA,S10 Dual EMA Pullback Elite,1,52.2,100.0,Inf,0.0
+222,2025-12-22,2025-12-26,222330,test,S10_EMA,S10 Dual EMA Pullback Elite,1,25.4,100.0,Inf,0.0
+223,2025-12-29,2026-01-02,213620,test,S10_EMA,S10 Dual EMA Pullback Elite,1,54.2,100.0,Inf,0.0
+224,2026-01-05,2026-01-09,280259,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.3,0.0,0.0,0.0
+225,2026-01-12,2026-01-16,264192,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-8.9,0.0,0.0,0.0
+226,2026-01-19,2026-01-23,323332,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-14.7,0.0,0.0,0.0
+227,2026-01-26,2026-01-30,566217,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+228,2026-02-02,2026-02-06,406486,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-12.4,0.0,0.0,0.0
+229,2026-02-09,2026-02-13,356037,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+230,2026-02-16,2026-02-20,264110,test,S10_EMA,S10 Dual EMA Pullback Elite,1,57.4,100.0,Inf,0.0
+231,2026-02-23,2026-02-27,284997,test,S10_EMA,S10 Dual EMA Pullback Elite,1,49.6,100.0,Inf,0.0
+232,2026-03-02,2026-03-06,636433,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-17.4,0.0,0.0,0.0
+233,2026-03-09,2026-03-13,604058,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+234,2026-03-16,2026-03-20,504489,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+235,2026-03-23,2026-03-27,632349,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+236,2026-03-30,2026-04-03,457136,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-15.5,0.0,0.0,0.0
+237,2026-04-06,2026-04-10,478507,test,S10_EMA,S10 Dual EMA Pullback Elite,1,55.8,100.0,Inf,0.0
+238,2026-04-13,2026-04-17,376495,test,S10_EMA,S10 Dual EMA Pullback Elite,1,50.9,100.0,Inf,0.0
+239,2026-04-20,2026-04-24,418545,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-20.2,0.0,0.0,0.0
+240,2026-04-27,2026-05-01,450762,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.5,0.0,0.0,0.0
+241,2026-05-04,2026-05-08,463785,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+242,2026-05-11,2026-05-15,284816,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-18.2,0.0,0.0,0.0
+243,2026-05-18,2026-05-22,333098,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-16.6,0.0,0.0,0.0
+244,2026-05-25,2026-05-29,252573,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-20.1,0.0,0.0,0.0
+245,2026-06-01,2026-06-05,268764,test,S10_EMA,S10 Dual EMA Pullback Elite,1,59.1,100.0,Inf,0.0
+246,2026-06-08,2026-06-12,382318,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.7,0.0,0.0,0.0
+247,2026-06-15,2026-06-19,311560,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+248,2026-06-22,2026-06-26,314112,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+249,2026-06-29,2026-07-03,315634,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+250,2026-07-06,2026-07-10,271547,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-21.5,0.0,0.0,0.0
+251,2026-07-13,2026-07-17,317137,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-14.0,0.0,0.0,0.0
+252,2026-07-20,2026-07-24,237779,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-20.1,0.0,0.0,0.0
+253,2026-07-27,2026-07-31,340571,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-20.6,0.0,0.0,0.0
+254,2026-08-03,2026-08-07,258550,test,S10_EMA,S10 Dual EMA Pullback Elite,0,0.0,0.0,0.0,0.0
+255,2026-08-10,2026-08-14,203137,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-18.3,0.0,0.0,0.0
+256,2026-08-17,2026-08-21,279265,test,S10_EMA,S10 Dual EMA Pullback Elite,1,57.4,100.0,Inf,0.0
+257,2026-08-24,2026-08-28,246477,test,S10_EMA,S10 Dual EMA Pullback Elite,1,39.4,100.0,Inf,0.0
+258,2026-08-31,2026-09-04,275495,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-15.6,0.0,0.0,0.0
+259,2026-09-07,2026-09-11,274509,test,S10_EMA,S10 Dual EMA Pullback Elite,1,-14.0,0.0,0.0,0.0
+260,2026-09-14,2026-09-18,306514,test,S10_EMA,S10 Dual EMA Pullback Elite,1,53.5,100.0,Inf,0.0
+261,2026-09-21,2026-09-25,331517,test,S10_EMA,S10 Dual EMA Pullback Elite,1,56.6,100.0,Inf,0.0
+262,2026-09-28,2026-10-01,231329,test,S10_EMA,S10 Dual EMA Pullback Elite,1,56.4,100.0,Inf,0.0
+1,2021-10-01,2021-10-01,66064,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+2,2021-10-04,2021-10-08,251914,train,S14_IB,S14 Inside Bar M30 Elite,1,-14.7,0.0,0.0,0.0
+3,2021-10-11,2021-10-15,240306,train,S14_IB,S14 Inside Bar M30 Elite,1,-10.9,0.0,0.0,0.0
+4,2021-10-18,2021-10-22,250266,train,S14_IB,S14 Inside Bar M30 Elite,1,-12.2,0.0,0.0,0.0
+5,2021-10-25,2021-10-29,303849,train,S14_IB,S14 Inside Bar M30 Elite,1,-15.0,0.0,0.0,0.0
+6,2021-11-01,2021-11-05,301718,train,S14_IB,S14 Inside Bar M30 Elite,1,26.7,100.0,Inf,0.0
+7,2021-11-08,2021-11-12,267525,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+8,2021-11-15,2021-11-19,301280,train,S14_IB,S14 Inside Bar M30 Elite,1,-17.2,0.0,0.0,0.0
+9,2021-11-22,2021-11-26,375637,train,S14_IB,S14 Inside Bar M30 Elite,1,-11.0,0.0,0.0,0.0
+10,2021-11-29,2021-12-03,433065,train,S14_IB,S14 Inside Bar M30 Elite,1,-17.1,0.0,0.0,0.0
+11,2021-12-06,2021-12-10,277143,train,S14_IB,S14 Inside Bar M30 Elite,1,28.9,100.0,Inf,0.0
+12,2021-12-13,2021-12-17,327420,train,S14_IB,S14 Inside Bar M30 Elite,1,-18.1,0.0,0.0,0.0
+13,2021-12-20,2021-12-24,328794,train,S14_IB,S14 Inside Bar M30 Elite,1,14.5,100.0,Inf,0.0
+14,2021-12-27,2021-12-31,198768,train,S14_IB,S14 Inside Bar M30 Elite,1,36.4,100.0,Inf,0.0
+15,2022-01-03,2022-01-07,326373,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+16,2022-01-10,2022-01-14,313064,train,S14_IB,S14 Inside Bar M30 Elite,1,-15.4,0.0,0.0,0.0
+17,2022-01-17,2022-01-21,304075,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+18,2022-01-24,2022-01-28,372229,train,S14_IB,S14 Inside Bar M30 Elite,1,36.9,100.0,Inf,0.0
+19,2022-01-31,2022-02-04,368949,train,S14_IB,S14 Inside Bar M30 Elite,1,-14.8,0.0,0.0,0.0
+20,2022-02-07,2022-02-11,374602,train,S14_IB,S14 Inside Bar M30 Elite,1,18.9,100.0,Inf,0.0
+21,2022-02-14,2022-02-18,394600,train,S14_IB,S14 Inside Bar M30 Elite,1,-19.9,0.0,0.0,0.0
+22,2022-02-21,2022-02-25,496594,train,S14_IB,S14 Inside Bar M30 Elite,1,38.5,100.0,Inf,0.0
+23,2022-02-28,2022-03-04,591300,train,S14_IB,S14 Inside Bar M30 Elite,1,-19.2,0.0,0.0,0.0
+24,2022-03-07,2022-03-11,758799,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+25,2022-03-14,2022-03-18,545368,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+26,2022-03-21,2022-03-25,427901,train,S14_IB,S14 Inside Bar M30 Elite,1,-14.1,0.0,0.0,0.0
+27,2022-03-28,2022-04-01,532184,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+28,2022-04-04,2022-04-08,373379,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+29,2022-04-11,2022-04-15,497788,train,S14_IB,S14 Inside Bar M30 Elite,1,-25.7,0.0,0.0,0.0
+30,2022-04-18,2022-04-22,456005,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+31,2022-04-25,2022-04-29,595013,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+32,2022-05-02,2022-05-06,622942,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+33,2022-05-09,2022-05-13,670192,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+34,2022-05-16,2022-05-20,553411,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+35,2022-05-23,2022-05-27,472900,train,S14_IB,S14 Inside Bar M30 Elite,1,-18.3,0.0,0.0,0.0
+36,2022-05-30,2022-06-03,393119,train,S14_IB,S14 Inside Bar M30 Elite,1,25.4,100.0,Inf,0.0
+37,2022-06-06,2022-06-10,457562,train,S14_IB,S14 Inside Bar M30 Elite,1,-16.7,0.0,0.0,0.0
+38,2022-06-13,2022-06-17,797815,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+39,2022-06-20,2022-06-24,549879,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+40,2022-06-27,2022-07-01,589977,train,S14_IB,S14 Inside Bar M30 Elite,1,-17.5,0.0,0.0,0.0
+41,2022-07-04,2022-07-08,610719,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+42,2022-07-11,2022-07-15,729233,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+43,2022-07-18,2022-07-22,721893,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+44,2022-07-25,2022-07-29,713887,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+45,2022-08-01,2022-08-05,870781,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+46,2022-08-08,2022-08-12,670778,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+47,2022-08-15,2022-08-19,667944,train,S14_IB,S14 Inside Bar M30 Elite,1,46.2,100.0,Inf,0.0
+48,2022-08-22,2022-08-26,747556,train,S14_IB,S14 Inside Bar M30 Elite,1,49.8,100.0,Inf,0.0
+49,2022-08-29,2022-09-02,842425,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+50,2022-09-05,2022-09-09,836393,train,S14_IB,S14 Inside Bar M30 Elite,1,-18.7,0.0,0.0,0.0
+51,2022-09-12,2022-09-16,848810,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+52,2022-09-19,2022-09-23,908032,train,S14_IB,S14 Inside Bar M30 Elite,1,39.2,100.0,Inf,0.0
+53,2022-09-26,2022-09-30,1318753,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+54,2022-10-03,2022-10-07,969648,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+55,2022-10-10,2022-10-14,1081116,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+56,2022-10-17,2022-10-21,1051001,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+57,2022-10-24,2022-10-28,995862,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+58,2022-10-31,2022-11-04,941719,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+59,2022-11-07,2022-11-11,984513,train,S14_IB,S14 Inside Bar M30 Elite,1,-15.2,0.0,0.0,0.0
+60,2022-11-14,2022-11-18,1059083,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+61,2022-11-21,2022-11-25,727070,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+62,2022-11-28,2022-12-02,990766,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+63,2022-12-05,2022-12-09,823278,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+64,2022-12-12,2022-12-16,836394,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+65,2022-12-19,2022-12-23,726294,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+66,2022-12-26,2022-12-30,516263,train,S14_IB,S14 Inside Bar M30 Elite,1,-15.2,0.0,0.0,0.0
+67,2023-01-02,2023-01-06,703639,train,S14_IB,S14 Inside Bar M30 Elite,1,-12.0,0.0,0.0,0.0
+68,2023-01-09,2023-01-13,746714,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+69,2023-01-16,2023-01-20,654895,train,S14_IB,S14 Inside Bar M30 Elite,1,49.9,100.0,Inf,0.0
+70,2023-01-23,2023-01-27,563153,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+71,2023-01-30,2023-02-03,697934,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+72,2023-02-06,2023-02-10,631034,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+73,2023-02-13,2023-02-17,670051,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+74,2023-02-20,2023-02-24,590853,train,S14_IB,S14 Inside Bar M30 Elite,1,-17.9,0.0,0.0,0.0
+75,2023-02-27,2023-03-03,617674,train,S14_IB,S14 Inside Bar M30 Elite,1,-18.3,0.0,0.0,0.0
+76,2023-03-06,2023-03-10,670303,train,S14_IB,S14 Inside Bar M30 Elite,1,-18.1,0.0,0.0,0.0
+77,2023-03-13,2023-03-17,1008651,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+78,2023-03-20,2023-03-24,729988,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+79,2023-03-27,2023-03-31,517033,train,S14_IB,S14 Inside Bar M30 Elite,1,-15.4,0.0,0.0,0.0
+80,2023-04-03,2023-04-07,428286,train,S14_IB,S14 Inside Bar M30 Elite,1,37.7,100.0,Inf,0.0
+81,2023-04-10,2023-04-14,437067,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+82,2023-04-17,2023-04-21,424407,train,S14_IB,S14 Inside Bar M30 Elite,1,46.0,100.0,Inf,0.0
+83,2023-04-24,2023-04-28,515072,train,S14_IB,S14 Inside Bar M30 Elite,1,-16.4,0.0,0.0,0.0
+84,2023-05-01,2023-05-05,531787,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+85,2023-05-08,2023-05-12,446339,train,S14_IB,S14 Inside Bar M30 Elite,1,-9.6,0.0,0.0,0.0
+86,2023-05-15,2023-05-19,462221,train,S14_IB,S14 Inside Bar M30 Elite,1,-19.4,0.0,0.0,0.0
+87,2023-05-22,2023-05-26,512535,train,S14_IB,S14 Inside Bar M30 Elite,1,34.9,100.0,Inf,0.0
+88,2023-05-29,2023-06-02,459486,train,S14_IB,S14 Inside Bar M30 Elite,1,-14.3,0.0,0.0,0.0
+89,2023-06-05,2023-06-09,400200,train,S14_IB,S14 Inside Bar M30 Elite,1,-15.2,0.0,0.0,0.0
+90,2023-06-12,2023-06-16,462272,train,S14_IB,S14 Inside Bar M30 Elite,1,-11.4,0.0,0.0,0.0
+91,2023-06-19,2023-06-23,458548,train,S14_IB,S14 Inside Bar M30 Elite,1,-13.5,0.0,0.0,0.0
+92,2023-06-26,2023-06-30,459922,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+93,2023-07-03,2023-07-07,429207,train,S14_IB,S14 Inside Bar M30 Elite,1,-11.9,0.0,0.0,0.0
+94,2023-07-10,2023-07-14,489669,train,S14_IB,S14 Inside Bar M30 Elite,1,-19.6,0.0,0.0,0.0
+95,2023-07-17,2023-07-21,454186,train,S14_IB,S14 Inside Bar M30 Elite,1,-13.7,0.0,0.0,0.0
+96,2023-07-24,2023-07-28,576515,train,S14_IB,S14 Inside Bar M30 Elite,1,-17.0,0.0,0.0,0.0
+97,2023-07-31,2023-08-04,530942,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+98,2023-08-07,2023-08-11,463097,train,S14_IB,S14 Inside Bar M30 Elite,1,-19.2,0.0,0.0,0.0
+99,2023-08-14,2023-08-18,488279,train,S14_IB,S14 Inside Bar M30 Elite,1,-12.7,0.0,0.0,0.0
+100,2023-08-21,2023-08-25,438673,train,S14_IB,S14 Inside Bar M30 Elite,1,34.8,100.0,Inf,0.0
+101,2023-08-28,2023-09-01,420793,train,S14_IB,S14 Inside Bar M30 Elite,1,45.3,100.0,Inf,0.0
+102,2023-09-04,2023-09-08,348926,train,S14_IB,S14 Inside Bar M30 Elite,1,-17.2,0.0,0.0,0.0
+103,2023-09-11,2023-09-15,396599,train,S14_IB,S14 Inside Bar M30 Elite,1,25.9,100.0,Inf,0.0
+104,2023-09-18,2023-09-22,362967,train,S14_IB,S14 Inside Bar M30 Elite,1,44.0,100.0,Inf,0.0
+105,2023-09-25,2023-09-29,419080,train,S14_IB,S14 Inside Bar M30 Elite,1,-12.4,0.0,0.0,0.0
+106,2023-10-02,2023-10-06,501258,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+107,2023-10-09,2023-10-13,520184,train,S14_IB,S14 Inside Bar M30 Elite,1,-19.6,0.0,0.0,0.0
+108,2023-10-16,2023-10-20,491332,train,S14_IB,S14 Inside Bar M30 Elite,1,29.8,100.0,Inf,0.0
+109,2023-10-23,2023-10-27,450450,train,S14_IB,S14 Inside Bar M30 Elite,1,-19.6,0.0,0.0,0.0
+110,2023-10-30,2023-11-03,488898,train,S14_IB,S14 Inside Bar M30 Elite,1,-10.0,0.0,0.0,0.0
+111,2023-11-06,2023-11-10,410738,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+112,2023-11-13,2023-11-17,427943,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+113,2023-11-20,2023-11-24,380125,train,S14_IB,S14 Inside Bar M30 Elite,1,40.0,100.0,Inf,0.0
+114,2023-11-27,2023-12-01,516569,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+115,2023-12-04,2023-12-08,555913,train,S14_IB,S14 Inside Bar M30 Elite,1,36.3,100.0,Inf,0.0
+116,2023-12-11,2023-12-15,583250,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+117,2023-12-18,2023-12-22,522868,train,S14_IB,S14 Inside Bar M30 Elite,1,36.1,100.0,Inf,0.0
+118,2023-12-25,2023-12-29,328613,train,S14_IB,S14 Inside Bar M30 Elite,1,-20.7,0.0,0.0,0.0
+119,2024-01-01,2024-01-05,437837,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+120,2024-01-08,2024-01-12,483248,train,S14_IB,S14 Inside Bar M30 Elite,1,-12.1,0.0,0.0,0.0
+121,2024-01-15,2024-01-19,474792,train,S14_IB,S14 Inside Bar M30 Elite,1,-13.1,0.0,0.0,0.0
+122,2024-01-22,2024-01-26,460930,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+123,2024-01-29,2024-02-02,530583,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+124,2024-02-05,2024-02-09,427930,train,S14_IB,S14 Inside Bar M30 Elite,1,40.0,100.0,Inf,0.0
+125,2024-02-12,2024-02-16,416963,train,S14_IB,S14 Inside Bar M30 Elite,1,-19.0,0.0,0.0,0.0
+126,2024-02-19,2024-02-23,351563,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+127,2024-02-26,2024-03-01,345494,train,S14_IB,S14 Inside Bar M30 Elite,1,32.2,100.0,Inf,0.0
+128,2024-03-04,2024-03-08,358169,train,S14_IB,S14 Inside Bar M30 Elite,1,33.8,100.0,Inf,0.0
+129,2024-03-11,2024-03-15,356850,train,S14_IB,S14 Inside Bar M30 Elite,1,-11.0,0.0,0.0,0.0
+130,2024-03-18,2024-03-22,353105,train,S14_IB,S14 Inside Bar M30 Elite,1,-15.5,0.0,0.0,0.0
+131,2024-03-25,2024-03-29,319499,train,S14_IB,S14 Inside Bar M30 Elite,1,-16.6,0.0,0.0,0.0
+132,2024-04-01,2024-04-05,320122,train,S14_IB,S14 Inside Bar M30 Elite,1,-10.8,0.0,0.0,0.0
+133,2024-04-08,2024-04-12,363390,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+134,2024-04-15,2024-04-19,410373,train,S14_IB,S14 Inside Bar M30 Elite,1,-16.1,0.0,0.0,0.0
+135,2024-04-22,2024-04-26,300509,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+136,2024-04-29,2024-05-03,391073,train,S14_IB,S14 Inside Bar M30 Elite,1,-11.3,0.0,0.0,0.0
+137,2024-05-06,2024-05-10,240631,train,S14_IB,S14 Inside Bar M30 Elite,1,-19.7,0.0,0.0,0.0
+138,2024-05-13,2024-05-17,242575,train,S14_IB,S14 Inside Bar M30 Elite,1,38.3,100.0,Inf,0.0
+139,2024-05-20,2024-05-24,244283,train,S14_IB,S14 Inside Bar M30 Elite,1,49.8,100.0,Inf,0.0
+140,2024-05-27,2024-05-31,272338,train,S14_IB,S14 Inside Bar M30 Elite,1,29.2,100.0,Inf,0.0
+141,2024-06-03,2024-06-07,320328,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+142,2024-06-10,2024-06-14,373303,train,S14_IB,S14 Inside Bar M30 Elite,1,29.9,100.0,Inf,0.0
+143,2024-06-17,2024-06-21,303407,train,S14_IB,S14 Inside Bar M30 Elite,1,-11.4,0.0,0.0,0.0
+144,2024-06-24,2024-06-28,317301,train,S14_IB,S14 Inside Bar M30 Elite,1,44.7,100.0,Inf,0.0
+145,2024-07-01,2024-07-05,281396,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+146,2024-07-08,2024-07-12,310322,train,S14_IB,S14 Inside Bar M30 Elite,1,-9.1,0.0,0.0,0.0
+147,2024-07-15,2024-07-19,319606,train,S14_IB,S14 Inside Bar M30 Elite,1,-11.4,0.0,0.0,0.0
+148,2024-07-22,2024-07-26,323852,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+149,2024-07-29,2024-08-02,416947,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+150,2024-08-05,2024-08-09,578389,train,S14_IB,S14 Inside Bar M30 Elite,1,-15.1,0.0,0.0,0.0
+151,2024-08-12,2024-08-16,307022,train,S14_IB,S14 Inside Bar M30 Elite,1,-9.4,0.0,0.0,0.0
+152,2024-08-19,2024-08-23,360166,train,S14_IB,S14 Inside Bar M30 Elite,1,-9.0,0.0,0.0,0.0
+153,2024-08-26,2024-08-30,380784,train,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+154,2024-09-02,2024-09-06,392687,train,S14_IB,S14 Inside Bar M30 Elite,1,47.9,100.0,Inf,0.0
+155,2024-09-09,2024-09-13,372952,train,S14_IB,S14 Inside Bar M30 Elite,1,35.8,100.0,Inf,0.0
+156,2024-09-16,2024-09-20,461938,train,S14_IB,S14 Inside Bar M30 Elite,1,34.3,100.0,Inf,0.0
+157,2024-09-23,2024-09-27,455814,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+158,2024-09-30,2024-10-04,466207,test,S14_IB,S14 Inside Bar M30 Elite,1,-14.3,0.0,0.0,0.0
+159,2024-10-07,2024-10-11,392615,test,S14_IB,S14 Inside Bar M30 Elite,1,-11.7,0.0,0.0,0.0
+160,2024-10-14,2024-10-18,340404,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+161,2024-10-21,2024-10-25,333268,test,S14_IB,S14 Inside Bar M30 Elite,1,33.0,100.0,Inf,0.0
+162,2024-10-28,2024-11-01,402255,test,S14_IB,S14 Inside Bar M30 Elite,1,-6.8,0.0,0.0,0.0
+163,2024-11-04,2024-11-08,618293,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+164,2024-11-11,2024-11-15,508267,test,S14_IB,S14 Inside Bar M30 Elite,1,-10.1,0.0,0.0,0.0
+165,2024-11-18,2024-11-22,519572,test,S14_IB,S14 Inside Bar M30 Elite,1,-16.5,0.0,0.0,0.0
+166,2024-11-25,2024-11-29,574123,test,S14_IB,S14 Inside Bar M30 Elite,1,-19.8,0.0,0.0,0.0
+167,2024-12-02,2024-12-06,564478,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+168,2024-12-09,2024-12-13,475108,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+169,2024-12-16,2024-12-20,503681,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+170,2024-12-23,2024-12-27,260254,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+171,2024-12-30,2025-01-03,330207,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+172,2025-01-06,2025-01-10,504165,test,S14_IB,S14 Inside Bar M30 Elite,1,-19.8,0.0,0.0,0.0
+173,2025-01-13,2025-01-17,497875,test,S14_IB,S14 Inside Bar M30 Elite,1,48.0,100.0,Inf,0.0
+174,2025-01-20,2025-01-24,531123,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+175,2025-01-27,2025-01-31,564805,test,S14_IB,S14 Inside Bar M30 Elite,1,-16.2,0.0,0.0,0.0
+176,2025-02-03,2025-02-07,620180,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+177,2025-02-10,2025-02-14,479840,test,S14_IB,S14 Inside Bar M30 Elite,1,-16.9,0.0,0.0,0.0
+178,2025-02-17,2025-02-21,379284,test,S14_IB,S14 Inside Bar M30 Elite,1,-11.4,0.0,0.0,0.0
+179,2025-02-24,2025-02-28,545625,test,S14_IB,S14 Inside Bar M30 Elite,1,21.5,100.0,Inf,0.0
+180,2025-03-03,2025-03-07,757198,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+181,2025-03-10,2025-03-14,618305,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+182,2025-03-17,2025-03-21,420964,test,S14_IB,S14 Inside Bar M30 Elite,1,-14.0,0.0,0.0,0.0
+183,2025-03-24,2025-03-28,424443,test,S14_IB,S14 Inside Bar M30 Elite,1,-18.5,0.0,0.0,0.0
+184,2025-03-31,2025-04-04,777302,test,S14_IB,S14 Inside Bar M30 Elite,1,-9.5,0.0,0.0,0.0
+185,2025-04-07,2025-04-11,1384857,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+186,2025-04-14,2025-04-18,778436,test,S14_IB,S14 Inside Bar M30 Elite,1,24.8,100.0,Inf,0.0
+187,2025-04-21,2025-04-25,673141,test,S14_IB,S14 Inside Bar M30 Elite,1,-18.0,0.0,0.0,0.0
+188,2025-04-28,2025-05-02,540080,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+189,2025-05-05,2025-05-09,551873,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+190,2025-05-12,2025-05-16,557707,test,S14_IB,S14 Inside Bar M30 Elite,1,-10.9,0.0,0.0,0.0
+191,2025-05-19,2025-05-23,547474,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+192,2025-05-26,2025-05-30,514130,test,S14_IB,S14 Inside Bar M30 Elite,1,-18.1,0.0,0.0,0.0
+193,2025-06-02,2025-06-06,495661,test,S14_IB,S14 Inside Bar M30 Elite,1,45.0,100.0,Inf,0.0
+194,2025-06-09,2025-06-13,451573,test,S14_IB,S14 Inside Bar M30 Elite,1,-15.4,0.0,0.0,0.0
+195,2025-06-16,2025-06-20,481144,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+196,2025-06-23,2025-06-27,470127,test,S14_IB,S14 Inside Bar M30 Elite,1,-19.0,0.0,0.0,0.0
+197,2025-06-30,2025-07-04,357758,test,S14_IB,S14 Inside Bar M30 Elite,1,-12.0,0.0,0.0,0.0
+198,2025-07-07,2025-07-11,324813,test,S14_IB,S14 Inside Bar M30 Elite,1,26.7,100.0,Inf,0.0
+199,2025-07-14,2025-07-18,335188,test,S14_IB,S14 Inside Bar M30 Elite,1,-19.9,0.0,0.0,0.0
+200,2025-07-21,2025-07-25,302690,test,S14_IB,S14 Inside Bar M30 Elite,1,-16.6,0.0,0.0,0.0
+201,2025-07-28,2025-08-01,408886,test,S14_IB,S14 Inside Bar M30 Elite,1,40.9,100.0,Inf,0.0
+202,2025-08-04,2025-08-08,328168,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+203,2025-08-11,2025-08-15,329838,test,S14_IB,S14 Inside Bar M30 Elite,1,-17.4,0.0,0.0,0.0
+204,2025-08-18,2025-08-22,275092,test,S14_IB,S14 Inside Bar M30 Elite,1,43.1,100.0,Inf,0.0
+205,2025-08-25,2025-08-29,286324,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+206,2025-09-01,2025-09-05,319884,test,S14_IB,S14 Inside Bar M30 Elite,1,41.7,100.0,Inf,0.0
+207,2025-09-08,2025-09-12,319380,test,S14_IB,S14 Inside Bar M30 Elite,1,-17.7,0.0,0.0,0.0
+208,2025-09-15,2025-09-19,376717,test,S14_IB,S14 Inside Bar M30 Elite,1,46.7,100.0,Inf,0.0
+209,2025-09-22,2025-09-26,335093,test,S14_IB,S14 Inside Bar M30 Elite,1,-13.6,0.0,0.0,0.0
+210,2025-09-29,2025-10-03,327783,test,S14_IB,S14 Inside Bar M30 Elite,1,34.4,100.0,Inf,0.0
+211,2025-10-06,2025-10-10,329286,test,S14_IB,S14 Inside Bar M30 Elite,1,48.0,100.0,Inf,0.0
+212,2025-10-13,2025-10-17,350572,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+213,2025-10-20,2025-10-24,281828,test,S14_IB,S14 Inside Bar M30 Elite,1,-11.6,0.0,0.0,0.0
+214,2025-10-27,2025-10-31,297843,test,S14_IB,S14 Inside Bar M30 Elite,1,-13.9,0.0,0.0,0.0
+215,2025-11-03,2025-11-07,273169,test,S14_IB,S14 Inside Bar M30 Elite,1,-13.3,0.0,0.0,0.0
+216,2025-11-10,2025-11-14,270691,test,S14_IB,S14 Inside Bar M30 Elite,1,45.2,100.0,Inf,0.0
+217,2025-11-17,2025-11-21,314838,test,S14_IB,S14 Inside Bar M30 Elite,1,43.9,100.0,Inf,0.0
+218,2025-11-24,2025-11-28,355828,test,S14_IB,S14 Inside Bar M30 Elite,1,34.7,100.0,Inf,0.0
+219,2025-12-01,2025-12-05,276400,test,S14_IB,S14 Inside Bar M30 Elite,1,-14.9,0.0,0.0,0.0
+220,2025-12-08,2025-12-12,304175,test,S14_IB,S14 Inside Bar M30 Elite,1,30.6,100.0,Inf,0.0
+221,2025-12-15,2025-12-19,318945,test,S14_IB,S14 Inside Bar M30 Elite,1,31.2,100.0,Inf,0.0
+222,2025-12-22,2025-12-26,222330,test,S14_IB,S14 Inside Bar M30 Elite,1,34.9,100.0,Inf,0.0
+223,2025-12-29,2026-01-02,213620,test,S14_IB,S14 Inside Bar M30 Elite,1,-10.9,0.0,0.0,0.0
+224,2026-01-05,2026-01-09,280259,test,S14_IB,S14 Inside Bar M30 Elite,1,24.6,100.0,Inf,0.0
+225,2026-01-12,2026-01-16,264192,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+226,2026-01-19,2026-01-23,323332,test,S14_IB,S14 Inside Bar M30 Elite,1,-11.6,0.0,0.0,0.0
+227,2026-01-26,2026-01-30,566217,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+228,2026-02-02,2026-02-06,406486,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+229,2026-02-09,2026-02-13,356037,test,S14_IB,S14 Inside Bar M30 Elite,1,37.8,100.0,Inf,0.0
+230,2026-02-16,2026-02-20,264110,test,S14_IB,S14 Inside Bar M30 Elite,1,39.4,100.0,Inf,0.0
+231,2026-02-23,2026-02-27,284997,test,S14_IB,S14 Inside Bar M30 Elite,1,40.0,100.0,Inf,0.0
+232,2026-03-02,2026-03-06,636433,test,S14_IB,S14 Inside Bar M30 Elite,1,-16.4,0.0,0.0,0.0
+233,2026-03-09,2026-03-13,604058,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+234,2026-03-16,2026-03-20,504489,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+235,2026-03-23,2026-03-27,632349,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+236,2026-03-30,2026-04-03,457136,test,S14_IB,S14 Inside Bar M30 Elite,1,-13.8,0.0,0.0,0.0
+237,2026-04-06,2026-04-10,478507,test,S14_IB,S14 Inside Bar M30 Elite,1,31.3,100.0,Inf,0.0
+238,2026-04-13,2026-04-17,376495,test,S14_IB,S14 Inside Bar M30 Elite,1,-13.2,0.0,0.0,0.0
+239,2026-04-20,2026-04-24,418545,test,S14_IB,S14 Inside Bar M30 Elite,1,43.5,100.0,Inf,0.0
+240,2026-04-27,2026-05-01,450762,test,S14_IB,S14 Inside Bar M30 Elite,1,-16.0,0.0,0.0,0.0
+241,2026-05-04,2026-05-08,463785,test,S14_IB,S14 Inside Bar M30 Elite,1,-10.1,0.0,0.0,0.0
+242,2026-05-11,2026-05-15,284816,test,S14_IB,S14 Inside Bar M30 Elite,1,-8.0,0.0,0.0,0.0
+243,2026-05-18,2026-05-22,333098,test,S14_IB,S14 Inside Bar M30 Elite,1,-10.6,0.0,0.0,0.0
+244,2026-05-25,2026-05-29,252573,test,S14_IB,S14 Inside Bar M30 Elite,1,-17.5,0.0,0.0,0.0
+245,2026-06-01,2026-06-05,268764,test,S14_IB,S14 Inside Bar M30 Elite,1,-12.9,0.0,0.0,0.0
+246,2026-06-08,2026-06-12,382318,test,S14_IB,S14 Inside Bar M30 Elite,1,-15.1,0.0,0.0,0.0
+247,2026-06-15,2026-06-19,311560,test,S14_IB,S14 Inside Bar M30 Elite,1,-16.3,0.0,0.0,0.0
+248,2026-06-22,2026-06-26,314112,test,S14_IB,S14 Inside Bar M30 Elite,1,-15.6,0.0,0.0,0.0
+249,2026-06-29,2026-07-03,315634,test,S14_IB,S14 Inside Bar M30 Elite,1,48.3,100.0,Inf,0.0
+250,2026-07-06,2026-07-10,271547,test,S14_IB,S14 Inside Bar M30 Elite,1,22.8,100.0,Inf,0.0
+251,2026-07-13,2026-07-17,317137,test,S14_IB,S14 Inside Bar M30 Elite,1,-11.7,0.0,0.0,0.0
+252,2026-07-20,2026-07-24,237779,test,S14_IB,S14 Inside Bar M30 Elite,1,-11.5,0.0,0.0,0.0
+253,2026-07-27,2026-07-31,340571,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+254,2026-08-03,2026-08-07,258550,test,S14_IB,S14 Inside Bar M30 Elite,1,-7.5,0.0,0.0,0.0
+255,2026-08-10,2026-08-14,203137,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+256,2026-08-17,2026-08-21,279265,test,S14_IB,S14 Inside Bar M30 Elite,1,41.0,100.0,Inf,0.0
+257,2026-08-24,2026-08-28,246477,test,S14_IB,S14 Inside Bar M30 Elite,1,34.3,100.0,Inf,0.0
+258,2026-08-31,2026-09-04,275495,test,S14_IB,S14 Inside Bar M30 Elite,0,0.0,0.0,0.0,0.0
+259,2026-09-07,2026-09-11,274509,test,S14_IB,S14 Inside Bar M30 Elite,1,-11.0,0.0,0.0,0.0
+260,2026-09-14,2026-09-18,306514,test,S14_IB,S14 Inside Bar M30 Elite,1,25.4,100.0,Inf,0.0
+261,2026-09-21,2026-09-25,331517,test,S14_IB,S14 Inside Bar M30 Elite,1,-11.4,0.0,0.0,0.0
+262,2026-09-28,2026-10-01,231329,test,S14_IB,S14 Inside Bar M30 Elite,1,-11.9,0.0,0.0,0.0
+1,2021-10-01,2021-10-01,66064,train,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+2,2021-10-04,2021-10-08,251914,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+3,2021-10-11,2021-10-15,240306,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+4,2021-10-18,2021-10-22,250266,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+5,2021-10-25,2021-10-29,303849,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+6,2021-11-01,2021-11-05,301718,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+7,2021-11-08,2021-11-12,267525,train,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+8,2021-11-15,2021-11-19,301280,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+9,2021-11-22,2021-11-26,375637,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+10,2021-11-29,2021-12-03,433065,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+11,2021-12-06,2021-12-10,277143,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+12,2021-12-13,2021-12-17,327420,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+13,2021-12-20,2021-12-24,328794,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+14,2021-12-27,2021-12-31,198768,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+15,2022-01-03,2022-01-07,326373,train,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+16,2022-01-10,2022-01-14,313064,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+17,2022-01-17,2022-01-21,304075,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+18,2022-01-24,2022-01-28,372229,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.2,100.0,Inf,0.0
+19,2022-01-31,2022-02-04,368949,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+20,2022-02-07,2022-02-11,374602,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+21,2022-02-14,2022-02-18,394600,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+22,2022-02-21,2022-02-25,496594,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+23,2022-02-28,2022-03-04,591300,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+24,2022-03-07,2022-03-11,758799,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+25,2022-03-14,2022-03-18,545368,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+26,2022-03-21,2022-03-25,427901,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+27,2022-03-28,2022-04-01,532184,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+28,2022-04-04,2022-04-08,373379,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+29,2022-04-11,2022-04-15,497788,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.1,100.0,Inf,0.0
+30,2022-04-18,2022-04-22,456005,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+31,2022-04-25,2022-04-29,595013,train,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+32,2022-05-02,2022-05-06,622942,train,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+33,2022-05-09,2022-05-13,670192,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+34,2022-05-16,2022-05-20,553411,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.1,100.0,Inf,0.0
+35,2022-05-23,2022-05-27,472900,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+36,2022-05-30,2022-06-03,393119,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.2,100.0,Inf,0.0
+37,2022-06-06,2022-06-10,457562,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+38,2022-06-13,2022-06-17,797815,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+39,2022-06-20,2022-06-24,549879,train,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+40,2022-06-27,2022-07-01,589977,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+41,2022-07-04,2022-07-08,610719,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+42,2022-07-11,2022-07-15,729233,train,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+43,2022-07-18,2022-07-22,721893,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+44,2022-07-25,2022-07-29,713887,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.3,0.0,0.0,0.0
+45,2022-08-01,2022-08-05,870781,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.3,100.0,Inf,0.0
+46,2022-08-08,2022-08-12,670778,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+47,2022-08-15,2022-08-19,667944,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+48,2022-08-22,2022-08-26,747556,train,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+49,2022-08-29,2022-09-02,842425,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+50,2022-09-05,2022-09-09,836393,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+51,2022-09-12,2022-09-16,848810,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.4,100.0,Inf,0.0
+52,2022-09-19,2022-09-23,908032,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.1,100.0,Inf,0.0
+53,2022-09-26,2022-09-30,1318753,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+54,2022-10-03,2022-10-07,969648,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+55,2022-10-10,2022-10-14,1081116,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+56,2022-10-17,2022-10-21,1051001,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-16.0,0.0,0.0,0.0
+57,2022-10-24,2022-10-28,995862,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.5,0.0,0.0,0.0
+58,2022-10-31,2022-11-04,941719,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.6,100.0,Inf,0.0
+59,2022-11-07,2022-11-11,984513,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+60,2022-11-14,2022-11-18,1059083,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+61,2022-11-21,2022-11-25,727070,train,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+62,2022-11-28,2022-12-02,990766,train,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+63,2022-12-05,2022-12-09,823278,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+64,2022-12-12,2022-12-16,836394,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.4,0.0,0.0,0.0
+65,2022-12-19,2022-12-23,726294,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+66,2022-12-26,2022-12-30,516263,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+67,2023-01-02,2023-01-06,703639,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+68,2023-01-09,2023-01-13,746714,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.2,100.0,Inf,0.0
+69,2023-01-16,2023-01-20,654895,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.8,100.0,Inf,0.0
+70,2023-01-23,2023-01-27,563153,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.5,0.0,0.0,0.0
+71,2023-01-30,2023-02-03,697934,train,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+72,2023-02-06,2023-02-10,631034,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.6,0.0,0.0,0.0
+73,2023-02-13,2023-02-17,670051,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+74,2023-02-20,2023-02-24,590853,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+75,2023-02-27,2023-03-03,617674,train,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+76,2023-03-06,2023-03-10,670303,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+77,2023-03-13,2023-03-17,1008651,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+78,2023-03-20,2023-03-24,729988,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+79,2023-03-27,2023-03-31,517033,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+80,2023-04-03,2023-04-07,428286,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.2,100.0,Inf,0.0
+81,2023-04-10,2023-04-14,437067,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+82,2023-04-17,2023-04-21,424407,train,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+83,2023-04-24,2023-04-28,515072,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.3,0.0,0.0,0.0
+84,2023-05-01,2023-05-05,531787,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+85,2023-05-08,2023-05-12,446339,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+86,2023-05-15,2023-05-19,462221,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.1,100.0,Inf,0.0
+87,2023-05-22,2023-05-26,512535,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.3,100.0,Inf,0.0
+88,2023-05-29,2023-06-02,459486,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+89,2023-06-05,2023-06-09,400200,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+90,2023-06-12,2023-06-16,462272,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+91,2023-06-19,2023-06-23,458548,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+92,2023-06-26,2023-06-30,459922,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+93,2023-07-03,2023-07-07,429207,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+94,2023-07-10,2023-07-14,489669,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+95,2023-07-17,2023-07-21,454186,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+96,2023-07-24,2023-07-28,576515,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+97,2023-07-31,2023-08-04,530942,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+98,2023-08-07,2023-08-11,463097,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+99,2023-08-14,2023-08-18,488279,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+100,2023-08-21,2023-08-25,438673,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+101,2023-08-28,2023-09-01,420793,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.2,100.0,Inf,0.0
+102,2023-09-04,2023-09-08,348926,train,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+103,2023-09-11,2023-09-15,396599,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+104,2023-09-18,2023-09-22,362967,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.3,0.0,0.0,0.0
+105,2023-09-25,2023-09-29,419080,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+106,2023-10-02,2023-10-06,501258,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+107,2023-10-09,2023-10-13,520184,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.1,100.0,Inf,0.0
+108,2023-10-16,2023-10-20,491332,train,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+109,2023-10-23,2023-10-27,450450,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.8,0.0,0.0,0.0
+110,2023-10-30,2023-11-03,488898,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+111,2023-11-06,2023-11-10,410738,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+112,2023-11-13,2023-11-17,427943,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+113,2023-11-20,2023-11-24,380125,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+114,2023-11-27,2023-12-01,516569,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+115,2023-12-04,2023-12-08,555913,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.1,100.0,Inf,0.0
+116,2023-12-11,2023-12-15,583250,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+117,2023-12-18,2023-12-22,522868,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.1,100.0,Inf,0.0
+118,2023-12-25,2023-12-29,328613,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-20.7,0.0,0.0,0.0
+119,2024-01-01,2024-01-05,437837,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.1,100.0,Inf,0.0
+120,2024-01-08,2024-01-12,483248,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.3,0.0,0.0,0.0
+121,2024-01-15,2024-01-19,474792,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+122,2024-01-22,2024-01-26,460930,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+123,2024-01-29,2024-02-02,530583,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+124,2024-02-05,2024-02-09,427930,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+125,2024-02-12,2024-02-16,416963,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+126,2024-02-19,2024-02-23,351563,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+127,2024-02-26,2024-03-01,345494,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+128,2024-03-04,2024-03-08,358169,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.1,100.0,Inf,0.0
+129,2024-03-11,2024-03-15,356850,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+130,2024-03-18,2024-03-22,353105,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+131,2024-03-25,2024-03-29,319499,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+132,2024-04-01,2024-04-05,320122,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+133,2024-04-08,2024-04-12,363390,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+134,2024-04-15,2024-04-19,410373,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+135,2024-04-22,2024-04-26,300509,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+136,2024-04-29,2024-05-03,391073,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+137,2024-05-06,2024-05-10,240631,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.6,0.0,0.0,0.0
+138,2024-05-13,2024-05-17,242575,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+139,2024-05-20,2024-05-24,244283,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.4,100.0,Inf,0.0
+140,2024-05-27,2024-05-31,272338,train,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+141,2024-06-03,2024-06-07,320328,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+142,2024-06-10,2024-06-14,373303,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.1,100.0,Inf,0.0
+143,2024-06-17,2024-06-21,303407,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+144,2024-06-24,2024-06-28,317301,train,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+145,2024-07-01,2024-07-05,281396,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+146,2024-07-08,2024-07-12,310322,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+147,2024-07-15,2024-07-19,319606,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+148,2024-07-22,2024-07-26,323852,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+149,2024-07-29,2024-08-02,416947,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+150,2024-08-05,2024-08-09,578389,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+151,2024-08-12,2024-08-16,307022,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+152,2024-08-19,2024-08-23,360166,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+153,2024-08-26,2024-08-30,380784,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+154,2024-09-02,2024-09-06,392687,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+155,2024-09-09,2024-09-13,372952,train,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+156,2024-09-16,2024-09-20,461938,train,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.1,100.0,Inf,0.0
+157,2024-09-23,2024-09-27,455814,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+158,2024-09-30,2024-10-04,466207,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+159,2024-10-07,2024-10-11,392615,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+160,2024-10-14,2024-10-18,340404,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+161,2024-10-21,2024-10-25,333268,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.2,100.0,Inf,0.0
+162,2024-10-28,2024-11-01,402255,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+163,2024-11-04,2024-11-08,618293,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+164,2024-11-11,2024-11-15,508267,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+165,2024-11-18,2024-11-22,519572,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.5,0.0,0.0,0.0
+166,2024-11-25,2024-11-29,574123,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+167,2024-12-02,2024-12-06,564478,test,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+168,2024-12-09,2024-12-13,475108,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+169,2024-12-16,2024-12-20,503681,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+170,2024-12-23,2024-12-27,260254,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+171,2024-12-30,2025-01-03,330207,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+172,2025-01-06,2025-01-10,504165,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+173,2025-01-13,2025-01-17,497875,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+174,2025-01-20,2025-01-24,531123,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.1,100.0,Inf,0.0
+175,2025-01-27,2025-01-31,564805,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+176,2025-02-03,2025-02-07,620180,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.4,0.0,0.0,0.0
+177,2025-02-10,2025-02-14,479840,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+178,2025-02-17,2025-02-21,379284,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+179,2025-02-24,2025-02-28,545625,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+180,2025-03-03,2025-03-07,757198,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+181,2025-03-10,2025-03-14,618305,test,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+182,2025-03-17,2025-03-21,420964,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+183,2025-03-24,2025-03-28,424443,test,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+184,2025-03-31,2025-04-04,777302,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+185,2025-04-07,2025-04-11,1384857,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+186,2025-04-14,2025-04-18,778436,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+187,2025-04-21,2025-04-25,673141,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+188,2025-04-28,2025-05-02,540080,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.7,0.0,0.0,0.0
+189,2025-05-05,2025-05-09,551873,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+190,2025-05-12,2025-05-16,557707,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+191,2025-05-19,2025-05-23,547474,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+192,2025-05-26,2025-05-30,514130,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+193,2025-06-02,2025-06-06,495661,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.2,100.0,Inf,0.0
+194,2025-06-09,2025-06-13,451573,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+195,2025-06-16,2025-06-20,481144,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+196,2025-06-23,2025-06-27,470127,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+197,2025-06-30,2025-07-04,357758,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+198,2025-07-07,2025-07-11,324813,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.5,100.0,Inf,0.0
+199,2025-07-14,2025-07-18,335188,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+200,2025-07-21,2025-07-25,302690,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+201,2025-07-28,2025-08-01,408886,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+202,2025-08-04,2025-08-08,328168,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+203,2025-08-11,2025-08-15,329838,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+204,2025-08-18,2025-08-22,275092,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+205,2025-08-25,2025-08-29,286324,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+206,2025-09-01,2025-09-05,319884,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+207,2025-09-08,2025-09-12,319380,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.3,100.0,Inf,0.0
+208,2025-09-15,2025-09-19,376717,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.1,100.0,Inf,0.0
+209,2025-09-22,2025-09-26,335093,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+210,2025-09-29,2025-10-03,327783,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.1,100.0,Inf,0.0
+211,2025-10-06,2025-10-10,329286,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+212,2025-10-13,2025-10-17,350572,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+213,2025-10-20,2025-10-24,281828,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+214,2025-10-27,2025-10-31,297843,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-16.1,0.0,0.0,0.0
+215,2025-11-03,2025-11-07,273169,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.2,100.0,Inf,0.0
+216,2025-11-10,2025-11-14,270691,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+217,2025-11-17,2025-11-21,314838,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+218,2025-11-24,2025-11-28,355828,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.1,100.0,Inf,0.0
+219,2025-12-01,2025-12-05,276400,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+220,2025-12-08,2025-12-12,304175,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+221,2025-12-15,2025-12-19,318945,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+222,2025-12-22,2025-12-26,222330,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+223,2025-12-29,2026-01-02,213620,test,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+224,2026-01-05,2026-01-09,280259,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+225,2026-01-12,2026-01-16,264192,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+226,2026-01-19,2026-01-23,323332,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+227,2026-01-26,2026-01-30,566217,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+228,2026-02-02,2026-02-06,406486,test,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+229,2026-02-09,2026-02-13,356037,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.1,100.0,Inf,0.0
+230,2026-02-16,2026-02-20,264110,test,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+231,2026-02-23,2026-02-27,284997,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+232,2026-03-02,2026-03-06,636433,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-16.4,0.0,0.0,0.0
+233,2026-03-09,2026-03-13,604058,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+234,2026-03-16,2026-03-20,504489,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+235,2026-03-23,2026-03-27,632349,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.1,100.0,Inf,0.0
+236,2026-03-30,2026-04-03,457136,test,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+237,2026-04-06,2026-04-10,478507,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+238,2026-04-13,2026-04-17,376495,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+239,2026-04-20,2026-04-24,418545,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+240,2026-04-27,2026-05-01,450762,test,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+241,2026-05-04,2026-05-08,463785,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+242,2026-05-11,2026-05-15,284816,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+243,2026-05-18,2026-05-22,333098,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+244,2026-05-25,2026-05-29,252573,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+245,2026-06-01,2026-06-05,268764,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+246,2026-06-08,2026-06-12,382318,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+247,2026-06-15,2026-06-19,311560,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.5,0.0,0.0,0.0
+248,2026-06-22,2026-06-26,314112,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+249,2026-06-29,2026-07-03,315634,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+250,2026-07-06,2026-07-10,271547,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+251,2026-07-13,2026-07-17,317137,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+252,2026-07-20,2026-07-24,237779,test,S34_HA,S34 Heikin Ashi Momentum Elite,0,0.0,0.0,0.0,0.0
+253,2026-07-27,2026-07-31,340571,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+254,2026-08-03,2026-08-07,258550,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.3,100.0,Inf,0.0
+255,2026-08-10,2026-08-14,203137,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+256,2026-08-17,2026-08-21,279265,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.2,100.0,Inf,0.0
+257,2026-08-24,2026-08-28,246477,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+258,2026-08-31,2026-09-04,275495,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.1,0.0,0.0,0.0
+259,2026-09-07,2026-09-11,274509,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.2,0.0,0.0,0.0
+260,2026-09-14,2026-09-18,306514,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.2,100.0,Inf,0.0
+261,2026-09-21,2026-09-25,331517,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,-15.0,0.0,0.0,0.0
+262,2026-09-28,2026-10-01,231329,test,S34_HA,S34 Heikin Ashi Momentum Elite,1,42.0,100.0,Inf,0.0
+1,2021-10-01,2021-10-01,66064,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+2,2021-10-04,2021-10-08,251914,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-19.5,0.0,0.0,0.0
+3,2021-10-11,2021-10-15,240306,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-19.0,0.0,0.0,0.0
+4,2021-10-18,2021-10-22,250266,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-20.9,0.0,0.0,0.0
+5,2021-10-25,2021-10-29,303849,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-13.2,0.0,0.0,0.0
+6,2021-11-01,2021-11-05,301718,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,45.7,100.0,Inf,0.0
+7,2021-11-08,2021-11-12,267525,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+8,2021-11-15,2021-11-19,301280,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+9,2021-11-22,2021-11-26,375637,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,44.8,100.0,Inf,0.0
+10,2021-11-29,2021-12-03,433065,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+11,2021-12-06,2021-12-10,277143,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+12,2021-12-13,2021-12-17,327420,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-21.1,0.0,0.0,0.0
+13,2021-12-20,2021-12-24,328794,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,32.2,100.0,Inf,0.0
+14,2021-12-27,2021-12-31,198768,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+15,2022-01-03,2022-01-07,326373,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,42.2,100.0,Inf,0.0
+16,2022-01-10,2022-01-14,313064,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+17,2022-01-17,2022-01-21,304075,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-17.6,0.0,0.0,0.0
+18,2022-01-24,2022-01-28,372229,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,50.2,100.0,Inf,0.0
+19,2022-01-31,2022-02-04,368949,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+20,2022-02-07,2022-02-11,374602,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,30.4,100.0,Inf,0.0
+21,2022-02-14,2022-02-18,394600,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-16.3,0.0,0.0,0.0
+22,2022-02-21,2022-02-25,496594,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+23,2022-02-28,2022-03-04,591300,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+24,2022-03-07,2022-03-11,758799,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+25,2022-03-14,2022-03-18,545368,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-16.4,0.0,0.0,0.0
+26,2022-03-21,2022-03-25,427901,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+27,2022-03-28,2022-04-01,532184,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+28,2022-04-04,2022-04-08,373379,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+29,2022-04-11,2022-04-15,497788,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+30,2022-04-18,2022-04-22,456005,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+31,2022-04-25,2022-04-29,595013,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+32,2022-05-02,2022-05-06,622942,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+33,2022-05-09,2022-05-13,670192,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-21.7,0.0,0.0,0.0
+34,2022-05-16,2022-05-20,553411,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+35,2022-05-23,2022-05-27,472900,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+36,2022-05-30,2022-06-03,393119,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+37,2022-06-06,2022-06-10,457562,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-17.8,0.0,0.0,0.0
+38,2022-06-13,2022-06-17,797815,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+39,2022-06-20,2022-06-24,549879,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+40,2022-06-27,2022-07-01,589977,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+41,2022-07-04,2022-07-08,610719,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+42,2022-07-11,2022-07-15,729233,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+43,2022-07-18,2022-07-22,721893,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+44,2022-07-25,2022-07-29,713887,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+45,2022-08-01,2022-08-05,870781,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+46,2022-08-08,2022-08-12,670778,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+47,2022-08-15,2022-08-19,667944,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,56.7,100.0,Inf,0.0
+48,2022-08-22,2022-08-26,747556,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+49,2022-08-29,2022-09-02,842425,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+50,2022-09-05,2022-09-09,836393,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+51,2022-09-12,2022-09-16,848810,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+52,2022-09-19,2022-09-23,908032,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+53,2022-09-26,2022-09-30,1318753,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+54,2022-10-03,2022-10-07,969648,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+55,2022-10-10,2022-10-14,1081116,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,61.0,100.0,Inf,0.0
+56,2022-10-17,2022-10-21,1051001,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+57,2022-10-24,2022-10-28,995862,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+58,2022-10-31,2022-11-04,941719,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+59,2022-11-07,2022-11-11,984513,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+60,2022-11-14,2022-11-18,1059083,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+61,2022-11-21,2022-11-25,727070,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+62,2022-11-28,2022-12-02,990766,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+63,2022-12-05,2022-12-09,823278,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+64,2022-12-12,2022-12-16,836394,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,48.3,100.0,Inf,0.0
+65,2022-12-19,2022-12-23,726294,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+66,2022-12-26,2022-12-30,516263,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-15.2,0.0,0.0,0.0
+67,2023-01-02,2023-01-06,703639,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+68,2023-01-09,2023-01-13,746714,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,56.6,100.0,Inf,0.0
+69,2023-01-16,2023-01-20,654895,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+70,2023-01-23,2023-01-27,563153,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+71,2023-01-30,2023-02-03,697934,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+72,2023-02-06,2023-02-10,631034,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,40.6,100.0,Inf,0.0
+73,2023-02-13,2023-02-17,670051,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+74,2023-02-20,2023-02-24,590853,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+75,2023-02-27,2023-03-03,617674,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+76,2023-03-06,2023-03-10,670303,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+77,2023-03-13,2023-03-17,1008651,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+78,2023-03-20,2023-03-24,729988,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+79,2023-03-27,2023-03-31,517033,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+80,2023-04-03,2023-04-07,428286,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-13.3,0.0,0.0,0.0
+81,2023-04-10,2023-04-14,437067,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+82,2023-04-17,2023-04-21,424407,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-17.4,0.0,0.0,0.0
+83,2023-04-24,2023-04-28,515072,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+84,2023-05-01,2023-05-05,531787,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+85,2023-05-08,2023-05-12,446339,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+86,2023-05-15,2023-05-19,462221,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+87,2023-05-22,2023-05-26,512535,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,42.6,100.0,Inf,0.0
+88,2023-05-29,2023-06-02,459486,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+89,2023-06-05,2023-06-09,400200,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+90,2023-06-12,2023-06-16,462272,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,49.7,100.0,Inf,0.0
+91,2023-06-19,2023-06-23,458548,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-12.5,0.0,0.0,0.0
+92,2023-06-26,2023-06-30,459922,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+93,2023-07-03,2023-07-07,429207,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+94,2023-07-10,2023-07-14,489669,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+95,2023-07-17,2023-07-21,454186,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-19.4,0.0,0.0,0.0
+96,2023-07-24,2023-07-28,576515,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+97,2023-07-31,2023-08-04,530942,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-16.9,0.0,0.0,0.0
+98,2023-08-07,2023-08-11,463097,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-17.5,0.0,0.0,0.0
+99,2023-08-14,2023-08-18,488279,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,53.4,100.0,Inf,0.0
+100,2023-08-21,2023-08-25,438673,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-13.4,0.0,0.0,0.0
+101,2023-08-28,2023-09-01,420793,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+102,2023-09-04,2023-09-08,348926,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-21.4,0.0,0.0,0.0
+103,2023-09-11,2023-09-15,396599,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-20.4,0.0,0.0,0.0
+104,2023-09-18,2023-09-22,362967,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-17.2,0.0,0.0,0.0
+105,2023-09-25,2023-09-29,419080,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+106,2023-10-02,2023-10-06,501258,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+107,2023-10-09,2023-10-13,520184,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+108,2023-10-16,2023-10-20,491332,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+109,2023-10-23,2023-10-27,450450,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-13.8,0.0,0.0,0.0
+110,2023-10-30,2023-11-03,488898,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+111,2023-11-06,2023-11-10,410738,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-21.9,0.0,0.0,0.0
+112,2023-11-13,2023-11-17,427943,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-21.6,0.0,0.0,0.0
+113,2023-11-20,2023-11-24,380125,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+114,2023-11-27,2023-12-01,516569,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,50.8,100.0,Inf,0.0
+115,2023-12-04,2023-12-08,555913,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,41.1,100.0,Inf,0.0
+116,2023-12-11,2023-12-15,583250,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+117,2023-12-18,2023-12-22,522868,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+118,2023-12-25,2023-12-29,328613,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+119,2024-01-01,2024-01-05,437837,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,56.2,100.0,Inf,0.0
+120,2024-01-08,2024-01-12,483248,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-17.4,0.0,0.0,0.0
+121,2024-01-15,2024-01-19,474792,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+122,2024-01-22,2024-01-26,460930,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+123,2024-01-29,2024-02-02,530583,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+124,2024-02-05,2024-02-09,427930,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-12.9,0.0,0.0,0.0
+125,2024-02-12,2024-02-16,416963,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,26.8,100.0,Inf,0.0
+126,2024-02-19,2024-02-23,351563,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-10.1,0.0,0.0,0.0
+127,2024-02-26,2024-03-01,345494,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-12.5,0.0,0.0,0.0
+128,2024-03-04,2024-03-08,358169,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,40.5,100.0,Inf,0.0
+129,2024-03-11,2024-03-15,356850,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,35.0,100.0,Inf,0.0
+130,2024-03-18,2024-03-22,353105,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-21.9,0.0,0.0,0.0
+131,2024-03-25,2024-03-29,319499,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-15.3,0.0,0.0,0.0
+132,2024-04-01,2024-04-05,320122,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+133,2024-04-08,2024-04-12,363390,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,44.6,100.0,Inf,0.0
+134,2024-04-15,2024-04-19,410373,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+135,2024-04-22,2024-04-26,300509,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-17.0,0.0,0.0,0.0
+136,2024-04-29,2024-05-03,391073,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-22.0,0.0,0.0,0.0
+137,2024-05-06,2024-05-10,240631,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-17.9,0.0,0.0,0.0
+138,2024-05-13,2024-05-17,242575,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,49.8,100.0,Inf,0.0
+139,2024-05-20,2024-05-24,244283,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,61.4,100.0,Inf,0.0
+140,2024-05-27,2024-05-31,272338,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+141,2024-06-03,2024-06-07,320328,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-17.4,0.0,0.0,0.0
+142,2024-06-10,2024-06-14,373303,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+143,2024-06-17,2024-06-21,303407,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+144,2024-06-24,2024-06-28,317301,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-13.0,0.0,0.0,0.0
+145,2024-07-01,2024-07-05,281396,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+146,2024-07-08,2024-07-12,310322,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+147,2024-07-15,2024-07-19,319606,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,42.9,100.0,Inf,0.0
+148,2024-07-22,2024-07-26,323852,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,42.5,100.0,Inf,0.0
+149,2024-07-29,2024-08-02,416947,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,59.7,100.0,Inf,0.0
+150,2024-08-05,2024-08-09,578389,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-11.9,0.0,0.0,0.0
+151,2024-08-12,2024-08-16,307022,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,54.1,100.0,Inf,0.0
+152,2024-08-19,2024-08-23,360166,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,56.2,100.0,Inf,0.0
+153,2024-08-26,2024-08-30,380784,train,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+154,2024-09-02,2024-09-06,392687,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,-8.6,0.0,0.0,0.0
+155,2024-09-09,2024-09-13,372952,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,32.9,100.0,Inf,0.0
+156,2024-09-16,2024-09-20,461938,train,S66_44MA,S66 Bhanushali 44 MA Elite,1,60.0,100.0,Inf,0.0
+157,2024-09-23,2024-09-27,455814,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+158,2024-09-30,2024-10-04,466207,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+159,2024-10-07,2024-10-11,392615,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-20.8,0.0,0.0,0.0
+160,2024-10-14,2024-10-18,340404,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+161,2024-10-21,2024-10-25,333268,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,34.3,100.0,Inf,0.0
+162,2024-10-28,2024-11-01,402255,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-17.6,0.0,0.0,0.0
+163,2024-11-04,2024-11-08,618293,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+164,2024-11-11,2024-11-15,508267,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+165,2024-11-18,2024-11-22,519572,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+166,2024-11-25,2024-11-29,574123,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-21.0,0.0,0.0,0.0
+167,2024-12-02,2024-12-06,564478,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+168,2024-12-09,2024-12-13,475108,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+169,2024-12-16,2024-12-20,503681,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-15.1,0.0,0.0,0.0
+170,2024-12-23,2024-12-27,260254,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-15.8,0.0,0.0,0.0
+171,2024-12-30,2025-01-03,330207,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+172,2025-01-06,2025-01-10,504165,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-21.8,0.0,0.0,0.0
+173,2025-01-13,2025-01-17,497875,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-21.7,0.0,0.0,0.0
+174,2025-01-20,2025-01-24,531123,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+175,2025-01-27,2025-01-31,564805,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-15.8,0.0,0.0,0.0
+176,2025-02-03,2025-02-07,620180,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-18.7,0.0,0.0,0.0
+177,2025-02-10,2025-02-14,479840,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+178,2025-02-17,2025-02-21,379284,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-12.2,0.0,0.0,0.0
+179,2025-02-24,2025-02-28,545625,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+180,2025-03-03,2025-03-07,757198,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+181,2025-03-10,2025-03-14,618305,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+182,2025-03-17,2025-03-21,420964,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+183,2025-03-24,2025-03-28,424443,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-20.6,0.0,0.0,0.0
+184,2025-03-31,2025-04-04,777302,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-15.5,0.0,0.0,0.0
+185,2025-04-07,2025-04-11,1384857,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+186,2025-04-14,2025-04-18,778436,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,43.6,100.0,Inf,0.0
+187,2025-04-21,2025-04-25,673141,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+188,2025-04-28,2025-05-02,540080,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+189,2025-05-05,2025-05-09,551873,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+190,2025-05-12,2025-05-16,557707,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-14.4,0.0,0.0,0.0
+191,2025-05-19,2025-05-23,547474,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+192,2025-05-26,2025-05-30,514130,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+193,2025-06-02,2025-06-06,495661,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+194,2025-06-09,2025-06-13,451573,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-15.7,0.0,0.0,0.0
+195,2025-06-16,2025-06-20,481144,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-21.0,0.0,0.0,0.0
+196,2025-06-23,2025-06-27,470127,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+197,2025-06-30,2025-07-04,357758,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-17.7,0.0,0.0,0.0
+198,2025-07-07,2025-07-11,324813,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,60.6,100.0,Inf,0.0
+199,2025-07-14,2025-07-18,335188,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+200,2025-07-21,2025-07-25,302690,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-14.4,0.0,0.0,0.0
+201,2025-07-28,2025-08-01,408886,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,59.7,100.0,Inf,0.0
+202,2025-08-04,2025-08-08,328168,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+203,2025-08-11,2025-08-15,329838,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+204,2025-08-18,2025-08-22,275092,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,61.5,100.0,Inf,0.0
+205,2025-08-25,2025-08-29,286324,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-20.0,0.0,0.0,0.0
+206,2025-09-01,2025-09-05,319884,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-19.0,0.0,0.0,0.0
+207,2025-09-08,2025-09-12,319380,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-18.0,0.0,0.0,0.0
+208,2025-09-15,2025-09-19,376717,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+209,2025-09-22,2025-09-26,335093,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+210,2025-09-29,2025-10-03,327783,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,42.5,100.0,Inf,0.0
+211,2025-10-06,2025-10-10,329286,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+212,2025-10-13,2025-10-17,350572,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+213,2025-10-20,2025-10-24,281828,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,57.0,100.0,Inf,0.0
+214,2025-10-27,2025-10-31,297843,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-19.9,0.0,0.0,0.0
+215,2025-11-03,2025-11-07,273169,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+216,2025-11-10,2025-11-14,270691,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,41.6,100.0,Inf,0.0
+217,2025-11-17,2025-11-21,314838,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,42.3,100.0,Inf,0.0
+218,2025-11-24,2025-11-28,355828,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,55.8,100.0,Inf,0.0
+219,2025-12-01,2025-12-05,276400,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,44.9,100.0,Inf,0.0
+220,2025-12-08,2025-12-12,304175,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+221,2025-12-15,2025-12-19,318945,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-19.4,0.0,0.0,0.0
+222,2025-12-22,2025-12-26,222330,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,61.5,100.0,Inf,0.0
+223,2025-12-29,2026-01-02,213620,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,54.2,100.0,Inf,0.0
+224,2026-01-05,2026-01-09,280259,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+225,2026-01-12,2026-01-16,264192,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-16.9,0.0,0.0,0.0
+226,2026-01-19,2026-01-23,323332,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+227,2026-01-26,2026-01-30,566217,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+228,2026-02-02,2026-02-06,406486,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-12.4,0.0,0.0,0.0
+229,2026-02-09,2026-02-13,356037,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-21.5,0.0,0.0,0.0
+230,2026-02-16,2026-02-20,264110,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,48.6,100.0,Inf,0.0
+231,2026-02-23,2026-02-27,284997,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-20.0,0.0,0.0,0.0
+232,2026-03-02,2026-03-06,636433,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-17.4,0.0,0.0,0.0
+233,2026-03-09,2026-03-13,604058,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+234,2026-03-16,2026-03-20,504489,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+235,2026-03-23,2026-03-27,632349,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+236,2026-03-30,2026-04-03,457136,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+237,2026-04-06,2026-04-10,478507,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+238,2026-04-13,2026-04-17,376495,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,50.9,100.0,Inf,0.0
+239,2026-04-20,2026-04-24,418545,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+240,2026-04-27,2026-05-01,450762,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-12.9,0.0,0.0,0.0
+241,2026-05-04,2026-05-08,463785,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+242,2026-05-11,2026-05-15,284816,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+243,2026-05-18,2026-05-22,333098,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-21.3,0.0,0.0,0.0
+244,2026-05-25,2026-05-29,252573,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+245,2026-06-01,2026-06-05,268764,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,51.7,100.0,Inf,0.0
+246,2026-06-08,2026-06-12,382318,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-13.3,0.0,0.0,0.0
+247,2026-06-15,2026-06-19,311560,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-15.5,0.0,0.0,0.0
+248,2026-06-22,2026-06-26,314112,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,56.9,100.0,Inf,0.0
+249,2026-06-29,2026-07-03,315634,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+250,2026-07-06,2026-07-10,271547,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+251,2026-07-13,2026-07-17,317137,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+252,2026-07-20,2026-07-24,237779,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-20.0,0.0,0.0,0.0
+253,2026-07-27,2026-07-31,340571,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-20.6,0.0,0.0,0.0
+254,2026-08-03,2026-08-07,258550,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-10.8,0.0,0.0,0.0
+255,2026-08-10,2026-08-14,203137,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-18.3,0.0,0.0,0.0
+256,2026-08-17,2026-08-21,279265,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+257,2026-08-24,2026-08-28,246477,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,39.4,100.0,Inf,0.0
+258,2026-08-31,2026-09-04,275495,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,-19.7,0.0,0.0,0.0
+259,2026-09-07,2026-09-11,274509,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+260,2026-09-14,2026-09-18,306514,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,53.5,100.0,Inf,0.0
+261,2026-09-21,2026-09-25,331517,test,S66_44MA,S66 Bhanushali 44 MA Elite,0,0.0,0.0,0.0,0.0
+262,2026-09-28,2026-10-01,231329,test,S66_44MA,S66 Bhanushali 44 MA Elite,1,44.5,100.0,Inf,0.0

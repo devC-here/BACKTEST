@@ -1,0 +1,110 @@
+{
+  "EURUSD_EMA_CROSS_ATR_BAND_EXPANSION": {
+    "trades": 550,
+    "win_rate": 44.4,
+    "pf": 1.6,
+    "net_pips": 1573.1,
+    "max_dd": 121.9,
+    "ret_dd": 12.9,
+    "expectancy": 2.86
+  },
+  "EURUSD_PIVOT_R1_S1_BREAKOUT_DRIVE": {
+    "trades": 257,
+    "win_rate": 28.4,
+    "pf": 0.78,
+    "net_pips": -351.5,
+    "max_dd": 385.1,
+    "ret_dd": -0.91,
+    "expectancy": -1.37
+  },
+  "EURUSD_CONSECUTIVE_THREE_DRIVE_IGNITION": {
+    "trades": 561,
+    "win_rate": 36.2,
+    "pf": 1.12,
+    "net_pips": 378.4,
+    "max_dd": 200.8,
+    "ret_dd": 1.88,
+    "expectancy": 0.67
+  },
+  "EURUSD_ASIA_RANGE_HIGH_LOW_RETEST_IGNITION": {
+    "trades": 241,
+    "win_rate": 37.8,
+    "pf": 1.18,
+    "net_pips": 243.0,
+    "max_dd": 156.8,
+    "ret_dd": 1.55,
+    "expectancy": 1.01
+  },
+  "USDJPY_EMA_CROSS_ATR_BAND_EXPANSION": {
+    "trades": 538,
+    "win_rate": 37.2,
+    "pf": 1.16,
+    "net_pips": 675.4,
+    "max_dd": 357.0,
+    "ret_dd": 1.89,
+    "expectancy": 1.26
+  },
+  "USDJPY_PIVOT_R1_S1_BREAKOUT_DRIVE": {
+    "trades": 332,
+    "win_rate": 43.1,
+    "pf": 1.49,
+    "net_pips": 1130.6,
+    "max_dd": 172.5,
+    "ret_dd": 6.55,
+    "expectancy": 3.41
+  },
+  "USDJPY_CONSECUTIVE_THREE_DRIVE_IGNITION": {
+    "trades": 589,
+    "win_rate": 38.0,
+    "pf": 1.21,
+    "net_pips": 934.5,
+    "max_dd": 289.9,
+    "ret_dd": 3.22,
+    "expectancy": 1.59
+  },
+  "USDJPY_ASIA_RANGE_HIGH_LOW_RETEST_IGNITION": {
+    "trades": 203,
+    "win_rate": 36.9,
+    "pf": 1.17,
+    "net_pips": 263.0,
+    "max_dd": 223.1,
+    "ret_dd": 1.18,
+    "expectancy": 1.3
+  },
+  "EURGBP_EMA_CROSS_ATR_BAND_EXPANSION": {
+    "trades": 315,
+    "win_rate": 32.1,
+    "pf": 0.89,
+    "net_pips": -168.0,
+    "max_dd": 334.8,
+    "ret_dd": -0.5,
+    "expectancy": -0.53
+  },
+  "EURGBP_PIVOT_R1_S1_BREAKOUT_DRIVE": {
+    "trades": 180,
+    "win_rate": 27.2,
+    "pf": 0.71,
+    "net_pips": -272.6,
+    "max_dd": 334.9,
+    "ret_dd": -0.81,
+    "expectancy": -1.51
+  },
+  "EURGBP_CONSECUTIVE_THREE_DRIVE_IGNITION": {
+    "trades": 308,
+    "win_rate": 30.2,
+    "pf": 0.83,
+    "net_pips": -263.0,
+    "max_dd": 435.6,
+    "ret_dd": -0.6,
+    "expectancy": -0.85
+  },
+  "EURGBP_ASIA_RANGE_HIGH_LOW_RETEST_IGNITION": {
+    "trades": 235,
+    "win_rate": 33.6,
+    "pf": 1.0,
+    "net_pips": 3.0,
+    "max_dd": 116.2,
+    "ret_dd": 0.03,
+    "expectancy": 0.01
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "manifest_version": "1.0.0",
+  "timestamp_utc": "2026-11-10T17:10:13.154473+00:00",
+  "certification_status": "NON_CERTIFIED",
+  "strategy": {
+    "name": "eurusd_disc42_macro_structure_h4_m30_elite",
+    "filename": "strategy.py",
+    "code_sha256": "8eab1f942e47ca6f2b3240e05a0a31f478bce5478757249412a3ce6536c1b437"
+  },
+  "engine": {
+    "version": "tick_engine_v1.0",
+    "engine_code_sha256": "bb2bd29a622b7f60bd29b360d27aab6377446e7eb84321c296194418628c3e5d",
+    "loader_code_sha256": "c73bd4710e36590ad36d00b8a32516245c512a452880061b9b782fb7447a77cc",
+    "order_timing_contract": "Strict Bar-Close Subsequent-Tick Execution",
+    "timezone": "UTC"
+  },
+  "dataset": {
+    "symbol": "EURUSD",
+    "pip_size": 0.0001,
+    "split_standard": "canonical_continuous_v1.0 (In-Sample: 1..210, Holdout: 211..300)",
+    "start_week": 211,
+    "end_week": 300,
+    "data_quality_gate": "PASSED (80h min span, monotonic timestamps, ask>=bid)",
+    "warmup_ticks_causal": 100000
+  },
+  "pricing_friction": {
+    "spread_model": "Floating Raw Dukascopy Bid/Ask",
+    "commission_pips": 0.4,
+    "entry_slippage_pips": 0.2,
+    "dollar_per_lot_commission": 4.0
+  },
+  "multiple_testing": {
+    "candidates_screened": 40,
+    "bonferroni_adjusted_significance": false
+  },
+  "statistical_metrics": {
+    "total_trades": 14,
+    "net_pips": 106.9,
+    "win_rate_pct": 71.4,
+    "profit_factor": 3.53,
+    "expectancy_pips": 7.64,
+    "expectancy_std_err": 3.19,
+    "expectancy_ci_95": [
+      1.37,
+      13.9
+    ],
+    "t_statistic": 2.39,
+    "p_value": 0.0168,
+    "bonferroni_p_threshold": 0.00125,
+    "is_statistically_significant": false,
+    "max_drawdown_pips": 21.1,
+    "worst_month_pips": -10.7,
+    "bootstrap_95_max_dd_pips": 42.1,
+    "outlier_sensitivity": {
+      "pips_ex_top1": 89.9,
+      "pips_ex_top3": 60.2,
+      "pips_ex_top5": 30.8,
+      "is_outlier_dependent": false
+    }
+  },
+  "trade_log": [
+    {
+      "signal_time": 1737648000017,
+      "entry_time": 1737648000131,
+      "latency_ms": 114,
+      "exit_time": 1737648699371,
+      "signal_utc": "2025-01-23 16:00:00.017000",
+      "entry_utc": "2025-01-23 16:00:00.131000",
+      "exit_utc": "2025-01-23 16:11:39.371000",
+      "direction": 1,
+      "entry_price": 1.03979,
+      "exit_price": 1.03876,
+      "pips": -10.7,
+      "exit_reason": 1
+    },
+    {
+      "signal_time": 1740474000376,
+      "entry_time": 1740474000482,
+      "latency_ms": 106,
+      "exit_time": 1740483380284,
+      "signal_utc": "2025-02-25 09:00:00.376000",
+      "entry_utc": "2025-02-25 09:00:00.482000",
+      "exit_utc": "2025-02-25 11:36:20.284000",
+      "direction": 1,
+      "entry_price": 1.0471,
+      "exit_price": 1.0486,
+      "pips": 14.6,
+      "exit_reason": 2
+    },
+    {
+      "signal_time": 1751468400075,
+      "entry_time": 1751468400180,
+      "latency_ms": 105,
+      "exit_time": 1751469821960,
+      "signal_utc": "2025-07-02 15:00:00.075000",
+      "entry_utc": "2025-07-02 15:00:00.180000",
+      "exit_utc": "2025-07-02 15:23:41.960000",
+      "direction": 1,
+      "entry_price": 1.17675,
+      "exit_price": 1.17826,
+      "pips": 14.7,
+      "exit_reason": 2
+    },
+    {
+      "signal_time": 1754398800079,
+      "entry_time": 1754398800184,
+      "latency_ms": 105,
+      "exit_time": 1754400614672,
+      "signal_utc": "2025-08-05 13:00:00.079000",
+      "entry_utc": "2025-08-05 13:00:00.184000",
+      "exit_utc": "2025-08-05 13:30:14.672000",
+      "direction": 1,
+      "entry_price": 1.15378,
+      "exit_price": 1.15529,
+      "pips": 14.7,
+      "exit_reason": 2
+    },
+    {
+      "signal_time": 1759338000071,
+      "entry_time": 1759338000176,
+      "latency_ms": 105,
+      "exit_time": 1759343449385,
+      "signal_utc": "2025-10-01 17:00:00.071000",
+      "entry_utc": "2025-10-01 17:00:00.176000",
+      "exit_utc": "2025-10-01 18:30:49.385000",
+      "direction": 1,
+      "entry_price": 1.17233,
+      "exit_price": 1.17385,
+      "pips": 14.8,
+      "exit_reason": 2
+    },
+    {
+      "signal_time": 1761726602394,
+      "entry_time": 1761726602501,
+      "latency_ms": 107,
+      "exit_time": 1761728393840,
+      "signal_utc": "2025-10-29 08:30:02.394000",
+      "entry_utc": "2025-10-29 08:30:02.501000",
+      "exit_utc": "2025-10-29 08:59:53.840000",
+      "direction": 1,
+      "entry_price": 1.16335,
+      "exit_price": 1.16234,
+      "pips": -10.5,
+      "exit_reason": 1
+    },
+    {
+      "signal_time": 1764936000006,
+      "entry_time": 1764936000110,
+      "latency_ms": 104,
+      "exit_time": 1764950996301,
+      "signal_utc": "2025-12-05 12:00:00.006000",
+      "entry_utc": "2025-12-05 12:00:00.110000",
+      "exit_utc": "2025-12-05 16:09:56.301000",
+      "direction": 1,
+      "entry_price": 1.16468,
+      "exit_price": 1.16366,
+      "pips": -10.6,
+      "exit_reason": 1
+    },
+    {
+      "signal_time": 1766737804022,
+      "entry_time": 1766737807034,
+      "latency_ms": 3012,
+      "exit_time": 1766754440401,
+      "signal_utc": "2025-12-26 08:30:04.022000",
+      "entry_utc": "2025-12-26 08:30:07.034000",
+      "exit_utc": "2025-12-26 13:07:20.401000",
+      "direction": 1,
+      "entry_price": 1.17749,
+      "exit_price": 1.17899,
+      "pips": 14.6,
+      "exit_reason": 2
+    },
+    {
+      "signal_time": 1767688200176,
+      "entry_time": 1767688200283,
+      "latency_ms": 107,
+      "exit_time": 1767691416893,
+      "signal_utc": "2026-01-06 08:30:00.176000",
+      "entry_utc": "2026-01-06 08:30:00.283000",
+      "exit_utc": "2026-01-06 09:23:36.893000",
+      "direction": -1,
+      "entry_price": 1.17278,
+      "exit_price": 1.17128,
+      "pips": 14.6,
+      "exit_reason": 2
+    },
+    {
+      "signal_time": 1770193800358,
+      "entry_time": 1770193800972,
+      "latency_ms": 614,
+      "exit_time": 1770198482336,
+      "signal_utc": "2026-02-04 08:30:00.358000",
+      "entry_utc": "2026-02-04 08:30:00.972000",
+      "exit_utc": "2026-02-04 09:48:02.336000",
+      "direction": -1,
+      "entry_price": 1.18295,
+      "exit_price": 1.18142,
+      "pips": 14.9,
+      "exit_reason": 2
+    },
+    {
+      "signal_time": 1781011800063,
+      "entry_time": 1781011800378,
+      "latency_ms": 315,
+      "exit_time": 1781019084721,
+      "signal_utc": "2026-06-09 13:30:00.063000",
+      "entry_utc": "2026-06-09 13:30:00.378000",
+      "exit_utc": "2026-06-09 15:31:24.721000",
+      "direction": -1,
+      "entry_price": 1.15721,
+      "exit_price": 1.15571,
+      "pips": 14.6,
+      "exit_reason": 2
+    },
+    {
+      "signal_time": 1786523400085,
+      "entry_time": 1786523400239,
+      "latency_ms": 154,
+      "exit_time": 1786537801007,
+      "signal_utc": "2026-08-12 08:30:00.085000",
+      "entry_utc": "2026-08-12 08:30:00.239000",
+      "exit_utc": "2026-08-12 12:30:01.007000",
+      "direction": 1,
+      "entry_price": 1.15382,
+      "exit_price": 1.15556,
+      "pips": 17.0,
+      "exit_reason": 2
+    },
+    {
+      "signal_time": 1789993800045,
+      "entry_time": 1789993800149,
+      "latency_ms": 104,
+      "exit_time": 1789998901805,
+      "signal_utc": "2026-09-21 12:30:00.045000",
+      "entry_utc": "2026-09-21 12:30:00.149000",
+      "exit_utc": "2026-09-21 13:55:01.805000",
+      "direction": -1,
+      "entry_price": 1.14874,
+      "exit_price": 1.14724,
+      "pips": 14.6,
+      "exit_reason": 2
+    },
+    {
+      "signal_time": 1790325000264,
+      "entry_time": 1790325002288,
+      "latency_ms": 2024,
+      "exit_time": 1790331003746,
+      "signal_utc": "2026-09-25 08:30:00.264000",
+      "entry_utc": "2026-09-25 08:30:02.288000",
+      "exit_utc": "2026-09-25 10:10:03.746000",
+      "direction": -1,
+      "entry_price": 1.13889,
+      "exit_price": 1.13989,
+      "pips": -10.4,
+      "exit_reason": 1
+    }
+  ],
+  "custom_metadata": {
+    "discovery_in_sample_metrics": {
+      "total_trades": 30,
+      "net_pips": 172.8,
+      "win_rate_pct": 63.3,
+      "profit_factor": 2.5,
+      "expectancy_pips": 5.76,
+      "expectancy_std_err": 2.31,
+      "expectancy_ci_95": [
+        1.23,
+        10.29
+      ],
+      "t_statistic": 2.49,
+      "p_value": 0.0128,
+      "bonferroni_p_threshold": 0.00125,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 21.0,
+      "worst_month_pips": -10.9,
+      "bootstrap_95_max_dd_pips": 59.9,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 149.3,
+        "pips_ex_top3": 119.4,
+        "pips_ex_top5": 90.0,
+        "is_outlier_dependent": false
+      }
+    },
+    "evaluation_time_seconds": 23.36,
+    "clean_weeks_holdout": 89,
+    "clean_weeks_discovery": 210,
+    "combined_net_pips": 279.7
+  }
+}

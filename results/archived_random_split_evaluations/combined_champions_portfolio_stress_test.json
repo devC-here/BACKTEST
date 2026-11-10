@@ -1,0 +1,11 @@
+{
+  "portfolio_total_trades": 2109,
+  "portfolio_total_pnl": 4318.6,
+  "portfolio_max_dd": 226.5,
+  "sum_individual_max_dds": 702.5,
+  "drawdown_diversification_benefit_pct": 67.8,
+  "weekly_return_cross_pair_correlation": -0.095,
+  "portfolio_mc_dd_p50": 177.6,
+  "portfolio_mc_dd_p95": 263.9,
+  "portfolio_mc_dd_p99": 317.7
+}

@@ -1,0 +1,2 @@
+asset,model,discovery_pips,discovery_pf,holdout_trades,holdout_win_rate,holdout_pf,holdout_pips,verdict
+EURUSD,MACRO_ALIGNED_ASIAN_PURGE,165.0,1.36,39,33.3,1.03,6.8,[FAILED HOLDOUT]

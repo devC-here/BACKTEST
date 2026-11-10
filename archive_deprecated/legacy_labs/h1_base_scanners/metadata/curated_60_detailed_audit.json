@@ -1,0 +1,1013 @@
+[
+  {
+    "id": 1,
+    "name": "ICT Breaker Block",
+    "short_name": "Breaker Block",
+    "trade_rules_sl": "Stop-Loss: rejection candle ke lowest wick ke neeche",
+    "trade_rules_tp": "1:2 Risk-to-Reward ratio",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "✅ Stop-Loss: rejection candle ke lowest wick ke neeche"
+    ],
+    "short_tp_raw": [
+      "✅ TP1: 1:1.5 se 1:2 RR pe 50% position close karo"
+    ],
+    "short_rr_raw": [
+      "✅ TP1: 1:1.5 se 1:2 RR pe 50% position close karo"
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 2,
+    "name": "H4 Order Block + H1 FVG",
+    "short_name": "Order Block",
+    "trade_rules_sl": "Breakeven: TP1 hit hote hi SL entry pe le aao",
+    "trade_rules_tp": "1:2 Risk-to-Reward ratio",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "✅ Stop-Loss: Broken resistance/support ke thoda neeche/upar",
+      "✅ Breakeven: TP1 hit hote hi SL entry pe le aao"
+    ],
+    "short_tp_raw": [
+      "✅ TP1: 1:3 RR pe 50% position close karo",
+      "✅ Breakeven: TP1 hit hote hi SL entry pe le aao",
+      "✅ TP2 (Runner): Baaki 50% position 8 EMA aur 14 EMA crossover tak trail karo"
+    ],
+    "short_rr_raw": [
+      "✅ TP1: 1:3 RR pe 50% position close karo"
+    ],
+    "short_be_raw": [
+      "✅ Breakeven: TP1 hit hote hi SL entry pe le aao",
+      "✅ TP2 (Runner): Baaki 50% position 8 EMA aur 14 EMA crossover tak trail karo"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "TG London Killzone FVG",
+    "short_name": "London Killzone",
+    "trade_rules_sl": "Stop-Loss: Pullback dip ke swing low ke thoda neeche",
+    "trade_rules_tp": "1:2 Risk-to-Reward ratio",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "✅ Stop-Loss: Pullback dip ke swing low ke thoda neeche",
+      "✅ Pro Tip: BSE, HAL, MCX, CDSL jaise monopoly stocks pe results significantly better hote hain"
+    ],
+    "short_tp_raw": [],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 4,
+    "name": "Neeraj Joshi 4H Fractal Sweep",
+    "short_name": "Fractal Sweep",
+    "trade_rules_sl": "Stop-Loss: Double Bottom ke lowest low ke thoda neeche",
+    "trade_rules_tp": "Target: Pichla HTF swing high (avg RR 2:1 se 2.4:1)",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "✅ Stop-Loss: Double Bottom ke lowest low ke thoda neeche"
+    ],
+    "short_tp_raw": [
+      "✅ Target: Pichla HTF swing high (avg RR 2:1 se 2.4:1)"
+    ],
+    "short_rr_raw": [
+      "✅ Target: Pichla HTF swing high (avg RR 2:1 se 2.4:1)"
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 5,
+    "name": "SLC Supply/Demand + Stoch",
+    "short_name": "Supply Demand",
+    "trade_rules_sl": "Stop-Loss: IFVG ke thoda neeche",
+    "trade_rules_tp": "Target: Fixed 1:2 Risk Reward",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Har trader ne yeh experience kiya hai -- price ek level pe aata hai, tum enter karte ho, aur stop-loss hit ho jaata hai. Yeh market manipulation hai. Aaj main ek aisi strategy sikhaunga jisse tum isi manipulation ko trade kar sako, aur saath mein uska Python algo backtest bhi share karunga.",
+      "✅ 5M chart pe obvious swing low dhundho jahan retail ke stop-losses hote hain",
+      "✅ Price us level ke neeche jaaye aur tezi se wapas aaye -- stop-loss hunt confirmed",
+      "✅ Stop-Loss: IFVG ke thoda neeche"
+    ],
+    "short_tp_raw": [
+      "✅ Target: Fixed 1:2 Risk Reward"
+    ],
+    "short_rr_raw": [
+      "✅ Target: Fixed 1:2 Risk Reward"
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 6,
+    "name": "The Trading School Fib Golden Zone",
+    "short_name": "Fib Golden Zone",
+    "trade_rules_sl": "First Target: 3 bricks upar -- target hit hote hi SL breakeven pe le aao",
+    "trade_rules_tp": "First Target: 3 bricks upar -- target hit hote hi SL breakeven pe le aao",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "✅ Stop-Loss: 2 Renko bricks neeche",
+      "✅ First Target: 3 bricks upar -- target hit hote hi SL breakeven pe le aao"
+    ],
+    "short_tp_raw": [
+      "✅ First Target: 3 bricks upar -- target hit hote hi SL breakeven pe le aao"
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": [
+      "✅ First Target: 3 bricks upar -- target hit hote hi SL breakeven pe le aao",
+      "✅ Trail: Jab tak brick 10 SMA ke neeche close na ho tab tak hold karo"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Stock Burner Trendline Break",
+    "short_name": "Trendline Break",
+    "trade_rules_sl": "1:1 profit aate hi Stop-Loss breakeven pe le aao",
+    "trade_rules_tp": "Target: Fixed 1:1.5 se 1:2 Risk Reward",
+    "trade_rules_rr": "1:1.5",
+    "short_sl_raw": [
+      "✅ Stop-Loss: Channel ke lower band pe",
+      "✅ 1:1 profit aate hi Stop-Loss breakeven pe le aao"
+    ],
+    "short_tp_raw": [
+      "✅ Target: Fixed 1:1.5 se 1:2 Risk Reward"
+    ],
+    "short_rr_raw": [
+      "✅ Target: Fixed 1:1.5 se 1:2 Risk Reward",
+      "✅ 1:1 profit aate hi Stop-Loss breakeven pe le aao"
+    ],
+    "short_be_raw": [
+      "✅ 1:1 profit aate hi Stop-Loss breakeven pe le aao",
+      "#animeshkumar #heikinashi #21ema #macdcrossover #optionstrading #niftyoptions #intraday #breakeven #riskmanagement #backtesting #automatedtrading #pythontrading #quanttrading #algotrader #indianstockmarket"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Smart Money Gold 8 EMA Zone",
+    "short_name": "Smart Money Zone",
+    "trade_rules_sl": "Stop-Loss: Breaker Block zone ke thoda upar",
+    "trade_rules_tp": "Target: Fixed 1:2 Risk Reward (koi partial exits nahi, koi trailing nahi)",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "✅ Stop-Loss: Breaker Block zone ke thoda upar"
+    ],
+    "short_tp_raw": [
+      "✅ Target: Fixed 1:2 Risk Reward (koi partial exits nahi, koi trailing nahi)"
+    ],
+    "short_rr_raw": [
+      "✅ Target: Fixed 1:2 Risk Reward (koi partial exits nahi, koi trailing nahi)"
+    ],
+    "short_be_raw": [
+      "✅ Target: Fixed 1:2 Risk Reward (koi partial exits nahi, koi trailing nahi)"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "20/200 Dual EMA Macro Pullback",
+    "short_name": "20/200 EMA",
+    "trade_rules_sl": "Stop-Loss: Breakout ke baad jo highest wick bani uske thoda upar",
+    "trade_rules_tp": "Target: Fixed 1:2 Risk Reward",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "✅ Stop-Loss: Breakout ke baad jo highest wick bani uske thoda upar"
+    ],
+    "short_tp_raw": [
+      "✅ Target: Fixed 1:2 Risk Reward"
+    ],
+    "short_rr_raw": [
+      "✅ Target: Fixed 1:2 Risk Reward"
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 11,
+    "name": "Ezekiel Chew 50 EMA Rejection",
+    "short_name": "50 EMA Rejection",
+    "trade_rules_sl": "इसीलिए आज मैं इंडिपेंडेंस डे में सिर्फ अपने फॉलोअर्स को वन ऑफ़ द मोस्ट डिमांडेड एल्गो सेटअप्स दे रहा हूं जो कुशल वाशिनी जी का है जिसमें सबसे छोटे स्टॉप लॉस और सबसे बड़े टारगेट देने की क्षमता है और इसका रियल कॉस्ट हर कोई बियर नहीं कर सकता क्योंकि ये काफी डिमांडिंग है लेकिन मैं इसका एक्सेस अपने फॉलोवरर्स को लाइफ टाइम के लिए दे रहा हूं",
+    "trade_rules_tp": "इसीलिए आज मैं इंडिपेंडेंस डे में सिर्फ अपने फॉलोअर्स को वन ऑफ़ द मोस्ट डिमांडेड एल्गो सेटअप्स दे रहा हूं जो कुशल वाशिनी जी का है जिसमें सबसे छोटे स्टॉप लॉस और सबसे बड़े टारगेट देने की क्षमता है और इसका रियल कॉस्ट हर कोई बियर नहीं कर सकता क्योंकि ये काफी डिमांडिंग है लेकिन मैं इसका एक्सेस अपने फॉलोवरर्स को लाइफ टाइम के लिए दे रहा हूं",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Aaj Independence Day pe sirf apne followers ke liye ek khaas offer hai. Kushal Varshney ka algo setup jo duniya ka sabse chhota stop-loss aur sabse bada target dene ki shamta rakhta hai. LIFETIME access sirf us cost mein jo isko banaane mein lagti hai."
+    ],
+    "short_tp_raw": [
+      "Aaj Independence Day pe sirf apne followers ke liye ek khaas offer hai. Kushal Varshney ka algo setup jo duniya ka sabse chhota stop-loss aur sabse bada target dene ki shamta rakhta hai. LIFETIME access sirf us cost mein jo isko banaane mein lagti hai."
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 14,
+    "name": "Rayner Teo 10 EMA Inside Bar",
+    "short_name": "Inside Bar",
+    "trade_rules_sl": "Stop-Loss: Demand Zone ke thoda neeche",
+    "trade_rules_tp": "Target: 1:2 Risk Reward fixed",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "✅ Stop-Loss: Demand Zone ke thoda neeche"
+    ],
+    "short_tp_raw": [
+      "✅ Target: 1:2 Risk Reward fixed"
+    ],
+    "short_rr_raw": [
+      "✅ Target: 1:2 Risk Reward fixed"
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 16,
+    "name": "200 EMA + Stochastic Reversal",
+    "short_name": "Stoch 200 EMA",
+    "trade_rules_sl": "SL: jab spot price sold strike pe aaye -- immediately exit",
+    "trade_rules_tp": "Target: 90% maximum profit ke paas pahunchne pe exit",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Kunjan Prajapati ki Gravity Options Selling strategy Upsurge channel pe featured hai — 3 mahine mein koi stop-loss nahi laga. Maine isko broker API ka data lekar 5 saal Python algo se backtest kiya.",
+      "✅ SL: jab spot price sold strike pe aaye -- immediately exit"
+    ],
+    "short_tp_raw": [
+      "✅ Target: 90% maximum profit ke paas pahunchne pe exit"
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 17,
+    "name": "Rayner Teo 200 SMA + 10 RSI",
+    "short_name": "SMA RSI Pullback",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "1:2 Risk-to-Reward ratio",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [],
+    "short_tp_raw": [],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 18,
+    "name": "Multi-TF MACD Momentum",
+    "short_name": "MACD Momentum",
+    "trade_rules_sl": "Stop-Loss: Daily OB midpoint se thoda neeche",
+    "trade_rules_tp": "Target: Daily chart ka major liquidity level",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "✅ Stop-Loss: Daily OB midpoint se thoda neeche"
+    ],
+    "short_tp_raw": [
+      "✅ Target: Daily chart ka major liquidity level"
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 20,
+    "name": "Subasish Bollinger Band Mean Reversion",
+    "short_name": "Bollinger Reversion",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "dono Fibonacci ke extreme levels pe -- fixed RR approximately 2",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "✅ Stop-Loss aur Target dono Fibonacci ke extreme levels pe -- fixed RR approximately 2.4:1"
+    ],
+    "short_tp_raw": [
+      "✅ Stop-Loss aur Target dono Fibonacci ke extreme levels pe -- fixed RR approximately 2.4:1"
+    ],
+    "short_rr_raw": [
+      "✅ Stop-Loss aur Target dono Fibonacci ke extreme levels pe -- fixed RR approximately 2.4:1"
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 21,
+    "name": "Tanisha Garg CPR + RSI Reversal",
+    "short_name": "CPR RSI Bounce",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "ya stop-loss nahi — RSI hi exit signal hai",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "✅ Koi fixed target ya stop-loss nahi — RSI hi exit signal hai"
+    ],
+    "short_tp_raw": [
+      "✅ Koi fixed target ya stop-loss nahi — RSI hi exit signal hai"
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 22,
+    "name": "Camarilla Pivot Points Breakout",
+    "short_name": "Camarilla Pivots",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "✅ Sell trade setup -- bilkul mirror logic",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "✅ Stop-loss aur fixed 1:2 Risk:Reward target"
+    ],
+    "short_tp_raw": [
+      "✅ Stop-loss aur fixed 1:2 Risk:Reward target"
+    ],
+    "short_rr_raw": [
+      "✅ Stop-loss aur fixed 1:2 Risk:Reward target"
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 23,
+    "name": "CPR Multi-Timeframe + R1 Break",
+    "short_name": "CPR Multi-TF",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "placement — sweep low se neeche, target PDH/PDL",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "✅ Stop-loss aur target placement — sweep low se neeche, target PDH/PDL"
+    ],
+    "short_tp_raw": [
+      "✅ Stop-loss aur target placement — sweep low se neeche, target PDH/PDL"
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 24,
+    "name": "Supertrend (7, 2.5) + 200 EMA Flip",
+    "short_name": "Supertrend Flip",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "1:2 Risk-to-Reward ratio",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "✅ Stop-loss, 50% partial booking aur trailing till 8 AM candle high (min 1:2 RR)"
+    ],
+    "short_tp_raw": [],
+    "short_rr_raw": [
+      "✅ Stop-loss, 50% partial booking aur trailing till 8 AM candle high (min 1:2 RR)"
+    ],
+    "short_be_raw": [
+      "✅ Stop-loss, 50% partial booking aur trailing till 8 AM candle high (min 1:2 RR)"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "UT Bot Alert ATR Trailing + 200 EMA",
+    "short_name": "UT Bot Alert",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "1:2 Risk-to-Reward ratio",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "✅ Stop-loss aur 1:1 partial booking + trailing ka rule"
+    ],
+    "short_tp_raw": [],
+    "short_rr_raw": [
+      "✅ Stop-loss aur 1:1 partial booking + trailing ka rule"
+    ],
+    "short_be_raw": [
+      "✅ Stop-loss aur 1:1 partial booking + trailing ka rule"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "MambaFX Forex H4 S/R + 8/50 SMA",
+    "short_name": "MambaFX S/R",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "1:2 Risk-to-Reward ratio",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [],
+    "short_tp_raw": [],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 28,
+    "name": "Chandelier Exit (22, 3) + 32 ZLSMA",
+    "short_name": "Chandelier ZLSMA",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "ki strategy maine ek PDF mein diagram ke saath samjhayi hai",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "ICT (Inner Circle Trader) ka woh sniper entry model jisse aap ek dum perfect entry le sakte ho. Institutions pehle retail traders ke stop-loss ko trigger karti hain, phir ulti direction mein move karti hain — aur yeh liquidity-based strategy exactly usi trap ko apne favour mein use karti hai.",
+      "Puri step-by-step entry, stop-loss aur target ki strategy maine ek PDF mein diagram ke saath samjhayi hai. Woh yahan reveal nahi kar raha — neeche \"Sniper\" comment karo, main PDF bhej dunga."
+    ],
+    "short_tp_raw": [
+      "Puri step-by-step entry, stop-loss aur target ki strategy maine ek PDF mein diagram ke saath samjhayi hai. Woh yahan reveal nahi kar raha — neeche \"Sniper\" comment karo, main PDF bhej dunga."
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 29,
+    "name": "Kojo Dubai Pure Price Action Demand",
+    "short_name": "Kojo Demand/Supply",
+    "trade_rules_sl": "स्टॉप लॉस उस पुलबैक के लो के नीचे  टारगेट पिछला स्विंग हाई",
+    "trade_rules_tp": "स्टॉप लॉस उस पुलबैक के लो के नीचे  टारगेट पिछला स्विंग हाई",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Strategy rules: trend filter (50-EMA), RSI oversold + confirmation entry, stop-loss placement, aur target logic — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai."
+    ],
+    "short_tp_raw": [
+      "Strategy rules: trend filter (50-EMA), RSI oversold + confirmation entry, stop-loss placement, aur target logic — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai."
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 30,
+    "name": "Trading School Secret MBP Gold",
+    "short_name": "MBP Gold Setup",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "1:2 Risk-to-Reward ratio",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Strategy rules, entry-exit logic, stop-loss placement, aur breakeven trail technique — sab is video mein detail se samjhaya hai. Backtest ka Python code Google Colab pe dikhaya gaya hai."
+    ],
+    "short_tp_raw": [],
+    "short_rr_raw": [],
+    "short_be_raw": [
+      "Entry rules, Supertrend flip logic, trailing stop mechanism, aur risk-reward math — sab detail mein. Python backtest code Google Colab pe dikhaya gaya hai.",
+      "Strategy rules, entry-exit logic, stop-loss placement, aur breakeven trail technique — sab is video mein detail se samjhaya hai. Backtest ka Python code Google Colab pe dikhaya gaya hai."
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Trade With Pat Demand FVG Sniper",
+    "short_name": "Pat Demand FVG",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "1:2 Risk-to-Reward ratio",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [],
+    "short_tp_raw": [],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 32,
+    "name": "SMC Liquidity Sniper 71% Fib Retrace",
+    "short_name": "Liquidity Sniper",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "1:2 se 1:3 ke R-multiple pe rakha gaya hai",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [],
+    "short_tp_raw": [
+      "Strategy ka core logic simple hai: EMA 20 aur EMA 200 ka combination, 5-minute timeframe pe. Jab price 200 EMA ke upar trade kare aur 20 EMA bhi 200 ke upar ho, sirf long trades plan karni hain. Price jab pullback dekar 20 EMA ke paas wapas close de, wahi entry trigger hai. Stoploss 2x ATR(14) pe, aur target 1:2 se 1:3 ke R-multiple pe rakha gaya hai. Short setup bilkul mirror logic follow karta hai, 200 EMA ke neeche."
+    ],
+    "short_rr_raw": [
+      "Strategy ka core logic simple hai: EMA 20 aur EMA 200 ka combination, 5-minute timeframe pe. Jab price 200 EMA ke upar trade kare aur 20 EMA bhi 200 ke upar ho, sirf long trades plan karni hain. Price jab pullback dekar 20 EMA ke paas wapas close de, wahi entry trigger hai. Stoploss 2x ATR(14) pe, aur target 1:2 se 1:3 ke R-multiple pe rakha gaya hai. Short setup bilkul mirror logic follow karta hai, 200 EMA ke neeche."
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 33,
+    "name": "Pure Double Breakout Retest",
+    "short_name": "Double Breakout",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "fixed 1:2 risk reward",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [],
+    "short_tp_raw": [
+      "Stoploss FVG ki pehli candle ke low pe. Target fixed 1:2 risk reward. SELL trades ke liye bilkul ulta karenge."
+    ],
+    "short_rr_raw": [
+      "Stoploss FVG ki pehli candle ke low pe. Target fixed 1:2 risk reward. SELL trades ke liye bilkul ulta karenge.",
+      "Fair Value Gap Strategy | FVG Trading | SMC Strategy | ICT Trading | Limit Order Entry | Any Market Strategy | Algo Trading India | Gold Trading Strategy | Casper SMC | Jesse Rogers | Backtest Results | Python Trading Bot | Smart Money Concepts | Forex Crypto Futures Strategy | Risk Reward Trading"
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 34,
+    "name": "Asia Forex Mentor Smoothed Heikin Ashi",
+    "short_name": "Heikin Ashi",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "fixed 1:2 risk reward",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [],
+    "short_tp_raw": [
+      "Step 4: Entry usi retest zone mein lo. Stoploss impulse candle ke low ke neeche. Target fixed 1:2 risk reward."
+    ],
+    "short_rr_raw": [
+      "Step 4: Entry usi retest zone mein lo. Stoploss impulse candle ke low ke neeche. Target fixed 1:2 risk reward.",
+      "ONE Candle Strategy | Opening Range Breakout | ORB Scalping | Volume Confirmation Trading | Beginner Scalping Strategy | Algo Trading India | Nifty Intraday Trading | Prop Firm Strategy | Backtest Results | Python Trading Bot | Scalping for Beginners | Day Trading Strategy | Technical Analysis | Risk Reward Strategy | 5 Minute Chart Strategy"
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 35,
+    "name": "Bharat RSI 60/40 + Bollinger Band",
+    "short_name": "Bharat RSI BB",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "fixed nahi — jab tak daily chart pe 4 stacked EMAs (5, 9, 13, 21) intact rahein tab tak trade chalti rahe",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [],
+    "short_tp_raw": [
+      "Step 6: Target fixed nahi — jab tak daily chart pe 4 stacked EMAs (5, 9, 13, 21) intact rahein tab tak trade chalti rahe. Jab strong bearish candle in sab ke neeche close kare — exit."
+    ],
+    "short_rr_raw": [
+      "TG Capital yaani Tyler — jisne sirf 3 mahine mein $4 lakh ka prop firm payout liya — ne Chart Fanatics pe apni woh strategy share ki jo unhe broke se six figures tak le gayi. Minimum 1:20 risk reward ka claim hai. Maine iska algo banaya aur 5 Forex pairs pe khud backtest kiya — results aaj video mein hain.",
+      "London Killzone Strategy | FVG Trading | ICT Trading | Consequent Encroachment | EMA Stack Forex | Fair Value Gap | Algo Trading India | Forex Swing Trading | Prop Firm Strategy | Smart Money Concepts | TG Capital Strategy | Chart Fanatics | Backtest Results | Forex Day Trading | London Session Forex | ICT FVG Setup | Python Trading Bot | 1:20 Risk Reward Strategy"
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 36,
+    "name": "Trade Like Berlin 'Final Boss' 7 EMA",
+    "short_name": "Berlin 7 EMA",
+    "trade_rules_sl": "es trigger kiye aur ab market reverse ho raha hai",
+    "trade_rules_tp": "nearest unvisited swing high pe",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Step 2: NY session mein wait karo. Agar price kisi swing low ko tod ke jaaye — par phir wahi candle ya agli koi candle us swing low ke upar close kare — yeh hai Swing Failure Pattern (SFP). Matlab bade institutional players ne wahan ke retail stop losses trigger kiye aur ab market reverse ho raha hai.",
+      "Step 4: SELL ke liye bilkul ulta — swing high ka SFP, candle uske neeche close kare, SELL entry, SL candle high pe, TP nearest swing low pe."
+    ],
+    "short_tp_raw": [
+      "Step 3: Jo 1H candle swing low ke upar close kare, uske close pe BUY entry lo. Stoploss usi candle ke low pe. Target nearest unvisited swing high pe.",
+      "Step 4: SELL ke liye bilkul ulta — swing high ka SFP, candle uske neeche close kare, SELL entry, SL candle high pe, TP nearest swing low pe."
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 37,
+    "name": "Ezekiel Chew 50 EMA Pullback Engulfing",
+    "short_name": "Ezekiel 50 EMA",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "1:2 Risk-to-Reward ratio",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [],
+    "short_tp_raw": [],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 38,
+    "name": "Trading Geek S/R Exhaustion Action",
+    "short_name": "Trading Geek S/R",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": ": 2R agar stoploss tight (FVG pullback), 1",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [],
+    "short_tp_raw": [
+      "Step 5: Stoploss zone ke neeche. Target: 2R agar stoploss tight (FVG pullback), 1.5R agar stoploss wide (demand zone pullback). SELL ke liye bilkul ulta."
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 39,
+    "name": "Tori Trades Multi-Touch Trendline",
+    "short_name": "Tori Trendline",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "next resistance level pe",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [],
+    "short_tp_raw": [
+      "Step 3: Jab ek bada green candle aaye — uske close pe BUY entry lo. Stoploss zone ke lowest wick ke neeche. Target next resistance level pe. SELL ke liye bilkul ulta karo at resistance."
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 40,
+    "name": "Hold with Priyank 21 EMA Breakout",
+    "short_name": "Priyank 21 EMA",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "nahi hota — Anant Ladha ke mutabik isse 1:4, 1:5, aur kabhi kabhi 1:10 tak ka risk reward bhi mil sakta hai",
+    "trade_rules_rr": "1:4",
+    "short_sl_raw": [],
+    "short_tp_raw": [
+      "Stoploss fixed price pe nahi, balki 10 EMA line khud stoploss ka kaam karti hai. Trade tab tak chalta rahta hai jab tak koi candle 10 EMA ke neeche close na kare. Isi wajah se is strategy mein fixed target nahi hota — Anant Ladha ke mutabik isse 1:4, 1:5, aur kabhi kabhi 1:10 tak ka risk reward bhi mil sakta hai."
+    ],
+    "short_rr_raw": [
+      "Stoploss fixed price pe nahi, balki 10 EMA line khud stoploss ka kaam karti hai. Trade tab tak chalta rahta hai jab tak koi candle 10 EMA ke neeche close na kare. Isi wajah se is strategy mein fixed target nahi hota — Anant Ladha ke mutabik isse 1:4, 1:5, aur kabhi kabhi 1:10 tak ka risk reward bhi mil sakta hai.",
+      "Average Risk Reward: 1:3",
+      "Trading Strategy | Algo Trading | Backtest | 10 EMA Strategy | Intraday Trading | Swing Trading | Positional Trading | Nifty 50 | Stock Market India | Share Market | Technical Analysis | EMA Indicator | Trading for Beginners | Python Trading Bot | Risk Reward Ratio | Trend Following Strategy"
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 42,
+    "name": "TradingLab 200 DEMA + Supertrend",
+    "short_name": "TradingLab DEMA",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "s directly over the anchor swing low points",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [],
+    "short_tp_raw": [
+      "Account Risk Boundaries: Securing defensive exit points at the hard structural Fib 1.0 zone line while mapping exit limit targets directly over the anchor swing low points."
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 43,
+    "name": "HalfTrend (2, 2) + ATR Bands",
+    "short_name": "HalfTrend ATR",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "1:2 Risk-to-Reward ratio",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [],
+    "short_tp_raw": [],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 44,
+    "name": "Umer Akhtar 3-Candle Sandwich",
+    "short_name": "Umer Sandwich",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "karke short covering moves kaise triggers karte hain, humne is structural workflow ka python algorithm banaya hai aur broker API ke structural historical data setups par detailed validation tests run karke real equity curves aur actual drawdown data analyze kiya hai",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [],
+    "short_tp_raw": [
+      "Kya India ke pioneering pioneer Gomathi Shankar ki multi-timeframe Central Pivot Range yaani CPR strategy professional order books me high accuracy system create kar sakti hai? Is video mein humne unki weekly aur daily overlapping pivot breakout strategy ko coding standards ke sath completely automate kiya hai. Big players dynamic support levels aur daily range boundaries ko target karke short covering moves kaise triggers karte hain, humne is structural workflow ka python algorithm banaya hai aur broker API ke structural historical data setups par detailed validation tests run karke real equity curves aur actual drawdown data analyze kiya hai.",
+      "Scale Targets & Risk Limits: Locking protection stops right beneath the dual confluence zone lines, framing target marker 1 directly at the R1-R2 mathematical midpoint, and routing final exit execution trades directly at the major R2 ceiling."
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 45,
+    "name": "Multi-TF MACD Triple Confluence",
+    "short_name": "3TF MACD",
+    "trade_rules_sl": "strategies for building sustainable secondary sources of income from markets",
+    "trade_rules_tp": "1:2 Risk-to-Reward ratio",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Advanced trailing stop loss strategies for building sustainable secondary sources of income from markets"
+    ],
+    "short_tp_raw": [],
+    "short_rr_raw": [
+      "Scale Out & Trailing Mechanics: Extracting a fixed 50% quantity profit size straight at a clear 1:2 risk-to-reward ratio, updating initial protection stop limits to the absolute breakdown entry cost, and trailing remaining core lots until the macro 4-Hour trend framework prints an opposing exit crossover wave."
+    ],
+    "short_be_raw": [
+      "Kya classical momentum indicators jaise MACD sach me modern computer algos ke samne outdated ho chuke hain? Is video mein humne three-timeframe alignment filter aur multi-stage profit trailing parameters ko combine karke ek professional mathematical MACD automation code ready kiya hai. Large institutions momentum shift aur histogram validation ke sath dynamic trends ko ride kaise karti hain, humne is exact continuous logic ka python algorithm banaya hai aur broker API ke high-frequency parameters par verification tests run karke true equity curves aur accurate drawdown numbers generate kiye hain.",
+      "Scale Out & Trailing Mechanics: Extracting a fixed 50% quantity profit size straight at a clear 1:2 risk-to-reward ratio, updating initial protection stop limits to the absolute breakdown entry cost, and trailing remaining core lots until the macro 4-Hour trend framework prints an opposing exit crossover wave.",
+      "Advanced trailing stop loss strategies for building sustainable secondary sources of income from markets"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "ICT Double Sweep Liquidity Sniper",
+    "short_name": "ICT Double Sweep",
+    "trade_rules_sl": "orders just over the breakout red candle's high point, clearing target 1 at the nearest immediate structural swing low for partial profit security, and tracking target 2 down to the next major macro swing low",
+    "trade_rules_tp": "1 at the nearest immediate structural swing low for partial profit security, and tracking target 2 down to the next major macro swing low",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Profit Scaling Rules: Positioning protective stop loss orders just over the breakout red candle's high point, clearing target 1 at the nearest immediate structural swing low for partial profit security, and tracking target 2 down to the next major macro swing low.",
+      "How to scale position sizing while maintaining static stop loss controls at previous day boundaries"
+    ],
+    "short_tp_raw": [
+      "Profit Scaling Rules: Positioning protective stop loss orders just over the breakout red candle's high point, clearing target 1 at the nearest immediate structural swing low for partial profit security, and tracking target 2 down to the next major macro swing low."
+    ],
+    "short_rr_raw": [
+      "Kya Stock Learners channel ke Gautam Jha ki high risk reward liquidity strategy real market conditions mein survive kar sakti hai? Is video mein humne unki previous day range breakout aur 1-minute refinement strategy ko mathematical coding ke sath completely automate kiya hai. Institutional smart money players high volume zones par retail orders ko chase aur hunt kaise karte hain, humne is rule-based architecture ka python algorithm banaya hai aur broker API ke detailed gold data feeds par execution tests run karke net equity curve aur minimum drawdown stats verify kiye hain.",
+      "In this video, we discuss systematic intraday trading strategies using daily range sweeps, how to capture high risk reward setups using 1-minute confirmation bars, and rule-based option buying techniques in Hindi. If you are searching for advanced technical parameters, share market automated analysis tools for beginners, or how to write an algorithmic trading script in India using python systems, this performance validation summary will answer your queries."
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 47,
+    "name": "ICT Daily OB + H1 FVG Precision",
+    "short_name": "Daily OB + H1 FVG",
+    "trade_rules_sl": "orders right below the absolute sweep anchor low point and programming rolling profit targets at successive intermediate 5-Min and macro 1-Hour swing high targets",
+    "trade_rules_tp": "s at successive intermediate 5-Min and macro 1-Hour swing high targets",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Capital Risk Parameters: Placing mathematical protective stop loss orders right below the absolute sweep anchor low point and programming rolling profit targets at successive intermediate 5-Min and macro 1-Hour swing high targets."
+    ],
+    "short_tp_raw": [
+      "Capital Risk Parameters: Placing mathematical protective stop loss orders right below the absolute sweep anchor low point and programming rolling profit targets at successive intermediate 5-Min and macro 1-Hour swing high targets."
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 48,
+    "name": "TG Capital EMA Stack + Doji Pullback",
+    "short_name": "EMA Stack Doji",
+    "trade_rules_sl": "boundaries beneath the lowest wick of the fake breakout setup and trailing the maximum target expansion up to the macro previous week high level line",
+    "trade_rules_tp": "expansion up to the macro previous week high level line",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Money Management Rules: Setting protective stop loss boundaries beneath the lowest wick of the fake breakout setup and trailing the maximum target expansion up to the macro previous week high level line."
+    ],
+    "short_tp_raw": [
+      "Money Management Rules: Setting protective stop loss boundaries beneath the lowest wick of the fake breakout setup and trailing the maximum target expansion up to the macro previous week high level line."
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": [
+      "Money Management Rules: Setting protective stop loss boundaries beneath the lowest wick of the fake breakout setup and trailing the maximum target expansion up to the macro previous week high level line."
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Rayner Teo 50 EMA Swing Catch Wave",
+    "short_name": "Rayner 50 EMA",
+    "trade_rules_sl": "limits below the pullback pivot floor, and aligning exit targets at the prominent 5-Minute chart swing high reference structure",
+    "trade_rules_tp": ": Entering a market buy position right at the breach of the internal pullback wave high limit, defining stop loss limits below the pullback pivot floor, and aligning exit targets at the prominent 5-Minute chart swing high reference structure",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Execution Target: Entering a market buy position right at the breach of the internal pullback wave high limit, defining stop loss limits below the pullback pivot floor, and aligning exit targets at the prominent 5-Minute chart swing high reference structure."
+    ],
+    "short_tp_raw": [
+      "Execution Target: Entering a market buy position right at the breach of the internal pullback wave high limit, defining stop loss limits below the pullback pivot floor, and aligning exit targets at the prominent 5-Minute chart swing high reference structure."
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 50,
+    "name": "50 EMA + RSI 30/70 Oversold Reclaim",
+    "short_name": "EMA RSI Reclaim",
+    "trade_rules_sl": "boundary directly at the 0",
+    "trade_rules_tp": "s ke kaam kar sakti hai? Is video mein humne unki wave based Fibonacci golden zone strategy ke adhure rules ko modification ke sath core formula me link kiya hai",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Risk Metrics: Placing a structural protective stop loss boundary directly at the 0.786 Fibonacci level and running projection targets straight down to the absolute 0 or swing low layout line.",
+      "How to scale position sizing while maintaining static stop loss controls at major retracement points"
+    ],
+    "short_tp_raw": [
+      "Kya Topgtraders channel ke Atul Patil ki continuous red candle Fibonacci strategy bina clear targets ke kaam kar sakti hai? Is video mein humne unki wave based Fibonacci golden zone strategy ke adhure rules ko modification ke sath core formula me link kiya hai. Humne is dynamic support and resistance setup ka python algorithm banaya hai aur broker API ke accurate high frequency data par tests run karke net equity curve aur drawdown calculations check kiye hain.",
+      "Risk Metrics: Placing a structural protective stop loss boundary directly at the 0.786 Fibonacci level and running projection targets straight down to the absolute 0 or swing low layout line."
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 51,
+    "name": "Booming Bulls HalfTrend + DMI Setup",
+    "short_name": "Booming HalfTrend",
+    "trade_rules_sl": "limits right above the macro 0",
+    "trade_rules_tp": "s at a fixed 1:2 risk-reward distribution",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Risk Management Guidelines: Placing strict protective stop loss limits right above the macro 0.786 Fibonacci boundary and configuring execution targets at a fixed 1:2 risk-reward distribution."
+    ],
+    "short_tp_raw": [
+      "Risk Management Guidelines: Placing strict protective stop loss limits right above the macro 0.786 Fibonacci boundary and configuring execution targets at a fixed 1:2 risk-reward distribution."
+    ],
+    "short_rr_raw": [
+      "Risk Management Guidelines: Placing strict protective stop loss limits right above the macro 0.786 Fibonacci boundary and configuring execution targets at a fixed 1:2 risk-reward distribution."
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 52,
+    "name": "Priyank Weekly Trap + H1 MSS",
+    "short_name": "Weekly Trap MSS",
+    "trade_rules_sl": "orders precisely at the opposite inner bounds (R3 for buy setups, S3 for sell setups) and projection targets at 1",
+    "trade_rules_tp": "s at 1",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Risk Management Guidelines: Setting protective stop loss orders precisely at the opposite inner bounds (R3 for buy setups, S3 for sell setups) and projection targets at 1.5 to 2 times the risk value.",
+      "How to scale position sizing while maintaining static stop loss controls at major pivot curves"
+    ],
+    "short_tp_raw": [
+      "Risk Management Guidelines: Setting protective stop loss orders precisely at the opposite inner bounds (R3 for buy setups, S3 for sell setups) and projection targets at 1.5 to 2 times the risk value."
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 53,
+    "name": "Traders Paradise Red/Green Box",
+    "short_name": "Paradise Box",
+    "trade_rules_sl": "hunting system ya technical indicator strategy ka statistics backed backtest review dekhna chahte hain? Comment section mein apni demand zaroor drop karein, main uspar custom algorithm code likhkar validation video zaroor lekar aunga",
+    "trade_rules_tp": "s at the recent macro swing levels",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Risk Management: Placing strict protective stop loss limits outside the zone high or low and locking maximum profit targets at the recent macro swing levels.",
+      "How to identify market maker stop loss hunting zones using 15-min charts"
+    ],
+    "short_tp_raw": [
+      "Risk Management: Placing strict protective stop loss limits outside the zone high or low and locking maximum profit targets at the recent macro swing levels."
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 54,
+    "name": "Renko 10 SMA + OBV Volume Trend",
+    "short_name": "Renko 10 SMA",
+    "trade_rules_sl": "above the setup candle high",
+    "trade_rules_tp": "s in futures and options trading systems",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Money Management: Set initial stop loss above the setup candle high. Book 50% partial profit at a 1:1 risk-reward ratio, and trail the remaining position to a 1:2 ratio or the next consecutive Gann zone line."
+    ],
+    "short_tp_raw": [
+      "Managing drawdowns and scaling profit targets in futures and options trading systems",
+      "How to take precise partial profit exits using risk reward ratio target rules"
+    ],
+    "short_rr_raw": [
+      "Money Management: Set initial stop loss above the setup candle high. Book 50% partial profit at a 1:1 risk-reward ratio, and trail the remaining position to a 1:2 ratio or the next consecutive Gann zone line.",
+      "How to take precise partial profit exits using risk reward ratio target rules"
+    ],
+    "short_be_raw": [
+      "Money Management: Set initial stop loss above the setup candle high. Book 50% partial profit at a 1:1 risk-reward ratio, and trail the remaining position to a 1:2 ratio or the next consecutive Gann zone line."
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Umar Punjabi London Session Sweep",
+    "short_name": "Umar Gold London",
+    "trade_rules_sl": "structure below the order block low with a target focused directly at the macro 5-Minute swing high level",
+    "trade_rules_tp": "focused directly at the macro 5-Minute swing high level",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Risk Rules: Placing a protective stop loss structure below the order block low with a target focused directly at the macro 5-Minute swing high level."
+    ],
+    "short_tp_raw": [
+      "Risk Rules: Placing a protective stop loss structure below the order block low with a target focused directly at the macro 5-Minute swing high level."
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 56,
+    "name": "Bill Williams Alligator + Fractals",
+    "short_name": "Bill Alligator",
+    "trade_rules_sl": "below the candle low, and lock targets right before the previous resistance swing high",
+    "trade_rules_tp": "s right before the previous resistance swing high",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Risk Management: Execute a long trade at the candle close, place a protective stop loss below the candle low, and lock targets right before the previous resistance swing high."
+    ],
+    "short_tp_raw": [
+      "Risk Management: Execute a long trade at the candle close, place a protective stop loss below the candle low, and lock targets right before the previous resistance swing high."
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 57,
+    "name": "ICT PO3 AMD Framework Expansion",
+    "short_name": "ICT PO3 AMD",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": ", hold the trend and exit instantly when any candle closes decisively below the 8 EMA",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [],
+    "short_tp_raw": [
+      "Exit Criteria: No fixed target, hold the trend and exit instantly when any candle closes decisively below the 8 EMA."
+    ],
+    "short_rr_raw": [
+      "Managing drawdown and risk reward ratio in Nifty and Bank Nifty options buying"
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 60,
+    "name": "Jesse Rogers SMC FVG Retest",
+    "short_name": "Jesse SMC FVG",
+    "trade_rules_sl": "placed slightly above the zone and profit target at the next major demand zone",
+    "trade_rules_tp": "at the next major demand zone",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Exit Criteria: Protective stop loss placed slightly above the zone and profit target at the next major demand zone."
+    ],
+    "short_tp_raw": [
+      "Exit Criteria: Protective stop loss placed slightly above the zone and profit target at the next major demand zone."
+    ],
+    "short_rr_raw": [
+      "Managing drawdown and risk reward ratio in commodity options trading"
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 61,
+    "name": "Theta Gainers EMA + RSI Reversal",
+    "short_name": "Theta EMA RSI",
+    "trade_rules_sl": "outside the range",
+    "trade_rules_tp": "is set at the opposite boundary with a protective stop loss outside the range",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Risk Management: Target is set at the opposite boundary with a protective stop loss outside the range."
+    ],
+    "short_tp_raw": [
+      "Risk Management: Target is set at the opposite boundary with a protective stop loss outside the range."
+    ],
+    "short_rr_raw": [
+      "Managing drawdown and risk reward ratio in range trading setups"
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 62,
+    "name": "Gold SMC Imbalance Zone Retest",
+    "short_name": "Gold Imbalance",
+    "trade_rules_sl": ", exit manually when any candle touches the green line",
+    "trade_rules_tp": "1:2 Risk-to-Reward ratio",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Exit Rule: No fixed stop loss, exit manually when any candle touches the green line.",
+      "Trading without a fixed stop loss using dynamic indicator exits"
+    ],
+    "short_tp_raw": [],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 64,
+    "name": "SMC Breaker Block V2 Mitigation",
+    "short_name": "SMC Breaker V2",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "at previous day's high/low",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [],
+    "short_tp_raw": [
+      "Entry/Exit: VWAP breakdown/breakout with 10 EMA crossover, keeping target at previous day's high/low."
+    ],
+    "short_rr_raw": [
+      "Kya Mukul Choudhary sir ki VWAP + 10EMA \"Failure Concept\" strategy sach me 70% accurate hai? Is video me humne 1:4 risk-reward ratio ke is claim ka sach pta lagaya hai. Maine is pure logic ko Python algo ke sath backtest kiya hai real market data par!",
+      "High risk-reward trading strategies (1:3 and 1:4 RR setups)"
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 65,
+    "name": "Steven Hart 4H Trend Pullback Zone",
+    "short_name": "Steven Hart 4H",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "rules",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "BUY entry lo. SL: low level ke thoda neeche."
+    ],
+    "short_tp_raw": [
+      "Stoploss aur 1:2 risk reward target rules",
+      "Target: 1:2 RR."
+    ],
+    "short_rr_raw": [
+      "Stoploss aur 1:2 risk reward target rules",
+      "Target: 1:2 RR.",
+      "#winrate #riskReward #1to2RR #drawdown"
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 66,
+    "name": "Bhanushali 44 MA Bounce Rejection",
+    "short_name": "Bhanushali 44 MA",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "1:2 Risk-to-Reward ratio",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [],
+    "short_tp_raw": [
+      "Risk to Reward: 1:2 to 1:3 target."
+    ],
+    "short_rr_raw": [
+      "Risk to Reward: 1:2 to 1:3 target."
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 67,
+    "name": "Mukul Chowdhary 10 EMA + VWAP Setup",
+    "short_name": "Mukul 10 EMA VWAP",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "1:2 Risk-to-Reward ratio",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [],
+    "short_tp_raw": [],
+    "short_rr_raw": [
+      "• Risk Reward Management"
+    ],
+    "short_be_raw": []
+  },
+  {
+    "id": 68,
+    "name": "LuxAlgo Confirmation Trend Baseline",
+    "short_name": "LuxAlgo Confirm",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": ": R1 ya Previous Day High — jo pehle aaye",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "Stop-Loss: VWAP pehle 21 EMA ke upar ho ya baad mein"
+    ],
+    "short_tp_raw": [
+      "Target: R1 ya Previous Day High — jo pehle aaye."
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 69,
+    "name": "UK Trader Break & Bounce Reversal",
+    "short_name": "UK Break & Bounce",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": ": Next resistance ya rejection level",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [
+      "SL: Engulfing candle ya red candle ka jo bhi neeche"
+    ],
+    "short_tp_raw": [
+      "Target: Next resistance ya rejection level."
+    ],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  },
+  {
+    "id": 70,
+    "name": "PB Trading H4 + H1 Dual FVG",
+    "short_name": "PB Multi-TF FVG",
+    "trade_rules_sl": "Below recent swing low / key structural support",
+    "trade_rules_tp": "1:2 Risk-to-Reward ratio",
+    "trade_rules_rr": "1:2",
+    "short_sl_raw": [],
+    "short_tp_raw": [],
+    "short_rr_raw": [],
+    "short_be_raw": []
+  }
+]

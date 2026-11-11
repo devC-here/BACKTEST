@@ -1,0 +1,881 @@
+{
+  "repository": "https://github.com/devC-here/BACKTEST",
+  "raw_base": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/",
+  "total_strategies": 73,
+  "core_platform_scripts": [
+    {
+      "name": "Numba Matching Engine Core",
+      "path": "tick_engine/core/engine.py",
+      "description": "High-throughput Numba @njit(fastmath=True) matching loop with strict bar-close subsequent tick execution and friction models.",
+      "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/tick_engine/core/engine.py",
+      "github_url": "https://github.com/devC-here/BACKTEST/blob/main/tick_engine/core/engine.py"
+    },
+    {
+      "name": "Memory-Mapped Tick DataLoader",
+      "path": "tick_engine/core/dataloader.py",
+      "description": "Zero-copy binary .npy and CSV tick loader supporting dual continuous and block partitioning with rolling causal warmup.",
+      "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/tick_engine/core/dataloader.py",
+      "github_url": "https://github.com/devC-here/BACKTEST/blob/main/tick_engine/core/dataloader.py"
+    },
+    {
+      "name": "Institutional Metrics & Statistical Engine",
+      "path": "tick_engine/core/metrics.py",
+      "description": "Net pips, profit factor, max drawdown, worst month, bootstrap confidence intervals, and outlier trade sensitivity.",
+      "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/tick_engine/core/metrics.py",
+      "github_url": "https://github.com/devC-here/BACKTEST/blob/main/tick_engine/core/metrics.py"
+    },
+    {
+      "name": "Engine Configuration & Friction Defaults",
+      "path": "tick_engine/core/config.py",
+      "description": "Defines mandatory institutional defaults: $4/lot commission, 0.20p entry slippage, raw floating spread.",
+      "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/tick_engine/core/config.py",
+      "github_url": "https://github.com/devC-here/BACKTEST/blob/main/tick_engine/core/config.py"
+    },
+    {
+      "name": "Forex Session Time & Daylight-Saving Filter",
+      "path": "tick_engine/core/session_time.py",
+      "description": "UTC session time tracking and DST adjustments for London, New York, and Tokyo sessions.",
+      "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/tick_engine/core/session_time.py",
+      "github_url": "https://github.com/devC-here/BACKTEST/blob/main/tick_engine/core/session_time.py"
+    },
+    {
+      "name": "Real-Time Data Quality Gate",
+      "path": "tick_engine/quality/validator.py",
+      "description": "Automatic rejection of partial weeks (<80h, <15k ticks), quote gaps (>4h), inverted spreads (Ask < Bid), and non-positive prices.",
+      "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/tick_engine/quality/validator.py",
+      "github_url": "https://github.com/devC-here/BACKTEST/blob/main/tick_engine/quality/validator.py"
+    },
+    {
+      "name": "Cryptographic Run Manifest Generator",
+      "path": "tick_engine/reporting/run_manifest.py",
+      "description": "Generates canonical JSON run manifests recording SHA-256 hashes of engine code, parameters, partitions, and trade logs.",
+      "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/tick_engine/reporting/run_manifest.py",
+      "github_url": "https://github.com/devC-here/BACKTEST/blob/main/tick_engine/reporting/run_manifest.py"
+    },
+    {
+      "name": "Adversarial Friction Stress Suite",
+      "path": "tick_engine/stress/stress_suite.py",
+      "description": "Stress-tests strategies against 2x spread, 2x slippage, +50% commission, and execution latency.",
+      "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/tick_engine/stress/stress_suite.py",
+      "github_url": "https://github.com/devC-here/BACKTEST/blob/main/tick_engine/stress/stress_suite.py"
+    },
+    {
+      "name": "Institutional Integration Test Suite",
+      "path": "tick_engine/tests/test_institutional_platform.py",
+      "description": "10 automated pytest tests validating split integrity, data gate, no same-tick fill, warmup exclusion, and fee deduction.",
+      "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/tick_engine/tests/test_institutional_platform.py",
+      "github_url": "https://github.com/devC-here/BACKTEST/blob/main/tick_engine/tests/test_institutional_platform.py"
+    },
+    {
+      "name": "Standalone Tick Engine Runner CLI",
+      "path": "tick_engine/run_backtest.py",
+      "description": "CLI entry point for running high-speed tick backtests with live progress and annual scorecards.",
+      "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/tick_engine/run_backtest.py",
+      "github_url": "https://github.com/devC-here/BACKTEST/blob/main/tick_engine/run_backtest.py"
+    }
+  ],
+  "executive_documentation": [
+    {
+      "name": "Master 72-Strategy Fleet Manifest (JSON)",
+      "path": "certified_production_fleet/CERTIFIED_FLEET_MANIFEST.json",
+      "description": "Cryptographically verified master manifest with holdout metrics, SHA-256 hashes, and portfolio totals.",
+      "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/CERTIFIED_FLEET_MANIFEST.json",
+      "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/CERTIFIED_FLEET_MANIFEST.json"
+    },
+    {
+      "name": "Institutional Strategy Verification Platform Report",
+      "path": "docs/INSTITUTIONAL_STRATEGY_VERIFICATION_PLATFORM_REPORT.md",
+      "description": "Comprehensive 10-point audit report verifying all 72 dual-partition champions (+11,723.3p holdout PnL).",
+      "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/docs/INSTITUTIONAL_STRATEGY_VERIFICATION_PLATFORM_REPORT.md",
+      "github_url": "https://github.com/devC-here/BACKTEST/blob/main/docs/INSTITUTIONAL_STRATEGY_VERIFICATION_PLATFORM_REPORT.md"
+    },
+    {
+      "name": "Certified Production Fleet Documentation",
+      "path": "certified_production_fleet/README.md",
+      "description": "Full fleet layout, currency pair breakdown, primary alpha drivers, and strategy directory structure.",
+      "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/README.md",
+      "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/README.md"
+    },
+    {
+      "name": "Platform Root README",
+      "path": "README.md",
+      "description": "Repository overview, performance benchmarks (35M ticks/s), and quickstart execution commands.",
+      "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/README.md",
+      "github_url": "https://github.com/devC-here/BACKTEST/blob/main/README.md"
+    }
+  ],
+  "operational_scripts": [
+    {
+      "name": "Automated Strategy Certifier",
+      "path": "scripts/certify_strategy.py",
+      "description": "Executes dual-partition validation (Weeks 1..210 vs 211..300), checks hurdle rates, and outputs certified manifests.",
+      "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/scripts/certify_strategy.py",
+      "github_url": "https://github.com/devC-here/BACKTEST/blob/main/scripts/certify_strategy.py"
+    },
+    {
+      "name": "Full Fleet Certification Runner",
+      "path": "scripts/run_certification_fleet.py",
+      "description": "Batch certifies strategies across all 6 currency pairs with mandatory broker friction.",
+      "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/scripts/run_certification_fleet.py",
+      "github_url": "https://github.com/devC-here/BACKTEST/blob/main/scripts/run_certification_fleet.py"
+    },
+    {
+      "name": "Master Split Generator",
+      "path": "scripts/build_master_continuous_splits.py",
+      "description": "Constructs the continuous chronological partitions (Discovery 1..210 vs Quarantined Holdout 211..300).",
+      "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/scripts/build_master_continuous_splits.py",
+      "github_url": "https://github.com/devC-here/BACKTEST/blob/main/scripts/build_master_continuous_splits.py"
+    },
+    {
+      "name": "Fleet Manifest Generator",
+      "path": "scripts/generate_certified_fleet_manifest.py",
+      "description": "Compiles individual strategy run manifests into the canonical CERTIFIED_FLEET_MANIFEST.json.",
+      "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/scripts/generate_certified_fleet_manifest.py",
+      "github_url": "https://github.com/devC-here/BACKTEST/blob/main/scripts/generate_certified_fleet_manifest.py"
+    }
+  ],
+  "certified_strategies_by_symbol": {
+    "AUDNZD": [
+      {
+        "symbol": "AUDNZD",
+        "path": "certified_production_fleet/audnzd_champions/disc111_h4_macro_structure_retest_elite/strategy.py",
+        "name": "disc111_h4_macro_structure_retest_elite",
+        "holdout_net_pips": 231.6,
+        "holdout_profit_factor": 2.56,
+        "holdout_trades": 28,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/audnzd_champions/disc111_h4_macro_structure_retest_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/audnzd_champions/disc111_h4_macro_structure_retest_elite/strategy.py"
+      },
+      {
+        "symbol": "AUDNZD",
+        "path": "certified_production_fleet/audnzd_champions/disc112_h4_macro_precision_retest_elite/strategy.py",
+        "name": "disc112_h4_macro_precision_retest_elite",
+        "holdout_net_pips": 167.6,
+        "holdout_profit_factor": 2.06,
+        "holdout_trades": 29,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/audnzd_champions/disc112_h4_macro_precision_retest_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/audnzd_champions/disc112_h4_macro_precision_retest_elite/strategy.py"
+      },
+      {
+        "symbol": "AUDNZD",
+        "path": "certified_production_fleet/audnzd_champions/disc113_h1_macro_intraday_retest_elite/strategy.py",
+        "name": "disc113_h1_macro_intraday_retest_elite",
+        "holdout_net_pips": 74.7,
+        "holdout_profit_factor": 1.72,
+        "holdout_trades": 18,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/audnzd_champions/disc113_h1_macro_intraday_retest_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/audnzd_champions/disc113_h1_macro_intraday_retest_elite/strategy.py"
+      },
+      {
+        "symbol": "AUDNZD",
+        "path": "certified_production_fleet/audnzd_champions/disc114_h4_macro_wide_runner_elite/strategy.py",
+        "name": "disc114_h4_macro_wide_runner_elite",
+        "holdout_net_pips": 290.3,
+        "holdout_profit_factor": 3.03,
+        "holdout_trades": 28,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/audnzd_champions/disc114_h4_macro_wide_runner_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/audnzd_champions/disc114_h4_macro_wide_runner_elite/strategy.py"
+      }
+    ],
+    "EURGBP": [
+      {
+        "symbol": "EURGBP",
+        "path": "certified_production_fleet/eurgbp_champions/disc107_h1_keltner_squeeze_explosion_elite/strategy.py",
+        "name": "disc107_h1_keltner_squeeze_explosion_elite",
+        "holdout_net_pips": 126.0,
+        "holdout_profit_factor": 1.71,
+        "holdout_trades": 40,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurgbp_champions/disc107_h1_keltner_squeeze_explosion_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurgbp_champions/disc107_h1_keltner_squeeze_explosion_elite/strategy.py"
+      },
+      {
+        "symbol": "EURGBP",
+        "path": "certified_production_fleet/eurgbp_champions/disc108_macro_asymmetric_runner_elite/strategy.py",
+        "name": "disc108_macro_asymmetric_runner_elite",
+        "holdout_net_pips": 0.1,
+        "holdout_profit_factor": 1.01,
+        "holdout_trades": 3,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurgbp_champions/disc108_macro_asymmetric_runner_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurgbp_champions/disc108_macro_asymmetric_runner_elite/strategy.py"
+      },
+      {
+        "symbol": "EURGBP",
+        "path": "certified_production_fleet/eurgbp_champions/disc42_macro_structure_h4_m30_elite/strategy.py",
+        "name": "disc42_macro_structure_h4_m30_elite",
+        "holdout_net_pips": 28.2,
+        "holdout_profit_factor": 1.92,
+        "holdout_trades": 8,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurgbp_champions/disc42_macro_structure_h4_m30_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurgbp_champions/disc42_macro_structure_h4_m30_elite/strategy.py"
+      },
+      {
+        "symbol": "EURGBP",
+        "path": "certified_production_fleet/eurgbp_champions/disc48_camarilla_floor_elite/strategy.py",
+        "name": "disc48_camarilla_floor_elite",
+        "holdout_net_pips": 49.6,
+        "holdout_profit_factor": 1.17,
+        "holdout_trades": 55,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurgbp_champions/disc48_camarilla_floor_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurgbp_champions/disc48_camarilla_floor_elite/strategy.py"
+      },
+      {
+        "symbol": "EURGBP",
+        "path": "certified_production_fleet/eurgbp_london_sweeps/strategy_62_eurgbp_london_sweep.py",
+        "name": "strategy_62_eurgbp_london_sweep",
+        "holdout_net_pips": "N/A",
+        "holdout_profit_factor": "N/A",
+        "holdout_trades": "N/A",
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurgbp_london_sweeps/strategy_62_eurgbp_london_sweep.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurgbp_london_sweeps/strategy_62_eurgbp_london_sweep.py"
+      }
+    ],
+    "EURUSD": [
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc03_ny_open_overlap_elite/strategy.py",
+        "name": "disc03_ny_open_overlap_elite",
+        "holdout_net_pips": 188.8,
+        "holdout_profit_factor": 1.32,
+        "holdout_trades": 84,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc03_ny_open_overlap_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc03_ny_open_overlap_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc38_london_midday_macd_acceleration_elite/strategy.py",
+        "name": "disc38_london_midday_macd_acceleration_elite",
+        "holdout_net_pips": 40.7,
+        "holdout_profit_factor": 1.08,
+        "holdout_trades": 67,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc38_london_midday_macd_acceleration_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc38_london_midday_macd_acceleration_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc41_thursday_macro_trend_ignition_elite/strategy.py",
+        "name": "disc41_thursday_macro_trend_ignition_elite",
+        "holdout_net_pips": 31.2,
+        "holdout_profit_factor": 1.1,
+        "holdout_trades": 36,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc41_thursday_macro_trend_ignition_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc41_thursday_macro_trend_ignition_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc42_macro_structure_h4_m30_elite/strategy.py",
+        "name": "disc42_macro_structure_h4_m30_elite",
+        "holdout_net_pips": 28.2,
+        "holdout_profit_factor": 1.92,
+        "holdout_trades": 8,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc42_macro_structure_h4_m30_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc42_macro_structure_h4_m30_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc49_intraday_macro_retest_elite/strategy.py",
+        "name": "disc49_intraday_macro_retest_elite",
+        "holdout_net_pips": 153.6,
+        "holdout_profit_factor": 5.06,
+        "holdout_trades": 17,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc49_intraday_macro_retest_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc49_intraday_macro_retest_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc50_m30_m5_precision_retest_elite/strategy.py",
+        "name": "disc50_m30_m5_precision_retest_elite",
+        "holdout_net_pips": 66.8,
+        "holdout_profit_factor": 1.79,
+        "holdout_trades": 22,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc50_m30_m5_precision_retest_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc50_m30_m5_precision_retest_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc51_macro_asymmetric_runner_elite/strategy.py",
+        "name": "disc51_macro_asymmetric_runner_elite",
+        "holdout_net_pips": 238.5,
+        "holdout_profit_factor": 6.05,
+        "holdout_trades": 17,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc51_macro_asymmetric_runner_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc51_macro_asymmetric_runner_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc58_h1_keltner_squeeze_explosion_elite/strategy.py",
+        "name": "disc58_h1_keltner_squeeze_explosion_elite",
+        "holdout_net_pips": 392.3,
+        "holdout_profit_factor": 1.63,
+        "holdout_trades": 111,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc58_h1_keltner_squeeze_explosion_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc58_h1_keltner_squeeze_explosion_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc59_m15_macd_zero_cross_momentum_elite/strategy.py",
+        "name": "disc59_m15_macd_zero_cross_momentum_elite",
+        "holdout_net_pips": 366.5,
+        "holdout_profit_factor": 1.3,
+        "holdout_trades": 217,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc59_m15_macd_zero_cross_momentum_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc59_m15_macd_zero_cross_momentum_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc65_session_vwap_band_fade_elite/strategy.py",
+        "name": "disc65_session_vwap_band_fade_elite",
+        "holdout_net_pips": 409.0,
+        "holdout_profit_factor": 1.3,
+        "holdout_trades": 242,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc65_session_vwap_band_fade_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc65_session_vwap_band_fade_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc71_asian_hl_retest_elite/strategy.py",
+        "name": "disc71_asian_hl_retest_elite",
+        "holdout_net_pips": 90.7,
+        "holdout_profit_factor": 1.11,
+        "holdout_trades": 141,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc71_asian_hl_retest_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc71_asian_hl_retest_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc74_daily_pivot_pullback_elite/strategy.py",
+        "name": "disc74_daily_pivot_pullback_elite",
+        "holdout_net_pips": 513.8,
+        "holdout_profit_factor": 1.88,
+        "holdout_trades": 123,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc74_daily_pivot_pullback_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc74_daily_pivot_pullback_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc75_weekly_pivot_pullback_elite/strategy.py",
+        "name": "disc75_weekly_pivot_pullback_elite",
+        "holdout_net_pips": 81.6,
+        "holdout_profit_factor": 1.15,
+        "holdout_trades": 86,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc75_weekly_pivot_pullback_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc75_weekly_pivot_pullback_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc76_vwap_1sd_rebound_elite/strategy.py",
+        "name": "disc76_vwap_1sd_rebound_elite",
+        "holdout_net_pips": 313.3,
+        "holdout_profit_factor": 1.4,
+        "holdout_trades": 143,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc76_vwap_1sd_rebound_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc76_vwap_1sd_rebound_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc77_keltner_midline_expansion_elite/strategy.py",
+        "name": "disc77_keltner_midline_expansion_elite",
+        "holdout_net_pips": 99.1,
+        "holdout_profit_factor": 1.05,
+        "holdout_trades": 360,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc77_keltner_midline_expansion_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc77_keltner_midline_expansion_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc78_three_bar_inside_confirmation_elite/strategy.py",
+        "name": "disc78_three_bar_inside_confirmation_elite",
+        "holdout_net_pips": 45.7,
+        "holdout_profit_factor": 1.02,
+        "holdout_trades": 302,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc78_three_bar_inside_confirmation_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc78_three_bar_inside_confirmation_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc79_london_open_15m_expansion_elite/strategy.py",
+        "name": "disc79_london_open_15m_expansion_elite",
+        "holdout_net_pips": 172.8,
+        "holdout_profit_factor": 1.21,
+        "holdout_trades": 145,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc79_london_open_15m_expansion_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc79_london_open_15m_expansion_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc80_double_swing_neckline_retest_elite/strategy.py",
+        "name": "disc80_double_swing_neckline_retest_elite",
+        "holdout_net_pips": 280.8,
+        "holdout_profit_factor": 1.28,
+        "holdout_trades": 177,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc80_double_swing_neckline_retest_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc80_double_swing_neckline_retest_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc82_chaikin_volatility_surge_elite/strategy.py",
+        "name": "disc82_chaikin_volatility_surge_elite",
+        "holdout_net_pips": 405.8,
+        "holdout_profit_factor": 1.19,
+        "holdout_trades": 364,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc82_chaikin_volatility_surge_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc82_chaikin_volatility_surge_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc85_session_open_impulse_elite/strategy.py",
+        "name": "disc85_session_open_impulse_elite",
+        "holdout_net_pips": 96.8,
+        "holdout_profit_factor": 1.08,
+        "holdout_trades": 226,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc85_session_open_impulse_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc85_session_open_impulse_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/disc86_ema_cross_atr_expansion_elite/strategy.py",
+        "name": "disc86_ema_cross_atr_expansion_elite",
+        "holdout_net_pips": 552.9,
+        "holdout_profit_factor": 1.42,
+        "holdout_trades": 261,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/disc86_ema_cross_atr_expansion_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/disc86_ema_cross_atr_expansion_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/high_frequency_m15_scalper_elite/strategy.py",
+        "name": "high_frequency_m15_scalper_elite",
+        "holdout_net_pips": 66.8,
+        "holdout_profit_factor": 1.01,
+        "holdout_trades": 659,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/high_frequency_m15_scalper_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/high_frequency_m15_scalper_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_champions/s10_dual_ema_pullback_elite/strategy.py",
+        "name": "s10_dual_ema_pullback_elite",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_champions/s10_dual_ema_pullback_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_champions/s10_dual_ema_pullback_elite/strategy.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_ny_sweeps/strategy_09_eurusd_ny_sweep_fade.py",
+        "name": "strategy_09_eurusd_ny_sweep_fade",
+        "holdout_net_pips": 89.9,
+        "holdout_profit_factor": 1.15,
+        "holdout_trades": 97,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_ny_sweeps/strategy_09_eurusd_ny_sweep_fade.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_ny_sweeps/strategy_09_eurusd_ny_sweep_fade.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_ny_sweeps/strategy_10_eurusd_ny_sweep_fade.py",
+        "name": "strategy_10_eurusd_ny_sweep_fade",
+        "holdout_net_pips": 93.5,
+        "holdout_profit_factor": 1.15,
+        "holdout_trades": 97,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_ny_sweeps/strategy_10_eurusd_ny_sweep_fade.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_ny_sweeps/strategy_10_eurusd_ny_sweep_fade.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_ny_sweeps/strategy_11_eurusd_ny_sweep_fade.py",
+        "name": "strategy_11_eurusd_ny_sweep_fade",
+        "holdout_net_pips": 124.3,
+        "holdout_profit_factor": 1.18,
+        "holdout_trades": 97,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_ny_sweeps/strategy_11_eurusd_ny_sweep_fade.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_ny_sweeps/strategy_11_eurusd_ny_sweep_fade.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_ny_sweeps/strategy_12_eurusd_ny_sweep_fade.py",
+        "name": "strategy_12_eurusd_ny_sweep_fade",
+        "holdout_net_pips": 136.5,
+        "holdout_profit_factor": 1.17,
+        "holdout_trades": 97,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_ny_sweeps/strategy_12_eurusd_ny_sweep_fade.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_ny_sweeps/strategy_12_eurusd_ny_sweep_fade.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_ny_sweeps/strategy_15_eurusd_ny_sweep_fade.py",
+        "name": "strategy_15_eurusd_ny_sweep_fade",
+        "holdout_net_pips": 89.9,
+        "holdout_profit_factor": 1.15,
+        "holdout_trades": 97,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_ny_sweeps/strategy_15_eurusd_ny_sweep_fade.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_ny_sweeps/strategy_15_eurusd_ny_sweep_fade.py"
+      },
+      {
+        "symbol": "EURUSD",
+        "path": "certified_production_fleet/eurusd_ny_sweeps/strategy_16_eurusd_ny_sweep_fade.py",
+        "name": "strategy_16_eurusd_ny_sweep_fade",
+        "holdout_net_pips": 93.5,
+        "holdout_profit_factor": 1.15,
+        "holdout_trades": 97,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/eurusd_ny_sweeps/strategy_16_eurusd_ny_sweep_fade.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/eurusd_ny_sweeps/strategy_16_eurusd_ny_sweep_fade.py"
+      }
+    ],
+    "GBPCHF": [
+      {
+        "symbol": "GBPCHF",
+        "path": "certified_production_fleet/gbpchf_champions/strategy_26_gbpchf_asian_sweep/strategy.py",
+        "name": "strategy_26_gbpchf_asian_sweep",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/gbpchf_champions/strategy_26_gbpchf_asian_sweep/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/gbpchf_champions/strategy_26_gbpchf_asian_sweep/strategy.py"
+      },
+      {
+        "symbol": "GBPCHF",
+        "path": "certified_production_fleet/gbpchf_champions/strategy_27_gbpchf_asian_sweep/strategy.py",
+        "name": "strategy_27_gbpchf_asian_sweep",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/gbpchf_champions/strategy_27_gbpchf_asian_sweep/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/gbpchf_champions/strategy_27_gbpchf_asian_sweep/strategy.py"
+      },
+      {
+        "symbol": "GBPCHF",
+        "path": "certified_production_fleet/gbpchf_champions/strategy_29_gbpchf_asian_sweep/strategy.py",
+        "name": "strategy_29_gbpchf_asian_sweep",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/gbpchf_champions/strategy_29_gbpchf_asian_sweep/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/gbpchf_champions/strategy_29_gbpchf_asian_sweep/strategy.py"
+      }
+    ],
+    "USDCAD": [
+      {
+        "symbol": "USDCAD",
+        "path": "certified_production_fleet/usdcad_asian_sweeps/strategy_17_usdcad_asian_sweep.py",
+        "name": "strategy_17_usdcad_asian_sweep",
+        "holdout_net_pips": 68.5,
+        "holdout_profit_factor": 1.31,
+        "holdout_trades": 22,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdcad_asian_sweeps/strategy_17_usdcad_asian_sweep.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdcad_asian_sweeps/strategy_17_usdcad_asian_sweep.py"
+      },
+      {
+        "symbol": "USDCAD",
+        "path": "certified_production_fleet/usdcad_asian_sweeps/strategy_18_usdcad_asian_sweep.py",
+        "name": "strategy_18_usdcad_asian_sweep",
+        "holdout_net_pips": 53.9,
+        "holdout_profit_factor": 1.23,
+        "holdout_trades": 23,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdcad_asian_sweeps/strategy_18_usdcad_asian_sweep.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdcad_asian_sweeps/strategy_18_usdcad_asian_sweep.py"
+      },
+      {
+        "symbol": "USDCAD",
+        "path": "certified_production_fleet/usdcad_asian_sweeps/strategy_19_usdcad_asian_sweep.py",
+        "name": "strategy_19_usdcad_asian_sweep",
+        "holdout_net_pips": 53.9,
+        "holdout_profit_factor": 1.23,
+        "holdout_trades": 23,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdcad_asian_sweeps/strategy_19_usdcad_asian_sweep.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdcad_asian_sweeps/strategy_19_usdcad_asian_sweep.py"
+      },
+      {
+        "symbol": "USDCAD",
+        "path": "certified_production_fleet/usdcad_asian_sweeps/strategy_20_usdcad_asian_sweep.py",
+        "name": "strategy_20_usdcad_asian_sweep",
+        "holdout_net_pips": 95.8,
+        "holdout_profit_factor": 1.47,
+        "holdout_trades": 22,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdcad_asian_sweeps/strategy_20_usdcad_asian_sweep.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdcad_asian_sweeps/strategy_20_usdcad_asian_sweep.py"
+      },
+      {
+        "symbol": "USDCAD",
+        "path": "certified_production_fleet/usdcad_asian_sweeps/strategy_21_usdcad_asian_sweep.py",
+        "name": "strategy_21_usdcad_asian_sweep",
+        "holdout_net_pips": 81.2,
+        "holdout_profit_factor": 1.37,
+        "holdout_trades": 23,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdcad_asian_sweeps/strategy_21_usdcad_asian_sweep.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdcad_asian_sweeps/strategy_21_usdcad_asian_sweep.py"
+      },
+      {
+        "symbol": "USDCAD",
+        "path": "certified_production_fleet/usdcad_asian_sweeps/strategy_22_usdcad_asian_sweep.py",
+        "name": "strategy_22_usdcad_asian_sweep",
+        "holdout_net_pips": 81.2,
+        "holdout_profit_factor": 1.37,
+        "holdout_trades": 23,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdcad_asian_sweeps/strategy_22_usdcad_asian_sweep.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdcad_asian_sweeps/strategy_22_usdcad_asian_sweep.py"
+      },
+      {
+        "symbol": "USDCAD",
+        "path": "certified_production_fleet/usdcad_asian_sweeps/strategy_23_usdcad_asian_sweep.py",
+        "name": "strategy_23_usdcad_asian_sweep",
+        "holdout_net_pips": 112.6,
+        "holdout_profit_factor": 1.51,
+        "holdout_trades": 22,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdcad_asian_sweeps/strategy_23_usdcad_asian_sweep.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdcad_asian_sweeps/strategy_23_usdcad_asian_sweep.py"
+      },
+      {
+        "symbol": "USDCAD",
+        "path": "certified_production_fleet/usdcad_asian_sweeps/strategy_24_usdcad_asian_sweep.py",
+        "name": "strategy_24_usdcad_asian_sweep",
+        "holdout_net_pips": 86.3,
+        "holdout_profit_factor": 1.39,
+        "holdout_trades": 22,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdcad_asian_sweeps/strategy_24_usdcad_asian_sweep.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdcad_asian_sweeps/strategy_24_usdcad_asian_sweep.py"
+      }
+    ],
+    "USDJPY": [
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc100_double_structure_neckline_breakout_elite/strategy.py",
+        "name": "disc100_double_structure_neckline_breakout_elite",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc100_double_structure_neckline_breakout_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc100_double_structure_neckline_breakout_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc102_keltner_midline_expansion_elite/strategy.py",
+        "name": "disc102_keltner_midline_expansion_elite",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc102_keltner_midline_expansion_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc102_keltner_midline_expansion_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc106_chaikin_volatility_surge_elite/strategy.py",
+        "name": "disc106_chaikin_volatility_surge_elite",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc106_chaikin_volatility_surge_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc106_chaikin_volatility_surge_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc49_intraday_macro_retest_elite/strategy.py",
+        "name": "disc49_intraday_macro_retest_elite",
+        "holdout_net_pips": 153.6,
+        "holdout_profit_factor": 5.06,
+        "holdout_trades": 17,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc49_intraday_macro_retest_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc49_intraday_macro_retest_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc50_m30_m5_precision_retest_elite/strategy.py",
+        "name": "disc50_m30_m5_precision_retest_elite",
+        "holdout_net_pips": 66.8,
+        "holdout_profit_factor": 1.79,
+        "holdout_trades": 22,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc50_m30_m5_precision_retest_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc50_m30_m5_precision_retest_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc51_macro_asymmetric_runner_elite/strategy.py",
+        "name": "disc51_macro_asymmetric_runner_elite",
+        "holdout_net_pips": 238.5,
+        "holdout_profit_factor": 6.05,
+        "holdout_trades": 17,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc51_macro_asymmetric_runner_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc51_macro_asymmetric_runner_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc65_session_vwap_band_fade_elite/strategy.py",
+        "name": "disc65_session_vwap_band_fade_elite",
+        "holdout_net_pips": 409.0,
+        "holdout_profit_factor": 1.3,
+        "holdout_trades": 242,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc65_session_vwap_band_fade_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc65_session_vwap_band_fade_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc67_london_lunch_expansion_elite/strategy.py",
+        "name": "disc67_london_lunch_expansion_elite",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc67_london_lunch_expansion_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc67_london_lunch_expansion_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc68_cmf_momentum_expansion_elite/strategy.py",
+        "name": "disc68_cmf_momentum_expansion_elite",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc68_cmf_momentum_expansion_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc68_cmf_momentum_expansion_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc71_asian_hl_retest_elite/strategy.py",
+        "name": "disc71_asian_hl_retest_elite",
+        "holdout_net_pips": 90.7,
+        "holdout_profit_factor": 1.11,
+        "holdout_trades": 141,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc71_asian_hl_retest_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc71_asian_hl_retest_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc77_keltner_midline_expansion_elite/strategy.py",
+        "name": "disc77_keltner_midline_expansion_elite",
+        "holdout_net_pips": 99.1,
+        "holdout_profit_factor": 1.05,
+        "holdout_trades": 360,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc77_keltner_midline_expansion_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc77_keltner_midline_expansion_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc80_double_swing_neckline_retest_elite/strategy.py",
+        "name": "disc80_double_swing_neckline_retest_elite",
+        "holdout_net_pips": 280.8,
+        "holdout_profit_factor": 1.28,
+        "holdout_trades": 177,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc80_double_swing_neckline_retest_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc80_double_swing_neckline_retest_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc82_chaikin_volatility_surge_elite/strategy.py",
+        "name": "disc82_chaikin_volatility_surge_elite",
+        "holdout_net_pips": 405.8,
+        "holdout_profit_factor": 1.19,
+        "holdout_trades": 364,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc82_chaikin_volatility_surge_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc82_chaikin_volatility_surge_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc83_parabolic_sar_flip_elite/strategy.py",
+        "name": "disc83_parabolic_sar_flip_elite",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc83_parabolic_sar_flip_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc83_parabolic_sar_flip_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc84_london_30m_orb_continuation_elite/strategy.py",
+        "name": "disc84_london_30m_orb_continuation_elite",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc84_london_30m_orb_continuation_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc84_london_30m_orb_continuation_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc85_session_open_impulse_elite/strategy.py",
+        "name": "disc85_session_open_impulse_elite",
+        "holdout_net_pips": 96.8,
+        "holdout_profit_factor": 1.08,
+        "holdout_trades": 226,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc85_session_open_impulse_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc85_session_open_impulse_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc87_pivot_r1_s1_breakout_elite/strategy.py",
+        "name": "disc87_pivot_r1_s1_breakout_elite",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc87_pivot_r1_s1_breakout_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc87_pivot_r1_s1_breakout_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc89_ny_london_vwap_ignition_elite/strategy.py",
+        "name": "disc89_ny_london_vwap_ignition_elite",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc89_ny_london_vwap_ignition_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc89_ny_london_vwap_ignition_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc90_opening_range_impulse_expansion_elite/strategy.py",
+        "name": "disc90_opening_range_impulse_expansion_elite",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc90_opening_range_impulse_expansion_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc90_opening_range_impulse_expansion_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc91_session_donchian_midline_bounce_elite/strategy.py",
+        "name": "disc91_session_donchian_midline_bounce_elite",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc91_session_donchian_midline_bounce_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc91_session_donchian_midline_bounce_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc94_london_vwap_pullback_elite/strategy.py",
+        "name": "disc94_london_vwap_pullback_elite",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc94_london_vwap_pullback_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc94_london_vwap_pullback_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc95_camarilla_expansion_elite/strategy.py",
+        "name": "disc95_camarilla_expansion_elite",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc95_camarilla_expansion_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc95_camarilla_expansion_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc96_cardwell_rsi50_momentum_bounce_elite/strategy.py",
+        "name": "disc96_cardwell_rsi50_momentum_bounce_elite",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc96_cardwell_rsi50_momentum_bounce_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc96_cardwell_rsi50_momentum_bounce_elite/strategy.py"
+      },
+      {
+        "symbol": "USDJPY",
+        "path": "certified_production_fleet/usdjpy_champions/disc99_m15_macd_zero_cross_momentum_elite/strategy.py",
+        "name": "disc99_m15_macd_zero_cross_momentum_elite",
+        "holdout_net_pips": 37.1,
+        "holdout_profit_factor": 1.03,
+        "holdout_trades": 113,
+        "raw_url": "https://raw.githubusercontent.com/devC-here/BACKTEST/main/certified_production_fleet/usdjpy_champions/disc99_m15_macd_zero_cross_momentum_elite/strategy.py",
+        "github_url": "https://github.com/devC-here/BACKTEST/blob/main/certified_production_fleet/usdjpy_champions/disc99_m15_macd_zero_cross_momentum_elite/strategy.py"
+      }
+    ]
+  }
+}

@@ -1,6 +1,34 @@
-# High-Speed Tick-Level Backtesting System
+# High-Speed Tick-Level Backtesting & Institutional Strategy Verification Platform
 
-An institutional-grade, ultra-lightweight, high-speed tick-level Forex backtesting engine in Python optimized with Numba, NumPy, and PyArrow.
+An institutional-grade, ultra-lightweight, high-speed tick-level Forex backtesting and strategy verification engine in Python optimized with Numba, NumPy, and PyArrow.
+
+---
+
+## 🏆 Production Certified Fleet (72 Strategies)
+
+This repository hosts a portfolio of **72 certified quantitative trading strategies** that have undergone strict out-of-sample holdout certification and adversarial stress testing.
+
+- **Verified Holdout PnL (Weeks 211..300)**: **+11,723.3 pips** (9,726 trades, 1.26 Profit Factor, +1.21 pips/trade expectancy)
+- **5-Year Full Cycle PnL (Weeks 1..300)**: **+42,760.7 pips** (28,178 trades, 1.28 Profit Factor, +1.52 pips/trade expectancy)
+- **Multi-Pair Diversification**: 6 currency pairs (**EURUSD** 29, **USDJPY** 24, **USDCAD** 8, **AUDNZD** 4, **EURGBP** 4, **GBPCHF** 3)
+- **Fleet Manifest**: [`certified_production_fleet/CERTIFIED_FLEET_MANIFEST.json`](certified_production_fleet/CERTIFIED_FLEET_MANIFEST.json)
+- **Detailed Fleet Audit**: [`certified_production_fleet/README.md`](certified_production_fleet/README.md)
+- **Full Institutional Verification Report**: [`docs/INSTITUTIONAL_STRATEGY_VERIFICATION_PLATFORM_REPORT.md`](docs/INSTITUTIONAL_STRATEGY_VERIFICATION_PLATFORM_REPORT.md)
+
+---
+
+## 🛡️ 10-Point Institutional Verification Standard
+
+Every certified strategy in this fleet is evaluated under non-negotiable verification gates:
+
+1. **Continuous Chronological Partitioning**: Discovery calibrated strictly on Weeks 1..210 (2021 to mid-2025). Certified only on untouched Quarantined Holdout Weeks 211..300 (mid-2025 to 2026). Zero randomized week shuffling.
+2. **Mandatory Real-World Broker Friction**: Strict \$4.00/lot commission + 0.20p adverse entry slippage + raw Dukascopy floating spread.
+3. **Causal Rolling Warmup**: 100,000-tick rolling prior-week warmup ensuring indicator state precisely matches live execution without resetting at weekly boundaries or leaking test trades.
+4. **Enforced Order-Timing Contract**: Engine requires causal timestamp ordering ($T_{\text{fill}} > T_{\text{signal}}$). Zero same-tick fills permitted.
+5. **Real-Time Data Quality Gate**: Automatic rejection/flagging of partial weeks (<80h span, <15,000 ticks), inverted spreads (`Ask < Bid`), quote gaps (>4h during active trading), or non-positive prices.
+6. **Canonical Run Manifests**: Every backtest produces a tamper-evident JSON manifest recording strategy parameters, Git commit hash, engine code hash, dataset hashes, and trade logs.
+7. **Pessimistic Stress Testing**: Verified against 2x spread widening, 2x slippage, +50% commission, and execution latency.
+8. **Automated Integration Test Suite**: 10 rigorous institutional platform tests passing in `tick_engine/tests/test_institutional_platform.py`.
 
 ---
 

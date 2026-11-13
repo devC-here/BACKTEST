@@ -21,7 +21,7 @@ LEDGER_PATH = ROOT_DIR / "PROMPT_HISTORY_AND_CHANGELOG.md"
 
 
 def get_next_turn_number(content: str) -> int:
-    turns = re.findall(r"## Turn (\d+):", content)
+    turns = re.findall(r"Turn (\d+)", content)
     if not turns:
         return 1
     return max(int(t) for t in turns) + 1

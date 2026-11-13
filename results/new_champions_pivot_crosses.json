@@ -1,0 +1,164 @@
+[
+  {
+    "symbol": "GBPJPY",
+    "params": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch_up": 3.5,
+      "touch_dn": 5.0,
+      "min_wick": 0.35,
+      "sl_pips": 25.0,
+      "tp_pips": 60.0,
+      "max_spread": 2.5
+    },
+    "desc": "GBPJPY Daily Pivot Pullback (07-16 UTC, SL=25.0p, TP=60.0p)",
+    "holdout_metrics": {
+      "trades": 119,
+      "net_pips": 968.7299999998959,
+      "profit_factor": 1.5413714094108992,
+      "expectancy": 8.140588235293242,
+      "pips_ex_top3": 787.0199999999003
+    },
+    "discovery_metrics": {
+      "trades": 245,
+      "net_pips": 1734.2499999997954,
+      "profit_factor": 1.4781209852172543,
+      "expectancy": 7.078571428570593
+    }
+  },
+  {
+    "symbol": "GBPJPY",
+    "params": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch_up": 3.5,
+      "touch_dn": 5.0,
+      "min_wick": 0.35,
+      "sl_pips": 30.0,
+      "tp_pips": 75.0,
+      "max_spread": 2.5
+    },
+    "desc": "GBPJPY Daily Pivot Pullback (07-16 UTC, SL=30.0p, TP=75.0p)",
+    "holdout_metrics": {
+      "trades": 113,
+      "net_pips": 787.9099999998961,
+      "profit_factor": 1.3729627893986314,
+      "expectancy": 6.972654867255717,
+      "pips_ex_top3": 561.3999999998997
+    },
+    "discovery_metrics": {
+      "trades": 238,
+      "net_pips": 2150.7599999998024,
+      "profit_factor": 1.5237452818701402,
+      "expectancy": 9.036806722688246
+    }
+  },
+  {
+    "symbol": "GBPJPY",
+    "params": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch_up": 3.5,
+      "touch_dn": 5.0,
+      "min_wick": 0.35,
+      "sl_pips": 35.0,
+      "tp_pips": 85.0,
+      "max_spread": 2.5
+    },
+    "desc": "GBPJPY Daily Pivot Pullback (07-16 UTC, SL=35.0p, TP=85.0p)",
+    "holdout_metrics": {
+      "trades": 113,
+      "net_pips": 729.7099999999023,
+      "profit_factor": 1.2994296265900225,
+      "expectancy": 6.457610619468162,
+      "pips_ex_top3": 474.59999999990293
+    },
+    "discovery_metrics": {
+      "trades": 232,
+      "net_pips": 2572.5399999997944,
+      "profit_factor": 1.5771922306309234,
+      "expectancy": 11.088534482757735
+    }
+  },
+  {
+    "symbol": "GBPJPY",
+    "params": {
+      "start_hr": 12,
+      "end_hr": 20,
+      "touch_up": 3.5,
+      "touch_dn": 5.0,
+      "min_wick": 0.35,
+      "sl_pips": 25.0,
+      "tp_pips": 60.0,
+      "max_spread": 2.5
+    },
+    "desc": "GBPJPY Daily Pivot Pullback (12-20 UTC, SL=25.0p, TP=60.0p)",
+    "holdout_metrics": {
+      "trades": 88,
+      "net_pips": 958.8599999999318,
+      "profit_factor": 1.7973158380521572,
+      "expectancy": 10.89613636363559,
+      "pips_ex_top3": 777.9499999999343
+    },
+    "discovery_metrics": {
+      "trades": 179,
+      "net_pips": 1270.329999999837,
+      "profit_factor": 1.497754807767575,
+      "expectancy": 7.096815642457189
+    }
+  },
+  {
+    "symbol": "GBPJPY",
+    "params": {
+      "start_hr": 12,
+      "end_hr": 20,
+      "touch_up": 3.5,
+      "touch_dn": 5.0,
+      "min_wick": 0.35,
+      "sl_pips": 30.0,
+      "tp_pips": 75.0,
+      "max_spread": 2.5
+    },
+    "desc": "GBPJPY Daily Pivot Pullback (12-20 UTC, SL=30.0p, TP=75.0p)",
+    "holdout_metrics": {
+      "trades": 87,
+      "net_pips": 737.0899999999531,
+      "profit_factor": 1.5162526177184956,
+      "expectancy": 8.472298850574173,
+      "pips_ex_top3": 510.6799999999572
+    },
+    "discovery_metrics": {
+      "trades": 175,
+      "net_pips": 1572.4499999998557,
+      "profit_factor": 1.5406971346438174,
+      "expectancy": 8.985428571427747
+    }
+  },
+  {
+    "symbol": "GBPJPY",
+    "params": {
+      "start_hr": 12,
+      "end_hr": 20,
+      "touch_up": 3.5,
+      "touch_dn": 5.0,
+      "min_wick": 0.35,
+      "sl_pips": 35.0,
+      "tp_pips": 85.0,
+      "max_spread": 2.5
+    },
+    "desc": "GBPJPY Daily Pivot Pullback (12-20 UTC, SL=35.0p, TP=85.0p)",
+    "holdout_metrics": {
+      "trades": 87,
+      "net_pips": 855.0899999999366,
+      "profit_factor": 1.5444109838476052,
+      "expectancy": 9.828620689654443,
+      "pips_ex_top3": 598.7799999999372
+    },
+    "discovery_metrics": {
+      "trades": 171,
+      "net_pips": 2281.3699999998516,
+      "profit_factor": 1.752460519545557,
+      "expectancy": 13.341345029238898
+    }
+  }
+]

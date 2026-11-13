@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "title": "Institutional Certified Fleet Portfolio & Risk Gate Audit",
+    "date_range": "Weeks 211..300 (Continuous Holdout: Jan 2025 - Oct 2026)",
+    "initial_equity": 100000.0,
+    "risk_per_trade_pct": 0.3,
+    "max_leg_exposure_pct": 1.5,
+    "prop_firm_limits": {
+      "max_daily_drawdown_pct": 4.5,
+      "max_total_drawdown_pct": 8.0
+    }
+  },
+  "unrestricted_portfolio": {
+    "gate_enforced": false,
+    "initial_equity": 100000.0,
+    "final_equity": 745432.22,
+    "net_dollar_profit": 645432.22,
+    "net_pips": 47018.6,
+    "return_pct": 645.43,
+    "total_candidate_trades": 7854,
+    "executed_trades_count": 7854,
+    "throttled_trades_count": 0,
+    "max_drawdown_dollars": 9833.25,
+    "max_drawdown_pct": 7.75,
+    "worst_24h_drawdown_pct": 1.71,
+    "calmar_ratio": 83.27,
+    "prop_firm_passed": true
+  },
+  "institutional_gated_portfolio": {
+    "gate_enforced": true,
+    "initial_equity": 100000.0,
+    "final_equity": 674052.49,
+    "net_dollar_profit": 574052.49,
+    "net_pips": 41909.5,
+    "return_pct": 574.05,
+    "total_candidate_trades": 7854,
+    "executed_trades_count": 7416,
+    "throttled_trades_count": 438,
+    "max_drawdown_dollars": 10250.22,
+    "max_drawdown_pct": 7.75,
+    "worst_24h_drawdown_pct": 1.6,
+    "calmar_ratio": 74.06,
+    "prop_firm_passed": true
+  },
+  "cross_pair_daily_correlation": {
+    "AUDCAD": {
+      "AUDCAD": 1.0,
+      "AUDNZD": -0.011,
+      "EURGBP": 0.016,
+      "EURNZD": 0.03,
+      "EURUSD": 0.022,
+      "GBPCHF": -0.006,
+      "GBPJPY": 0.06,
+      "NZDCAD": 0.14,
+      "USDCAD": 0.007,
+      "USDJPY": -0.065
+    },
+    "AUDNZD": {
+      "AUDCAD": -0.011,
+      "AUDNZD": 1.0,
+      "EURGBP": 0.016,
+      "EURNZD": 0.106,
+      "EURUSD": 0.032,
+      "GBPCHF": 0.158,
+      "GBPJPY": 0.099,
+      "NZDCAD": 0.012,
+      "USDCAD": -0.015,
+      "USDJPY": 0.031
+    },
+    "EURGBP": {
+      "AUDCAD": 0.016,
+      "AUDNZD": 0.016,
+      "EURGBP": 1.0,
+      "EURNZD": 0.038,
+      "EURUSD": -0.038,
+      "GBPCHF": 0.082,
+      "GBPJPY": -0.054,
+      "NZDCAD": -0.03,
+      "USDCAD": -0.008,
+      "USDJPY": 0.025
+    },
+    "EURNZD": {
+      "AUDCAD": 0.03,
+      "AUDNZD": 0.106,
+      "EURGBP": 0.038,
+      "EURNZD": 1.0,
+      "EURUSD": 0.03,
+      "GBPCHF": 0.075,
+      "GBPJPY": 0.065,
+      "NZDCAD": -0.004,
+      "USDCAD": -0.005,
+      "USDJPY": 0.013
+    },
+    "EURUSD": {
+      "AUDCAD": 0.022,
+      "AUDNZD": 0.032,
+      "EURGBP": -0.038,
+      "EURNZD": 0.03,
+      "EURUSD": 1.0,
+      "GBPCHF": 0.007,
+      "GBPJPY": 0.023,
+      "NZDCAD": -0.045,
+      "USDCAD": 0.016,
+      "USDJPY": 0.069
+    },
+    "GBPCHF": {
+      "AUDCAD": -0.006,
+      "AUDNZD": 0.158,
+      "EURGBP": 0.082,
+      "EURNZD": 0.075,
+      "EURUSD": 0.007,
+      "GBPCHF": 1.0,
+      "GBPJPY": 0.098,
+      "NZDCAD": -0.077,
+      "USDCAD": 0.011,
+      "USDJPY": -0.021
+    },
+    "GBPJPY": {
+      "AUDCAD": 0.06,
+      "AUDNZD": 0.099,
+      "EURGBP": -0.054,
+      "EURNZD": 0.065,
+      "EURUSD": 0.023,
+      "GBPCHF": 0.098,
+      "GBPJPY": 1.0,
+      "NZDCAD": 0.074,
+      "USDCAD": -0.026,
+      "USDJPY": 0.11
+    },
+    "NZDCAD": {
+      "AUDCAD": 0.14,
+      "AUDNZD": 0.012,
+      "EURGBP": -0.03,
+      "EURNZD": -0.004,
+      "EURUSD": -0.045,
+      "GBPCHF": -0.077,
+      "GBPJPY": 0.074,
+      "NZDCAD": 1.0,
+      "USDCAD": 0.014,
+      "USDJPY": 0.023
+    },
+    "USDCAD": {
+      "AUDCAD": 0.007,
+      "AUDNZD": -0.015,
+      "EURGBP": -0.008,
+      "EURNZD": -0.005,
+      "EURUSD": 0.016,
+      "GBPCHF": 0.011,
+      "GBPJPY": -0.026,
+      "NZDCAD": 0.014,
+      "USDCAD": 1.0,
+      "USDJPY": -0.006
+    },
+    "USDJPY": {
+      "AUDCAD": -0.065,
+      "AUDNZD": 0.031,
+      "EURGBP": 0.025,
+      "EURNZD": 0.013,
+      "EURUSD": 0.069,
+      "GBPCHF": -0.021,
+      "GBPJPY": 0.11,
+      "NZDCAD": 0.023,
+      "USDCAD": -0.006,
+      "USDJPY": 1.0
+    }
+  }
+}

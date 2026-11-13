@@ -87,7 +87,16 @@ def _worker_eval_week(
     if strat_cls is None:
         return np.empty(0)
         
-    strat_inst = strat_cls()
+    try:
+        strat_inst = strat_cls(asset=symbol, symbol=symbol, pip_size=pip_size)
+    except Exception:
+        try:
+            strat_inst = strat_cls(asset=symbol, pip_size=pip_size)
+        except Exception:
+            try:
+                strat_inst = strat_cls(pip_size=pip_size)
+            except Exception:
+                strat_inst = strat_cls()
     raw_dir = ROOT_DIR / "data" / symbol
 
     try:

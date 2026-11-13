@@ -1,0 +1,246 @@
+{
+  "AUDCAD": [
+    {
+      "symbol": "AUDCAD",
+      "sl": 18.0,
+      "tp": 36.0,
+      "lb": 12,
+      "dist": 6.0,
+      "wick": 0.4,
+      "session": 1,
+      "holdout": {
+        "total_trades": 30,
+        "net_pips": 407.0,
+        "win_rate_pct": 63.3,
+        "profit_factor": 2.98,
+        "expectancy_pips": 13.57,
+        "expectancy_std_err": 4.83,
+        "expectancy_ci_95": [
+          4.09,
+          23.04
+        ],
+        "t_statistic": 2.81,
+        "p_value": 0.005,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 37.5,
+        "worst_month_pips": -50.7,
+        "bootstrap_95_max_dd_pips": 112.7,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 370.2,
+          "pips_ex_top3": 298.7,
+          "pips_ex_top5": 227.4,
+          "is_outlier_dependent": false
+        }
+      },
+      "discovery": {
+        "total_trades": 29,
+        "net_pips": 421.0,
+        "win_rate_pct": 62.1,
+        "profit_factor": 3.15,
+        "expectancy_pips": 14.52,
+        "expectancy_std_err": 4.85,
+        "expectancy_ci_95": [
+          5.01,
+          24.02
+        ],
+        "t_statistic": 2.99,
+        "p_value": 0.0028,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 55.9,
+        "worst_month_pips": -19.0,
+        "bootstrap_95_max_dd_pips": 99.6,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 384.5,
+          "pips_ex_top3": 313.2,
+          "pips_ex_top5": 242.2,
+          "is_outlier_dependent": false
+        }
+      }
+    }
+  ],
+  "NZDCAD": [
+    {
+      "symbol": "NZDCAD",
+      "sl": 16.0,
+      "tp": 40.0,
+      "lb": 10,
+      "dist": 6.0,
+      "wick": 0.45,
+      "session": 1,
+      "holdout": {
+        "total_trades": 37,
+        "net_pips": 314.4,
+        "win_rate_pct": 48.6,
+        "profit_factor": 1.9,
+        "expectancy_pips": 8.5,
+        "expectancy_std_err": 4.73,
+        "expectancy_ci_95": [
+          -0.78,
+          17.77
+        ],
+        "t_statistic": 1.8,
+        "p_value": 0.0719,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 87.8,
+        "worst_month_pips": -23.5,
+        "bootstrap_95_max_dd_pips": 171.2,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 271.1,
+          "pips_ex_top3": 191.7,
+          "pips_ex_top5": 112.4,
+          "is_outlier_dependent": false
+        }
+      },
+      "discovery": {
+        "total_trades": 30,
+        "net_pips": 51.1,
+        "win_rate_pct": 36.7,
+        "profit_factor": 1.16,
+        "expectancy_pips": 1.7,
+        "expectancy_std_err": 4.7,
+        "expectancy_ci_95": [
+          -7.51,
+          10.91
+        ],
+        "t_statistic": 0.36,
+        "p_value": 0.7188,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 160.5,
+        "worst_month_pips": -34.0,
+        "bootstrap_95_max_dd_pips": 226.0,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 11.3,
+          "pips_ex_top3": -67.9,
+          "pips_ex_top5": -146.8,
+          "is_outlier_dependent": true
+        }
+      }
+    }
+  ],
+  "USDCAD": [
+    {
+      "symbol": "USDCAD",
+      "sl": 14.0,
+      "tp": 28.0,
+      "lb": 10,
+      "dist": 3.5,
+      "wick": 0.4,
+      "session": 3,
+      "holdout": {
+        "total_trades": 27,
+        "net_pips": 373.1,
+        "win_rate_pct": 66.7,
+        "profit_factor": 4.07,
+        "expectancy_pips": 13.82,
+        "expectancy_std_err": 3.81,
+        "expectancy_ci_95": [
+          6.36,
+          21.28
+        ],
+        "t_statistic": 3.63,
+        "p_value": 0.0003,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 72.8,
+        "worst_month_pips": -29.3,
+        "bootstrap_95_max_dd_pips": 63.2,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 345.4,
+          "pips_ex_top3": 290.3,
+          "pips_ex_top5": 235.2,
+          "is_outlier_dependent": false
+        }
+      },
+      "discovery": {
+        "total_trades": 25,
+        "net_pips": 290.0,
+        "win_rate_pct": 64.0,
+        "profit_factor": 3.19,
+        "expectancy_pips": 11.6,
+        "expectancy_std_err": 4.15,
+        "expectancy_ci_95": [
+          3.46,
+          19.74
+        ],
+        "t_statistic": 2.79,
+        "p_value": 0.0053,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 44.0,
+        "worst_month_pips": -14.8,
+        "bootstrap_95_max_dd_pips": 74.4,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 256.5,
+          "pips_ex_top3": 201.0,
+          "pips_ex_top5": 145.7,
+          "is_outlier_dependent": false
+        }
+      }
+    }
+  ],
+  "EURNZD": [
+    {
+      "symbol": "EURNZD",
+      "sl": 25.0,
+      "tp": 60.0,
+      "lb": 10,
+      "dist": 10.0,
+      "wick": 0.4,
+      "session": 3,
+      "holdout": {
+        "total_trades": 15,
+        "net_pips": 208.2,
+        "win_rate_pct": 46.7,
+        "profit_factor": 2.0,
+        "expectancy_pips": 13.88,
+        "expectancy_std_err": 11.51,
+        "expectancy_ci_95": [
+          -8.67,
+          36.43
+        ],
+        "t_statistic": 1.21,
+        "p_value": 0.2263,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 88.8,
+        "worst_month_pips": -51.5,
+        "bootstrap_95_max_dd_pips": 187.3,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 148.4,
+          "pips_ex_top3": 29.3,
+          "pips_ex_top5": -89.8,
+          "is_outlier_dependent": false
+        }
+      },
+      "discovery": {
+        "total_trades": 32,
+        "net_pips": 859.7,
+        "win_rate_pct": 62.5,
+        "profit_factor": 3.73,
+        "expectancy_pips": 26.86,
+        "expectancy_std_err": 7.4,
+        "expectancy_ci_95": [
+          12.36,
+          41.37
+        ],
+        "t_statistic": 3.63,
+        "p_value": 0.0003,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 131.2,
+        "worst_month_pips": -78.7,
+        "bootstrap_95_max_dd_pips": 132.5,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 798.3,
+          "pips_ex_top3": 678.4,
+          "pips_ex_top5": 559.0,
+          "is_outlier_dependent": false
+        }
+      }
+    }
+  ]
+}

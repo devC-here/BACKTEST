@@ -1,0 +1,488 @@
+[
+  {
+    "symbol": "USDJPY",
+    "params": {
+      "start_hr": 0,
+      "end_hr": 16,
+      "touch_up": 1.5,
+      "touch_dn": 3.0,
+      "min_wick": 0.35,
+      "sl_pips": 16.0,
+      "tp_pips": 35.0,
+      "max_spread": 1.5
+    },
+    "desc": "USDJPY Daily Pivot (00-16 UTC, Touch=1.5/3.0, Wk=0.35, SL=16.0p, TP=35.0p)",
+    "holdout_metrics": {
+      "trades": 111,
+      "net_pips": 309.0699999999112,
+      "profit_factor": 1.2865261245224686,
+      "expectancy": 2.7844144144136145,
+      "pips_ex_top3": 204.25999999991618
+    },
+    "discovery_metrics": {
+      "trades": 294,
+      "net_pips": 701.7799999998929,
+      "profit_factor": 1.2329328199680951,
+      "expectancy": 2.387006802720724
+    }
+  },
+  {
+    "symbol": "USDJPY",
+    "params": {
+      "start_hr": 0,
+      "end_hr": 16,
+      "touch_up": 1.5,
+      "touch_dn": 3.0,
+      "min_wick": 0.4,
+      "sl_pips": 14.0,
+      "tp_pips": 28.0,
+      "max_spread": 1.5
+    },
+    "desc": "USDJPY Daily Pivot (00-16 UTC, Touch=1.5/3.0, Wk=0.4, SL=14.0p, TP=28.0p)",
+    "holdout_metrics": {
+      "trades": 95,
+      "net_pips": 195.74999999993582,
+      "profit_factor": 1.2355737408988812,
+      "expectancy": 2.060526315788798,
+      "pips_ex_top3": 110.23999999993914
+    },
+    "discovery_metrics": {
+      "trades": 260,
+      "net_pips": 373.4999999999394,
+      "profit_factor": 1.1595942417884506,
+      "expectancy": 1.4365384615382284
+    }
+  },
+  {
+    "symbol": "USDJPY",
+    "params": {
+      "start_hr": 0,
+      "end_hr": 16,
+      "touch_up": 1.5,
+      "touch_dn": 3.0,
+      "min_wick": 0.4,
+      "sl_pips": 14.0,
+      "tp_pips": 32.0,
+      "max_spread": 1.5
+    },
+    "desc": "USDJPY Daily Pivot (00-16 UTC, Touch=1.5/3.0, Wk=0.4, SL=14.0p, TP=32.0p)",
+    "holdout_metrics": {
+      "trades": 95,
+      "net_pips": 246.24999999991257,
+      "profit_factor": 1.2861675053164983,
+      "expectancy": 2.5921052631569745,
+      "pips_ex_top3": 150.43999999991786
+    },
+    "discovery_metrics": {
+      "trades": 259,
+      "net_pips": 614.0299999999067,
+      "profit_factor": 1.2587056082444235,
+      "expectancy": 2.3707722007718406
+    }
+  },
+  {
+    "symbol": "USDJPY",
+    "params": {
+      "start_hr": 0,
+      "end_hr": 16,
+      "touch_up": 1.5,
+      "touch_dn": 3.0,
+      "min_wick": 0.4,
+      "sl_pips": 16.0,
+      "tp_pips": 35.0,
+      "max_spread": 1.5
+    },
+    "desc": "USDJPY Daily Pivot (00-16 UTC, Touch=1.5/3.0, Wk=0.4, SL=16.0p, TP=35.0p)",
+    "holdout_metrics": {
+      "trades": 95,
+      "net_pips": 360.0499999999246,
+      "profit_factor": 1.3906283904004575,
+      "expectancy": 3.789999999999206,
+      "pips_ex_top3": 255.23999999992955
+    },
+    "discovery_metrics": {
+      "trades": 258,
+      "net_pips": 743.1599999999167,
+      "profit_factor": 1.2855364470468535,
+      "expectancy": 2.880465116278747
+    }
+  },
+  {
+    "symbol": "USDJPY",
+    "params": {
+      "start_hr": 0,
+      "end_hr": 16,
+      "touch_up": 2.0,
+      "touch_dn": 4.0,
+      "min_wick": 0.35,
+      "sl_pips": 14.0,
+      "tp_pips": 32.0,
+      "max_spread": 1.5
+    },
+    "desc": "USDJPY Daily Pivot (00-16 UTC, Touch=2.0/4.0, Wk=0.35, SL=14.0p, TP=32.0p)",
+    "holdout_metrics": {
+      "trades": 131,
+      "net_pips": 255.4699999998886,
+      "profit_factor": 1.217897870235216,
+      "expectancy": 1.950152671754875,
+      "pips_ex_top3": 159.6599999998939
+    },
+    "discovery_metrics": {
+      "trades": 351,
+      "net_pips": 872.3699999998767,
+      "profit_factor": 1.2733605324508834,
+      "expectancy": 2.485384615384264
+    }
+  },
+  {
+    "symbol": "USDJPY",
+    "params": {
+      "start_hr": 0,
+      "end_hr": 16,
+      "touch_up": 2.0,
+      "touch_dn": 4.0,
+      "min_wick": 0.35,
+      "sl_pips": 16.0,
+      "tp_pips": 35.0,
+      "max_spread": 1.5
+    },
+    "desc": "USDJPY Daily Pivot (00-16 UTC, Touch=2.0/4.0, Wk=0.35, SL=16.0p, TP=35.0p)",
+    "holdout_metrics": {
+      "trades": 131,
+      "net_pips": 486.46999999989185,
+      "profit_factor": 1.3904002953260348,
+      "expectancy": 3.713511450380854,
+      "pips_ex_top3": 380.9599999998935
+    },
+    "discovery_metrics": {
+      "trades": 346,
+      "net_pips": 1006.2199999998727,
+      "profit_factor": 1.2885326191370141,
+      "expectancy": 2.908150289016973
+    }
+  },
+  {
+    "symbol": "USDJPY",
+    "params": {
+      "start_hr": 0,
+      "end_hr": 16,
+      "touch_up": 2.0,
+      "touch_dn": 4.0,
+      "min_wick": 0.4,
+      "sl_pips": 14.0,
+      "tp_pips": 32.0,
+      "max_spread": 1.5
+    },
+    "desc": "USDJPY Daily Pivot (00-16 UTC, Touch=2.0/4.0, Wk=0.4, SL=14.0p, TP=32.0p)",
+    "holdout_metrics": {
+      "trades": 114,
+      "net_pips": 215.6799999999006,
+      "profit_factor": 1.2050969950550476,
+      "expectancy": 1.8919298245605314,
+      "pips_ex_top3": 119.86999999990589
+    },
+    "discovery_metrics": {
+      "trades": 311,
+      "net_pips": 757.7699999998829,
+      "profit_factor": 1.2661615789084981,
+      "expectancy": 2.43655948553017
+    }
+  },
+  {
+    "symbol": "USDJPY",
+    "params": {
+      "start_hr": 0,
+      "end_hr": 16,
+      "touch_up": 2.0,
+      "touch_dn": 4.0,
+      "min_wick": 0.4,
+      "sl_pips": 16.0,
+      "tp_pips": 35.0,
+      "max_spread": 1.5
+    },
+    "desc": "USDJPY Daily Pivot (00-16 UTC, Touch=2.0/4.0, Wk=0.4, SL=16.0p, TP=35.0p)",
+    "holdout_metrics": {
+      "trades": 114,
+      "net_pips": 400.6799999999058,
+      "profit_factor": 1.3569913932891582,
+      "expectancy": 3.514736842104437,
+      "pips_ex_top3": 295.1699999999074
+    },
+    "discovery_metrics": {
+      "trades": 308,
+      "net_pips": 877.8599999998901,
+      "profit_factor": 1.2823872281428221,
+      "expectancy": 2.850194805194448
+    }
+  },
+  {
+    "symbol": "USDJPY",
+    "params": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch_up": 1.5,
+      "touch_dn": 3.0,
+      "min_wick": 0.4,
+      "sl_pips": 16.0,
+      "tp_pips": 35.0,
+      "max_spread": 1.5
+    },
+    "desc": "USDJPY Daily Pivot (07-16 UTC, Touch=1.5/3.0, Wk=0.4, SL=16.0p, TP=35.0p)",
+    "holdout_metrics": {
+      "trades": 51,
+      "net_pips": 190.56999999995776,
+      "profit_factor": 1.371843902438925,
+      "expectancy": 3.7366666666658386,
+      "pips_ex_top3": 85.95999999996084
+    },
+    "discovery_metrics": {
+      "trades": 152,
+      "net_pips": 451.8399999999488,
+      "profit_factor": 1.2991604650546518,
+      "expectancy": 2.972631578947032
+    }
+  },
+  {
+    "symbol": "USDJPY",
+    "params": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch_up": 2.0,
+      "touch_dn": 4.0,
+      "min_wick": 0.4,
+      "sl_pips": 16.0,
+      "tp_pips": 35.0,
+      "max_spread": 1.5
+    },
+    "desc": "USDJPY Daily Pivot (07-16 UTC, Touch=2.0/4.0, Wk=0.4, SL=16.0p, TP=35.0p)",
+    "holdout_metrics": {
+      "trades": 67,
+      "net_pips": 148.2899999999348,
+      "profit_factor": 1.2127760320260654,
+      "expectancy": 2.213283582088579,
+      "pips_ex_top3": 42.57999999993831
+    },
+    "discovery_metrics": {
+      "trades": 195,
+      "net_pips": 701.849999999936,
+      "profit_factor": 1.367580052163491,
+      "expectancy": 3.599230769230441
+    }
+  },
+  {
+    "symbol": "USDJPY",
+    "params": {
+      "start_hr": 12,
+      "end_hr": 19,
+      "touch_up": 1.5,
+      "touch_dn": 3.0,
+      "min_wick": 0.35,
+      "sl_pips": 14.0,
+      "tp_pips": 28.0,
+      "max_spread": 1.5
+    },
+    "desc": "USDJPY Daily Pivot (12-19 UTC, Touch=1.5/3.0, Wk=0.35, SL=14.0p, TP=28.0p)",
+    "holdout_metrics": {
+      "trades": 43,
+      "net_pips": 143.2099999999577,
+      "profit_factor": 1.4523516219714632,
+      "expectancy": 3.3304651162780856,
+      "pips_ex_top3": 57.399999999959576
+    },
+    "discovery_metrics": {
+      "trades": 128,
+      "net_pips": 502.1599999999607,
+      "profit_factor": 1.5123715652963026,
+      "expectancy": 3.923124999999693
+    }
+  },
+  {
+    "symbol": "USDJPY",
+    "params": {
+      "start_hr": 12,
+      "end_hr": 19,
+      "touch_up": 1.5,
+      "touch_dn": 3.0,
+      "min_wick": 0.35,
+      "sl_pips": 14.0,
+      "tp_pips": 32.0,
+      "max_spread": 1.5
+    },
+    "desc": "USDJPY Daily Pivot (12-19 UTC, Touch=1.5/3.0, Wk=0.35, SL=14.0p, TP=32.0p)",
+    "holdout_metrics": {
+      "trades": 43,
+      "net_pips": 139.40999999995373,
+      "profit_factor": 1.4403487160047441,
+      "expectancy": 3.242093023254738,
+      "pips_ex_top3": 44.59999999995527
+    },
+    "discovery_metrics": {
+      "trades": 128,
+      "net_pips": 657.0599999999429,
+      "profit_factor": 1.6691720134432466,
+      "expectancy": 5.133281249999554
+    }
+  },
+  {
+    "symbol": "USDJPY",
+    "params": {
+      "start_hr": 12,
+      "end_hr": 19,
+      "touch_up": 1.5,
+      "touch_dn": 3.0,
+      "min_wick": 0.35,
+      "sl_pips": 16.0,
+      "tp_pips": 35.0,
+      "max_spread": 1.5
+    },
+    "desc": "USDJPY Daily Pivot (12-19 UTC, Touch=1.5/3.0, Wk=0.35, SL=16.0p, TP=35.0p)",
+    "holdout_metrics": {
+      "trades": 43,
+      "net_pips": 160.1099999999616,
+      "profit_factor": 1.4765745922132159,
+      "expectancy": 3.72348837209213,
+      "pips_ex_top3": 55.699999999962785
+    },
+    "discovery_metrics": {
+      "trades": 127,
+      "net_pips": 755.7899999999452,
+      "profit_factor": 1.7210085476607784,
+      "expectancy": 5.951102362204293
+    }
+  },
+  {
+    "symbol": "USDJPY",
+    "params": {
+      "start_hr": 12,
+      "end_hr": 19,
+      "touch_up": 1.5,
+      "touch_dn": 3.0,
+      "min_wick": 0.4,
+      "sl_pips": 14.0,
+      "tp_pips": 28.0,
+      "max_spread": 1.5
+    },
+    "desc": "USDJPY Daily Pivot (12-19 UTC, Touch=1.5/3.0, Wk=0.4, SL=14.0p, TP=28.0p)",
+    "holdout_metrics": {
+      "trades": 39,
+      "net_pips": 131.7299999999619,
+      "profit_factor": 1.4583028911385358,
+      "expectancy": 3.3776923076913308,
+      "pips_ex_top3": 45.91999999996379
+    },
+    "discovery_metrics": {
+      "trades": 108,
+      "net_pips": 464.95999999997287,
+      "profit_factor": 1.5645664606529657,
+      "expectancy": 4.305185185184934
+    }
+  },
+  {
+    "symbol": "USDJPY",
+    "params": {
+      "start_hr": 12,
+      "end_hr": 19,
+      "touch_up": 1.5,
+      "touch_dn": 3.0,
+      "min_wick": 0.4,
+      "sl_pips": 14.0,
+      "tp_pips": 32.0,
+      "max_spread": 1.5
+    },
+    "desc": "USDJPY Daily Pivot (12-19 UTC, Touch=1.5/3.0, Wk=0.4, SL=14.0p, TP=32.0p)",
+    "holdout_metrics": {
+      "trades": 39,
+      "net_pips": 124.12999999995691,
+      "profit_factor": 1.4318616706674496,
+      "expectancy": 3.182820512819408,
+      "pips_ex_top3": 29.319999999958455
+    },
+    "discovery_metrics": {
+      "trades": 108,
+      "net_pips": 633.5599999999608,
+      "profit_factor": 1.7692849423849186,
+      "expectancy": 5.866296296295934
+    }
+  },
+  {
+    "symbol": "USDJPY",
+    "params": {
+      "start_hr": 12,
+      "end_hr": 19,
+      "touch_up": 1.5,
+      "touch_dn": 3.0,
+      "min_wick": 0.4,
+      "sl_pips": 16.0,
+      "tp_pips": 35.0,
+      "max_spread": 1.5
+    },
+    "desc": "USDJPY Daily Pivot (12-19 UTC, Touch=1.5/3.0, Wk=0.4, SL=16.0p, TP=35.0p)",
+    "holdout_metrics": {
+      "trades": 39,
+      "net_pips": 145.82999999997233,
+      "profit_factor": 1.4817641228938434,
+      "expectancy": 3.7392307692300597,
+      "pips_ex_top3": 41.41999999997353
+    },
+    "discovery_metrics": {
+      "trades": 107,
+      "net_pips": 741.589999999962,
+      "profit_factor": 1.852294537472226,
+      "expectancy": 6.930747663551046
+    }
+  },
+  {
+    "symbol": "USDJPY",
+    "params": {
+      "start_hr": 12,
+      "end_hr": 19,
+      "touch_up": 2.0,
+      "touch_dn": 4.0,
+      "min_wick": 0.35,
+      "sl_pips": 16.0,
+      "tp_pips": 35.0,
+      "max_spread": 1.5
+    },
+    "desc": "USDJPY Daily Pivot (12-19 UTC, Touch=2.0/4.0, Wk=0.35, SL=16.0p, TP=35.0p)",
+    "holdout_metrics": {
+      "trades": 59,
+      "net_pips": 148.02999999994358,
+      "profit_factor": 1.283914152553625,
+      "expectancy": 2.5089830508465014,
+      "pips_ex_top3": 42.519999999948055
+    },
+    "discovery_metrics": {
+      "trades": 162,
+      "net_pips": 997.3399999999402,
+      "profit_factor": 1.739274172028292,
+      "expectancy": 6.156419753086051
+    }
+  },
+  {
+    "symbol": "USDJPY",
+    "params": {
+      "start_hr": 12,
+      "end_hr": 19,
+      "touch_up": 2.0,
+      "touch_dn": 4.0,
+      "min_wick": 0.4,
+      "sl_pips": 16.0,
+      "tp_pips": 35.0,
+      "max_spread": 1.5
+    },
+    "desc": "USDJPY Daily Pivot (12-19 UTC, Touch=2.0/4.0, Wk=0.4, SL=16.0p, TP=35.0p)",
+    "holdout_metrics": {
+      "trades": 52,
+      "net_pips": 133.43999999995515,
+      "profit_factor": 1.2939401282021907,
+      "expectancy": 2.5661538461529836,
+      "pips_ex_top3": 27.92999999995962
+    },
+    "discovery_metrics": {
+      "trades": 138,
+      "net_pips": 865.9599999999557,
+      "profit_factor": 1.7501905883983229,
+      "expectancy": 6.275072463767795
+    }
+  }
+]

@@ -1,0 +1,672 @@
+{
+  "audit_title": "Redundant Duplicate Pruning Audit",
+  "timestamp_utc": "2026-11-11T20:25:00Z",
+  "pruned_count": 13,
+  "retained_count": 72,
+  "target_fleet_size": 72,
+  "pruned_strategies": [
+    {
+      "name": "disc119",
+      "filename": "strategy.py",
+      "category": "audcad_champions",
+      "symbol": "AUDCAD",
+      "relative_path": "certified_production_fleet/audcad_champions/disc119/strategy.py",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 306.7,
+        "profit_factor": 2.77,
+        "total_trades": 24,
+        "win_rate_pct": 58.3,
+        "expectancy_pips": 12.78,
+        "max_drawdown_pips": 50.4
+      },
+      "discovery_metrics": {
+        "total_trades": 26,
+        "net_pips": 430.8,
+        "win_rate_pct": 61.5,
+        "profit_factor": 3.59,
+        "expectancy_pips": 16.57,
+        "expectancy_std_err": 5.36,
+        "expectancy_ci_95": [
+          6.06,
+          27.08
+        ],
+        "t_statistic": 3.09,
+        "p_value": 0.002,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 50.3,
+        "worst_month_pips": -16.9,
+        "bootstrap_95_max_dd_pips": 83.7,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 389.6,
+          "pips_ex_top3": 310.1,
+          "pips_ex_top5": 231.0,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "943601b0c18bb913b7d8b0c5250a26e1de08b8f029957f8e757f3f71de935482",
+      "manifest_file": "results/certified_strategy_manifests/AUDCAD__disc119_run_manifest.json",
+      "pruning_metadata": {
+        "symbol": "AUDCAD",
+        "name": "disc119",
+        "champion": "disc115",
+        "overlap_pct": 100.0,
+        "corr": 0.79,
+        "reason": "100.0% trade overlap with disc115 (disc115 dominates with PF 2.98 vs 2.77, +407.0p vs +306.7p)"
+      }
+    },
+    {
+      "name": "disc120",
+      "filename": "strategy.py",
+      "category": "audcad_champions",
+      "symbol": "AUDCAD",
+      "relative_path": "certified_production_fleet/audcad_champions/disc120/strategy.py",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 319.6,
+        "profit_factor": 2.65,
+        "total_trades": 30,
+        "win_rate_pct": 60.0,
+        "expectancy_pips": 10.65,
+        "max_drawdown_pips": 35.2
+      },
+      "discovery_metrics": {
+        "total_trades": 28,
+        "net_pips": 293.2,
+        "win_rate_pct": 57.1,
+        "profit_factor": 2.52,
+        "expectancy_pips": 10.47,
+        "expectancy_std_err": 4.48,
+        "expectancy_ci_95": [
+          1.69,
+          19.26
+        ],
+        "t_statistic": 2.34,
+        "p_value": 0.0193,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 50.3,
+        "worst_month_pips": -16.9,
+        "bootstrap_95_max_dd_pips": 101.0,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 260.9,
+          "pips_ex_top3": 197.2,
+          "pips_ex_top5": 134.1,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "9b709026f66d8869b6014c6380734ce5154b1c8b0e2dfe82ad930594d81da2bc",
+      "manifest_file": "results/certified_strategy_manifests/AUDCAD__disc120_run_manifest.json",
+      "pruning_metadata": {
+        "symbol": "AUDCAD",
+        "name": "disc120",
+        "champion": "disc115",
+        "overlap_pct": 100.0,
+        "corr": 0.92,
+        "reason": "100.0% trade overlap with disc115 (disc115 dominates with PF 2.98 vs 2.65, +407.0p vs +319.6p)"
+      }
+    },
+    {
+      "name": "disc142",
+      "filename": "strategy.py",
+      "category": "eurnzd_champions",
+      "symbol": "EURNZD",
+      "relative_path": "certified_production_fleet/eurnzd_champions/disc142/strategy.py",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 1521.3,
+        "profit_factor": 6.63,
+        "total_trades": 36,
+        "win_rate_pct": 75.0,
+        "expectancy_pips": 42.26,
+        "max_drawdown_pips": 42.1
+      },
+      "discovery_metrics": {
+        "total_trades": 28,
+        "net_pips": 1029.5,
+        "win_rate_pct": 71.4,
+        "profit_factor": 5.16,
+        "expectancy_pips": 36.77,
+        "expectancy_std_err": 8.82,
+        "expectancy_ci_95": [
+          19.49,
+          54.05
+        ],
+        "t_statistic": 4.17,
+        "p_value": 0.0,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 61.9,
+        "worst_month_pips": -31.3,
+        "bootstrap_95_max_dd_pips": 124.1,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 954.3,
+          "pips_ex_top3": 804.2,
+          "pips_ex_top5": 654.7,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "7942c056b66bef7eecc3ba9332bc1a9c41b21c20f3d8a6df33bdc38cdbd8f8a7",
+      "manifest_file": "results/certified_strategy_manifests/EURNZD__disc142_run_manifest.json",
+      "pruning_metadata": {
+        "symbol": "EURNZD",
+        "name": "disc142",
+        "champion": "disc143",
+        "overlap_pct": 100.0,
+        "corr": 0.92,
+        "reason": "100.0% trade overlap with disc143 (disc143 dominates with PF 7.27 vs 6.63, higher stability)"
+      }
+    },
+    {
+      "name": "disc144",
+      "filename": "strategy.py",
+      "category": "eurnzd_champions",
+      "symbol": "EURNZD",
+      "relative_path": "certified_production_fleet/eurnzd_champions/disc144/strategy.py",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 1414.2,
+        "profit_factor": 7.2,
+        "total_trades": 33,
+        "win_rate_pct": 75.8,
+        "expectancy_pips": 42.86,
+        "max_drawdown_pips": 73.3
+      },
+      "discovery_metrics": {
+        "total_trades": 26,
+        "net_pips": 985.5,
+        "win_rate_pct": 73.1,
+        "profit_factor": 5.55,
+        "expectancy_pips": 37.9,
+        "expectancy_std_err": 9.01,
+        "expectancy_ci_95": [
+          20.25,
+          55.56
+        ],
+        "t_statistic": 4.21,
+        "p_value": 0.0,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 61.9,
+        "worst_month_pips": -31.3,
+        "bootstrap_95_max_dd_pips": 123.8,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 910.2,
+          "pips_ex_top3": 760.1,
+          "pips_ex_top5": 611.0,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "91f6d461298df79b4a94bc7c105ffc79e5b1eb19432558954b7b82836ebe3616",
+      "manifest_file": "results/certified_strategy_manifests/EURNZD__disc144_run_manifest.json",
+      "pruning_metadata": {
+        "symbol": "EURNZD",
+        "name": "disc144",
+        "champion": "disc143",
+        "overlap_pct": 100.0,
+        "corr": 0.83,
+        "reason": "100.0% trade overlap with disc143 (disc143 dominates with PF 7.27 vs 7.20, +1417.9p vs +1414.2p)"
+      }
+    },
+    {
+      "name": "disc49_intraday_macro_retest_elite",
+      "filename": "strategy.py",
+      "category": "eurusd_champions",
+      "symbol": "EURUSD",
+      "relative_path": "certified_production_fleet/eurusd_champions/disc49_intraday_macro_retest_elite/strategy.py",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 153.6,
+        "profit_factor": 5.06,
+        "total_trades": 17,
+        "win_rate_pct": 76.5,
+        "expectancy_pips": 9.04,
+        "max_drawdown_pips": 9.5
+      },
+      "discovery_metrics": {
+        "total_trades": 48,
+        "net_pips": 444.8,
+        "win_rate_pct": 77.1,
+        "profit_factor": 4.99,
+        "expectancy_pips": 9.27,
+        "expectancy_std_err": 1.57,
+        "expectancy_ci_95": [
+          6.2,
+          12.34
+        ],
+        "t_statistic": 5.91,
+        "p_value": 0.0,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 20.3,
+        "worst_month_pips": -10.9,
+        "bootstrap_95_max_dd_pips": 42.9,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 418.5,
+          "pips_ex_top3": 386.6,
+          "pips_ex_top5": 357.0,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "43edabb5befbebc338b1b00fcba7a4c1f050174e523cf2254f653bea82c767eb",
+      "manifest_file": "results/certified_strategy_manifests/EURUSD__disc49_intraday_macro_retest_elite_run_manifest.json",
+      "pruning_metadata": {
+        "symbol": "EURUSD",
+        "name": "disc49_intraday_macro_retest_elite",
+        "champion": "disc51_macro_asymmetric_runner_elite",
+        "overlap_pct": 100.0,
+        "corr": 0.86,
+        "reason": "100.0% trade overlap with disc51 (disc51 dominates with PF 6.05 vs 5.06, +238.5p vs +153.6p)"
+      }
+    },
+    {
+      "name": "disc136",
+      "filename": "strategy.py",
+      "category": "gbpchf_champions",
+      "symbol": "GBPCHF",
+      "relative_path": "certified_production_fleet/gbpchf_champions/disc136/strategy.py",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 1436.6,
+        "profit_factor": 3.02,
+        "total_trades": 86,
+        "win_rate_pct": 65.1,
+        "expectancy_pips": 16.7,
+        "max_drawdown_pips": 104.9
+      },
+      "discovery_metrics": {
+        "total_trades": 61,
+        "net_pips": 758.3,
+        "win_rate_pct": 45.9,
+        "profit_factor": 1.93,
+        "expectancy_pips": 12.43,
+        "expectancy_std_err": 5.31,
+        "expectancy_ci_95": [
+          2.03,
+          22.83
+        ],
+        "t_statistic": 2.34,
+        "p_value": 0.0193,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 127.7,
+        "worst_month_pips": -51.7,
+        "bootstrap_95_max_dd_pips": 279.5,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 697.5,
+          "pips_ex_top3": 577.4,
+          "pips_ex_top5": 457.8,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "0bcd5bde40ba90bfa3f3b641d18cbbb858204bb68b4c037afe6805e9b5194ce2",
+      "manifest_file": "results/certified_strategy_manifests/GBPCHF__disc136_run_manifest.json",
+      "pruning_metadata": {
+        "symbol": "GBPCHF",
+        "name": "disc136",
+        "champion": "disc134",
+        "overlap_pct": 98.8,
+        "corr": 0.92,
+        "reason": "98.8% trade overlap with disc134 (disc134 dominates with PF 3.46 vs 3.02, +1514.5p vs +1436.6p)"
+      }
+    },
+    {
+      "name": "disc151",
+      "filename": "strategy.py",
+      "category": "gbpchf_champions",
+      "symbol": "GBPCHF",
+      "relative_path": "certified_production_fleet/gbpchf_champions/disc151/strategy.py",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 1429.9,
+        "profit_factor": 3.5,
+        "total_trades": 86,
+        "win_rate_pct": 65.1,
+        "expectancy_pips": 16.63,
+        "max_drawdown_pips": 102.5
+      },
+      "discovery_metrics": {
+        "total_trades": 62,
+        "net_pips": 738.6,
+        "win_rate_pct": 50.0,
+        "profit_factor": 2.16,
+        "expectancy_pips": 11.91,
+        "expectancy_std_err": 4.16,
+        "expectancy_ci_95": [
+          3.76,
+          20.07
+        ],
+        "t_statistic": 2.86,
+        "p_value": 0.0042,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 119.7,
+        "worst_month_pips": -61.1,
+        "bootstrap_95_max_dd_pips": 203.9,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 693.2,
+          "pips_ex_top3": 603.3,
+          "pips_ex_top5": 513.6,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "0699a4aa366aa1372e30c49a22fac0a83f0afd97faaca4e8bec6196a6ac9e209",
+      "manifest_file": "results/certified_strategy_manifests/GBPCHF__disc151_run_manifest.json",
+      "pruning_metadata": {
+        "symbol": "GBPCHF",
+        "name": "disc151",
+        "champion": "disc134",
+        "overlap_pct": 100.0,
+        "corr": 0.86,
+        "reason": "100.0% trade overlap with disc134 (disc134 dominates with +1514.5p vs +1429.9p)"
+      }
+    },
+    {
+      "name": "disc154",
+      "filename": "strategy.py",
+      "category": "gbpjpy_champions",
+      "symbol": "GBPJPY",
+      "relative_path": "certified_production_fleet/gbpjpy_champions/disc154/strategy.py",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 968.1,
+        "profit_factor": 4.93,
+        "total_trades": 23,
+        "win_rate_pct": 69.6,
+        "expectancy_pips": 42.09,
+        "max_drawdown_pips": 122.2
+      },
+      "discovery_metrics": {
+        "total_trades": 29,
+        "net_pips": 1018.1,
+        "win_rate_pct": 65.5,
+        "profit_factor": 3.5,
+        "expectancy_pips": 35.11,
+        "expectancy_std_err": 10.91,
+        "expectancy_ci_95": [
+          13.73,
+          56.49
+        ],
+        "t_statistic": 3.22,
+        "p_value": 0.0013,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 122.2,
+        "worst_month_pips": -40.8,
+        "bootstrap_95_max_dd_pips": 203.9,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 927.9,
+          "pips_ex_top3": 748.6,
+          "pips_ex_top5": 569.7,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "98bc7c672b7c175a8d8d2523826f4efcd7cc8537d009040d40c8d4f8e1f99514",
+      "manifest_file": "results/certified_strategy_manifests/GBPJPY__disc154_run_manifest.json",
+      "pruning_metadata": {
+        "symbol": "GBPJPY",
+        "name": "disc154",
+        "champion": "disc141",
+        "overlap_pct": 100.0,
+        "corr": 1.0,
+        "reason": "100.0% trade overlap with disc141 (exact identical clone, +968.1p, PF 4.93)"
+      }
+    },
+    {
+      "name": "disc121",
+      "filename": "strategy.py",
+      "category": "nzdcad_champions",
+      "symbol": "NZDCAD",
+      "relative_path": "certified_production_fleet/nzdcad_champions/disc121/strategy.py",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 234.5,
+        "profit_factor": 1.77,
+        "total_trades": 31,
+        "win_rate_pct": 45.2,
+        "expectancy_pips": 7.57,
+        "max_drawdown_pips": 88.1
+      },
+      "discovery_metrics": {
+        "total_trades": 28,
+        "net_pips": 28.3,
+        "win_rate_pct": 35.7,
+        "profit_factor": 1.09,
+        "expectancy_pips": 1.01,
+        "expectancy_std_err": 4.8,
+        "expectancy_ci_95": [
+          -8.4,
+          10.42
+        ],
+        "t_statistic": 0.21,
+        "p_value": 0.8337,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 160.5,
+        "worst_month_pips": -34.0,
+        "bootstrap_95_max_dd_pips": 232.4,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -11.5,
+          "pips_ex_top3": -90.7,
+          "pips_ex_top5": -169.6,
+          "is_outlier_dependent": true
+        }
+      },
+      "code_sha256": "f81e3798a77ce1b6ecc2491a30867413187630b0fa3ff1018e4ca97540be1e63",
+      "manifest_file": "results/certified_strategy_manifests/NZDCAD__disc121_run_manifest.json",
+      "pruning_metadata": {
+        "symbol": "NZDCAD",
+        "name": "disc121",
+        "champion": "disc122",
+        "overlap_pct": 96.3,
+        "corr": 0.94,
+        "reason": "96.3% trade overlap with disc122 (disc122 dominates with PF 1.81 vs 1.77)"
+      }
+    },
+    {
+      "name": "disc124",
+      "filename": "strategy.py",
+      "category": "nzdcad_champions",
+      "symbol": "NZDCAD",
+      "relative_path": "certified_production_fleet/nzdcad_champions/disc124/strategy.py",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 213.5,
+        "profit_factor": 1.84,
+        "total_trades": 27,
+        "win_rate_pct": 48.1,
+        "expectancy_pips": 7.91,
+        "max_drawdown_pips": 86.0
+      },
+      "discovery_metrics": {
+        "total_trades": 23,
+        "net_pips": 111.7,
+        "win_rate_pct": 43.5,
+        "profit_factor": 1.5,
+        "expectancy_pips": 4.86,
+        "expectancy_std_err": 5.54,
+        "expectancy_ci_95": [
+          -5.99,
+          15.71
+        ],
+        "t_statistic": 0.88,
+        "p_value": 0.3789,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 93.6,
+        "worst_month_pips": -34.0,
+        "bootstrap_95_max_dd_pips": 171.9,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 71.9,
+          "pips_ex_top3": -7.1,
+          "pips_ex_top5": -86.0,
+          "is_outlier_dependent": true
+        }
+      },
+      "code_sha256": "5bba1017a23e62bcc7ae9d67becc3210bae1d76f33ab17a8a1aeceb364608927",
+      "manifest_file": "results/certified_strategy_manifests/NZDCAD__disc124_run_manifest.json",
+      "pruning_metadata": {
+        "symbol": "NZDCAD",
+        "name": "disc124",
+        "champion": "disc125",
+        "overlap_pct": 100.0,
+        "corr": 0.93,
+        "reason": "100.0% trade overlap with disc125 (disc125 dominates with PF 1.84 vs 1.76, +213.5p vs +197.8p)"
+      }
+    },
+    {
+      "name": "strategy_18_usdcad_asian_sweep",
+      "filename": "strategy_18_usdcad_asian_sweep.py",
+      "category": "certified_production_fleet",
+      "symbol": "USDCAD",
+      "relative_path": "certified_production_fleet/usdcad_asian_sweeps/strategy_18_usdcad_asian_sweep.py",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 53.9,
+        "profit_factor": 1.23,
+        "total_trades": 23,
+        "win_rate_pct": 30.4,
+        "expectancy_pips": 2.34,
+        "max_drawdown_pips": 73.0
+      },
+      "discovery_metrics": {
+        "total_trades": 122,
+        "net_pips": 207.4,
+        "win_rate_pct": 29.5,
+        "profit_factor": 1.16,
+        "expectancy_pips": 1.7,
+        "expectancy_std_err": 2.35,
+        "expectancy_ci_95": [
+          -2.92,
+          6.32
+        ],
+        "t_statistic": 0.72,
+        "p_value": 0.4715,
+        "bonferroni_p_threshold": 0.00313,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 208.2,
+        "worst_month_pips": -117.4,
+        "bootstrap_95_max_dd_pips": 447.5,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 160.1,
+          "pips_ex_top3": 69.4,
+          "pips_ex_top5": -20.5,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "2bb168add15c020a471fc69a9d1d7f0c676556e8b55c355badd0a06cd814cde0",
+      "manifest_file": "results/certified_strategy_manifests/USDCAD__strategy_18_usdcad_asian_sweep_run_manifest.json",
+      "pruning_metadata": {
+        "symbol": "USDCAD",
+        "name": "strategy_18_usdcad_asian_sweep",
+        "champion": "strategy_23_usdcad_asian_sweep",
+        "overlap_pct": 100.0,
+        "corr": 0.89,
+        "reason": "100.0% trade overlap with strategy_23 (strategy_23 dominates with PF 1.51 vs 1.23, +112.6p vs +53.9p)"
+      }
+    },
+    {
+      "name": "disc131",
+      "filename": "strategy.py",
+      "category": "usdcad_champions",
+      "symbol": "USDCAD",
+      "relative_path": "certified_production_fleet/usdcad_champions/disc131/strategy.py",
+      "status": "DUAL_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 287.5,
+        "profit_factor": 2.39,
+        "total_trades": 33,
+        "win_rate_pct": 54.5,
+        "expectancy_pips": 8.71,
+        "max_drawdown_pips": 73.1
+      },
+      "discovery_metrics": {
+        "total_trades": 28,
+        "net_pips": 369.0,
+        "win_rate_pct": 64.3,
+        "profit_factor": 3.78,
+        "expectancy_pips": 13.18,
+        "expectancy_std_err": 3.84,
+        "expectancy_ci_95": [
+          5.66,
+          20.7
+        ],
+        "t_statistic": 3.44,
+        "p_value": 0.0006,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 44.5,
+        "worst_month_pips": -29.3,
+        "bootstrap_95_max_dd_pips": 73.8,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 335.5,
+          "pips_ex_top3": 279.6,
+          "pips_ex_top5": 224.3,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "cb29bc8fa40b2911825b741b6c2582a5f9e5b1b2e08e5f25ee95dc4926426abb",
+      "manifest_file": "results/certified_strategy_manifests/USDCAD__disc131_run_manifest.json",
+      "pruning_metadata": {
+        "symbol": "USDCAD",
+        "name": "disc131",
+        "champion": "disc128",
+        "overlap_pct": 97.0,
+        "corr": 0.94,
+        "reason": "97.0% trade overlap with disc128 (disc128 dominates with PF 2.48 vs 2.39, +327.6p vs +287.5p)"
+      }
+    },
+    {
+      "name": "disc51_macro_asymmetric_runner_elite",
+      "filename": "strategy.py",
+      "category": "usdjpy_champions",
+      "symbol": "USDJPY",
+      "relative_path": "certified_production_fleet/usdjpy_champions/disc51_macro_asymmetric_runner_elite/strategy.py",
+      "status": "NON_CERTIFIED",
+      "holdout_metrics": {
+        "net_pips": 50.1,
+        "profit_factor": 2.32,
+        "total_trades": 6,
+        "win_rate_pct": 50.0,
+        "expectancy_pips": 8.35,
+        "max_drawdown_pips": 38.0
+      },
+      "discovery_metrics": {
+        "total_trades": 27,
+        "net_pips": 254.9,
+        "win_rate_pct": 51.9,
+        "profit_factor": 2.61,
+        "expectancy_pips": 9.44,
+        "expectancy_std_err": 4.1,
+        "expectancy_ci_95": [
+          1.4,
+          17.48
+        ],
+        "t_statistic": 2.3,
+        "p_value": 0.0214,
+        "bonferroni_p_threshold": 0.00125,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 37.9,
+        "worst_month_pips": -25.8,
+        "bootstrap_95_max_dd_pips": 90.0,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 224.7,
+          "pips_ex_top3": 165.4,
+          "pips_ex_top5": 106.2,
+          "is_outlier_dependent": false
+        }
+      },
+      "code_sha256": "b2340d5870b9463dcc952b40b8e10a0cd1ff265639ea6499d7c5ac50baee53a4",
+      "manifest_file": "results/certified_strategy_manifests/USDJPY__disc51_macro_asymmetric_runner_elite_run_manifest.json",
+      "pruning_metadata": {
+        "symbol": "USDJPY",
+        "name": "disc51_macro_asymmetric_runner_elite",
+        "champion": "disc49_intraday_macro_retest_elite",
+        "overlap_pct": 100.0,
+        "corr": 0.72,
+        "reason": "100.0% trade overlap with disc49 (disc49 dominates with PF 3.12 vs 2.32, +53.8p vs +50.1p)"
+      }
+    }
+  ]
+}

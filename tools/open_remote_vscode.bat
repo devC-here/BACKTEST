@@ -1,7 +1,7 @@
 @echo off
 title VS Code Remote SSH - Azure VM (C:\BACKTEST)
 echo ================================================================================
-echo    Launching VS Code Remote SSH to Azure Cloud VM (azure-vm)
+echo    Launching VS Code Remote SSH to Azure Cloud VM (mt5-web: 172.198.152.252)
 echo    Target Directory: C:\BACKTEST
 echo ================================================================================
 

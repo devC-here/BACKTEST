@@ -1,0 +1,40 @@
+[
+  {
+    "symbol": "EURNZD",
+    "kc_mult": 1.8,
+    "session_name": "NY_Overlap",
+    "start_hr": 12,
+    "end_hr": 16,
+    "sl_pips": 35.0,
+    "tp_pips": 80.0,
+    "max_spread": 5.0,
+    "disc_trades": 60,
+    "disc_pips": 600.8,
+    "disc_pf": 1.48,
+    "disc_exp": 10.01,
+    "hold_trades": 58,
+    "hold_pips": 293.3,
+    "hold_pf": 1.23,
+    "hold_exp": 5.06,
+    "hold_pips_ex3": 53.2
+  },
+  {
+    "symbol": "EURNZD",
+    "kc_mult": 1.5,
+    "session_name": "Frankfurt_London_Open",
+    "start_hr": 6,
+    "end_hr": 10,
+    "sl_pips": 32.0,
+    "tp_pips": 70.0,
+    "max_spread": 5.0,
+    "disc_trades": 78,
+    "disc_pips": 600.9,
+    "disc_pf": 1.41,
+    "disc_exp": 7.7,
+    "hold_trades": 63,
+    "hold_pips": 297.0,
+    "hold_pf": 1.22,
+    "hold_exp": 4.71,
+    "hold_pips_ex3": 84.4
+  }
+]

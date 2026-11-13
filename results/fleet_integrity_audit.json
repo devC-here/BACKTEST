@@ -1,0 +1,1205 @@
+{
+  "total_files": 73,
+  "exact_sha_clones_count": 0,
+  "exact_ast_clones_count": 0,
+  "mismatch_count": 0,
+  "strategies": [
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc03_ny_open_overlap_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc03_ny_open_overlap_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 5519,
+      "sha256": "5c2d52a05755c0f82015a6d7743c0d0986852b68368ee74d8fa51f4fcc6c3834",
+      "ast_hash": "311059bd63c4d4bad5bc6eb2cc81e6ea9514bdc6226257f8f5114309fa3dcd3b",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc38_london_midday_macd_acceleration_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc38_london_midday_macd_acceleration_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 6110,
+      "sha256": "71a040f21913d6c287c647bd3632da2cfebfbb5b366ac8294a9652f2b7a4a61a",
+      "ast_hash": "0a1054ab3f914f7532a327e53b33793a8d25faf07a196538e8671403659e7ac7",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc41_thursday_macro_trend_ignition_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc41_thursday_macro_trend_ignition_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 6588,
+      "sha256": "df89a5db19909d96d0b3d1efe886602bcf71d889f31f65395a01a9d910f1d605",
+      "ast_hash": "3ce785365e16f48dd419bf903936888c29ba97f6043b8ed6da77f400f23a03a7",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc42_macro_structure_h4_m30_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc42_macro_structure_h4_m30_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 5992,
+      "sha256": "8eab1f942e47ca6f2b3240e05a0a31f478bce5478757249412a3ce6536c1b437",
+      "ast_hash": "18a768631284ed29d308c8a4b20dba0d8ae8db63c6a735f79a7304c266706f59",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc49_intraday_macro_retest_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc49_intraday_macro_retest_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 5865,
+      "sha256": "43edabb5befbebc338b1b00fcba7a4c1f050174e523cf2254f653bea82c767eb",
+      "ast_hash": "a52af9aa3fecadaf0b52640ecc8753f55ab6cff0f56af598fa2d3075a469fc25",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc50_m30_m5_precision_retest_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc50_m30_m5_precision_retest_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 5482,
+      "sha256": "a2702de440318404ef656db4851936178704ef86259dfc6a050a3f7d71972217",
+      "ast_hash": "e4094d8e5687d8d787ed0914c160166a7da1730564574d733131fafe33605e78",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc51_macro_asymmetric_runner_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc51_macro_asymmetric_runner_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 5645,
+      "sha256": "d0f7397d719c5ac5c5957647eda55c6b154271736313275fe7cbe29d73ac91cc",
+      "ast_hash": "0f392012f0afe3d0a2c671f733cc4544b35bf99e45d1e9f5ecfd20cb383120ea",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc58_h1_keltner_squeeze_explosion_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc58_h1_keltner_squeeze_explosion_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 362,
+      "sha256": "4f3cbd1026fb345f8c2a7eea70df7f71f9844c7fbb74c4a3b2aa9a4e9c79fc0c",
+      "ast_hash": "e7ec254952070e798274f38d69979afe1d32ae305573699c30c2a4d23debbed6",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc59_m15_macd_zero_cross_momentum_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc59_m15_macd_zero_cross_momentum_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 342,
+      "sha256": "5b818cd072e798b652f2313daed2a016376a25c432c242962163e522b45b6ef9",
+      "ast_hash": "eb2591ba09a442fd2672a54a64f0a8d9469a8d0170a130b5911ffcf286127ee1",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc65_session_vwap_band_fade_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc65_session_vwap_band_fade_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 5314,
+      "sha256": "456e8ceb23f3ec22185a07d9fab5820ddbaa4aabb5f7f6cf0dabb2c9b99fdff7",
+      "ast_hash": "d7651543f35f14664f87b28e5ca94bc978fa5f6c529402d81921c5dae6808e14",
+      "symbols_found": [
+        "EURUSD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc71_asian_hl_retest_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc71_asian_hl_retest_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 6288,
+      "sha256": "49a6300675f33bc2ee0edaf34f36e0f8f056bd9b614df1d5f99028a4dfd7b38f",
+      "ast_hash": "e9b83c0d67e4b21d9324fd1ed546561596174e05f0e97da139856b4c6601506c",
+      "symbols_found": [
+        "EURUSD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc74_daily_pivot_pullback_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc74_daily_pivot_pullback_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 6683,
+      "sha256": "0d4a29faefa200ab91516c1d8d25622179a2a56459a1dcee54c994648e2e2edd",
+      "ast_hash": "0b19f9de32a9bd53284621ca049bc2fae0cb50087cd93bae612760c819db970c",
+      "symbols_found": [
+        "EURUSD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc75_weekly_pivot_pullback_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc75_weekly_pivot_pullback_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 5598,
+      "sha256": "76336eb8820b6d28a15d4472206f54250a767f1b361ef353361af395d3ae3ea2",
+      "ast_hash": "3bbea3c59707364144edf77ffb597626af96971f4d2322406b3cc1d8d71ad589",
+      "symbols_found": [
+        "EURUSD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc76_vwap_1sd_rebound_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc76_vwap_1sd_rebound_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 6185,
+      "sha256": "d2df4052775f86690d74cb68b5b974c6030ee7acd4b4734ebe57f2d4d3792326",
+      "ast_hash": "e5aecbe44eaf897aa806b45cf23276e15b15a401e3b8d7b42f8f26878d96d001",
+      "symbols_found": [
+        "EURUSD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc77_keltner_midline_expansion_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc77_keltner_midline_expansion_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 5515,
+      "sha256": "5bbfd97bd6cf8942cc493b06ea27bf5ec81e28e439b2aa8f7ae420ed9dc81212",
+      "ast_hash": "a343f6aec2dd72af28dd345770ca3b9a5e8b347a7995653b8bcac57dd36e7f8a",
+      "symbols_found": [
+        "EURUSD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc78_three_bar_inside_confirmation_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc78_three_bar_inside_confirmation_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 5012,
+      "sha256": "2a11fcb12d5ed22e56a6b4aad9c547f992a7740858bd231ef5613cc5d5be107a",
+      "ast_hash": "79b6b0651efa12e82490ab2c682981cb353d5941433b94b4f26b43a0321c7c6b",
+      "symbols_found": [
+        "EURUSD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc79_london_open_15m_expansion_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc79_london_open_15m_expansion_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 5139,
+      "sha256": "8d58a4f8c916ddb52322f3737f468b9450b5f57d18491e2d321eb03d6baad9c6",
+      "ast_hash": "3b6c95d96e13f356625b232a946a5af683215642a12c697a18a95c37095e3b49",
+      "symbols_found": [
+        "EURUSD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc80_double_swing_neckline_retest_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc80_double_swing_neckline_retest_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 5347,
+      "sha256": "7f4e566bdfc1bf0991292b4bcb4e11345a1896b9ad6a776d1523858707a75c5a",
+      "ast_hash": "7ec37a99969314cedf8d3cc1a80515411694a50f84c723bc357af29e79c974a6",
+      "symbols_found": [
+        "EURUSD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc82_chaikin_volatility_surge_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc82_chaikin_volatility_surge_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 5417,
+      "sha256": "fef38a3e2f2f1b6329c42cb77a24e8499158be43b8b1c36ce48be92ac62bbf48",
+      "ast_hash": "6e9788c75a428a03cfc09b97552596fea31c4e33d32dd506856bac8a384b8ba8",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc85_session_open_impulse_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc85_session_open_impulse_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 5793,
+      "sha256": "15c981b429cb550867797ffbb239c99ed5bfe797d362ca311420367dc3fa1fb6",
+      "ast_hash": "90532d0522344f38bcc519e020a57f74339c29f1ce181ba7b97de51479a7fe84",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\disc86_ema_cross_atr_expansion_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc86_ema_cross_atr_expansion_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 5470,
+      "sha256": "7ce049ebc28b8a78bb4a6dede6ba87878c95649cda3b357391393d4901714e2c",
+      "ast_hash": "5795958326f0c766365c8a6133640b3370f99e93a688f1ffb7c56c737c4a7ca2",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\high_frequency_m15_scalper_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "high_frequency_m15_scalper_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 7035,
+      "sha256": "50d91256a10829338dc6ebeab33087597029aeb7fcc53b9d8d4fcd4f8af7fa45",
+      "ast_hash": "348f520b0665c34be2c02865a58d7d56d7ccd79b9470633ea6e69e8556946a18",
+      "symbols_found": [],
+      "pip_sizes_found": [
+        "0.0001"
+      ],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_champions\\s10_dual_ema_pullback_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "s10_dual_ema_pullback_elite",
+      "expected_symbol": "EURUSD",
+      "file_size": 9792,
+      "sha256": "901c995c98c4987f56996c17c2bcd091cfc6669a167132674f49e7eb072e04ce",
+      "ast_hash": "9be9f4b945cb87dc562e0b6d626bb594589537c14a16bfd801e16aa977fec705",
+      "symbols_found": [],
+      "pip_sizes_found": [
+        "0.0001"
+      ],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_ny_sweeps\\strategy_09_eurusd_ny_sweep_fade.py",
+      "filename": "strategy_09_eurusd_ny_sweep_fade.py",
+      "parent_dir": "eurusd_ny_sweeps",
+      "expected_symbol": "EURUSD",
+      "file_size": 5363,
+      "sha256": "42d19a590b056f2b4817431670923e8921da2ab0c00d90c5d5813dd42fcf9ca7",
+      "ast_hash": "411c9e301faaf9f5e42bd9282ede8a6ea24bdbb688fc6482877295677633bdc2",
+      "symbols_found": [
+        "EURUSD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_ny_sweeps\\strategy_10_eurusd_ny_sweep_fade.py",
+      "filename": "strategy_10_eurusd_ny_sweep_fade.py",
+      "parent_dir": "eurusd_ny_sweeps",
+      "expected_symbol": "EURUSD",
+      "file_size": 5363,
+      "sha256": "59e155fd3a6f471db430646dcdff6b716a8bec5bcc21dede3fe4e639c4cd4758",
+      "ast_hash": "16cfeee17d1cf2a4f659765458c2e018120e794d145ac1ab206ecb9ac63da6ba",
+      "symbols_found": [
+        "EURUSD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_ny_sweeps\\strategy_11_eurusd_ny_sweep_fade.py",
+      "filename": "strategy_11_eurusd_ny_sweep_fade.py",
+      "parent_dir": "eurusd_ny_sweeps",
+      "expected_symbol": "EURUSD",
+      "file_size": 5363,
+      "sha256": "ded6114d9300aba97ec5c13bb3ec527f09651f685bfce107418858935ff66e52",
+      "ast_hash": "96eaf395f6be88d0a17095a602f9c1c2fa0594207dfea0f3816b723ca45eeb86",
+      "symbols_found": [
+        "EURUSD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_ny_sweeps\\strategy_12_eurusd_ny_sweep_fade.py",
+      "filename": "strategy_12_eurusd_ny_sweep_fade.py",
+      "parent_dir": "eurusd_ny_sweeps",
+      "expected_symbol": "EURUSD",
+      "file_size": 5363,
+      "sha256": "44e4429ad3200b19143c26b5cdafa7ec974ce091f403b0efd5b4026b19eabdaa",
+      "ast_hash": "d10dd5900bd834bc0669f8ab2f7367dce04fbcda2790728407ee2332ae6ba20a",
+      "symbols_found": [
+        "EURUSD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_ny_sweeps\\strategy_15_eurusd_ny_sweep_fade.py",
+      "filename": "strategy_15_eurusd_ny_sweep_fade.py",
+      "parent_dir": "eurusd_ny_sweeps",
+      "expected_symbol": "EURUSD",
+      "file_size": 5363,
+      "sha256": "e9fb0983d1fa6a8d20eb024bf8e90303049cf7a0db8f958ec69094faa4fa87a0",
+      "ast_hash": "2663c6cc2476ffa4b0fa27e2aefd4d3b582ac46fcfc7278bac5eaf5edaa62194",
+      "symbols_found": [
+        "EURUSD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurusd_ny_sweeps\\strategy_16_eurusd_ny_sweep_fade.py",
+      "filename": "strategy_16_eurusd_ny_sweep_fade.py",
+      "parent_dir": "eurusd_ny_sweeps",
+      "expected_symbol": "EURUSD",
+      "file_size": 5363,
+      "sha256": "60d4339a6897ae005bbf6054a7f1cc76ec46c20ba7b4a7d0d3e8194abb699320",
+      "ast_hash": "1e60d9809cca8ec3558c9b07f2a082dd838e1578f066e9fdb36e785d501170bc",
+      "symbols_found": [
+        "EURUSD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc100_double_structure_neckline_breakout_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc100_double_structure_neckline_breakout_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 5697,
+      "sha256": "fceccec7361cf33b7395ef0f305e5740cb7528d3a5a2ba0e5a1fd8f4d0f0210c",
+      "ast_hash": "36cd15402239daa3bec71ff2a43b47c14649d6c515df7af5cea5852ccef4c879",
+      "symbols_found": [
+        "USDJPY"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc102_keltner_midline_expansion_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc102_keltner_midline_expansion_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 5548,
+      "sha256": "451006fd53798c892d827b01ddb76cbf1b1833528fd745e8136e2cc0620dab64",
+      "ast_hash": "68be105eaa3273ab21335d2c8fc2762d76887781813512caded477d58001e497",
+      "symbols_found": [
+        "USDJPY"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc106_chaikin_volatility_surge_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc106_chaikin_volatility_surge_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 5597,
+      "sha256": "64b1b9b8bb4bfe7da8b78e6e7f918c5424761a7cdf4f3f6a44e1938466b0799c",
+      "ast_hash": "607455f8de742db7d7124d834114e8af629ed3f810c5b09b9fb75dc11def535d",
+      "symbols_found": [
+        "USDJPY"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc49_intraday_macro_retest_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc49_intraday_macro_retest_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 5871,
+      "sha256": "60b92e0841a0b08063349723cb857a61b4e856f8fbb083f198d20dabf5089f51",
+      "ast_hash": "5cd8896118e5777a4242173356a376c76500bcb68cd8473347273410bb6b40d0",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc50_m30_m5_precision_retest_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc50_m30_m5_precision_retest_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 5686,
+      "sha256": "197b3a1c2a8e7b64455b92193f4db211504c9834b0bcf55c426d5cda0de3644d",
+      "ast_hash": "50f8f7dde05d21be47b04055324759b78121e5d31e545d4fcfe69f64f7c9aaaa",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc51_macro_asymmetric_runner_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc51_macro_asymmetric_runner_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 5819,
+      "sha256": "b2340d5870b9463dcc952b40b8e10a0cd1ff265639ea6499d7c5ac50baee53a4",
+      "ast_hash": "d8c7565ffef6d2befed5cdb77f067d64ae1cfdef1601350c108803d652be3f06",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc65_session_vwap_band_fade_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc65_session_vwap_band_fade_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 5314,
+      "sha256": "4f2227caad820e83fb9582a775ec9e3694999479fbe8c7f8d0428eef7d8b5d3d",
+      "ast_hash": "7f3b626a1a6ab04507c1e92c95b1f4e5cbdde98d9183d669e69874c1f04e719c",
+      "symbols_found": [
+        "USDJPY"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc67_london_lunch_expansion_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc67_london_lunch_expansion_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 5794,
+      "sha256": "4a3f374c8a3f34013adb4a3a36a697f86f4906d66d0e69ff9a08832022cea279",
+      "ast_hash": "5b42daf6b04995a1c58a9bfc2121f4c7709299b6fe1cfd74f93c71f5928e100b",
+      "symbols_found": [
+        "USDJPY"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc68_cmf_momentum_expansion_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc68_cmf_momentum_expansion_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 4911,
+      "sha256": "f4a28173fa67bc1d486ea2d64fe8870c8faf70a5df50c2395d522c53efccf363",
+      "ast_hash": "c2f8aa2c38052e3ebd9d9f4aced4eec538980a255dd9980c4a4ad0341af305e1",
+      "symbols_found": [
+        "USDJPY"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc71_asian_hl_retest_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc71_asian_hl_retest_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 6287,
+      "sha256": "c69387f4a3662f0d64d724d5b3ae7d3a59748e7ec9a1e53528bd26d32bcef855",
+      "ast_hash": "ba269ed25ada362ebe53738b69a287fbe27afc6e7b11b720f7cb3dab1f018588",
+      "symbols_found": [
+        "USDJPY"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc77_keltner_midline_expansion_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc77_keltner_midline_expansion_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 5517,
+      "sha256": "73323fc8e2c3276f9a4ec15a76e2bbad34f80bc007a83fb46b428a0fffea8bf2",
+      "ast_hash": "b9ede7346dcf80afb279c6a14bde22633bf9afbb71ad1f862a7b28b4066978cc",
+      "symbols_found": [
+        "USDJPY"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc80_double_swing_neckline_retest_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc80_double_swing_neckline_retest_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 5342,
+      "sha256": "49e69612530e539904ec9ccbd85e9082a01de0be080e8b59debf710d3a7836a9",
+      "ast_hash": "58181ba557eb1c5833c3a484a7ee81458b8da5a9dbebd9f07c9e17ff84bb6323",
+      "symbols_found": [
+        "USDJPY"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc82_chaikin_volatility_surge_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc82_chaikin_volatility_surge_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 5442,
+      "sha256": "a86e2a6f12c4c4419d07d7ed195f090b6b45b40059794fd6c6221637df369d68",
+      "ast_hash": "e46b04b3ba38b169bb744a9e88fa0fbf8201b8112a25b05f08934150f6f018c6",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc83_parabolic_sar_flip_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc83_parabolic_sar_flip_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 6856,
+      "sha256": "52715052f14948b1dbacfe18739b48e1117f2eac4a7d1307ff7deef6c3a2dd4c",
+      "ast_hash": "bede067eabec2e29228a356a2f7750bae109d24a64bdbabc769bb3984f3d25b9",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc84_london_30m_orb_continuation_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc84_london_30m_orb_continuation_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 5769,
+      "sha256": "03030d000f0f953ee9d532c2b1a25ee238a0b38ab3d67da144c9da7ba962a9a5",
+      "ast_hash": "578c0628906e603e69ad48c4f3f520052917ed2749fa3ca89185e56b3baa1b73",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc85_session_open_impulse_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc85_session_open_impulse_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 5837,
+      "sha256": "99a6681abe43a0100ef6ef1e79b6c48f93d48a6a70f24f0668546426d1ea8178",
+      "ast_hash": "5ec71b212a1e04bb63eba3c68255e019dabd68fb82b465cb04f857fddd04f0e6",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc87_pivot_r1_s1_breakout_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc87_pivot_r1_s1_breakout_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 6030,
+      "sha256": "882d985a3f9cfe51223e92d3c3cf78ca80797d98607d5eda21fc523a61d239e3",
+      "ast_hash": "ffcea59955007447b949b5488e5b383c0483661a5bcc4d70f8ab0c6e6b2301d3",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc89_ny_london_vwap_ignition_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc89_ny_london_vwap_ignition_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 6169,
+      "sha256": "96bd70d6b6c9174eda6816ff3d719263fce8172d0f78af0922906477d3b8e2f9",
+      "ast_hash": "749aa5e8b58a9eff7aa5c349808ac00e7fb858e0665bfd0827b45df6de125575",
+      "symbols_found": [
+        "USDJPY"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc90_opening_range_impulse_expansion_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc90_opening_range_impulse_expansion_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 6976,
+      "sha256": "8c47063de7aa8bf94f0aad8ddf6eff7d11ee53f6dbca32ac507187faeba542ac",
+      "ast_hash": "a9f4effb2335ad7682ab59fc62da68dc251c94730a9cb27bacba58484c6f4b10",
+      "symbols_found": [
+        "USDJPY"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc91_session_donchian_midline_bounce_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc91_session_donchian_midline_bounce_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 5929,
+      "sha256": "3627c9049f7bb2b4272b2f1891ad8111ec110774d943ced98f7e0a7b1b7d8370",
+      "ast_hash": "e29f7191a39ea4914023f0936c3c8501f2759db9617d3ae5c43db9519ccceb13",
+      "symbols_found": [
+        "USDJPY"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc94_london_vwap_pullback_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc94_london_vwap_pullback_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 5717,
+      "sha256": "208a30f9c306bf9ff67a46c4f1e83ec1294a5d8eaccb990c764cc96fa23cd90c",
+      "ast_hash": "54805ce032369823c3dfd2ae39d68d545578f4854aa687e8d415ba17cb8912bf",
+      "symbols_found": [
+        "USDJPY"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc95_camarilla_expansion_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc95_camarilla_expansion_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 6261,
+      "sha256": "9f68617cec48634171597f318fb95c2bcfdbf76029dc8c0c757fc32cca00a2ac",
+      "ast_hash": "db4b2fb5fb712839646e95102c3adf3671a081d2a56c7e689187c6a0f45af66b",
+      "symbols_found": [
+        "USDJPY"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc96_cardwell_rsi50_momentum_bounce_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc96_cardwell_rsi50_momentum_bounce_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 5930,
+      "sha256": "4a9db8ee88fefaec4524528196b1a1ad9d47f958774222dae268297d2f25e403",
+      "ast_hash": "c8ebedaeb4e3b4248eca6fbba1d0b6e38e532ab06a7d72e4f073951a30e7852f",
+      "symbols_found": [
+        "USDJPY"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdjpy_champions\\disc99_m15_macd_zero_cross_momentum_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc99_m15_macd_zero_cross_momentum_elite",
+      "expected_symbol": "USDJPY",
+      "file_size": 5065,
+      "sha256": "06db163c1eb800d4c6170abd96ecee3b76fde01c804b9b5f863d387905f4a65d",
+      "ast_hash": "8f2f760e2eaa13b540ec98581ebb6a03ba28ffcdc4790acd7ceaa8e23d2ff5a7",
+      "symbols_found": [
+        "USDJPY"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdcad_asian_sweeps\\strategy_17_usdcad_asian_sweep.py",
+      "filename": "strategy_17_usdcad_asian_sweep.py",
+      "parent_dir": "usdcad_asian_sweeps",
+      "expected_symbol": "USDCAD",
+      "file_size": 5674,
+      "sha256": "725847eee099c0ae335d9694fab843f11a218febe416a394913ad9c0668c925d",
+      "ast_hash": "74bb4a88fd8ae8174f1a1f9bdc23c27de9fe05b4e25f9c3f044e12b1151178dd",
+      "symbols_found": [
+        "USDCAD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdcad_asian_sweeps\\strategy_18_usdcad_asian_sweep.py",
+      "filename": "strategy_18_usdcad_asian_sweep.py",
+      "parent_dir": "usdcad_asian_sweeps",
+      "expected_symbol": "USDCAD",
+      "file_size": 5672,
+      "sha256": "33d2be8cb854f4828732a043c1882d3f98ed8cb33f60bbf6116b6975a0b962eb",
+      "ast_hash": "99cf2706ab5dffe51d26d9affe545456f4ef164b874dc4c57a29fe58afcfe4ff",
+      "symbols_found": [
+        "USDCAD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdcad_asian_sweeps\\strategy_19_usdcad_asian_sweep.py",
+      "filename": "strategy_19_usdcad_asian_sweep.py",
+      "parent_dir": "usdcad_asian_sweeps",
+      "expected_symbol": "USDCAD",
+      "file_size": 5674,
+      "sha256": "7c4c922aabed9ab5babde710b062b17f6dac36d541e8761751db39875b649b54",
+      "ast_hash": "17adf46ff4dae0edb94d7ce4f8711a5c4f7c995ae555e937ecd16fafe3953871",
+      "symbols_found": [
+        "USDCAD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdcad_asian_sweeps\\strategy_20_usdcad_asian_sweep.py",
+      "filename": "strategy_20_usdcad_asian_sweep.py",
+      "parent_dir": "usdcad_asian_sweeps",
+      "expected_symbol": "USDCAD",
+      "file_size": 5674,
+      "sha256": "80a5b79bfdf71c030724c8fe6f8b5cf6ba1a6d590822dd9b97ef635f883df41c",
+      "ast_hash": "bbe9d7b2e233e0b4625a7af06a58ed72a8a5b7e2489aa48eb74b937b63f1f954",
+      "symbols_found": [
+        "USDCAD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdcad_asian_sweeps\\strategy_21_usdcad_asian_sweep.py",
+      "filename": "strategy_21_usdcad_asian_sweep.py",
+      "parent_dir": "usdcad_asian_sweeps",
+      "expected_symbol": "USDCAD",
+      "file_size": 5672,
+      "sha256": "e39e1d01e193c6ec10955772809e9a6e59a320832661f15ea41d512564bf10ea",
+      "ast_hash": "21a24474e4e52ee26ec6517310e92beeef829bd9bdf3d4004436e66ad1cb5ed3",
+      "symbols_found": [
+        "USDCAD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdcad_asian_sweeps\\strategy_22_usdcad_asian_sweep.py",
+      "filename": "strategy_22_usdcad_asian_sweep.py",
+      "parent_dir": "usdcad_asian_sweeps",
+      "expected_symbol": "USDCAD",
+      "file_size": 5674,
+      "sha256": "c62b54d3aee80092a45f28394b8ef02e05ee1ba28e52b84d62e852246ce9c84e",
+      "ast_hash": "0ed7609d675d3297edaa9779f4a190c864d06e5485434dcdb98c460b46dbb989",
+      "symbols_found": [
+        "USDCAD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdcad_asian_sweeps\\strategy_23_usdcad_asian_sweep.py",
+      "filename": "strategy_23_usdcad_asian_sweep.py",
+      "parent_dir": "usdcad_asian_sweeps",
+      "expected_symbol": "USDCAD",
+      "file_size": 5674,
+      "sha256": "4d389d70216a9b4008d4eead34098e728871ba3ffbeb9a46c42e670dc25d16be",
+      "ast_hash": "241155d2ad36230629222b1a1d8f8a94bf8ec144c93b2d01f4d4d68095e68042",
+      "symbols_found": [
+        "USDCAD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\usdcad_asian_sweeps\\strategy_24_usdcad_asian_sweep.py",
+      "filename": "strategy_24_usdcad_asian_sweep.py",
+      "parent_dir": "usdcad_asian_sweeps",
+      "expected_symbol": "USDCAD",
+      "file_size": 5674,
+      "sha256": "0da4c9094d1b48770b6f5652a8d861115097f5b699dbb4aa95d7a6924f04c85a",
+      "ast_hash": "2cf574e4d5d7004d7be16e6aa00aca2e307303d9b475fbaaac8373a2ad7f697e",
+      "symbols_found": [
+        "USDCAD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\audnzd_champions\\disc111_h4_macro_structure_retest_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc111_h4_macro_structure_retest_elite",
+      "expected_symbol": "AUDNZD",
+      "file_size": 6217,
+      "sha256": "ec39bb70089e74d9e62e06174b9259d5487b6486750476dded4b5010b14015b5",
+      "ast_hash": "48c424a7c469e8d480bc45b27807fe12370399251978f6b309c936b9c310a40e",
+      "symbols_found": [
+        "AUDNZD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\audnzd_champions\\disc112_h4_macro_precision_retest_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc112_h4_macro_precision_retest_elite",
+      "expected_symbol": "AUDNZD",
+      "file_size": 6249,
+      "sha256": "24e01bee647080d9c76e56bb6fff32824a8e5d6af38e4b36b011b5e41e53defc",
+      "ast_hash": "253ce5bfae2f63691ea26841f6b84098c9058e549d548a21d21dfb5d3a93ff87",
+      "symbols_found": [
+        "AUDNZD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\audnzd_champions\\disc113_h1_macro_intraday_retest_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc113_h1_macro_intraday_retest_elite",
+      "expected_symbol": "AUDNZD",
+      "file_size": 6206,
+      "sha256": "b0cad95fbfcb08e1182c61ac1c99ac06ec4b1ca18bc9a264ec0edf7f4ac8f206",
+      "ast_hash": "2c236ed30c422d925d4c9d7fcb406107c29a8d0edb19792b54dcfbba639992bd",
+      "symbols_found": [
+        "AUDNZD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\audnzd_champions\\disc114_h4_macro_wide_runner_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc114_h4_macro_wide_runner_elite",
+      "expected_symbol": "AUDNZD",
+      "file_size": 6224,
+      "sha256": "cd2d52d61b4eaed7ca92d35f6bdc051ba38e2bef8e0b2f79d6cbf2f075ae482b",
+      "ast_hash": "697f316d2dc33350819bd151b9122d3de43c2ba2d2b1e64089dfc0d28d49ebb8",
+      "symbols_found": [
+        "AUDNZD"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurgbp_champions\\disc107_h1_keltner_squeeze_explosion_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc107_h1_keltner_squeeze_explosion_elite",
+      "expected_symbol": "EURGBP",
+      "file_size": 5663,
+      "sha256": "51c2878965c6d1fcb0cf49f99907dba4e25846c00d7d304ccb31095d9c29b66c",
+      "ast_hash": "52a389331f7e9aa17fc35eeba117b39ffec94b0372ee58cc63633e9e764a5e8a",
+      "symbols_found": [
+        "EURGBP"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurgbp_champions\\disc108_macro_asymmetric_runner_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc108_macro_asymmetric_runner_elite",
+      "expected_symbol": "EURGBP",
+      "file_size": 5502,
+      "sha256": "d7c47ffa99023e86b0ad067745ba786839c1490f2db47604e74e051949ee3a06",
+      "ast_hash": "82399c9fea81907bf7908689b66b68fee9d8b7497f3678da491abb6ab564af71",
+      "symbols_found": [
+        "EURGBP"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurgbp_champions\\disc42_macro_structure_h4_m30_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc42_macro_structure_h4_m30_elite",
+      "expected_symbol": "EURGBP",
+      "file_size": 5998,
+      "sha256": "072d4712c68b512791b5b1757bae71dbda9fbf28d61353ddc5e77b52e86cf4df",
+      "ast_hash": "a6c9b40749556395d225b92c30906b66e7c40f57c404faddc7527a7a9a95bb7b",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurgbp_champions\\disc48_camarilla_floor_elite\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "disc48_camarilla_floor_elite",
+      "expected_symbol": "EURGBP",
+      "file_size": 5671,
+      "sha256": "9a52087126ffe2c52e0f72b447ab704f7830b9719065da03db856ed5bff10bc8",
+      "ast_hash": "8d3919e0b188f714e8fdd8e68e95579f73fb31587da501e18c24c4f346df8413",
+      "symbols_found": [],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\eurgbp_london_sweeps\\strategy_62_eurgbp_london_sweep.py",
+      "filename": "strategy_62_eurgbp_london_sweep.py",
+      "parent_dir": "eurgbp_london_sweeps",
+      "expected_symbol": "EURGBP",
+      "file_size": 5603,
+      "sha256": "10853a26585ff503ec360eda1609de1f81f06d9ddfaaa3b622297d386e148e00",
+      "ast_hash": "dc7d9669335a9cb6b446f9c37c5c2728d3252d12302842f16bb54e9e670be84e",
+      "symbols_found": [
+        "EURGBP"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\gbpchf_champions\\strategy_26_gbpchf_asian_sweep\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "strategy_26_gbpchf_asian_sweep",
+      "expected_symbol": "GBPCHF",
+      "file_size": 5390,
+      "sha256": "e84240b10443e02cd5eb4505a6345ec61b64a7b0f70a66539ba7c1c079f2bd44",
+      "ast_hash": "9db15df2f67756062081b5fb9cd9581c4f8ce4618dff1b02bd65e6e08d2049f2",
+      "symbols_found": [
+        "GBPCHF"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\gbpchf_champions\\strategy_27_gbpchf_asian_sweep\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "strategy_27_gbpchf_asian_sweep",
+      "expected_symbol": "GBPCHF",
+      "file_size": 5390,
+      "sha256": "f33f28137bea151f2e1373e352ab9f50bf28e84f6b2d74faf52421c33af19128",
+      "ast_hash": "614d5b143ef5c329742b6a3c8d3d5bc3f30f1b2343a588ca3674db6203c416dd",
+      "symbols_found": [
+        "GBPCHF"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    },
+    {
+      "path": "certified_production_fleet\\gbpchf_champions\\strategy_29_gbpchf_asian_sweep\\strategy.py",
+      "filename": "strategy.py",
+      "parent_dir": "strategy_29_gbpchf_asian_sweep",
+      "expected_symbol": "GBPCHF",
+      "file_size": 5390,
+      "sha256": "81ae1db41950dd5f8a6cea2123bb6d7a6c1bc049f2e97ff627faeb626bbc4397",
+      "ast_hash": "a65fde7a1c789dee6146cd396d1579c7eff275d54e954f6b0a1adc5e42e56b2d",
+      "symbols_found": [
+        "GBPCHF"
+      ],
+      "pip_sizes_found": [],
+      "sl_pips": null,
+      "tp_pips": null,
+      "has_hardcoded_0_0001": false,
+      "has_hardcoded_0_01": false
+    }
+  ]
+}

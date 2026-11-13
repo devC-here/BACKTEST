@@ -1,6 +1,6 @@
 # 🚀 Azure VM Remote Computation Harness Guide for BACKTEST Engine
 
-> **Operational Blueprint**: How to offload, parallelize, and scale heavy computational workloads (Alpha Discovery Battery, 5-Year High-Speed Tick Audits, Optuna Hyperparameter Optimization, and Monte Carlo Sweeps) from your local machine to the Azure Cloud VM (`azure-vm`).
+> **Operational Blueprint**: How to offload, parallelize, and scale heavy computational workloads (Alpha Discovery Battery, 5-Year High-Speed Tick Audits, Optuna Hyperparameter Optimization, and Monte Carlo Sweeps) from your local machine to the Azure Cloud VM (`172.198.152.252`, `azure-vm`).
 
 ---
 

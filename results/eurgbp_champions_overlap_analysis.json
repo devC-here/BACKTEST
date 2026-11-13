@@ -1,0 +1,4772 @@
+[
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 14.0,
+      "desc": "H=7-16, Touch=0.8p, Wk=0.35, Slope=True, SL=7.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 56,
+      "net_pips": 123.61999999998278,
+      "pf": 1.5906353755070461,
+      "exp": 2.2074999999996927,
+      "ex_top3": 70.70999999998496
+    },
+    "discovery": {
+      "trades": 179,
+      "net_pips": 211.42999999995243,
+      "pf": 1.2762274140180159,
+      "exp": 1.1811731843572761
+    },
+    "overlap_174_pct": 78.6,
+    "overlap_107_pct": 1.8,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.918,
+    "n_trades": 56
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 15.0,
+      "desc": "H=7-16, Touch=0.8p, Wk=0.35, Slope=True, SL=7.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 56,
+      "net_pips": 89.21999999998613,
+      "pf": 1.3931088564896656,
+      "exp": 1.5932142857140381,
+      "ex_top3": 35.109999999987096
+    },
+    "discovery": {
+      "trades": 179,
+      "net_pips": 246.82999999995232,
+      "pf": 1.3194176471119585,
+      "exp": 1.3789385474857672
+    },
+    "overlap_174_pct": 78.6,
+    "overlap_107_pct": 1.8,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.832,
+    "n_trades": 56
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 16.0,
+      "desc": "H=7-16, Touch=0.8p, Wk=0.35, Slope=True, SL=7.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 56,
+      "net_pips": 79.81999999999229,
+      "pf": 1.3358155018799045,
+      "exp": 1.425357142857005,
+      "ex_top3": 23.809999999994112
+    },
+    "discovery": {
+      "trades": 179,
+      "net_pips": 266.8299999999845,
+      "pf": 1.3388704570824208,
+      "exp": 1.4906703910613661
+    },
+    "overlap_174_pct": 78.6,
+    "overlap_107_pct": 1.8,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.848,
+    "n_trades": 56
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 14.0,
+      "desc": "H=7-16, Touch=0.8p, Wk=0.35, Slope=True, SL=8.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 55,
+      "net_pips": 120.54999999998272,
+      "pf": 1.522675965891516,
+      "exp": 2.1918181818178675,
+      "ex_top3": 63.13999999998427
+    },
+    "discovery": {
+      "trades": 179,
+      "net_pips": 195.92999999995533,
+      "pf": 1.2381258964738573,
+      "exp": 1.0945810055863425
+    },
+    "overlap_174_pct": 78.2,
+    "overlap_107_pct": 1.8,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.837,
+    "n_trades": 55
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 15.0,
+      "desc": "H=7-16, Touch=0.8p, Wk=0.35, Slope=True, SL=8.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 55,
+      "net_pips": 85.1499999999862,
+      "pf": 1.341556303988851,
+      "exp": 1.5481818181815674,
+      "ex_top3": 27.739999999987724
+    },
+    "discovery": {
+      "trades": 179,
+      "net_pips": 206.729999999955,
+      "pf": 1.245272035150829,
+      "exp": 1.154916201117067
+    },
+    "overlap_174_pct": 78.2,
+    "overlap_107_pct": 1.8,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.76,
+    "n_trades": 55
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 16.0,
+      "desc": "H=7-16, Touch=0.8p, Wk=0.35, Slope=True, SL=8.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 55,
+      "net_pips": 75.74999999999231,
+      "pf": 1.2913124912004965,
+      "exp": 1.3772727272725875,
+      "ex_top3": 17.43999999999351
+    },
+    "discovery": {
+      "trades": 178,
+      "net_pips": 235.1599999999892,
+      "pf": 1.2762720276756787,
+      "exp": 1.3211235955055574
+    },
+    "overlap_174_pct": 78.2,
+    "overlap_107_pct": 1.8,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.778,
+    "n_trades": 55
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 14.0,
+      "desc": "H=7-16, Touch=0.8p, Wk=0.35, Slope=True, SL=9.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 55,
+      "net_pips": 89.44999999998325,
+      "pf": 1.3389412550133328,
+      "exp": 1.6263636363633318,
+      "ex_top3": 32.039999999984815
+    },
+    "discovery": {
+      "trades": 178,
+      "net_pips": 231.7599999999613,
+      "pf": 1.2708045935966783,
+      "exp": 1.302022471909895
+    },
+    "overlap_174_pct": 78.2,
+    "overlap_107_pct": 1.8,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.806,
+    "n_trades": 55
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 18.0,
+      "desc": "H=7-16, Touch=0.8p, Wk=0.4, Slope=True, SL=7.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 48,
+      "net_pips": 62.959999999991105,
+      "pf": 1.3015758345750377,
+      "exp": 1.3116666666664814,
+      "ex_top3": 3.0499999999918224
+    },
+    "discovery": {
+      "trades": 148,
+      "net_pips": 109.45999999996911,
+      "pf": 1.150700757899822,
+      "exp": 0.7395945945943859
+    },
+    "overlap_174_pct": 75.0,
+    "overlap_107_pct": 2.1,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.733,
+    "n_trades": 48
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 15.0,
+      "desc": "H=7-16, Touch=1.0p, Wk=0.35, Slope=True, SL=7.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 61,
+      "net_pips": 129.16999999998444,
+      "pf": 1.557271601135786,
+      "exp": 2.117540983606302,
+      "ex_top3": 74.95999999998585
+    },
+    "discovery": {
+      "trades": 209,
+      "net_pips": 151.02999999994466,
+      "pf": 1.1598590010281329,
+      "exp": 0.7226315789471036
+    },
+    "overlap_174_pct": 67.2,
+    "overlap_107_pct": 1.6,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.834,
+    "n_trades": 61
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 16.0,
+      "desc": "H=7-16, Touch=1.0p, Wk=0.35, Slope=True, SL=7.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 61,
+      "net_pips": 122.26999999999252,
+      "pf": 1.5041645429586947,
+      "exp": 2.004426229508074,
+      "ex_top3": 66.25999999999436
+    },
+    "discovery": {
+      "trades": 209,
+      "net_pips": 150.82999999998108,
+      "pf": 1.155903074484676,
+      "exp": 0.7216746411482349
+    },
+    "overlap_174_pct": 67.2,
+    "overlap_107_pct": 1.6,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.846,
+    "n_trades": 61
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 14.0,
+      "desc": "H=7-16, Touch=1.0p, Wk=0.35, Slope=True, SL=9.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 60,
+      "net_pips": 93.39999999998219,
+      "pf": 1.3232168971443796,
+      "exp": 1.5566666666663698,
+      "ex_top3": 35.98999999998375
+    },
+    "discovery": {
+      "trades": 207,
+      "net_pips": 229.1899999999572,
+      "pf": 1.2268623797154476,
+      "exp": 1.1071980676326434
+    },
+    "overlap_174_pct": 66.7,
+    "overlap_107_pct": 1.7,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.769,
+    "n_trades": 60
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=7-16, Touch=1.0p, Wk=0.35, Slope=True, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 60,
+      "net_pips": 83.09999999998576,
+      "pf": 1.2785785692732097,
+      "exp": 1.3849999999997626,
+      "ex_top3": 25.68999999998733
+    },
+    "discovery": {
+      "trades": 207,
+      "net_pips": 231.58999999995407,
+      "pf": 1.2244915644859862,
+      "exp": 1.118792270531179
+    },
+    "overlap_174_pct": 66.7,
+    "overlap_107_pct": 1.7,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.735,
+    "n_trades": 60
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=7-16, Touch=1.0p, Wk=0.35, Slope=True, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 60,
+      "net_pips": 76.19999999999385,
+      "pf": 1.2465779617972776,
+      "exp": 1.2699999999998974,
+      "ex_top3": 17.889999999995066
+    },
+    "discovery": {
+      "trades": 207,
+      "net_pips": 250.18999999999372,
+      "pf": 1.2380539949565628,
+      "exp": 1.2086473429951388
+    },
+    "overlap_174_pct": 66.7,
+    "overlap_107_pct": 1.7,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.752,
+    "n_trades": 60
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 14.0,
+      "desc": "H=7-16, Touch=1.2p, Wk=0.35, Slope=True, SL=9.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 66,
+      "net_pips": 87.8199999999797,
+      "pf": 1.2541381741480384,
+      "exp": 1.330606060605753,
+      "ex_top3": 23.509999999981563
+    },
+    "discovery": {
+      "trades": 227,
+      "net_pips": 270.5899999999497,
+      "pf": 1.244598907629268,
+      "exp": 1.1920264317178402
+    },
+    "overlap_174_pct": 60.6,
+    "overlap_107_pct": 3.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.689,
+    "n_trades": 66
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=7-16, Touch=1.2p, Wk=0.35, Slope=True, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 66,
+      "net_pips": 78.51999999998316,
+      "pf": 1.2212516210303626,
+      "exp": 1.1896969696967146,
+      "ex_top3": 14.209999999985033
+    },
+    "discovery": {
+      "trades": 227,
+      "net_pips": 269.98999999994794,
+      "pf": 1.2394334861084462,
+      "exp": 1.189383259911665
+    },
+    "overlap_174_pct": 60.6,
+    "overlap_107_pct": 3.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.659,
+    "n_trades": 66
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=7-16, Touch=1.2p, Wk=0.35, Slope=True, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 66,
+      "net_pips": 73.31999999999243,
+      "pf": 1.2005360428713703,
+      "exp": 1.1109090909089763,
+      "ex_top3": 9.009999999994292
+    },
+    "discovery": {
+      "trades": 227,
+      "net_pips": 296.78999999999024,
+      "pf": 1.2587577703293915,
+      "exp": 1.307444933920662
+    },
+    "overlap_174_pct": 60.6,
+    "overlap_107_pct": 3.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.676,
+    "n_trades": 66
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 14.0,
+      "desc": "H=7-16, Touch=1.5p, Wk=0.35, Slope=True, SL=7.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 71,
+      "net_pips": 124.96999999997745,
+      "pf": 1.3799865792997683,
+      "exp": 1.7601408450701048,
+      "ex_top3": 63.55999999997944
+    },
+    "discovery": {
+      "trades": 261,
+      "net_pips": 208.76999999993131,
+      "pf": 1.179277110722237,
+      "exp": 0.7998850574710012
+    },
+    "overlap_174_pct": 50.7,
+    "overlap_107_pct": 2.8,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.694,
+    "n_trades": 71
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 15.0,
+      "desc": "H=7-16, Touch=1.5p, Wk=0.35, Slope=True, SL=7.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 70,
+      "net_pips": 107.19999999998099,
+      "pf": 1.3188482996088595,
+      "exp": 1.5314285714282998,
+      "ex_top3": 45.08999999998284
+    },
+    "discovery": {
+      "trades": 261,
+      "net_pips": 201.06999999993081,
+      "pf": 1.1694505210731658,
+      "exp": 0.770383141762187
+    },
+    "overlap_174_pct": 51.4,
+    "overlap_107_pct": 2.9,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.672,
+    "n_trades": 70
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 16.0,
+      "desc": "H=7-16, Touch=1.5p, Wk=0.35, Slope=True, SL=7.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 70,
+      "net_pips": 103.19999999999028,
+      "pf": 1.2974577362812294,
+      "exp": 1.4742857142855754,
+      "ex_top3": 40.88999999999194
+    },
+    "discovery": {
+      "trades": 261,
+      "net_pips": 219.86999999998068,
+      "pf": 1.1818174202894252,
+      "exp": 0.8424137931033743
+    },
+    "overlap_174_pct": 51.4,
+    "overlap_107_pct": 2.9,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.687,
+    "n_trades": 70
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 14.0,
+      "desc": "H=7-16, Touch=1.5p, Wk=0.35, Slope=True, SL=8.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 71,
+      "net_pips": 123.76999999997734,
+      "pf": 1.3553035350852263,
+      "exp": 1.7432394366193993,
+      "ex_top3": 59.45999999997922
+    },
+    "discovery": {
+      "trades": 259,
+      "net_pips": 213.8299999999324,
+      "pf": 1.173948756790972,
+      "exp": 0.8255984555981946
+    },
+    "overlap_174_pct": 50.7,
+    "overlap_107_pct": 2.8,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.658,
+    "n_trades": 71
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 16.0,
+      "desc": "H=7-16, Touch=1.5p, Wk=0.35, Slope=True, SL=8.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 70,
+      "net_pips": 100.99999999999032,
+      "pf": 1.2748972190496048,
+      "exp": 1.4428571428570045,
+      "ex_top3": 36.689999999992196
+    },
+    "discovery": {
+      "trades": 259,
+      "net_pips": 201.32999999998373,
+      "pf": 1.1568784730830974,
+      "exp": 0.7773359073358445
+    },
+    "overlap_174_pct": 51.4,
+    "overlap_107_pct": 2.9,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.652,
+    "n_trades": 70
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 14.0,
+      "desc": "H=7-16, Touch=1.5p, Wk=0.35, Slope=True, SL=9.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 70,
+      "net_pips": 123.89999999997826,
+      "pf": 1.3536059432743959,
+      "exp": 1.7699999999996894,
+      "ex_top3": 59.58999999998012
+    },
+    "discovery": {
+      "trades": 256,
+      "net_pips": 297.01999999994126,
+      "pf": 1.2364545254791575,
+      "exp": 1.1602343749997706
+    },
+    "overlap_174_pct": 51.4,
+    "overlap_107_pct": 2.9,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.661,
+    "n_trades": 70
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=7-16, Touch=1.5p, Wk=0.35, Slope=True, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 69,
+      "net_pips": 104.12999999998203,
+      "pf": 1.2894751114901264,
+      "exp": 1.5091304347823482,
+      "ex_top3": 39.8199999999839
+    },
+    "discovery": {
+      "trades": 256,
+      "net_pips": 259.11999999993947,
+      "pf": 1.1999135816572009,
+      "exp": 1.0121874999997635
+    },
+    "overlap_174_pct": 52.2,
+    "overlap_107_pct": 2.9,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.637,
+    "n_trades": 69
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=7-16, Touch=1.5p, Wk=0.35, Slope=True, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 69,
+      "net_pips": 100.12999999999133,
+      "pf": 1.2702928527387238,
+      "exp": 1.4511594202897293,
+      "ex_top3": 35.81999999999319
+    },
+    "discovery": {
+      "trades": 256,
+      "net_pips": 296.4199999999917,
+      "pf": 1.2253253373165984,
+      "exp": 1.1578906249999676
+    },
+    "overlap_174_pct": 52.2,
+    "overlap_107_pct": 2.9,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.652,
+    "n_trades": 69
+  },
+  {
+    "setup": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 18.0,
+      "desc": "H=7-16, Touch=1.5p, Wk=0.35, Slope=True, SL=9.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 68,
+      "net_pips": 72.95999999998662,
+      "pf": 1.1890253072950197,
+      "exp": 1.0729411764703916,
+      "ex_top3": 8.649999999988506
+    },
+    "discovery": {
+      "trades": 253,
+      "net_pips": 261.9099999999691,
+      "pf": 1.1929255862097037,
+      "exp": 1.0352173913042257
+    },
+    "overlap_174_pct": 52.9,
+    "overlap_107_pct": 2.9,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.574,
+    "n_trades": 68
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 14.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.35, Slope=True, SL=7.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 176.31999999998555,
+      "pf": 2.142486739941114,
+      "exp": 3.8330434782605556,
+      "ex_top3": 123.40999999998775
+    },
+    "discovery": {
+      "trades": 153,
+      "net_pips": 252.00999999996003,
+      "pf": 1.4007473737655651,
+      "exp": 1.6471241830062746
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 1.0,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 15.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.35, Slope=True, SL=7.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 132.7199999999886,
+      "pf": 1.771672668662467,
+      "exp": 2.8852173913041,
+      "ex_top3": 78.60999999998954
+    },
+    "discovery": {
+      "trades": 153,
+      "net_pips": 293.009999999961,
+      "pf": 1.4605771721748202,
+      "exp": 1.9150980392154313
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.896,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 16.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.35, Slope=True, SL=7.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 148.71999999999457,
+      "pf": 1.8647013277107771,
+      "exp": 3.2330434782607513,
+      "ex_top3": 92.70999999999644
+    },
+    "discovery": {
+      "trades": 153,
+      "net_pips": 306.9099999999899,
+      "pf": 1.4715598077628593,
+      "exp": 2.0059477124182346
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.894,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 18.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.35, Slope=True, SL=7.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 108.2199999999924,
+      "pf": 1.5798016833751507,
+      "exp": 2.3526086956520085,
+      "ex_top3": 48.309999999993124
+    },
+    "discovery": {
+      "trades": 151,
+      "net_pips": 277.56999999997333,
+      "pf": 1.4071971157585756,
+      "exp": 1.8382119205296248
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.802,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 14.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.35, Slope=True, SL=8.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 45,
+      "net_pips": 174.74999999998528,
+      "pf": 2.003329964785442,
+      "exp": 3.883333333333006,
+      "ex_top3": 117.3399999999869
+    },
+    "discovery": {
+      "trades": 153,
+      "net_pips": 200.2099999999593,
+      "pf": 1.2883540544941972,
+      "exp": 1.308562091503002
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.906,
+    "n_trades": 45
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 15.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.35, Slope=True, SL=8.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 45,
+      "net_pips": 130.14999999998844,
+      "pf": 1.674946757509294,
+      "exp": 2.892222222221965,
+      "ex_top3": 72.73999999999002
+    },
+    "discovery": {
+      "trades": 153,
+      "net_pips": 237.80999999996027,
+      "pf": 1.3368174869085423,
+      "exp": 1.5543137254899364
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.812,
+    "n_trades": 45
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 16.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.35, Slope=True, SL=8.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 45,
+      "net_pips": 146.1499999999945,
+      "pf": 1.757921394081711,
+      "exp": 3.2477777777776553,
+      "ex_top3": 87.83999999999567
+    },
+    "discovery": {
+      "trades": 152,
+      "net_pips": 259.13999999999015,
+      "pf": 1.36274809817254,
+      "exp": 1.7048684210525669
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.815,
+    "n_trades": 45
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 18.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.35, Slope=True, SL=8.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 45,
+      "net_pips": 103.64999999999249,
+      "pf": 1.4947729488388946,
+      "exp": 2.3033333333331663,
+      "ex_top3": 43.43999999999349
+    },
+    "discovery": {
+      "trades": 150,
+      "net_pips": 229.09999999997342,
+      "pf": 1.3061197046215498,
+      "exp": 1.5273333333331562
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.729,
+    "n_trades": 45
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 14.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.35, Slope=True, SL=9.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 45,
+      "net_pips": 163.9499999999856,
+      "pf": 1.876081977338686,
+      "exp": 3.6433333333330133,
+      "ex_top3": 106.53999999998719
+    },
+    "discovery": {
+      "trades": 153,
+      "net_pips": 241.20999999996587,
+      "pf": 1.334007209742702,
+      "exp": 1.5765359477121952
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.895,
+    "n_trades": 45
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.35, Slope=True, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 45,
+      "net_pips": 118.34999999998885,
+      "pf": 1.5722919936028346,
+      "exp": 2.629999999999752,
+      "ex_top3": 60.939999999990434
+    },
+    "discovery": {
+      "trades": 153,
+      "net_pips": 283.6099999999649,
+      "pf": 1.3864422756990522,
+      "exp": 1.8536601307187248
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.804,
+    "n_trades": 45
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.35, Slope=True, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 45,
+      "net_pips": 134.34999999999488,
+      "pf": 1.64966142893316,
+      "exp": 2.985555555555442,
+      "ex_top3": 76.03999999999611
+    },
+    "discovery": {
+      "trades": 152,
+      "net_pips": 309.63999999999675,
+      "pf": 1.4165579027274684,
+      "exp": 2.037105263157873
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.808,
+    "n_trades": 45
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 18.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.35, Slope=True, SL=9.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 45,
+      "net_pips": 89.44999999999274,
+      "pf": 1.3960417339926205,
+      "exp": 1.9877777777776164,
+      "ex_top3": 29.239999999993707
+    },
+    "discovery": {
+      "trades": 150,
+      "net_pips": 249.99999999997928,
+      "pf": 1.3164636912774186,
+      "exp": 1.6666666666665286
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.719,
+    "n_trades": 45
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": false,
+      "sl": 7.0,
+      "tp": 16.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.35, Slope=False, SL=7.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 51,
+      "net_pips": 136.56999999999132,
+      "pf": 1.6740535178888056,
+      "exp": 2.6778431372547318,
+      "ex_top3": 78.05999999999342
+    },
+    "discovery": {
+      "trades": 172,
+      "net_pips": 128.53999999998268,
+      "pf": 1.1606267974529005,
+      "exp": 0.7473255813952482
+    },
+    "overlap_174_pct": 90.2,
+    "overlap_107_pct": 2.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.856,
+    "n_trades": 51
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": false,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.35, Slope=False, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 50,
+      "net_pips": 130.19999999998515,
+      "pf": 1.5540660643402742,
+      "exp": 2.603999999999703,
+      "ex_top3": 66.38999999998809
+    },
+    "discovery": {
+      "trades": 170,
+      "net_pips": 156.79999999996483,
+      "pf": 1.178516523270673,
+      "exp": 0.9223529411762637
+    },
+    "overlap_174_pct": 90.0,
+    "overlap_107_pct": 2.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.746,
+    "n_trades": 50
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": false,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.35, Slope=False, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 50,
+      "net_pips": 146.19999999999118,
+      "pf": 1.622154065187653,
+      "exp": 2.9239999999998236,
+      "ex_top3": 82.3899999999941
+    },
+    "discovery": {
+      "trades": 169,
+      "net_pips": 186.62999999999482,
+      "pf": 1.210220987066368,
+      "exp": 1.1043195266271884
+    },
+    "overlap_174_pct": 90.0,
+    "overlap_107_pct": 2.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.753,
+    "n_trades": 50
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 15.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.4, Slope=True, SL=7.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 41,
+      "net_pips": 120.2699999999906,
+      "pf": 1.7759353692944062,
+      "exp": 2.9334146341461125,
+      "ex_top3": 66.15999999999156
+    },
+    "discovery": {
+      "trades": 126,
+      "net_pips": 123.6199999999632,
+      "pf": 1.2158132501908576,
+      "exp": 0.9811111111108191
+    },
+    "overlap_174_pct": 90.2,
+    "overlap_107_pct": 2.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.824,
+    "n_trades": 41
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 16.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.4, Slope=True, SL=7.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 40,
+      "net_pips": 141.79999999999404,
+      "pf": 1.9608997790268428,
+      "exp": 3.544999999999851,
+      "ex_top3": 85.78999999999587
+    },
+    "discovery": {
+      "trades": 126,
+      "net_pips": 145.4199999999872,
+      "pf": 1.2506636113581975,
+      "exp": 1.1541269841268824
+    },
+    "overlap_174_pct": 92.5,
+    "overlap_107_pct": 2.5,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.825,
+    "n_trades": 40
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 18.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.4, Slope=True, SL=7.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 40,
+      "net_pips": 122.29999999999285,
+      "pf": 1.789541524238691,
+      "exp": 3.057499999999821,
+      "ex_top3": 62.38999999999358
+    },
+    "discovery": {
+      "trades": 124,
+      "net_pips": 124.07999999997412,
+      "pf": 1.2055563639057123,
+      "exp": 1.000645161290114
+    },
+    "overlap_174_pct": 92.5,
+    "overlap_107_pct": 2.5,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.766,
+    "n_trades": 40
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 16.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.4, Slope=True, SL=8.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 40,
+      "net_pips": 133.999999999994,
+      "pf": 1.7717114851582307,
+      "exp": 3.34999999999985,
+      "ex_top3": 75.68999999999521
+    },
+    "discovery": {
+      "trades": 126,
+      "net_pips": 124.71999999998924,
+      "pf": 1.1972543620349227,
+      "exp": 0.9898412698411845
+    },
+    "overlap_174_pct": 92.5,
+    "overlap_107_pct": 2.5,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.751,
+    "n_trades": 40
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 18.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.4, Slope=True, SL=8.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 40,
+      "net_pips": 113.49999999999294,
+      "pf": 1.6237290968989317,
+      "exp": 2.8374999999998236,
+      "ex_top3": 53.289999999993924
+    },
+    "discovery": {
+      "trades": 124,
+      "net_pips": 105.77999999997529,
+      "pf": 1.1607916281211403,
+      "exp": 0.8530645161288329
+    },
+    "overlap_174_pct": 92.5,
+    "overlap_107_pct": 2.5,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.699,
+    "n_trades": 40
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.4, Slope=True, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 41,
+      "net_pips": 106.16999999999149,
+      "pf": 1.5601455333889103,
+      "exp": 2.5895121951217437,
+      "ex_top3": 48.75999999999303
+    },
+    "discovery": {
+      "trades": 126,
+      "net_pips": 106.6199999999672,
+      "pf": 1.1607029638454989,
+      "exp": 0.8461904761902159
+    },
+    "overlap_174_pct": 90.2,
+    "overlap_107_pct": 2.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.738,
+    "n_trades": 41
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.4, Slope=True, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 40,
+      "net_pips": 129.59999999999513,
+      "pf": 1.7191608834603165,
+      "exp": 3.2399999999998785,
+      "ex_top3": 71.28999999999635
+    },
+    "discovery": {
+      "trades": 126,
+      "net_pips": 157.31999999999402,
+      "pf": 1.2371205311982396,
+      "exp": 1.2485714285713811
+    },
+    "overlap_174_pct": 92.5,
+    "overlap_107_pct": 2.5,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.744,
+    "n_trades": 40
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 18.0,
+      "desc": "H=8-15, Touch=0.8p, Wk=0.4, Slope=True, SL=9.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 40,
+      "net_pips": 107.99999999999469,
+      "pf": 1.5695000227008677,
+      "exp": 2.699999999999867,
+      "ex_top3": 47.78999999999563
+    },
+    "discovery": {
+      "trades": 124,
+      "net_pips": 134.67999999998136,
+      "pf": 1.194779070145617,
+      "exp": 1.0861290322579142
+    },
+    "overlap_174_pct": 92.5,
+    "overlap_107_pct": 2.5,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.69,
+    "n_trades": 40
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 14.0,
+      "desc": "H=8-15, Touch=1.0p, Wk=0.35, Slope=True, SL=7.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 51,
+      "net_pips": 190.16999999998387,
+      "pf": 2.1220129729178567,
+      "exp": 3.7288235294114487,
+      "ex_top3": 135.95999999998526
+    },
+    "discovery": {
+      "trades": 175,
+      "net_pips": 154.5499999999553,
+      "pf": 1.2013890542155,
+      "exp": 0.8831428571426018
+    },
+    "overlap_174_pct": 84.3,
+    "overlap_107_pct": 2.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.949,
+    "n_trades": 51
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 15.0,
+      "desc": "H=8-15, Touch=1.0p, Wk=0.35, Slope=True, SL=7.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 51,
+      "net_pips": 172.66999999998689,
+      "pf": 1.9765296925386486,
+      "exp": 3.385686274509547,
+      "ex_top3": 118.45999999998833
+    },
+    "discovery": {
+      "trades": 175,
+      "net_pips": 186.34999999995603,
+      "pf": 1.2405291869566402,
+      "exp": 1.0648571428568916
+    },
+    "overlap_174_pct": 84.3,
+    "overlap_107_pct": 2.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.897,
+    "n_trades": 51
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 16.0,
+      "desc": "H=8-15, Touch=1.0p, Wk=0.35, Slope=True, SL=7.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 51,
+      "net_pips": 191.16999999999484,
+      "pf": 2.081155860131373,
+      "exp": 3.7484313725489184,
+      "ex_top3": 135.1599999999967
+    },
+    "discovery": {
+      "trades": 175,
+      "net_pips": 178.14999999998446,
+      "pf": 1.2235986492004802,
+      "exp": 1.0179999999999112
+    },
+    "overlap_174_pct": 84.3,
+    "overlap_107_pct": 2.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.895,
+    "n_trades": 51
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 18.0,
+      "desc": "H=8-15, Touch=1.0p, Wk=0.35, Slope=True, SL=7.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 51,
+      "net_pips": 156.96999999999065,
+      "pf": 1.819772204941837,
+      "exp": 3.077843137254719,
+      "ex_top3": 97.05999999999135
+    },
+    "discovery": {
+      "trades": 173,
+      "net_pips": 145.7099999999697,
+      "pf": 1.1748463908172941,
+      "exp": 0.8422543352599405
+    },
+    "overlap_174_pct": 84.3,
+    "overlap_107_pct": 2.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.794,
+    "n_trades": 51
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 14.0,
+      "desc": "H=8-15, Touch=1.0p, Wk=0.35, Slope=True, SL=9.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 50,
+      "net_pips": 167.89999999998457,
+      "pf": 1.7912345998474783,
+      "exp": 3.3579999999996915,
+      "ex_top3": 110.48999999998611
+    },
+    "discovery": {
+      "trades": 174,
+      "net_pips": 212.17999999996425,
+      "pf": 1.2504219187004921,
+      "exp": 1.2194252873561164
+    },
+    "overlap_174_pct": 84.0,
+    "overlap_107_pct": 2.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.848,
+    "n_trades": 50
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=8-15, Touch=1.0p, Wk=0.35, Slope=True, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 50,
+      "net_pips": 148.39999999998784,
+      "pf": 1.6698866216815713,
+      "exp": 2.9679999999997566,
+      "ex_top3": 90.98999999998938
+    },
+    "discovery": {
+      "trades": 174,
+      "net_pips": 238.67999999996252,
+      "pf": 1.2778514903278637,
+      "exp": 1.3717241379308192
+    },
+    "overlap_174_pct": 84.0,
+    "overlap_107_pct": 2.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.801,
+    "n_trades": 50
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=8-15, Touch=1.0p, Wk=0.35, Slope=True, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 50,
+      "net_pips": 166.89999999999577,
+      "pf": 1.7533967519795273,
+      "exp": 3.3379999999999153,
+      "ex_top3": 108.58999999999698
+    },
+    "discovery": {
+      "trades": 174,
+      "net_pips": 247.3799999999928,
+      "pf": 1.2818245883726456,
+      "exp": 1.421724137930993
+    },
+    "overlap_174_pct": 84.0,
+    "overlap_107_pct": 2.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.805,
+    "n_trades": 50
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 18.0,
+      "desc": "H=8-15, Touch=1.0p, Wk=0.35, Slope=True, SL=9.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 50,
+      "net_pips": 128.29999999999163,
+      "pf": 1.5332723083555664,
+      "exp": 2.5659999999998324,
+      "ex_top3": 68.08999999999259
+    },
+    "discovery": {
+      "trades": 172,
+      "net_pips": 191.83999999997778,
+      "pf": 1.2066729021182725,
+      "exp": 1.115348837209173
+    },
+    "overlap_174_pct": 84.0,
+    "overlap_107_pct": 2.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.712,
+    "n_trades": 50
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 14.0,
+      "desc": "H=8-15, Touch=1.2p, Wk=0.35, Slope=True, SL=7.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 55,
+      "net_pips": 209.24999999998204,
+      "pf": 2.0388738934129504,
+      "exp": 3.804545454545128,
+      "ex_top3": 147.83999999998403
+    },
+    "discovery": {
+      "trades": 194,
+      "net_pips": 152.8799999999499,
+      "pf": 1.1766418498792874,
+      "exp": 0.7880412371131438
+    },
+    "overlap_174_pct": 78.2,
+    "overlap_107_pct": 3.6,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.819,
+    "n_trades": 55
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 15.0,
+      "desc": "H=8-15, Touch=1.2p, Wk=0.35, Slope=True, SL=7.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 55,
+      "net_pips": 192.74999999998494,
+      "pf": 1.9233532012763919,
+      "exp": 3.504545454545181,
+      "ex_top3": 131.33999999998696
+    },
+    "discovery": {
+      "trades": 194,
+      "net_pips": 178.47999999995326,
+      "pf": 1.2044889356848083,
+      "exp": 0.9199999999997591
+    },
+    "overlap_174_pct": 78.2,
+    "overlap_107_pct": 3.6,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.774,
+    "n_trades": 55
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 16.0,
+      "desc": "H=8-15, Touch=1.2p, Wk=0.35, Slope=True, SL=7.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 55,
+      "net_pips": 212.94999999999408,
+      "pf": 2.020119663706781,
+      "exp": 3.871818181818074,
+      "ex_top3": 150.63999999999572
+    },
+    "discovery": {
+      "trades": 194,
+      "net_pips": 175.37999999998402,
+      "pf": 1.1959990925793327,
+      "exp": 0.9040206185566186
+    },
+    "overlap_174_pct": 78.2,
+    "overlap_107_pct": 3.6,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.778,
+    "n_trades": 55
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 14.0,
+      "desc": "H=8-15, Touch=1.2p, Wk=0.35, Slope=True, SL=9.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 54,
+      "net_pips": 186.9799999999828,
+      "pf": 1.7659033397818595,
+      "exp": 3.462592592592274,
+      "ex_top3": 122.66999999998461
+    },
+    "discovery": {
+      "trades": 193,
+      "net_pips": 217.10999999995775,
+      "pf": 1.2279322090041471,
+      "exp": 1.1249222797925271
+    },
+    "overlap_174_pct": 77.8,
+    "overlap_107_pct": 3.7,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.754,
+    "n_trades": 54
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=8-15, Touch=1.2p, Wk=0.35, Slope=True, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 54,
+      "net_pips": 168.47999999998595,
+      "pf": 1.664720205763356,
+      "exp": 3.11999999999974,
+      "ex_top3": 104.16999999998777
+    },
+    "discovery": {
+      "trades": 193,
+      "net_pips": 238.5099999999581,
+      "pf": 1.247352851984883,
+      "exp": 1.235803108808073
+    },
+    "overlap_174_pct": 77.8,
+    "overlap_107_pct": 3.7,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.713,
+    "n_trades": 54
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=8-15, Touch=1.2p, Wk=0.35, Slope=True, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 54,
+      "net_pips": 188.67999999999503,
+      "pf": 1.7444171962274877,
+      "exp": 3.494074074073982,
+      "ex_top3": 124.36999999999688
+    },
+    "discovery": {
+      "trades": 193,
+      "net_pips": 253.00999999999198,
+      "pf": 1.2573567428125219,
+      "exp": 1.3109326424870051
+    },
+    "overlap_174_pct": 77.8,
+    "overlap_107_pct": 3.7,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.719,
+    "n_trades": 54
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 14.0,
+      "desc": "H=8-15, Touch=1.5p, Wk=0.35, Slope=True, SL=7.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 59,
+      "net_pips": 211.72999999998365,
+      "pf": 1.8817673712406457,
+      "exp": 3.588644067796333,
+      "ex_top3": 150.31999999998564
+    },
+    "discovery": {
+      "trades": 221,
+      "net_pips": 225.76999999994285,
+      "pf": 1.2330168104755566,
+      "exp": 1.0215837104069811
+    },
+    "overlap_174_pct": 64.4,
+    "overlap_107_pct": 3.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.746,
+    "n_trades": 59
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 15.0,
+      "desc": "H=8-15, Touch=1.5p, Wk=0.35, Slope=True, SL=7.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 58,
+      "net_pips": 183.2599999999859,
+      "pf": 1.7405939890646218,
+      "exp": 3.15965517241355,
+      "ex_top3": 121.84999999998792
+    },
+    "discovery": {
+      "trades": 220,
+      "net_pips": 225.19999999994698,
+      "pf": 1.2289408817177991,
+      "exp": 1.0236363636361225
+    },
+    "overlap_174_pct": 65.5,
+    "overlap_107_pct": 3.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.715,
+    "n_trades": 58
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 16.0,
+      "desc": "H=8-15, Touch=1.5p, Wk=0.35, Slope=True, SL=7.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 58,
+      "net_pips": 205.65999999999497,
+      "pf": 1.8311173234544988,
+      "exp": 3.5458620689654303,
+      "ex_top3": 143.34999999999667
+    },
+    "discovery": {
+      "trades": 220,
+      "net_pips": 232.7999999999856,
+      "pf": 1.2314920575598438,
+      "exp": 1.0581818181817528
+    },
+    "overlap_174_pct": 65.5,
+    "overlap_107_pct": 3.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.719,
+    "n_trades": 58
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 14.0,
+      "desc": "H=8-15, Touch=1.5p, Wk=0.35, Slope=True, SL=9.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 59,
+      "net_pips": 206.3299999999838,
+      "pf": 1.775793285614552,
+      "exp": 3.4971186440675224,
+      "ex_top3": 142.01999999998563
+    },
+    "discovery": {
+      "trades": 220,
+      "net_pips": 284.79999999995107,
+      "pf": 1.2650263698920352,
+      "exp": 1.2945454545452322
+    },
+    "overlap_174_pct": 64.4,
+    "overlap_107_pct": 3.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.706,
+    "n_trades": 59
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=8-15, Touch=1.5p, Wk=0.35, Slope=True, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 58,
+      "net_pips": 175.85999999998631,
+      "pf": 1.6388171877358806,
+      "exp": 3.032068965517005,
+      "ex_top3": 111.54999999998816
+    },
+    "discovery": {
+      "trades": 219,
+      "net_pips": 279.32999999995303,
+      "pf": 1.254939888333665,
+      "exp": 1.27547945205458
+    },
+    "overlap_174_pct": 65.5,
+    "overlap_107_pct": 3.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.673,
+    "n_trades": 58
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=8-15, Touch=1.5p, Wk=0.35, Slope=True, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 58,
+      "net_pips": 198.25999999999536,
+      "pf": 1.7201859232014667,
+      "exp": 3.4182758620688856,
+      "ex_top3": 133.94999999999723
+    },
+    "discovery": {
+      "trades": 219,
+      "net_pips": 305.6299999999943,
+      "pf": 1.2742232037340897,
+      "exp": 1.3955707762556817
+    },
+    "overlap_174_pct": 65.5,
+    "overlap_107_pct": 3.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.678,
+    "n_trades": 58
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 18.0,
+      "desc": "H=8-15, Touch=1.5p, Wk=0.35, Slope=True, SL=9.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 57,
+      "net_pips": 167.68999999999062,
+      "pf": 1.5696958868796596,
+      "exp": 2.941929824561239,
+      "ex_top3": 103.37999999999245
+    },
+    "discovery": {
+      "trades": 217,
+      "net_pips": 239.38999999997245,
+      "pf": 1.205553780187727,
+      "exp": 1.1031797235021772
+    },
+    "overlap_174_pct": 66.7,
+    "overlap_107_pct": 3.5,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.593,
+    "n_trades": 57
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.5,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 16.0,
+      "desc": "H=8-15, Touch=1.5p, Wk=0.4, Slope=True, SL=7.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 54,
+      "net_pips": 156.37999999999323,
+      "pf": 1.6262213028102495,
+      "exp": 2.8959259259258006,
+      "ex_top3": 94.06999999999488
+    },
+    "discovery": {
+      "trades": 194,
+      "net_pips": 145.4799999999869,
+      "pf": 1.1578062333054044,
+      "exp": 0.7498969072164272
+    },
+    "overlap_174_pct": 63.0,
+    "overlap_107_pct": 3.7,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.666,
+    "n_trades": 54
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.5,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=8-15, Touch=1.5p, Wk=0.4, Slope=True, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 55,
+      "net_pips": 131.04999999998708,
+      "pf": 1.4753526977636364,
+      "exp": 2.382727272727038,
+      "ex_top3": 66.73999999998898
+    },
+    "discovery": {
+      "trades": 193,
+      "net_pips": 155.40999999995876,
+      "pf": 1.1532491750985734,
+      "exp": 0.8052331606215479
+    },
+    "overlap_174_pct": 61.8,
+    "overlap_107_pct": 3.6,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.626,
+    "n_trades": 55
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.5,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=8-15, Touch=1.5p, Wk=0.4, Slope=True, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 54,
+      "net_pips": 160.1799999999937,
+      "pf": 1.6013665114368696,
+      "exp": 2.9662962962961794,
+      "ex_top3": 95.86999999999557
+    },
+    "discovery": {
+      "trades": 193,
+      "net_pips": 194.10999999999464,
+      "pf": 1.1896475805335596,
+      "exp": 1.0057512953367598
+    },
+    "overlap_174_pct": 63.0,
+    "overlap_107_pct": 3.7,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.631,
+    "n_trades": 54
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 15,
+      "touch": 1.5,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 18.0,
+      "desc": "H=8-15, Touch=1.5p, Wk=0.4, Slope=True, SL=9.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 53,
+      "net_pips": 150.80999999999125,
+      "pf": 1.546829053017504,
+      "exp": 2.8454716981130423,
+      "ex_top3": 86.49999999999312
+    },
+    "discovery": {
+      "trades": 191,
+      "net_pips": 168.56999999997515,
+      "pf": 1.1597895524926074,
+      "exp": 0.882565445026048
+    },
+    "overlap_174_pct": 64.2,
+    "overlap_107_pct": 3.8,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.58,
+    "n_trades": 53
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=True, SL=7.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 42,
+      "net_pips": 142.6399999999872,
+      "pf": 1.9703400020175676,
+      "exp": 3.3961904761901716,
+      "ex_top3": 89.72999999998937
+    },
+    "discovery": {
+      "trades": 140,
+      "net_pips": 291.49999999996635,
+      "pf": 1.5315947564220072,
+      "exp": 2.0821428571426166
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.941,
+    "n_trades": 42
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=True, SL=7.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 42,
+      "net_pips": 95.93999999998879,
+      "pf": 1.5826550721088004,
+      "exp": 2.2842857142854474,
+      "ex_top3": 41.82999999998977
+    },
+    "discovery": {
+      "trades": 140,
+      "net_pips": 329.4999999999677,
+      "pf": 1.5929671466856532,
+      "exp": 2.353571428571198
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.839,
+    "n_trades": 42
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=True, SL=7.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 42,
+      "net_pips": 109.03999999999355,
+      "pf": 1.6622129441143005,
+      "exp": 2.5961904761903227,
+      "ex_top3": 53.029999999995404
+    },
+    "discovery": {
+      "trades": 140,
+      "net_pips": 340.29999999999404,
+      "pf": 1.596661612430067,
+      "exp": 2.430714285714243
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.836,
+    "n_trades": 42
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 18.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=True, SL=7.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 42,
+      "net_pips": 87.53999999999262,
+      "pf": 1.5089829926749225,
+      "exp": 2.0842857142855387,
+      "ex_top3": 27.629999999993334
+    },
+    "discovery": {
+      "trades": 138,
+      "net_pips": 303.9599999999793,
+      "pf": 1.5056224381924006,
+      "exp": 2.2026086956520237
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.781,
+    "n_trades": 42
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=True, SL=8.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 42,
+      "net_pips": 133.73999999998662,
+      "pf": 1.7678703698758622,
+      "exp": 3.1842857142853958,
+      "ex_top3": 76.32999999998817
+    },
+    "discovery": {
+      "trades": 140,
+      "net_pips": 246.89999999996508,
+      "pf": 1.4070093071937346,
+      "exp": 1.7635714285711792
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.854,
+    "n_trades": 42
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=True, SL=8.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 42,
+      "net_pips": 86.03999999998832,
+      "pf": 1.446196056308797,
+      "exp": 2.0485714285711505,
+      "ex_top3": 28.629999999989874
+    },
+    "discovery": {
+      "trades": 140,
+      "net_pips": 281.49999999996635,
+      "pf": 1.4552437704334416,
+      "exp": 2.0107142857140454
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.764,
+    "n_trades": 42
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=True, SL=8.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 42,
+      "net_pips": 99.1399999999931,
+      "pf": 1.5141315400024624,
+      "exp": 2.360476190476026,
+      "ex_top3": 40.8299999999943
+    },
+    "discovery": {
+      "trades": 139,
+      "net_pips": 299.72999999999365,
+      "pf": 1.4782823533815652,
+      "exp": 2.156330935251753
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.765,
+    "n_trades": 42
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 18.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=True, SL=8.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 42,
+      "net_pips": 76.63999999999227,
+      "pf": 1.3809901878608477,
+      "exp": 1.8247619047617207,
+      "ex_top3": 16.429999999993253
+    },
+    "discovery": {
+      "trades": 137,
+      "net_pips": 262.68999999997885,
+      "pf": 1.3975934403269794,
+      "exp": 1.9174452554742982
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.715,
+    "n_trades": 42
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=True, SL=9.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 42,
+      "net_pips": 122.93999999998692,
+      "pf": 1.656941238808226,
+      "exp": 2.9271428571425457,
+      "ex_top3": 65.52999999998848
+    },
+    "discovery": {
+      "trades": 140,
+      "net_pips": 272.49999999997067,
+      "pf": 1.4284590970367497,
+      "exp": 1.946428571428362
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.846,
+    "n_trades": 42
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=True, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 42,
+      "net_pips": 74.23999999998873,
+      "pf": 1.3589941315766232,
+      "exp": 1.7676190476187792,
+      "ex_top3": 16.8299999999903
+    },
+    "discovery": {
+      "trades": 140,
+      "net_pips": 310.99999999997084,
+      "pf": 1.4801383063909037,
+      "exp": 2.2214285714283633
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.757,
+    "n_trades": 42
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=True, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 42,
+      "net_pips": 87.33999999999352,
+      "pf": 1.4223403567533264,
+      "exp": 2.0795238095236552,
+      "ex_top3": 29.029999999994715
+    },
+    "discovery": {
+      "trades": 139,
+      "net_pips": 332.92999999999915,
+      "pf": 1.5066193696113528,
+      "exp": 2.3951798561151016
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.759,
+    "n_trades": 42
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 18.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=True, SL=9.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 42,
+      "net_pips": 63.73999999999322,
+      "pf": 1.2947786479776415,
+      "exp": 1.5176190476188862,
+      "ex_top3": 3.5299999999942315
+    },
+    "discovery": {
+      "trades": 137,
+      "net_pips": 263.5899999999836,
+      "pf": 1.3745186715943074,
+      "exp": 1.9240145985400263
+    },
+    "overlap_174_pct": 100.0,
+    "overlap_107_pct": 2.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.709,
+    "n_trades": 42
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": false,
+      "sl": 7.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=False, SL=7.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 139.119999999985,
+      "pf": 1.8232438710429109,
+      "exp": 3.0243478260866303,
+      "ex_top3": 81.50999999998746
+    },
+    "discovery": {
+      "trades": 157,
+      "net_pips": 143.38999999995985,
+      "pf": 1.210005987052965,
+      "exp": 0.9133121019105723
+    },
+    "overlap_174_pct": 91.3,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.896,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": false,
+      "sl": 7.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=False, SL=7.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 92.41999999998657,
+      "pf": 1.4951512726947267,
+      "exp": 2.0091304347823167,
+      "ex_top3": 34.809999999989046
+    },
+    "discovery": {
+      "trades": 157,
+      "net_pips": 168.7899999999608,
+      "pf": 1.2445806346057897,
+      "exp": 1.0750955414010241
+    },
+    "overlap_174_pct": 91.3,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.801,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": false,
+      "sl": 7.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=False, SL=7.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 105.51999999999134,
+      "pf": 1.5653361068664706,
+      "exp": 2.2939130434780726,
+      "ex_top3": 47.00999999999348
+    },
+    "discovery": {
+      "trades": 157,
+      "net_pips": 176.88999999998612,
+      "pf": 1.2509861055792133,
+      "exp": 1.1266878980890835
+    },
+    "overlap_174_pct": 91.3,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.8,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": false,
+      "sl": 7.0,
+      "tp": 18.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=False, SL=7.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 84.01999999999043,
+      "pf": 1.433137362968419,
+      "exp": 1.8265217391302269,
+      "ex_top3": 23.60999999999229
+    },
+    "discovery": {
+      "trades": 155,
+      "net_pips": 137.1499999999724,
+      "pf": 1.1864464221526676,
+      "exp": 0.8848387096772413
+    },
+    "overlap_174_pct": 91.3,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.748,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": false,
+      "sl": 8.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=False, SL=8.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 127.01999999998455,
+      "pf": 1.6371387621819469,
+      "exp": 2.761304347825751,
+      "ex_top3": 66.5099999999869
+    },
+    "discovery": {
+      "trades": 157,
+      "net_pips": 123.78999999996248,
+      "pf": 1.166339677958293,
+      "exp": 0.7884713375793788
+    },
+    "overlap_174_pct": 91.3,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.82,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": false,
+      "sl": 8.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=False, SL=8.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 79.31999999998627,
+      "pf": 1.3638197704879655,
+      "exp": 1.724347826086658,
+      "ex_top3": 18.809999999988598
+    },
+    "discovery": {
+      "trades": 156,
+      "net_pips": 155.41999999996438,
+      "pf": 1.2079197162819562,
+      "exp": 0.9962820512818229
+    },
+    "overlap_174_pct": 91.3,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.734,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": false,
+      "sl": 8.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=False, SL=8.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 92.41999999999103,
+      "pf": 1.4239059983530333,
+      "exp": 2.009130434782414,
+      "ex_top3": 31.909999999993367
+    },
+    "discovery": {
+      "trades": 155,
+      "net_pips": 173.64999999999054,
+      "pf": 1.2297474137074618,
+      "exp": 1.1203225806451003
+    },
+    "overlap_174_pct": 91.3,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.737,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": false,
+      "sl": 8.0,
+      "tp": 18.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=False, SL=8.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 69.9199999999902,
+      "pf": 1.3089020848728399,
+      "exp": 1.5199999999997869,
+      "ex_top3": 9.409999999992532
+    },
+    "discovery": {
+      "trades": 153,
+      "net_pips": 136.50999999997725,
+      "pf": 1.1728302693823764,
+      "exp": 0.8922222222220736
+    },
+    "overlap_174_pct": 91.3,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.689,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": false,
+      "sl": 9.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=False, SL=9.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 113.21999999998407,
+      "pf": 1.5257975421074879,
+      "exp": 2.461304347825741,
+      "ex_top3": 52.70999999998642
+    },
+    "discovery": {
+      "trades": 157,
+      "net_pips": 156.3899999999695,
+      "pf": 1.2004100570203953,
+      "exp": 0.9961146496813343
+    },
+    "overlap_174_pct": 91.3,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.813,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": false,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=False, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 64.5199999999859,
+      "pf": 1.2745648208618918,
+      "exp": 1.4026086956518673,
+      "ex_top3": 4.009999999988226
+    },
+    "discovery": {
+      "trades": 156,
+      "net_pips": 193.71999999997098,
+      "pf": 1.2474864101246919,
+      "exp": 1.2417948717946858
+    },
+    "overlap_174_pct": 91.3,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.728,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.35,
+      "use_slope": false,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.35, Slope=False, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 77.61999999999068,
+      "pf": 1.3303118715556825,
+      "exp": 1.6873913043476236,
+      "ex_top3": 17.109999999992993
+    },
+    "discovery": {
+      "trades": 155,
+      "net_pips": 216.74999999999753,
+      "pf": 1.2736120417883205,
+      "exp": 1.3983870967741776
+    },
+    "overlap_174_pct": 91.3,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.732,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.4, Slope=True, SL=7.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 38,
+      "net_pips": 125.05999999998885,
+      "pf": 1.91125022506181,
+      "exp": 3.291052631578654,
+      "ex_top3": 72.14999999999101
+    },
+    "discovery": {
+      "trades": 113,
+      "net_pips": 116.20999999996755,
+      "pf": 1.2360504309062557,
+      "exp": 1.0284070796457305
+    },
+    "overlap_174_pct": 92.1,
+    "overlap_107_pct": 2.6,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.877,
+    "n_trades": 38
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.4, Slope=True, SL=7.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 38,
+      "net_pips": 98.25999999999091,
+      "pf": 1.665853380371717,
+      "exp": 2.5857894736839713,
+      "ex_top3": 44.14999999999188
+    },
+    "discovery": {
+      "trades": 113,
+      "net_pips": 160.1099999999698,
+      "pf": 1.3252218861037655,
+      "exp": 1.4169026548669894
+    },
+    "overlap_174_pct": 92.1,
+    "overlap_107_pct": 2.6,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.813,
+    "n_trades": 38
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.4, Slope=True, SL=7.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 37,
+      "net_pips": 117.88999999999409,
+      "pf": 1.8412300669879393,
+      "exp": 3.1862162162160566,
+      "ex_top3": 61.879999999995945
+    },
+    "discovery": {
+      "trades": 113,
+      "net_pips": 178.80999999999128,
+      "pf": 1.3578776447466328,
+      "exp": 1.5823893805308962
+    },
+    "overlap_174_pct": 94.6,
+    "overlap_107_pct": 2.7,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.812,
+    "n_trades": 37
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 18.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.4, Slope=True, SL=7.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 37,
+      "net_pips": 94.38999999999338,
+      "pf": 1.6400622743565993,
+      "exp": 2.551081081080902,
+      "ex_top3": 34.47999999999409
+    },
+    "discovery": {
+      "trades": 111,
+      "net_pips": 150.46999999998013,
+      "pf": 1.287634024283895,
+      "exp": 1.3555855855854066
+    },
+    "overlap_174_pct": 94.6,
+    "overlap_107_pct": 2.7,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.753,
+    "n_trades": 37
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.4, Slope=True, SL=8.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 38,
+      "net_pips": 90.45999999998979,
+      "pf": 1.5209628241785236,
+      "exp": 2.380526315789205,
+      "ex_top3": 33.049999999991314
+    },
+    "discovery": {
+      "trades": 113,
+      "net_pips": 122.50999999996999,
+      "pf": 1.2249623338175153,
+      "exp": 1.0841592920351326
+    },
+    "overlap_174_pct": 92.1,
+    "overlap_107_pct": 2.6,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.734,
+    "n_trades": 38
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.4, Slope=True, SL=8.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 37,
+      "net_pips": 110.98999999999334,
+      "pf": 1.6714051375351684,
+      "exp": 2.99972972972955,
+      "ex_top3": 52.67999999999452
+    },
+    "discovery": {
+      "trades": 113,
+      "net_pips": 165.30999999999278,
+      "pf": 1.3035550092997112,
+      "exp": 1.462920353982237
+    },
+    "overlap_174_pct": 94.6,
+    "overlap_107_pct": 2.7,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.737,
+    "n_trades": 37
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 18.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.4, Slope=True, SL=8.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 37,
+      "net_pips": 86.48999999999269,
+      "pf": 1.49809942996427,
+      "exp": 2.33756756756737,
+      "ex_top3": 26.279999999993667
+    },
+    "discovery": {
+      "trades": 111,
+      "net_pips": 139.36999999998062,
+      "pf": 1.2444358481779418,
+      "exp": 1.255585585585411
+    },
+    "overlap_174_pct": 94.6,
+    "overlap_107_pct": 2.7,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.684,
+    "n_trades": 37
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.4, Slope=True, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 38,
+      "net_pips": 86.05999999999094,
+      "pf": 1.4775538828280914,
+      "exp": 2.2647368421050245,
+      "ex_top3": 28.64999999999246
+    },
+    "discovery": {
+      "trades": 113,
+      "net_pips": 134.00999999997313,
+      "pf": 1.2321363399307215,
+      "exp": 1.1859292035395852
+    },
+    "overlap_174_pct": 92.1,
+    "overlap_107_pct": 2.6,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.729,
+    "n_trades": 38
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.4, Slope=True, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 37,
+      "net_pips": 107.58999999999435,
+      "pf": 1.629623031974262,
+      "exp": 2.9078378378376852,
+      "ex_top3": 49.27999999999555
+    },
+    "discovery": {
+      "trades": 113,
+      "net_pips": 180.6099999999964,
+      "pf": 1.3128583326775245,
+      "exp": 1.5983185840707645
+    },
+    "overlap_174_pct": 94.6,
+    "overlap_107_pct": 2.7,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.733,
+    "n_trades": 37
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 0.8,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 18.0,
+      "desc": "H=8-14, Touch=0.8p, Wk=0.4, Slope=True, SL=9.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 37,
+      "net_pips": 81.9899999999943,
+      "pf": 1.454716795811796,
+      "exp": 2.215945945945792,
+      "ex_top3": 21.779999999995265
+    },
+    "discovery": {
+      "trades": 111,
+      "net_pips": 148.26999999998566,
+      "pf": 1.2449609892122184,
+      "exp": 1.3357657657656365
+    },
+    "overlap_174_pct": 94.6,
+    "overlap_107_pct": 2.7,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.677,
+    "n_trades": 37
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=1.0p, Wk=0.35, Slope=True, SL=7.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 156.219999999986,
+      "pf": 1.9633693905173082,
+      "exp": 3.3960869565214344,
+      "ex_top3": 102.00999999998743
+    },
+    "discovery": {
+      "trades": 157,
+      "net_pips": 207.08999999996303,
+      "pf": 1.3136776535340486,
+      "exp": 1.3190445859870257
+    },
+    "overlap_174_pct": 84.8,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.888,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=1.0p, Wk=0.35, Slope=True, SL=7.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 135.61999999998756,
+      "pf": 1.8001650952760162,
+      "exp": 2.948260869564947,
+      "ex_top3": 81.40999999998903
+    },
+    "discovery": {
+      "trades": 157,
+      "net_pips": 234.8899999999642,
+      "pf": 1.3518792960333808,
+      "exp": 1.4961146496813007
+    },
+    "overlap_174_pct": 84.8,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.836,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=1.0p, Wk=0.35, Slope=True, SL=7.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 151.21999999999434,
+      "pf": 1.8922059182130502,
+      "exp": 3.287391304347703,
+      "ex_top3": 95.20999999999616
+    },
+    "discovery": {
+      "trades": 157,
+      "net_pips": 222.5899999999891,
+      "pf": 1.3228187532947457,
+      "exp": 1.4177707006368732
+    },
+    "overlap_174_pct": 84.8,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.833,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 18.0,
+      "desc": "H=8-14, Touch=1.0p, Wk=0.35, Slope=True, SL=7.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 136.01999999999134,
+      "pf": 1.769256771334797,
+      "exp": 2.956956521738942,
+      "ex_top3": 76.10999999999206
+    },
+    "discovery": {
+      "trades": 155,
+      "net_pips": 211.94999999997617,
+      "pf": 1.2972608897874638,
+      "exp": 1.367419354838556
+    },
+    "overlap_174_pct": 84.8,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.767,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=1.0p, Wk=0.35, Slope=True, SL=8.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 137.41999999998606,
+      "pf": 1.6897554740873748,
+      "exp": 2.987391304347523,
+      "ex_top3": 80.00999999998763
+    },
+    "discovery": {
+      "trades": 157,
+      "net_pips": 164.58999999995999,
+      "pf": 1.2254533830275331,
+      "exp": 1.0483439490443311
+    },
+    "overlap_174_pct": 84.8,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.804,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=1.0p, Wk=0.35, Slope=True, SL=8.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 115.81999999998779,
+      "pf": 1.558007248120602,
+      "exp": 2.5178260869562563,
+      "ex_top3": 58.409999999989346
+    },
+    "discovery": {
+      "trades": 157,
+      "net_pips": 179.18999999996126,
+      "pf": 1.2415708205835323,
+      "exp": 1.1413375796175875
+    },
+    "overlap_174_pct": 84.8,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.757,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=1.0p, Wk=0.35, Slope=True, SL=8.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 131.41999999999447,
+      "pf": 1.6331662346710767,
+      "exp": 2.8569565217390105,
+      "ex_top3": 73.10999999999572
+    },
+    "discovery": {
+      "trades": 157,
+      "net_pips": 176.3899999999873,
+      "pf": 1.2325112211155227,
+      "exp": 1.123503184713295
+    },
+    "overlap_174_pct": 84.8,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.759,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 18.0,
+      "desc": "H=8-14, Touch=1.0p, Wk=0.35, Slope=True, SL=8.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 115.21999999999166,
+      "pf": 1.533697645388912,
+      "exp": 2.504782608695471,
+      "ex_top3": 55.00999999999262
+    },
+    "discovery": {
+      "trades": 155,
+      "net_pips": 166.1499999999748,
+      "pf": 1.211866552601698,
+      "exp": 1.071935483870805
+    },
+    "overlap_174_pct": 84.8,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.703,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=1.0p, Wk=0.35, Slope=True, SL=9.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 126.61999999998636,
+      "pf": 1.596701150014006,
+      "exp": 2.7526086956518774,
+      "ex_top3": 69.20999999998793
+    },
+    "discovery": {
+      "trades": 156,
+      "net_pips": 258.3199999999712,
+      "pf": 1.3526071341439996,
+      "exp": 1.6558974358972511
+    },
+    "overlap_174_pct": 84.8,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.799,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=1.0p, Wk=0.35, Slope=True, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 104.01999999998819,
+      "pf": 1.4695525901885076,
+      "exp": 2.2613043478258303,
+      "ex_top3": 46.60999999998974
+    },
+    "discovery": {
+      "trades": 156,
+      "net_pips": 279.9199999999706,
+      "pf": 1.3760697355195506,
+      "exp": 1.794358974358786
+    },
+    "overlap_174_pct": 84.8,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.752,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=1.0p, Wk=0.35, Slope=True, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 119.61999999999492,
+      "pf": 1.5399719433046222,
+      "exp": 2.600434782608585,
+      "ex_top3": 61.30999999999612
+    },
+    "discovery": {
+      "trades": 156,
+      "net_pips": 283.51999999999634,
+      "pf": 1.3715420019716813,
+      "exp": 1.817435897435874
+    },
+    "overlap_174_pct": 84.8,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.754,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 18.0,
+      "desc": "H=8-14, Touch=1.0p, Wk=0.35, Slope=True, SL=9.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 102.3199999999926,
+      "pf": 1.4430203739599363,
+      "exp": 2.2243478260867957,
+      "ex_top3": 42.1099999999936
+    },
+    "discovery": {
+      "trades": 154,
+      "net_pips": 247.07999999998322,
+      "pf": 1.3086917791045338,
+      "exp": 1.6044155844154755
+    },
+    "overlap_174_pct": 84.8,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.698,
+    "n_trades": 46
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": false,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=1.0p, Wk=0.35, Slope=False, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 53,
+      "net_pips": 65.80999999998505,
+      "pf": 1.2365478869720883,
+      "exp": 1.241698113207265,
+      "ex_top3": 5.299999999987367
+    },
+    "discovery": {
+      "trades": 172,
+      "net_pips": 139.4399999999697,
+      "pf": 1.1552939475526807,
+      "exp": 0.8106976744184284
+    },
+    "overlap_174_pct": 71.7,
+    "overlap_107_pct": 1.9,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.724,
+    "n_trades": 53
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.0,
+      "wick": 0.35,
+      "use_slope": false,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=1.0p, Wk=0.35, Slope=False, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 53,
+      "net_pips": 81.40999999999178,
+      "pf": 1.2926206357563839,
+      "exp": 1.5360377358489015,
+      "ex_top3": 20.89999999999408
+    },
+    "discovery": {
+      "trades": 172,
+      "net_pips": 143.93999999999588,
+      "pf": 1.1570248709238267,
+      "exp": 0.8368604651162551
+    },
+    "overlap_174_pct": 71.7,
+    "overlap_107_pct": 1.9,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.728,
+    "n_trades": 53
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.0,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=1.0p, Wk=0.4, Slope=True, SL=7.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 41,
+      "net_pips": 118.2699999999897,
+      "pf": 1.7528324791321557,
+      "exp": 2.884634146341212,
+      "ex_top3": 64.15999999999066
+    },
+    "discovery": {
+      "trades": 131,
+      "net_pips": 92.66999999996659,
+      "pf": 1.1533611168476345,
+      "exp": 0.7074045801524167
+    },
+    "overlap_174_pct": 85.4,
+    "overlap_107_pct": 2.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.802,
+    "n_trades": 41
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.0,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=1.0p, Wk=0.4, Slope=True, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 41,
+      "net_pips": 106.0699999999897,
+      "pf": 1.5590280616090804,
+      "exp": 2.5870731707314563,
+      "ex_top3": 48.65999999999126
+    },
+    "discovery": {
+      "trades": 130,
+      "net_pips": 106.29999999997378,
+      "pf": 1.155609539237434,
+      "exp": 0.817692307692106
+    },
+    "overlap_174_pct": 85.4,
+    "overlap_107_pct": 2.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.726,
+    "n_trades": 41
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.0,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=1.0p, Wk=0.4, Slope=True, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 40,
+      "net_pips": 129.39999999999495,
+      "pf": 1.7172550458812803,
+      "exp": 3.2349999999998738,
+      "ex_top3": 71.08999999999615
+    },
+    "discovery": {
+      "trades": 130,
+      "net_pips": 120.49999999999353,
+      "pf": 1.174019767867417,
+      "exp": 0.9269230769230272
+    },
+    "overlap_174_pct": 87.5,
+    "overlap_107_pct": 2.5,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.729,
+    "n_trades": 40
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.0,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 18.0,
+      "desc": "H=8-14, Touch=1.0p, Wk=0.4, Slope=True, SL=9.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 40,
+      "net_pips": 107.99999999999355,
+      "pf": 1.568900043778925,
+      "exp": 2.6999999999998385,
+      "ex_top3": 47.78999999999452
+    },
+    "discovery": {
+      "trades": 128,
+      "net_pips": 120.45999999998455,
+      "pf": 1.1693971232383322,
+      "exp": 0.9410937499998793
+    },
+    "overlap_174_pct": 87.5,
+    "overlap_107_pct": 2.5,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.671,
+    "n_trades": 40
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=1.2p, Wk=0.35, Slope=True, SL=7.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 48,
+      "net_pips": 146.5599999999848,
+      "pf": 1.755113516661575,
+      "exp": 3.0533333333330166,
+      "ex_top3": 85.14999999998676
+    },
+    "discovery": {
+      "trades": 179,
+      "net_pips": 212.5299999999563,
+      "pf": 1.2778823608445458,
+      "exp": 1.1873184357539457
+    },
+    "overlap_174_pct": 81.2,
+    "overlap_107_pct": 2.1,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.785,
+    "n_trades": 48
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=1.2p, Wk=0.35, Slope=True, SL=7.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 48,
+      "net_pips": 125.95999999998638,
+      "pf": 1.6253598636996511,
+      "exp": 2.6241666666663828,
+      "ex_top3": 64.54999999998836
+    },
+    "discovery": {
+      "trades": 179,
+      "net_pips": 235.12999999996003,
+      "pf": 1.304513354859572,
+      "exp": 1.3135754189941902
+    },
+    "overlap_174_pct": 81.2,
+    "overlap_107_pct": 2.1,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.741,
+    "n_trades": 48
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=1.2p, Wk=0.35, Slope=True, SL=7.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 48,
+      "net_pips": 141.55999999999312,
+      "pf": 1.7028099641142338,
+      "exp": 2.9491666666665233,
+      "ex_top3": 79.24999999999473
+    },
+    "discovery": {
+      "trades": 179,
+      "net_pips": 229.02999999998778,
+      "pf": 1.2884000139975058,
+      "exp": 1.2794972067038424
+    },
+    "overlap_174_pct": 81.2,
+    "overlap_107_pct": 2.1,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.744,
+    "n_trades": 48
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 18.0,
+      "desc": "H=8-14, Touch=1.2p, Wk=0.35, Slope=True, SL=7.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 48,
+      "net_pips": 126.35999999999015,
+      "pf": 1.6053172883679676,
+      "exp": 2.6324999999997947,
+      "ex_top3": 62.14999999999153
+    },
+    "discovery": {
+      "trades": 176,
+      "net_pips": 168.61999999997198,
+      "pf": 1.2036497879967967,
+      "exp": 0.9580681818180227
+    },
+    "overlap_174_pct": 81.2,
+    "overlap_107_pct": 2.1,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.691,
+    "n_trades": 48
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=1.2p, Wk=0.35, Slope=True, SL=8.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 48,
+      "net_pips": 127.75999999998488,
+      "pf": 1.5526907097814262,
+      "exp": 2.6616666666663518,
+      "ex_top3": 63.449999999986716
+    },
+    "discovery": {
+      "trades": 179,
+      "net_pips": 164.92999999995422,
+      "pf": 1.1964013385204528,
+      "exp": 0.921396648044437
+    },
+    "overlap_174_pct": 81.2,
+    "overlap_107_pct": 2.1,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.73,
+    "n_trades": 48
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=1.2p, Wk=0.35, Slope=True, SL=8.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 48,
+      "net_pips": 106.15999999998658,
+      "pf": 1.4432752330670655,
+      "exp": 2.211666666666387,
+      "ex_top3": 41.84999999998843
+    },
+    "discovery": {
+      "trades": 179,
+      "net_pips": 174.3299999999581,
+      "pf": 1.2047352146855517,
+      "exp": 0.9739106145249056
+    },
+    "overlap_174_pct": 81.2,
+    "overlap_107_pct": 2.1,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.689,
+    "n_trades": 48
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=1.2p, Wk=0.35, Slope=True, SL=8.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 48,
+      "net_pips": 121.75999999999331,
+      "pf": 1.5084136494878855,
+      "exp": 2.536666666666527,
+      "ex_top3": 57.44999999999516
+    },
+    "discovery": {
+      "trades": 179,
+      "net_pips": 177.9299999999861,
+      "pf": 1.2049530472273802,
+      "exp": 0.9940223463686375
+    },
+    "overlap_174_pct": 81.2,
+    "overlap_107_pct": 2.1,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.694,
+    "n_trades": 48
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=1.2p, Wk=0.35, Slope=True, SL=9.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 48,
+      "net_pips": 116.95999999998517,
+      "pf": 1.4790889493675219,
+      "exp": 2.436666666666358,
+      "ex_top3": 52.649999999987
+    },
+    "discovery": {
+      "trades": 178,
+      "net_pips": 270.3599999999633,
+      "pf": 1.320183785689219,
+      "exp": 1.5188764044941758
+    },
+    "overlap_174_pct": 81.2,
+    "overlap_107_pct": 2.1,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.73,
+    "n_trades": 48
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=1.2p, Wk=0.35, Slope=True, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 48,
+      "net_pips": 94.35999999998698,
+      "pf": 1.3722874862980752,
+      "exp": 1.9658333333330622,
+      "ex_top3": 30.04999999998883
+    },
+    "discovery": {
+      "trades": 178,
+      "net_pips": 287.8599999999647,
+      "pf": 1.3362378949651674,
+      "exp": 1.6171910112357568
+    },
+    "overlap_174_pct": 81.2,
+    "overlap_107_pct": 2.1,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.688,
+    "n_trades": 48
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=1.2p, Wk=0.35, Slope=True, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 48,
+      "net_pips": 109.95999999999368,
+      "pf": 1.4338356571515616,
+      "exp": 2.2908333333332016,
+      "ex_top3": 45.64999999999554
+    },
+    "discovery": {
+      "trades": 178,
+      "net_pips": 298.3599999999946,
+      "pf": 1.3409906358889134,
+      "exp": 1.6761797752808687
+    },
+    "overlap_174_pct": 81.2,
+    "overlap_107_pct": 2.1,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.693,
+    "n_trades": 48
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 18.0,
+      "desc": "H=8-14, Touch=1.2p, Wk=0.35, Slope=True, SL=9.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 48,
+      "net_pips": 92.65999999999138,
+      "pf": 1.3524667597676678,
+      "exp": 1.9304166666664873,
+      "ex_top3": 28.349999999993262
+    },
+    "discovery": {
+      "trades": 175,
+      "net_pips": 212.049999999979,
+      "pf": 1.2293027247144628,
+      "exp": 1.2117142857141658
+    },
+    "overlap_174_pct": 81.2,
+    "overlap_107_pct": 2.1,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.644,
+    "n_trades": 48
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": false,
+      "sl": 9.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=1.2p, Wk=0.35, Slope=False, SL=9.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 55,
+      "net_pips": 78.74999999998201,
+      "pf": 1.2617931165255445,
+      "exp": 1.4318181818178548,
+      "ex_top3": 14.239999999984782
+    },
+    "discovery": {
+      "trades": 193,
+      "net_pips": 152.50999999996088,
+      "pf": 1.1557957201806095,
+      "exp": 0.7902072538858077
+    },
+    "overlap_174_pct": 69.1,
+    "overlap_107_pct": 1.8,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.708,
+    "n_trades": 55
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.2,
+      "wick": 0.35,
+      "use_slope": false,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=1.2p, Wk=0.35, Slope=False, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 55,
+      "net_pips": 71.74999999999054,
+      "pf": 1.23134709384961,
+      "exp": 1.3045454545452824,
+      "ex_top3": 7.239999999993305
+    },
+    "discovery": {
+      "trades": 192,
+      "net_pips": 177.33999999999364,
+      "pf": 1.1756711126728863,
+      "exp": 0.9236458333333002
+    },
+    "overlap_174_pct": 69.1,
+    "overlap_107_pct": 1.8,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.675,
+    "n_trades": 55
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.2,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=1.2p, Wk=0.4, Slope=True, SL=7.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 43,
+      "net_pips": 108.60999999998849,
+      "pf": 1.5745648005837047,
+      "exp": 2.5258139534881043,
+      "ex_top3": 47.19999999999047
+    },
+    "discovery": {
+      "trades": 153,
+      "net_pips": 114.50999999996405,
+      "pf": 1.1631545036238722,
+      "exp": 0.7484313725487847
+    },
+    "overlap_174_pct": 81.4,
+    "overlap_107_pct": 2.3,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.706,
+    "n_trades": 43
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.2,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=1.2p, Wk=0.4, Slope=True, SL=7.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 42,
+      "net_pips": 130.03999999999348,
+      "pf": 1.716079200656376,
+      "exp": 3.096190476190321,
+      "ex_top3": 67.72999999999513
+    },
+    "discovery": {
+      "trades": 153,
+      "net_pips": 120.10999999998627,
+      "pf": 1.1676319776746482,
+      "exp": 0.7850326797384723
+    },
+    "overlap_174_pct": 83.3,
+    "overlap_107_pct": 2.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.709,
+    "n_trades": 42
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.2,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=1.2p, Wk=0.4, Slope=True, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 43,
+      "net_pips": 96.40999999998849,
+      "pf": 1.4349257258570367,
+      "exp": 2.242093023255546,
+      "ex_top3": 32.09999999999035
+    },
+    "discovery": {
+      "trades": 152,
+      "net_pips": 142.7399999999692,
+      "pf": 1.182770350293557,
+      "exp": 0.9390789473682184
+    },
+    "overlap_174_pct": 81.4,
+    "overlap_107_pct": 2.3,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.657,
+    "n_trades": 43
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.2,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=1.2p, Wk=0.4, Slope=True, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 42,
+      "net_pips": 119.73999999999373,
+      "pf": 1.5639068680461645,
+      "exp": 2.8509523809522315,
+      "ex_top3": 55.4299999999956
+    },
+    "discovery": {
+      "trades": 152,
+      "net_pips": 164.93999999999247,
+      "pf": 1.208676494367763,
+      "exp": 1.0851315789473188
+    },
+    "overlap_174_pct": 83.3,
+    "overlap_107_pct": 2.4,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.662,
+    "n_trades": 42
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=1.5p, Wk=0.35, Slope=True, SL=7.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 53,
+      "net_pips": 140.5099999999848,
+      "pf": 1.5820146805560171,
+      "exp": 2.6511320754714114,
+      "ex_top3": 79.0999999999868
+    },
+    "discovery": {
+      "trades": 203,
+      "net_pips": 269.30999999995055,
+      "pf": 1.3124934578097336,
+      "exp": 1.326650246305175
+    },
+    "overlap_174_pct": 67.9,
+    "overlap_107_pct": 1.9,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.714,
+    "n_trades": 53
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=1.5p, Wk=0.35, Slope=True, SL=7.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 53,
+      "net_pips": 122.80999999998546,
+      "pf": 1.4937084826649114,
+      "exp": 2.3171698113204804,
+      "ex_top3": 61.39999999998743
+    },
+    "discovery": {
+      "trades": 202,
+      "net_pips": 264.6399999999544,
+      "pf": 1.3019039973771693,
+      "exp": 1.3100990099007643
+    },
+    "overlap_174_pct": 67.9,
+    "overlap_107_pct": 1.9,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.672,
+    "n_trades": 53
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=1.5p, Wk=0.35, Slope=True, SL=7.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 53,
+      "net_pips": 141.40999999999298,
+      "pf": 1.5684823490056878,
+      "exp": 2.6681132075470373,
+      "ex_top3": 79.09999999999457
+    },
+    "discovery": {
+      "trades": 202,
+      "net_pips": 268.3399999999897,
+      "pf": 1.2986333544934638,
+      "exp": 1.3284158415841074
+    },
+    "overlap_174_pct": 67.9,
+    "overlap_107_pct": 1.9,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.675,
+    "n_trades": 53
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 18.0,
+      "desc": "H=8-14, Touch=1.5p, Wk=0.35, Slope=True, SL=7.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 51,
+      "net_pips": 114.56999999998821,
+      "pf": 1.4473991937128734,
+      "exp": 2.246470588235063,
+      "ex_top3": 50.359999999989604
+    },
+    "discovery": {
+      "trades": 200,
+      "net_pips": 181.19999999996975,
+      "pf": 1.1908292310926043,
+      "exp": 0.9059999999998487
+    },
+    "overlap_174_pct": 68.6,
+    "overlap_107_pct": 2.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.603,
+    "n_trades": 51
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=1.5p, Wk=0.35, Slope=True, SL=8.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 53,
+      "net_pips": 141.80999999998446,
+      "pf": 1.5488214888802407,
+      "exp": 2.6756603773581973,
+      "ex_top3": 77.49999999998631
+    },
+    "discovery": {
+      "trades": 203,
+      "net_pips": 209.50999999994957,
+      "pf": 1.2207808501945672,
+      "exp": 1.032068965516993
+    },
+    "overlap_174_pct": 67.9,
+    "overlap_107_pct": 1.9,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.675,
+    "n_trades": 53
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=1.5p, Wk=0.35, Slope=True, SL=8.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 53,
+      "net_pips": 123.10999999998516,
+      "pf": 1.4615701311648182,
+      "exp": 2.3228301886789655,
+      "ex_top3": 58.79999999998705
+    },
+    "discovery": {
+      "trades": 202,
+      "net_pips": 190.6399999999526,
+      "pf": 1.196716562653136,
+      "exp": 0.9437623762373891
+    },
+    "overlap_174_pct": 67.9,
+    "overlap_107_pct": 1.9,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.634,
+    "n_trades": 53
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 8.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=1.5p, Wk=0.35, Slope=True, SL=8.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 53,
+      "net_pips": 141.7099999999927,
+      "pf": 1.531306181339707,
+      "exp": 2.673773584905523,
+      "ex_top3": 77.39999999999452
+    },
+    "discovery": {
+      "trades": 202,
+      "net_pips": 204.0399999999881,
+      "pf": 1.2069853900302585,
+      "exp": 1.0100990099009313
+    },
+    "overlap_174_pct": 67.9,
+    "overlap_107_pct": 1.9,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.637,
+    "n_trades": 53
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=1.5p, Wk=0.35, Slope=True, SL=9.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 53,
+      "net_pips": 135.10999999998498,
+      "pf": 1.50553762233258,
+      "exp": 2.5492452830185846,
+      "ex_top3": 70.79999999998682
+    },
+    "discovery": {
+      "trades": 202,
+      "net_pips": 325.03999999995824,
+      "pf": 1.3395914815901748,
+      "exp": 1.6091089108908825
+    },
+    "overlap_174_pct": 67.9,
+    "overlap_107_pct": 1.9,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.674,
+    "n_trades": 53
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=1.5p, Wk=0.35, Slope=True, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 53,
+      "net_pips": 115.40999999998581,
+      "pf": 1.4172601533944882,
+      "exp": 2.177547169811053,
+      "ex_top3": 51.09999999998767
+    },
+    "discovery": {
+      "trades": 201,
+      "net_pips": 314.3699999999594,
+      "pf": 1.321372697872875,
+      "exp": 1.5640298507460668
+    },
+    "overlap_174_pct": 67.9,
+    "overlap_107_pct": 1.9,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.632,
+    "n_trades": 53
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=1.5p, Wk=0.35, Slope=True, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 53,
+      "net_pips": 134.0099999999933,
+      "pf": 1.4845077014892547,
+      "exp": 2.52849056603761,
+      "ex_top3": 69.69999999999517
+    },
+    "discovery": {
+      "trades": 201,
+      "net_pips": 335.869999999997,
+      "pf": 1.3368569775757166,
+      "exp": 1.670995024875607
+    },
+    "overlap_174_pct": 67.9,
+    "overlap_107_pct": 1.9,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.635,
+    "n_trades": 53
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.5,
+      "wick": 0.35,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 18.0,
+      "desc": "H=8-14, Touch=1.5p, Wk=0.35, Slope=True, SL=9.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 51,
+      "net_pips": 105.06999999998925,
+      "pf": 1.367351885625019,
+      "exp": 2.060196078431162,
+      "ex_top3": 40.75999999999112
+    },
+    "discovery": {
+      "trades": 199,
+      "net_pips": 259.2299999999781,
+      "pf": 1.2475576445823386,
+      "exp": 1.3026633165828043
+    },
+    "overlap_174_pct": 68.6,
+    "overlap_107_pct": 2.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.565,
+    "n_trades": 51
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.5,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=1.5p, Wk=0.4, Slope=True, SL=7.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 49,
+      "net_pips": 119.82999999998613,
+      "pf": 1.5134983924622847,
+      "exp": 2.4455102040813497,
+      "ex_top3": 58.419999999988136
+    },
+    "discovery": {
+      "trades": 177,
+      "net_pips": 147.9899999999544,
+      "pf": 1.1866651380952535,
+      "exp": 0.8361016949149965
+    },
+    "overlap_174_pct": 67.3,
+    "overlap_107_pct": 2.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.695,
+    "n_trades": 49
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.5,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=1.5p, Wk=0.4, Slope=True, SL=7.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 49,
+      "net_pips": 98.12999999998719,
+      "pf": 1.402683679975164,
+      "exp": 2.0026530612242284,
+      "ex_top3": 36.71999999998918
+    },
+    "discovery": {
+      "trades": 177,
+      "net_pips": 157.48999999996,
+      "pf": 1.1950171354183332,
+      "exp": 0.889774011299209
+    },
+    "overlap_174_pct": 67.3,
+    "overlap_107_pct": 2.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.646,
+    "n_trades": 49
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.5,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 7.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=1.5p, Wk=0.4, Slope=True, SL=7.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 48,
+      "net_pips": 122.55999999999297,
+      "pf": 1.5187504647950765,
+      "exp": 2.5533333333331867,
+      "ex_top3": 60.24999999999463
+    },
+    "discovery": {
+      "trades": 177,
+      "net_pips": 173.58999999999108,
+      "pf": 1.211120961152932,
+      "exp": 0.9807344632767857
+    },
+    "overlap_174_pct": 68.8,
+    "overlap_107_pct": 2.1,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.647,
+    "n_trades": 48
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.5,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 14.0,
+      "desc": "H=8-14, Touch=1.5p, Wk=0.4, Slope=True, SL=9.0p, TP=14.0p"
+    },
+    "holdout": {
+      "trades": 49,
+      "net_pips": 125.62999999998524,
+      "pf": 1.5065725198961952,
+      "exp": 2.563877551020107,
+      "ex_top3": 61.31999999998716
+    },
+    "discovery": {
+      "trades": 176,
+      "net_pips": 177.2199999999616,
+      "pf": 1.1997272520344469,
+      "exp": 1.0069318181816
+    },
+    "overlap_174_pct": 67.3,
+    "overlap_107_pct": 2.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.657,
+    "n_trades": 49
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.5,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 15.0,
+      "desc": "H=8-14, Touch=1.5p, Wk=0.4, Slope=True, SL=9.0p, TP=15.0p"
+    },
+    "holdout": {
+      "trades": 49,
+      "net_pips": 103.92999999998634,
+      "pf": 1.4023148142950308,
+      "exp": 2.1210204081629866,
+      "ex_top3": 39.61999999998819
+    },
+    "discovery": {
+      "trades": 176,
+      "net_pips": 181.119999999965,
+      "pf": 1.199918306346543,
+      "exp": 1.02909090909071
+    },
+    "overlap_174_pct": 67.3,
+    "overlap_107_pct": 2.0,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.61,
+    "n_trades": 49
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.5,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 16.0,
+      "desc": "H=8-14, Touch=1.5p, Wk=0.4, Slope=True, SL=9.0p, TP=16.0p"
+    },
+    "holdout": {
+      "trades": 48,
+      "net_pips": 130.25999999999237,
+      "pf": 1.5231324689504575,
+      "exp": 2.713749999999841,
+      "ex_top3": 65.94999999999422
+    },
+    "discovery": {
+      "trades": 176,
+      "net_pips": 215.0199999999972,
+      "pf": 1.234891837066937,
+      "exp": 1.2217045454545294
+    },
+    "overlap_174_pct": 68.8,
+    "overlap_107_pct": 2.1,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.614,
+    "n_trades": 48
+  },
+  {
+    "setup": {
+      "start_hr": 8,
+      "end_hr": 14,
+      "touch": 1.5,
+      "wick": 0.4,
+      "use_slope": true,
+      "sl": 9.0,
+      "tp": 18.0,
+      "desc": "H=8-14, Touch=1.5p, Wk=0.4, Slope=True, SL=9.0p, TP=18.0p"
+    },
+    "holdout": {
+      "trades": 46,
+      "net_pips": 97.2199999999892,
+      "pf": 1.3761946609837872,
+      "exp": 2.1134782608693303,
+      "ex_top3": 32.909999999991044
+    },
+    "discovery": {
+      "trades": 174,
+      "net_pips": 179.07999999998063,
+      "pf": 1.1891383664356412,
+      "exp": 1.0291954022987393
+    },
+    "overlap_174_pct": 69.6,
+    "overlap_107_pct": 2.2,
+    "overlap_172_pct": 0.0,
+    "corr_174": 0.542,
+    "n_trades": 46
+  }
+]

@@ -99,7 +99,16 @@ def evaluate_week_causal(
     Returns contiguous TRADE_DTYPE array of executed trades.
     """
     raw_dir = ROOT_DIR / "data" / symbol
-    strat_inst = strat_cls()
+    try:
+        strat_inst = strat_cls(asset=symbol, symbol=symbol, pip_size=pip_size)
+    except Exception:
+        try:
+            strat_inst = strat_cls(asset=symbol, pip_size=pip_size)
+        except Exception:
+            try:
+                strat_inst = strat_cls(pip_size=pip_size)
+            except Exception:
+                strat_inst = strat_cls()
 
     try:
         ticks, _ = get_week_dataset(
@@ -163,10 +172,21 @@ def certify_strategy(
     strat_cls = load_strategy_module(strategy_file)
     tmp_inst = strat_cls()
 
-    # Resolve symbol and pip size
-    sym = symbol or getattr(tmp_inst, "symbol", None) or getattr(tmp_inst, "asset", None)
+    # Resolve symbol reliably from arguments, parent directory hierarchy, or strategy instance
+    sym = symbol
     if not sym:
-        # Infer from filename
+        # Check parent directories for currency tickers (e.g. usdjpy_champions -> USDJPY)
+        for part in [strategy_file.parent.name] + [p.name for p in strategy_file.parents]:
+            p_upper = part.upper()
+            for s in PIP_SIZES.keys():
+                if s in p_upper:
+                    sym = s
+                    break
+            if sym:
+                break
+    if not sym:
+        sym = getattr(tmp_inst, "symbol", None) or getattr(tmp_inst, "asset", None)
+    if not sym:
         fn = strategy_file.stem.upper()
         for s in PIP_SIZES.keys():
             if s in fn:
@@ -174,6 +194,9 @@ def certify_strategy(
                 break
     if not sym:
         sym = "EURUSD"
+
+    # Strategy ID for isolated namespacing
+    strategy_id = strategy_file.parent.name if strategy_file.name == "strategy.py" else strategy_file.stem
 
     pip_size = PIP_SIZES.get(sym, 0.0001)
     comm_pips, slip_pips = get_friction_pips(sym)
@@ -257,14 +280,14 @@ def certify_strategy(
         }
     )
 
-    # Save manifest JSON
-    manifest_path = output_dir / f"{strategy_file.stem}_run_manifest.json"
+    # Save manifest JSON with strict isolated namespacing: {PAIR}__{STRATEGY_ID}_run_manifest.json
+    manifest_path = output_dir / f"{sym.upper()}__{strategy_id}_run_manifest.json"
     with open(manifest_path, "w", encoding="utf-8") as f:
         json.dump(manifest, f, indent=2)
 
-    # Save trade log CSV
+    # Save trade log CSV with strict isolated namespacing: {PAIR}__{STRATEGY_ID}_trades.csv
     if len(combined_trades) > 0:
-        csv_path = output_dir / f"{strategy_file.stem}_trades.csv"
+        csv_path = output_dir / f"{sym.upper()}__{strategy_id}_trades.csv"
         df_trades = pd.DataFrame(manifest["trade_log"])
         df_trades.to_csv(csv_path, index=False)
         print(f"Saved Trade Log: {csv_path.name}")

@@ -1,0 +1,80 @@
+[
+  {
+    "params": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "buffer_pips": 0.0,
+      "body_ratio": 0.45,
+      "macro_filter": false,
+      "sl_pips": 10.0,
+      "tp_pips": 20.0,
+      "max_spread": 0.8
+    },
+    "desc": "EURGBP Inside Breakout (07-16 UTC, Buf=0.0p, BR=0.45, Mac=None, SL=10.0p, TP=20.0p)",
+    "holdout_metrics": {
+      "trades": 19,
+      "net_pips": 76.23000000000204,
+      "profit_factor": 1.86067517218024,
+      "expectancy": 4.012105263158002,
+      "pips_ex_top3": 6.620000000001369
+    },
+    "discovery_metrics": {
+      "trades": 26,
+      "net_pips": 28.01999999999776,
+      "profit_factor": 1.1794083749519622,
+      "expectancy": 1.0776923076922216
+    }
+  },
+  {
+    "params": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "buffer_pips": 0.5,
+      "body_ratio": 0.45,
+      "macro_filter": true,
+      "sl_pips": 10.0,
+      "tp_pips": 20.0,
+      "max_spread": 0.8
+    },
+    "desc": "EURGBP Inside Breakout (07-16 UTC, Buf=0.5p, BR=0.45, Mac=H4, SL=10.0p, TP=20.0p)",
+    "holdout_metrics": {
+      "trades": 17,
+      "net_pips": 68.08999999999988,
+      "profit_factor": 1.9905440791387976,
+      "expectancy": 4.005294117647051,
+      "pips_ex_top3": 6.580000000000098
+    },
+    "discovery_metrics": {
+      "trades": 26,
+      "net_pips": 28.01999999999776,
+      "profit_factor": 1.1794083749519622,
+      "expectancy": 1.0776923076922216
+    }
+  },
+  {
+    "params": {
+      "start_hr": 7,
+      "end_hr": 16,
+      "buffer_pips": 0.5,
+      "body_ratio": 0.45,
+      "macro_filter": false,
+      "sl_pips": 10.0,
+      "tp_pips": 20.0,
+      "max_spread": 0.8
+    },
+    "desc": "EURGBP Inside Breakout (07-16 UTC, Buf=0.5p, BR=0.45, Mac=None, SL=10.0p, TP=20.0p)",
+    "holdout_metrics": {
+      "trades": 19,
+      "net_pips": 83.73000000000121,
+      "profit_factor": 2.039220553555959,
+      "expectancy": 4.406842105263221,
+      "pips_ex_top3": 14.520000000000948
+    },
+    "discovery_metrics": {
+      "trades": 26,
+      "net_pips": 28.01999999999776,
+      "profit_factor": 1.1794083749519622,
+      "expectancy": 1.0776923076922216
+    }
+  }
+]

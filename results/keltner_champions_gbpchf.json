@@ -1,0 +1,40 @@
+[
+  {
+    "symbol": "GBPCHF",
+    "kc_mult": 1.8,
+    "session_name": "London_and_NY",
+    "start_hr": 7,
+    "end_hr": 16,
+    "sl_pips": 18.0,
+    "tp_pips": 38.0,
+    "max_spread": 3.2,
+    "disc_trades": 186,
+    "disc_pips": 801.6,
+    "disc_pf": 1.4,
+    "disc_exp": 4.31,
+    "hold_trades": 223,
+    "hold_pips": 587.3,
+    "hold_pf": 1.25,
+    "hold_exp": 2.63,
+    "hold_pips_ex3": 470.2
+  },
+  {
+    "symbol": "GBPCHF",
+    "kc_mult": 1.5,
+    "session_name": "London_and_NY",
+    "start_hr": 7,
+    "end_hr": 16,
+    "sl_pips": 16.0,
+    "tp_pips": 32.0,
+    "max_spread": 3.2,
+    "disc_trades": 171,
+    "disc_pips": 631.5,
+    "disc_pf": 1.39,
+    "disc_exp": 3.69,
+    "hold_trades": 194,
+    "hold_pips": 432.7,
+    "hold_pf": 1.24,
+    "hold_exp": 2.23,
+    "hold_pips_ex3": 336.6
+  }
+]

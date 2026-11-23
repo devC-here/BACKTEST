@@ -9600,3 +9600,18 @@ Execute these steps in order:
   - Verified Python syntax and Playwright CDP integration.
 
 ---
+
+## Turn 257: Self-Contained Gemini Automation Guide for New Antigravity Chats
+- **Timestamp**: `2026-11-23 14:09:26 UTC` (2026-11-23 19:39:26 IST)
+- **User Prompt**:
+  > *"i jused needed the know how md file to use gemini from inside antigravity , just a file so i can use that in new chat"*
+
+- **Assistant Response**:
+  Created standalone, drop-in agent instruction manual (HOW_TO_USE_GEMINI_INSIDE_ANTIGRAVITY.md) directly in workspace root and docs/. Outlined CDP port 9222 connection, Step 0 pre-flight checks, Angular click bypass evaluation, contenteditable text injection, Stop-button completion tracking, and dual-tab concurrent war game snippets for any agent in a new chat session.
+
+- **Changes Done Respectively**:
+- Created HOW_TO_USE_GEMINI_INSIDE_ANTIGRAVITY.md in root.
+  - Mirrored to docs/HOW_TO_USE_GEMINI_INSIDE_ANTIGRAVITY.md.
+  - Formatted explicitly as instructions for future Antigravity agents in new chats.
+
+---

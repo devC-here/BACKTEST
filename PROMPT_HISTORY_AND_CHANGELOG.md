@@ -9741,3 +9741,18 @@ esults/non_usdjpy_regime_audit.json with pair-by-pair breakdowns.
   - Proved that regime gating purges 576 toxic trades (27.9% WR drag), lifting fleet PF from 1.73 to 1.90 and Net PnL to +46,705.8 pips.
 
 ---
+
+## Turn 266: Full Red-Team Forensic Audit: Backtester, 71-Strategy Lookahead Discovery & Regime Bugs
+- **Timestamp**: `2026-11-24 18:03:35 UTC` (2026-11-24 23:33:35 IST)
+- **User Prompt**:
+  > *"hey , go thorught my work , evaludate our backtester , model , their performance and look closely so there isn't any silly bug or probelum left"*
+
+- **Assistant Response**:
+  Conducted a deep static and dynamic forensic audit across the backtester, certification pipeline, all 71 v4.6 strategies, trade controller, portfolio simulator, and market regime filter. Uncovered critical P0 defects: (1) Fleet-wide higher-timeframe (H4/H1/M30) resample(label='left') future-close lookahead bias in 70 of 71 strategies (+43,006.8p reported vs -19,785.5p strictly causal on Holdout Weeks 211..300; only 11/71 remain profitable and 3/71 pass PF >= 1.20 when causal: disc172 PF 2.12, disc170 PF 1.43, disc75 PF 1.24), directly explaining live USDJPY ~9% WR; (2) Slot 71 (disc180) full-week future pivot (np.max(h)/c[-1]) and broken Strategy class export; (3) MARKET_REGIME_SYSTEM.py / live_regime_filter.py Regime 3 catch-all blocking 97.6% of real EURUSD M15 bars, registry name mismatch, session string bug, and in-sample regime cherry-picking across 3 overwritten Discovery CSVs; (4) 100k-tick warmup starvation (~9-14 trading hours) + .bfill() future leakage in 48 strategies + verify_strategy_candidate.py overwriting Holdout CSVs; (5) v4.6/run_portfolio_simulation.py future-PnL room-making leak and TradeController missing commissions.
+
+- **Changes Done Respectively**:
+- Created `scratch/forensic_static_scanner.py`, `scratch/check_manifest_and_causality.py`, `scratch/measure_true_causal_holdout.py`, and `scratch/verify_1line_proof.py`.
+  - Generated `results/forensic_causal_vs_lookahead_holdout_audit.json` with strictly causal Holdout (Weeks 211..300) metrics for all 71 strategies.
+  - Authored artifact `FORENSIC_SYSTEM_AND_STRATEGY_AUDIT_REPORT.md` documenting all findings, exact line references, and remediation plan.
+
+---

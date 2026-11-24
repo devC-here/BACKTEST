@@ -114,18 +114,22 @@ except ImportError:
             hold_hrs = (now_ms - trade.entry_time_ms) / (3600 * 1000) if hasattr(trade, 'entry_time_ms') else 1.0
             return self.predict(trade.sl_pips, trade.tp_pips, cur_pips, hold_hours=hold_hrs)
 
-# Pip values in USD per standard 1.00 lot (100,000 units)
+# Pip values in USD per standard 1.00 lot (100,000 units), synced with tick_engine/core/config.py
 PIP_VALUES_PER_LOT_USD: Dict[str, float] = {
     "EURUSD": 10.00,
-    "GBPCHF": 10.00,
-    "USDJPY": 6.80,
-    "GBPJPY": 6.80,
-    "EURGBP": 13.00,
-    "USDCAD": 7.40,
-    "AUDCAD": 7.40,
-    "NZDCAD": 7.40,
-    "AUDNZD": 6.10,
-    "EURNZD": 6.10,
+    "GBPUSD": 10.00,
+    "AUDUSD": 10.00,
+    "NZDUSD": 10.00,
+    "USDJPY": 6.34,
+    "GBPJPY": 6.34,
+    "USDCAD": 7.12,
+    "AUDCAD": 7.12,
+    "NZDCAD": 7.12,
+    "USDCHF": 12.25,
+    "GBPCHF": 12.25,
+    "EURGBP": 11.99,
+    "EURNZD": 5.56,
+    "AUDNZD": 5.56,
 }
 
 PIP_SIZES: Dict[str, float] = {
@@ -139,6 +143,10 @@ PIP_SIZES: Dict[str, float] = {
     "NZDCAD": 0.0001,
     "USDJPY": 0.01,
     "GBPJPY": 0.01,
+    "GBPUSD": 0.0001,
+    "AUDUSD": 0.0001,
+    "NZDUSD": 0.0001,
+    "USDCHF": 0.0001,
 }
 
 @dataclass
@@ -155,6 +163,10 @@ class Trade:
     lot_size: float
     entry_time_ms: int
     timeout_duration_ms: int  # Max holding duration threshold before considered stagnant (e.g. 4 hours)
+    commission_pips: float = 0.0
+    commission_usd: float = 0.0
+    entry_slippage_pips: float = 0.0
+    use_slippage: bool = True
 
     # Dynamic Mark-to-Market State
     current_bid: float = 0.0
@@ -186,7 +198,7 @@ class Trade:
         return self.unrealized_pips <= 0.0
 
     def update_price(self, bid: float, ask: float) -> None:
-        """Updates live mark-to-market prices and unrealized PnL."""
+        """Updates live mark-to-market prices and net unrealized PnL (including commission)."""
         self.current_bid = bid
         self.current_ask = ask
         pip_size = PIP_SIZES.get(self.symbol, 0.0001)
@@ -195,26 +207,29 @@ class Trade:
         if self.direction == 1:
             # Long position closes on Bid
             self.current_price = bid
-            self.unrealized_pips = (bid - self.entry_price) / pip_size
+            raw_pips = (bid - self.entry_price) / pip_size
         else:
             # Short position closes on Ask
             self.current_price = ask
-            self.unrealized_pips = (self.entry_price - ask) / pip_size
+            raw_pips = (self.entry_price - ask) / pip_size
 
-        self.unrealized_usd = self.unrealized_pips * pip_val_usd
+        self.unrealized_pips = raw_pips - self.commission_pips
+        self.unrealized_usd = (raw_pips * pip_val_usd) - self.commission_usd
 
     def check_sl_tp(self, bid: float, ask: float) -> Optional[Tuple[str, float]]:
-        """Checks if current tick triggers Stop Loss or Take Profit."""
+        """Checks if current tick triggers Stop Loss or Take Profit (strict limit fill on TP)."""
         if self.direction == 1:
-            if self.sl_price > 0 and bid <= self.sl_price:
-                return "SL_HIT", bid
-            if self.tp_price > 0 and bid >= self.tp_price:
-                return "TP_HIT", bid
+            if self.sl_price > 0 and bid <= (self.sl_price + 1e-9):
+                exit_p = bid if (self.use_slippage and bid < self.sl_price) else self.sl_price
+                return "SL_HIT", exit_p
+            if self.tp_price > 0 and bid >= (self.tp_price - 1e-9):
+                return "TP_HIT", self.tp_price
         else:
-            if self.sl_price > 0 and ask >= self.sl_price:
-                return "SL_HIT", ask
-            if self.tp_price > 0 and ask <= self.tp_price:
-                return "TP_HIT", ask
+            if self.sl_price > 0 and ask >= (self.sl_price - 1e-9):
+                exit_p = ask if (self.use_slippage and ask > self.sl_price) else self.sl_price
+                return "SL_HIT", exit_p
+            if self.tp_price > 0 and ask <= (self.tp_price + 1e-9):
+                return "TP_HIT", self.tp_price
         return None
 
 
@@ -246,6 +261,9 @@ class TradeController:
         starting_equity: float = 5000.00,
         enable_active_loss_pruning: bool = True,
         max_holding_hours: float = 24.0,
+        commission_per_lot_usd: float = 4.00,
+        entry_slippage_pips: float = 0.20,
+        use_slippage: bool = True,
         verbose: bool = True,
         **kwargs
     ):
@@ -256,6 +274,9 @@ class TradeController:
         self.current_equity = float(starting_equity)
         self.peak_equity = float(starting_equity)
         self.enable_active_loss_pruning = bool(enable_active_loss_pruning)
+        self.commission_per_lot_usd = float(commission_per_lot_usd)
+        self.entry_slippage_pips = float(entry_slippage_pips)
+        self.use_slippage = bool(use_slippage)
         self.verbose = verbose
 
         # Active trade registry: trade_id -> Trade
@@ -335,14 +356,20 @@ class TradeController:
         """
         self.total_signals_received += 1
         pip_size = PIP_SIZES.get(symbol, 0.0001)
+        pip_val_std_lot = PIP_VALUES_PER_LOT_USD.get(symbol, 10.00)
+        comm_usd = self.commission_per_lot_usd * float(lot_size)
+        comm_pips = round(self.commission_per_lot_usd / pip_val_std_lot, 2) if pip_val_std_lot > 0 else 0.40
 
-        # Compute SL / TP prices
+        # Apply adverse entry slippage and compute SL / TP relative to fill price (matching engine.py)
+        slip_offset = self.entry_slippage_pips * pip_size
         if direction == 1:
-            sl_price = entry_price - (sl_pips * pip_size)
-            tp_price = entry_price + (tp_pips * pip_size)
+            actual_entry = entry_price + slip_offset
+            sl_price = actual_entry - (sl_pips * pip_size)
+            tp_price = actual_entry + (tp_pips * pip_size)
         else:
-            sl_price = entry_price + (sl_pips * pip_size)
-            tp_price = entry_price - (tp_pips * pip_size)
+            actual_entry = entry_price - slip_offset
+            sl_price = actual_entry + (sl_pips * pip_size)
+            tp_price = actual_entry - (tp_pips * pip_size)
 
         timeout_ms = int(timeout_hours * 3600 * 1000) if timeout_hours else self.default_timeout_ms
         trade_id = f"{symbol}_{strategy_name}_{timestamp_ms}_{self.total_signals_received}"
@@ -352,14 +379,18 @@ class TradeController:
             symbol=symbol,
             strategy_name=strategy_name,
             direction=direction,
-            entry_price=entry_price,
+            entry_price=actual_entry,
             sl_price=sl_price,
             tp_price=tp_price,
             sl_pips=sl_pips,
             tp_pips=tp_pips,
             lot_size=lot_size,
             entry_time_ms=timestamp_ms,
-            timeout_duration_ms=timeout_ms
+            timeout_duration_ms=timeout_ms,
+            commission_pips=comm_pips,
+            commission_usd=comm_usd,
+            entry_slippage_pips=self.entry_slippage_pips,
+            use_slippage=self.use_slippage,
         )
 
         # ----------------------------------------------------------------------
@@ -524,11 +555,12 @@ class TradeController:
         pip_val_usd = PIP_VALUES_PER_LOT_USD.get(trade.symbol, 10.00) * trade.lot_size
 
         if trade.direction == 1:
-            realized_pips = (exit_price - trade.entry_price) / pip_size
+            raw_pips = (exit_price - trade.entry_price) / pip_size
         else:
-            realized_pips = (trade.entry_price - exit_price) / pip_size
+            raw_pips = (trade.entry_price - exit_price) / pip_size
 
-        realized_usd = realized_pips * pip_val_usd
+        realized_pips = raw_pips - trade.commission_pips
+        realized_usd = (raw_pips * pip_val_usd) - trade.commission_usd
 
         trade.is_closed = True
         trade.exit_time_ms = timestamp_ms

@@ -317,5 +317,90 @@ class TestInstitutionalPlatform(unittest.TestCase):
         self.assertIn("expectancy_ci_95", manifest["statistical_metrics"])
         self.assertIn("pips_ex_top5", manifest["statistical_metrics"]["outlier_sensitivity"])
 
+    def test_truncation_causality_gate(self):
+        """Validates that Gate 0 catches unshifted resample('4h') lookahead and passes causal_bars."""
+        from scripts.verify_strategy_candidate import verify_truncation_causality
+        from tick_engine.core.causal_bars import build_causal_time_bars, resample_causal_bars, align_htf_to_ltf
+        from tick_engine.core.dataloader import get_week_dataset
+
+        # Use real holdout EURUSD week so H4 resampling behavior matches live data
+        class LeakyHTFStrategy:
+            sl_pips = 15.0
+            tp_pips = 30.0
+
+            def generate_signals(self, ticks):
+                n = len(ticks)
+                sigs = np.zeros(n, dtype=np.int8)
+                sl = np.full(n, self.sl_pips, dtype=np.float64)
+                tp = np.full(n, self.tp_pips, dtype=np.float64)
+                if n < 500:
+                    return sigs, sl, tp
+                ts = pd.to_datetime(ticks["timestamp"], unit="ms")
+                mid = 0.5 * (ticks["bid"] + ticks["ask"])
+                df = pd.DataFrame({"mid": mid}, index=ts)
+                m15 = df["mid"].resample("15min").ohlc().dropna()
+                h4 = df["mid"].resample("4h").ohlc().dropna()  # Default label='left' LOOKAHEAD!
+                h4["bias"] = np.where(h4["close"] > h4["open"], 1, -1)
+                bias_m15 = h4["bias"].reindex(m15.index, method="ffill").fillna(0).values
+                time_ms = m15.index.astype("datetime64[ms]").view("int64")
+                dur_ms = 15 * 60 * 1000
+                tick_ts = ticks["timestamp"]
+                for i in range(10, len(m15)):
+                    if m15.index[i].hour in (8, 9, 10) and bias_m15[i] != 0:
+                        idx = int(np.searchsorted(tick_ts, time_ms[i] + dur_ms))
+                        if idx < n and sigs[idx] == 0:
+                            sigs[idx] = int(bias_m15[i])
+                return sigs, sl, tp
+
+        class StrictlyCausalHTFStrategy:
+            sl_pips = 15.0
+            tp_pips = 30.0
+
+            def generate_signals(self, ticks):
+                n = len(ticks)
+                sigs = np.zeros(n, dtype=np.int8)
+                sl = np.full(n, self.sl_pips, dtype=np.float64)
+                tp = np.full(n, self.tp_pips, dtype=np.float64)
+                if n < 500:
+                    return sigs, sl, tp
+                m15 = build_causal_time_bars(ticks, timeframe_min=15, pip_size=0.0001)
+                h4 = resample_causal_bars(m15, timeframe_min=240, pip_size=0.0001)
+                h4["bias"] = np.where(h4["close"] > h4["close"].ewm(span=10, adjust=False).mean(), 1, -1)
+                merged = align_htf_to_ltf(m15, h4[["bias"]])
+                bias_m15 = merged["bias"].fillna(0).values.astype(int)
+                close_ms = m15["close_time_ms"].values
+                tick_ts = ticks["timestamp"]
+                for i in range(25, len(m15)):
+                    if bias_m15[i] != 0:
+                        idx = int(np.searchsorted(tick_ts, close_ms[i]))
+                        if idx < n and sigs[idx] == 0:
+                            sigs[idx] = int(bias_m15[i])
+                return sigs, sl, tp
+
+        res_leaky = verify_truncation_causality(LeakyHTFStrategy, "EURUSD", 0.0001, max_signals=6)
+        self.assertFalse(res_leaky["pass"], "Unshifted H4 label='left' strategy MUST fail Gate 0!")
+        self.assertGreater(res_leaky["violations"], 0)
+
+        res_causal = verify_truncation_causality(StrictlyCausalHTFStrategy, "EURUSD", 0.0001, max_signals=6)
+        self.assertTrue(res_causal["pass"], f"Causal strategy MUST pass Gate 0: {res_causal}")
+        self.assertEqual(res_causal["violations"], 0)
+
+    def test_resample_causal_bars_matches_raw_ticks(self):
+        """Ensures resample_causal_bars(M15, 240) matches direct build_causal_time_bars(ticks, 240)."""
+        from tick_engine.core.causal_bars import build_causal_time_bars, resample_causal_bars
+        from tick_engine.core.dataloader import get_week_dataset
+
+        ticks, _ = get_week_dataset(250, raw_dir="data/EURUSD", warmup_prev_weeks=0)
+        m15 = build_causal_time_bars(ticks, timeframe_min=15, pip_size=0.0001)
+        h4_direct = build_causal_time_bars(ticks, timeframe_min=240, pip_size=0.0001)
+        h4_resampled = resample_causal_bars(m15, timeframe_min=240, pip_size=0.0001)
+
+        self.assertEqual(len(h4_resampled), len(h4_direct))
+        self.assertTrue(h4_resampled.index.equals(h4_direct.index))
+        for col in ("open", "high", "low", "close"):
+            np.testing.assert_allclose(h4_resampled[col].to_numpy(), h4_direct[col].to_numpy(), atol=1e-12)
+        np.testing.assert_array_equal(h4_resampled["vol"].to_numpy(), h4_direct["vol"].to_numpy())
+
+
 if __name__ == '__main__':
     unittest.main()

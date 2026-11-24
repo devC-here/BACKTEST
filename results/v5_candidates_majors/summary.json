@@ -1,0 +1,695 @@
+{
+  "scope": "MAJORS (EURUSD, EURGBP, USDCAD ONLY; USDJPY STRICTLY EXCLUDED)",
+  "generated_utc": "2026-11-24T21:09:29.630617+00:00",
+  "total_discovery_locked": 27,
+  "total_certified": 2,
+  "total_rejected": 25,
+  "by_symbol_counts": {
+    "EURUSD": 1,
+    "EURGBP": 0,
+    "USDCAD": 1
+  },
+  "certified_candidates": [
+    {
+      "name": "v5_usdcad_pdhl_sweep_ldn",
+      "file_path": "results/v5_candidates_majors/candidates/v5_usdcad_pdhl_sweep_ldn.py",
+      "symbol": "USDCAD",
+      "archetype": "PDHL_SWEEP",
+      "code_sha256": "7260f212671c93af7f4b054fbddc603dd0dbf14eec6b4a62fcec2670cec2c9df",
+      "discovery_stats": {
+        "total_trades": 95,
+        "net_pips": 335.2,
+        "win_rate_pct": 42.1,
+        "profit_factor": 1.36,
+        "expectancy_pips": 3.53,
+        "expectancy_std_err": 2.53,
+        "expectancy_ci_95": [
+          -1.42,
+          8.48
+        ],
+        "t_statistic": 1.4,
+        "p_value": 0.1615,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 177.9,
+        "worst_month_pips": -87.0,
+        "bootstrap_95_max_dd_pips": 301.2,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 297.7,
+          "pips_ex_top3": 229.9,
+          "pips_ex_top5": 165.6,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 26,
+        "net_pips": 187.3,
+        "win_rate_pct": 50.0,
+        "profit_factor": 1.84,
+        "expectancy_pips": 7.21,
+        "expectancy_std_err": 4.87,
+        "expectancy_ci_95": [
+          -2.34,
+          16.75
+        ],
+        "t_statistic": 1.48,
+        "p_value": 0.1389,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 56.0,
+        "worst_month_pips": -39.1,
+        "bootstrap_95_max_dd_pips": 139.7,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 155.6,
+          "pips_ex_top3": 92.2,
+          "pips_ex_top5": 29.0,
+          "is_outlier_dependent": false
+        }
+      },
+      "stress_battery": {
+        "survived_all_stress_profiles": true,
+        "profiles": {
+          "BASELINE": {
+            "description": "Standard Live ECN Profile ($4.00/lot + 0.20p slippage + floating spread)",
+            "trades": 26,
+            "net_pips": 187.3,
+            "profit_factor": 1.84,
+            "survived": true
+          },
+          "SPREAD_INFLATION_50": {
+            "description": "Spread Inflation Stress (+50% wider broker spread)",
+            "trades": 26,
+            "net_pips": 185.3,
+            "profit_factor": 1.82,
+            "survived": true
+          },
+          "HEAVY_SLIPPAGE_050": {
+            "description": "Adverse Slippage Stress (0.50 pips entry slippage)",
+            "trades": 26,
+            "net_pips": 187.4,
+            "profit_factor": 1.84,
+            "survived": true
+          },
+          "HIGH_COMMISSION_6USD": {
+            "description": "Turnover Fee Stress ($6.00/lot round-turn commission)",
+            "trades": 26,
+            "net_pips": 180.1,
+            "profit_factor": 1.8,
+            "survived": true
+          },
+          "SEVERE_COMPOSITE": {
+            "description": "Worst-Case Composite Stress (Spread +50% AND 0.50p slippage AND $6/lot comm)",
+            "trades": 26,
+            "net_pips": 130.2,
+            "profit_factor": 1.53,
+            "survived": true
+          }
+        }
+      },
+      "truncation_causality": {
+        "tested_signals": 6,
+        "violations": 0,
+        "violation_details": [],
+        "pass": true
+      },
+      "redundancy": {
+        "max_overlap_pct": 0.0,
+        "max_correlation": 0.0,
+        "high_redundancy": []
+      },
+      "manifest_paths": {
+        "holdout_run_manifest": "results/v5_candidates_majors/manifests/USDCAD__v5_usdcad_pdhl_sweep_ldn_run_manifest.json",
+        "holdout_trades_csv": "results/v5_candidates_majors/manifests/USDCAD__v5_usdcad_pdhl_sweep_ldn_trades.csv",
+        "discovery_manifest": "results/v5_candidates_majors/manifests/USDCAD__v5_usdcad_pdhl_sweep_ldn_discovery_manifest.json",
+        "discovery_trades_csv": "results/v5_candidates_majors/manifests/USDCAD__v5_usdcad_pdhl_sweep_ldn_discovery_trades.csv"
+      }
+    },
+    {
+      "name": "v5_eurusd_daily_pivot_ny",
+      "file_path": "results/v5_candidates_majors/candidates/v5_eurusd_daily_pivot_ny.py",
+      "symbol": "EURUSD",
+      "archetype": "DAILY_PIVOT_PB",
+      "code_sha256": "e99d5eb1d5ce204774ce759776a9c346c1d71b8911d61d4cdb2668d3b0a2e14c",
+      "discovery_stats": {
+        "total_trades": 89,
+        "net_pips": 153.6,
+        "win_rate_pct": 40.4,
+        "profit_factor": 1.2,
+        "expectancy_pips": 1.73,
+        "expectancy_std_err": 2.12,
+        "expectancy_ci_95": [
+          -2.43,
+          5.88
+        ],
+        "t_statistic": 0.81,
+        "p_value": 0.4179,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 135.0,
+        "worst_month_pips": -57.7,
+        "bootstrap_95_max_dd_pips": 291.6,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 125.1,
+          "pips_ex_top3": 69.3,
+          "pips_ex_top5": 13.7,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 42,
+        "net_pips": 292.1,
+        "win_rate_pct": 54.8,
+        "profit_factor": 2.06,
+        "expectancy_pips": 6.95,
+        "expectancy_std_err": 3.14,
+        "expectancy_ci_95": [
+          0.8,
+          13.11
+        ],
+        "t_statistic": 2.22,
+        "p_value": 0.0264,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 44.8,
+        "worst_month_pips": -28.9,
+        "bootstrap_95_max_dd_pips": 118.3,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 263.9,
+          "pips_ex_top3": 208.2,
+          "pips_ex_top5": 152.6,
+          "is_outlier_dependent": false
+        }
+      },
+      "stress_battery": {
+        "survived_all_stress_profiles": true,
+        "profiles": {
+          "BASELINE": {
+            "description": "Standard Live ECN Profile ($4.00/lot + 0.20p slippage + floating spread)",
+            "trades": 42,
+            "net_pips": 292.1,
+            "profit_factor": 2.06,
+            "survived": true
+          },
+          "SPREAD_INFLATION_50": {
+            "description": "Spread Inflation Stress (+50% wider broker spread)",
+            "trades": 42,
+            "net_pips": 284.6,
+            "profit_factor": 2.02,
+            "survived": true
+          },
+          "HEAVY_SLIPPAGE_050": {
+            "description": "Adverse Slippage Stress (0.50 pips entry slippage)",
+            "trades": 42,
+            "net_pips": 291.3,
+            "profit_factor": 2.06,
+            "survived": true
+          },
+          "HIGH_COMMISSION_6USD": {
+            "description": "Turnover Fee Stress ($6.00/lot round-turn commission)",
+            "trades": 42,
+            "net_pips": 283.7,
+            "profit_factor": 2.02,
+            "survived": true
+          },
+          "SEVERE_COMPOSITE": {
+            "description": "Worst-Case Composite Stress (Spread +50% AND 0.50p slippage AND $6/lot comm)",
+            "trades": 42,
+            "net_pips": 275.4,
+            "profit_factor": 1.97,
+            "survived": true
+          }
+        }
+      },
+      "truncation_causality": {
+        "tested_signals": 6,
+        "violations": 0,
+        "violation_details": [],
+        "pass": true
+      },
+      "redundancy": {
+        "max_overlap_pct": 0.0,
+        "max_correlation": 0.0,
+        "high_redundancy": []
+      },
+      "manifest_paths": {
+        "holdout_run_manifest": "results/v5_candidates_majors/manifests/EURUSD__v5_eurusd_daily_pivot_ny_run_manifest.json",
+        "holdout_trades_csv": "results/v5_candidates_majors/manifests/EURUSD__v5_eurusd_daily_pivot_ny_trades.csv",
+        "discovery_manifest": "results/v5_candidates_majors/manifests/EURUSD__v5_eurusd_daily_pivot_ny_discovery_manifest.json",
+        "discovery_trades_csv": "results/v5_candidates_majors/manifests/EURUSD__v5_eurusd_daily_pivot_ny_discovery_trades.csv"
+      }
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "name": "v5_eurgbp_h1_swing_sweep",
+      "symbol": "EURGBP",
+      "archetype": "H1_SWING_SWEEP",
+      "defect_reasons": [
+        "gate_1_holdout_sample_size: required >= 15 trades, got 12",
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.75, Net=-33.9p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -134.0"
+      ],
+      "discovery_pf": 1.91,
+      "discovery_net_pips": 480.4,
+      "discovery_trades": 77,
+      "holdout_pf": 0.75,
+      "holdout_net_pips": -33.9,
+      "holdout_trades": 12,
+      "holdout_ex_top3": -134.0,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.0
+    },
+    {
+      "name": "v5_eurgbp_pdhl_sweep_ldn",
+      "symbol": "EURGBP",
+      "archetype": "PDHL_SWEEP",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.61, Net=-60.8p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -144.3"
+      ],
+      "discovery_pf": 1.42,
+      "discovery_net_pips": 172.8,
+      "discovery_trades": 49,
+      "holdout_pf": 0.61,
+      "holdout_net_pips": -60.8,
+      "holdout_trades": 16,
+      "holdout_ex_top3": -144.3,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.0
+    },
+    {
+      "name": "v5_eurgbp_asian_sweep_ny",
+      "symbol": "EURGBP",
+      "archetype": "ASIAN_SWEEP",
+      "defect_reasons": [
+        "gate_1_holdout_sample_size: required >= 15 trades, got 4",
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.48, Net=-17.9p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -15.3"
+      ],
+      "discovery_pf": 1.33,
+      "discovery_net_pips": 172.8,
+      "discovery_trades": 67,
+      "holdout_pf": 0.48,
+      "holdout_net_pips": -17.9,
+      "holdout_trades": 4,
+      "holdout_ex_top3": -15.3,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.0
+    },
+    {
+      "name": "v5_eurgbp_bb_rsi_asian",
+      "symbol": "EURGBP",
+      "archetype": "BB_RSI_REVERSION",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=1.16, Net=+11.1p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -37.0"
+      ],
+      "discovery_pf": 1.31,
+      "discovery_net_pips": 65.3,
+      "discovery_trades": 47,
+      "holdout_pf": 1.16,
+      "holdout_net_pips": 11.1,
+      "holdout_trades": 15,
+      "holdout_ex_top3": -37.0,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.0
+    },
+    {
+      "name": "v5_eurgbp_daily_s2r2_fade",
+      "symbol": "EURGBP",
+      "archetype": "DAILY_SR_FADE",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.45, Net=-196.4p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -312.8"
+      ],
+      "discovery_pf": 1.2,
+      "discovery_net_pips": 97.7,
+      "discovery_trades": 54,
+      "holdout_pf": 0.45,
+      "holdout_net_pips": -196.4,
+      "holdout_trades": 31,
+      "holdout_ex_top3": -312.8,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.0
+    },
+    {
+      "name": "v5_eurusd_weekly_pivot_pb",
+      "symbol": "EURUSD",
+      "archetype": "WEEKLY_PIVOT_PB",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=1.19, Net=+132.7p"
+      ],
+      "discovery_pf": 1.33,
+      "discovery_net_pips": 464.5,
+      "discovery_trades": 168,
+      "holdout_pf": 1.19,
+      "holdout_net_pips": 132.7,
+      "holdout_trades": 79,
+      "holdout_ex_top3": 47.7,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.0
+    },
+    {
+      "name": "v5_eurusd_h1_swing_sweep",
+      "symbol": "EURUSD",
+      "archetype": "H1_SWING_SWEEP",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.68, Net=-211.3p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -309.9"
+      ],
+      "discovery_pf": 1.26,
+      "discovery_net_pips": 444.9,
+      "discovery_trades": 172,
+      "holdout_pf": 0.68,
+      "holdout_net_pips": -211.3,
+      "holdout_trades": 56,
+      "holdout_ex_top3": -309.9,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.0
+    },
+    {
+      "name": "v5_eurusd_h1_keltner_squeeze",
+      "symbol": "EURUSD",
+      "archetype": "H1_KELTNER_SQUEEZE",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.72, Net=-209.2p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -282.4"
+      ],
+      "discovery_pf": 1.2,
+      "discovery_net_pips": 325.7,
+      "discovery_trades": 209,
+      "holdout_pf": 0.72,
+      "holdout_net_pips": -209.2,
+      "holdout_trades": 83,
+      "holdout_ex_top3": -282.4,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.0
+    },
+    {
+      "name": "v5_eurusd_vwap_rebound_ny",
+      "symbol": "EURUSD",
+      "archetype": "VWAP_REBOUND",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.92, Net=-45.3p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -130.0"
+      ],
+      "discovery_pf": 1.21,
+      "discovery_net_pips": 252.0,
+      "discovery_trades": 137,
+      "holdout_pf": 0.92,
+      "holdout_net_pips": -45.3,
+      "holdout_trades": 64,
+      "holdout_ex_top3": -130.0,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.0
+    },
+    {
+      "name": "v5_eurusd_h1_ema_pullback",
+      "symbol": "EURUSD",
+      "archetype": "H1_EMA_PULLBACK",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=1.11, Net=+63.3p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -21.0"
+      ],
+      "discovery_pf": 1.19,
+      "discovery_net_pips": 208.6,
+      "discovery_trades": 135,
+      "holdout_pf": 1.11,
+      "holdout_net_pips": 63.3,
+      "holdout_trades": 72,
+      "holdout_ex_top3": -21.0,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.0
+    },
+    {
+      "name": "v5_usdcad_h1_swing_sweep_ldn",
+      "symbol": "USDCAD",
+      "archetype": "H1_SWING_SWEEP",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.47, Net=-301.1p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -432.1"
+      ],
+      "discovery_pf": 1.32,
+      "discovery_net_pips": 373.0,
+      "discovery_trades": 87,
+      "holdout_pf": 0.47,
+      "holdout_net_pips": -301.1,
+      "holdout_trades": 32,
+      "holdout_ex_top3": -432.1,
+      "max_overlap_pct": 26.9,
+      "max_correlation": 0.21
+    },
+    {
+      "name": "v5_usdcad_h1_swing_sweep_ny",
+      "symbol": "USDCAD",
+      "archetype": "H1_SWING_SWEEP",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.54, Net=-211.7p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -343.4"
+      ],
+      "discovery_pf": 1.33,
+      "discovery_net_pips": 304.9,
+      "discovery_trades": 76,
+      "holdout_pf": 0.54,
+      "holdout_net_pips": -211.7,
+      "holdout_trades": 31,
+      "holdout_ex_top3": -343.4,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.055
+    },
+    {
+      "name": "v5_usdcad_bb_rsi_ny",
+      "symbol": "USDCAD",
+      "archetype": "BB_RSI_REVERSION",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.93, Net=-29.6p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -148.3"
+      ],
+      "discovery_pf": 1.27,
+      "discovery_net_pips": 257.0,
+      "discovery_trades": 85,
+      "holdout_pf": 0.93,
+      "holdout_net_pips": -29.6,
+      "holdout_trades": 39,
+      "holdout_ex_top3": -148.3,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.0
+    },
+    {
+      "name": "v5_usdcad_vwap_rebound_ny",
+      "symbol": "USDCAD",
+      "archetype": "VWAP_REBOUND",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.81, Net=-75.7p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -158.9"
+      ],
+      "discovery_pf": 1.21,
+      "discovery_net_pips": 214.5,
+      "discovery_trades": 117,
+      "holdout_pf": 0.81,
+      "holdout_net_pips": -75.7,
+      "holdout_trades": 41,
+      "holdout_ex_top3": -158.9,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.0
+    },
+    {
+      "name": "v5_eurusd_vwap15sd_ldn",
+      "symbol": "EURUSD",
+      "archetype": "VWAP_REBOUND",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=1.0, Net=-0.5p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -108.2"
+      ],
+      "discovery_pf": 1.18,
+      "discovery_net_pips": 177.5,
+      "discovery_trades": 88,
+      "holdout_pf": 1.0,
+      "holdout_net_pips": -0.5,
+      "holdout_trades": 26,
+      "holdout_ex_top3": -108.2,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.085
+    },
+    {
+      "name": "v5_eurusd_keltner_cash",
+      "symbol": "EURUSD",
+      "archetype": "H1_KELTNER_SQUEEZE",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.89, Net=-64.7p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -151.8"
+      ],
+      "discovery_pf": 1.32,
+      "discovery_net_pips": 487.4,
+      "discovery_trades": 178,
+      "holdout_pf": 0.89,
+      "holdout_net_pips": -64.7,
+      "holdout_trades": 62,
+      "holdout_ex_top3": -151.8,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.0
+    },
+    {
+      "name": "v5_eurusd_nr7_bo",
+      "symbol": "EURUSD",
+      "archetype": "COMPRESSION_BO",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=1.06, Net=+43.2p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -71.2"
+      ],
+      "discovery_pf": 1.23,
+      "discovery_net_pips": 333.9,
+      "discovery_trades": 130,
+      "holdout_pf": 1.06,
+      "holdout_net_pips": 43.2,
+      "holdout_trades": 64,
+      "holdout_ex_top3": -71.2,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.076
+    },
+    {
+      "name": "v5_eurusd_keltner_ldn_h4di",
+      "symbol": "EURUSD",
+      "archetype": "H1_KELTNER_SQUEEZE",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.67, Net=-264.2p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -337.0"
+      ],
+      "discovery_pf": 1.23,
+      "discovery_net_pips": 348.0,
+      "discovery_trades": 203,
+      "holdout_pf": 0.67,
+      "holdout_net_pips": -264.2,
+      "holdout_trades": 86,
+      "holdout_ex_top3": -337.0,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.0
+    },
+    {
+      "name": "v5_eurusd_ny10_orb",
+      "symbol": "EURUSD",
+      "archetype": "CAUSAL_ORB",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.95, Net=-77.1p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -185.3"
+      ],
+      "discovery_pf": 1.21,
+      "discovery_net_pips": 454.2,
+      "discovery_trades": 201,
+      "holdout_pf": 0.95,
+      "holdout_net_pips": -77.1,
+      "holdout_trades": 121,
+      "holdout_ex_top3": -185.3,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.0
+    },
+    {
+      "name": "v5_usdcad_weekly_pivot_ldn",
+      "symbol": "USDCAD",
+      "archetype": "WEEKLY_PIVOT_PB",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=1.11, Net=+66.5p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -65.2"
+      ],
+      "discovery_pf": 1.35,
+      "discovery_net_pips": 518.3,
+      "discovery_trades": 114,
+      "holdout_pf": 1.11,
+      "holdout_net_pips": 66.5,
+      "holdout_trades": 42,
+      "holdout_ex_top3": -65.2,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.099
+    },
+    {
+      "name": "v5_usdcad_vwap2sd_cash",
+      "symbol": "USDCAD",
+      "archetype": "VWAP_REBOUND",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.69, Net=-77.8p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -151.9"
+      ],
+      "discovery_pf": 1.35,
+      "discovery_net_pips": 152.3,
+      "discovery_trades": 52,
+      "holdout_pf": 0.69,
+      "holdout_net_pips": -77.8,
+      "holdout_trades": 23,
+      "holdout_ex_top3": -151.9,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.0
+    },
+    {
+      "name": "v5_usdcad_rsi7_trend_ny",
+      "symbol": "USDCAD",
+      "archetype": "RSI7_TREND_PB",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=1.0, Net=+0.5p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -94.8"
+      ],
+      "discovery_pf": 1.31,
+      "discovery_net_pips": 150.0,
+      "discovery_trades": 50,
+      "holdout_pf": 1.0,
+      "holdout_net_pips": 0.5,
+      "holdout_trades": 28,
+      "holdout_ex_top3": -94.8,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.0
+    },
+    {
+      "name": "v5_eurgbp_camarilla_ldn",
+      "symbol": "EURGBP",
+      "archetype": "CAMARILLA_FADE",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=1.01, Net=+2.5p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -80.4"
+      ],
+      "discovery_pf": 1.2,
+      "discovery_net_pips": 137.1,
+      "discovery_trades": 137,
+      "holdout_pf": 1.01,
+      "holdout_net_pips": 2.5,
+      "holdout_trades": 34,
+      "holdout_ex_top3": -80.4,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.042
+    },
+    {
+      "name": "v5_eurgbp_pdhl_sweep_1p",
+      "symbol": "EURGBP",
+      "archetype": "PDHL_SWEEP",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.42, Net=-191.4p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -275.0"
+      ],
+      "discovery_pf": 1.21,
+      "discovery_net_pips": 181.8,
+      "discovery_trades": 104,
+      "holdout_pf": 0.42,
+      "holdout_net_pips": -191.4,
+      "holdout_trades": 31,
+      "holdout_ex_top3": -275.0,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.088
+    },
+    {
+      "name": "v5_eurgbp_vwap1sd_ny",
+      "symbol": "EURGBP",
+      "archetype": "VWAP_REBOUND",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.67, Net=-95.5p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -205.9"
+      ],
+      "discovery_pf": 1.31,
+      "discovery_net_pips": 113.1,
+      "discovery_trades": 48,
+      "holdout_pf": 0.67,
+      "holdout_net_pips": -95.5,
+      "holdout_trades": 26,
+      "holdout_ex_top3": -205.9,
+      "max_overlap_pct": 0.0,
+      "max_correlation": 0.029
+    }
+  ]
+}

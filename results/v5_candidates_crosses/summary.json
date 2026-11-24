@@ -1,0 +1,1285 @@
+{
+  "version": "v5.0_crosses",
+  "excluded_symbols": [
+    "USDJPY"
+  ],
+  "target_symbols": [
+    "AUDCAD",
+    "AUDNZD",
+    "EURNZD",
+    "GBPCHF",
+    "GBPJPY",
+    "NZDCAD"
+  ],
+  "certified_count": 2,
+  "rejected_count": 15,
+  "per_symbol_certified": {
+    "GBPJPY": 1,
+    "AUDCAD": 1
+  },
+  "combined_holdout": {
+    "total_trades": 83,
+    "net_pips": 656.7,
+    "profit_factor": 1.57
+  },
+  "certified_candidates": [
+    {
+      "strategy_id": "v5_gbpjpy_h4_sqz_brk",
+      "class_name": "V5GbpjpyH4SqzBrk",
+      "symbol": "GBPJPY",
+      "archetype": "H4_COMP_SQZ_V5",
+      "params": {
+        "filt": "ema20",
+        "sl_mode": "fixed",
+        "sl": 40.0,
+        "tp": 60.0,
+        "ms": 4.0
+      },
+      "file_path": "results/v5_candidates_crosses/candidates/v5_gbpjpy_h4_sqz_brk.py",
+      "code_sha256": "79e36bd135f9732f0a050318c2938c6d5b41ac342ede110b2b958660cdba93f2",
+      "gate_checks": {
+        "gate_0_truncation_causality": {
+          "required": "0 lookahead violations (tested >= 1)",
+          "actual": "0 violations / 6 signals",
+          "pass": true
+        },
+        "gate_1_holdout_sample_size": {
+          "required": ">= 15 trades",
+          "actual": 40,
+          "pass": true
+        },
+        "gate_2_holdout_pf": {
+          "required": ">= 1.20 PF & Net Pips > 0",
+          "actual": "PF=1.4, Net=+326.3p",
+          "pass": true
+        },
+        "gate_3_outlier_resistance": {
+          "required": "Net Pips ex Top 3 > 0.0",
+          "actual": 146.8,
+          "pass": true
+        },
+        "gate_4_discovery_consistency": {
+          "required": "Discovery Net Pips > 0 and PF >= 1.15",
+          "actual": "Net Pips=+658.4, PF=1.38 (88 tr)",
+          "pass": true
+        },
+        "gate_5_anti_redundancy": {
+          "required": "Overlap < 50% and Correlation < 0.50",
+          "actual": "Max Overlap=0.0%, Max Corr=0.0",
+          "pass": true
+        }
+      },
+      "discovery_stats": {
+        "total_trades": 88,
+        "net_pips": 658.4,
+        "win_rate_pct": 51.1,
+        "profit_factor": 1.38,
+        "expectancy_pips": 7.48,
+        "expectancy_std_err": 5.15,
+        "expectancy_ci_95": [
+          -2.62,
+          17.59
+        ],
+        "t_statistic": 1.45,
+        "p_value": 0.1471,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 508.2,
+        "worst_month_pips": -122.6,
+        "bootstrap_95_max_dd_pips": 594.7,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 596.2,
+          "pips_ex_top3": 475.3,
+          "pips_ex_top5": 355.3,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 40,
+        "net_pips": 326.3,
+        "win_rate_pct": 50.0,
+        "profit_factor": 1.4,
+        "expectancy_pips": 8.16,
+        "expectancy_std_err": 7.98,
+        "expectancy_ci_95": [
+          -7.48,
+          23.79
+        ],
+        "t_statistic": 1.02,
+        "p_value": 0.3077,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 280.2,
+        "worst_month_pips": -131.1,
+        "bootstrap_95_max_dd_pips": 424.8,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 266.3,
+          "pips_ex_top3": 146.8,
+          "pips_ex_top5": 27.3,
+          "is_outlier_dependent": false
+        }
+      },
+      "stress_battery": {
+        "survived_all": false,
+        "profiles": {
+          "BASELINE": {
+            "description": "Standard Live ECN Profile ($4.00/lot + 0.20p slippage + floating spread)",
+            "trades": 40,
+            "net_pips": 326.3,
+            "profit_factor": 1.4,
+            "survived": true
+          },
+          "SPREAD_INFLATION_50": {
+            "description": "Spread Inflation Stress (+50% wider broker spread)",
+            "trades": 40,
+            "net_pips": -24.2,
+            "profit_factor": 0.98,
+            "survived": false
+          },
+          "HEAVY_SLIPPAGE_050": {
+            "description": "Adverse Slippage Stress (0.50 pips entry slippage)",
+            "trades": 40,
+            "net_pips": 322.1,
+            "profit_factor": 1.39,
+            "survived": true
+          },
+          "HIGH_COMMISSION_6USD": {
+            "description": "Turnover Fee Stress ($6.00/lot round-turn commission)",
+            "trades": 40,
+            "net_pips": 313.5,
+            "profit_factor": 1.38,
+            "survived": true
+          },
+          "SEVERE_COMPOSITE": {
+            "description": "Worst-Case Composite Stress (Spread +50% AND 0.50p slippage AND $6/lot comm)",
+            "trades": 40,
+            "net_pips": -40.7,
+            "profit_factor": 0.96,
+            "survived": false
+          }
+        }
+      },
+      "redundancy": {
+        "max_overlap_pct": 0.0,
+        "max_correlation": 0.0,
+        "comparisons": []
+      },
+      "manifest_paths": {
+        "holdout_run_manifest": "results/v5_candidates_crosses/manifests/GBPJPY__v5_gbpjpy_h4_sqz_brk_run_manifest.json",
+        "discovery_manifest": "results/v5_candidates_crosses/manifests/GBPJPY__v5_gbpjpy_h4_sqz_brk_discovery_manifest.json"
+      },
+      "csv_paths": {
+        "holdout_trades_csv": "results/v5_candidates_crosses/manifests/GBPJPY__v5_gbpjpy_h4_sqz_brk_trades.csv",
+        "discovery_trades_csv": "results/v5_candidates_crosses/manifests/GBPJPY__v5_gbpjpy_h4_sqz_brk_discovery_trades.csv"
+      }
+    },
+    {
+      "strategy_id": "v5_audcad_h4_bb_ema_mr",
+      "class_name": "V5AudcadH4BbEmaMr",
+      "symbol": "AUDCAD",
+      "archetype": "H4_BB_MR_V6",
+      "params": {
+        "z": 1.6,
+        "rsi": 38.0,
+        "reg": "nonchop",
+        "ex": "ema_mh10",
+        "sl_mode": "h4atr",
+        "sl_p": 2.4,
+        "tp_p": 4.8,
+        "ms": 3.5
+      },
+      "file_path": "results/v5_candidates_crosses/candidates/v5_audcad_h4_bb_ema_mr.py",
+      "code_sha256": "63181f19261c0516786f1915eb36ee1c456a4ede5edfff9f0641e439a4d63438",
+      "gate_checks": {
+        "gate_0_truncation_causality": {
+          "required": "0 lookahead violations (tested >= 1)",
+          "actual": "0 violations / 6 signals",
+          "pass": true
+        },
+        "gate_1_holdout_sample_size": {
+          "required": ">= 15 trades",
+          "actual": 43,
+          "pass": true
+        },
+        "gate_2_holdout_pf": {
+          "required": ">= 1.20 PF & Net Pips > 0",
+          "actual": "PF=1.97, Net=+330.4p",
+          "pass": true
+        },
+        "gate_3_outlier_resistance": {
+          "required": "Net Pips ex Top 3 > 0.0",
+          "actual": 95.6,
+          "pass": true
+        },
+        "gate_4_discovery_consistency": {
+          "required": "Discovery Net Pips > 0 and PF >= 1.15",
+          "actual": "Net Pips=+627.6, PF=1.47 (94 tr)",
+          "pass": true
+        },
+        "gate_5_anti_redundancy": {
+          "required": "Overlap < 50% and Correlation < 0.50",
+          "actual": "Max Overlap=0.0%, Max Corr=0.054",
+          "pass": true
+        }
+      },
+      "discovery_stats": {
+        "total_trades": 94,
+        "net_pips": 627.6,
+        "win_rate_pct": 55.3,
+        "profit_factor": 1.47,
+        "expectancy_pips": 6.68,
+        "expectancy_std_err": 4.28,
+        "expectancy_ci_95": [
+          -1.71,
+          15.06
+        ],
+        "t_statistic": 1.56,
+        "p_value": 0.1188,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 292.5,
+        "worst_month_pips": -116.7,
+        "bootstrap_95_max_dd_pips": 474.5,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 520.1,
+          "pips_ex_top3": 331.5,
+          "pips_ex_top5": 180.6,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 43,
+        "net_pips": 330.4,
+        "win_rate_pct": 48.8,
+        "profit_factor": 1.97,
+        "expectancy_pips": 7.68,
+        "expectancy_std_err": 4.77,
+        "expectancy_ci_95": [
+          -1.66,
+          17.03
+        ],
+        "t_statistic": 1.61,
+        "p_value": 0.1074,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 130.0,
+        "worst_month_pips": -32.5,
+        "bootstrap_95_max_dd_pips": 208.6,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 228.9,
+          "pips_ex_top3": 95.6,
+          "pips_ex_top5": 1.7,
+          "is_outlier_dependent": false
+        }
+      },
+      "stress_battery": {
+        "survived_all": true,
+        "profiles": {
+          "BASELINE": {
+            "description": "Standard Live ECN Profile ($4.00/lot + 0.20p slippage + floating spread)",
+            "trades": 43,
+            "net_pips": 330.4,
+            "profit_factor": 1.97,
+            "survived": true
+          },
+          "SPREAD_INFLATION_50": {
+            "description": "Spread Inflation Stress (+50% wider broker spread)",
+            "trades": 43,
+            "net_pips": 167.5,
+            "profit_factor": 1.37,
+            "survived": true
+          },
+          "HEAVY_SLIPPAGE_050": {
+            "description": "Adverse Slippage Stress (0.50 pips entry slippage)",
+            "trades": 43,
+            "net_pips": 318.6,
+            "profit_factor": 1.92,
+            "survived": true
+          },
+          "HIGH_COMMISSION_6USD": {
+            "description": "Turnover Fee Stress ($6.00/lot round-turn commission)",
+            "trades": 43,
+            "net_pips": 318.4,
+            "profit_factor": 1.91,
+            "survived": true
+          },
+          "SEVERE_COMPOSITE": {
+            "description": "Worst-Case Composite Stress (Spread +50% AND 0.50p slippage AND $6/lot comm)",
+            "trades": 43,
+            "net_pips": 143.4,
+            "profit_factor": 1.31,
+            "survived": true
+          }
+        }
+      },
+      "redundancy": {
+        "max_overlap_pct": 0.0,
+        "max_correlation": 0.054,
+        "comparisons": [
+          {
+            "model": "GBPJPY__v5_gbpjpy_h4_sqz_brk",
+            "symbol": "GBPJPY",
+            "overlap_pct": 0.0,
+            "correlation": 0.054
+          }
+        ]
+      },
+      "manifest_paths": {
+        "holdout_run_manifest": "results/v5_candidates_crosses/manifests/AUDCAD__v5_audcad_h4_bb_ema_mr_run_manifest.json",
+        "discovery_manifest": "results/v5_candidates_crosses/manifests/AUDCAD__v5_audcad_h4_bb_ema_mr_discovery_manifest.json"
+      },
+      "csv_paths": {
+        "holdout_trades_csv": "results/v5_candidates_crosses/manifests/AUDCAD__v5_audcad_h4_bb_ema_mr_trades.csv",
+        "discovery_trades_csv": "results/v5_candidates_crosses/manifests/AUDCAD__v5_audcad_h4_bb_ema_mr_discovery_trades.csv"
+      }
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "strategy_id": "v5_gbpjpy_wk_piv_pb",
+      "symbol": "GBPJPY",
+      "archetype": "WK_PIV_PB_V5",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.63, Net=-965.2p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -1428.4"
+      ],
+      "discovery_stats": {
+        "total_trades": 152,
+        "net_pips": 2489.1,
+        "win_rate_pct": 44.1,
+        "profit_factor": 1.58,
+        "expectancy_pips": 16.38,
+        "expectancy_std_err": 6.99,
+        "expectancy_ci_95": [
+          2.67,
+          30.08
+        ],
+        "t_statistic": 2.34,
+        "p_value": 0.0193,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 396.0,
+        "worst_month_pips": -305.5,
+        "bootstrap_95_max_dd_pips": 960.6,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 2329.4,
+          "pips_ex_top3": 2017.5,
+          "pips_ex_top5": 1707.6,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 61,
+        "net_pips": -965.2,
+        "win_rate_pct": 27.9,
+        "profit_factor": 0.63,
+        "expectancy_pips": -15.82,
+        "expectancy_std_err": 9.96,
+        "expectancy_ci_95": [
+          -35.35,
+          3.71
+        ],
+        "t_statistic": -1.59,
+        "p_value": 0.1118,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 1016.8,
+        "worst_month_pips": -271.8,
+        "bootstrap_95_max_dd_pips": 1985.8,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -1119.7,
+          "pips_ex_top3": -1428.4,
+          "pips_ex_top5": -1724.8,
+          "is_outlier_dependent": true
+        }
+      },
+      "redundancy": {
+        "max_overlap_pct": 0.0,
+        "max_correlation": 0.0
+      }
+    },
+    {
+      "strategy_id": "v5_gbpjpy_lowvol_brk",
+      "symbol": "GBPJPY",
+      "archetype": "COMP_BRK_V5",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.96, Net=-95.7p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -336.7"
+      ],
+      "discovery_stats": {
+        "total_trades": 208,
+        "net_pips": 1754.5,
+        "win_rate_pct": 42.8,
+        "profit_factor": 1.37,
+        "expectancy_pips": 8.43,
+        "expectancy_std_err": 3.96,
+        "expectancy_ci_95": [
+          0.67,
+          16.2
+        ],
+        "t_statistic": 2.13,
+        "p_value": 0.0332,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 512.7,
+        "worst_month_pips": -170.5,
+        "bootstrap_95_max_dd_pips": 833.0,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 1673.1,
+          "pips_ex_top3": 1511.3,
+          "pips_ex_top5": 1350.4,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 98,
+        "net_pips": -95.7,
+        "win_rate_pct": 36.7,
+        "profit_factor": 0.96,
+        "expectancy_pips": -0.98,
+        "expectancy_std_err": 5.34,
+        "expectancy_ci_95": [
+          -11.44,
+          9.48
+        ],
+        "t_statistic": -0.18,
+        "p_value": 0.8572,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 461.1,
+        "worst_month_pips": -121.7,
+        "bootstrap_95_max_dd_pips": 1207.4,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -176.8,
+          "pips_ex_top3": -336.7,
+          "pips_ex_top5": -496.2,
+          "is_outlier_dependent": true
+        }
+      },
+      "redundancy": {
+        "max_overlap_pct": 0.0,
+        "max_correlation": 0.0
+      }
+    },
+    {
+      "strategy_id": "v5_eurnzd_pwhl_sweep_ny",
+      "symbol": "EURNZD",
+      "archetype": "PWHL_SWEEP_V5",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.77, Net=-216.7p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -628.7"
+      ],
+      "discovery_stats": {
+        "total_trades": 57,
+        "net_pips": 1280.6,
+        "win_rate_pct": 49.1,
+        "profit_factor": 1.75,
+        "expectancy_pips": 22.47,
+        "expectancy_std_err": 12.28,
+        "expectancy_ci_95": [
+          -1.61,
+          46.54
+        ],
+        "t_statistic": 1.83,
+        "p_value": 0.0672,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 393.8,
+        "worst_month_pips": -151.6,
+        "bootstrap_95_max_dd_pips": 719.0,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 1125.7,
+          "pips_ex_top3": 816.5,
+          "pips_ex_top5": 507.8,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 22,
+        "net_pips": -216.7,
+        "win_rate_pct": 27.3,
+        "profit_factor": 0.77,
+        "expectancy_pips": -9.85,
+        "expectancy_std_err": 18.29,
+        "expectancy_ci_95": [
+          -45.7,
+          25.99
+        ],
+        "t_statistic": -0.54,
+        "p_value": 0.5892,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 673.7,
+        "worst_month_pips": -183.3,
+        "bootstrap_95_max_dd_pips": 931.6,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -372.4,
+          "pips_ex_top3": -628.7,
+          "pips_ex_top5": -864.5,
+          "is_outlier_dependent": true
+        }
+      },
+      "redundancy": {
+        "max_overlap_pct": 0.0,
+        "max_correlation": 0.0
+      }
+    },
+    {
+      "strategy_id": "v5_gbpjpy_pwhl_sweep_v5",
+      "symbol": "GBPJPY",
+      "archetype": "PWHL_SWEEP_V5",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.69, Net=-408.8p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -543.4"
+      ],
+      "discovery_stats": {
+        "total_trades": 127,
+        "net_pips": 748.5,
+        "win_rate_pct": 48.8,
+        "profit_factor": 1.37,
+        "expectancy_pips": 5.89,
+        "expectancy_std_err": 3.36,
+        "expectancy_ci_95": [
+          -0.7,
+          12.49
+        ],
+        "t_statistic": 1.75,
+        "p_value": 0.0801,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 239.1,
+        "worst_month_pips": -101.6,
+        "bootstrap_95_max_dd_pips": 485.8,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 702.8,
+          "pips_ex_top3": 612.3,
+          "pips_ex_top5": 522.2,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 66,
+        "net_pips": -408.8,
+        "win_rate_pct": 33.3,
+        "profit_factor": 0.69,
+        "expectancy_pips": -6.19,
+        "expectancy_std_err": 4.26,
+        "expectancy_ci_95": [
+          -14.54,
+          2.15
+        ],
+        "t_statistic": -1.45,
+        "p_value": 0.1471,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 594.0,
+        "worst_month_pips": -126.0,
+        "bootstrap_95_max_dd_pips": 900.2,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -453.8,
+          "pips_ex_top3": -543.4,
+          "pips_ex_top5": -632.7,
+          "is_outlier_dependent": true
+        }
+      },
+      "redundancy": {
+        "max_overlap_pct": 0.0,
+        "max_correlation": 0.0
+      }
+    },
+    {
+      "strategy_id": "v5_gbpchf_h1_sqz_brk",
+      "symbol": "GBPCHF",
+      "archetype": "H1_BRK_V5",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.92, Net=-64.4p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -318.6"
+      ],
+      "discovery_stats": {
+        "total_trades": 123,
+        "net_pips": 905.0,
+        "win_rate_pct": 46.3,
+        "profit_factor": 1.4,
+        "expectancy_pips": 7.36,
+        "expectancy_std_err": 4.65,
+        "expectancy_ci_95": [
+          -1.76,
+          16.47
+        ],
+        "t_statistic": 1.58,
+        "p_value": 0.1141,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 277.4,
+        "worst_month_pips": -114.6,
+        "bootstrap_95_max_dd_pips": 680.2,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 819.7,
+          "pips_ex_top3": 649.6,
+          "pips_ex_top5": 479.8,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 46,
+        "net_pips": -64.4,
+        "win_rate_pct": 39.1,
+        "profit_factor": 0.92,
+        "expectancy_pips": -1.4,
+        "expectancy_std_err": 6.27,
+        "expectancy_ci_95": [
+          -13.7,
+          10.9
+        ],
+        "t_statistic": -0.22,
+        "p_value": 0.8259,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 247.4,
+        "worst_month_pips": -113.4,
+        "bootstrap_95_max_dd_pips": 621.0,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -149.1,
+          "pips_ex_top3": -318.6,
+          "pips_ex_top5": -487.9,
+          "is_outlier_dependent": true
+        }
+      },
+      "redundancy": {
+        "max_overlap_pct": 0.0,
+        "max_correlation": 0.0
+      }
+    },
+    {
+      "strategy_id": "v5_gbpjpy_h1_don36_brk",
+      "symbol": "GBPJPY",
+      "archetype": "H1_BRK_V5",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.78, Net=-743.2p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -1238.3"
+      ],
+      "discovery_stats": {
+        "total_trades": 242,
+        "net_pips": 1927.4,
+        "win_rate_pct": 44.6,
+        "profit_factor": 1.22,
+        "expectancy_pips": 7.96,
+        "expectancy_std_err": 5.86,
+        "expectancy_ci_95": [
+          -3.53,
+          19.46
+        ],
+        "t_statistic": 1.36,
+        "p_value": 0.1738,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 488.4,
+        "worst_month_pips": -322.5,
+        "bootstrap_95_max_dd_pips": 1845.7,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 1761.7,
+          "pips_ex_top3": 1431.2,
+          "pips_ex_top5": 1101.3,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 78,
+        "net_pips": -743.2,
+        "win_rate_pct": 35.9,
+        "profit_factor": 0.78,
+        "expectancy_pips": -9.53,
+        "expectancy_std_err": 9.67,
+        "expectancy_ci_95": [
+          -28.49,
+          9.43
+        ],
+        "t_statistic": -0.99,
+        "p_value": 0.3222,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 1206.1,
+        "worst_month_pips": -342.8,
+        "bootstrap_95_max_dd_pips": 2119.8,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -908.8,
+          "pips_ex_top3": -1238.3,
+          "pips_ex_top5": -1567.5,
+          "is_outlier_dependent": true
+        }
+      },
+      "redundancy": {
+        "max_overlap_pct": 0.0,
+        "max_correlation": 0.0
+      }
+    },
+    {
+      "strategy_id": "v5_gbpjpy_h4_sqz_kc135",
+      "symbol": "GBPJPY",
+      "archetype": "H4_SQZ_V6",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.79, Net=-281.0p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -824.4"
+      ],
+      "discovery_stats": {
+        "total_trades": 54,
+        "net_pips": 2134.5,
+        "win_rate_pct": 59.3,
+        "profit_factor": 2.41,
+        "expectancy_pips": 39.53,
+        "expectancy_std_err": 14.08,
+        "expectancy_ci_95": [
+          11.93,
+          67.13
+        ],
+        "t_statistic": 2.81,
+        "p_value": 0.005,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 207.3,
+        "worst_month_pips": -207.3,
+        "bootstrap_95_max_dd_pips": 584.2,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 1894.8,
+          "pips_ex_top3": 1448.2,
+          "pips_ex_top5": 1096.4,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 28,
+        "net_pips": -281.0,
+        "win_rate_pct": 35.7,
+        "profit_factor": 0.79,
+        "expectancy_pips": -10.04,
+        "expectancy_std_err": 19.16,
+        "expectancy_ci_95": [
+          -47.59,
+          27.52
+        ],
+        "t_statistic": -0.52,
+        "p_value": 0.6031,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 502.3,
+        "worst_month_pips": -147.4,
+        "bootstrap_95_max_dd_pips": 1216.3,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -496.8,
+          "pips_ex_top3": -824.4,
+          "pips_ex_top5": -1069.4,
+          "is_outlier_dependent": true
+        }
+      },
+      "redundancy": {
+        "max_overlap_pct": 42.9,
+        "max_correlation": 0.166
+      }
+    },
+    {
+      "strategy_id": "v5_gbpjpy_h4_wk_piv",
+      "symbol": "GBPJPY",
+      "archetype": "H4_WK_PIV_V6",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.81, Net=-271.4p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -836.1"
+      ],
+      "discovery_stats": {
+        "total_trades": 68,
+        "net_pips": 2329.5,
+        "win_rate_pct": 54.4,
+        "profit_factor": 1.96,
+        "expectancy_pips": 34.26,
+        "expectancy_std_err": 14.57,
+        "expectancy_ci_95": [
+          5.7,
+          62.81
+        ],
+        "t_statistic": 2.35,
+        "p_value": 0.0188,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 524.7,
+        "worst_month_pips": -321.8,
+        "bootstrap_95_max_dd_pips": 824.6,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 2119.5,
+          "pips_ex_top3": 1699.6,
+          "pips_ex_top5": 1280.1,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 30,
+        "net_pips": -271.4,
+        "win_rate_pct": 46.7,
+        "profit_factor": 0.81,
+        "expectancy_pips": -9.05,
+        "expectancy_std_err": 18.67,
+        "expectancy_ci_95": [
+          -45.63,
+          27.54
+        ],
+        "t_statistic": -0.48,
+        "p_value": 0.6312,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 380.8,
+        "worst_month_pips": -318.6,
+        "bootstrap_95_max_dd_pips": 1259.3,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -480.9,
+          "pips_ex_top3": -836.1,
+          "pips_ex_top5": -1094.2,
+          "is_outlier_dependent": true
+        }
+      },
+      "redundancy": {
+        "max_overlap_pct": 0.0,
+        "max_correlation": 0.007
+      }
+    },
+    {
+      "strategy_id": "v5_gbpjpy_h4_macd_mom",
+      "symbol": "GBPJPY",
+      "archetype": "H4_MACD_MOM_V6",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=1.0, Net=+1.4p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -297.2"
+      ],
+      "discovery_stats": {
+        "total_trades": 67,
+        "net_pips": 1252.6,
+        "win_rate_pct": 50.7,
+        "profit_factor": 1.78,
+        "expectancy_pips": 18.7,
+        "expectancy_std_err": 8.61,
+        "expectancy_ci_95": [
+          1.81,
+          35.58
+        ],
+        "t_statistic": 2.17,
+        "p_value": 0.03,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": true,
+        "max_drawdown_pips": 529.3,
+        "worst_month_pips": -152.2,
+        "bootstrap_95_max_dd_pips": 548.9,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 1152.2,
+          "pips_ex_top3": 952.1,
+          "pips_ex_top5": 752.6,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 15,
+        "net_pips": 1.4,
+        "win_rate_pct": 40.0,
+        "profit_factor": 1.0,
+        "expectancy_pips": 0.1,
+        "expectancy_std_err": 17.54,
+        "expectancy_ci_95": [
+          -34.29,
+          34.48
+        ],
+        "t_statistic": 0.01,
+        "p_value": 0.992,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 126.0,
+        "worst_month_pips": -50.7,
+        "bootstrap_95_max_dd_pips": 456.9,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -98.3,
+          "pips_ex_top3": -297.2,
+          "pips_ex_top5": -430.3,
+          "is_outlier_dependent": true
+        }
+      },
+      "redundancy": {
+        "max_overlap_pct": 20.0,
+        "max_correlation": 0.225
+      }
+    },
+    {
+      "strategy_id": "v5_audcad_h4_macd_mom",
+      "symbol": "AUDCAD",
+      "archetype": "H4_MACD_MOM_V6",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.29, Net=-1010.5p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -1249.3"
+      ],
+      "discovery_stats": {
+        "total_trades": 132,
+        "net_pips": 730.6,
+        "win_rate_pct": 47.7,
+        "profit_factor": 1.3,
+        "expectancy_pips": 5.53,
+        "expectancy_std_err": 4.19,
+        "expectancy_ci_95": [
+          -2.67,
+          13.74
+        ],
+        "t_statistic": 1.32,
+        "p_value": 0.1868,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 215.4,
+        "worst_month_pips": -124.7,
+        "bootstrap_95_max_dd_pips": 748.0,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 648.9,
+          "pips_ex_top3": 489.4,
+          "pips_ex_top5": 330.1,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 57,
+        "net_pips": -1010.5,
+        "win_rate_pct": 19.3,
+        "profit_factor": 0.29,
+        "expectancy_pips": -17.73,
+        "expectancy_std_err": 4.37,
+        "expectancy_ci_95": [
+          -26.3,
+          -9.16
+        ],
+        "t_statistic": -4.05,
+        "p_value": 0.0001,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 1036.4,
+        "worst_month_pips": -153.5,
+        "bootstrap_95_max_dd_pips": 1409.5,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -1090.4,
+          "pips_ex_top3": -1249.3,
+          "pips_ex_top5": -1337.0,
+          "is_outlier_dependent": true
+        }
+      },
+      "redundancy": {
+        "max_overlap_pct": 0.0,
+        "max_correlation": 0.099
+      }
+    },
+    {
+      "strategy_id": "v5_eurnzd_h4_bb_mr",
+      "symbol": "EURNZD",
+      "archetype": "H4_BB_MR_V6",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.93, Net=-91.8p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -712.9"
+      ],
+      "discovery_stats": {
+        "total_trades": 64,
+        "net_pips": 1329.9,
+        "win_rate_pct": 53.1,
+        "profit_factor": 1.6,
+        "expectancy_pips": 20.78,
+        "expectancy_std_err": 13.52,
+        "expectancy_ci_95": [
+          -5.71,
+          47.27
+        ],
+        "t_statistic": 1.54,
+        "p_value": 0.1236,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 461.6,
+        "worst_month_pips": -141.6,
+        "bootstrap_95_max_dd_pips": 963.1,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 1090.5,
+          "pips_ex_top3": 617.7,
+          "pips_ex_top5": 180.7,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 26,
+        "net_pips": -91.8,
+        "win_rate_pct": 38.5,
+        "profit_factor": 0.93,
+        "expectancy_pips": -3.53,
+        "expectancy_std_err": 22.21,
+        "expectancy_ci_95": [
+          -47.06,
+          40.0
+        ],
+        "t_statistic": -0.16,
+        "p_value": 0.8729,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 659.5,
+        "worst_month_pips": -240.4,
+        "bootstrap_95_max_dd_pips": 1164.9,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -317.2,
+          "pips_ex_top3": -712.9,
+          "pips_ex_top5": -1035.9,
+          "is_outlier_dependent": true
+        }
+      },
+      "redundancy": {
+        "max_overlap_pct": 0.0,
+        "max_correlation": 0.015
+      }
+    },
+    {
+      "strategy_id": "v5_eurnzd_h4_pwhl_swp",
+      "symbol": "EURNZD",
+      "archetype": "H4_PWHL_SWP_V6",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.52, Net=-462.4p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -626.2"
+      ],
+      "discovery_stats": {
+        "total_trades": 80,
+        "net_pips": 500.1,
+        "win_rate_pct": 46.2,
+        "profit_factor": 1.35,
+        "expectancy_pips": 6.25,
+        "expectancy_std_err": 4.9,
+        "expectancy_ci_95": [
+          -3.36,
+          15.86
+        ],
+        "t_statistic": 1.27,
+        "p_value": 0.2041,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 378.1,
+        "worst_month_pips": -107.7,
+        "bootstrap_95_max_dd_pips": 527.5,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 444.9,
+          "pips_ex_top3": 335.5,
+          "pips_ex_top5": 226.1,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 37,
+        "net_pips": -462.4,
+        "win_rate_pct": 27.0,
+        "profit_factor": 0.52,
+        "expectancy_pips": -12.5,
+        "expectancy_std_err": 6.51,
+        "expectancy_ci_95": [
+          -25.26,
+          0.27
+        ],
+        "t_statistic": -1.92,
+        "p_value": 0.0549,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 577.4,
+        "worst_month_pips": -141.3,
+        "bootstrap_95_max_dd_pips": 870.3,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -517.0,
+          "pips_ex_top3": -626.2,
+          "pips_ex_top5": -734.9,
+          "is_outlier_dependent": true
+        }
+      },
+      "redundancy": {
+        "max_overlap_pct": 0.0,
+        "max_correlation": 0.0
+      }
+    },
+    {
+      "strategy_id": "v5_gbpjpy_h4_ema_pb",
+      "symbol": "GBPJPY",
+      "archetype": "H4_EMA_PB_V6",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.57, Net=-1828.8p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -2375.7"
+      ],
+      "discovery_stats": {
+        "total_trades": 197,
+        "net_pips": 1646.3,
+        "win_rate_pct": 48.7,
+        "profit_factor": 1.21,
+        "expectancy_pips": 8.36,
+        "expectancy_std_err": 7.46,
+        "expectancy_ci_95": [
+          -6.27,
+          22.98
+        ],
+        "t_statistic": 1.12,
+        "p_value": 0.2627,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 1180.4,
+        "worst_month_pips": -897.1,
+        "bootstrap_95_max_dd_pips": 2177.4,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 1406.5,
+          "pips_ex_top3": 927.2,
+          "pips_ex_top5": 474.5,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 90,
+        "net_pips": -1828.8,
+        "win_rate_pct": 34.4,
+        "profit_factor": 0.57,
+        "expectancy_pips": -20.32,
+        "expectancy_std_err": 8.99,
+        "expectancy_ci_95": [
+          -37.93,
+          -2.71
+        ],
+        "t_statistic": -2.26,
+        "p_value": 0.0238,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 2363.3,
+        "worst_month_pips": -475.9,
+        "bootstrap_95_max_dd_pips": 3186.0,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -2068.7,
+          "pips_ex_top3": -2375.7,
+          "pips_ex_top5": -2667.4,
+          "is_outlier_dependent": true
+        }
+      },
+      "redundancy": {
+        "max_overlap_pct": 0.0,
+        "max_correlation": 0.105
+      }
+    },
+    {
+      "strategy_id": "v5_gbpchf_h4_ema_pb",
+      "symbol": "GBPCHF",
+      "archetype": "H4_EMA_PB_V6",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.18, Net=-520.8p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -626.3"
+      ],
+      "discovery_stats": {
+        "total_trades": 62,
+        "net_pips": 490.4,
+        "win_rate_pct": 51.6,
+        "profit_factor": 1.4,
+        "expectancy_pips": 7.91,
+        "expectancy_std_err": 7.42,
+        "expectancy_ci_95": [
+          -6.62,
+          22.44
+        ],
+        "t_statistic": 1.07,
+        "p_value": 0.2846,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 235.9,
+        "worst_month_pips": -134.8,
+        "bootstrap_95_max_dd_pips": 630.1,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 358.9,
+          "pips_ex_top3": 124.5,
+          "pips_ex_top5": -69.2,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 22,
+        "net_pips": -520.8,
+        "win_rate_pct": 22.7,
+        "profit_factor": 0.18,
+        "expectancy_pips": -23.67,
+        "expectancy_std_err": 7.27,
+        "expectancy_ci_95": [
+          -37.93,
+          -9.42
+        ],
+        "t_statistic": -3.25,
+        "p_value": 0.0012,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 549.4,
+        "worst_month_pips": -108.6,
+        "bootstrap_95_max_dd_pips": 739.8,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -565.5,
+          "pips_ex_top3": -626.3,
+          "pips_ex_top5": -637.7,
+          "is_outlier_dependent": true
+        }
+      },
+      "redundancy": {
+        "max_overlap_pct": 0.0,
+        "max_correlation": 0.148
+      }
+    },
+    {
+      "strategy_id": "v5_eurnzd_h4_kc_brk",
+      "symbol": "EURNZD",
+      "archetype": "H4_KC_BRK_V6",
+      "defect_reasons": [
+        "gate_2_holdout_pf: required >= 1.20 PF & Net Pips > 0, got PF=0.91, Net=-221.3p",
+        "gate_3_outlier_resistance: required Net Pips ex Top 3 > 0.0, got -880.8"
+      ],
+      "discovery_stats": {
+        "total_trades": 144,
+        "net_pips": 1262.6,
+        "win_rate_pct": 49.3,
+        "profit_factor": 1.2,
+        "expectancy_pips": 8.77,
+        "expectancy_std_err": 9.63,
+        "expectancy_ci_95": [
+          -10.11,
+          27.65
+        ],
+        "t_statistic": 0.91,
+        "p_value": 0.3628,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 920.2,
+        "worst_month_pips": -336.7,
+        "bootstrap_95_max_dd_pips": 2069.5,
+        "outlier_sensitivity": {
+          "pips_ex_top1": 1022.8,
+          "pips_ex_top3": 544.0,
+          "pips_ex_top5": 65.2,
+          "is_outlier_dependent": false
+        }
+      },
+      "holdout_stats": {
+        "total_trades": 58,
+        "net_pips": -221.3,
+        "win_rate_pct": 43.1,
+        "profit_factor": 0.91,
+        "expectancy_pips": -3.81,
+        "expectancy_std_err": 13.02,
+        "expectancy_ci_95": [
+          -29.33,
+          21.71
+        ],
+        "t_statistic": -0.29,
+        "p_value": 0.7718,
+        "bonferroni_p_threshold": 0.05,
+        "is_statistically_significant": false,
+        "max_drawdown_pips": 910.8,
+        "worst_month_pips": -363.9,
+        "bootstrap_95_max_dd_pips": 1688.6,
+        "outlier_sensitivity": {
+          "pips_ex_top1": -460.7,
+          "pips_ex_top3": -880.8,
+          "pips_ex_top5": -1248.0,
+          "is_outlier_dependent": true
+        }
+      },
+      "redundancy": {
+        "max_overlap_pct": 0.0,
+        "max_correlation": 0.097
+      }
+    }
+  ],
+  "elapsed_sec": 424.0
+}

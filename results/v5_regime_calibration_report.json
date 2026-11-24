@@ -1,0 +1,345 @@
+{
+  "calibration_split": "Discovery Weeks 1..210 ONLY",
+  "oos_validation_split": "Holdout Weeks 211..300",
+  "usdjpy_excluded": true,
+  "fleet_oos_summary": {
+    "strategies_count": 4,
+    "holdout_base_trades": 151,
+    "holdout_base_wr": 51.0,
+    "holdout_base_pf": 1.68,
+    "holdout_base_net": 1136.2,
+    "holdout_gated_trades": 111,
+    "holdout_gated_wr": 51.4,
+    "holdout_gated_pf": 1.59,
+    "holdout_gated_net": 831.7,
+    "holdout_pruned_trades": 40,
+    "holdout_pruned_pct": 26.49,
+    "holdout_pruned_wr": 50.0,
+    "holdout_pruned_pf": 2.24,
+    "holdout_pruned_net": 304.4,
+    "holdout_delta_net": -304.5,
+    "holdout_delta_pf": -0.09
+  },
+  "strategies": [
+    {
+      "key": "AUDCAD__strategy_01_audcad_h4_bb_ema_mr",
+      "symbol": "AUDCAD",
+      "strategy_id": "strategy_01_audcad_h4_bb_ema_mr",
+      "archetype": "trend_pullback",
+      "permitted_regimes": [
+        1,
+        2,
+        5
+      ],
+      "prohibited_regimes": [
+        3,
+        4
+      ],
+      "toxic_sessions": [],
+      "toxic_days": [
+        "Friday"
+      ],
+      "discovery_eval": {
+        "baseline": {
+          "trades": 94,
+          "wins": 52,
+          "wr": 55.3,
+          "pf": 1.47,
+          "net_pips": 627.6,
+          "expectancy": 6.68,
+          "max_dd": 343.6
+        },
+        "gated": {
+          "trades": 67,
+          "wins": 40,
+          "wr": 59.7,
+          "pf": 1.63,
+          "net_pips": 597.8,
+          "expectancy": 8.92,
+          "max_dd": 254.3
+        },
+        "pruned": {
+          "trades": 27,
+          "wins": 12,
+          "wr": 44.4,
+          "pf": 1.08,
+          "net_pips": 29.8,
+          "expectancy": 1.1,
+          "max_dd": 163.6
+        },
+        "delta_net_pips": -29.8,
+        "delta_pf": 0.16
+      },
+      "holdout_oos_eval": {
+        "baseline": {
+          "trades": 43,
+          "wins": 21,
+          "wr": 48.8,
+          "pf": 1.97,
+          "net_pips": 330.4,
+          "expectancy": 7.68,
+          "max_dd": 130.0
+        },
+        "gated": {
+          "trades": 25,
+          "wins": 16,
+          "wr": 64.0,
+          "pf": 2.97,
+          "net_pips": 397.7,
+          "expectancy": 15.91,
+          "max_dd": 124.5
+        },
+        "pruned": {
+          "trades": 18,
+          "wins": 5,
+          "wr": 27.8,
+          "pf": 0.52,
+          "net_pips": -67.3,
+          "expectancy": -3.74,
+          "max_dd": 125.9
+        },
+        "delta_net_pips": 67.3,
+        "delta_pf": 1.0
+      }
+    },
+    {
+      "key": "EURUSD__strategy_02_eurusd_daily_pivot_ny",
+      "symbol": "EURUSD",
+      "strategy_id": "strategy_02_eurusd_daily_pivot_ny",
+      "archetype": "trend_pullback",
+      "permitted_regimes": [
+        1,
+        2,
+        5
+      ],
+      "prohibited_regimes": [
+        3,
+        4
+      ],
+      "toxic_sessions": [],
+      "toxic_days": [],
+      "discovery_eval": {
+        "baseline": {
+          "trades": 89,
+          "wins": 36,
+          "wr": 40.4,
+          "pf": 1.2,
+          "net_pips": 153.6,
+          "expectancy": 1.73,
+          "max_dd": 135.0
+        },
+        "gated": {
+          "trades": 65,
+          "wins": 26,
+          "wr": 40.0,
+          "pf": 1.12,
+          "net_pips": 66.7,
+          "expectancy": 1.03,
+          "max_dd": 186.4
+        },
+        "pruned": {
+          "trades": 24,
+          "wins": 10,
+          "wr": 41.7,
+          "pf": 1.46,
+          "net_pips": 86.9,
+          "expectancy": 3.62,
+          "max_dd": 87.2
+        },
+        "delta_net_pips": -86.9,
+        "delta_pf": -0.08
+      },
+      "holdout_oos_eval": {
+        "baseline": {
+          "trades": 42,
+          "wins": 23,
+          "wr": 54.8,
+          "pf": 2.06,
+          "net_pips": 292.1,
+          "expectancy": 6.95,
+          "max_dd": 44.8
+        },
+        "gated": {
+          "trades": 29,
+          "wins": 15,
+          "wr": 51.7,
+          "pf": 1.81,
+          "net_pips": 164.0,
+          "expectancy": 5.66,
+          "max_dd": 57.7
+        },
+        "pruned": {
+          "trades": 13,
+          "wins": 8,
+          "wr": 61.5,
+          "pf": 2.77,
+          "net_pips": 128.1,
+          "expectancy": 9.85,
+          "max_dd": 28.8
+        },
+        "delta_net_pips": -128.1,
+        "delta_pf": -0.25
+      }
+    },
+    {
+      "key": "GBPJPY__strategy_03_gbpjpy_h4_sqz_brk",
+      "symbol": "GBPJPY",
+      "strategy_id": "strategy_03_gbpjpy_h4_sqz_brk",
+      "archetype": "trend_pullback",
+      "permitted_regimes": [
+        1,
+        2,
+        5
+      ],
+      "prohibited_regimes": [
+        3,
+        4
+      ],
+      "toxic_sessions": [],
+      "toxic_days": [],
+      "discovery_eval": {
+        "baseline": {
+          "trades": 88,
+          "wins": 45,
+          "wr": 51.1,
+          "pf": 1.38,
+          "net_pips": 658.4,
+          "expectancy": 7.48,
+          "max_dd": 508.2
+        },
+        "gated": {
+          "trades": 85,
+          "wins": 42,
+          "wr": 49.4,
+          "pf": 1.28,
+          "net_pips": 480.0,
+          "expectancy": 5.65,
+          "max_dd": 560.9
+        },
+        "pruned": {
+          "trades": 3,
+          "wins": 3,
+          "wr": 100.0,
+          "pf": 99.0,
+          "net_pips": 178.4,
+          "expectancy": 59.47,
+          "max_dd": 0.0
+        },
+        "delta_net_pips": -178.4,
+        "delta_pf": -0.1
+      },
+      "holdout_oos_eval": {
+        "baseline": {
+          "trades": 40,
+          "wins": 20,
+          "wr": 50.0,
+          "pf": 1.4,
+          "net_pips": 326.3,
+          "expectancy": 8.16,
+          "max_dd": 280.2
+        },
+        "gated": {
+          "trades": 38,
+          "wins": 18,
+          "wr": 47.4,
+          "pf": 1.25,
+          "net_pips": 206.9,
+          "expectancy": 5.44,
+          "max_dd": 302.4
+        },
+        "pruned": {
+          "trades": 2,
+          "wins": 2,
+          "wr": 100.0,
+          "pf": 99.0,
+          "net_pips": 119.4,
+          "expectancy": 59.72,
+          "max_dd": 0.0
+        },
+        "delta_net_pips": -119.4,
+        "delta_pf": -0.15
+      }
+    },
+    {
+      "key": "USDCAD__strategy_04_usdcad_pdhl_sweep_ldn",
+      "symbol": "USDCAD",
+      "strategy_id": "strategy_04_usdcad_pdhl_sweep_ldn",
+      "archetype": "session_sweep",
+      "permitted_regimes": [
+        1,
+        2,
+        5
+      ],
+      "prohibited_regimes": [
+        3,
+        4
+      ],
+      "toxic_sessions": [],
+      "toxic_days": [
+        "Friday"
+      ],
+      "discovery_eval": {
+        "baseline": {
+          "trades": 95,
+          "wins": 40,
+          "wr": 42.1,
+          "pf": 1.36,
+          "net_pips": 335.2,
+          "expectancy": 3.53,
+          "max_dd": 177.9
+        },
+        "gated": {
+          "trades": 65,
+          "wins": 31,
+          "wr": 47.7,
+          "pf": 1.64,
+          "net_pips": 387.7,
+          "expectancy": 5.96,
+          "max_dd": 156.6
+        },
+        "pruned": {
+          "trades": 30,
+          "wins": 9,
+          "wr": 30.0,
+          "pf": 0.84,
+          "net_pips": -52.5,
+          "expectancy": -1.75,
+          "max_dd": 137.6
+        },
+        "delta_net_pips": 52.5,
+        "delta_pf": 0.28
+      },
+      "holdout_oos_eval": {
+        "baseline": {
+          "trades": 26,
+          "wins": 13,
+          "wr": 50.0,
+          "pf": 1.84,
+          "net_pips": 187.3,
+          "expectancy": 7.21,
+          "max_dd": 56.0
+        },
+        "gated": {
+          "trades": 19,
+          "wins": 8,
+          "wr": 42.1,
+          "pf": 1.33,
+          "net_pips": 63.2,
+          "expectancy": 3.32,
+          "max_dd": 66.9
+        },
+        "pruned": {
+          "trades": 7,
+          "wins": 5,
+          "wr": 71.4,
+          "pf": 4.72,
+          "net_pips": 124.2,
+          "expectancy": 17.74,
+          "max_dd": 33.4
+        },
+        "delta_net_pips": -124.1,
+        "delta_pf": -0.51
+      }
+    }
+  ]
+}

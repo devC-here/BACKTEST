@@ -473,14 +473,15 @@ def get_week_dataset(
     raw_dir: Optional[Union[str, Path]] = None,
     processed_dir: Optional[Union[str, Path]] = None,
     auto_convert: bool = True,
-    warmup_prev_week_ticks: int = 0
+    warmup_prev_week_ticks: int = 0,
+    warmup_prev_weeks: int = 0
 ) -> tuple[np.ndarray, dict]:
     """
     Retrieves memory-mapped ticks for a given week number.
     Auto-converts raw CSV to .npy if not already cached.
     Isolates binary caches per symbol to prevent collisions.
-    If warmup_prev_week_ticks > 0 and week > 1, prepends tail ticks from prior week
-    to eliminate cold-start indicator distortion.
+    If warmup_prev_weeks > 0 (preferred) or warmup_prev_week_ticks > 0 and week > 1,
+    prepends prior week ticks and stores exact `warmup_tick_count` in returned `meta`.
     """
     raw_dir = _resolve_raw_dir(raw_dir)
 
@@ -497,7 +498,7 @@ def get_week_dataset(
     target_npy = processed_dir / f"week_{week:02d}.npy"
 
     manifest = load_manifest(raw_dir)
-    meta = manifest.get(week, {"week": week, "tick_count": 0})
+    meta = dict(manifest.get(week, {"week": week, "tick_count": 0}))
 
     if target_npy.exists():
         ticks = load_ticks(target_npy, mmap=True)
@@ -514,12 +515,28 @@ def get_week_dataset(
         else:
             raise FileNotFoundError(f"Processed .npy not found for week {week} and auto_convert is False")
 
-    if warmup_prev_week_ticks > 0 and week > 1:
+    warmup_parts = []
+    if warmup_prev_weeks > 0 and week > 1:
+        for pw in range(max(1, week - int(warmup_prev_weeks)), week):
+            pw_npy = processed_dir / f"week_{pw:02d}.npy"
+            if pw_npy.exists():
+                warmup_parts.append(load_ticks(pw_npy, mmap=True))
+            elif auto_convert:
+                pw_cands = list(raw_dir.glob(f"week_{pw:02d}_*.csv"))
+                if pw_cands:
+                    csv_to_npy(pw_cands[0], pw_npy)
+                    warmup_parts.append(load_ticks(pw_npy, mmap=True))
+    elif warmup_prev_week_ticks > 0 and week > 1:
         prev_npy = processed_dir / f"week_{week-1:02d}.npy"
         if prev_npy.exists():
             prev_ticks = load_ticks(prev_npy, mmap=True)
             warmup_slice = prev_ticks[-warmup_prev_week_ticks:] if len(prev_ticks) > warmup_prev_week_ticks else prev_ticks
-            ticks = np.concatenate([warmup_slice, ticks])
+            warmup_parts.append(warmup_slice)
+
+    warmup_len = int(sum(len(p) for p in warmup_parts))
+    if warmup_len > 0:
+        ticks = np.concatenate(warmup_parts + [ticks])
+    meta["warmup_tick_count"] = warmup_len
 
     return ticks, meta
 

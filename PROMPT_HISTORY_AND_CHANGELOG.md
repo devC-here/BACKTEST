@@ -9725,3 +9725,19 @@ esults/individual_strategy_loss_regime_audit.json capturing strategy-specific da
   - Verified markdown rendering and table integrity across all 71 production strategies.
 
 ---
+
+## Turn 265: Non-USDJPY Production Fleet Regime Gating Scorecard (62 Strategies)
+- **Timestamp**: `2026-11-24 13:06:16 UTC` (2026-11-24 18:36:16 IST)
+- **User Prompt**:
+  > *"hey , what accuracy and other stats we hit with these new implemention ( exclude usdjpy as we run that symbol statergies on live and performance was terrible wr~9% )"*
+
+- **Assistant Response**:
+  Conducted a comprehensive audit of the 62 Non-USDJPY strategies across 6,275 historical trades. Excluding USDJPY revealed a vastly superior baseline: PF 1.73, Win Rate 47.0%, and +44,223.4 net pips. Applying the tailored regime kill-switches pruned 576 toxic trades (saving +2,482.4 pips of loss), surging fleet Win Rate to 48.92%, Profit Factor to 1.90, Net Profit to +46,705.8 pips, and Expectancy to +8.20 pips/trade with a 1.98x Reward-to-Risk ratio (+35.4p avg win vs -17.9p avg loss). Multiple pairs hit 61-63% win rates (AUDNZD 63.1%, AUDCAD 62.2%, EURNZD 61.6%, GBPCHF 60.9%).
+
+- **Changes Done Respectively**:
+- Created scratch/analyze_non_usdjpy_stats.py to evaluate the 62 non-USDJPY strategies.
+  - Generated 
+esults/non_usdjpy_regime_audit.json with pair-by-pair breakdowns.
+  - Proved that regime gating purges 576 toxic trades (27.9% WR drag), lifting fleet PF from 1.73 to 1.90 and Net PnL to +46,705.8 pips.
+
+---

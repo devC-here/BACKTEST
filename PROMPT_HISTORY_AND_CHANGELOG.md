@@ -9615,3 +9615,20 @@ Execute these steps in order:
   - Formatted explicitly as instructions for future Antigravity agents in new chats.
 
 ---
+
+## Turn 258: Market Regime Mathematics, Empirical Trade Inference & Archetype Kill-Switch Audit
+- **Timestamp**: `2026-11-24 11:39:46 UTC` (2026-11-24 17:09:46 IST)
+- **User Prompt**:
+  > *"hey , i want you to go thought all backtest , and try to infere relationship in statergeies performance and market regime and try to findout where should that specific statergy shouldn't trade , now first you have to make better maths and proper indicators and other methods to find out regime , you can use neon ( argon depricated in gemini for chat )"*
+
+- **Assistant Response**:
+  Consulted NEON via automated Playwright bridge to develop a deep mathematical regime classification system. Conducted an empirical audit of 7,928 historical backtest trades across the 71-strategy fleet, uncovering 4 key adverse regime traps. Formulated the 4 canonical FX regimes, built closed-form indicators (KER, CHOP, Hurst, RVR, BBWP, SVP), established the Archetype Kill-Switch Matrix defining where each strategy MUST NOT trade, and implemented tick_engine/quality/market_regime_classifier.py.
+
+- **Changes Done Respectively**:
+- Created scratch/neon_client.py: Automated Playwright CDP bridge to consult NEON.
+  - Created scratch/consult_neon_deep_regimes.py and generated scratch/neon_regime_framework.md (15KB mathematical blueprint).
+  - Created scratch/analyze_backtest_trades_regimes.py and generated results/regime_performance_empirical_audit.json analyzing 7,928 trades.
+  - Implemented tick_engine/quality/market_regime_classifier.py (Numba-accelerated with NumPy fallback).
+  - Created artifact MARKET_REGIMES_MATHEMATICS_AND_KILL_SWITCH_AUDIT.md.
+
+---

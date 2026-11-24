@@ -1,0 +1,559 @@
+{
+  "archetype_performance": [
+    {
+      "archetype": "Macro Structural Retests",
+      "trades": 97.0,
+      "win_rate": 55.670103092783506,
+      "profit_factor": 2.091290661070304,
+      "net_pips": 540.8000000000001,
+      "expectancy_pips": 5.5752577319587635
+    },
+    {
+      "archetype": "Mean-Reversion & Pivot Bounces",
+      "trades": 312.0,
+      "win_rate": 40.38461538461539,
+      "profit_factor": 1.251494317851175,
+      "net_pips": 605.04,
+      "expectancy_pips": 1.939230769230769
+    },
+    {
+      "archetype": "Trend & Momentum Pullbacks",
+      "trades": 6928.0,
+      "win_rate": 45.972863741339495,
+      "profit_factor": 1.676392291857218,
+      "net_pips": 44807.79000000027,
+      "expectancy_pips": 6.467637124711356
+    },
+    {
+      "archetype": "Volatility Breakouts & Expansion",
+      "trades": 591.0,
+      "win_rate": 41.11675126903553,
+      "profit_factor": 1.2747142570683778,
+      "net_pips": 1260.4,
+      "expectancy_pips": 2.132656514382403
+    }
+  ],
+  "session_breakdown": [
+    {
+      "archetype": "Macro Structural Retests",
+      "session": "Asian (21:00-06:00)",
+      "trades": 41.0,
+      "win_rate": 70.73170731707317,
+      "profit_factor": 3.7299624105735423,
+      "net_pips": 450.28,
+      "expectancy_pips": 10.982439024390244
+    },
+    {
+      "archetype": "Macro Structural Retests",
+      "session": "London Morning (06:00-12:00)",
+      "trades": 27.0,
+      "win_rate": 44.44444444444444,
+      "profit_factor": 0.8443357783211083,
+      "net_pips": -26.74000000000001,
+      "expectancy_pips": -0.9903703703703707
+    },
+    {
+      "archetype": "Macro Structural Retests",
+      "session": "London/NY Overlap (12:00-16:00)",
+      "trades": 29.0,
+      "win_rate": 44.827586206896555,
+      "profit_factor": 1.7382271468144048,
+      "net_pips": 117.26,
+      "expectancy_pips": 4.043448275862069
+    },
+    {
+      "archetype": "Mean-Reversion & Pivot Bounces",
+      "session": "London Morning (06:00-12:00)",
+      "trades": 206.0,
+      "win_rate": 39.32038834951456,
+      "profit_factor": 1.1960992142967184,
+      "net_pips": 318.2199999999999,
+      "expectancy_pips": 1.5447572815533976
+    },
+    {
+      "archetype": "Mean-Reversion & Pivot Bounces",
+      "session": "London/NY Overlap (12:00-16:00)",
+      "trades": 104.0,
+      "win_rate": 41.34615384615385,
+      "profit_factor": 1.306476124797262,
+      "net_pips": 239.97999999999996,
+      "expectancy_pips": 2.3074999999999997
+    },
+    {
+      "archetype": "Mean-Reversion & Pivot Bounces",
+      "session": "NY Afternoon (16:00-21:00)",
+      "trades": 2.0,
+      "win_rate": 100.0,
+      "profit_factor": 99.0,
+      "net_pips": 46.84,
+      "expectancy_pips": 23.42
+    },
+    {
+      "archetype": "Trend & Momentum Pullbacks",
+      "session": "Asian (21:00-06:00)",
+      "trades": 414.0,
+      "win_rate": 59.90338164251207,
+      "profit_factor": 3.0044475075651285,
+      "net_pips": 7445.4000000001215,
+      "expectancy_pips": 17.984057971014785
+    },
+    {
+      "archetype": "Trend & Momentum Pullbacks",
+      "session": "London Morning (06:00-12:00)",
+      "trades": 2618.0,
+      "win_rate": 44.614209320091675,
+      "profit_factor": 1.5817799296428952,
+      "net_pips": 15811.90000000014,
+      "expectancy_pips": 6.039686783804484
+    },
+    {
+      "archetype": "Trend & Momentum Pullbacks",
+      "session": "London/NY Overlap (12:00-16:00)",
+      "trades": 3654.0,
+      "win_rate": 45.566502463054185,
+      "profit_factor": 1.6386993578674067,
+      "net_pips": 20919.55000000004,
+      "expectancy_pips": 5.725109469074997
+    },
+    {
+      "archetype": "Trend & Momentum Pullbacks",
+      "session": "NY Afternoon (16:00-21:00)",
+      "trades": 242.0,
+      "win_rate": 42.97520661157025,
+      "profit_factor": 1.2427644691378752,
+      "net_pips": 630.9399999999627,
+      "expectancy_pips": 2.6071900826444736
+    },
+    {
+      "archetype": "Volatility Breakouts & Expansion",
+      "session": "London Morning (06:00-12:00)",
+      "trades": 259.0,
+      "win_rate": 41.312741312741316,
+      "profit_factor": 1.2954733206596927,
+      "net_pips": 593.73,
+      "expectancy_pips": 2.2923938223938225
+    },
+    {
+      "archetype": "Volatility Breakouts & Expansion",
+      "session": "London/NY Overlap (12:00-16:00)",
+      "trades": 316.0,
+      "win_rate": 42.721518987341774,
+      "profit_factor": 1.352202602542174,
+      "net_pips": 840.13,
+      "expectancy_pips": 2.658639240506329
+    },
+    {
+      "archetype": "Volatility Breakouts & Expansion",
+      "session": "NY Afternoon (16:00-21:00)",
+      "trades": 16.0,
+      "win_rate": 6.25,
+      "profit_factor": 0.10245265445513817,
+      "net_pips": -173.46,
+      "expectancy_pips": -10.84125
+    }
+  ],
+  "day_breakdown": [
+    {
+      "archetype": "Macro Structural Retests",
+      "day_name": "Monday",
+      "trades": 17.0,
+      "win_rate": 58.82352941176471,
+      "profit_factor": 2.4970225435984688,
+      "net_pips": 140.78,
+      "expectancy_pips": 8.281176470588235,
+      "day_order": 0
+    },
+    {
+      "archetype": "Macro Structural Retests",
+      "day_name": "Tuesday",
+      "trades": 24.0,
+      "win_rate": 58.333333333333336,
+      "profit_factor": 2.454671041270938,
+      "net_pips": 168.48,
+      "expectancy_pips": 7.02,
+      "day_order": 1
+    },
+    {
+      "archetype": "Macro Structural Retests",
+      "day_name": "Wednesday",
+      "trades": 11.0,
+      "win_rate": 45.45454545454545,
+      "profit_factor": 1.1723218613669415,
+      "net_pips": 14.220000000000002,
+      "expectancy_pips": 1.292727272727273,
+      "day_order": 2
+    },
+    {
+      "archetype": "Macro Structural Retests",
+      "day_name": "Thursday",
+      "trades": 21.0,
+      "win_rate": 57.14285714285714,
+      "profit_factor": 1.976482617586912,
+      "net_pips": 114.59999999999998,
+      "expectancy_pips": 5.457142857142856,
+      "day_order": 3
+    },
+    {
+      "archetype": "Macro Structural Retests",
+      "day_name": "Friday",
+      "trades": 21.0,
+      "win_rate": 47.61904761904761,
+      "profit_factor": 1.4705196923793984,
+      "net_pips": 40.37999999999999,
+      "expectancy_pips": 1.9228571428571424,
+      "day_order": 4
+    },
+    {
+      "archetype": "Macro Structural Retests",
+      "day_name": "Sunday",
+      "trades": 3.0,
+      "win_rate": 100.0,
+      "profit_factor": 99.0,
+      "net_pips": 62.34,
+      "expectancy_pips": 20.78,
+      "day_order": 99
+    },
+    {
+      "archetype": "Mean-Reversion & Pivot Bounces",
+      "day_name": "Monday",
+      "trades": 78.0,
+      "win_rate": 44.871794871794876,
+      "profit_factor": 1.4921351983889404,
+      "net_pips": 271.26,
+      "expectancy_pips": 3.4776923076923074,
+      "day_order": 0
+    },
+    {
+      "archetype": "Mean-Reversion & Pivot Bounces",
+      "day_name": "Tuesday",
+      "trades": 68.0,
+      "win_rate": 47.05882352941176,
+      "profit_factor": 1.6322630296293128,
+      "net_pips": 295.76000000000005,
+      "expectancy_pips": 4.349411764705883,
+      "day_order": 1
+    },
+    {
+      "archetype": "Mean-Reversion & Pivot Bounces",
+      "day_name": "Wednesday",
+      "trades": 54.0,
+      "win_rate": 24.074074074074073,
+      "profit_factor": 0.5840951856005169,
+      "net_pips": -218.82000000000002,
+      "expectancy_pips": -4.052222222222222,
+      "day_order": 2
+    },
+    {
+      "archetype": "Mean-Reversion & Pivot Bounces",
+      "day_name": "Thursday",
+      "trades": 54.0,
+      "win_rate": 44.44444444444444,
+      "profit_factor": 1.4735649935649937,
+      "net_pips": 183.97999999999996,
+      "expectancy_pips": 3.4070370370370364,
+      "day_order": 3
+    },
+    {
+      "archetype": "Mean-Reversion & Pivot Bounces",
+      "day_name": "Friday",
+      "trades": 58.0,
+      "win_rate": 37.93103448275862,
+      "profit_factor": 1.1543055614384343,
+      "net_pips": 72.85999999999999,
+      "expectancy_pips": 1.256206896551724,
+      "day_order": 4
+    },
+    {
+      "archetype": "Trend & Momentum Pullbacks",
+      "day_name": "Monday",
+      "trades": 1305.0,
+      "win_rate": 45.440613026819925,
+      "profit_factor": 1.795024659867306,
+      "net_pips": 10082.940000000095,
+      "expectancy_pips": 7.726390804597774,
+      "day_order": 0
+    },
+    {
+      "archetype": "Trend & Momentum Pullbacks",
+      "day_name": "Tuesday",
+      "trades": 1423.0,
+      "win_rate": 47.294448348559385,
+      "profit_factor": 1.7720091530772517,
+      "net_pips": 10563.270000000031,
+      "expectancy_pips": 7.423239634574864,
+      "day_order": 1
+    },
+    {
+      "archetype": "Trend & Momentum Pullbacks",
+      "day_name": "Wednesday",
+      "trades": 1369.0,
+      "win_rate": 42.220598977355735,
+      "profit_factor": 1.4868919116164974,
+      "net_pips": 7005.060000000039,
+      "expectancy_pips": 5.116917457998567,
+      "day_order": 2
+    },
+    {
+      "archetype": "Trend & Momentum Pullbacks",
+      "day_name": "Thursday",
+      "trades": 1435.0,
+      "win_rate": 46.68989547038328,
+      "profit_factor": 1.7246098386001438,
+      "net_pips": 10104.59000000002,
+      "expectancy_pips": 7.041526132404195,
+      "day_order": 3
+    },
+    {
+      "archetype": "Trend & Momentum Pullbacks",
+      "day_name": "Friday",
+      "trades": 1389.0,
+      "win_rate": 48.02015838732901,
+      "profit_factor": 1.6133020761462784,
+      "net_pips": 7040.0700000000725,
+      "expectancy_pips": 5.0684449244061,
+      "day_order": 4
+    },
+    {
+      "archetype": "Trend & Momentum Pullbacks",
+      "day_name": "Sunday",
+      "trades": 7.0,
+      "win_rate": 57.14285714285714,
+      "profit_factor": 1.172484002326999,
+      "net_pips": 11.860000000003868,
+      "expectancy_pips": 1.6942857142862668,
+      "day_order": 99
+    },
+    {
+      "archetype": "Volatility Breakouts & Expansion",
+      "day_name": "Monday",
+      "trades": 108.0,
+      "win_rate": 40.74074074074074,
+      "profit_factor": 1.2267631353875315,
+      "net_pips": 196.2,
+      "expectancy_pips": 1.8166666666666667,
+      "day_order": 0
+    },
+    {
+      "archetype": "Volatility Breakouts & Expansion",
+      "day_name": "Tuesday",
+      "trades": 125.0,
+      "win_rate": 45.6,
+      "profit_factor": 1.5838178618369756,
+      "net_pips": 524.14,
+      "expectancy_pips": 4.1931199999999995,
+      "day_order": 1
+    },
+    {
+      "archetype": "Volatility Breakouts & Expansion",
+      "day_name": "Wednesday",
+      "trades": 122.0,
+      "win_rate": 31.967213114754102,
+      "profit_factor": 0.8520297011727969,
+      "net_pips": -163.01000000000002,
+      "expectancy_pips": -1.3361475409836068,
+      "day_order": 2
+    },
+    {
+      "archetype": "Volatility Breakouts & Expansion",
+      "day_name": "Thursday",
+      "trades": 119.0,
+      "win_rate": 43.69747899159664,
+      "profit_factor": 1.4178531999408153,
+      "net_pips": 367.13000000000005,
+      "expectancy_pips": 3.0851260504201683,
+      "day_order": 3
+    },
+    {
+      "archetype": "Volatility Breakouts & Expansion",
+      "day_name": "Friday",
+      "trades": 117.0,
+      "win_rate": 43.58974358974359,
+      "profit_factor": 1.3976609571609515,
+      "net_pips": 335.94000000000005,
+      "expectancy_pips": 2.871282051282052,
+      "day_order": 4
+    }
+  ],
+  "duration_breakdown": [
+    {
+      "archetype": "Macro Structural Retests",
+      "duration_bracket": "<30m (Micro-Scalp)",
+      "trades": 12.0,
+      "win_rate": 83.33333333333334,
+      "profit_factor": 8.544609665427508,
+      "net_pips": 162.35999999999996,
+      "expectancy_pips": 13.529999999999996
+    },
+    {
+      "archetype": "Macro Structural Retests",
+      "duration_bracket": "30m-2h (Intraday)",
+      "trades": 20.0,
+      "win_rate": 75.0,
+      "profit_factor": 5.55315036722072,
+      "net_pips": 235.57999999999998,
+      "expectancy_pips": 11.779
+    },
+    {
+      "archetype": "Macro Structural Retests",
+      "duration_bracket": "2h-6h (Session)",
+      "trades": 25.0,
+      "win_rate": 44.0,
+      "profit_factor": 1.5218197552231423,
+      "net_pips": 84.42000000000002,
+      "expectancy_pips": 3.3768000000000007
+    },
+    {
+      "archetype": "Macro Structural Retests",
+      "duration_bracket": "6h-24h (Extended)",
+      "trades": 32.0,
+      "win_rate": 43.75,
+      "profit_factor": 1.076833300914219,
+      "net_pips": 15.800000000000026,
+      "expectancy_pips": 0.4937500000000008
+    },
+    {
+      "archetype": "Macro Structural Retests",
+      "duration_bracket": ">24h (Multi-Day)",
+      "trades": 8.0,
+      "win_rate": 50.0,
+      "profit_factor": 1.7769679300291543,
+      "net_pips": 42.64,
+      "expectancy_pips": 5.33
+    },
+    {
+      "archetype": "Mean-Reversion & Pivot Bounces",
+      "duration_bracket": "<30m (Micro-Scalp)",
+      "trades": 88.0,
+      "win_rate": 26.136363636363637,
+      "profit_factor": 0.6843079511989903,
+      "net_pips": -262.64000000000004,
+      "expectancy_pips": -2.984545454545455
+    },
+    {
+      "archetype": "Mean-Reversion & Pivot Bounces",
+      "duration_bracket": "30m-2h (Intraday)",
+      "trades": 115.0,
+      "win_rate": 42.608695652173914,
+      "profit_factor": 1.3701669855216234,
+      "net_pips": 313.45,
+      "expectancy_pips": 2.7256521739130433
+    },
+    {
+      "archetype": "Mean-Reversion & Pivot Bounces",
+      "duration_bracket": "2h-6h (Session)",
+      "trades": 79.0,
+      "win_rate": 44.303797468354425,
+      "profit_factor": 1.4016170241376993,
+      "net_pips": 238.93000000000004,
+      "expectancy_pips": 3.024430379746836
+    },
+    {
+      "archetype": "Mean-Reversion & Pivot Bounces",
+      "duration_bracket": "6h-24h (Extended)",
+      "trades": 27.0,
+      "win_rate": 62.96296296296296,
+      "profit_factor": 3.3522175732217576,
+      "net_pips": 281.09,
+      "expectancy_pips": 10.41074074074074
+    },
+    {
+      "archetype": "Mean-Reversion & Pivot Bounces",
+      "duration_bracket": ">24h (Multi-Day)",
+      "trades": 3.0,
+      "win_rate": 66.66666666666666,
+      "profit_factor": 3.7086302454473477,
+      "net_pips": 34.21,
+      "expectancy_pips": 11.403333333333334
+    },
+    {
+      "archetype": "Trend & Momentum Pullbacks",
+      "duration_bracket": "<30m (Micro-Scalp)",
+      "trades": 1083.0,
+      "win_rate": 18.09787626962142,
+      "profit_factor": 0.4233033149073487,
+      "net_pips": -7820.330000000018,
+      "expectancy_pips": -7.220987996306572
+    },
+    {
+      "archetype": "Trend & Momentum Pullbacks",
+      "duration_bracket": "30m-2h (Intraday)",
+      "trades": 1974.0,
+      "win_rate": 45.744680851063826,
+      "profit_factor": 1.5572928368246077,
+      "net_pips": 10244.43,
+      "expectancy_pips": 5.18968085106383
+    },
+    {
+      "archetype": "Trend & Momentum Pullbacks",
+      "duration_bracket": "2h-6h (Session)",
+      "trades": 1750.0,
+      "win_rate": 51.2,
+      "profit_factor": 2.068475154157664,
+      "net_pips": 16859.79000000003,
+      "expectancy_pips": 9.634165714285732
+    },
+    {
+      "archetype": "Trend & Momentum Pullbacks",
+      "duration_bracket": "6h-24h (Extended)",
+      "trades": 1566.0,
+      "win_rate": 53.44827586206896,
+      "profit_factor": 2.065863764591244,
+      "net_pips": 15619.530000000083,
+      "expectancy_pips": 9.974157088122658
+    },
+    {
+      "archetype": "Trend & Momentum Pullbacks",
+      "duration_bracket": ">24h (Multi-Day)",
+      "trades": 555.0,
+      "win_rate": 63.60360360360361,
+      "profit_factor": 3.5602081383867574,
+      "net_pips": 9904.370000000163,
+      "expectancy_pips": 17.845711711712006
+    },
+    {
+      "archetype": "Volatility Breakouts & Expansion",
+      "duration_bracket": "<30m (Micro-Scalp)",
+      "trades": 182.0,
+      "win_rate": 28.021978021978022,
+      "profit_factor": 0.7152198735622579,
+      "net_pips": -511.2800000000001,
+      "expectancy_pips": -2.8092307692307696
+    },
+    {
+      "archetype": "Volatility Breakouts & Expansion",
+      "duration_bracket": "30m-2h (Intraday)",
+      "trades": 200.0,
+      "win_rate": 46.0,
+      "profit_factor": 1.597097118163706,
+      "net_pips": 851.1499999999999,
+      "expectancy_pips": 4.255749999999999
+    },
+    {
+      "archetype": "Volatility Breakouts & Expansion",
+      "duration_bracket": "2h-6h (Session)",
+      "trades": 130.0,
+      "win_rate": 41.53846153846154,
+      "profit_factor": 1.265205778802962,
+      "net_pips": 262.14000000000004,
+      "expectancy_pips": 2.016461538461539
+    },
+    {
+      "archetype": "Volatility Breakouts & Expansion",
+      "duration_bracket": "6h-24h (Extended)",
+      "trades": 67.0,
+      "win_rate": 55.223880597014926,
+      "profit_factor": 2.281030378598957,
+      "net_pips": 452.05,
+      "expectancy_pips": 6.747014925373135
+    },
+    {
+      "archetype": "Volatility Breakouts & Expansion",
+      "duration_bracket": ">24h (Multi-Day)",
+      "trades": 12.0,
+      "win_rate": 75.0,
+      "profit_factor": 8.96987253765933,
+      "net_pips": 206.34,
+      "expectancy_pips": 17.195
+    }
+  ]
+}

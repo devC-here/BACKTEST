@@ -9679,3 +9679,19 @@ esults/individual_strategy_loss_regime_audit.json capturing strategy-specific da
   - Verified live execution logic and threshold checks with automated unit tests.
 
 ---
+
+## Turn 262: Transfer Live Regime Filter & Specification to Workspace Root
+- **Timestamp**: `2026-11-24 12:20:40 UTC` (2026-11-24 17:50:40 IST)
+- **User Prompt**:
+  > *"transfer into main folder not in subfolders"*
+
+- **Assistant Response**:
+  Transferred all core market regime files directly into the root workspace folder (d:\PROJECT\TRD\MODELS GENERATIONS\BACKTEST): live_regime_filter.py, LIVE_DEPLOYMENT_REGIME_SPECIFICATION_AND_FORMULAS.md, and MARKET_REGIMES_MATHEMATICS_AND_KILL_SWITCH_AUDIT.md. Verified root-level Python import and live execution.
+
+- **Changes Done Respectively**:
+- Placed live_regime_filter.py directly into workspace root.
+  - Placed LIVE_DEPLOYMENT_REGIME_SPECIFICATION_AND_FORMULAS.md directly into workspace root.
+  - Placed MARKET_REGIMES_MATHEMATICS_AND_KILL_SWITCH_AUDIT.md directly into workspace root.
+  - Verified root import and execution of LiveMarketRegimeFilter.
+
+---

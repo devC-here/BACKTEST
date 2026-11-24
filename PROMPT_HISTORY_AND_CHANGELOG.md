@@ -9756,3 +9756,16 @@ esults/non_usdjpy_regime_audit.json with pair-by-pair breakdowns.
   - Authored artifact `FORENSIC_SYSTEM_AND_STRATEGY_AUDIT_REPORT.md` documenting all findings, exact line references, and remediation plan.
 
 ---
+
+## Turn 267: Strategic Assessment: Surgical Infrastructure Fix vs Causal Strategy Fleet Rebuild
+- **Timestamp**: `2026-11-24 18:10:56 UTC` (2026-11-24 23:40:56 IST)
+- **User Prompt**:
+  > *"what you think we need massive rebuilding ?"*
+
+- **Assistant Response**:
+  Advised that a massive ground-up rebuild of the backtesting engine and data pipeline is NOT needed (~85% of the core infrastructure—1.5B-tick Dukascopy store, Numba JIT matching loop, friction accounting, and 70/30 chronological split—is solid and only needs surgical bug fixes plus a mandatory Truncation Causality Gate). However, the Strategy Fleet (68 of 71 models) DOES require a clean rebuild/re-discovery because those models were selected while the H4/H1 label='left' lookahead bug was active. Outlined a fast 4-phase v5.0 roadmap: (1) Surgical harness & causality gate fixes, (2) Retaining the 3 proven causal winners (disc172, disc170, disc75) and re-discovering 15-25 orthogonal strictly-causal strategies on Weeks 1..210, (3) Fixing MARKET_REGIME_SYSTEM.py on Weeks 1..210, and (4) Single-shot Holdout certification on Weeks 211..300.
+
+- **Changes Done Respectively**:
+- *Advisory & architectural planning turn: Evaluated rebuild scope across engine, regime filter, and strategy fleet.*
+
+---

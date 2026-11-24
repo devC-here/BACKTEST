@@ -9664,3 +9664,18 @@ esults/individual_strategy_loss_regime_audit.json capturing strategy-specific da
   - Proved that tailored strategy-level regime pruning purges 942 toxic trades and saves +3,544.6 pips of pure loss.
 
 ---
+
+## Turn 261: Live Deployment Regime Specifications, Formulas & Filter Module
+- **Timestamp**: `2026-11-24 12:14:41 UTC` (2026-11-24 17:44:41 IST)
+- **User Prompt**:
+  > *"give , me list of regime for respect statergy , fomulaes and toehr requirement sso i can emply them in my live depoyment"*
+
+- **Assistant Response**:
+  Delivered complete mathematical formulations, indicator formulas, strategy-to-regime mapping tables, and a production-ready drop-in Python module (v4.6/live_regime_filter.py) for live MT5 deployment. Formulated the 4 canonical regimes and 6 closed-form indicators (KER, CHOP, Hurst via Variance Ratio, RVR, BBWP, SVP). Detailed the exact strategy-level kill-switch predicates and integration steps for trade_controller.py. Comprehensive manual documented in LIVE_DEPLOYMENT_REGIME_SPECIFICATION_AND_FORMULAS.md.
+
+- **Changes Done Respectively**:
+- Authored comprehensive artifact LIVE_DEPLOYMENT_REGIME_SPECIFICATION_AND_FORMULAS.md in brain directory.
+  - Implemented 4.6/live_regime_filter.py providing zero-dependency live evaluation for MT5 terminals.
+  - Verified live execution logic and threshold checks with automated unit tests.
+
+---

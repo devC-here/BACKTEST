@@ -1,0 +1,41 @@
+{
+  "baseline": {
+    "name": "Baseline Fleet (No Filters)",
+    "total_trades": 7928,
+    "winning_trades": 3608,
+    "losing_trades": 4320,
+    "win_rate": 45.50958627648839,
+    "gross_win_pips": 120948.68000000033,
+    "gross_loss_pips": 73734.65000000005,
+    "net_pips": 47214.03000000026,
+    "profit_factor": 1.6403235114020374,
+    "expectancy_pips": 5.955351917255331,
+    "max_drawdown_pips": 974.7000000000262
+  },
+  "gated": {
+    "name": "Gated Fleet (Regime Filters Active)",
+    "total_trades": 7831,
+    "winning_trades": 3582,
+    "losing_trades": 4249,
+    "win_rate": 45.74128463797727,
+    "gross_win_pips": 120476.53000000033,
+    "gross_loss_pips": 72843.48000000007,
+    "net_pips": 47633.050000000265,
+    "profit_factor": 1.6539095880647139,
+    "expectancy_pips": 6.0826267398799985,
+    "max_drawdown_pips": 974.7000000000262
+  },
+  "blocked": {
+    "name": "Blocked Trades Only",
+    "total_trades": 97,
+    "winning_trades": 26,
+    "losing_trades": 71,
+    "win_rate": 26.804123711340207,
+    "gross_win_pips": 472.15,
+    "gross_loss_pips": 891.17,
+    "net_pips": -419.02,
+    "profit_factor": 0.5298091273269971,
+    "expectancy_pips": -4.319793814432989,
+    "max_drawdown_pips": 417.2399999999999
+  }
+}

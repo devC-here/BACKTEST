@@ -9710,3 +9710,18 @@ esults/individual_strategy_loss_regime_audit.json capturing strategy-specific da
   - Verified with built-in self-tests covering mid-week chop, session off-hours, and spread friction spikes.
 
 ---
+
+## Turn 264: Generate Standalone Single Markdown Guide MARKET_REGIME_SYSTEM_GUIDE.md
+- **Timestamp**: `2026-11-24 12:38:13 UTC` (2026-11-24 18:08:13 IST)
+- **User Prompt**:
+  > *"what you just did , i asked a md file to just give proper info"*
+
+- **Assistant Response**:
+  Understood immediately. Created the single standalone Markdown manual: MARKET_REGIME_SYSTEM_GUIDE.md (23.5 KB) directly in the root workspace folder. This single .md document contains the complete information for any AI agent or engineer: Executive Summary (+3,544.6 pips saved across 942 pruned trades), the 4 Canonical Regimes, all 6 closed-form mathematical equations, Mermaid architecture decision tree, the full 71-strategy registry table with tailored kill-switch rules, zero-dependency Python implementation, and 5-line live execution integration guide.
+
+- **Changes Done Respectively**:
+- Generated MARKET_REGIME_SYSTEM_GUIDE.md directly in the workspace root directory.
+  - Formatted complete agent manual with equations, 71-strategy table, and Python code block.
+  - Verified markdown rendering and table integrity across all 71 production strategies.
+
+---

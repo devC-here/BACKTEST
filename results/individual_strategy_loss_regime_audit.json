@@ -1,0 +1,7266 @@
+[
+  {
+    "name": "disc115",
+    "symbol": "AUDCAD",
+    "category": "audcad_champions",
+    "total_trades": 30,
+    "win_rate": 63.33333333333333,
+    "profit_factor": 2.976111866381789,
+    "net_pips": 406.9999999999997,
+    "gross_loss": 205.9600000000033,
+    "avg_win_dur_min": 546.2769228070176,
+    "avg_loss_dur_min": 797.462343939394,
+    "direction_bias": {
+      "long_trades": 16,
+      "long_pips": 359.14000000000124,
+      "long_pf": 9.828416912487706,
+      "short_trades": 14,
+      "short_pips": 47.85999999999853,
+      "short_pf": 1.2895692158760748
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 8,
+        "wins": 5,
+        "losses": 3,
+        "win_rate": 62.5,
+        "net_pips": 123.22000000000061,
+        "profit_factor": 3.2050823192555216
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 6,
+        "wins": 5,
+        "losses": 1,
+        "win_rate": 83.33333333333334,
+        "net_pips": 128.13999999999993,
+        "profit_factor": 7.830490405117108
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 12,
+        "wins": 7,
+        "losses": 5,
+        "win_rate": 58.333333333333336,
+        "net_pips": 154.57999999999976,
+        "profit_factor": 2.647974413646015
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 4,
+        "wins": 2,
+        "losses": 2,
+        "win_rate": 50.0,
+        "net_pips": 1.059999999999416,
+        "profit_factor": 1.028251599147106
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 8,
+        "wins": 5,
+        "losses": 3,
+        "win_rate": 62.5,
+        "net_pips": 60.019999999997324,
+        "profit_factor": 2.1037146009561627
+      },
+      "Monday": {
+        "trades": 6,
+        "wins": 5,
+        "losses": 1,
+        "win_rate": 83.33333333333334,
+        "net_pips": 158.94000000000077,
+        "profit_factor": 9.563577586206828
+      },
+      "Thursday": {
+        "trades": 4,
+        "wins": 2,
+        "losses": 2,
+        "win_rate": 50.0,
+        "net_pips": 31.660000000000043,
+        "profit_factor": 1.801113360323874
+      },
+      "Tuesday": {
+        "trades": 7,
+        "wins": 3,
+        "losses": 4,
+        "win_rate": 42.857142857142854,
+        "net_pips": 31.68000000000007,
+        "profit_factor": 1.4244372990353629
+      },
+      "Wednesday": {
+        "trades": 5,
+        "wins": 4,
+        "losses": 1,
+        "win_rate": 80.0,
+        "net_pips": 124.7000000000015,
+        "profit_factor": 7.611876988335187
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 30,
+      "new_wr": 63.33333333333333,
+      "new_pf": 2.976111866381789,
+      "new_net_pips": 406.9999999999997,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc116",
+    "symbol": "AUDCAD",
+    "category": "audcad_champions",
+    "total_trades": 30,
+    "win_rate": 56.666666666666664,
+    "profit_factor": 2.855621076659616,
+    "net_pips": 390.199999999994,
+    "gross_loss": 210.28000000000537,
+    "avg_win_dur_min": 706.8675421568628,
+    "avg_loss_dur_min": 842.4229371794871,
+    "direction_bias": {
+      "long_trades": 16,
+      "long_pips": 346.93999999999903,
+      "long_pf": 7.202002145155523,
+      "short_trades": 14,
+      "short_pips": 43.259999999995046,
+      "short_pf": 1.280290268238911
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 8,
+        "wins": 5,
+        "losses": 3,
+        "win_rate": 62.5,
+        "net_pips": 148.01999999999873,
+        "profit_factor": 3.967522052926906
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 6,
+        "wins": 5,
+        "losses": 1,
+        "win_rate": 83.33333333333334,
+        "net_pips": 145.83999999999935,
+        "profit_factor": 9.701670644391024
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 12,
+        "wins": 5,
+        "losses": 7,
+        "win_rate": 41.66666666666667,
+        "net_pips": 89.07999999999703,
+        "profit_factor": 1.8216196273749734
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 4,
+        "wins": 2,
+        "losses": 2,
+        "win_rate": 50.0,
+        "net_pips": 7.2599999999989535,
+        "profit_factor": 1.2061328790459656
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 8,
+        "wins": 4,
+        "losses": 4,
+        "win_rate": 50.0,
+        "net_pips": 32.71999999999613,
+        "profit_factor": 1.6054774241301817
+      },
+      "Monday": {
+        "trades": 6,
+        "wins": 5,
+        "losses": 1,
+        "win_rate": 83.33333333333334,
+        "net_pips": 180.73999999999924,
+        "profit_factor": 11.914251207729121
+      },
+      "Thursday": {
+        "trades": 4,
+        "wins": 2,
+        "losses": 2,
+        "win_rate": 50.0,
+        "net_pips": 41.46000000000096,
+        "profit_factor": 2.0991516436903765
+      },
+      "Tuesday": {
+        "trades": 7,
+        "wins": 3,
+        "losses": 4,
+        "win_rate": 42.857142857142854,
+        "net_pips": 49.77999999999763,
+        "profit_factor": 1.726291216807643
+      },
+      "Wednesday": {
+        "trades": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0,
+        "net_pips": 85.50000000000004,
+        "profit_factor": 3.5583482944344214
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 30,
+      "new_wr": 56.666666666666664,
+      "new_pf": 2.855621076659616,
+      "new_net_pips": 390.199999999994,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc117",
+    "symbol": "AUDCAD",
+    "category": "audcad_champions",
+    "total_trades": 37,
+    "win_rate": 59.45945945945946,
+    "profit_factor": 2.239959772041544,
+    "net_pips": 369.8799999999987,
+    "gross_loss": 298.30000000000507,
+    "avg_win_dur_min": 600.0795704545455,
+    "avg_loss_dur_min": 870.690812222222,
+    "direction_bias": {
+      "long_trades": 18,
+      "long_pips": 363.920000000001,
+      "long_pf": 7.535919540229819,
+      "short_trades": 19,
+      "short_pips": 5.95999999999772,
+      "short_pf": 1.0245651636303588
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 10,
+        "wins": 6,
+        "losses": 4,
+        "win_rate": 60.0,
+        "net_pips": 140.10000000000082,
+        "profit_factor": 2.8820526598602716
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 10,
+        "wins": 7,
+        "losses": 3,
+        "win_rate": 70.0,
+        "net_pips": 130.2999999999999,
+        "profit_factor": 3.2092234655815055
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 15,
+        "wins": 8,
+        "losses": 7,
+        "win_rate": 53.333333333333336,
+        "net_pips": 115.29999999999879,
+        "profit_factor": 1.789617860567022
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 50.0,
+        "net_pips": -15.820000000000821,
+        "profit_factor": 0.16118769883346568
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 10,
+        "wins": 7,
+        "losses": 3,
+        "win_rate": 70.0,
+        "net_pips": 64.99999999999733,
+        "profit_factor": 1.9382217090068763
+      },
+      "Monday": {
+        "trades": 7,
+        "wins": 5,
+        "losses": 2,
+        "win_rate": 71.42857142857143,
+        "net_pips": 140.3800000000005,
+        "profit_factor": 4.781788793103414
+      },
+      "Thursday": {
+        "trades": 4,
+        "wins": 2,
+        "losses": 2,
+        "win_rate": 50.0,
+        "net_pips": 31.660000000000043,
+        "profit_factor": 1.801113360323874
+      },
+      "Tuesday": {
+        "trades": 10,
+        "wins": 4,
+        "losses": 6,
+        "win_rate": 40.0,
+        "net_pips": 26.79999999999908,
+        "profit_factor": 1.2331245650660962
+      },
+      "Wednesday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 106.0400000000017,
+        "profit_factor": 3.8337787279529953
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 37,
+      "new_wr": 59.45945945945946,
+      "new_pf": 2.239959772041544,
+      "new_net_pips": 369.8799999999987,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc118",
+    "symbol": "AUDCAD",
+    "category": "audcad_champions",
+    "total_trades": 23,
+    "win_rate": 65.21739130434783,
+    "profit_factor": 2.9217750533048656,
+    "net_pips": 288.41999999999877,
+    "gross_loss": 150.08000000000237,
+    "avg_win_dur_min": 488.11297888888896,
+    "avg_loss_dur_min": 527.3666104166666,
+    "direction_bias": {
+      "long_trades": 12,
+      "long_pips": 269.67999999999995,
+      "long_pf": 13.191681735985581,
+      "short_trades": 11,
+      "short_pips": 18.739999999998812,
+      "short_pf": 1.1464520162550675
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 6,
+        "wins": 5,
+        "losses": 1,
+        "win_rate": 83.33333333333334,
+        "net_pips": 128.13999999999993,
+        "profit_factor": 7.830490405117108
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 12,
+        "wins": 7,
+        "losses": 5,
+        "win_rate": 58.333333333333336,
+        "net_pips": 154.57999999999976,
+        "profit_factor": 2.647974413646015
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0,
+        "net_pips": 5.699999999999065,
+        "profit_factor": 1.1519189765458182
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 9,
+        "wins": 6,
+        "losses": 3,
+        "win_rate": 66.66666666666666,
+        "net_pips": 64.65999999999697,
+        "profit_factor": 2.1890400882676664
+      },
+      "Monday": {
+        "trades": 3,
+        "wins": 3,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 106.42000000000098,
+        "profit_factor": 99.0
+      },
+      "Thursday": {
+        "trades": 3,
+        "wins": 2,
+        "losses": 1,
+        "win_rate": 66.66666666666666,
+        "net_pips": 50.22000000000028,
+        "profit_factor": 3.395992366412179
+      },
+      "Tuesday": {
+        "trades": 5,
+        "wins": 2,
+        "losses": 3,
+        "win_rate": 40.0,
+        "net_pips": 15.000000000000028,
+        "profit_factor": 1.2684323550465246
+      },
+      "Wednesday": {
+        "trades": 3,
+        "wins": 2,
+        "losses": 1,
+        "win_rate": 66.66666666666666,
+        "net_pips": 52.120000000000516,
+        "profit_factor": 3.763520678685078
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 23,
+      "new_wr": 65.21739130434783,
+      "new_pf": 2.9217750533048656,
+      "new_net_pips": 288.41999999999877,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc159",
+    "symbol": "AUDCAD",
+    "category": "audcad_champions",
+    "total_trades": 23,
+    "win_rate": 47.82608695652174,
+    "profit_factor": 1.4400649200092408,
+    "net_pips": 75.91999999999445,
+    "gross_loss": 172.5200000000004,
+    "avg_win_dur_min": 317.97416666666663,
+    "avg_loss_dur_min": 228.03593750000005,
+    "direction_bias": {
+      "long_trades": 12,
+      "long_pips": 9.779999999998184,
+      "long_pf": 1.100700164744627,
+      "short_trades": 11,
+      "short_pips": 66.13999999999626,
+      "short_pf": 1.8771883289124123
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 68.73999999999938,
+        "profit_factor": 3.7364649681528883
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 4,
+        "wins": 2,
+        "losses": 2,
+        "win_rate": 50.0,
+        "net_pips": 21.25999999999852,
+        "profit_factor": 1.8233927188225696
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 12,
+        "wins": 4,
+        "losses": 8,
+        "win_rate": 33.33333333333333,
+        "net_pips": -37.62000000000369,
+        "profit_factor": 0.6905741075834566
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 23.540000000000237,
+        "profit_factor": 99.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 7,
+        "wins": 2,
+        "losses": 5,
+        "win_rate": 28.57142857142857,
+        "net_pips": -37.120000000001,
+        "profit_factor": 0.4949659863945456
+      },
+      "Monday": {
+        "trades": 5,
+        "wins": 5,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 117.49999999999653,
+        "profit_factor": 99.0
+      },
+      "Thursday": {
+        "trades": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "net_pips": -33.61999999999975,
+        "profit_factor": 0.0
+      },
+      "Tuesday": {
+        "trades": 5,
+        "wins": 2,
+        "losses": 3,
+        "win_rate": 40.0,
+        "net_pips": 7.299999999997333,
+        "profit_factor": 1.1812313803375667
+      },
+      "Wednesday": {
+        "trades": 4,
+        "wins": 2,
+        "losses": 2,
+        "win_rate": 50.0,
+        "net_pips": 21.86000000000135,
+        "profit_factor": 1.8702229299363744
+      }
+    },
+    "toxic_sessions": [
+      "London/NY Overlap (12:00-16:00)"
+    ],
+    "toxic_days": [
+      "Friday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 14,
+      "pruned_pct": 60.86956521739131,
+      "new_trades": 9,
+      "new_wr": 77.77777777777779,
+      "new_pf": 6.496050552922548,
+      "new_net_pips": 139.15999999999767,
+      "pip_gain": 63.24000000000322
+    }
+  },
+  {
+    "name": "disc160",
+    "symbol": "AUDCAD",
+    "category": "audcad_champions",
+    "total_trades": 31,
+    "win_rate": 51.61290322580645,
+    "profit_factor": 1.7262116716122202,
+    "net_pips": 146.83999999999213,
+    "gross_loss": 202.20000000000175,
+    "avg_win_dur_min": 252.03337395833333,
+    "avg_loss_dur_min": 329.3556966666667,
+    "direction_bias": {
+      "long_trades": 15,
+      "long_pips": 16.699999999995683,
+      "long_pf": 1.1469552974304433,
+      "short_trades": 16,
+      "short_pips": 130.13999999999646,
+      "short_pf": 2.4695121951218972
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 12,
+        "wins": 7,
+        "losses": 5,
+        "win_rate": 58.333333333333336,
+        "net_pips": 102.37999999999641,
+        "profit_factor": 2.597191887675459
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 15,
+        "wins": 7,
+        "losses": 8,
+        "win_rate": 46.666666666666664,
+        "net_pips": 32.89999999999635,
+        "profit_factor": 1.270826473493546
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 4,
+        "wins": 2,
+        "losses": 2,
+        "win_rate": 50.0,
+        "net_pips": 11.559999999999372,
+        "profit_factor": 1.6955475330926002
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 12,
+        "wins": 4,
+        "losses": 8,
+        "win_rate": 33.33333333333333,
+        "net_pips": -38.720000000003125,
+        "profit_factor": 0.6247334754797195
+      },
+      "Monday": {
+        "trades": 5,
+        "wins": 4,
+        "losses": 1,
+        "win_rate": 80.0,
+        "net_pips": 81.39999999999762,
+        "profit_factor": 7.480891719745142
+      },
+      "Thursday": {
+        "trades": 3,
+        "wins": 2,
+        "losses": 1,
+        "win_rate": 66.66666666666666,
+        "net_pips": 26.219999999999597,
+        "profit_factor": 2.2509541984732384
+      },
+      "Tuesday": {
+        "trades": 8,
+        "wins": 4,
+        "losses": 4,
+        "win_rate": 50.0,
+        "net_pips": 43.51999999999693,
+        "profit_factor": 1.8220627125046616
+      },
+      "Wednesday": {
+        "trades": 3,
+        "wins": 2,
+        "losses": 1,
+        "win_rate": 66.66666666666666,
+        "net_pips": 34.42000000000114,
+        "profit_factor": 3.740445859872749
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Friday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 12,
+      "pruned_pct": 38.70967741935484,
+      "new_trades": 19,
+      "new_wr": 63.1578947368421,
+      "new_pf": 2.87396485558468,
+      "new_net_pips": 185.55999999999528,
+      "pip_gain": 38.720000000003154
+    }
+  },
+  {
+    "name": "disc111_h4_macro_structure_retest_elite",
+    "symbol": "AUDNZD",
+    "category": "audnzd_champions",
+    "total_trades": 28,
+    "win_rate": 60.71428571428571,
+    "profit_factor": 2.5596552652841362,
+    "net_pips": 231.64000000000001,
+    "gross_loss": 148.52,
+    "avg_win_dur_min": 663.2273735294118,
+    "avg_loss_dur_min": 921.8065954545455,
+    "direction_bias": {
+      "long_trades": 14,
+      "long_pips": 72.32,
+      "long_pf": 1.8067826863007588,
+      "short_trades": 14,
+      "short_pips": 159.32,
+      "short_pf": 3.7058423913043477
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 17,
+        "wins": 12,
+        "losses": 5,
+        "win_rate": 70.58823529411765,
+        "net_pips": 190.35999999999999,
+        "profit_factor": 3.5724324324324326
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 3,
+        "wins": 1,
+        "losses": 2,
+        "win_rate": 33.33333333333333,
+        "net_pips": -23.660000000000004,
+        "profit_factor": 0.1990521327014218
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 8,
+        "wins": 4,
+        "losses": 4,
+        "win_rate": 50.0,
+        "net_pips": 64.94,
+        "profit_factor": 2.443752779012894
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 7,
+        "wins": 5,
+        "losses": 2,
+        "win_rate": 71.42857142857143,
+        "net_pips": 43.46,
+        "profit_factor": 3.814766839378238
+      },
+      "Monday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 80.08,
+        "profit_factor": 3.7109004739336497
+      },
+      "Sunday": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 18.98,
+        "profit_factor": 99.0
+      },
+      "Thursday": {
+        "trades": 6,
+        "wins": 3,
+        "losses": 3,
+        "win_rate": 50.0,
+        "net_pips": 38.480000000000004,
+        "profit_factor": 1.8713768115942027
+      },
+      "Tuesday": {
+        "trades": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0,
+        "net_pips": 52.199999999999996,
+        "profit_factor": 2.7493297587131367
+      },
+      "Wednesday": {
+        "trades": 3,
+        "wins": 1,
+        "losses": 2,
+        "win_rate": 33.33333333333333,
+        "net_pips": -1.5599999999999987,
+        "profit_factor": 0.947190250507786
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 28,
+      "new_wr": 60.71428571428571,
+      "new_pf": 2.5596552652841362,
+      "new_net_pips": 231.64000000000001,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc112_h4_macro_precision_retest_elite",
+    "symbol": "AUDNZD",
+    "category": "audnzd_champions",
+    "total_trades": 29,
+    "win_rate": 55.172413793103445,
+    "profit_factor": 2.0625,
+    "net_pips": 167.62000000000003,
+    "gross_loss": 157.76,
+    "avg_win_dur_min": 493.7868083333334,
+    "avg_loss_dur_min": 705.5971794871795,
+    "direction_bias": {
+      "long_trades": 14,
+      "long_pips": 66.12,
+      "long_pf": 1.8240279162512465,
+      "short_trades": 15,
+      "short_pips": 101.5,
+      "short_pf": 2.3093395252837974
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 17,
+        "wins": 12,
+        "losses": 5,
+        "win_rate": 70.58823529411765,
+        "net_pips": 184.86000000000004,
+        "profit_factor": 3.861609907120743
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 4,
+        "wins": 1,
+        "losses": 3,
+        "win_rate": 25.0,
+        "net_pips": -34.480000000000004,
+        "profit_factor": 0.14568880079286423
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 8,
+        "wins": 3,
+        "losses": 5,
+        "win_rate": 37.5,
+        "net_pips": 17.240000000000002,
+        "profit_factor": 1.3265151515151516
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 7,
+        "wins": 5,
+        "losses": 2,
+        "win_rate": 71.42857142857143,
+        "net_pips": 53.46000000000001,
+        "profit_factor": 4.86271676300578
+      },
+      "Monday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 67.88,
+        "profit_factor": 3.668238993710692
+      },
+      "Sunday": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 23.48,
+        "profit_factor": 99.0
+      },
+      "Thursday": {
+        "trades": 6,
+        "wins": 2,
+        "losses": 4,
+        "win_rate": 33.33333333333333,
+        "net_pips": -4.820000000000002,
+        "profit_factor": 0.906733746130031
+      },
+      "Tuesday": {
+        "trades": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0,
+        "net_pips": 44.099999999999994,
+        "profit_factor": 2.66164280331575
+      },
+      "Wednesday": {
+        "trades": 4,
+        "wins": 1,
+        "losses": 3,
+        "win_rate": 25.0,
+        "net_pips": -16.479999999999997,
+        "profit_factor": 0.5906607054148039
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Thursday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 29,
+      "new_wr": 55.172413793103445,
+      "new_pf": 2.0625,
+      "new_net_pips": 167.62000000000003,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc113_h1_macro_intraday_retest_elite",
+    "symbol": "AUDNZD",
+    "category": "audnzd_champions",
+    "total_trades": 18,
+    "win_rate": 50.0,
+    "profit_factor": 1.715352220520674,
+    "net_pips": 74.74000000000001,
+    "gross_loss": 104.47999999999999,
+    "avg_win_dur_min": 283.7089814814815,
+    "avg_loss_dur_min": 345.33107222222225,
+    "direction_bias": {
+      "long_trades": 9,
+      "long_pips": 61.519999999999996,
+      "long_pf": 2.538769384692346,
+      "short_trades": 9,
+      "short_pips": 13.220000000000002,
+      "short_pf": 1.2049612403100776
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 7,
+        "wins": 5,
+        "losses": 2,
+        "win_rate": 71.42857142857143,
+        "net_pips": 75.06,
+        "profit_factor": 3.8496583143507968
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 5,
+        "wins": 1,
+        "losses": 4,
+        "win_rate": 20.0,
+        "net_pips": -31.599999999999998,
+        "profit_factor": 0.3813625685199687
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 6,
+        "wins": 3,
+        "losses": 3,
+        "win_rate": 50.0,
+        "net_pips": 31.280000000000005,
+        "profit_factor": 2.155949741315595
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "net_pips": -14.040000000000001,
+        "profit_factor": 0.0
+      },
+      "Monday": {
+        "trades": 4,
+        "wins": 1,
+        "losses": 3,
+        "win_rate": 25.0,
+        "net_pips": -19.78,
+        "profit_factor": 0.4935995903737839
+      },
+      "Sunday": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 19.88,
+        "profit_factor": 99.0
+      },
+      "Thursday": {
+        "trades": 3,
+        "wins": 2,
+        "losses": 1,
+        "win_rate": 66.66666666666666,
+        "net_pips": 26.44,
+        "profit_factor": 3.0307219662058373
+      },
+      "Tuesday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 55.480000000000004,
+        "profit_factor": 3.1638065522620904
+      },
+      "Wednesday": {
+        "trades": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 50.0,
+        "net_pips": 6.76,
+        "profit_factor": 1.5314465408805031
+      }
+    },
+    "toxic_sessions": [
+      "London Open (06:00-12:00)"
+    ],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 5,
+      "pruned_pct": 27.77777777777778,
+      "new_trades": 13,
+      "new_wr": 61.53846153846154,
+      "new_pf": 2.9913857677902627,
+      "new_net_pips": 106.34,
+      "pip_gain": 31.599999999999994
+    }
+  },
+  {
+    "name": "disc114_h4_macro_wide_runner_elite",
+    "symbol": "AUDNZD",
+    "category": "audnzd_champions",
+    "total_trades": 28,
+    "win_rate": 64.28571428571429,
+    "profit_factor": 3.034618079887877,
+    "net_pips": 290.34,
+    "gross_loss": 142.7,
+    "avg_win_dur_min": 925.213987037037,
+    "avg_loss_dur_min": 968.2469133333332,
+    "direction_bias": {
+      "long_trades": 14,
+      "long_pips": 121.11999999999999,
+      "long_pf": 2.5174141819092957,
+      "short_trades": 14,
+      "short_pips": 169.22,
+      "short_pf": 3.6911577608142485
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 17,
+        "wins": 12,
+        "losses": 5,
+        "win_rate": 70.58823529411765,
+        "net_pips": 201.56,
+        "profit_factor": 3.554626108998732
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 3,
+        "wins": 2,
+        "losses": 1,
+        "win_rate": 66.66666666666666,
+        "net_pips": 19.440000000000005,
+        "profit_factor": 2.236641221374046
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 8,
+        "wins": 4,
+        "losses": 4,
+        "win_rate": 50.0,
+        "net_pips": 69.34,
+        "profit_factor": 2.442179700499168
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 7,
+        "wins": 5,
+        "losses": 2,
+        "win_rate": 71.42857142857143,
+        "net_pips": 44.36,
+        "profit_factor": 3.681983071342201
+      },
+      "Monday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 85.67999999999999,
+        "profit_factor": 3.7079646017699113
+      },
+      "Sunday": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 18.98,
+        "profit_factor": 99.0
+      },
+      "Thursday": {
+        "trades": 6,
+        "wins": 3,
+        "losses": 3,
+        "win_rate": 50.0,
+        "net_pips": 41.18,
+        "profit_factor": 1.873197625106022
+      },
+      "Tuesday": {
+        "trades": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0,
+        "net_pips": 56.5,
+        "profit_factor": 2.7857142857142856
+      },
+      "Wednesday": {
+        "trades": 3,
+        "wins": 2,
+        "losses": 1,
+        "win_rate": 66.66666666666666,
+        "net_pips": 43.64,
+        "profit_factor": 3.7760814249363865
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 28,
+      "new_wr": 64.28571428571429,
+      "new_pf": 3.034618079887877,
+      "new_net_pips": 290.34,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc145",
+    "symbol": "AUDNZD",
+    "category": "audnzd_champions",
+    "total_trades": 29,
+    "win_rate": 72.41379310344827,
+    "profit_factor": 4.745093402695895,
+    "net_pips": 633.5200000000216,
+    "gross_loss": 169.15999999999576,
+    "avg_win_dur_min": 1566.0840896825398,
+    "avg_loss_dur_min": 1469.7250354166665,
+    "direction_bias": {
+      "long_trades": 13,
+      "long_pips": 164.1400000000042,
+      "long_pf": 2.473429084380676,
+      "short_trades": 16,
+      "short_pips": 469.38000000001745,
+      "short_pf": 9.126385041551847
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 20,
+        "wins": 15,
+        "losses": 5,
+        "win_rate": 75.0,
+        "net_pips": 537.8000000000183,
+        "profit_factor": 5.810375670841118
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 3,
+        "wins": 2,
+        "losses": 1,
+        "win_rate": 66.66666666666666,
+        "net_pips": 5.240000000001849,
+        "profit_factor": 1.2306338028169848
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 90.48000000000155,
+        "profit_factor": 3.6120092378753403
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 6,
+        "wins": 5,
+        "losses": 1,
+        "win_rate": 83.33333333333334,
+        "net_pips": 35.780000000007355,
+        "profit_factor": 3.030646992055192
+      },
+      "Monday": {
+        "trades": 7,
+        "wins": 5,
+        "losses": 2,
+        "win_rate": 71.42857142857143,
+        "net_pips": 183.96000000000805,
+        "profit_factor": 5.0306748466260585
+      },
+      "Sunday": {
+        "trades": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 50.0,
+        "net_pips": 0.7600000000010887,
+        "profit_factor": 1.0331588132635745
+      },
+      "Thursday": {
+        "trades": 4,
+        "wins": 2,
+        "losses": 2,
+        "win_rate": 50.0,
+        "net_pips": 35.92000000000105,
+        "profit_factor": 1.790492957746509
+      },
+      "Tuesday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 159.48000000000283,
+        "profit_factor": 5.248268513585456
+      },
+      "Wednesday": {
+        "trades": 4,
+        "wins": 4,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 217.62000000000126,
+        "profit_factor": 99.0
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 29,
+      "new_wr": 72.41379310344827,
+      "new_pf": 4.745093402695895,
+      "new_net_pips": 633.5200000000216,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc146",
+    "symbol": "AUDNZD",
+    "category": "audnzd_champions",
+    "total_trades": 39,
+    "win_rate": 64.1025641025641,
+    "profit_factor": 3.2567627168481077,
+    "net_pips": 614.0200000000232,
+    "gross_loss": 272.0799999999956,
+    "avg_win_dur_min": 1967.3673546666666,
+    "avg_loss_dur_min": 1141.744007142857,
+    "direction_bias": {
+      "long_trades": 19,
+      "long_pips": 288.0200000000114,
+      "long_pf": 3.230292705590991,
+      "short_trades": 20,
+      "short_pips": 326.0000000000117,
+      "short_pf": 3.2806772072198997
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 25,
+        "wins": 17,
+        "losses": 8,
+        "win_rate": 68.0,
+        "net_pips": 512.8000000000179,
+        "profit_factor": 3.7210018040964856
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 5,
+        "wins": 4,
+        "losses": 1,
+        "win_rate": 80.0,
+        "net_pips": 37.00000000000175,
+        "profit_factor": 2.6285211267606545
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 8,
+        "wins": 4,
+        "losses": 4,
+        "win_rate": 50.0,
+        "net_pips": 67.04000000000397,
+        "profit_factor": 2.1542699724519085
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0,
+        "net_pips": -2.8200000000004346,
+        "profit_factor": 0.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 9,
+        "wins": 5,
+        "losses": 4,
+        "win_rate": 55.55555555555556,
+        "net_pips": 13.320000000007596,
+        "profit_factor": 1.3488737558933743
+      },
+      "Monday": {
+        "trades": 9,
+        "wins": 6,
+        "losses": 3,
+        "win_rate": 66.66666666666666,
+        "net_pips": 210.62000000001007,
+        "profit_factor": 4.081041544763234
+      },
+      "Sunday": {
+        "trades": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 50.0,
+        "net_pips": -3.939999999998612,
+        "profit_factor": 0.8280977312391448
+      },
+      "Thursday": {
+        "trades": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0,
+        "net_pips": 38.900000000000865,
+        "profit_factor": 1.8560739436619986
+      },
+      "Tuesday": {
+        "trades": 8,
+        "wins": 6,
+        "losses": 2,
+        "win_rate": 75.0,
+        "net_pips": 222.84000000000322,
+        "profit_factor": 6.936068193926387
+      },
+      "Wednesday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 132.2800000000001,
+        "profit_factor": 3.217974513749104
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 39,
+      "new_wr": 64.1025641025641,
+      "new_pf": 3.2567627168481077,
+      "new_net_pips": 614.0200000000232,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc147",
+    "symbol": "AUDNZD",
+    "category": "audnzd_champions",
+    "total_trades": 40,
+    "win_rate": 62.5,
+    "profit_factor": 3.2312180889862563,
+    "net_pips": 611.8000000000222,
+    "gross_loss": 274.1999999999959,
+    "avg_win_dur_min": 1978.539970666667,
+    "avg_loss_dur_min": 1078.6220877777776,
+    "direction_bias": {
+      "long_trades": 19,
+      "long_pips": 287.92000000001076,
+      "long_pf": 3.2295183521760875,
+      "short_trades": 21,
+      "short_pips": 323.8800000000114,
+      "short_pf": 3.2327312836068627
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 24,
+        "wins": 16,
+        "losses": 8,
+        "win_rate": 66.66666666666666,
+        "net_pips": 458.42000000001667,
+        "profit_factor": 3.4324525098165233
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 5,
+        "wins": 4,
+        "losses": 1,
+        "win_rate": 80.0,
+        "net_pips": 37.00000000000175,
+        "profit_factor": 2.6285211267606545
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 8,
+        "wins": 4,
+        "losses": 4,
+        "win_rate": 50.0,
+        "net_pips": 67.04000000000397,
+        "profit_factor": 2.1542699724519085
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 3,
+        "wins": 1,
+        "losses": 2,
+        "win_rate": 33.33333333333333,
+        "net_pips": 49.33999999999988,
+        "profit_factor": 10.987854251010658
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 10,
+        "wins": 5,
+        "losses": 5,
+        "win_rate": 50.0,
+        "net_pips": 11.200000000007307,
+        "profit_factor": 1.2779156327545502
+      },
+      "Monday": {
+        "trades": 10,
+        "wins": 7,
+        "losses": 3,
+        "win_rate": 70.0,
+        "net_pips": 264.90000000001066,
+        "profit_factor": 4.875073142188655
+      },
+      "Sunday": {
+        "trades": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 50.0,
+        "net_pips": -3.939999999998612,
+        "profit_factor": 0.8280977312391448
+      },
+      "Thursday": {
+        "trades": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0,
+        "net_pips": 38.900000000000865,
+        "profit_factor": 1.8560739436619986
+      },
+      "Tuesday": {
+        "trades": 7,
+        "wins": 5,
+        "losses": 2,
+        "win_rate": 71.42857142857143,
+        "net_pips": 168.46000000000197,
+        "profit_factor": 5.48748002131052
+      },
+      "Wednesday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 132.2800000000001,
+        "profit_factor": 3.217974513749104
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 40,
+      "new_wr": 62.5,
+      "new_pf": 3.2312180889862563,
+      "new_net_pips": 611.8000000000222,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc107_h1_keltner_squeeze_explosion_elite",
+    "symbol": "EURGBP",
+    "category": "eurgbp_champions",
+    "total_trades": 40,
+    "win_rate": 47.5,
+    "profit_factor": 1.7065552627151908,
+    "net_pips": 126.0,
+    "gross_loss": 178.33000000000004,
+    "avg_win_dur_min": 853.6507394736843,
+    "avg_loss_dur_min": 593.8419793650794,
+    "direction_bias": {
+      "long_trades": 21,
+      "long_pips": 22.87,
+      "long_pf": 1.2311034761519806,
+      "short_trades": 19,
+      "short_pips": 103.13000000000001,
+      "short_pf": 2.2993574398387304
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 20,
+        "wins": 10,
+        "losses": 10,
+        "win_rate": 50.0,
+        "net_pips": 72.7,
+        "profit_factor": 1.8270762229806596
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 17,
+        "wins": 9,
+        "losses": 8,
+        "win_rate": 52.94117647058824,
+        "net_pips": 82.39,
+        "profit_factor": 2.3431692207368764
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 3,
+        "wins": 0,
+        "losses": 3,
+        "win_rate": 0.0,
+        "net_pips": -29.089999999999996,
+        "profit_factor": 0.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 7,
+        "wins": 4,
+        "losses": 3,
+        "win_rate": 57.14285714285714,
+        "net_pips": 16.589999999999996,
+        "profit_factor": 1.7062579821200512
+      },
+      "Monday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 60.22,
+        "profit_factor": 4.593078758949882
+      },
+      "Thursday": {
+        "trades": 11,
+        "wins": 5,
+        "losses": 6,
+        "win_rate": 45.45454545454545,
+        "net_pips": 20.869999999999997,
+        "profit_factor": 1.437709731543624
+      },
+      "Tuesday": {
+        "trades": 7,
+        "wins": 2,
+        "losses": 5,
+        "win_rate": 28.57142857142857,
+        "net_pips": -15.610000000000001,
+        "profit_factor": 0.6689289501590668
+      },
+      "Wednesday": {
+        "trades": 9,
+        "wins": 4,
+        "losses": 5,
+        "win_rate": 44.44444444444444,
+        "net_pips": 43.93,
+        "profit_factor": 2.0157225433526014
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Tuesday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 7,
+      "pruned_pct": 17.5,
+      "new_trades": 33,
+      "new_wr": 51.515151515151516,
+      "new_pf": 2.079509071504803,
+      "new_net_pips": 141.60999999999999,
+      "pip_gain": 15.609999999999985
+    }
+  },
+  {
+    "name": "disc132",
+    "symbol": "EURNZD",
+    "category": "eurnzd_champions",
+    "total_trades": 34,
+    "win_rate": 61.76470588235294,
+    "profit_factor": 3.315944158706903,
+    "net_pips": 819.5200000000115,
+    "gross_loss": 353.8599999999942,
+    "avg_win_dur_min": 458.6302650793651,
+    "avg_loss_dur_min": 368.9748653846154,
+    "direction_bias": {
+      "long_trades": 12,
+      "long_pips": 402.9600000000053,
+      "long_pf": 5.261421319797248,
+      "short_trades": 22,
+      "short_pips": 416.56000000000626,
+      "short_pf": 2.6064789818743033
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 14,
+        "wins": 11,
+        "losses": 3,
+        "win_rate": 78.57142857142857,
+        "net_pips": 524.1200000000025,
+        "profit_factor": 6.578118348233469
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 10,
+        "wins": 5,
+        "losses": 5,
+        "win_rate": 50.0,
+        "net_pips": 168.20000000001,
+        "profit_factor": 2.3018575851394507
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 9,
+        "wins": 4,
+        "losses": 5,
+        "win_rate": 44.44444444444444,
+        "net_pips": 67.41999999999788,
+        "profit_factor": 1.5158377964804646
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 59.78000000000111,
+        "profit_factor": 99.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 7,
+        "wins": 5,
+        "losses": 2,
+        "win_rate": 71.42857142857143,
+        "net_pips": 168.0600000000016,
+        "profit_factor": 4.24189814814822
+      },
+      "Monday": {
+        "trades": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0,
+        "net_pips": 126.20000000000435,
+        "profit_factor": 3.406559877955896
+      },
+      "Thursday": {
+        "trades": 8,
+        "wins": 6,
+        "losses": 2,
+        "win_rate": 75.0,
+        "net_pips": 305.2399999999969,
+        "profit_factor": 6.933903576982442
+      },
+      "Tuesday": {
+        "trades": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0,
+        "net_pips": 110.60000000000429,
+        "profit_factor": 2.6303066037737066
+      },
+      "Wednesday": {
+        "trades": 9,
+        "wins": 4,
+        "losses": 5,
+        "win_rate": 44.44444444444444,
+        "net_pips": 109.42000000000434,
+        "profit_factor": 1.8397544128933876
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 34,
+      "new_wr": 61.76470588235294,
+      "new_pf": 3.315944158706903,
+      "new_net_pips": 819.5200000000115,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc133",
+    "symbol": "EURNZD",
+    "category": "eurnzd_champions",
+    "total_trades": 43,
+    "win_rate": 62.7906976744186,
+    "profit_factor": 3.4451058802145793,
+    "net_pips": 1076.1400000000162,
+    "gross_loss": 440.11999999999006,
+    "avg_win_dur_min": 521.6780833333333,
+    "avg_loss_dur_min": 370.11376770833334,
+    "direction_bias": {
+      "long_trades": 16,
+      "long_pips": 541.4800000000057,
+      "long_pf": 5.494355909694853,
+      "short_trades": 27,
+      "short_pips": 534.6600000000108,
+      "short_pf": 2.6726942810662497
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 18,
+        "wins": 13,
+        "losses": 5,
+        "win_rate": 72.22222222222221,
+        "net_pips": 578.040000000006,
+        "profit_factor": 4.972783505154823
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 13,
+        "wins": 7,
+        "losses": 6,
+        "win_rate": 53.84615384615385,
+        "net_pips": 252.14000000001005,
+        "profit_factor": 2.538189360663865
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 10,
+        "wins": 5,
+        "losses": 5,
+        "win_rate": 50.0,
+        "net_pips": 126.69999999999794,
+        "profit_factor": 1.9693955623565096
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 2,
+        "wins": 2,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 119.26000000000246,
+        "profit_factor": 99.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 9,
+        "wins": 5,
+        "losses": 4,
+        "win_rate": 55.55555555555556,
+        "net_pips": 153.8200000000021,
+        "profit_factor": 2.486470815616603
+      },
+      "Monday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 185.48000000000442,
+        "profit_factor": 4.536994660564619
+      },
+      "Thursday": {
+        "trades": 11,
+        "wins": 9,
+        "losses": 2,
+        "win_rate": 81.81818181818183,
+        "net_pips": 432.47999999999865,
+        "profit_factor": 9.407465007775473
+      },
+      "Tuesday": {
+        "trades": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0,
+        "net_pips": 110.50000000000585,
+        "profit_factor": 2.6264350897852866
+      },
+      "Wednesday": {
+        "trades": 12,
+        "wins": 6,
+        "losses": 6,
+        "win_rate": 50.0,
+        "net_pips": 193.86000000000544,
+        "profit_factor": 2.1761922096833635
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 43,
+      "new_wr": 62.7906976744186,
+      "new_pf": 3.4451058802145793,
+      "new_net_pips": 1076.1400000000162,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc143",
+    "symbol": "EURNZD",
+    "category": "eurnzd_champions",
+    "total_trades": 36,
+    "win_rate": 77.77777777777779,
+    "profit_factor": 7.266595951560236,
+    "net_pips": 1417.880000000013,
+    "gross_loss": 226.25999999999902,
+    "avg_win_dur_min": 628.3958636904762,
+    "avg_loss_dur_min": 359.0824958333333,
+    "direction_bias": {
+      "long_trades": 15,
+      "long_pips": 629.1000000000043,
+      "long_pf": 7.318802732021022,
+      "short_trades": 21,
+      "short_pips": 788.7800000000084,
+      "short_pf": 7.225572217837456
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 12,
+        "wins": 11,
+        "losses": 1,
+        "win_rate": 91.66666666666666,
+        "net_pips": 622.6600000000035,
+        "profit_factor": 15.783000949668365
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 12,
+        "wins": 10,
+        "losses": 2,
+        "win_rate": 83.33333333333334,
+        "net_pips": 515.6600000000086,
+        "profit_factor": 9.977367688022357
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 10,
+        "wins": 5,
+        "losses": 5,
+        "win_rate": 50.0,
+        "net_pips": 150.80000000000035,
+        "profit_factor": 2.1902131018153104
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 2,
+        "wins": 2,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 128.7600000000003,
+        "profit_factor": 99.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 6,
+        "wins": 5,
+        "losses": 1,
+        "win_rate": 83.33333333333334,
+        "net_pips": 150.780000000008,
+        "profit_factor": 14.20315236427501
+      },
+      "Monday": {
+        "trades": 5,
+        "wins": 5,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 321.7000000000039,
+        "profit_factor": 99.0
+      },
+      "Thursday": {
+        "trades": 10,
+        "wins": 8,
+        "losses": 2,
+        "win_rate": 80.0,
+        "net_pips": 457.7999999999999,
+        "profit_factor": 8.92864565292688
+      },
+      "Tuesday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 187.28000000000065,
+        "profit_factor": 3.643704121965021
+      },
+      "Wednesday": {
+        "trades": 9,
+        "wins": 6,
+        "losses": 3,
+        "win_rate": 66.66666666666666,
+        "net_pips": 300.3200000000004,
+        "profit_factor": 4.4815673545096155
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 36,
+      "new_wr": 77.77777777777779,
+      "new_pf": 7.266595951560236,
+      "new_net_pips": 1417.880000000013,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc157",
+    "symbol": "EURNZD",
+    "category": "eurnzd_champions",
+    "total_trades": 33,
+    "win_rate": 78.78787878787878,
+    "profit_factor": 8.229499294015445,
+    "net_pips": 1331.240000000011,
+    "gross_loss": 184.14000000000092,
+    "avg_win_dur_min": 626.9730782051282,
+    "avg_loss_dur_min": 410.3799952380952,
+    "direction_bias": {
+      "long_trades": 13,
+      "long_pips": 606.8400000000023,
+      "long_pf": 11.56476323119772,
+      "short_trades": 20,
+      "short_pips": 724.4000000000083,
+      "short_pf": 6.717442778216305
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 11,
+        "wins": 11,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 664.7800000000017,
+        "profit_factor": 99.0
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 12,
+        "wins": 10,
+        "losses": 2,
+        "win_rate": 83.33333333333334,
+        "net_pips": 515.6600000000086,
+        "profit_factor": 9.977367688022357
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 10,
+        "wins": 5,
+        "losses": 5,
+        "win_rate": 50.0,
+        "net_pips": 150.80000000000035,
+        "profit_factor": 2.1902131018153104
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 6,
+        "wins": 5,
+        "losses": 1,
+        "win_rate": 83.33333333333334,
+        "net_pips": 150.780000000008,
+        "profit_factor": 14.20315236427501
+      },
+      "Monday": {
+        "trades": 5,
+        "wins": 5,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 321.7000000000039,
+        "profit_factor": 99.0
+      },
+      "Thursday": {
+        "trades": 9,
+        "wins": 7,
+        "losses": 2,
+        "win_rate": 77.77777777777779,
+        "net_pips": 393.41999999999973,
+        "profit_factor": 7.813647384828509
+      },
+      "Tuesday": {
+        "trades": 5,
+        "wins": 4,
+        "losses": 1,
+        "win_rate": 80.0,
+        "net_pips": 229.39999999999876,
+        "profit_factor": 8.987465181058074
+      },
+      "Wednesday": {
+        "trades": 8,
+        "wins": 5,
+        "losses": 3,
+        "win_rate": 62.5,
+        "net_pips": 235.94000000000025,
+        "profit_factor": 3.7352191050312946
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 33,
+      "new_wr": 78.78787878787878,
+      "new_pf": 8.229499294015445,
+      "new_net_pips": 1331.240000000011,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc158",
+    "symbol": "EURNZD",
+    "category": "eurnzd_champions",
+    "total_trades": 48,
+    "win_rate": 56.25,
+    "profit_factor": 2.8548868328260633,
+    "net_pips": 1230.9400000000128,
+    "gross_loss": 663.6199999999895,
+    "avg_win_dur_min": 655.5804111111112,
+    "avg_loss_dur_min": 635.7096111111111,
+    "direction_bias": {
+      "long_trades": 20,
+      "long_pips": 782.2999999999969,
+      "long_pf": 4.97469769332388,
+      "short_trades": 28,
+      "short_pips": 448.64000000001585,
+      "short_pf": 1.9610968294773428
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 21,
+        "wins": 13,
+        "losses": 8,
+        "win_rate": 61.904761904761905,
+        "net_pips": 645.7800000000043,
+        "profit_factor": 3.4995355318161674
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 15,
+        "wins": 8,
+        "losses": 7,
+        "win_rate": 53.333333333333336,
+        "net_pips": 323.70000000000636,
+        "profit_factor": 2.4717650268255262
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 10,
+        "wins": 4,
+        "losses": 6,
+        "win_rate": 40.0,
+        "net_pips": 112.30000000000126,
+        "profit_factor": 1.6059788473991077
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 2,
+        "wins": 2,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 149.16000000000074,
+        "profit_factor": 99.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 9,
+        "wins": 4,
+        "losses": 5,
+        "win_rate": 44.44444444444444,
+        "net_pips": 115.0200000000055,
+        "profit_factor": 1.7454309786131526
+      },
+      "Monday": {
+        "trades": 7,
+        "wins": 5,
+        "losses": 2,
+        "win_rate": 71.42857142857143,
+        "net_pips": 310.15999999999997,
+        "profit_factor": 6.023647554259633
+      },
+      "Thursday": {
+        "trades": 11,
+        "wins": 7,
+        "losses": 4,
+        "win_rate": 63.63636363636363,
+        "net_pips": 331.9799999999997,
+        "profit_factor": 3.6863570156983734
+      },
+      "Tuesday": {
+        "trades": 7,
+        "wins": 4,
+        "losses": 3,
+        "win_rate": 57.14285714285714,
+        "net_pips": 172.26000000000468,
+        "profit_factor": 2.6569834551751352
+      },
+      "Wednesday": {
+        "trades": 14,
+        "wins": 7,
+        "losses": 7,
+        "win_rate": 50.0,
+        "net_pips": 301.520000000003,
+        "profit_factor": 2.370296309761898
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 48,
+      "new_wr": 56.25,
+      "new_pf": 2.8548868328260633,
+      "new_net_pips": 1230.9400000000128,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc50_m30_m5_precision_retest_elite",
+    "symbol": "EURUSD",
+    "category": "eurusd_champions",
+    "total_trades": 22,
+    "win_rate": 54.54545454545454,
+    "profit_factor": 1.7877358490566033,
+    "net_pips": 66.79999999999998,
+    "gross_loss": 84.8,
+    "avg_win_dur_min": 74.35799027777777,
+    "avg_loss_dur_min": 149.4425733333333,
+    "direction_bias": {
+      "long_trades": 11,
+      "long_pips": 33.400000000000006,
+      "long_pf": 1.7858823529411767,
+      "short_trades": 11,
+      "short_pips": 33.39999999999999,
+      "short_pf": 1.7895981087470447
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 15,
+        "wins": 9,
+        "losses": 6,
+        "win_rate": 60.0,
+        "net_pips": 62.99999999999999,
+        "profit_factor": 2.24015748031496
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 7,
+        "wins": 3,
+        "losses": 4,
+        "win_rate": 42.857142857142854,
+        "net_pips": 3.8000000000000007,
+        "profit_factor": 1.1117647058823528
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 5,
+        "wins": 0,
+        "losses": 5,
+        "win_rate": 0.0,
+        "net_pips": -42.50000000000001,
+        "profit_factor": 0.0
+      },
+      "Monday": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 12.6,
+        "profit_factor": 99.0
+      },
+      "Thursday": {
+        "trades": 6,
+        "wins": 5,
+        "losses": 1,
+        "win_rate": 83.33333333333334,
+        "net_pips": 54.5,
+        "profit_factor": 7.411764705882353
+      },
+      "Tuesday": {
+        "trades": 8,
+        "wins": 4,
+        "losses": 4,
+        "win_rate": 50.0,
+        "net_pips": 16.699999999999996,
+        "profit_factor": 1.4940828402366866
+      },
+      "Wednesday": {
+        "trades": 2,
+        "wins": 2,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 25.5,
+        "profit_factor": 99.0
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Friday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 5,
+      "pruned_pct": 22.727272727272727,
+      "new_trades": 17,
+      "new_wr": 70.58823529411765,
+      "new_pf": 3.583924349881796,
+      "new_net_pips": 109.3,
+      "pip_gain": 42.500000000000014
+    }
+  },
+  {
+    "name": "disc51_macro_asymmetric_runner_elite",
+    "symbol": "EURUSD",
+    "category": "eurusd_champions",
+    "total_trades": 17,
+    "win_rate": 70.58823529411765,
+    "profit_factor": 6.052966101694917,
+    "net_pips": 238.5,
+    "gross_loss": 47.199999999999996,
+    "avg_win_dur_min": 196.4142861111111,
+    "avg_loss_dur_min": 198.37135666666668,
+    "direction_bias": {
+      "long_trades": 12,
+      "long_pips": 153.4,
+      "long_pf": 5.0582010582010595,
+      "short_trades": 5,
+      "short_pips": 85.1,
+      "short_pf": 10.053191489361701
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0,
+        "net_pips": 52.500000000000014,
+        "profit_factor": 3.792553191489362
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 11,
+        "wins": 9,
+        "losses": 2,
+        "win_rate": 81.81818181818183,
+        "net_pips": 195.4,
+        "profit_factor": 11.284210526315789
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0,
+        "net_pips": -9.4,
+        "profit_factor": 0.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 5,
+        "wins": 4,
+        "losses": 1,
+        "win_rate": 80.0,
+        "net_pips": 85.00000000000001,
+        "profit_factor": 10.042553191489361
+      },
+      "Monday": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 23.7,
+        "profit_factor": 99.0
+      },
+      "Thursday": {
+        "trades": 4,
+        "wins": 3,
+        "losses": 1,
+        "win_rate": 75.0,
+        "net_pips": 61.5,
+        "profit_factor": 7.542553191489362
+      },
+      "Tuesday": {
+        "trades": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 50.0,
+        "net_pips": 14.100000000000001,
+        "profit_factor": 2.4842105263157896
+      },
+      "Wednesday": {
+        "trades": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0,
+        "net_pips": 54.2,
+        "profit_factor": 3.867724867724868
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 17,
+      "new_wr": 70.58823529411765,
+      "new_pf": 6.052966101694917,
+      "new_net_pips": 238.5,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc58_h1_keltner_squeeze_explosion_elite",
+    "symbol": "EURUSD",
+    "category": "eurusd_champions",
+    "total_trades": 111,
+    "win_rate": 45.94594594594595,
+    "profit_factor": 1.6297961149462192,
+    "net_pips": 392.3,
+    "gross_loss": 622.9000000000001,
+    "avg_win_dur_min": 208.68584869281048,
+    "avg_loss_dur_min": 137.0025611111111,
+    "direction_bias": {
+      "long_trades": 57,
+      "long_pips": 174.29999999999998,
+      "long_pf": 1.5374653098982427,
+      "short_trades": 54,
+      "short_pips": 218.0,
+      "short_pf": 1.7300736771600804
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 70,
+        "wins": 32,
+        "losses": 38,
+        "win_rate": 45.714285714285715,
+        "net_pips": 249.49999999999997,
+        "profit_factor": 1.6460383221128947
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 37,
+        "wins": 18,
+        "losses": 19,
+        "win_rate": 48.64864864864865,
+        "net_pips": 154.50000000000003,
+        "profit_factor": 1.7529239766081872
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 4,
+        "wins": 1,
+        "losses": 3,
+        "win_rate": 25.0,
+        "net_pips": -11.700000000000001,
+        "profit_factor": 0.6285714285714286
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 25,
+        "wins": 12,
+        "losses": 13,
+        "win_rate": 48.0,
+        "net_pips": 110.4,
+        "profit_factor": 1.8591439688715954
+      },
+      "Monday": {
+        "trades": 18,
+        "wins": 8,
+        "losses": 10,
+        "win_rate": 44.44444444444444,
+        "net_pips": 57.800000000000004,
+        "profit_factor": 1.5751243781094526
+      },
+      "Thursday": {
+        "trades": 20,
+        "wins": 10,
+        "losses": 10,
+        "win_rate": 50.0,
+        "net_pips": 98.49999999999997,
+        "profit_factor": 1.9318826868495742
+      },
+      "Tuesday": {
+        "trades": 23,
+        "wins": 11,
+        "losses": 12,
+        "win_rate": 47.82608695652174,
+        "net_pips": 90.20000000000002,
+        "profit_factor": 1.714738510301109
+      },
+      "Wednesday": {
+        "trades": 25,
+        "wins": 10,
+        "losses": 15,
+        "win_rate": 40.0,
+        "net_pips": 35.40000000000002,
+        "profit_factor": 1.2185185185185183
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 111,
+      "new_wr": 45.94594594594595,
+      "new_pf": 1.6297961149462192,
+      "new_net_pips": 392.3,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc59_m15_macd_zero_cross_momentum_elite",
+    "symbol": "EURUSD",
+    "category": "eurusd_champions",
+    "total_trades": 217,
+    "win_rate": 41.013824884792626,
+    "profit_factor": 1.300705612077453,
+    "net_pips": 366.5,
+    "gross_loss": 1218.8000000000002,
+    "avg_win_dur_min": 154.600470411985,
+    "avg_loss_dur_min": 140.86013398437498,
+    "direction_bias": {
+      "long_trades": 114,
+      "long_pips": 234.89999999999998,
+      "long_pf": 1.375779875219965,
+      "short_trades": 103,
+      "short_pips": 131.60000000000002,
+      "short_pf": 1.221660771433384
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 117,
+        "wins": 43,
+        "losses": 74,
+        "win_rate": 36.75213675213676,
+        "net_pips": 65.20000000000002,
+        "profit_factor": 1.0925347715015612
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 93,
+        "wins": 43,
+        "losses": 50,
+        "win_rate": 46.236559139784944,
+        "net_pips": 286.59999999999997,
+        "profit_factor": 1.602480554971621
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 7,
+        "wins": 3,
+        "losses": 4,
+        "win_rate": 42.857142857142854,
+        "net_pips": 14.700000000000003,
+        "profit_factor": 1.3818181818181818
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 42,
+        "wins": 16,
+        "losses": 26,
+        "win_rate": 38.095238095238095,
+        "net_pips": 31.20000000000001,
+        "profit_factor": 1.1297836938435941
+      },
+      "Monday": {
+        "trades": 37,
+        "wins": 18,
+        "losses": 19,
+        "win_rate": 48.64864864864865,
+        "net_pips": 138.70000000000005,
+        "profit_factor": 1.7697003329633743
+      },
+      "Thursday": {
+        "trades": 42,
+        "wins": 16,
+        "losses": 26,
+        "win_rate": 38.095238095238095,
+        "net_pips": 36.400000000000006,
+        "profit_factor": 1.1460088247091855
+      },
+      "Tuesday": {
+        "trades": 52,
+        "wins": 23,
+        "losses": 29,
+        "win_rate": 44.230769230769226,
+        "net_pips": 129.00000000000003,
+        "profit_factor": 1.4623655913978497
+      },
+      "Wednesday": {
+        "trades": 44,
+        "wins": 16,
+        "losses": 28,
+        "win_rate": 36.36363636363637,
+        "net_pips": 31.20000000000001,
+        "profit_factor": 1.1155983697665803
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 217,
+      "new_wr": 41.013824884792626,
+      "new_pf": 1.300705612077453,
+      "new_net_pips": 366.5,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc65_session_vwap_band_fade_elite",
+    "symbol": "EURUSD",
+    "category": "eurusd_champions",
+    "total_trades": 242,
+    "win_rate": 41.735537190082646,
+    "profit_factor": 1.2994801200849377,
+    "net_pips": 409.0000000000001,
+    "gross_loss": 1365.7,
+    "avg_win_dur_min": 146.81458234323432,
+    "avg_loss_dur_min": 119.4712230496454,
+    "direction_bias": {
+      "long_trades": 128,
+      "long_pips": 12.800000000000018,
+      "long_pf": 1.0162086868431053,
+      "short_trades": 114,
+      "short_pips": 396.20000000000005,
+      "short_pf": 1.6878472222222227
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 193,
+        "wins": 75,
+        "losses": 118,
+        "win_rate": 38.860103626943,
+        "net_pips": 180.00000000000006,
+        "profit_factor": 1.1569311246730596
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 47,
+        "wins": 24,
+        "losses": 23,
+        "win_rate": 51.06382978723404,
+        "net_pips": 193.1,
+        "profit_factor": 1.88294467306813
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 2,
+        "wins": 2,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 35.9,
+        "profit_factor": 99.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 53,
+        "wins": 23,
+        "losses": 30,
+        "win_rate": 43.39622641509434,
+        "net_pips": 79.50000000000003,
+        "profit_factor": 1.2538314176245213
+      },
+      "Monday": {
+        "trades": 43,
+        "wins": 15,
+        "losses": 28,
+        "win_rate": 34.883720930232556,
+        "net_pips": 0.8000000000000149,
+        "profit_factor": 1.003017729158808
+      },
+      "Thursday": {
+        "trades": 50,
+        "wins": 13,
+        "losses": 37,
+        "win_rate": 26.0,
+        "net_pips": -119.79999999999998,
+        "profit_factor": 0.6583000570450657
+      },
+      "Tuesday": {
+        "trades": 44,
+        "wins": 25,
+        "losses": 19,
+        "win_rate": 56.81818181818182,
+        "net_pips": 262.90000000000003,
+        "profit_factor": 2.4605555555555556
+      },
+      "Wednesday": {
+        "trades": 52,
+        "wins": 25,
+        "losses": 27,
+        "win_rate": 48.07692307692308,
+        "net_pips": 185.59999999999997,
+        "profit_factor": 1.722741433021807
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Thursday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 50,
+      "pruned_pct": 20.66115702479339,
+      "new_trades": 192,
+      "new_wr": 45.83333333333333,
+      "new_pf": 1.5209338981381142,
+      "new_net_pips": 528.8,
+      "pip_gain": 119.79999999999984
+    }
+  },
+  {
+    "name": "disc74_daily_pivot_pullback_elite",
+    "symbol": "EURUSD",
+    "category": "eurusd_champions",
+    "total_trades": 123,
+    "win_rate": 50.40650406504065,
+    "profit_factor": 1.8846418732782373,
+    "net_pips": 513.8000000000001,
+    "gross_loss": 580.7999999999998,
+    "avg_win_dur_min": 190.69906290322578,
+    "avg_loss_dur_min": 183.15951885245903,
+    "direction_bias": {
+      "long_trades": 59,
+      "long_pips": 166.1,
+      "long_pf": 1.547642598087702,
+      "short_trades": 64,
+      "short_pips": 347.7,
+      "short_pf": 2.252972972972973
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 79,
+        "wins": 39,
+        "losses": 40,
+        "win_rate": 49.36708860759494,
+        "net_pips": 311.60000000000014,
+        "profit_factor": 1.8191377497371195
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 39,
+        "wins": 19,
+        "losses": 20,
+        "win_rate": 48.717948717948715,
+        "net_pips": 140.5,
+        "profit_factor": 1.735602094240838
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 5,
+        "wins": 4,
+        "losses": 1,
+        "win_rate": 80.0,
+        "net_pips": 61.7,
+        "profit_factor": 7.563829787234043
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 29,
+        "wins": 14,
+        "losses": 15,
+        "win_rate": 48.275862068965516,
+        "net_pips": 95.29999999999998,
+        "profit_factor": 1.6697118763176384
+      },
+      "Monday": {
+        "trades": 21,
+        "wins": 11,
+        "losses": 10,
+        "win_rate": 52.38095238095239,
+        "net_pips": 100.1,
+        "profit_factor": 2.05813953488372
+      },
+      "Thursday": {
+        "trades": 22,
+        "wins": 14,
+        "losses": 8,
+        "win_rate": 63.63636363636363,
+        "net_pips": 177.79999999999995,
+        "profit_factor": 3.339473684210526
+      },
+      "Tuesday": {
+        "trades": 25,
+        "wins": 9,
+        "losses": 16,
+        "win_rate": 36.0,
+        "net_pips": 7.500000000000007,
+        "profit_factor": 1.0492125984251968
+      },
+      "Wednesday": {
+        "trades": 26,
+        "wins": 14,
+        "losses": 12,
+        "win_rate": 53.84615384615385,
+        "net_pips": 133.1,
+        "profit_factor": 2.152380952380952
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 123,
+      "new_wr": 50.40650406504065,
+      "new_pf": 1.8846418732782373,
+      "new_net_pips": 513.8000000000001,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc75_weekly_pivot_pullback_elite",
+    "symbol": "EURUSD",
+    "category": "eurusd_champions",
+    "total_trades": 86,
+    "win_rate": 33.72093023255814,
+    "profit_factor": 1.149122807017544,
+    "net_pips": 81.60000000000002,
+    "gross_loss": 547.1999999999999,
+    "avg_win_dur_min": 298.31449482758626,
+    "avg_loss_dur_min": 192.82004678362574,
+    "direction_bias": {
+      "long_trades": 38,
+      "long_pips": 34.2,
+      "long_pf": 1.142559399749896,
+      "short_trades": 48,
+      "short_pips": 47.400000000000006,
+      "short_pf": 1.1542466644972342
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 47,
+        "wins": 13,
+        "losses": 34,
+        "win_rate": 27.659574468085108,
+        "net_pips": -36.19999999999998,
+        "profit_factor": 0.8884093711467325
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 34,
+        "wins": 15,
+        "losses": 19,
+        "win_rate": 44.11764705882353,
+        "net_pips": 133.20000000000002,
+        "profit_factor": 1.7192224622030234
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 5,
+        "wins": 1,
+        "losses": 4,
+        "win_rate": 20.0,
+        "net_pips": -15.400000000000002,
+        "profit_factor": 0.5904255319148936
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 7,
+        "wins": 2,
+        "losses": 5,
+        "win_rate": 28.57142857142857,
+        "net_pips": -19.699999999999996,
+        "profit_factor": 0.604417670682731
+      },
+      "Monday": {
+        "trades": 31,
+        "wins": 11,
+        "losses": 20,
+        "win_rate": 35.483870967741936,
+        "net_pips": 53.50000000000002,
+        "profit_factor": 1.2812828601472133
+      },
+      "Thursday": {
+        "trades": 13,
+        "wins": 4,
+        "losses": 9,
+        "win_rate": 30.76923076923077,
+        "net_pips": 3.800000000000006,
+        "profit_factor": 1.0447058823529412
+      },
+      "Tuesday": {
+        "trades": 20,
+        "wins": 8,
+        "losses": 12,
+        "win_rate": 40.0,
+        "net_pips": 60.5,
+        "profit_factor": 1.5179794520547945
+      },
+      "Wednesday": {
+        "trades": 15,
+        "wins": 4,
+        "losses": 11,
+        "win_rate": 26.666666666666668,
+        "net_pips": -16.5,
+        "profit_factor": 0.8434535104364326
+      }
+    },
+    "toxic_sessions": [
+      "London Open (06:00-12:00)",
+      "NY Afternoon (16:00-21:00)"
+    ],
+    "toxic_days": [
+      "Friday",
+      "Wednesday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 63,
+      "pruned_pct": 73.25581395348837,
+      "new_trades": 23,
+      "new_wr": 47.82608695652174,
+      "new_pf": 2.0714285714285716,
+      "new_net_pips": 125.99999999999997,
+      "pip_gain": 44.39999999999995
+    }
+  },
+  {
+    "name": "disc76_vwap_1sd_rebound_elite",
+    "symbol": "EURUSD",
+    "category": "eurusd_champions",
+    "total_trades": 143,
+    "win_rate": 43.35664335664335,
+    "profit_factor": 1.3978412698412692,
+    "net_pips": 313.3000000000001,
+    "gross_loss": 787.5000000000001,
+    "avg_win_dur_min": 173.51810940860216,
+    "avg_loss_dur_min": 114.21221255144032,
+    "direction_bias": {
+      "long_trades": 64,
+      "long_pips": 69.40000000000005,
+      "long_pf": 1.1866594943518025,
+      "short_trades": 79,
+      "short_pips": 243.89999999999995,
+      "short_pf": 1.586721193168151
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 80,
+        "wins": 31,
+        "losses": 49,
+        "win_rate": 38.75,
+        "net_pips": 68.00000000000003,
+        "profit_factor": 1.1414015387814518
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 59,
+        "wins": 27,
+        "losses": 32,
+        "win_rate": 45.76271186440678,
+        "net_pips": 174.9,
+        "profit_factor": 1.5704500978473586
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 4,
+        "wins": 4,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 70.4,
+        "profit_factor": 99.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 27,
+        "wins": 11,
+        "losses": 16,
+        "win_rate": 40.74074074074074,
+        "net_pips": 25.500000000000014,
+        "profit_factor": 1.1511558980438648
+      },
+      "Monday": {
+        "trades": 25,
+        "wins": 10,
+        "losses": 15,
+        "win_rate": 40.0,
+        "net_pips": 34.7,
+        "profit_factor": 1.2447108603667136
+      },
+      "Thursday": {
+        "trades": 32,
+        "wins": 11,
+        "losses": 21,
+        "win_rate": 34.375,
+        "net_pips": -7.400000000000006,
+        "profit_factor": 0.9632571996027803
+      },
+      "Tuesday": {
+        "trades": 32,
+        "wins": 18,
+        "losses": 14,
+        "win_rate": 56.25,
+        "net_pips": 185.40000000000003,
+        "profit_factor": 2.3887640449438203
+      },
+      "Wednesday": {
+        "trades": 27,
+        "wins": 12,
+        "losses": 15,
+        "win_rate": 44.44444444444444,
+        "net_pips": 75.10000000000001,
+        "profit_factor": 1.5285010555946512
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Thursday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 143,
+      "new_wr": 43.35664335664335,
+      "new_pf": 1.3978412698412692,
+      "new_net_pips": 313.3000000000001,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc86_ema_cross_atr_expansion_elite",
+    "symbol": "EURUSD",
+    "category": "eurusd_champions",
+    "total_trades": 261,
+    "win_rate": 43.29501915708812,
+    "profit_factor": 1.4163717147375552,
+    "net_pips": 552.9,
+    "gross_loss": 1327.9,
+    "avg_win_dur_min": 137.3639640117994,
+    "avg_loss_dur_min": 120.06889763513513,
+    "direction_bias": {
+      "long_trades": 133,
+      "long_pips": 178.39999999999998,
+      "long_pf": 1.251941816127666,
+      "short_trades": 128,
+      "short_pips": 374.5,
+      "short_pf": 1.6042271700548567
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 160,
+        "wins": 66,
+        "losses": 94,
+        "win_rate": 41.25,
+        "net_pips": 267.40000000000003,
+        "profit_factor": 1.3171628513818054
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 93,
+        "wins": 44,
+        "losses": 49,
+        "win_rate": 47.31182795698925,
+        "net_pips": 296.29999999999995,
+        "profit_factor": 1.6734090909090915
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 8,
+        "wins": 3,
+        "losses": 5,
+        "win_rate": 37.5,
+        "net_pips": -10.799999999999997,
+        "profit_factor": 0.7589285714285715
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 58,
+        "wins": 21,
+        "losses": 37,
+        "win_rate": 36.206896551724135,
+        "net_pips": -1.0999999999999908,
+        "profit_factor": 0.9966757328498038
+      },
+      "Monday": {
+        "trades": 45,
+        "wins": 28,
+        "losses": 17,
+        "win_rate": 62.22222222222222,
+        "net_pips": 315.50000000000006,
+        "profit_factor": 3.067496723460026
+      },
+      "Thursday": {
+        "trades": 49,
+        "wins": 20,
+        "losses": 29,
+        "win_rate": 40.816326530612244,
+        "net_pips": 73.00000000000001,
+        "profit_factor": 1.2794793261868305
+      },
+      "Tuesday": {
+        "trades": 55,
+        "wins": 22,
+        "losses": 33,
+        "win_rate": 40.0,
+        "net_pips": 72.5,
+        "profit_factor": 1.2455962059620598
+      },
+      "Wednesday": {
+        "trades": 54,
+        "wins": 22,
+        "losses": 32,
+        "win_rate": 40.74074074074074,
+        "net_pips": 93.0,
+        "profit_factor": 1.3229166666666667
+      }
+    },
+    "toxic_sessions": [
+      "NY Afternoon (16:00-21:00)"
+    ],
+    "toxic_days": [
+      "Friday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 8,
+      "pruned_pct": 3.065134099616858,
+      "new_trades": 253,
+      "new_wr": 43.47826086956522,
+      "new_pf": 1.4393266308159927,
+      "new_net_pips": 563.7,
+      "pip_gain": 10.800000000000068
+    }
+  },
+  {
+    "name": "disc134",
+    "symbol": "GBPCHF",
+    "category": "gbpchf_champions",
+    "total_trades": 81,
+    "win_rate": 66.66666666666666,
+    "profit_factor": 3.4597131766580214,
+    "net_pips": 1514.470000000074,
+    "gross_loss": 615.7099999999851,
+    "avg_win_dur_min": 1643.1998425925924,
+    "avg_loss_dur_min": 1842.129797530864,
+    "direction_bias": {
+      "long_trades": 43,
+      "long_pips": 988.2100000000387,
+      "long_pf": 5.4683034906857495,
+      "short_trades": 38,
+      "short_pips": 526.2600000000349,
+      "short_pf": 2.3338233430491653
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 24,
+        "wins": 12,
+        "losses": 12,
+        "win_rate": 50.0,
+        "net_pips": 275.3800000000219,
+        "profit_factor": 1.9393505253105123
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 35,
+        "wins": 24,
+        "losses": 11,
+        "win_rate": 68.57142857142857,
+        "net_pips": 714.6500000000347,
+        "profit_factor": 3.771787611992605
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 18,
+        "wins": 15,
+        "losses": 3,
+        "win_rate": 83.33333333333334,
+        "net_pips": 445.76000000001716,
+        "profit_factor": 9.412153236459885
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 4,
+        "wins": 3,
+        "losses": 1,
+        "win_rate": 75.0,
+        "net_pips": 78.68000000000008,
+        "profit_factor": 7.7075873827796695
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 12,
+        "wins": 10,
+        "losses": 2,
+        "win_rate": 83.33333333333334,
+        "net_pips": 206.9400000000094,
+        "profit_factor": 5.084879589419933
+      },
+      "Monday": {
+        "trades": 13,
+        "wins": 7,
+        "losses": 6,
+        "win_rate": 53.84615384615385,
+        "net_pips": 184.01000000001454,
+        "profit_factor": 2.118737840467053
+      },
+      "Thursday": {
+        "trades": 24,
+        "wins": 17,
+        "losses": 7,
+        "win_rate": 70.83333333333334,
+        "net_pips": 458.3800000000195,
+        "profit_factor": 3.9685901172205234
+      },
+      "Tuesday": {
+        "trades": 13,
+        "wins": 8,
+        "losses": 5,
+        "win_rate": 61.53846153846154,
+        "net_pips": 218.110000000016,
+        "profit_factor": 3.072304038004961
+      },
+      "Wednesday": {
+        "trades": 19,
+        "wins": 12,
+        "losses": 7,
+        "win_rate": 63.1578947368421,
+        "net_pips": 447.0300000000143,
+        "profit_factor": 4.172450500319558
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 81,
+      "new_wr": 66.66666666666666,
+      "new_pf": 3.4597131766580214,
+      "new_net_pips": 1514.470000000074,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc135",
+    "symbol": "GBPCHF",
+    "category": "gbpchf_champions",
+    "total_trades": 82,
+    "win_rate": 65.85365853658537,
+    "profit_factor": 3.523770124452892,
+    "net_pips": 1464.1400000000635,
+    "gross_loss": 580.1399999999853,
+    "avg_win_dur_min": 1488.1933327160493,
+    "avg_loss_dur_min": 1318.3624613095235,
+    "direction_bias": {
+      "long_trades": 44,
+      "long_pips": 995.0800000000306,
+      "long_pf": 5.108675007225899,
+      "short_trades": 38,
+      "short_pips": 469.060000000033,
+      "short_pf": 2.387956798343098
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 24,
+        "wins": 13,
+        "losses": 11,
+        "win_rate": 54.166666666666664,
+        "net_pips": 318.0800000000196,
+        "profit_factor": 2.4004314709639005
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 35,
+        "wins": 24,
+        "losses": 11,
+        "win_rate": 68.57142857142857,
+        "net_pips": 686.950000000033,
+        "profit_factor": 3.7864762909181584
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 19,
+        "wins": 14,
+        "losses": 5,
+        "win_rate": 73.68421052631578,
+        "net_pips": 390.93000000001086,
+        "profit_factor": 5.125910290237516
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 4,
+        "wins": 3,
+        "losses": 1,
+        "win_rate": 75.0,
+        "net_pips": 68.18000000000013,
+        "profit_factor": 6.812446717817974
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 13,
+        "wins": 9,
+        "losses": 4,
+        "win_rate": 69.23076923076923,
+        "net_pips": 128.4100000000145,
+        "profit_factor": 2.3716086306347215
+      },
+      "Monday": {
+        "trades": 13,
+        "wins": 8,
+        "losses": 5,
+        "win_rate": 61.53846153846154,
+        "net_pips": 254.31000000001325,
+        "profit_factor": 3.273670093875884
+      },
+      "Thursday": {
+        "trades": 24,
+        "wins": 17,
+        "losses": 7,
+        "win_rate": 70.83333333333334,
+        "net_pips": 408.8800000000194,
+        "profit_factor": 4.004040849313259
+      },
+      "Tuesday": {
+        "trades": 13,
+        "wins": 8,
+        "losses": 5,
+        "win_rate": 61.53846153846154,
+        "net_pips": 211.41000000000977,
+        "profit_factor": 2.8884323358643345
+      },
+      "Wednesday": {
+        "trades": 19,
+        "wins": 12,
+        "losses": 7,
+        "win_rate": 63.1578947368421,
+        "net_pips": 461.13000000000665,
+        "profit_factor": 4.642129373667301
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 82,
+      "new_wr": 65.85365853658537,
+      "new_pf": 3.523770124452892,
+      "new_net_pips": 1464.1400000000635,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc137",
+    "symbol": "GBPCHF",
+    "category": "gbpchf_champions",
+    "total_trades": 87,
+    "win_rate": 64.36781609195403,
+    "profit_factor": 3.0747840615817594,
+    "net_pips": 1390.7900000000668,
+    "gross_loss": 670.3299999999836,
+    "avg_win_dur_min": 1433.7321288690475,
+    "avg_loss_dur_min": 1238.9787747311827,
+    "direction_bias": {
+      "long_trades": 46,
+      "long_pips": 929.7200000000307,
+      "long_pf": 4.024955262729926,
+      "short_trades": 41,
+      "short_pips": 461.07000000003603,
+      "short_pf": 2.270235274670924
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 24,
+        "wins": 12,
+        "losses": 12,
+        "win_rate": 50.0,
+        "net_pips": 225.28000000002004,
+        "profit_factor": 1.8344939991110822
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 36,
+        "wins": 25,
+        "losses": 11,
+        "win_rate": 69.44444444444444,
+        "net_pips": 736.7200000000325,
+        "profit_factor": 3.9883584147976103
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 19,
+        "wins": 14,
+        "losses": 5,
+        "win_rate": 73.68421052631578,
+        "net_pips": 390.93000000001086,
+        "profit_factor": 5.125910290237516
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 8,
+        "wins": 5,
+        "losses": 3,
+        "win_rate": 62.5,
+        "net_pips": 37.86000000000332,
+        "profit_factor": 1.640717549500832
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 14,
+        "wins": 10,
+        "losses": 4,
+        "win_rate": 71.42857142857143,
+        "net_pips": 134.68000000001553,
+        "profit_factor": 2.4385814996798127
+      },
+      "Monday": {
+        "trades": 13,
+        "wins": 8,
+        "losses": 5,
+        "win_rate": 61.53846153846154,
+        "net_pips": 254.31000000001325,
+        "profit_factor": 3.273670093875884
+      },
+      "Thursday": {
+        "trades": 25,
+        "wins": 17,
+        "losses": 8,
+        "win_rate": 68.0,
+        "net_pips": 386.55000000001957,
+        "profit_factor": 3.439724816965582
+      },
+      "Tuesday": {
+        "trades": 13,
+        "wins": 7,
+        "losses": 6,
+        "win_rate": 53.84615384615385,
+        "net_pips": 118.61000000001023,
+        "profit_factor": 1.7663134771935147
+      },
+      "Wednesday": {
+        "trades": 22,
+        "wins": 14,
+        "losses": 8,
+        "win_rate": 63.63636363636363,
+        "net_pips": 496.6400000000082,
+        "profit_factor": 4.275125296755594
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 87,
+      "new_wr": 64.36781609195403,
+      "new_pf": 3.0747840615817594,
+      "new_net_pips": 1390.7900000000668,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc152",
+    "symbol": "GBPCHF",
+    "category": "gbpchf_champions",
+    "total_trades": 68,
+    "win_rate": 69.11764705882352,
+    "profit_factor": 3.790069125859057,
+    "net_pips": 1344.0600000000572,
+    "gross_loss": 481.7299999999907,
+    "avg_win_dur_min": 1524.2789255319146,
+    "avg_loss_dur_min": 1967.0496468253968,
+    "direction_bias": {
+      "long_trades": 39,
+      "long_pips": 819.5300000000286,
+      "long_pf": 4.7027515474632215,
+      "short_trades": 29,
+      "short_pips": 524.5300000000285,
+      "short_pf": 3.0143241167436408
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 9,
+        "wins": 5,
+        "losses": 4,
+        "win_rate": 55.55555555555556,
+        "net_pips": 121.53000000000739,
+        "profit_factor": 2.072449699964799
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 32,
+        "wins": 22,
+        "losses": 10,
+        "win_rate": 68.75,
+        "net_pips": 702.3400000000252,
+        "profit_factor": 4.459802955665218
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 22,
+        "wins": 17,
+        "losses": 5,
+        "win_rate": 77.27272727272727,
+        "net_pips": 466.94000000002467,
+        "profit_factor": 4.640857699805291
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0,
+        "net_pips": 53.24999999999995,
+        "profit_factor": 2.4329924650161723
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 12,
+        "wins": 9,
+        "losses": 3,
+        "win_rate": 75.0,
+        "net_pips": 169.14000000000598,
+        "profit_factor": 4.561591914087271
+      },
+      "Monday": {
+        "trades": 12,
+        "wins": 7,
+        "losses": 5,
+        "win_rate": 58.333333333333336,
+        "net_pips": 209.34000000001402,
+        "profit_factor": 2.5044196909811123
+      },
+      "Thursday": {
+        "trades": 21,
+        "wins": 16,
+        "losses": 5,
+        "win_rate": 76.19047619047619,
+        "net_pips": 472.37000000002035,
+        "profit_factor": 4.700509204857206
+      },
+      "Tuesday": {
+        "trades": 10,
+        "wins": 6,
+        "losses": 4,
+        "win_rate": 60.0,
+        "net_pips": 123.00000000001032,
+        "profit_factor": 2.550680786687006
+      },
+      "Wednesday": {
+        "trades": 13,
+        "wins": 9,
+        "losses": 4,
+        "win_rate": 69.23076923076923,
+        "net_pips": 370.2100000000066,
+        "profit_factor": 5.201202905129539
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 68,
+      "new_wr": 69.11764705882352,
+      "new_pf": 3.790069125859057,
+      "new_net_pips": 1344.0600000000572,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc153",
+    "symbol": "GBPCHF",
+    "category": "gbpchf_champions",
+    "total_trades": 77,
+    "win_rate": 62.33766233766234,
+    "profit_factor": 3.0407019961203106,
+    "net_pips": 1125.590000000062,
+    "gross_loss": 551.5699999999913,
+    "avg_win_dur_min": 1141.954496875,
+    "avg_loss_dur_min": 1011.3221965517242,
+    "direction_bias": {
+      "long_trades": 47,
+      "long_pips": 842.8900000000391,
+      "long_pf": 3.9422298240716556,
+      "short_trades": 30,
+      "short_pips": 282.70000000002284,
+      "short_pf": 2.0664302689653664
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 46,
+        "wins": 29,
+        "losses": 17,
+        "win_rate": 63.04347826086957,
+        "net_pips": 711.0200000000414,
+        "profit_factor": 3.047220062768288
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 25,
+        "wins": 17,
+        "losses": 8,
+        "win_rate": 68.0,
+        "net_pips": 412.8500000000187,
+        "profit_factor": 4.091583046278399
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 6,
+        "wins": 2,
+        "losses": 4,
+        "win_rate": 33.33333333333333,
+        "net_pips": 1.7200000000020417,
+        "profit_factor": 1.0243212669683557
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 13,
+        "wins": 8,
+        "losses": 5,
+        "win_rate": 61.53846153846154,
+        "net_pips": 113.51000000001457,
+        "profit_factor": 2.5084385382062564
+      },
+      "Monday": {
+        "trades": 11,
+        "wins": 7,
+        "losses": 4,
+        "win_rate": 63.63636363636363,
+        "net_pips": 214.37000000000933,
+        "profit_factor": 3.623225648556216
+      },
+      "Thursday": {
+        "trades": 24,
+        "wins": 15,
+        "losses": 9,
+        "win_rate": 62.5,
+        "net_pips": 289.78000000002294,
+        "profit_factor": 2.7324086805764796
+      },
+      "Tuesday": {
+        "trades": 11,
+        "wins": 6,
+        "losses": 5,
+        "win_rate": 54.54545454545454,
+        "net_pips": 121.47000000000466,
+        "profit_factor": 2.169667790081881
+      },
+      "Wednesday": {
+        "trades": 18,
+        "wins": 12,
+        "losses": 6,
+        "win_rate": 66.66666666666666,
+        "net_pips": 386.46000000001055,
+        "profit_factor": 4.1297376093295615
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 77,
+      "new_wr": 62.33766233766234,
+      "new_pf": 3.0407019961203106,
+      "new_net_pips": 1125.590000000062,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc138",
+    "symbol": "GBPJPY",
+    "category": "gbpjpy_champions",
+    "total_trades": 50,
+    "win_rate": 56.00000000000001,
+    "profit_factor": 2.3878132730987427,
+    "net_pips": 1032.1999999999575,
+    "gross_loss": 743.7600000000264,
+    "avg_win_dur_min": 658.526130952381,
+    "avg_loss_dur_min": 694.4501265151515,
+    "direction_bias": {
+      "long_trades": 25,
+      "long_pips": 320.7499999999839,
+      "long_pf": 1.7427175473532484,
+      "short_trades": 25,
+      "short_pips": 711.4499999999737,
+      "short_pf": 3.2810195575503203
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 25,
+        "wins": 15,
+        "losses": 10,
+        "win_rate": 60.0,
+        "net_pips": 722.6499999999787,
+        "profit_factor": 3.0090353072003273
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 18,
+        "wins": 12,
+        "losses": 6,
+        "win_rate": 66.66666666666666,
+        "net_pips": 438.5599999999882,
+        "profit_factor": 3.4286188946725398
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 7,
+        "wins": 1,
+        "losses": 6,
+        "win_rate": 14.285714285714285,
+        "net_pips": -129.01000000000943,
+        "profit_factor": 0.36598191468446556
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 12,
+        "wins": 8,
+        "losses": 4,
+        "win_rate": 66.66666666666666,
+        "net_pips": 211.73999999999558,
+        "profit_factor": 2.601421872636416
+      },
+      "Monday": {
+        "trades": 4,
+        "wins": 4,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 299.0799999999963,
+        "profit_factor": 99.0
+      },
+      "Thursday": {
+        "trades": 16,
+        "wins": 6,
+        "losses": 10,
+        "win_rate": 37.5,
+        "net_pips": 62.51999999997997,
+        "profit_factor": 1.1927844588343453
+      },
+      "Tuesday": {
+        "trades": 12,
+        "wins": 7,
+        "losses": 5,
+        "win_rate": 58.333333333333336,
+        "net_pips": 342.4399999999915,
+        "profit_factor": 2.90827528559476
+      },
+      "Wednesday": {
+        "trades": 6,
+        "wins": 3,
+        "losses": 3,
+        "win_rate": 50.0,
+        "net_pips": 116.41999999999416,
+        "profit_factor": 2.0800630856293556
+      }
+    },
+    "toxic_sessions": [
+      "NY Afternoon (16:00-21:00)"
+    ],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 7,
+      "pruned_pct": 14.000000000000002,
+      "new_trades": 43,
+      "new_wr": 62.7906976744186,
+      "new_pf": 3.1492744502848993,
+      "new_net_pips": 1161.2099999999668,
+      "pip_gain": 129.0100000000093
+    }
+  },
+  {
+    "name": "disc139",
+    "symbol": "GBPJPY",
+    "category": "gbpjpy_champions",
+    "total_trades": 60,
+    "win_rate": 51.66666666666667,
+    "profit_factor": 1.957984163483575,
+    "net_pips": 995.6999999999526,
+    "gross_loss": 1039.37000000003,
+    "avg_win_dur_min": 699.0311198924732,
+    "avg_loss_dur_min": 603.383788505747,
+    "direction_bias": {
+      "long_trades": 29,
+      "long_pips": 226.62999999997282,
+      "long_pf": 1.394702009822643,
+      "short_trades": 31,
+      "short_pips": 769.0699999999797,
+      "short_pf": 2.6532384617037374
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 20,
+        "wins": 9,
+        "losses": 11,
+        "win_rate": 45.0,
+        "net_pips": 219.39999999998795,
+        "profit_factor": 1.5575178512438288
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 20,
+        "wins": 12,
+        "losses": 8,
+        "win_rate": 60.0,
+        "net_pips": 580.4999999999814,
+        "profit_factor": 3.0202547504696957
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 14,
+        "wins": 9,
+        "losses": 5,
+        "win_rate": 64.28571428571429,
+        "net_pips": 301.0799999999905,
+        "profit_factor": 2.684363636363502
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 6,
+        "wins": 1,
+        "losses": 5,
+        "win_rate": 16.666666666666664,
+        "net_pips": -105.28000000000713,
+        "profit_factor": 0.41429763560498284
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 14,
+        "wins": 8,
+        "losses": 6,
+        "win_rate": 57.14285714285714,
+        "net_pips": 202.57999999999765,
+        "profit_factor": 1.942758749069229
+      },
+      "Monday": {
+        "trades": 6,
+        "wins": 5,
+        "losses": 1,
+        "win_rate": 83.33333333333334,
+        "net_pips": 342.0199999999942,
+        "profit_factor": 10.572348166805705
+      },
+      "Thursday": {
+        "trades": 16,
+        "wins": 6,
+        "losses": 10,
+        "win_rate": 37.5,
+        "net_pips": 13.219999999983344,
+        "profit_factor": 1.0368758716875395
+      },
+      "Tuesday": {
+        "trades": 15,
+        "wins": 8,
+        "losses": 7,
+        "win_rate": 53.333333333333336,
+        "net_pips": 319.04999999998546,
+        "profit_factor": 2.274110458847399
+      },
+      "Wednesday": {
+        "trades": 9,
+        "wins": 4,
+        "losses": 5,
+        "win_rate": 44.44444444444444,
+        "net_pips": 118.82999999999191,
+        "profit_factor": 1.6607172643869141
+      }
+    },
+    "toxic_sessions": [
+      "NY Afternoon (16:00-21:00)"
+    ],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 6,
+      "pruned_pct": 10.0,
+      "new_trades": 54,
+      "new_wr": 55.55555555555556,
+      "new_pf": 2.2807752262626826,
+      "new_net_pips": 1100.97999999996,
+      "pip_gain": 105.28000000000736
+    }
+  },
+  {
+    "name": "disc140",
+    "symbol": "GBPJPY",
+    "category": "gbpjpy_champions",
+    "total_trades": 50,
+    "win_rate": 52.0,
+    "profit_factor": 2.059733367848732,
+    "net_pips": 982.4999999999561,
+    "gross_loss": 927.1200000000375,
+    "avg_win_dur_min": 786.7434955128205,
+    "avg_loss_dur_min": 767.6151861111111,
+    "direction_bias": {
+      "long_trades": 25,
+      "long_pips": 248.0499999999778,
+      "long_pf": 1.4645218075244257,
+      "short_trades": 25,
+      "short_pips": 734.4499999999783,
+      "short_pf": 2.868211533080526
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 25,
+        "wins": 13,
+        "losses": 12,
+        "win_rate": 52.0,
+        "net_pips": 617.5499999999744,
+        "profit_factor": 2.248938235650911
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 18,
+        "wins": 12,
+        "losses": 6,
+        "win_rate": 66.66666666666666,
+        "net_pips": 503.1599999999925,
+        "profit_factor": 3.4546785052198823
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 7,
+        "wins": 1,
+        "losses": 6,
+        "win_rate": 14.285714285714285,
+        "net_pips": -138.21000000001078,
+        "profit_factor": 0.3929638088545093
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 12,
+        "wins": 8,
+        "losses": 4,
+        "win_rate": 66.66666666666666,
+        "net_pips": 243.33999999999295,
+        "profit_factor": 2.665343553243788
+      },
+      "Monday": {
+        "trades": 4,
+        "wins": 4,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 357.5799999999999,
+        "profit_factor": 99.0
+      },
+      "Thursday": {
+        "trades": 16,
+        "wins": 5,
+        "losses": 11,
+        "win_rate": 31.25,
+        "net_pips": -57.18000000002027,
+        "profit_factor": 0.8619274140969795
+      },
+      "Tuesday": {
+        "trades": 12,
+        "wins": 7,
+        "losses": 5,
+        "win_rate": 58.333333333333336,
+        "net_pips": 423.03999999998985,
+        "profit_factor": 3.076269938650198
+      },
+      "Wednesday": {
+        "trades": 6,
+        "wins": 2,
+        "losses": 4,
+        "win_rate": 33.33333333333333,
+        "net_pips": 15.719999999993625,
+        "profit_factor": 1.0963707699852432
+      }
+    },
+    "toxic_sessions": [
+      "NY Afternoon (16:00-21:00)"
+    ],
+    "toxic_days": [
+      "Thursday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 20,
+      "pruned_pct": 40.0,
+      "new_trades": 30,
+      "new_wr": 70.0,
+      "new_pf": 4.231054309616416,
+      "new_net_pips": 1185.6999999999823,
+      "pip_gain": 203.2000000000262
+    }
+  },
+  {
+    "name": "disc141",
+    "symbol": "GBPJPY",
+    "category": "gbpjpy_champions",
+    "total_trades": 23,
+    "win_rate": 69.56521739130434,
+    "profit_factor": 4.932049876121815,
+    "net_pips": 968.1099999999881,
+    "gross_loss": 246.21000000000916,
+    "avg_win_dur_min": 597.51009375,
+    "avg_loss_dur_min": 1076.8184380952382,
+    "direction_bias": {
+      "long_trades": 9,
+      "long_pips": 332.7299999999901,
+      "long_pf": 3.7297563376812692,
+      "short_trades": 14,
+      "short_pips": 635.379999999998,
+      "short_pf": 6.110842985842896
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 193.31999999999755,
+        "profit_factor": 3.376106194690188
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 8,
+        "wins": 7,
+        "losses": 1,
+        "win_rate": 87.5,
+        "net_pips": 533.5599999999968,
+        "profit_factor": 14.035914976788924
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 8,
+        "wins": 5,
+        "losses": 3,
+        "win_rate": 62.5,
+        "net_pips": 281.85999999999717,
+        "profit_factor": 4.384079721455035
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0,
+        "net_pips": -40.63000000000341,
+        "profit_factor": 0.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 7,
+        "wins": 5,
+        "losses": 2,
+        "win_rate": 71.42857142857143,
+        "net_pips": 231.38999999999191,
+        "profit_factor": 3.8475264582818185
+      },
+      "Monday": {
+        "trades": 5,
+        "wins": 5,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 447.0500000000038,
+        "profit_factor": 99.0
+      },
+      "Thursday": {
+        "trades": 6,
+        "wins": 3,
+        "losses": 3,
+        "win_rate": 50.0,
+        "net_pips": 103.119999999996,
+        "profit_factor": 2.2380838035777804
+      },
+      "Tuesday": {
+        "trades": 2,
+        "wins": 2,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 178.83999999999878,
+        "profit_factor": 99.0
+      },
+      "Wednesday": {
+        "trades": 3,
+        "wins": 1,
+        "losses": 2,
+        "win_rate": 33.33333333333333,
+        "net_pips": 7.709999999997521,
+        "profit_factor": 1.0944158706832872
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 23,
+      "new_wr": 69.56521739130434,
+      "new_pf": 4.932049876121815,
+      "new_net_pips": 968.1099999999881,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc155",
+    "symbol": "GBPJPY",
+    "category": "gbpjpy_champions",
+    "total_trades": 36,
+    "win_rate": 58.333333333333336,
+    "profit_factor": 2.9020140886991816,
+    "net_pips": 958.5199999999729,
+    "gross_loss": 503.9500000000106,
+    "avg_win_dur_min": 557.7937246031746,
+    "avg_loss_dur_min": 817.3072599999999,
+    "direction_bias": {
+      "long_trades": 16,
+      "long_pips": 159.41999999998797,
+      "long_pf": 1.4937590980889646,
+      "short_trades": 20,
+      "short_pips": 799.0999999999848,
+      "short_pf": 5.412966644576838
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 11,
+        "wins": 6,
+        "losses": 5,
+        "win_rate": 54.54545454545454,
+        "net_pips": 204.66999999999572,
+        "profit_factor": 2.143088522758991
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 10,
+        "wins": 7,
+        "losses": 3,
+        "win_rate": 70.0,
+        "net_pips": 416.2999999999914,
+        "profit_factor": 4.883757813228672
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 11,
+        "wins": 7,
+        "losses": 4,
+        "win_rate": 63.63636363636363,
+        "net_pips": 371.2699999999926,
+        "profit_factor": 4.38997443389313
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 4,
+        "wins": 1,
+        "losses": 3,
+        "win_rate": 25.0,
+        "net_pips": -33.72000000000685,
+        "profit_factor": 0.6883260929845139
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 10,
+        "wins": 6,
+        "losses": 4,
+        "win_rate": 60.0,
+        "net_pips": 193.99999999999295,
+        "profit_factor": 2.3517279821626924
+      },
+      "Monday": {
+        "trades": 5,
+        "wins": 5,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 377.74999999999693,
+        "profit_factor": 99.0
+      },
+      "Thursday": {
+        "trades": 9,
+        "wins": 4,
+        "losses": 5,
+        "win_rate": 44.44444444444444,
+        "net_pips": 153.42999999998943,
+        "profit_factor": 2.0599654576855526
+      },
+      "Tuesday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 228.81999999999653,
+        "profit_factor": 4.21105809710918
+      },
+      "Wednesday": {
+        "trades": 6,
+        "wins": 2,
+        "losses": 4,
+        "win_rate": 33.33333333333333,
+        "net_pips": 4.5199999999969975,
+        "profit_factor": 1.0312976042099216
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 36,
+      "new_wr": 58.333333333333336,
+      "new_pf": 2.9020140886991816,
+      "new_net_pips": 958.5199999999729,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc156",
+    "symbol": "GBPJPY",
+    "category": "gbpjpy_champions",
+    "total_trades": 31,
+    "win_rate": 64.51612903225806,
+    "profit_factor": 3.5729919929070304,
+    "net_pips": 928.6699999999688,
+    "gross_loss": 360.93000000001337,
+    "avg_win_dur_min": 631.1646641666667,
+    "avg_loss_dur_min": 704.0714106060606,
+    "direction_bias": {
+      "long_trades": 15,
+      "long_pips": 179.5499999999873,
+      "long_pf": 1.7136043877428586,
+      "short_trades": 16,
+      "short_pips": 749.1199999999815,
+      "short_pf": 7.852542993047509
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 14,
+        "wins": 10,
+        "losses": 4,
+        "win_rate": 71.42857142857143,
+        "net_pips": 567.3799999999859,
+        "profit_factor": 4.961597542242496
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 13,
+        "wins": 9,
+        "losses": 4,
+        "win_rate": 69.23076923076923,
+        "net_pips": 395.00999999998976,
+        "profit_factor": 4.60673849525175
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 4,
+        "wins": 1,
+        "losses": 3,
+        "win_rate": 25.0,
+        "net_pips": -33.72000000000685,
+        "profit_factor": 0.6883260929845139
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 7,
+        "wins": 5,
+        "losses": 2,
+        "win_rate": 71.42857142857143,
+        "net_pips": 163.78999999999598,
+        "profit_factor": 3.269817073170577
+      },
+      "Monday": {
+        "trades": 4,
+        "wins": 4,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 299.0799999999963,
+        "profit_factor": 99.0
+      },
+      "Thursday": {
+        "trades": 9,
+        "wins": 5,
+        "losses": 4,
+        "win_rate": 55.55555555555556,
+        "net_pips": 196.62999999998257,
+        "profit_factor": 2.801961143694757
+      },
+      "Tuesday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 228.2199999999965,
+        "profit_factor": 4.1847613731509075
+      },
+      "Wednesday": {
+        "trades": 5,
+        "wins": 2,
+        "losses": 3,
+        "win_rate": 40.0,
+        "net_pips": 40.94999999999741,
+        "profit_factor": 1.3792017779423655
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 31,
+      "new_wr": 64.51612903225806,
+      "new_pf": 3.5729919929070304,
+      "new_net_pips": 928.6699999999688,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc122",
+    "symbol": "NZDCAD",
+    "category": "nzdcad_champions",
+    "total_trades": 27,
+    "win_rate": 44.44444444444444,
+    "profit_factor": 1.8084186575653751,
+    "net_pips": 213.17999999999353,
+    "gross_loss": 263.700000000005,
+    "avg_win_dur_min": 1097.633916666667,
+    "avg_loss_dur_min": 714.9465411111111,
+    "direction_bias": {
+      "long_trades": 10,
+      "long_pips": 49.69999999999701,
+      "long_pf": 1.4590799926103457,
+      "short_trades": 17,
+      "short_pips": 163.4799999999965,
+      "short_pf": 2.051724137930993
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 6,
+        "wins": 3,
+        "losses": 3,
+        "win_rate": 50.0,
+        "net_pips": 68.33999999999789,
+        "profit_factor": 2.3484609313337845
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 10,
+        "wins": 4,
+        "losses": 6,
+        "win_rate": 40.0,
+        "net_pips": 58.399999999998506,
+        "profit_factor": 1.5738993710691573
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 9,
+        "wins": 5,
+        "losses": 4,
+        "win_rate": 55.55555555555556,
+        "net_pips": 125.55999999999739,
+        "profit_factor": 2.740504574438516
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "net_pips": -39.12000000000026,
+        "profit_factor": 0.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "net_pips": -33.22000000000046,
+        "profit_factor": 0.0
+      },
+      "Monday": {
+        "trades": 6,
+        "wins": 2,
+        "losses": 4,
+        "win_rate": 33.33333333333333,
+        "net_pips": 8.039999999999196,
+        "profit_factor": 1.1097760786455364
+      },
+      "Thursday": {
+        "trades": 5,
+        "wins": 4,
+        "losses": 1,
+        "win_rate": 80.0,
+        "net_pips": 137.9999999999987,
+        "profit_factor": 7.845238095237783
+      },
+      "Tuesday": {
+        "trades": 7,
+        "wins": 2,
+        "losses": 5,
+        "win_rate": 28.57142857142857,
+        "net_pips": -5.220000000001846,
+        "profit_factor": 0.9380047505938034
+      },
+      "Wednesday": {
+        "trades": 7,
+        "wins": 4,
+        "losses": 3,
+        "win_rate": 57.14285714285714,
+        "net_pips": 105.57999999999792,
+        "profit_factor": 2.9965960665657234
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Tuesday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 27,
+      "new_wr": 44.44444444444444,
+      "new_pf": 1.8084186575653751,
+      "new_net_pips": 213.17999999999353,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc123",
+    "symbol": "NZDCAD",
+    "category": "nzdcad_champions",
+    "total_trades": 25,
+    "win_rate": 48.0,
+    "profit_factor": 1.966562173458688,
+    "net_pips": 221.9999999999951,
+    "gross_loss": 229.68000000000373,
+    "avg_win_dur_min": 1110.4736125,
+    "avg_loss_dur_min": 737.7759153846154,
+    "direction_bias": {
+      "long_trades": 11,
+      "long_pips": 64.13999999999646,
+      "long_pf": 1.5930103550295387,
+      "short_trades": 14,
+      "short_pips": 157.85999999999865,
+      "short_pf": 2.2990454246214393
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 5,
+        "wins": 2,
+        "losses": 3,
+        "win_rate": 40.0,
+        "net_pips": 28.799999999998306,
+        "profit_factor": 1.5682715074979794
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 11,
+        "wins": 5,
+        "losses": 6,
+        "win_rate": 45.45454545454545,
+        "net_pips": 98.13999999999828,
+        "profit_factor": 1.9663253249310428
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 7,
+        "wins": 5,
+        "losses": 2,
+        "win_rate": 71.42857142857143,
+        "net_pips": 134.17999999999876,
+        "profit_factor": 4.501565762004091
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "net_pips": -39.12000000000026,
+        "profit_factor": 0.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 3,
+        "wins": 1,
+        "losses": 2,
+        "win_rate": 33.33333333333333,
+        "net_pips": -18.88000000000055,
+        "profit_factor": 0.4316676700782575
+      },
+      "Monday": {
+        "trades": 5,
+        "wins": 2,
+        "losses": 3,
+        "win_rate": 40.0,
+        "net_pips": 24.6999999999992,
+        "profit_factor": 1.4365500176740678
+      },
+      "Thursday": {
+        "trades": 5,
+        "wins": 4,
+        "losses": 1,
+        "win_rate": 80.0,
+        "net_pips": 137.9999999999987,
+        "profit_factor": 7.845238095237783
+      },
+      "Tuesday": {
+        "trades": 6,
+        "wins": 1,
+        "losses": 5,
+        "win_rate": 16.666666666666664,
+        "net_pips": -44.56000000000123,
+        "profit_factor": 0.46952380952380285
+      },
+      "Wednesday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 122.73999999999899,
+        "profit_factor": 4.436170212765912
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Tuesday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 6,
+      "pruned_pct": 24.0,
+      "new_trades": 19,
+      "new_wr": 57.89473684210527,
+      "new_pf": 2.8297638660076325,
+      "new_net_pips": 266.55999999999636,
+      "pip_gain": 44.56000000000125
+    }
+  },
+  {
+    "name": "disc125",
+    "symbol": "NZDCAD",
+    "category": "nzdcad_champions",
+    "total_trades": 27,
+    "win_rate": 51.85185185185185,
+    "profit_factor": 1.7616296980899568,
+    "net_pips": 197.78000000000026,
+    "gross_loss": 259.6800000000004,
+    "avg_win_dur_min": 953.7708559523809,
+    "avg_loss_dur_min": 869.9580589743589,
+    "direction_bias": {
+      "long_trades": 11,
+      "long_pips": 69.93999999999893,
+      "long_pf": 1.6816764132553434,
+      "short_trades": 16,
+      "short_pips": 127.84000000000135,
+      "short_pf": 1.8138528138528258
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 13,
+        "wins": 6,
+        "losses": 7,
+        "win_rate": 46.15384615384615,
+        "net_pips": 64.51999999999961,
+        "profit_factor": 1.4778551325729472
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 11,
+        "wins": 7,
+        "losses": 4,
+        "win_rate": 63.63636363636363,
+        "net_pips": 136.54000000000116,
+        "profit_factor": 2.596212298339981
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 3,
+        "wins": 1,
+        "losses": 2,
+        "win_rate": 33.33333333333333,
+        "net_pips": -3.280000000000488,
+        "profit_factor": 0.9161554192228919
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 3,
+        "wins": 2,
+        "losses": 1,
+        "win_rate": 66.66666666666666,
+        "net_pips": 10.819999999999734,
+        "profit_factor": 1.5829741379310125
+      },
+      "Monday": {
+        "trades": 7,
+        "wins": 3,
+        "losses": 4,
+        "win_rate": 42.857142857142854,
+        "net_pips": 29.47999999999898,
+        "profit_factor": 1.38019086922877
+      },
+      "Thursday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 98.5400000000003,
+        "profit_factor": 3.2590554791379724
+      },
+      "Tuesday": {
+        "trades": 4,
+        "wins": 1,
+        "losses": 3,
+        "win_rate": 25.0,
+        "net_pips": -21.43999999999922,
+        "profit_factor": 0.6230661040787739
+      },
+      "Wednesday": {
+        "trades": 7,
+        "wins": 4,
+        "losses": 3,
+        "win_rate": 57.14285714285714,
+        "net_pips": 80.38000000000049,
+        "profit_factor": 2.2742549143944433
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 27,
+      "new_wr": 51.85185185185185,
+      "new_pf": 1.7616296980899568,
+      "new_net_pips": 197.78000000000026,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc126",
+    "symbol": "NZDCAD",
+    "category": "nzdcad_champions",
+    "total_trades": 27,
+    "win_rate": 44.44444444444444,
+    "profit_factor": 1.5288721804510887,
+    "net_pips": 140.6799999999926,
+    "gross_loss": 266.0000000000056,
+    "avg_win_dur_min": 907.166140277778,
+    "avg_loss_dur_min": 804.4566666666667,
+    "direction_bias": {
+      "long_trades": 14,
+      "long_pips": 0.25999999999644174,
+      "long_pf": 1.0015725172371865,
+      "short_trades": 13,
+      "short_pips": 140.41999999999618,
+      "short_pf": 2.394993045897008
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0,
+        "net_pips": 84.89999999999834,
+        "profit_factor": 3.488276670574336
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 6,
+        "wins": 3,
+        "losses": 3,
+        "win_rate": 50.0,
+        "net_pips": 61.53999999999884,
+        "profit_factor": 2.083832335329297
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 15,
+        "wins": 6,
+        "losses": 9,
+        "win_rate": 40.0,
+        "net_pips": 14.399999999996158,
+        "profit_factor": 1.0929392022718207
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0,
+        "net_pips": -20.16000000000073,
+        "profit_factor": 0.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 2,
+        "wins": 2,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 11.479999999999277,
+        "profit_factor": 99.0
+      },
+      "Monday": {
+        "trades": 5,
+        "wins": 1,
+        "losses": 4,
+        "win_rate": 20.0,
+        "net_pips": -32.50000000000139,
+        "profit_factor": 0.5482346399777489
+      },
+      "Thursday": {
+        "trades": 6,
+        "wins": 3,
+        "losses": 3,
+        "win_rate": 50.0,
+        "net_pips": 58.13999999999878,
+        "profit_factor": 1.9644990046449557
+      },
+      "Tuesday": {
+        "trades": 6,
+        "wins": 2,
+        "losses": 4,
+        "win_rate": 33.33333333333333,
+        "net_pips": 11.739999999997902,
+        "profit_factor": 1.1745984533015705
+      },
+      "Wednesday": {
+        "trades": 8,
+        "wins": 4,
+        "losses": 4,
+        "win_rate": 50.0,
+        "net_pips": 91.81999999999805,
+        "profit_factor": 2.3799218515178215
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Monday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 5,
+      "pruned_pct": 18.51851851851852,
+      "new_trades": 22,
+      "new_wr": 50.0,
+      "new_pf": 1.8924044110068552,
+      "new_net_pips": 173.17999999999398,
+      "pip_gain": 32.50000000000139
+    }
+  },
+  {
+    "name": "disc161",
+    "symbol": "NZDCAD",
+    "category": "nzdcad_champions",
+    "total_trades": 36,
+    "win_rate": 50.0,
+    "profit_factor": 1.556381957773469,
+    "net_pips": 139.13999999999223,
+    "gross_loss": 250.08000000000575,
+    "avg_win_dur_min": 485.44421111111103,
+    "avg_loss_dur_min": 407.3488472222222,
+    "direction_bias": {
+      "long_trades": 16,
+      "long_pips": 21.839999999995275,
+      "long_pf": 1.1701729780270749,
+      "short_trades": 20,
+      "short_pips": 117.29999999999694,
+      "short_pf": 1.9635288319368667
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 12,
+        "wins": 9,
+        "losses": 3,
+        "win_rate": 75.0,
+        "net_pips": 174.77999999999778,
+        "profit_factor": 5.542099792099584
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 8,
+        "wins": 4,
+        "losses": 4,
+        "win_rate": 50.0,
+        "net_pips": 39.21999999999985,
+        "profit_factor": 1.716477895506014
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 15,
+        "wins": 5,
+        "losses": 10,
+        "win_rate": 33.33333333333333,
+        "net_pips": -62.10000000000431,
+        "profit_factor": 0.5690492713393254
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0,
+        "net_pips": -12.7600000000011,
+        "profit_factor": 0.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 3,
+        "wins": 2,
+        "losses": 1,
+        "win_rate": 66.66666666666666,
+        "net_pips": -1.0800000000005099,
+        "profit_factor": 0.9140127388534611
+      },
+      "Monday": {
+        "trades": 7,
+        "wins": 3,
+        "losses": 4,
+        "win_rate": 42.857142857142854,
+        "net_pips": 9.179999999998113,
+        "profit_factor": 1.149171270718199
+      },
+      "Thursday": {
+        "trades": 8,
+        "wins": 4,
+        "losses": 4,
+        "win_rate": 50.0,
+        "net_pips": 40.71999999999637,
+        "profit_factor": 1.764838467317691
+      },
+      "Tuesday": {
+        "trades": 7,
+        "wins": 2,
+        "losses": 5,
+        "win_rate": 28.57142857142857,
+        "net_pips": -20.620000000000598,
+        "profit_factor": 0.6963181148748079
+      },
+      "Wednesday": {
+        "trades": 11,
+        "wins": 7,
+        "losses": 4,
+        "win_rate": 63.63636363636363,
+        "net_pips": 110.93999999999886,
+        "profit_factor": 3.0229759299780405
+      }
+    },
+    "toxic_sessions": [
+      "London/NY Overlap (12:00-16:00)"
+    ],
+    "toxic_days": [
+      "Tuesday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 20,
+      "pruned_pct": 55.55555555555556,
+      "new_trades": 16,
+      "new_wr": 68.75,
+      "new_pf": 3.950455927051492,
+      "new_net_pips": 194.1399999999972,
+      "pip_gain": 55.000000000004974
+    }
+  },
+  {
+    "name": "disc162",
+    "symbol": "NZDCAD",
+    "category": "nzdcad_champions",
+    "total_trades": 31,
+    "win_rate": 51.61290322580645,
+    "profit_factor": 1.7613646055436916,
+    "net_pips": 178.53999999999667,
+    "gross_loss": 234.5000000000013,
+    "avg_win_dur_min": 570.2667364583333,
+    "avg_loss_dur_min": 375.88843222222215,
+    "direction_bias": {
+      "long_trades": 13,
+      "long_pips": 63.219999999997796,
+      "long_pf": 1.6547224523611959,
+      "short_trades": 18,
+      "short_pips": 115.31999999999886,
+      "short_pf": 1.8360156589821564
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 14,
+        "wins": 6,
+        "losses": 8,
+        "win_rate": 42.857142857142854,
+        "net_pips": 49.65999999999923,
+        "profit_factor": 1.41150149154789
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 13,
+        "wins": 7,
+        "losses": 6,
+        "win_rate": 53.84615384615385,
+        "net_pips": 60.31999999999877,
+        "profit_factor": 1.6076969574853734
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 4,
+        "wins": 3,
+        "losses": 1,
+        "win_rate": 75.0,
+        "net_pips": 68.55999999999864,
+        "profit_factor": 5.708791208790895
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 6,
+        "wins": 2,
+        "losses": 4,
+        "win_rate": 33.33333333333333,
+        "net_pips": -38.15999999999928,
+        "profit_factor": 0.3665338645418358
+      },
+      "Monday": {
+        "trades": 7,
+        "wins": 4,
+        "losses": 3,
+        "win_rate": 57.14285714285714,
+        "net_pips": 60.17999999999806,
+        "profit_factor": 2.1026016855990592
+      },
+      "Thursday": {
+        "trades": 5,
+        "wins": 4,
+        "losses": 1,
+        "win_rate": 80.0,
+        "net_pips": 95.79999999999981,
+        "profit_factor": 7.57967032967001
+      },
+      "Tuesday": {
+        "trades": 4,
+        "wins": 0,
+        "losses": 4,
+        "win_rate": 0.0,
+        "net_pips": -58.43999999999848,
+        "profit_factor": 0.0
+      },
+      "Wednesday": {
+        "trades": 9,
+        "wins": 6,
+        "losses": 3,
+        "win_rate": 66.66666666666666,
+        "net_pips": 119.15999999999653,
+        "profit_factor": 3.552699228791607
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Friday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 6,
+      "pruned_pct": 19.35483870967742,
+      "new_trades": 25,
+      "new_wr": 56.00000000000001,
+      "new_pf": 2.243544129461686,
+      "new_net_pips": 216.69999999999592,
+      "pip_gain": 38.15999999999926
+    }
+  },
+  {
+    "name": "disc127",
+    "symbol": "USDCAD",
+    "category": "usdcad_champions",
+    "total_trades": 27,
+    "win_rate": 66.66666666666666,
+    "profit_factor": 4.069606713839215,
+    "net_pips": 373.0800000000163,
+    "gross_loss": 121.5399999999994,
+    "avg_win_dur_min": 258.13171851851854,
+    "avg_loss_dur_min": 306.25031666666666,
+    "direction_bias": {
+      "long_trades": 10,
+      "long_pips": 200.40000000001282,
+      "long_pf": 11.31925849639732,
+      "short_trades": 17,
+      "short_pips": 172.68000000000345,
+      "short_pf": 2.6909518213866104
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 3,
+        "wins": 0,
+        "losses": 3,
+        "win_rate": 0.0,
+        "net_pips": -34.07999999999688,
+        "profit_factor": 0.0
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 9,
+        "wins": 7,
+        "losses": 2,
+        "win_rate": 77.77777777777779,
+        "net_pips": 162.96000000000592,
+        "profit_factor": 6.577002053388333
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 13,
+        "wins": 10,
+        "losses": 3,
+        "win_rate": 76.92307692307693,
+        "net_pips": 231.3200000000066,
+        "profit_factor": 6.29578754578745
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 50.0,
+        "net_pips": 12.880000000000678,
+        "profit_factor": 1.8846153846153897
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0,
+        "net_pips": 63.000000000002515,
+        "profit_factor": 4.260869565217635
+      },
+      "Monday": {
+        "trades": 3,
+        "wins": 3,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 82.52000000000317,
+        "profit_factor": 99.0
+      },
+      "Thursday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 80.74000000000473,
+        "profit_factor": 3.753751705320928
+      },
+      "Tuesday": {
+        "trades": 10,
+        "wins": 7,
+        "losses": 3,
+        "win_rate": 70.0,
+        "net_pips": 148.50000000000367,
+        "profit_factor": 4.3997252747252
+      },
+      "Wednesday": {
+        "trades": 3,
+        "wins": 1,
+        "losses": 2,
+        "win_rate": 33.33333333333333,
+        "net_pips": -1.679999999997781,
+        "profit_factor": 0.9425051334703015
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 27,
+      "new_wr": 66.66666666666666,
+      "new_pf": 4.069606713839215,
+      "new_net_pips": 373.0800000000163,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc128",
+    "symbol": "USDCAD",
+    "category": "usdcad_champions",
+    "total_trades": 36,
+    "win_rate": 55.55555555555556,
+    "profit_factor": 2.4754570836711554,
+    "net_pips": 327.64000000001585,
+    "gross_loss": 222.0599999999994,
+    "avg_win_dur_min": 249.7699016666667,
+    "avg_loss_dur_min": 276.796153125,
+    "direction_bias": {
+      "long_trades": 14,
+      "long_pips": 144.16000000000992,
+      "long_pf": 2.902851108764672,
+      "short_trades": 22,
+      "short_pips": 183.48000000000593,
+      "short_pf": 2.254135338345903
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "net_pips": -29.319999999998227,
+        "profit_factor": 0.0
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 13,
+        "wins": 8,
+        "losses": 5,
+        "win_rate": 61.53846153846154,
+        "net_pips": 146.72000000000745,
+        "profit_factor": 3.007113543091793
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 19,
+        "wins": 11,
+        "losses": 8,
+        "win_rate": 57.89473684210527,
+        "net_pips": 185.56000000000415,
+        "profit_factor": 2.5876112251882137
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 50.0,
+        "net_pips": 24.68000000000249,
+        "profit_factor": 9.942028985511811
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 7,
+        "wins": 5,
+        "losses": 2,
+        "win_rate": 71.42857142857143,
+        "net_pips": 120.0800000000041,
+        "profit_factor": 7.933025404157463
+      },
+      "Monday": {
+        "trades": 5,
+        "wins": 4,
+        "losses": 1,
+        "win_rate": 80.0,
+        "net_pips": 95.40000000000164,
+        "profit_factor": 7.5521978021976075
+      },
+      "Thursday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 80.74000000000473,
+        "profit_factor": 3.753751705320928
+      },
+      "Tuesday": {
+        "trades": 12,
+        "wins": 6,
+        "losses": 6,
+        "win_rate": 50.0,
+        "net_pips": 76.9800000000021,
+        "profit_factor": 1.8771649954421161
+      },
+      "Wednesday": {
+        "trades": 6,
+        "wins": 1,
+        "losses": 5,
+        "win_rate": 16.666666666666664,
+        "net_pips": -45.559999999996684,
+        "profit_factor": 0.37674418604654586
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Wednesday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 6,
+      "pruned_pct": 16.666666666666664,
+      "new_trades": 30,
+      "new_wr": 63.33333333333333,
+      "new_pf": 3.505370569280416,
+      "new_net_pips": 373.2000000000126,
+      "pip_gain": 45.55999999999676
+    }
+  },
+  {
+    "name": "disc129",
+    "symbol": "USDCAD",
+    "category": "usdcad_champions",
+    "total_trades": 34,
+    "win_rate": 55.88235294117647,
+    "profit_factor": 2.519594594594678,
+    "net_pips": 314.8600000000158,
+    "gross_loss": 207.19999999999902,
+    "avg_win_dur_min": 297.44187280701755,
+    "avg_loss_dur_min": 292.84209999999996,
+    "direction_bias": {
+      "long_trades": 14,
+      "long_pips": 144.16000000000992,
+      "long_pf": 2.902851108764672,
+      "short_trades": 20,
+      "short_pips": 170.7000000000059,
+      "short_pf": 2.2986914181376
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "net_pips": -29.319999999998227,
+        "profit_factor": 0.0
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 13,
+        "wins": 8,
+        "losses": 5,
+        "win_rate": 61.53846153846154,
+        "net_pips": 146.72000000000745,
+        "profit_factor": 3.007113543091793
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 16,
+        "wins": 10,
+        "losses": 6,
+        "win_rate": 62.5,
+        "net_pips": 187.3400000000048,
+        "profit_factor": 3.142007774982842
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 3,
+        "wins": 1,
+        "losses": 2,
+        "win_rate": 33.33333333333333,
+        "net_pips": 10.12000000000181,
+        "profit_factor": 1.5842956120093576
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 7,
+        "wins": 5,
+        "losses": 2,
+        "win_rate": 71.42857142857143,
+        "net_pips": 120.0800000000041,
+        "profit_factor": 7.933025404157463
+      },
+      "Monday": {
+        "trades": 4,
+        "wins": 3,
+        "losses": 1,
+        "win_rate": 75.0,
+        "net_pips": 67.86000000000183,
+        "profit_factor": 5.660714285714194
+      },
+      "Thursday": {
+        "trades": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0,
+        "net_pips": 53.20000000000272,
+        "profit_factor": 2.814461118690516
+      },
+      "Tuesday": {
+        "trades": 12,
+        "wins": 7,
+        "losses": 5,
+        "win_rate": 58.333333333333336,
+        "net_pips": 119.28000000000387,
+        "profit_factor": 2.6362139917695595
+      },
+      "Wednesday": {
+        "trades": 6,
+        "wins": 1,
+        "losses": 5,
+        "win_rate": 16.666666666666664,
+        "net_pips": -45.559999999996684,
+        "profit_factor": 0.37674418604654586
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Wednesday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 6,
+      "pruned_pct": 17.647058823529413,
+      "new_trades": 28,
+      "new_wr": 64.28571428571429,
+      "new_pf": 3.687695749440803,
+      "new_net_pips": 360.4200000000125,
+      "pip_gain": 45.559999999996705
+    }
+  },
+  {
+    "name": "disc130",
+    "symbol": "USDCAD",
+    "category": "usdcad_champions",
+    "total_trades": 27,
+    "win_rate": 59.25925925925925,
+    "profit_factor": 2.923143457308924,
+    "net_pips": 311.28000000001555,
+    "gross_loss": 161.8599999999964,
+    "avg_win_dur_min": 263.29293020833336,
+    "avg_loss_dur_min": 560.5140090909091,
+    "direction_bias": {
+      "long_trades": 10,
+      "long_pips": 216.1000000000113,
+      "long_pf": 11.634842519686005,
+      "short_trades": 17,
+      "short_pips": 95.18000000000424,
+      "short_pf": 1.6724600819556743
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 3,
+        "wins": 0,
+        "losses": 3,
+        "win_rate": 0.0,
+        "net_pips": -35.97999999999822,
+        "profit_factor": 0.0
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 9,
+        "wins": 6,
+        "losses": 3,
+        "win_rate": 66.66666666666666,
+        "net_pips": 130.1600000000042,
+        "profit_factor": 3.764655904842917
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 13,
+        "wins": 9,
+        "losses": 4,
+        "win_rate": 69.23076923076923,
+        "net_pips": 203.220000000009,
+        "profit_factor": 4.213472485768759
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 50.0,
+        "net_pips": 13.880000000000567,
+        "profit_factor": 1.8920308483290529
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0,
+        "net_pips": 68.30000000000615,
+        "profit_factor": 4.296332046332757
+      },
+      "Monday": {
+        "trades": 3,
+        "wins": 3,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 88.52000000000471,
+        "profit_factor": 99.0
+      },
+      "Thursday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 87.54000000000265,
+        "profit_factor": 3.795019157088385
+      },
+      "Tuesday": {
+        "trades": 10,
+        "wins": 5,
+        "losses": 5,
+        "win_rate": 50.0,
+        "net_pips": 68.60000000000204,
+        "profit_factor": 1.8716645489199768
+      },
+      "Wednesday": {
+        "trades": 3,
+        "wins": 1,
+        "losses": 2,
+        "win_rate": 33.33333333333333,
+        "net_pips": -1.6799999999999997,
+        "profit_factor": 0.9460154241645264
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 27,
+      "new_wr": 59.25925925925925,
+      "new_pf": 2.923143457308924,
+      "new_net_pips": 311.28000000001555,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc106_chaikin_volatility_surge_elite",
+    "symbol": "USDJPY",
+    "category": "usdjpy_champions",
+    "total_trades": 305,
+    "win_rate": 38.36065573770492,
+    "profit_factor": 1.1685659846991998,
+    "net_pips": 465.3499999999999,
+    "gross_loss": 2760.6400000000003,
+    "avg_win_dur_min": 230.8481256410256,
+    "avg_loss_dur_min": 123.56012686170213,
+    "direction_bias": {
+      "long_trades": 161,
+      "long_pips": 245.97,
+      "long_pf": 1.1688345562747533,
+      "short_trades": 144,
+      "short_pips": 219.37999999999997,
+      "short_pf": 1.1682658751160098
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 169,
+        "wins": 65,
+        "losses": 104,
+        "win_rate": 38.46153846153847,
+        "net_pips": 271.53,
+        "profit_factor": 1.1768556392152778
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 127,
+        "wins": 52,
+        "losses": 75,
+        "win_rate": 40.94488188976378,
+        "net_pips": 326.48999999999995,
+        "profit_factor": 1.2988056559740078
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 9,
+        "wins": 0,
+        "losses": 9,
+        "win_rate": 0.0,
+        "net_pips": -132.67,
+        "profit_factor": 0.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 61,
+        "wins": 26,
+        "losses": 35,
+        "win_rate": 42.62295081967213,
+        "net_pips": 204.76999999999998,
+        "profit_factor": 1.4091717454291142
+      },
+      "Monday": {
+        "trades": 52,
+        "wins": 18,
+        "losses": 34,
+        "win_rate": 34.61538461538461,
+        "net_pips": -9.560000000000024,
+        "profit_factor": 0.9811484461271492
+      },
+      "Thursday": {
+        "trades": 63,
+        "wins": 25,
+        "losses": 38,
+        "win_rate": 39.682539682539684,
+        "net_pips": 135.21,
+        "profit_factor": 1.2434286331556963
+      },
+      "Tuesday": {
+        "trades": 68,
+        "wins": 32,
+        "losses": 36,
+        "win_rate": 47.05882352941176,
+        "net_pips": 356.85999999999996,
+        "profit_factor": 1.6685525872082134
+      },
+      "Wednesday": {
+        "trades": 61,
+        "wins": 16,
+        "losses": 45,
+        "win_rate": 26.229508196721312,
+        "net_pips": -221.93,
+        "profit_factor": 0.6656925510280935
+      }
+    },
+    "toxic_sessions": [
+      "NY Afternoon (16:00-21:00)"
+    ],
+    "toxic_days": [
+      "Monday",
+      "Wednesday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 69,
+      "pruned_pct": 22.62295081967213,
+      "new_trades": 236,
+      "new_wr": 42.79661016949153,
+      "new_pf": 1.4069842072015157,
+      "new_net_pips": 805.32,
+      "pip_gain": 339.97000000000014
+    }
+  },
+  {
+    "name": "disc65_session_vwap_band_fade_elite",
+    "symbol": "USDJPY",
+    "category": "usdjpy_champions",
+    "total_trades": 189,
+    "win_rate": 40.21164021164021,
+    "profit_factor": 1.1775289251078882,
+    "net_pips": 257.93000000000006,
+    "gross_loss": 1452.8899999999999,
+    "avg_win_dur_min": 205.88460701754383,
+    "avg_loss_dur_min": 115.5788221238938,
+    "direction_bias": {
+      "long_trades": 112,
+      "long_pips": 279.44000000000005,
+      "long_pf": 1.3422454653455647,
+      "short_trades": 77,
+      "short_pips": -21.51000000000002,
+      "short_pf": 0.9662005028284099
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 135,
+        "wins": 51,
+        "losses": 84,
+        "win_rate": 37.77777777777778,
+        "net_pips": 105.64999999999998,
+        "profit_factor": 1.0978585057705486
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 48,
+        "wins": 23,
+        "losses": 25,
+        "win_rate": 47.91666666666667,
+        "net_pips": 156.56,
+        "profit_factor": 1.485984789694242
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 6,
+        "wins": 2,
+        "losses": 4,
+        "win_rate": 33.33333333333333,
+        "net_pips": -4.280000000000001,
+        "profit_factor": 0.9162754303599374
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 40,
+        "wins": 12,
+        "losses": 28,
+        "win_rate": 30.0,
+        "net_pips": -158.10000000000002,
+        "profit_factor": 0.5599042422892773
+      },
+      "Monday": {
+        "trades": 34,
+        "wins": 14,
+        "losses": 20,
+        "win_rate": 41.17647058823529,
+        "net_pips": 77.88,
+        "profit_factor": 1.3046948356807513
+      },
+      "Thursday": {
+        "trades": 41,
+        "wins": 18,
+        "losses": 23,
+        "win_rate": 43.90243902439025,
+        "net_pips": 125.96999999999998,
+        "profit_factor": 1.4240129253761482
+      },
+      "Tuesday": {
+        "trades": 37,
+        "wins": 17,
+        "losses": 20,
+        "win_rate": 45.94594594594595,
+        "net_pips": 144.19,
+        "profit_factor": 1.5634622899570145
+      },
+      "Wednesday": {
+        "trades": 37,
+        "wins": 15,
+        "losses": 22,
+        "win_rate": 40.54054054054054,
+        "net_pips": 67.99,
+        "profit_factor": 1.2385111906265351
+      }
+    },
+    "toxic_sessions": [
+      "NY Afternoon (16:00-21:00)"
+    ],
+    "toxic_days": [
+      "Friday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 40,
+      "pruned_pct": 21.164021164021165,
+      "new_trades": 149,
+      "new_wr": 42.95302013422819,
+      "new_pf": 1.3804050656059978,
+      "new_net_pips": 416.03000000000003,
+      "pip_gain": 158.09999999999997
+    }
+  },
+  {
+    "name": "disc67_london_lunch_expansion_elite",
+    "symbol": "USDJPY",
+    "category": "usdjpy_champions",
+    "total_trades": 135,
+    "win_rate": 41.48148148148148,
+    "profit_factor": 1.2696921562704035,
+    "net_pips": 276.74999999999994,
+    "gross_loss": 1026.17,
+    "avg_win_dur_min": 189.82773928571433,
+    "avg_loss_dur_min": 94.65722911392407,
+    "direction_bias": {
+      "long_trades": 74,
+      "long_pips": 38.57999999999998,
+      "long_pf": 1.0636864868434082,
+      "short_trades": 61,
+      "short_pips": 238.17000000000002,
+      "short_pf": 1.5665453507457359
+    },
+    "session_stats": {
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 135,
+        "wins": 56,
+        "losses": 79,
+        "win_rate": 41.48148148148148,
+        "net_pips": 276.74999999999994,
+        "profit_factor": 1.2696921562704035
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 24,
+        "wins": 9,
+        "losses": 15,
+        "win_rate": 37.5,
+        "net_pips": 4.1799999999999855,
+        "profit_factor": 1.0217312191317913
+      },
+      "Monday": {
+        "trades": 32,
+        "wins": 14,
+        "losses": 18,
+        "win_rate": 43.75,
+        "net_pips": 87.73999999999998,
+        "profit_factor": 1.3643082544427836
+      },
+      "Thursday": {
+        "trades": 25,
+        "wins": 12,
+        "losses": 13,
+        "win_rate": 48.0,
+        "net_pips": 112.55,
+        "profit_factor": 1.6628776724188703
+      },
+      "Tuesday": {
+        "trades": 27,
+        "wins": 12,
+        "losses": 15,
+        "win_rate": 44.44444444444444,
+        "net_pips": 92.69,
+        "profit_factor": 1.4861788617886182
+      },
+      "Wednesday": {
+        "trades": 27,
+        "wins": 9,
+        "losses": 18,
+        "win_rate": 33.33333333333333,
+        "net_pips": -20.410000000000007,
+        "profit_factor": 0.9122301539520082
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Wednesday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 135,
+      "new_wr": 41.48148148148148,
+      "new_pf": 1.2696921562704035,
+      "new_net_pips": 276.74999999999994,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc83_parabolic_sar_flip_elite",
+    "symbol": "USDJPY",
+    "category": "usdjpy_champions",
+    "total_trades": 247,
+    "win_rate": 40.08097165991903,
+    "profit_factor": 1.231132125198984,
+    "net_pips": 438.4899999999999,
+    "gross_loss": 1897.1399999999999,
+    "avg_win_dur_min": 137.22128821548822,
+    "avg_loss_dur_min": 96.0401918918919,
+    "direction_bias": {
+      "long_trades": 129,
+      "long_pips": 267.13,
+      "long_pf": 1.2717276315254098,
+      "short_trades": 118,
+      "short_pips": 171.36,
+      "short_pf": 1.1874712819727369
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 125,
+        "wins": 49,
+        "losses": 76,
+        "win_rate": 39.2,
+        "net_pips": 193.74999999999997,
+        "profit_factor": 1.2012401587070771
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 113,
+        "wins": 47,
+        "losses": 66,
+        "win_rate": 41.5929203539823,
+        "net_pips": 256.40999999999997,
+        "profit_factor": 1.3008165372251814
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 9,
+        "wins": 3,
+        "losses": 6,
+        "win_rate": 33.33333333333333,
+        "net_pips": -11.669999999999995,
+        "profit_factor": 0.8576482068797268
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 56,
+        "wins": 20,
+        "losses": 36,
+        "win_rate": 35.714285714285715,
+        "net_pips": 20.519999999999996,
+        "profit_factor": 1.0453000132456178
+      },
+      "Monday": {
+        "trades": 48,
+        "wins": 13,
+        "losses": 35,
+        "win_rate": 27.083333333333332,
+        "net_pips": -148.34000000000003,
+        "profit_factor": 0.6736552634473655
+      },
+      "Thursday": {
+        "trades": 51,
+        "wins": 21,
+        "losses": 30,
+        "win_rate": 41.17647058823529,
+        "net_pips": 104.46999999999997,
+        "profit_factor": 1.26807800872466
+      },
+      "Tuesday": {
+        "trades": 54,
+        "wins": 28,
+        "losses": 26,
+        "win_rate": 51.85185185185185,
+        "net_pips": 327.28000000000003,
+        "profit_factor": 1.986139568518742
+      },
+      "Wednesday": {
+        "trades": 38,
+        "wins": 17,
+        "losses": 21,
+        "win_rate": 44.73684210526316,
+        "net_pips": 134.56,
+        "profit_factor": 1.5020333544752456
+      }
+    },
+    "toxic_sessions": [
+      "NY Afternoon (16:00-21:00)"
+    ],
+    "toxic_days": [
+      "Monday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 56,
+      "pruned_pct": 22.672064777327936,
+      "new_trades": 191,
+      "new_wr": 43.455497382198956,
+      "new_pf": 1.4266333634324662,
+      "new_net_pips": 585.8700000000001,
+      "pip_gain": 147.38000000000022
+    }
+  },
+  {
+    "name": "disc91_session_donchian_midline_bounce_elite",
+    "symbol": "USDJPY",
+    "category": "usdjpy_champions",
+    "total_trades": 197,
+    "win_rate": 40.10152284263959,
+    "profit_factor": 1.226525638017778,
+    "net_pips": 347.59000000000003,
+    "gross_loss": 1534.4400000000003,
+    "avg_win_dur_min": 220.60588375527428,
+    "avg_loss_dur_min": 149.33674293785307,
+    "direction_bias": {
+      "long_trades": 112,
+      "long_pips": 202.64000000000001,
+      "long_pf": 1.2335342453123739,
+      "short_trades": 85,
+      "short_pips": 144.95000000000002,
+      "short_pf": 1.2174043465870743
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 121,
+        "wins": 46,
+        "losses": 75,
+        "win_rate": 38.01652892561984,
+        "net_pips": 115.37000000000002,
+        "profit_factor": 1.1176464589812878
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 74,
+        "wins": 31,
+        "losses": 43,
+        "win_rate": 41.891891891891895,
+        "net_pips": 185.38,
+        "profit_factor": 1.3347478285992886
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 2,
+        "wins": 2,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 46.84,
+        "profit_factor": 99.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 38,
+        "wins": 13,
+        "losses": 25,
+        "win_rate": 34.21052631578947,
+        "net_pips": -14.140000000000018,
+        "profit_factor": 0.9571839515518547
+      },
+      "Monday": {
+        "trades": 49,
+        "wins": 23,
+        "losses": 26,
+        "win_rate": 46.93877551020408,
+        "net_pips": 205.53,
+        "profit_factor": 1.6146599677014177
+      },
+      "Thursday": {
+        "trades": 31,
+        "wins": 13,
+        "losses": 18,
+        "win_rate": 41.935483870967744,
+        "net_pips": 77.57,
+        "profit_factor": 1.3331472255626182
+      },
+      "Tuesday": {
+        "trades": 42,
+        "wins": 22,
+        "losses": 20,
+        "win_rate": 52.38095238095239,
+        "net_pips": 262.34,
+        "profit_factor": 1.9940886699507392
+      },
+      "Wednesday": {
+        "trades": 37,
+        "wins": 8,
+        "losses": 29,
+        "win_rate": 21.62162162162162,
+        "net_pips": -183.71000000000004,
+        "profit_factor": 0.5075723054654623
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Friday",
+      "Wednesday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 37,
+      "pruned_pct": 18.781725888324875,
+      "new_trades": 160,
+      "new_wr": 44.375,
+      "new_pf": 1.457476945331806,
+      "new_net_pips": 531.3,
+      "pip_gain": 183.70999999999992
+    }
+  },
+  {
+    "name": "disc94_london_vwap_pullback_elite",
+    "symbol": "USDJPY",
+    "category": "usdjpy_champions",
+    "total_trades": 154,
+    "win_rate": 39.61038961038961,
+    "profit_factor": 1.1989570465681187,
+    "net_pips": 239.97999999999996,
+    "gross_loss": 1206.1900000000003,
+    "avg_win_dur_min": 279.6799475409836,
+    "avg_loss_dur_min": 145.4616901433692,
+    "direction_bias": {
+      "long_trades": 89,
+      "long_pips": 229.93,
+      "long_pf": 1.3410614690874572,
+      "short_trades": 65,
+      "short_pips": 10.049999999999965,
+      "short_pf": 1.0188899122229949
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 92,
+        "wins": 42,
+        "losses": 50,
+        "win_rate": 45.65217391304348,
+        "net_pips": 385.8400000000001,
+        "profit_factor": 1.6058093892290781
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 60,
+        "wins": 18,
+        "losses": 42,
+        "win_rate": 30.0,
+        "net_pips": -156.8,
+        "profit_factor": 0.7183199798799986
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 50.0,
+        "net_pips": 10.94,
+        "profit_factor": 1.8661916072842437
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 30,
+        "wins": 8,
+        "losses": 22,
+        "win_rate": 26.666666666666668,
+        "net_pips": -100.19999999999999,
+        "profit_factor": 0.6225420025615912
+      },
+      "Monday": {
+        "trades": 34,
+        "wins": 11,
+        "losses": 23,
+        "win_rate": 32.35294117647059,
+        "net_pips": -42.920000000000016,
+        "profit_factor": 0.8574039004618094
+      },
+      "Thursday": {
+        "trades": 28,
+        "wins": 16,
+        "losses": 12,
+        "win_rate": 57.14285714285714,
+        "net_pips": 247.36,
+        "profit_factor": 2.5850313981801873
+      },
+      "Tuesday": {
+        "trades": 35,
+        "wins": 15,
+        "losses": 20,
+        "win_rate": 42.857142857142854,
+        "net_pips": 80.35000000000001,
+        "profit_factor": 1.2865549215406562
+      },
+      "Wednesday": {
+        "trades": 27,
+        "wins": 11,
+        "losses": 16,
+        "win_rate": 40.74074074074074,
+        "net_pips": 55.39,
+        "profit_factor": 1.2724813065722158
+      }
+    },
+    "toxic_sessions": [
+      "London/NY Overlap (12:00-16:00)"
+    ],
+    "toxic_days": [
+      "Friday",
+      "Monday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 104,
+      "pruned_pct": 67.53246753246754,
+      "new_trades": 50,
+      "new_wr": 54.0,
+      "new_pf": 2.2834224598930484,
+      "new_net_pips": 376.8,
+      "pip_gain": 136.82000000000005
+    }
+  },
+  {
+    "name": "disc95_camarilla_expansion_elite",
+    "symbol": "USDJPY",
+    "category": "usdjpy_champions",
+    "total_trades": 115,
+    "win_rate": 40.869565217391305,
+    "profit_factor": 1.295464457043175,
+    "net_pips": 257.45,
+    "gross_loss": 871.3399999999999,
+    "avg_win_dur_min": 167.37931276595745,
+    "avg_loss_dur_min": 80.31796593137254,
+    "direction_bias": {
+      "long_trades": 65,
+      "long_pips": 43.249999999999986,
+      "long_pf": 1.0819392607468312,
+      "short_trades": 50,
+      "short_pips": 214.20000000000002,
+      "short_pf": 1.623562632820005
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 85,
+        "wins": 35,
+        "losses": 50,
+        "win_rate": 41.17647058823529,
+        "net_pips": 202.85000000000002,
+        "profit_factor": 1.3159165239059336
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 30,
+        "wins": 12,
+        "losses": 18,
+        "win_rate": 40.0,
+        "net_pips": 54.59999999999999,
+        "profit_factor": 1.238178328389461
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 20,
+        "wins": 9,
+        "losses": 11,
+        "win_rate": 45.0,
+        "net_pips": 87.0,
+        "profit_factor": 1.6129782287042909
+      },
+      "Monday": {
+        "trades": 29,
+        "wins": 12,
+        "losses": 17,
+        "win_rate": 41.37931034482759,
+        "net_pips": 65.73000000000002,
+        "profit_factor": 1.3031686730316867
+      },
+      "Thursday": {
+        "trades": 23,
+        "wins": 11,
+        "losses": 12,
+        "win_rate": 47.82608695652174,
+        "net_pips": 106.41000000000001,
+        "profit_factor": 1.6836052935885906
+      },
+      "Tuesday": {
+        "trades": 26,
+        "wins": 10,
+        "losses": 16,
+        "win_rate": 38.46153846153847,
+        "net_pips": 33.41999999999999,
+        "profit_factor": 1.1639199529134785
+      },
+      "Wednesday": {
+        "trades": 17,
+        "wins": 5,
+        "losses": 12,
+        "win_rate": 29.411764705882355,
+        "net_pips": -35.110000000000014,
+        "profit_factor": 0.7706128315693191
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Wednesday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 17,
+      "pruned_pct": 14.782608695652174,
+      "new_trades": 98,
+      "new_wr": 42.857142857142854,
+      "new_pf": 1.4073063429303334,
+      "new_net_pips": 292.56,
+      "pip_gain": 35.110000000000014
+    }
+  },
+  {
+    "name": "disc99_m15_macd_zero_cross_momentum_elite",
+    "symbol": "USDJPY",
+    "category": "usdjpy_champions",
+    "total_trades": 180,
+    "win_rate": 38.333333333333336,
+    "profit_factor": 1.1558757233806511,
+    "net_pips": 220.60000000000005,
+    "gross_loss": 1415.2300000000007,
+    "avg_win_dur_min": 189.38361256038644,
+    "avg_loss_dur_min": 119.64187942942942,
+    "direction_bias": {
+      "long_trades": 98,
+      "long_pips": 149.85999999999999,
+      "long_pf": 1.1991495016611295,
+      "short_trades": 82,
+      "short_pips": 70.73999999999998,
+      "short_pf": 1.106740301480241
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 85,
+        "wins": 37,
+        "losses": 48,
+        "win_rate": 43.529411764705884,
+        "net_pips": 264.54999999999995,
+        "profit_factor": 1.4283239427498218
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 92,
+        "wins": 32,
+        "losses": 60,
+        "win_rate": 34.78260869565217,
+        "net_pips": -2.1600000000000286,
+        "profit_factor": 0.9971421010849433
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 3,
+        "wins": 0,
+        "losses": 3,
+        "win_rate": 0.0,
+        "net_pips": -41.79,
+        "profit_factor": 0.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 34,
+        "wins": 11,
+        "losses": 23,
+        "win_rate": 32.35294117647059,
+        "net_pips": -22.220000000000002,
+        "profit_factor": 0.9210348626461494
+      },
+      "Monday": {
+        "trades": 36,
+        "wins": 17,
+        "losses": 19,
+        "win_rate": 47.22222222222222,
+        "net_pips": 159.52,
+        "profit_factor": 1.6573536077801132
+      },
+      "Thursday": {
+        "trades": 31,
+        "wins": 14,
+        "losses": 17,
+        "win_rate": 45.16129032258064,
+        "net_pips": 105.97000000000001,
+        "profit_factor": 1.475607019433598
+      },
+      "Tuesday": {
+        "trades": 40,
+        "wins": 14,
+        "losses": 26,
+        "win_rate": 35.0,
+        "net_pips": 5.599999999999994,
+        "profit_factor": 1.016853256289876
+      },
+      "Wednesday": {
+        "trades": 39,
+        "wins": 13,
+        "losses": 26,
+        "win_rate": 33.33333333333333,
+        "net_pips": -28.269999999999992,
+        "profit_factor": 0.9158831230659366
+      }
+    },
+    "toxic_sessions": [
+      "London/NY Overlap (12:00-16:00)"
+    ],
+    "toxic_days": [
+      "Friday",
+      "Wednesday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 180,
+      "new_wr": 38.333333333333336,
+      "new_pf": 1.1558757233806511,
+      "new_net_pips": 220.60000000000005,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc163",
+    "symbol": "USDCAD",
+    "category": "usdcad_champions",
+    "total_trades": 884,
+    "win_rate": 43.21266968325792,
+    "profit_factor": 1.5615433146714806,
+    "net_pips": 5642.959999999999,
+    "gross_loss": 10049.02,
+    "avg_win_dur_min": 591.7866458115183,
+    "avg_loss_dur_min": 383.32026268260296,
+    "direction_bias": {
+      "long_trades": 452,
+      "long_pips": 3319.18,
+      "long_pf": 1.6630006192197828,
+      "short_trades": 432,
+      "short_pips": 2323.7799999999997,
+      "short_pf": 1.4608187644763146
+    },
+    "session_stats": {
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 884,
+        "wins": 382,
+        "losses": 502,
+        "win_rate": 43.21266968325792,
+        "net_pips": 5642.959999999999,
+        "profit_factor": 1.5615433146714806
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 167,
+        "wins": 77,
+        "losses": 90,
+        "win_rate": 46.10778443113773,
+        "net_pips": 1089.38,
+        "profit_factor": 1.6430055483414001
+      },
+      "Monday": {
+        "trades": 194,
+        "wins": 79,
+        "losses": 115,
+        "win_rate": 40.72164948453608,
+        "net_pips": 1054.86,
+        "profit_factor": 1.459033942558747
+      },
+      "Thursday": {
+        "trades": 178,
+        "wins": 83,
+        "losses": 95,
+        "win_rate": 46.62921348314607,
+        "net_pips": 1516.22,
+        "profit_factor": 1.7888351282451487
+      },
+      "Tuesday": {
+        "trades": 176,
+        "wins": 84,
+        "losses": 92,
+        "win_rate": 47.72727272727273,
+        "net_pips": 1746.24,
+        "profit_factor": 1.9218294691498796
+      },
+      "Wednesday": {
+        "trades": 169,
+        "wins": 59,
+        "losses": 110,
+        "win_rate": 34.9112426035503,
+        "net_pips": 236.2599999999999,
+        "profit_factor": 1.1054543831458667
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 884,
+      "new_wr": 43.21266968325792,
+      "new_pf": 1.5615433146714806,
+      "new_net_pips": 5642.959999999999,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc164",
+    "symbol": "USDCAD",
+    "category": "usdcad_champions",
+    "total_trades": 941,
+    "win_rate": 42.29543039319872,
+    "profit_factor": 1.3595690935778029,
+    "net_pips": 3248.34,
+    "gross_loss": 9033.98,
+    "avg_win_dur_min": 293.0241390703517,
+    "avg_loss_dur_min": 196.12124364640883,
+    "direction_bias": {
+      "long_trades": 481,
+      "long_pips": 1634.1399999999999,
+      "long_pf": 1.3556436729577273,
+      "short_trades": 460,
+      "short_pips": 1614.2000000000003,
+      "short_pf": 1.3636322678020318
+    },
+    "session_stats": {
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 941,
+        "wins": 398,
+        "losses": 543,
+        "win_rate": 42.29543039319872,
+        "net_pips": 3248.34,
+        "profit_factor": 1.3595690935778029
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 183,
+        "wins": 83,
+        "losses": 100,
+        "win_rate": 45.3551912568306,
+        "net_pips": 789.22,
+        "profit_factor": 1.4830874701597598
+      },
+      "Monday": {
+        "trades": 194,
+        "wins": 77,
+        "losses": 117,
+        "win_rate": 39.69072164948454,
+        "net_pips": 456.86,
+        "profit_factor": 1.2352620087336244
+      },
+      "Thursday": {
+        "trades": 192,
+        "wins": 79,
+        "losses": 113,
+        "win_rate": 41.14583333333333,
+        "net_pips": 585.28,
+        "profit_factor": 1.3081264346031545
+      },
+      "Tuesday": {
+        "trades": 189,
+        "wins": 92,
+        "losses": 97,
+        "win_rate": 48.67724867724868,
+        "net_pips": 1260.1600000000003,
+        "profit_factor": 1.7766683923772895
+      },
+      "Wednesday": {
+        "trades": 183,
+        "wins": 67,
+        "losses": 116,
+        "win_rate": 36.6120218579235,
+        "net_pips": 156.82000000000008,
+        "profit_factor": 1.0809870065483689
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 941,
+      "new_wr": 42.29543039319872,
+      "new_pf": 1.3595690935778029,
+      "new_net_pips": 3248.34,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc165",
+    "symbol": "GBPJPY",
+    "category": "gbpjpy_champions",
+    "total_trades": 562,
+    "win_rate": 38.612099644128115,
+    "profit_factor": 1.2259449532644267,
+    "net_pips": 2399.1400000000003,
+    "gross_loss": 10618.25,
+    "avg_win_dur_min": 506.55562434715824,
+    "avg_loss_dur_min": 266.6060433333333,
+    "direction_bias": {
+      "long_trades": 321,
+      "long_pips": 1693.7700000000004,
+      "long_pf": 1.2848256761324368,
+      "short_trades": 241,
+      "short_pips": 705.3700000000001,
+      "short_pf": 1.150992387981745
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 562,
+        "wins": 217,
+        "losses": 345,
+        "win_rate": 38.612099644128115,
+        "net_pips": 2399.1400000000003,
+        "profit_factor": 1.2259449532644267
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 93,
+        "wins": 46,
+        "losses": 47,
+        "win_rate": 49.46236559139785,
+        "net_pips": 836.61,
+        "profit_factor": 1.591323216544977
+      },
+      "Monday": {
+        "trades": 122,
+        "wins": 52,
+        "losses": 70,
+        "win_rate": 42.62295081967213,
+        "net_pips": 1140.4400000000003,
+        "profit_factor": 1.5283728687916975
+      },
+      "Thursday": {
+        "trades": 115,
+        "wins": 37,
+        "losses": 78,
+        "win_rate": 32.17391304347826,
+        "net_pips": -50.649999999999935,
+        "profit_factor": 0.97874920283288
+      },
+      "Tuesday": {
+        "trades": 122,
+        "wins": 50,
+        "losses": 72,
+        "win_rate": 40.98360655737705,
+        "net_pips": 873.44,
+        "profit_factor": 1.3868613138686132
+      },
+      "Wednesday": {
+        "trades": 110,
+        "wins": 32,
+        "losses": 78,
+        "win_rate": 29.09090909090909,
+        "net_pips": -400.6999999999999,
+        "profit_factor": 0.8333083732694356
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Thursday",
+      "Wednesday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 110,
+      "pruned_pct": 19.572953736654807,
+      "new_trades": 452,
+      "new_wr": 40.929203539823014,
+      "new_pf": 1.3408449298245402,
+      "new_net_pips": 2799.84,
+      "pip_gain": 400.6999999999998
+    }
+  },
+  {
+    "name": "disc166",
+    "symbol": "GBPCHF",
+    "category": "gbpchf_champions",
+    "total_trades": 223,
+    "win_rate": 41.25560538116592,
+    "profit_factor": 1.24974592091443,
+    "net_pips": 587.3100000000002,
+    "gross_loss": 2351.6299999999997,
+    "avg_win_dur_min": 652.2745278985506,
+    "avg_loss_dur_min": 515.2854474554707,
+    "direction_bias": {
+      "long_trades": 127,
+      "long_pips": 400.89000000000016,
+      "long_pf": 1.3169441677339788,
+      "short_trades": 96,
+      "short_pips": 186.42000000000007,
+      "short_pf": 1.1715358355493808
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 134,
+        "wins": 56,
+        "losses": 78,
+        "win_rate": 41.7910447761194,
+        "net_pips": 454.58000000000015,
+        "profit_factor": 1.3310996838900464
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 80,
+        "wins": 33,
+        "losses": 47,
+        "win_rate": 41.25,
+        "net_pips": 123.80000000000007,
+        "profit_factor": 1.1417919849732565
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 9,
+        "wins": 3,
+        "losses": 6,
+        "win_rate": 33.33333333333333,
+        "net_pips": 8.93000000000001,
+        "profit_factor": 1.0845804129569996
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 40,
+        "wins": 23,
+        "losses": 17,
+        "win_rate": 57.49999999999999,
+        "net_pips": 298.4,
+        "profit_factor": 2.5939319480796974
+      },
+      "Monday": {
+        "trades": 44,
+        "wins": 14,
+        "losses": 30,
+        "win_rate": 31.818181818181817,
+        "net_pips": -141.11999999999995,
+        "profit_factor": 0.7470967741935485
+      },
+      "Thursday": {
+        "trades": 42,
+        "wins": 13,
+        "losses": 29,
+        "win_rate": 30.952380952380953,
+        "net_pips": -73.65999999999997,
+        "profit_factor": 0.8695752253129592
+      },
+      "Tuesday": {
+        "trades": 50,
+        "wins": 23,
+        "losses": 27,
+        "win_rate": 46.0,
+        "net_pips": 318.70000000000005,
+        "profit_factor": 1.6021046267782584
+      },
+      "Wednesday": {
+        "trades": 47,
+        "wins": 19,
+        "losses": 28,
+        "win_rate": 40.42553191489361,
+        "net_pips": 184.9900000000001,
+        "profit_factor": 1.3610688214857318
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Monday",
+      "Thursday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 86,
+      "pruned_pct": 38.56502242152467,
+      "new_trades": 137,
+      "new_wr": 47.44525547445255,
+      "new_pf": 1.6527106423839983,
+      "new_net_pips": 802.0900000000001,
+      "pip_gain": 214.77999999999997
+    }
+  },
+  {
+    "name": "disc167",
+    "symbol": "EURNZD",
+    "category": "eurnzd_champions",
+    "total_trades": 63,
+    "win_rate": 39.682539682539684,
+    "profit_factor": 1.2237656878550012,
+    "net_pips": 297.03999999999996,
+    "gross_loss": 1327.46,
+    "avg_win_dur_min": 879.919228,
+    "avg_loss_dur_min": 481.2826478070176,
+    "direction_bias": {
+      "long_trades": 31,
+      "long_pips": 89.98000000000002,
+      "long_pf": 1.135332691613524,
+      "short_trades": 32,
+      "short_pips": 207.06,
+      "short_pf": 1.312505659693924
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 63,
+        "wins": 25,
+        "losses": 38,
+        "win_rate": 39.682539682539684,
+        "net_pips": 297.03999999999996,
+        "profit_factor": 1.2237656878550012
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 9,
+        "wins": 4,
+        "losses": 5,
+        "win_rate": 44.44444444444444,
+        "net_pips": -41.87999999999999,
+        "profit_factor": 0.795007342143906
+      },
+      "Monday": {
+        "trades": 18,
+        "wins": 6,
+        "losses": 12,
+        "win_rate": 33.33333333333333,
+        "net_pips": -1.3600000000000065,
+        "profit_factor": 0.9967475008370402
+      },
+      "Thursday": {
+        "trades": 10,
+        "wins": 6,
+        "losses": 4,
+        "win_rate": 60.0,
+        "net_pips": 285.3,
+        "profit_factor": 3.1682626538987693
+      },
+      "Tuesday": {
+        "trades": 13,
+        "wins": 2,
+        "losses": 11,
+        "win_rate": 15.384615384615385,
+        "net_pips": -235.95999999999998,
+        "profit_factor": 0.37281377917176123
+      },
+      "Wednesday": {
+        "trades": 13,
+        "wins": 7,
+        "losses": 6,
+        "win_rate": 53.84615384615385,
+        "net_pips": 290.94,
+        "profit_factor": 2.4752053544265284
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Friday",
+      "Monday",
+      "Tuesday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 22,
+      "pruned_pct": 34.92063492063492,
+      "new_trades": 41,
+      "new_wr": 46.34146341463415,
+      "new_pf": 1.7696468257155866,
+      "new_net_pips": 574.88,
+      "pip_gain": 277.84000000000003
+    }
+  },
+  {
+    "name": "disc168",
+    "symbol": "EURNZD",
+    "category": "eurnzd_champions",
+    "total_trades": 58,
+    "win_rate": 37.93103448275862,
+    "profit_factor": 1.2262692645901794,
+    "net_pips": 293.34,
+    "gross_loss": 1296.4199999999998,
+    "avg_win_dur_min": 758.5459280303031,
+    "avg_loss_dur_min": 545.434850925926,
+    "direction_bias": {
+      "long_trades": 30,
+      "long_pips": 88.5,
+      "long_pf": 1.1347278041651447,
+      "short_trades": 28,
+      "short_pips": 204.83999999999995,
+      "short_pf": 1.3202927103855897
+    },
+    "session_stats": {
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 52,
+        "wins": 21,
+        "losses": 31,
+        "win_rate": 40.38461538461539,
+        "net_pips": 409.76000000000005,
+        "profit_factor": 1.3724007561436675
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 6,
+        "wins": 1,
+        "losses": 5,
+        "win_rate": 16.666666666666664,
+        "net_pips": -116.41999999999999,
+        "profit_factor": 0.40632330443651204
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 9,
+        "wins": 5,
+        "losses": 4,
+        "win_rate": 55.55555555555556,
+        "net_pips": 163.72,
+        "profit_factor": 3.1806073521576983
+      },
+      "Monday": {
+        "trades": 14,
+        "wins": 5,
+        "losses": 9,
+        "win_rate": 35.714285714285715,
+        "net_pips": 68.72,
+        "profit_factor": 1.2095249710348193
+      },
+      "Thursday": {
+        "trades": 14,
+        "wins": 8,
+        "losses": 6,
+        "win_rate": 57.14285714285714,
+        "net_pips": 414.02,
+        "profit_factor": 2.862270600935588
+      },
+      "Tuesday": {
+        "trades": 10,
+        "wins": 2,
+        "losses": 8,
+        "win_rate": 20.0,
+        "net_pips": -173.60000000000002,
+        "profit_factor": 0.4778319196294291
+      },
+      "Wednesday": {
+        "trades": 11,
+        "wins": 2,
+        "losses": 9,
+        "win_rate": 18.181818181818183,
+        "net_pips": -179.52,
+        "profit_factor": 0.469785575048733
+      }
+    },
+    "toxic_sessions": [
+      "NY Afternoon (16:00-21:00)"
+    ],
+    "toxic_days": [
+      "Tuesday",
+      "Wednesday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 25,
+      "pruned_pct": 43.103448275862064,
+      "new_trades": 33,
+      "new_wr": 51.515151515151516,
+      "new_pf": 2.330166920761503,
+      "new_net_pips": 680.5400000000001,
+      "pip_gain": 387.2000000000001
+    }
+  },
+  {
+    "name": "disc169",
+    "symbol": "EURUSD",
+    "category": "eurusd_champions",
+    "total_trades": 327,
+    "win_rate": 41.284403669724774,
+    "profit_factor": 1.4045056320400497,
+    "net_pips": 807.9999999999999,
+    "gross_loss": 1997.5000000000005,
+    "avg_win_dur_min": 223.08552851851852,
+    "avg_loss_dur_min": 177.71596336805555,
+    "direction_bias": {
+      "long_trades": 173,
+      "long_pips": 491.0000000000001,
+      "long_pf": 1.4755908562572646,
+      "short_trades": 154,
+      "short_pips": 317.0,
+      "short_pf": 1.3284633716713292
+    },
+    "session_stats": {
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 318,
+        "wins": 133,
+        "losses": 185,
+        "win_rate": 41.82389937106918,
+        "net_pips": 859.1,
+        "profit_factor": 1.446517671517671
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 9,
+        "wins": 2,
+        "losses": 7,
+        "win_rate": 22.22222222222222,
+        "net_pips": -51.1,
+        "profit_factor": 0.30476190476190473
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 68,
+        "wins": 26,
+        "losses": 42,
+        "win_rate": 38.23529411764706,
+        "net_pips": 5.60000000000001,
+        "profit_factor": 1.013257575757576
+      },
+      "Monday": {
+        "trades": 61,
+        "wins": 18,
+        "losses": 43,
+        "win_rate": 29.508196721311474,
+        "net_pips": -59.19999999999997,
+        "profit_factor": 0.8691423519009727
+      },
+      "Thursday": {
+        "trades": 63,
+        "wins": 28,
+        "losses": 35,
+        "win_rate": 44.44444444444444,
+        "net_pips": 237.7,
+        "profit_factor": 1.6427798810167664
+      },
+      "Tuesday": {
+        "trades": 75,
+        "wins": 38,
+        "losses": 37,
+        "win_rate": 50.66666666666667,
+        "net_pips": 440.20000000000005,
+        "profit_factor": 2.137173856884526
+      },
+      "Wednesday": {
+        "trades": 60,
+        "wins": 25,
+        "losses": 35,
+        "win_rate": 41.66666666666667,
+        "net_pips": 183.7,
+        "profit_factor": 1.5021869874248226
+      }
+    },
+    "toxic_sessions": [
+      "NY Afternoon (16:00-21:00)"
+    ],
+    "toxic_days": [
+      "Monday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 66,
+      "pruned_pct": 20.18348623853211,
+      "new_trades": 261,
+      "new_wr": 44.06130268199234,
+      "new_pf": 1.579263860437454,
+      "new_net_pips": 876.6000000000001,
+      "pip_gain": 68.60000000000025
+    }
+  },
+  {
+    "name": "disc170",
+    "symbol": "USDCAD",
+    "category": "usdcad_champions",
+    "total_trades": 126,
+    "win_rate": 50.79365079365079,
+    "profit_factor": 1.9909827645245977,
+    "net_pips": 1041.8400000000001,
+    "gross_loss": 1051.32,
+    "avg_win_dur_min": 898.0760359375,
+    "avg_loss_dur_min": 477.9054935483871,
+    "direction_bias": {
+      "long_trades": 60,
+      "long_pips": 567.5999999999999,
+      "long_pf": 2.1897375702188313,
+      "short_trades": 66,
+      "short_pips": 474.2399999999999,
+      "short_pf": 1.8258567846196716
+    },
+    "session_stats": {
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 88,
+        "wins": 49,
+        "losses": 39,
+        "win_rate": 55.68181818181818,
+        "net_pips": 911.7199999999998,
+        "profit_factor": 2.2968252162039144
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 38,
+        "wins": 15,
+        "losses": 23,
+        "win_rate": 39.473684210526315,
+        "net_pips": 130.11999999999998,
+        "profit_factor": 1.373607442287814
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 33,
+        "wins": 17,
+        "losses": 16,
+        "win_rate": 51.515151515151516,
+        "net_pips": 113.02,
+        "profit_factor": 1.4923331590869489
+      },
+      "Monday": {
+        "trades": 23,
+        "wins": 10,
+        "losses": 13,
+        "win_rate": 43.47826086956522,
+        "net_pips": 119.82,
+        "profit_factor": 1.5283534703236616
+      },
+      "Thursday": {
+        "trades": 20,
+        "wins": 11,
+        "losses": 9,
+        "win_rate": 55.00000000000001,
+        "net_pips": 222.60000000000002,
+        "profit_factor": 2.4526233359436174
+      },
+      "Tuesday": {
+        "trades": 27,
+        "wins": 14,
+        "losses": 13,
+        "win_rate": 51.85185185185185,
+        "net_pips": 318.68,
+        "profit_factor": 2.3585130872197118
+      },
+      "Wednesday": {
+        "trades": 23,
+        "wins": 12,
+        "losses": 11,
+        "win_rate": 52.17391304347826,
+        "net_pips": 267.71999999999997,
+        "profit_factor": 2.2923344274956556
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 126,
+      "new_wr": 50.79365079365079,
+      "new_pf": 1.9909827645245977,
+      "new_net_pips": 1041.8400000000001,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc171",
+    "symbol": "GBPJPY",
+    "category": "gbpjpy_champions",
+    "total_trades": 119,
+    "win_rate": 41.17647058823529,
+    "profit_factor": 1.5413714094109758,
+    "net_pips": 968.7299999999999,
+    "gross_loss": 1789.4,
+    "avg_win_dur_min": 600.7043363945578,
+    "avg_loss_dur_min": 390.8206214285714,
+    "direction_bias": {
+      "long_trades": 76,
+      "long_pips": 498.1200000000002,
+      "long_pf": 1.4257872602318182,
+      "short_trades": 43,
+      "short_pips": 470.61,
+      "short_pf": 1.7596364927685948
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 74,
+        "wins": 24,
+        "losses": 50,
+        "win_rate": 32.432432432432435,
+        "net_pips": 70.67999999999996,
+        "profit_factor": 1.0555704064784968
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 38,
+        "wins": 21,
+        "losses": 17,
+        "win_rate": 55.26315789473685,
+        "net_pips": 778.66,
+        "profit_factor": 2.7672317922879643
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 7,
+        "wins": 4,
+        "losses": 3,
+        "win_rate": 57.14285714285714,
+        "net_pips": 119.39000000000001,
+        "profit_factor": 2.5527376772011965
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 26,
+        "wins": 11,
+        "losses": 15,
+        "win_rate": 42.30769230769231,
+        "net_pips": 130.22,
+        "profit_factor": 1.356425345559053
+      },
+      "Monday": {
+        "trades": 24,
+        "wins": 9,
+        "losses": 15,
+        "win_rate": 37.5,
+        "net_pips": 146.38,
+        "profit_factor": 1.3749967977456128
+      },
+      "Thursday": {
+        "trades": 21,
+        "wins": 10,
+        "losses": 11,
+        "win_rate": 47.61904761904761,
+        "net_pips": 309.1700000000001,
+        "profit_factor": 2.0778858557333613
+      },
+      "Tuesday": {
+        "trades": 20,
+        "wins": 7,
+        "losses": 13,
+        "win_rate": 35.0,
+        "net_pips": 81.99999999999999,
+        "profit_factor": 1.2452226442178296
+      },
+      "Wednesday": {
+        "trades": 28,
+        "wins": 12,
+        "losses": 16,
+        "win_rate": 42.857142857142854,
+        "net_pips": 300.9599999999999,
+        "profit_factor": 1.729635376260667
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 119,
+      "new_wr": 41.17647058823529,
+      "new_pf": 1.5413714094109758,
+      "new_net_pips": 968.7299999999999,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc172",
+    "symbol": "EURGBP",
+    "category": "eurgbp_champions",
+    "total_trades": 19,
+    "win_rate": 52.63157894736842,
+    "profit_factor": 2.0392205535559143,
+    "net_pips": 83.73,
+    "gross_loss": 80.57,
+    "avg_win_dur_min": 556.4533716666667,
+    "avg_loss_dur_min": 315.46764074074076,
+    "direction_bias": {
+      "long_trades": 12,
+      "long_pips": 70.34,
+      "long_pf": 2.4187172246873736,
+      "short_trades": 7,
+      "short_pips": 13.39,
+      "short_pf": 1.432074862858987
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 19.87,
+        "profit_factor": 99.0
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 12,
+        "wins": 6,
+        "losses": 6,
+        "win_rate": 50.0,
+        "net_pips": 54.44,
+        "profit_factor": 2.1002425222312042
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 4,
+        "wins": 1,
+        "losses": 3,
+        "win_rate": 25.0,
+        "net_pips": -29.92,
+        "profit_factor": 0.037632679318108715
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 2,
+        "wins": 2,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 39.34,
+        "profit_factor": 99.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 29.42,
+        "profit_factor": 5.484756097560976
+      },
+      "Monday": {
+        "trades": 3,
+        "wins": 1,
+        "losses": 2,
+        "win_rate": 33.33333333333333,
+        "net_pips": -2.389999999999999,
+        "profit_factor": 0.8926325247079965
+      },
+      "Thursday": {
+        "trades": 6,
+        "wins": 3,
+        "losses": 3,
+        "win_rate": 50.0,
+        "net_pips": 38.019999999999996,
+        "profit_factor": 2.226847370119393
+      },
+      "Tuesday": {
+        "trades": 4,
+        "wins": 2,
+        "losses": 2,
+        "win_rate": 50.0,
+        "net_pips": 18.680000000000003,
+        "profit_factor": 1.8998073217726397
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 19,
+      "new_wr": 52.63157894736842,
+      "new_pf": 2.0392205535559143,
+      "new_net_pips": 83.73,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc173",
+    "symbol": "USDJPY",
+    "category": "usdjpy_champions",
+    "total_trades": 131,
+    "win_rate": 41.98473282442748,
+    "profit_factor": 1.3904002953261423,
+    "net_pips": 486.47,
+    "gross_loss": 1246.0800000000004,
+    "avg_win_dur_min": 419.1799193939393,
+    "avg_loss_dur_min": 186.86514890350878,
+    "direction_bias": {
+      "long_trades": 80,
+      "long_pips": 295.99999999999994,
+      "long_pf": 1.392791740757451,
+      "short_trades": 51,
+      "short_pips": 190.47000000000003,
+      "short_pf": 1.3867411167512693
+    },
+    "session_stats": {
+      "Asian (21:00-06:00)": {
+        "trades": 63,
+        "wins": 30,
+        "losses": 33,
+        "win_rate": 47.61904761904761,
+        "net_pips": 413.7100000000001,
+        "profit_factor": 1.7641626184451136
+      },
+      "London Open (06:00-12:00)": {
+        "trades": 43,
+        "wins": 13,
+        "losses": 30,
+        "win_rate": 30.23255813953488,
+        "net_pips": -61.19,
+        "profit_factor": 0.8797602672430731
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 19,
+        "wins": 8,
+        "losses": 11,
+        "win_rate": 42.10526315789473,
+        "net_pips": 61.230000000000004,
+        "profit_factor": 1.3767304497631203
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 6,
+        "wins": 4,
+        "losses": 2,
+        "win_rate": 66.66666666666666,
+        "net_pips": 72.72,
+        "profit_factor": 3.1864101022248947
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 35,
+        "wins": 15,
+        "losses": 20,
+        "win_rate": 42.857142857142854,
+        "net_pips": 80.15,
+        "profit_factor": 1.2643469656992086
+      },
+      "Thursday": {
+        "trades": 30,
+        "wins": 12,
+        "losses": 18,
+        "win_rate": 40.0,
+        "net_pips": 74.80000000000001,
+        "profit_factor": 1.2436958363198019
+      },
+      "Tuesday": {
+        "trades": 30,
+        "wins": 14,
+        "losses": 16,
+        "win_rate": 46.666666666666664,
+        "net_pips": 215.00000000000003,
+        "profit_factor": 1.801999403163235
+      },
+      "Wednesday": {
+        "trades": 36,
+        "wins": 14,
+        "losses": 22,
+        "win_rate": 38.88888888888889,
+        "net_pips": 116.52,
+        "profit_factor": 1.3167509378567932
+      }
+    },
+    "toxic_sessions": [
+      "London Open (06:00-12:00)"
+    ],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 43,
+      "pruned_pct": 32.82442748091603,
+      "new_trades": 88,
+      "new_wr": 47.72727272727273,
+      "new_pf": 1.7429121788437023,
+      "new_net_pips": 547.6600000000001,
+      "pip_gain": 61.190000000000055
+    }
+  },
+  {
+    "name": "disc174",
+    "symbol": "EURGBP",
+    "category": "eurgbp_champions",
+    "total_trades": 46,
+    "win_rate": 54.347826086956516,
+    "profit_factor": 2.1424868787662796,
+    "net_pips": 176.31999999999994,
+    "gross_loss": 154.33000000000004,
+    "avg_win_dur_min": 430.2615666666667,
+    "avg_loss_dur_min": 460.7239166666667,
+    "direction_bias": {
+      "long_trades": 23,
+      "long_pips": 70.71000000000001,
+      "long_pf": 1.8780578666335523,
+      "short_trades": 23,
+      "short_pips": 105.61,
+      "short_pf": 2.4310298102981025
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 25,
+        "wins": 13,
+        "losses": 12,
+        "win_rate": 52.0,
+        "net_pips": 78.85000000000001,
+        "profit_factor": 1.8964301955434286
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 19,
+        "wins": 10,
+        "losses": 9,
+        "win_rate": 52.63157894736842,
+        "net_pips": 70.13000000000001,
+        "profit_factor": 2.056652101853247
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 2,
+        "wins": 2,
+        "losses": 0,
+        "win_rate": 100.0,
+        "net_pips": 27.34,
+        "profit_factor": 99.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 13,
+        "wins": 9,
+        "losses": 4,
+        "win_rate": 69.23076923076923,
+        "net_pips": 79.31,
+        "profit_factor": 3.704979536152797
+      },
+      "Monday": {
+        "trades": 4,
+        "wins": 2,
+        "losses": 2,
+        "win_rate": 50.0,
+        "net_pips": 12.68,
+        "profit_factor": 1.86493860845839
+      },
+      "Thursday": {
+        "trades": 12,
+        "wins": 8,
+        "losses": 4,
+        "win_rate": 66.66666666666666,
+        "net_pips": 76.84,
+        "profit_factor": 3.252051582649473
+      },
+      "Tuesday": {
+        "trades": 5,
+        "wins": 2,
+        "losses": 3,
+        "win_rate": 40.0,
+        "net_pips": 5.349999999999998,
+        "profit_factor": 1.2432924056389267
+      },
+      "Wednesday": {
+        "trades": 12,
+        "wins": 4,
+        "losses": 8,
+        "win_rate": 33.33333333333333,
+        "net_pips": 2.14,
+        "profit_factor": 1.0394542772861357
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [],
+    "tailored_pruning": {
+      "pruned_trades": 0,
+      "pruned_pct": 0.0,
+      "new_trades": 46,
+      "new_wr": 54.347826086956516,
+      "new_pf": 2.1424868787662796,
+      "new_net_pips": 176.31999999999994,
+      "pip_gain": 0.0
+    }
+  },
+  {
+    "name": "disc175",
+    "symbol": "EURGBP",
+    "category": "eurgbp_champions",
+    "total_trades": 50,
+    "win_rate": 48.0,
+    "profit_factor": 1.6238942657924864,
+    "net_pips": 119.9,
+    "gross_loss": 192.18,
+    "avg_win_dur_min": 402.32570277777785,
+    "avg_loss_dur_min": 667.2042121794873,
+    "direction_bias": {
+      "long_trades": 21,
+      "long_pips": 24.57,
+      "long_pf": 1.2719123505976095,
+      "short_trades": 29,
+      "short_pips": 95.33,
+      "short_pf": 1.9362600667845216
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 30,
+        "wins": 15,
+        "losses": 15,
+        "win_rate": 50.0,
+        "net_pips": 74.4,
+        "profit_factor": 1.6622162883845124
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 20,
+        "wins": 9,
+        "losses": 11,
+        "win_rate": 45.0,
+        "net_pips": 45.49999999999999,
+        "profit_factor": 1.5699611674808966
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 14,
+        "wins": 8,
+        "losses": 6,
+        "win_rate": 57.14285714285714,
+        "net_pips": 45.78,
+        "profit_factor": 2.728851963746224
+      },
+      "Monday": {
+        "trades": 4,
+        "wins": 3,
+        "losses": 1,
+        "win_rate": 75.0,
+        "net_pips": 57.68000000000001,
+        "profit_factor": 8.869031377899045
+      },
+      "Thursday": {
+        "trades": 15,
+        "wins": 7,
+        "losses": 8,
+        "win_rate": 46.666666666666664,
+        "net_pips": 34.150000000000006,
+        "profit_factor": 1.6907362459546924
+      },
+      "Tuesday": {
+        "trades": 7,
+        "wins": 2,
+        "losses": 5,
+        "win_rate": 28.57142857142857,
+        "net_pips": -26.009999999999998,
+        "profit_factor": 0.5821686746987952
+      },
+      "Wednesday": {
+        "trades": 10,
+        "wins": 4,
+        "losses": 6,
+        "win_rate": 40.0,
+        "net_pips": 8.300000000000002,
+        "profit_factor": 1.1778063410454156
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Tuesday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 7,
+      "pruned_pct": 14.000000000000002,
+      "new_trades": 43,
+      "new_wr": 51.162790697674424,
+      "new_pf": 2.122989301931809,
+      "new_net_pips": 145.91,
+      "pip_gain": 26.00999999999999
+    }
+  },
+  {
+    "name": "disc180",
+    "symbol": "EURGBP",
+    "category": "eurgbp_champions",
+    "total_trades": 74,
+    "win_rate": 51.35135135135135,
+    "profit_factor": 1.634716540035068,
+    "net_pips": 195.48,
+    "gross_loss": 307.9799999999999,
+    "avg_win_dur_min": 779.4029311403508,
+    "avg_loss_dur_min": 847.4507787037036,
+    "direction_bias": {
+      "long_trades": 37,
+      "long_pips": 168.98999999999995,
+      "long_pf": 2.3105079488173716,
+      "short_trades": 37,
+      "short_pips": 26.490000000000002,
+      "short_pf": 1.1479640283751325
+    },
+    "session_stats": {
+      "London Open (06:00-12:00)": {
+        "trades": 43,
+        "wins": 22,
+        "losses": 21,
+        "win_rate": 51.162790697674424,
+        "net_pips": 107.91000000000001,
+        "profit_factor": 1.5648850965816887
+      },
+      "London/NY Overlap (12:00-16:00)": {
+        "trades": 29,
+        "wins": 16,
+        "losses": 13,
+        "win_rate": 55.172413793103445,
+        "net_pips": 98.83000000000001,
+        "profit_factor": 1.9350931970858174
+      },
+      "NY Afternoon (16:00-21:00)": {
+        "trades": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "net_pips": -11.26,
+        "profit_factor": 0.0
+      }
+    },
+    "day_stats": {
+      "Friday": {
+        "trades": 20,
+        "wins": 14,
+        "losses": 6,
+        "win_rate": 70.0,
+        "net_pips": 93.8,
+        "profit_factor": 3.6142697881828307
+      },
+      "Monday": {
+        "trades": 11,
+        "wins": 5,
+        "losses": 6,
+        "win_rate": 45.45454545454545,
+        "net_pips": 48.370000000000005,
+        "profit_factor": 1.9078453453453452
+      },
+      "Thursday": {
+        "trades": 17,
+        "wins": 8,
+        "losses": 9,
+        "win_rate": 47.05882352941176,
+        "net_pips": 43.19,
+        "profit_factor": 1.6720087132410144
+      },
+      "Tuesday": {
+        "trades": 12,
+        "wins": 7,
+        "losses": 5,
+        "win_rate": 58.333333333333336,
+        "net_pips": 51.84,
+        "profit_factor": 2.035764235764236
+      },
+      "Wednesday": {
+        "trades": 14,
+        "wins": 4,
+        "losses": 10,
+        "win_rate": 28.57142857142857,
+        "net_pips": -41.72,
+        "profit_factor": 0.6007655502392345
+      }
+    },
+    "toxic_sessions": [],
+    "toxic_days": [
+      "Wednesday"
+    ],
+    "tailored_pruning": {
+      "pruned_trades": 14,
+      "pruned_pct": 18.91891891891892,
+      "new_trades": 60,
+      "new_wr": 56.666666666666664,
+      "new_pf": 2.1657165323373304,
+      "new_net_pips": 237.19999999999996,
+      "pip_gain": 41.71999999999997
+    }
+  }
+]

@@ -51,3 +51,8 @@ tools/scan_for_secrets.py
 !certified_production_fleet/**/*.md
 !data_splits/*.json
 
+
+data/
+*.csv
+*.parquet
+results/

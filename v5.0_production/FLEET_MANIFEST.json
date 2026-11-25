@@ -1,0 +1,669 @@
+[
+  {
+    "slot": 1,
+    "filename": "strategy_01_audcad_h4_bb_ema_mr.py",
+    "relative_path": "v5.0_production/strategy_01_audcad_h4_bb_ema_mr.py",
+    "class_name": "V5AudcadH4BbEmaMr",
+    "primary_class": "V5AudcadH4BbEmaMr",
+    "name": "strategy_01_audcad_h4_bb_ema_mr",
+    "strategy_id": "strategy_01_audcad_h4_bb_ema_mr",
+    "legacy_id": "v5_audcad_h4_bb_ema_mr",
+    "symbol": "AUDCAD",
+    "sl_pips": 48.0,
+    "tp_pips": 96.0,
+    "rr_ratio": 2.0,
+    "spread_limit": 3.5,
+    "pip_size": 0.0001,
+    "archetype": "H4_BB_MR_V6",
+    "code_sha256": "9e45855ad7d9390d68b2e0ca23baa126417c0599ee276369b533ca19c5311218",
+    "manifest_file": "results/v5_production_manifests/AUDCAD__strategy_01_audcad_h4_bb_ema_mr_run_manifest.json",
+    "holdout_manifest": "results/v5_production_manifests/AUDCAD__strategy_01_audcad_h4_bb_ema_mr_holdout_manifest.json",
+    "holdout_trades_csv": "results/v5_production_manifests/AUDCAD__strategy_01_audcad_h4_bb_ema_mr_holdout_trades.csv",
+    "discovery_trades_csv": "results/v5_production_manifests/AUDCAD__strategy_01_audcad_h4_bb_ema_mr_discovery_trades.csv",
+    "gate_checks": {
+      "gate_0_truncation_causality": {
+        "required": "0 lookahead violations (tested >= 1)",
+        "actual": "0 violations / 6 signals",
+        "pass": true
+      },
+      "gate_1_holdout_sample_size": {
+        "required": ">= 15 trades",
+        "actual": 43,
+        "pass": true
+      },
+      "gate_2_holdout_pf": {
+        "required": ">= 1.20 PF & Net Pips > 0",
+        "actual": "PF=1.97, Net=+330.4p",
+        "pass": true
+      },
+      "gate_3_outlier_resistance": {
+        "required": "Net Pips ex Top 3 > 0.0",
+        "actual": 95.6,
+        "pass": true
+      },
+      "gate_4_discovery_consistency": {
+        "required": "Discovery Net Pips > 0 and PF >= 1.15",
+        "actual": "Net Pips=+627.6, PF=1.47 (94 tr)",
+        "pass": true
+      },
+      "gate_5_anti_redundancy": {
+        "required": "Overlap < 50% and Correlation < 0.50",
+        "actual": "Max Overlap=0.0%, Max Corr=0.0",
+        "pass": true
+      }
+    },
+    "truncation_causality_audit": {
+      "tested_signals": 6,
+      "violations": 0,
+      "violation_details": [],
+      "pass": true
+    },
+    "redundancy_audit": {
+      "max_overlap": 0.0,
+      "max_correlation": 0.0,
+      "high_redundancy": [],
+      "all_comparisons": []
+    },
+    "holdout_metrics": {
+      "total_trades": 43,
+      "net_pips": 330.4,
+      "win_rate_pct": 48.8,
+      "profit_factor": 1.97,
+      "expectancy_pips": 7.68,
+      "expectancy_std_err": 4.77,
+      "expectancy_ci_95": [
+        -1.66,
+        17.03
+      ],
+      "t_statistic": 1.61,
+      "p_value": 0.1074,
+      "bonferroni_p_threshold": 0.05,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 130.0,
+      "worst_month_pips": -32.5,
+      "bootstrap_95_max_dd_pips": 208.6,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 228.9,
+        "pips_ex_top3": 95.6,
+        "pips_ex_top5": 1.7,
+        "is_outlier_dependent": false
+      }
+    },
+    "discovery_metrics": {
+      "total_trades": 94,
+      "net_pips": 627.6,
+      "win_rate_pct": 55.3,
+      "profit_factor": 1.47,
+      "expectancy_pips": 6.68,
+      "expectancy_std_err": 4.28,
+      "expectancy_ci_95": [
+        -1.71,
+        15.06
+      ],
+      "t_statistic": 1.56,
+      "p_value": 0.1188,
+      "bonferroni_p_threshold": 0.05,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 292.5,
+      "worst_month_pips": -116.7,
+      "bootstrap_95_max_dd_pips": 474.5,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 520.1,
+        "pips_ex_top3": 331.5,
+        "pips_ex_top5": 180.6,
+        "is_outlier_dependent": false
+      }
+    },
+    "stress_battery": {
+      "survived_all_stress_profiles": true,
+      "profiles": {
+        "BASELINE": {
+          "description": "Standard Live ECN Profile ($4.00/lot + 0.20p slippage + floating spread)",
+          "trades": 43,
+          "net_pips": 330.4,
+          "profit_factor": 1.97,
+          "survived": true
+        },
+        "SPREAD_INFLATION_50": {
+          "description": "Spread Inflation Stress (+50% wider broker spread)",
+          "trades": 43,
+          "net_pips": 167.5,
+          "profit_factor": 1.37,
+          "survived": true
+        },
+        "HEAVY_SLIPPAGE_050": {
+          "description": "Adverse Slippage Stress (0.50 pips entry slippage)",
+          "trades": 43,
+          "net_pips": 318.6,
+          "profit_factor": 1.92,
+          "survived": true
+        },
+        "HIGH_COMMISSION_6USD": {
+          "description": "Turnover Fee Stress ($6.00/lot round-turn commission)",
+          "trades": 43,
+          "net_pips": 318.4,
+          "profit_factor": 1.91,
+          "survived": true
+        },
+        "SEVERE_COMPOSITE": {
+          "description": "Worst-Case Composite Stress (Spread +50% AND 0.50p slippage AND $6/lot comm)",
+          "trades": 43,
+          "net_pips": 143.4,
+          "profit_factor": 1.31,
+          "survived": true
+        }
+      }
+    },
+    "stress_tier": "STRESS_5OF5"
+  },
+  {
+    "slot": 2,
+    "filename": "strategy_02_eurusd_daily_pivot_ny.py",
+    "relative_path": "v5.0_production/strategy_02_eurusd_daily_pivot_ny.py",
+    "class_name": "EURUSDDailyPivotNYV5",
+    "primary_class": "EURUSDDailyPivotNYV5",
+    "name": "strategy_02_eurusd_daily_pivot_ny",
+    "strategy_id": "strategy_02_eurusd_daily_pivot_ny",
+    "legacy_id": "v5_eurusd_daily_pivot_ny",
+    "symbol": "EURUSD",
+    "sl_pips": 14.0,
+    "tp_pips": 28.0,
+    "rr_ratio": 2.0,
+    "spread_limit": 0.7,
+    "pip_size": 0.0001,
+    "archetype": "DAILY_PIVOT_PB",
+    "code_sha256": "2431c6759ef81dcf61fa712f902bf0522d03cb24b8d0a4d1f25132432feef21a",
+    "manifest_file": "results/v5_production_manifests/EURUSD__strategy_02_eurusd_daily_pivot_ny_run_manifest.json",
+    "holdout_manifest": "results/v5_production_manifests/EURUSD__strategy_02_eurusd_daily_pivot_ny_holdout_manifest.json",
+    "holdout_trades_csv": "results/v5_production_manifests/EURUSD__strategy_02_eurusd_daily_pivot_ny_holdout_trades.csv",
+    "discovery_trades_csv": "results/v5_production_manifests/EURUSD__strategy_02_eurusd_daily_pivot_ny_discovery_trades.csv",
+    "gate_checks": {
+      "gate_0_truncation_causality": {
+        "required": "0 lookahead violations (tested >= 1)",
+        "actual": "0 violations / 6 signals",
+        "pass": true
+      },
+      "gate_1_holdout_sample_size": {
+        "required": ">= 15 trades",
+        "actual": 42,
+        "pass": true
+      },
+      "gate_2_holdout_pf": {
+        "required": ">= 1.20 PF & Net Pips > 0",
+        "actual": "PF=2.06, Net=+292.1p",
+        "pass": true
+      },
+      "gate_3_outlier_resistance": {
+        "required": "Net Pips ex Top 3 > 0.0",
+        "actual": 208.2,
+        "pass": true
+      },
+      "gate_4_discovery_consistency": {
+        "required": "Discovery Net Pips > 0 and PF >= 1.15",
+        "actual": "Net Pips=+153.6, PF=1.20 (89 tr)",
+        "pass": true
+      },
+      "gate_5_anti_redundancy": {
+        "required": "Overlap < 50% and Correlation < 0.50",
+        "actual": "Max Overlap=0.0%, Max Corr=0.0",
+        "pass": true
+      }
+    },
+    "truncation_causality_audit": {
+      "tested_signals": 6,
+      "violations": 0,
+      "violation_details": [],
+      "pass": true
+    },
+    "redundancy_audit": {
+      "max_overlap": 0.0,
+      "max_correlation": 0.0,
+      "high_redundancy": [],
+      "all_comparisons": [
+        {
+          "model": "AUDCAD__strategy_01_audcad_h4_bb_ema_mr",
+          "symbol": "AUDCAD",
+          "overlap_pct": 0.0,
+          "correlation": -0.019
+        }
+      ]
+    },
+    "holdout_metrics": {
+      "total_trades": 42,
+      "net_pips": 292.1,
+      "win_rate_pct": 54.8,
+      "profit_factor": 2.06,
+      "expectancy_pips": 6.95,
+      "expectancy_std_err": 3.14,
+      "expectancy_ci_95": [
+        0.8,
+        13.11
+      ],
+      "t_statistic": 2.22,
+      "p_value": 0.0264,
+      "bonferroni_p_threshold": 0.05,
+      "is_statistically_significant": true,
+      "max_drawdown_pips": 44.8,
+      "worst_month_pips": -28.9,
+      "bootstrap_95_max_dd_pips": 118.3,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 263.9,
+        "pips_ex_top3": 208.2,
+        "pips_ex_top5": 152.6,
+        "is_outlier_dependent": false
+      }
+    },
+    "discovery_metrics": {
+      "total_trades": 89,
+      "net_pips": 153.6,
+      "win_rate_pct": 40.4,
+      "profit_factor": 1.2,
+      "expectancy_pips": 1.73,
+      "expectancy_std_err": 2.12,
+      "expectancy_ci_95": [
+        -2.43,
+        5.88
+      ],
+      "t_statistic": 0.81,
+      "p_value": 0.4179,
+      "bonferroni_p_threshold": 0.05,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 135.0,
+      "worst_month_pips": -57.7,
+      "bootstrap_95_max_dd_pips": 291.6,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 125.1,
+        "pips_ex_top3": 69.3,
+        "pips_ex_top5": 13.7,
+        "is_outlier_dependent": false
+      }
+    },
+    "stress_battery": {
+      "survived_all_stress_profiles": true,
+      "profiles": {
+        "BASELINE": {
+          "description": "Standard Live ECN Profile ($4.00/lot + 0.20p slippage + floating spread)",
+          "trades": 42,
+          "net_pips": 292.1,
+          "profit_factor": 2.06,
+          "survived": true
+        },
+        "SPREAD_INFLATION_50": {
+          "description": "Spread Inflation Stress (+50% wider broker spread)",
+          "trades": 42,
+          "net_pips": 284.6,
+          "profit_factor": 2.02,
+          "survived": true
+        },
+        "HEAVY_SLIPPAGE_050": {
+          "description": "Adverse Slippage Stress (0.50 pips entry slippage)",
+          "trades": 42,
+          "net_pips": 291.3,
+          "profit_factor": 2.06,
+          "survived": true
+        },
+        "HIGH_COMMISSION_6USD": {
+          "description": "Turnover Fee Stress ($6.00/lot round-turn commission)",
+          "trades": 42,
+          "net_pips": 283.7,
+          "profit_factor": 2.02,
+          "survived": true
+        },
+        "SEVERE_COMPOSITE": {
+          "description": "Worst-Case Composite Stress (Spread +50% AND 0.50p slippage AND $6/lot comm)",
+          "trades": 42,
+          "net_pips": 275.4,
+          "profit_factor": 1.97,
+          "survived": true
+        }
+      }
+    },
+    "stress_tier": "STRESS_5OF5"
+  },
+  {
+    "slot": 3,
+    "filename": "strategy_03_gbpjpy_h4_sqz_brk.py",
+    "relative_path": "v5.0_production/strategy_03_gbpjpy_h4_sqz_brk.py",
+    "class_name": "V5GbpjpyH4SqzBrk",
+    "primary_class": "V5GbpjpyH4SqzBrk",
+    "name": "strategy_03_gbpjpy_h4_sqz_brk",
+    "strategy_id": "strategy_03_gbpjpy_h4_sqz_brk",
+    "legacy_id": "v5_gbpjpy_h4_sqz_brk",
+    "symbol": "GBPJPY",
+    "sl_pips": 40.0,
+    "tp_pips": 60.0,
+    "rr_ratio": 1.5,
+    "spread_limit": 4.0,
+    "pip_size": 0.01,
+    "archetype": "H4_COMP_SQZ_V5",
+    "code_sha256": "7cdc041365c1fbf1416fa95813596adfbcb24b4139bacd2e1c97965d83a6cbe4",
+    "manifest_file": "results/v5_production_manifests/GBPJPY__strategy_03_gbpjpy_h4_sqz_brk_run_manifest.json",
+    "holdout_manifest": "results/v5_production_manifests/GBPJPY__strategy_03_gbpjpy_h4_sqz_brk_holdout_manifest.json",
+    "holdout_trades_csv": "results/v5_production_manifests/GBPJPY__strategy_03_gbpjpy_h4_sqz_brk_holdout_trades.csv",
+    "discovery_trades_csv": "results/v5_production_manifests/GBPJPY__strategy_03_gbpjpy_h4_sqz_brk_discovery_trades.csv",
+    "gate_checks": {
+      "gate_0_truncation_causality": {
+        "required": "0 lookahead violations (tested >= 1)",
+        "actual": "0 violations / 6 signals",
+        "pass": true
+      },
+      "gate_1_holdout_sample_size": {
+        "required": ">= 15 trades",
+        "actual": 40,
+        "pass": true
+      },
+      "gate_2_holdout_pf": {
+        "required": ">= 1.20 PF & Net Pips > 0",
+        "actual": "PF=1.4, Net=+326.3p",
+        "pass": true
+      },
+      "gate_3_outlier_resistance": {
+        "required": "Net Pips ex Top 3 > 0.0",
+        "actual": 146.8,
+        "pass": true
+      },
+      "gate_4_discovery_consistency": {
+        "required": "Discovery Net Pips > 0 and PF >= 1.15",
+        "actual": "Net Pips=+658.4, PF=1.38 (88 tr)",
+        "pass": true
+      },
+      "gate_5_anti_redundancy": {
+        "required": "Overlap < 50% and Correlation < 0.50",
+        "actual": "Max Overlap=0.0%, Max Corr=0.054",
+        "pass": true
+      }
+    },
+    "truncation_causality_audit": {
+      "tested_signals": 6,
+      "violations": 0,
+      "violation_details": [],
+      "pass": true
+    },
+    "redundancy_audit": {
+      "max_overlap": 0.0,
+      "max_correlation": 0.054,
+      "high_redundancy": [],
+      "all_comparisons": [
+        {
+          "model": "AUDCAD__strategy_01_audcad_h4_bb_ema_mr",
+          "symbol": "AUDCAD",
+          "overlap_pct": 0.0,
+          "correlation": 0.054
+        },
+        {
+          "model": "EURUSD__strategy_02_eurusd_daily_pivot_ny",
+          "symbol": "EURUSD",
+          "overlap_pct": 0.0,
+          "correlation": -0.097
+        }
+      ]
+    },
+    "holdout_metrics": {
+      "total_trades": 40,
+      "net_pips": 326.3,
+      "win_rate_pct": 50.0,
+      "profit_factor": 1.4,
+      "expectancy_pips": 8.16,
+      "expectancy_std_err": 7.98,
+      "expectancy_ci_95": [
+        -7.48,
+        23.79
+      ],
+      "t_statistic": 1.02,
+      "p_value": 0.3077,
+      "bonferroni_p_threshold": 0.05,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 280.2,
+      "worst_month_pips": -131.1,
+      "bootstrap_95_max_dd_pips": 424.8,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 266.3,
+        "pips_ex_top3": 146.8,
+        "pips_ex_top5": 27.3,
+        "is_outlier_dependent": false
+      }
+    },
+    "discovery_metrics": {
+      "total_trades": 88,
+      "net_pips": 658.4,
+      "win_rate_pct": 51.1,
+      "profit_factor": 1.38,
+      "expectancy_pips": 7.48,
+      "expectancy_std_err": 5.15,
+      "expectancy_ci_95": [
+        -2.62,
+        17.59
+      ],
+      "t_statistic": 1.45,
+      "p_value": 0.1471,
+      "bonferroni_p_threshold": 0.05,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 508.2,
+      "worst_month_pips": -122.6,
+      "bootstrap_95_max_dd_pips": 594.7,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 596.2,
+        "pips_ex_top3": 475.3,
+        "pips_ex_top5": 355.3,
+        "is_outlier_dependent": false
+      }
+    },
+    "stress_battery": {
+      "survived_all_stress_profiles": false,
+      "profiles": {
+        "BASELINE": {
+          "description": "Standard Live ECN Profile ($4.00/lot + 0.20p slippage + floating spread)",
+          "trades": 40,
+          "net_pips": 326.3,
+          "profit_factor": 1.4,
+          "survived": true
+        },
+        "SPREAD_INFLATION_50": {
+          "description": "Spread Inflation Stress (+50% wider broker spread)",
+          "trades": 40,
+          "net_pips": -24.2,
+          "profit_factor": 0.98,
+          "survived": false
+        },
+        "HEAVY_SLIPPAGE_050": {
+          "description": "Adverse Slippage Stress (0.50 pips entry slippage)",
+          "trades": 40,
+          "net_pips": 322.1,
+          "profit_factor": 1.39,
+          "survived": true
+        },
+        "HIGH_COMMISSION_6USD": {
+          "description": "Turnover Fee Stress ($6.00/lot round-turn commission)",
+          "trades": 40,
+          "net_pips": 313.5,
+          "profit_factor": 1.38,
+          "survived": true
+        },
+        "SEVERE_COMPOSITE": {
+          "description": "Worst-Case Composite Stress (Spread +50% AND 0.50p slippage AND $6/lot comm)",
+          "trades": 40,
+          "net_pips": -40.7,
+          "profit_factor": 0.96,
+          "survived": false
+        }
+      }
+    },
+    "stress_tier": "BASELINE_ONLY_FROM_V50"
+  },
+  {
+    "slot": 4,
+    "filename": "strategy_04_usdcad_pdhl_sweep_ldn.py",
+    "relative_path": "v5.0_production/strategy_04_usdcad_pdhl_sweep_ldn.py",
+    "class_name": "USDCADPDHLSweepLdnV5",
+    "primary_class": "USDCADPDHLSweepLdnV5",
+    "name": "strategy_04_usdcad_pdhl_sweep_ldn",
+    "strategy_id": "strategy_04_usdcad_pdhl_sweep_ldn",
+    "legacy_id": "v5_usdcad_pdhl_sweep_ldn",
+    "symbol": "USDCAD",
+    "sl_pips": 16.0,
+    "tp_pips": 32.0,
+    "rr_ratio": 2.0,
+    "spread_limit": 1.8,
+    "pip_size": 0.0001,
+    "archetype": "PDHL_SWEEP",
+    "code_sha256": "9511eb317cd91cbaf49da92bca15068700d9a8af79388173fc7ab2afdb4e4b60",
+    "manifest_file": "results/v5_production_manifests/USDCAD__strategy_04_usdcad_pdhl_sweep_ldn_run_manifest.json",
+    "holdout_manifest": "results/v5_production_manifests/USDCAD__strategy_04_usdcad_pdhl_sweep_ldn_holdout_manifest.json",
+    "holdout_trades_csv": "results/v5_production_manifests/USDCAD__strategy_04_usdcad_pdhl_sweep_ldn_holdout_trades.csv",
+    "discovery_trades_csv": "results/v5_production_manifests/USDCAD__strategy_04_usdcad_pdhl_sweep_ldn_discovery_trades.csv",
+    "gate_checks": {
+      "gate_0_truncation_causality": {
+        "required": "0 lookahead violations (tested >= 1)",
+        "actual": "0 violations / 6 signals",
+        "pass": true
+      },
+      "gate_1_holdout_sample_size": {
+        "required": ">= 15 trades",
+        "actual": 26,
+        "pass": true
+      },
+      "gate_2_holdout_pf": {
+        "required": ">= 1.20 PF & Net Pips > 0",
+        "actual": "PF=1.84, Net=+187.3p",
+        "pass": true
+      },
+      "gate_3_outlier_resistance": {
+        "required": "Net Pips ex Top 3 > 0.0",
+        "actual": 92.2,
+        "pass": true
+      },
+      "gate_4_discovery_consistency": {
+        "required": "Discovery Net Pips > 0 and PF >= 1.15",
+        "actual": "Net Pips=+335.2, PF=1.36 (95 tr)",
+        "pass": true
+      },
+      "gate_5_anti_redundancy": {
+        "required": "Overlap < 50% and Correlation < 0.50",
+        "actual": "Max Overlap=0.0%, Max Corr=0.0",
+        "pass": true
+      }
+    },
+    "truncation_causality_audit": {
+      "tested_signals": 6,
+      "violations": 0,
+      "violation_details": [],
+      "pass": true
+    },
+    "redundancy_audit": {
+      "max_overlap": 0.0,
+      "max_correlation": 0.0,
+      "high_redundancy": [],
+      "all_comparisons": [
+        {
+          "model": "AUDCAD__strategy_01_audcad_h4_bb_ema_mr",
+          "symbol": "AUDCAD",
+          "overlap_pct": 0.0,
+          "correlation": -0.021
+        },
+        {
+          "model": "EURUSD__strategy_02_eurusd_daily_pivot_ny",
+          "symbol": "EURUSD",
+          "overlap_pct": 0.0,
+          "correlation": -0.158
+        },
+        {
+          "model": "GBPJPY__strategy_03_gbpjpy_h4_sqz_brk",
+          "symbol": "GBPJPY",
+          "overlap_pct": 0.0,
+          "correlation": -0.002
+        }
+      ]
+    },
+    "holdout_metrics": {
+      "total_trades": 26,
+      "net_pips": 187.3,
+      "win_rate_pct": 50.0,
+      "profit_factor": 1.84,
+      "expectancy_pips": 7.21,
+      "expectancy_std_err": 4.87,
+      "expectancy_ci_95": [
+        -2.34,
+        16.75
+      ],
+      "t_statistic": 1.48,
+      "p_value": 0.1389,
+      "bonferroni_p_threshold": 0.05,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 56.0,
+      "worst_month_pips": -39.1,
+      "bootstrap_95_max_dd_pips": 139.7,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 155.6,
+        "pips_ex_top3": 92.2,
+        "pips_ex_top5": 29.0,
+        "is_outlier_dependent": false
+      }
+    },
+    "discovery_metrics": {
+      "total_trades": 95,
+      "net_pips": 335.2,
+      "win_rate_pct": 42.1,
+      "profit_factor": 1.36,
+      "expectancy_pips": 3.53,
+      "expectancy_std_err": 2.53,
+      "expectancy_ci_95": [
+        -1.42,
+        8.48
+      ],
+      "t_statistic": 1.4,
+      "p_value": 0.1615,
+      "bonferroni_p_threshold": 0.05,
+      "is_statistically_significant": false,
+      "max_drawdown_pips": 177.9,
+      "worst_month_pips": -87.0,
+      "bootstrap_95_max_dd_pips": 301.2,
+      "outlier_sensitivity": {
+        "pips_ex_top1": 297.7,
+        "pips_ex_top3": 229.9,
+        "pips_ex_top5": 165.6,
+        "is_outlier_dependent": false
+      }
+    },
+    "stress_battery": {
+      "survived_all_stress_profiles": true,
+      "profiles": {
+        "BASELINE": {
+          "description": "Standard Live ECN Profile ($4.00/lot + 0.20p slippage + floating spread)",
+          "trades": 26,
+          "net_pips": 187.3,
+          "profit_factor": 1.84,
+          "survived": true
+        },
+        "SPREAD_INFLATION_50": {
+          "description": "Spread Inflation Stress (+50% wider broker spread)",
+          "trades": 26,
+          "net_pips": 185.3,
+          "profit_factor": 1.82,
+          "survived": true
+        },
+        "HEAVY_SLIPPAGE_050": {
+          "description": "Adverse Slippage Stress (0.50 pips entry slippage)",
+          "trades": 26,
+          "net_pips": 187.4,
+          "profit_factor": 1.84,
+          "survived": true
+        },
+        "HIGH_COMMISSION_6USD": {
+          "description": "Turnover Fee Stress ($6.00/lot round-turn commission)",
+          "trades": 26,
+          "net_pips": 180.1,
+          "profit_factor": 1.8,
+          "survived": true
+        },
+        "SEVERE_COMPOSITE": {
+          "description": "Worst-Case Composite Stress (Spread +50% AND 0.50p slippage AND $6/lot comm)",
+          "trades": 26,
+          "net_pips": 130.2,
+          "profit_factor": 1.53,
+          "survived": true
+        }
+      }
+    },
+    "stress_tier": "STRESS_5OF5"
+  }
+]

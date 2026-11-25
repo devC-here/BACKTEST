@@ -258,6 +258,8 @@ def verify_candidate_strategy(
     fleet_models: Optional[List[Dict[str, Any]]] = None,
     output_dir: Path = MANIFEST_DIR,
     fleet_manifest_path: Path = FLEET_MANIFEST,
+    require_stress_5of5: bool = False,
+    fast_fail_holdout: bool = False,
 ) -> Dict[str, Any]:
     """Runs full independent verification including Gate 0 Truncation Causality."""
     output_dir = Path(output_dir)
@@ -293,21 +295,12 @@ def verify_candidate_strategy(
     holdout_df.attrs["strategy_id"] = strategy_id
     holdout_df.attrs["strategy_key"] = f"{sym}__{strategy_id}"
 
-    # 2. Run Discovery (Weeks 1..210)
-    print("\n--- Running Discovery Partition (Weeks 1..210) ---")
-    disc_manifest = certify_strategy(strategy_file=strategy_path, symbol=sym, mode="discovery", run_stress=False, output_dir=output_dir)
-    disc_stats = disc_manifest["statistical_metrics"]
-
+    # 2. Evaluate Holdout-side stats, Anti-Redundancy, and Stress before Discovery
     h_trades = holdout_stats["total_trades"]
     h_pf = holdout_stats["profit_factor"]
     h_net_pips = holdout_stats["net_pips"]
     h_pips_ex3 = holdout_stats["outlier_sensitivity"]["pips_ex_top3"]
 
-    d_trades = disc_stats["total_trades"]
-    d_pf = disc_stats["profit_factor"]
-    d_net_pips = disc_stats["net_pips"]
-
-    # 3. Anti-Redundancy against active certified fleet
     models_to_check = (
         fleet_models
         if fleet_models is not None
@@ -315,7 +308,17 @@ def verify_candidate_strategy(
     )
     redundancy = compute_redundancy_against_fleet(holdout_df, sym, models_to_check)
 
-    gate_checks = {
+    stress_battery = holdout_manifest.get("custom_metadata", {}).get("stress_battery", {})
+    profiles = stress_battery.get("profiles", {}) if isinstance(stress_battery, dict) else {}
+    total_profiles = len(profiles)
+    survived_profiles = sum(1 for p in profiles.values() if isinstance(p, dict) and p.get("survived"))
+    stress_5of5_ok = bool(
+        isinstance(stress_battery, dict)
+        and stress_battery.get("survived_all_stress_profiles", False)
+        and total_profiles >= 5
+    )
+
+    pre_disc_checks = {
         "gate_0_truncation_causality": {
             "required": "0 lookahead violations (tested >= 1)",
             "actual": f"{causality['violations']} violations / {causality['tested_signals']} signals",
@@ -336,17 +339,53 @@ def verify_candidate_strategy(
             "actual": round(h_pips_ex3, 1),
             "pass": bool(h_pips_ex3 > 0.0),
         },
-        "gate_4_discovery_consistency": {
-            "required": "Discovery Net Pips > 0 and PF >= 1.15",
-            "actual": f"Net Pips={d_net_pips:+.1f}, PF={d_pf:.2f} ({d_trades} tr)",
-            "pass": bool(d_net_pips > 0.0 and d_pf >= 1.15),
-        },
         "gate_5_anti_redundancy": {
             "required": "Overlap < 50% and Correlation < 0.50",
             "actual": f"Max Overlap={redundancy['max_overlap']}%, Max Corr={redundancy['max_correlation']}",
             "pass": bool(redundancy["max_overlap"] < 50.0 and redundancy["max_correlation"] < 0.50),
         },
     }
+    if require_stress_5of5:
+        pre_disc_checks["gate_6_broker_stress_5of5"] = {
+            "required": "5/5 Broker Stress Profiles Survived",
+            "actual": f"{survived_profiles}/{total_profiles} profiles survived",
+            "pass": stress_5of5_ok,
+        }
+
+    pre_disc_passed = all(g["pass"] for g in pre_disc_checks.values())
+
+    # 3. Run Discovery (Weeks 1..210) unless fast-fail triggered
+    if fast_fail_holdout and not pre_disc_passed:
+        print("\n--- Fast-Fail Holdout: Skipping Discovery Partition (Weeks 1..210) ---")
+        disc_stats = {"total_trades": 0, "profit_factor": 0.0, "net_pips": 0.0, "skipped": True}
+        gate_4_entry = {
+            "required": "Discovery Net Pips > 0 and PF >= 1.15",
+            "actual": "SKIPPED (fast-fail on Holdout/Stress/Causality/Redundancy)",
+            "pass": False,
+        }
+    else:
+        print("\n--- Running Discovery Partition (Weeks 1..210) ---")
+        disc_manifest = certify_strategy(strategy_file=strategy_path, symbol=sym, mode="discovery", run_stress=False, output_dir=output_dir)
+        disc_stats = disc_manifest["statistical_metrics"]
+        d_trades = disc_stats["total_trades"]
+        d_pf = disc_stats["profit_factor"]
+        d_net_pips = disc_stats["net_pips"]
+        gate_4_entry = {
+            "required": "Discovery Net Pips > 0 and PF >= 1.15",
+            "actual": f"Net Pips={d_net_pips:+.1f}, PF={d_pf:.2f} ({d_trades} tr)",
+            "pass": bool(d_net_pips > 0.0 and d_pf >= 1.15),
+        }
+
+    gate_checks = {
+        "gate_0_truncation_causality": pre_disc_checks["gate_0_truncation_causality"],
+        "gate_1_holdout_sample_size": pre_disc_checks["gate_1_holdout_sample_size"],
+        "gate_2_holdout_pf": pre_disc_checks["gate_2_holdout_pf"],
+        "gate_3_outlier_resistance": pre_disc_checks["gate_3_outlier_resistance"],
+        "gate_4_discovery_consistency": gate_4_entry,
+        "gate_5_anti_redundancy": pre_disc_checks["gate_5_anti_redundancy"],
+    }
+    if require_stress_5of5:
+        gate_checks["gate_6_broker_stress_5of5"] = pre_disc_checks["gate_6_broker_stress_5of5"]
 
     all_passed = all(g["pass"] for g in gate_checks.values())
     defect_reasons = []
@@ -366,6 +405,7 @@ def verify_candidate_strategy(
         "holdout_stats": holdout_stats,
         "discovery_stats": disc_stats,
         "holdout_manifest": holdout_manifest,
+        "stress_battery": stress_battery,
         "code_sha256": compute_file_hash(strategy_path),
     }
 
@@ -390,6 +430,8 @@ if __name__ == "__main__":
     parser.add_argument("--symbol", type=str, default=None, help="Symbol ticker")
     parser.add_argument("--fleet-manifest", type=str, default=str(FLEET_MANIFEST), help="Path to fleet manifest JSON")
     parser.add_argument("--output-dir", type=str, default=str(MANIFEST_DIR), help="Directory for output manifests and trade CSVs")
+    parser.add_argument("--require-stress-5of5", action="store_true", help="Enforce Gate 6: 5/5 Broker Stress Battery survival")
+    parser.add_argument("--fast-fail-holdout", action="store_true", help="Skip 210-week Discovery if Holdout/Stress/Causality/Redundancy fail")
     args = parser.parse_args()
 
     res = verify_candidate_strategy(
@@ -397,6 +439,8 @@ if __name__ == "__main__":
         symbol=args.symbol,
         output_dir=Path(args.output_dir),
         fleet_manifest_path=Path(args.fleet_manifest),
+        require_stress_5of5=bool(args.require_stress_5of5),
+        fast_fail_holdout=bool(args.fast_fail_holdout),
     )
     if not res["certified"]:
         sys.exit(1)
